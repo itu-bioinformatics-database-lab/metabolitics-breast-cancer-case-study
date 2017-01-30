@@ -6,7 +6,7 @@ class TreeSubsystemFBA(BaseSubsystemFBA):
     '''Extending tree subsystem fba analysis implementation'''
 
     def __init__(self, model: cb.Model):
-        super().__init__(self, model)
+        super().__init__(model)
         self.model = {}
 
     def def analyze(self, measured_metabolites):

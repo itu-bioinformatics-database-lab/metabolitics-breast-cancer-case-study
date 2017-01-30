@@ -8,7 +8,7 @@ from models import *
 class FGSubsystemFBA(BaseSubsystemFBA):
 
     def __init__(self, model: cb.Model):
-        super().__init__(self, model)
+        super().__init__(model)
         self.model = {}
 
     def _initial_activation_heuristic(self, measured_metabolites):
