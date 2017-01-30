@@ -27,3 +27,6 @@ class TestDataReader(unittest.TestCase):
 
     def test_solution_reader(self):
         self.assertNotEqual(len(self.service.read_solutions()), 0)
+
+    def test_read_subsystem_categories(self):
+        self.assertNotEqual(len(self.service.read_subsystem_categories()), 0)

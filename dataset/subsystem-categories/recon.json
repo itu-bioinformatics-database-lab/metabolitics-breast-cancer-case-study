@@ -1,0 +1,125 @@
+{
+    "fixed-subsystems": [
+        "",
+        "Miscellaneous",
+        "Exchange/demand reaction",
+        "Transport, endoplasmic reticular",
+        "Transport, extracellular",
+        "Transport, golgi apparatus",
+        "Transport, lysosomal",
+        "Transport, mitochondrial",
+        "Transport, nuclear",
+        "Transport, peroxisomal"
+    ],
+    "carbohydrate-metabolism": [
+        "Glycolysis/gluconeogenesis",
+        "Citric acid cycle",
+        "Pentose phosphate pathway",
+        "Fructose and mannose metabolism",
+        "Galactose metabolism",
+        "Starch and sucrose metabolism",
+        "Pyruvate metabolism",
+        "Glyoxylate and dicarboxylate metabolism",
+        "Propanoate metabolism",
+        "Butanoate metabolism",
+        "C5-branched dibasic acid metabolism",
+        "Inositol phosphate metabolism",
+        "Aminosugar metabolism",
+        "Nucleotide sugar metabolism"
+    ],
+    "energy-metabolism": [
+        "Oxidative phosphorylation"
+    ],
+    "lipid-metabolism": [
+        "Fatty acid synthesis",
+        "Fatty acid oxidation",
+        "Steroid metabolism",
+        "Bile acid synthesis",
+        "Glycerophospholipid metabolism",
+        "Sphingolipid metabolism",
+        "Arachidonic acid metabolism",
+        "Linoleate metabolism",
+        "Androgen and estrogen synthesis and metabolism",
+        "Cholesterol metabolism",
+        "Dietary fiber binding",
+        "Eicosanoid metabolism",
+        "Phosphatidylinositol phosphate metabolism",
+        "Squalene and cholesterol synthesis",
+        "Triacylglycerol synthesis"
+    ],
+    "nucleotide-metabolism": [
+        "Purine catabolism",
+        "Purine synthesis",
+        "Pyrimidine catabolism",
+        "Pyrimidine synthesis",
+        "Nucleotide interconversion",
+        "Nucleotide salvage pathway"
+    ],
+    "amino-acid-metabolism": [
+        "Alanine and aspartate metabolism",
+        "Glutamate metabolism",
+        "Glycine, serine, alanine and threonine metabolism",
+        "Cysteine Metabolism",
+        "Methionine and cysteine metabolism",
+        "Valine, leucine, and isoleucine metabolism",
+        "Lysine metabolism",
+        "Arginine and Proline Metabolism",
+        "Histidine metabolism",
+        "Tyrosine metabolism",
+        "Phenylalanine metabolism",
+        "Tryptophan metabolism",
+        "beta-Alanine metabolism",
+        "Taurine and hypotaurine metabolism",
+        "D-alanine metabolism",
+        "Glutathione metabolism",
+        "R group synthesis",
+        "Urea cycle"
+    ],
+    "glycan-biosynthesis-and-metabolism": [
+        "N-glycan degradation",
+        "N-glycan synthesis",
+        "O-glycan synthesis",
+        "Blood group synthesis",
+        "Chondroitin sulfate degradation",
+        "Chondroitin synthesis",
+        "Glycosphingolipid metabolism",
+        "Heparan sulfate degradation",
+        "Hyaluronan metabolism",
+        "Keratan sulfate degradation",
+        "Keratan sulfate synthesis"
+    ],
+    "metabolism-of-cofactors-and-vitamins": [
+        "Thiamine metabolism",
+        "Vitamin A metabolism",
+        "Vitamin B12 metabolism",
+        "Vitamin B2 metabolism",
+        "Vitamin B6 metabolism",
+        "Vitamin C metabolism",
+        "Vitamin D metabolism",
+        "Vitamin E metabolism",
+        "Biotin metabolism",
+        "Folate metabolism",
+        "Ubiquinone synthesis",
+        "CoA catabolism",
+        "CoA synthesis",
+        "Lipoate metabolism",
+        "NAD metabolism",
+        "Tetrahydrobiopterin metabolism"
+    ],
+    "biosynthesis-of-other-secondary-metabolites": [
+        "Alkaloid synthesis",
+        "Heme degradation",
+        "Heme synthesis",
+        "Stilbene, coumarine and lignin synthesis"
+    ],
+    "xenobiotics-biodegradation-and-metabolism": [
+        "Xenobiotics metabolism",
+        "Cytochrome metabolism"
+    ],
+    "metabolism-of-terpenoids-and-polyketides": [
+        "Limonene and pinene degradation"
+    ],
+    "metabolism-of-other-amino-acids": [
+        "Selenoamino acid metabolism"
+    ]
+}

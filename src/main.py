@@ -1,11 +1,18 @@
 import click
 import cobra as cb
 import scripts
+from services import DataReader
+from api import app
 
 
 @click.group()
 def cli():
     pass
+
+
+@cli.command()
+def run_api():
+    app.run(debug=True)
 
 
 @cli.command()
@@ -36,6 +43,15 @@ def metabolite_by_connected_subsystems():
 def run_fg_subsystem_fba():
     scripts.run_fg_subsystem_fba()
 
+
+@cli.command()
+def subsystem_statistics():
+    categories = DataReader().read_subsystem_categories()
+    total = 0
+    for k, v in categories.items():
+        print(k, len(v))
+        total += len(v)
+    print('total:', total)
 
 if __name__ == '__main__':
     cli()
