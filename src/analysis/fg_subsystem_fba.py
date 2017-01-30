@@ -1,8 +1,15 @@
+import logging
 from copy import deepcopy
 from itertools import combinations
 
+import cobra as cb
+
 from .base_subsystem_fba import BaseSubsystemFBA
 from models import *
+
+fgs_logger = logging.getLogger('fg_subsystem_fba')
+fgs_logger.setLevel(logging.INFO)
+fgs_logger.addHandler(logging.FileHandler('../logs/fg_subsystem_fba.log'))
 
 
 class FGSubsystemFBA(BaseSubsystemFBA):
@@ -30,6 +37,8 @@ class FGSubsystemFBA(BaseSubsystemFBA):
         act_subs = self._initial_activation_heuristic(measured_metabolites)
         unknown_subsystems = self._model.subsystems().difference(act_subs)
 
+        counter = 0
+
         for i in range(1, len(unknown_subsystems)):
             for com in combinations(unknown_subsystems, i):
                 new_analysis = deepcopy(self)
@@ -40,6 +49,12 @@ class FGSubsystemFBA(BaseSubsystemFBA):
 
                 if new_analysis.solve().status == 'optimal':
                     yield act_subs.union(com)
+
+                if counter % 1 == 0:
+                    msg = '%d of %d calculated' % (
+                        counter, 2**len(unknown_subsystems))
+                    fgs_logger.info(msg)
+                counter += 1
 
     def analyze_and_save_to_file(self, measured_metabolites, filename):
         with open('../outputs/%s' % filename, 'w') as f:

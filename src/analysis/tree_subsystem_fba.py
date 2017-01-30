@@ -1,3 +1,5 @@
+import cobra as cb
+
 from .base_subsystem_fba import BaseSubsystemFBA
 from models import *
 
@@ -9,6 +11,6 @@ class TreeSubsystemFBA(BaseSubsystemFBA):
         super().__init__(model)
         self.model = {}
 
-    def def analyze(self, measured_metabolites):
+    def analyze(self, measured_metabolites):
         '''Implement extanding tree in there'''
         pass
