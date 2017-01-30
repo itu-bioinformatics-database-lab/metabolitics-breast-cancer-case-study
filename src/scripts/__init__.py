@@ -1,1 +1,2 @@
 from .optimal_currency_threshold import optimal_currency_threshold
+from .cobra_lp_example_with_set_of_constrain import cobra_lp_example_with_set_of_constrain

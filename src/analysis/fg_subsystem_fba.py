@@ -8,7 +8,7 @@ from models import *
 class FGSubsystemFBA(BaseSubsystemFBA):
 
     def __init__(self, model: cb.Model):
-        BaseSubsystemFBA.__init__(self, model)
+        super().__init__(self, model)
         self.model = {}
 
     def _initial_activation_heuristic(self, measured_metabolites):
@@ -28,12 +28,20 @@ class FGSubsystemFBA(BaseSubsystemFBA):
 
     def analyze(self, measured_metabolites):
         act_subs = self._initial_activation_heuristic(measured_metabolites)
+        unknown_subsystems = self._model.subsystems().difference(act_subs)
 
-        unknown_subsystems = self._model.subsystems().intersection(act_subs)
-
-        for i in range(len(unknown_subsystems)):
-            for c in combinations(unknown_subsystems, i):
+        for i in range(1, len(unknown_subsystems)):
+            for com in combinations(unknown_subsystems, i):
                 new_analysis = deepcopy(self)
-                new_analysis.activate_subsystems(c)
+
+                new_analysis.activate_subsystems(com)
+                inactive_com = unknown_subsystems.difference(com)
+                new_analysis.deactivate_subsystems(inactive_com)
+
                 if new_analysis.solve().status == 'optimal':
-                    yield c
+                    yield act_subs.union(com)
+
+    def analyze_and_save_to_file(self, measured_metabolites, filename):
+        with open('../outputs/%s' % filename, 'w') as f:
+            for s in self.analyze(measured_metabolites):
+                f.write('%s\n' % str(s))
