@@ -2,8 +2,6 @@ import logging
 from copy import deepcopy
 from itertools import combinations
 
-import cobra as cb
-
 from .base_subsystem_fba import BaseSubsystemFBA
 from models import *
 
@@ -13,10 +11,6 @@ fgs_logger.addHandler(logging.FileHandler('../logs/fg_subsystem_fba.log'))
 
 
 class FGSubsystemFBA(BaseSubsystemFBA):
-
-    def __init__(self, model: cb.Model):
-        super().__init__(model)
-        self.model = {}
 
     def _initial_activation_heuristic(self, measured_metabolites):
         '''
@@ -38,23 +32,29 @@ class FGSubsystemFBA(BaseSubsystemFBA):
         unknown_subsystems = self._model.subsystems().difference(act_subs)
 
         counter = 0
+        fgs_logger.info('Inital active subsystems: %d' % len(act_subs))
 
+        for com in self.possible_configurations(unknown_subsystems):
+            inactive_com = unknown_subsystems.difference(com)
+
+            if self.has_solution(com, inactive_com):
+                yield act_subs.union(com)
+
+            if counter % 1 == 0:
+                fgs_logger.info('%d of %d calculated' %
+                                (counter, 2**len(unknown_subsystems)))
+            counter += 1
+
+    def has_solution(self, activate_subsystems, deactivate_subsystems):
+        new_analysis = deepcopy(self)
+        new_analysis.deactivate_subsystems(deactivate_subsystems)
+        new_analysis.activate_subsystems(activate_subsystems)
+        return new_analysis.solve().status == 'optimal'
+
+    def possible_configurations(self, unknown_subsystems):
         for i in range(1, len(unknown_subsystems)):
             for com in combinations(unknown_subsystems, i):
-                new_analysis = deepcopy(self)
-
-                new_analysis.activate_subsystems(com)
-                inactive_com = unknown_subsystems.difference(com)
-                new_analysis.deactivate_subsystems(inactive_com)
-
-                if new_analysis.solve().status == 'optimal':
-                    yield act_subs.union(com)
-
-                if counter % 1 == 0:
-                    msg = '%d of %d calculated' % (
-                        counter, 2**len(unknown_subsystems))
-                    fgs_logger.info(msg)
-                counter += 1
+                yield com
 
     def analyze_and_save_to_file(self, measured_metabolites, filename):
         with open('../outputs/%s' % filename, 'w') as f:

@@ -17,7 +17,7 @@ def run_fg_subsystem_fba():
     # ecolin_measured_metabolites = {'etoh_e': 1, 'gln__L_c': 1}
 
     X = vect.inverse_transform(X)
-    measured_metabolites = NamingService('recon').to(X)[0]
+    measured_metabolites = NamingService('recon').to(X[0])
 
     analysis = FGSubsystemFBA(model)
 

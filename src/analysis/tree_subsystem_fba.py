@@ -9,7 +9,6 @@ class TreeSubsystemFBA(BaseSubsystemFBA):
 
     def __init__(self, model: cb.Model):
         super().__init__(model)
-        self.model = {}
 
     def analyze(self, measured_metabolites):
         '''Implement extanding tree in there'''
