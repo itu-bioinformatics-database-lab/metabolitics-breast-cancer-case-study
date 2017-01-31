@@ -28,9 +28,24 @@ def is_currency(self, by='subsystem'):
         raise ValueError('by should be either subsystem or reactions')
 
 
+def producers(self):
+    return [r for r in self.reactions if r.metabolites[self] > 0]
+
+
+def consumers(self):
+    return [r for r in self.reactions if r.metabolites[self] < 0]
+
+
+def total_stoichiometry(self):
+    return sum([r.metabolites[self] for r in self.producers()])
+
+
 cb.Metabolite.connected_subsystems = connected_subsystems
 cb.Metabolite.is_border = is_border
 cb.Metabolite.currency_threshold = math.inf
 cb.Metabolite.currency_list = set(
     json.load(open('../dataset/currency/currency_metabolites.json')))
 cb.Metabolite.is_currency = is_currency
+cb.Metabolite.producers = producers
+cb.Metabolite.consumers = consumers
+cb.Metabolite.total_stoichiometry = total_stoichiometry

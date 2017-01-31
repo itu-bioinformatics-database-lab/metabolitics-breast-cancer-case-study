@@ -1,12 +1,22 @@
 from copy import deepcopy
 from typing import List
+
 import cobra as cb
+
+from services import DataReader
 
 
 class BaseSubsystemFBA:
 
     def __init__(self, model: cb.Model):
         self._model = deepcopy(model)
+        self._model.objective = dict()
+
+    @classmethod
+    def create_for(cls, dataset_name="recon-model"):
+        model = DataReader().read_network_model(dataset_name)
+        self = cls(model)
+        return self
 
     def activate_subsystems(self, subsystem_names: List[str]):
         '''
@@ -15,9 +25,6 @@ class BaseSubsystemFBA:
         r is set of reaction
         r_x \in S
         \sum_{i=1}^{n} r_i > 0
-        and
-        C is objective coefficient of fba
-        C_{r_i} = 1
 
         If you want to understand how implemented constrain above,
         check cobra_lp_example_with_set_of_constrain in script folder.
@@ -35,7 +42,6 @@ class BaseSubsystemFBA:
             if r.subsystem in act_sub_set:
                 cdm = constraining_dummy_metabolites['cdm_%s' % s]
                 r.add_metabolites({cdm: 1})
-                r.objective_coefficient = 1.0
 
     def deactivate_subsystems(self, subsystem_names: List[str]):
         '''
@@ -47,6 +53,22 @@ class BaseSubsystemFBA:
                 r.upper_bound = 0
                 r.lower_bound = 0
                 r.objective_coefficient = 0
+
+    def _init_inc_met_constrains(self, measured_metabolites):
+        '''Init increasing metabolite constrains'''
+        for k, v in measured_metabolites.items():
+            if v > 0:
+                m = self._model.metabolites.get_by_id(k)
+                m._constraint_sense = "G"
+                m._bound = 1
+
+    def _init_objective_coefficients(self, measured_metabolites):
+        for k, v in measured_metabolites.items():
+            m = self._model.metabolites.get_by_id(k)
+            total_stoichiometry = m.total_stoichiometry()
+            for r in m.producers():
+                update_rate = v * r.metabolites[m] / total_stoichiometry
+                r.objective_coefficient += update_rate
 
     def solve(self):
         return self._model.optimize()

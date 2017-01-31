@@ -27,12 +27,21 @@ class FGSubsystemFBA(BaseSubsystemFBA):
         self.activate_subsystems(initial_active_subsystem)
         return initial_active_subsystem
 
+    def _init_analysis(self, measured_metabolites):
+        self._init_inc_met_constrains(measured_metabolites)
+        self._init_objective_coefficients(measured_metabolites)
+        return self._initial_activation_heuristic(measured_metabolites)
+
     def analyze(self, measured_metabolites):
-        act_subs = self._initial_activation_heuristic(measured_metabolites)
+        act_subs = self._init_analysis(measured_metabolites)
+
         unknown_subsystems = self._model.subsystems().difference(act_subs)
 
         counter = 0
         fgs_logger.info('Inital active subsystems: %d' % len(act_subs))
+
+        if not unknown_subsystems:
+            yield act_subs
 
         for com in self.possible_configurations(unknown_subsystems):
             inactive_com = unknown_subsystems.difference(com)
@@ -52,7 +61,7 @@ class FGSubsystemFBA(BaseSubsystemFBA):
         return new_analysis.solve().status == 'optimal'
 
     def possible_configurations(self, unknown_subsystems):
-        for i in range(1, len(unknown_subsystems)):
+        for i in range(len(unknown_subsystems)):
             for com in combinations(unknown_subsystems, i):
                 yield com
 

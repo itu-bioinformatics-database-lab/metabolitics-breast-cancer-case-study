@@ -5,6 +5,7 @@ import cobra.test
 
 from .base_subsystem_fba import BaseSubsystemFBA
 from .fg_subsystem_fba import FGSubsystemFBA
+from .categorical_subsystem_fba import CategoricalSubsystemFBA
 from models import *
 
 
@@ -15,6 +16,9 @@ class TestBaseSubsystemFBA(unittest.TestCase):
         self.analysis = BaseSubsystemFBA(model)
         self.subsystems = ['GlycolysisGluconeogenesis']
         self.glycogen_phosph = self.analysis._model.reactions.get_by_id('GLCP')
+        self.measured_metabolites = {'glycogen_c': 1}
+        self.glycogen_c = self.analysis._model.metabolites.get_by_id(
+            'glycogen_c')
 
     def test_activate_subsystems(self):
         self.analysis.activate_subsystems(self.subsystems)
@@ -26,12 +30,22 @@ class TestBaseSubsystemFBA(unittest.TestCase):
 
         self.assertIsNotNone(cdm)
         self.assertEqual(reactions_count, len(cdm.reactions))
-        self.assertEqual(self.glycogen_phosph.objective_coefficient, 1)
 
     def test_deactivate_subsystems(self):
         self.analysis.deactivate_subsystems(self.subsystems)
         self.assertEqual(self.glycogen_phosph.upper_bound, 0)
         self.assertEqual(self.glycogen_phosph.objective_coefficient, 0)
+
+    def test__init_increasing_metabolites_constrains(self):
+        self.analysis._init_inc_met_constrains(self.measured_metabolites)
+
+        self.assertEqual(self.glycogen_c._constraint_sense, 'G')
+        self.assertEqual(self.glycogen_c._bound, 1)
+
+    def test__init_objective_coefficients(self):
+        self.analysis._init_objective_coefficients(self.measured_metabolites)
+        for r in self.glycogen_c.producers():
+            self.assertNotEqual(r.objective_coefficient, 0)
 
 
 class TestFGSubsystemFBA(unittest.TestCase):
@@ -39,9 +53,7 @@ class TestFGSubsystemFBA(unittest.TestCase):
     def setUp(self):
         self.model = cb.test.create_test_model('salmonella')
         self.analysis = FGSubsystemFBA(self.model)
-        self.measured_metabolites = {
-            'h2o_p': 1
-        }
+        self.measured_metabolites = {'h2o_p': 1}
 
     def test__initial_activation_heuristic(self):
         activate_subsystems = self.analysis._initial_activation_heuristic(
@@ -55,3 +67,26 @@ class TestFGSubsystemFBA(unittest.TestCase):
         solution = next(solutions_subsystems)
         self.assertTrue(solution >= act_subs)
         self.assertTrue(self.model.subsystems() >= solution)
+
+
+class TestCategoricalSubsystemFBA(unittest.TestCase):
+
+    def setUp(self):
+        self.analyzer = CategoricalSubsystemFBA.create_for()
+        self.category = 'energy-metabolism'
+        self.measured_metabolites = {'accoa_c': 1, 'focytC_m': 1}
+        self.subsystems = set(['Oxidative phosphorylation'])
+
+    def test_analyze_category(self):
+
+        init_active = set()
+        solution = self.analyzer.analyze_category(self.category, init_active)
+        self.assertIsNotNone(list(solution))
+
+        solution = self.analyzer.analyze_category(
+            self.category, self.subsystems)
+        self.assertEqual(list(solution), [self.subsystems])
+
+    def test_analyze(self):
+        solutions = self.analyzer.analyze(self.measured_metabolites)
+        self.assertEqual(list(solutions[self.category]), [self.subsystems])

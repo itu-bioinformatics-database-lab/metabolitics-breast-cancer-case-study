@@ -51,4 +51,4 @@ class DataReader(object):
     def read_subsystem_categories(self, name='recon'):
         path = '../dataset/subsystem-categories/%s.json' % name
         with open(path) as f:
-            return json.load(f)
+            return {k: set(v) for k, v in json.load(f).items()}

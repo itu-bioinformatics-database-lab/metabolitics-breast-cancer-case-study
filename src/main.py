@@ -45,6 +45,11 @@ def run_fg_subsystem_fba():
 
 
 @cli.command()
+def run_categorical_subsystem_fba():
+    scripts.run_categorical_subsystem_fba()
+
+
+@cli.command()
 def subsystem_statistics():
     categories = DataReader().read_subsystem_categories()
     total = 0
