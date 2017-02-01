@@ -20,4 +20,4 @@ def run_categorical_subsystem_fba():
     analysis = CategoricalSubsystemFBA(model)
 
     analysis.analyze_and_save_to_file(
-        measured_metabolites, 'recon-model.icategorical_subsystem_fba.txt')
+        measured_metabolites, 'recon-model.3categorical_subsystem_fba.txt')

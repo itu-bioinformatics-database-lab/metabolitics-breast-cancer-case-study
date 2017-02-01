@@ -2,6 +2,9 @@ import logging
 from copy import deepcopy
 from itertools import combinations
 
+import cobra as cb
+from services import DataReader
+
 from .base_subsystem_fba import BaseSubsystemFBA
 from models import *
 
@@ -11,6 +14,12 @@ fgs_logger.addHandler(logging.FileHandler('../logs/fg_subsystem_fba.log'))
 
 
 class FGSubsystemFBA(BaseSubsystemFBA):
+
+    def __init__(self, model: cb.Model, possibilities='all'):
+        super().__init__(model)
+        self.possibilities = possibilities
+        self.fixed_subsystems = DataReader().read_subsystem_categories()[
+            'fixed-subsystems']
 
     def _initial_activation_heuristic(self, measured_metabolites):
         '''
@@ -35,10 +44,8 @@ class FGSubsystemFBA(BaseSubsystemFBA):
     def analyze(self, measured_metabolites):
         act_subs = self._init_analysis(measured_metabolites)
 
-        unknown_subsystems = self._model.subsystems().difference(act_subs)
-
-        counter = 0
-        fgs_logger.info('Inital active subsystems: %d' % len(act_subs))
+        unknown_subsystems = self._model.subsystems().difference(
+            act_subs).difference(self.fixed_subsystems)
 
         if not unknown_subsystems:
             yield act_subs
@@ -49,11 +56,6 @@ class FGSubsystemFBA(BaseSubsystemFBA):
             if self.has_solution(com, inactive_com):
                 yield act_subs.union(com)
 
-            if counter % 1 == 0:
-                fgs_logger.info('%d of %d calculated' %
-                                (counter, 2**len(unknown_subsystems)))
-            counter += 1
-
     def has_solution(self, activate_subsystems, deactivate_subsystems):
         new_analysis = deepcopy(self)
         new_analysis.deactivate_subsystems(deactivate_subsystems)
@@ -61,11 +63,18 @@ class FGSubsystemFBA(BaseSubsystemFBA):
         return new_analysis.solve().status == 'optimal'
 
     def possible_configurations(self, unknown_subsystems):
-        for i in range(len(unknown_subsystems)):
-            for com in combinations(unknown_subsystems, i):
+        if self.possibilities == 'all':
+            for i in range(len(unknown_subsystems)):
+                for com in combinations(unknown_subsystems, i):
+                    yield com
+        elif type(self.possibilities) == int and self.possibilities > 0:
+            pos = min(self.possibilities, len(unknown_subsystems))
+            for com in combinations(unknown_subsystems, pos):
                 yield com
+        else:
+            raise ValueError('Possiblities shouldne all or positive int')
 
     def analyze_and_save_to_file(self, measured_metabolites, filename):
-        with open('../outputs/%s' % filename, 'w') as f:
+        with open('../outputs/%s' % filename, 'w', 1) as f:
             for s in self.analyze(measured_metabolites):
                 f.write('%s\n' % str(s))

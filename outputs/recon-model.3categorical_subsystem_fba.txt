@@ -1,0 +1,4 @@
+metabolism-of-terpenoids-and-polyketides:
+energy-metabolism:
+biosynthesis-of-other-secondary-metabolites:
+metabolism-of-cofactors-and-vitamins:

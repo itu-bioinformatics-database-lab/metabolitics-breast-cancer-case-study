@@ -50,6 +50,11 @@ def run_categorical_subsystem_fba():
 
 
 @cli.command()
+def subsystem_naming():
+    scripts.subsystem_naming()
+
+
+@cli.command()
 def subsystem_statistics():
     categories = DataReader().read_subsystem_categories()
     total = 0
@@ -57,6 +62,7 @@ def subsystem_statistics():
         print(k, len(v))
         total += len(v)
     print('total:', total)
+
 
 if __name__ == '__main__':
     cli()

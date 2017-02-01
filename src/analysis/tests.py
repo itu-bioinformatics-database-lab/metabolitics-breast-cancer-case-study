@@ -7,6 +7,7 @@ from .base_subsystem_fba import BaseSubsystemFBA
 from .fg_subsystem_fba import FGSubsystemFBA
 from .categorical_subsystem_fba import CategoricalSubsystemFBA
 from models import *
+from services import DataReader
 
 
 class TestBaseSubsystemFBA(unittest.TestCase):
@@ -67,6 +68,11 @@ class TestFGSubsystemFBA(unittest.TestCase):
         solution = next(solutions_subsystems)
         self.assertTrue(solution >= act_subs)
         self.assertTrue(self.model.subsystems() >= solution)
+
+    def test_possibilities(self):
+        analysis = FGSubsystemFBA(self.model, 4)
+        solutions = analysis.analyze(self.measured_metabolites)
+        self.assertTrue(len(next(solutions)), 4)
 
 
 class TestCategoricalSubsystemFBA(unittest.TestCase):

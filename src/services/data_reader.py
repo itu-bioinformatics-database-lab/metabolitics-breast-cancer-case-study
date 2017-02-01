@@ -45,6 +45,9 @@ class DataReader(object):
             y = self.read_all()[1]
             return (X, y)
 
+    def read_categorical_solutions(self):
+        raise NotImplemented()
+
     def read_network_model(self, name='recon-model'):
         return cb.io.load_json_model('../dataset/network/%s.json' % name)
 

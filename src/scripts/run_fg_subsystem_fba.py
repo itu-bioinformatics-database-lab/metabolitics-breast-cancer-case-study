@@ -14,7 +14,7 @@ def run_fg_subsystem_fba():
     X = vect.fit_transform(X, y)
     X = MetabolicChangeScaler().fit_transform(X, y)
 
-    # ecolin_measured_metabolites = {'etoh_e': 1, 'gln__L_c': 1}
+    # measured_metabolites = {'etoh_e': 1, 'gln__L_c': 1}
 
     X = vect.inverse_transform(X)
     measured_metabolites = NamingService('recon').to(X[0])
@@ -22,4 +22,4 @@ def run_fg_subsystem_fba():
     analysis = FGSubsystemFBA(model)
 
     analysis.analyze_and_save_to_file(
-        measured_metabolites, 'recon-model.fg_subsystem_fba.txt')
+        measured_metabolites, 'recon-model.fg_subsystem_fba2.txt')
