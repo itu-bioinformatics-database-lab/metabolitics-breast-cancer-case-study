@@ -5,7 +5,7 @@ class MetabolicStandardScaler(StandardScaler):
     """StandardScaler for using only by healthy metabolism in dataset."""
 
     def __init__(self):
-        super().__init__(self)
+        super().__init__()
 
     def filter_healthies(self, X, y):
         return zip(*filter(lambda t: t[1] == 'h', zip(X, y)))

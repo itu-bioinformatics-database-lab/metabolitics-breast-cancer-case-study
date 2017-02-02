@@ -5,6 +5,8 @@ from sklearn.feature_extraction import DictVectorizer
 from .metabolic_standard_scaler import MetabolicStandardScaler
 from .metabolic_change_scaler import MetabolicChangeScaler
 from .most_active_pathway_scaler import MostActivePathwayScaler
+from .fva_scaler import FVAScaler
+from services import DataReader, NamingService
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -75,3 +77,20 @@ class TestMostActivePathwayScaler(unittest.TestCase):
         scores = self.scaler.transform(solutions)
         expected_scores = [{'a': 2, 'b': 3, 'c': 4, 'd': 3}]
         self.assertEqual(expected_scores, scores)
+
+
+class TestFVAScaler(unittest.TestCase):
+
+    def setUp(self):
+        (X, y) = DataReader().read_all()
+        X = NamingService('recon').to(X)
+        vect = DictVectorizer(sparse=False)
+        X = vect.fit_transform(X, y)
+        X = MetabolicChangeScaler().fit_transform(X, y)
+        self.measured_metabolites = X[0]
+        self.scaler = FVAScaler(vect)
+
+    def test_transform(self):
+        X = self.scaler.transform([self.measured_metabolites])
+        self.assertIsNotNone(X[0]['MDH_max'])
+        self.assertIsNotNone(X[0]['MDH_min'])

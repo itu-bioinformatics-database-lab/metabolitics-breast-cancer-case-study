@@ -6,6 +6,7 @@ import cobra.test
 from .base_subsystem_fba import BaseSubsystemFBA
 from .fg_subsystem_fba import FGSubsystemFBA
 from .categorical_subsystem_fba import CategoricalSubsystemFBA
+from .base_fva import BaseFVA
 from models import *
 from services import DataReader
 
@@ -96,3 +97,15 @@ class TestCategoricalSubsystemFBA(unittest.TestCase):
     def test_analyze(self):
         solutions = self.analyzer.analyze(self.measured_metabolites)
         self.assertEqual(list(solutions[self.category]), [self.subsystems])
+
+
+class TestBaseFVA(unittest.TestCase):
+
+    def setUp(self):
+        self.analyzer = BaseFVA.create_for('e_coli_core')
+
+    def test_analyze(self):
+        measured_metabolites = {'etoh_e': 1, 'gln__L_c': 1}
+        reactions_range = self.analyzer.analyze(measured_metabolites)
+        self.assertIsNotNone(reactions_range['EX_fum_e']['minimum'])
+        self.assertIsNotNone(reactions_range['EX_fum_e']['maximum'])

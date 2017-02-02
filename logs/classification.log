@@ -3073,3 +3073,490 @@ test accuracy: 0.551020
 
 avg / total       0.54      0.55      0.52        98
 
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f517a09f400>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.337884
+test accuracy: 0.285714
+
+              precision    recall  f1-score   support
+
+         bc       0.36      0.34      0.35        35
+          h       0.56      0.38      0.45        39
+        hcc       0.26      0.42      0.32        24
+
+avg / total       0.42      0.38      0.39        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f5171baf278>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7fa7eb4800b8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.365188
+test accuracy: 0.357143
+
+              precision    recall  f1-score   support
+
+         bc       0.29      0.23      0.25        35
+          h       0.34      0.28      0.31        39
+        hcc       0.21      0.33      0.26        24
+
+avg / total       0.29      0.28      0.28        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7fa7ecd92f98>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7fa41103c588>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.341297
+test accuracy: 0.316327
+
+              precision    recall  f1-score   support
+
+         bc       0.41      0.49      0.45        35
+          h       0.29      0.21      0.24        39
+        hcc       0.28      0.33      0.30        24
+
+avg / total       0.33      0.34      0.33        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7ff70df48518>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.348123
+test accuracy: 0.316327
+
+              precision    recall  f1-score   support
+
+         bc       0.45      0.40      0.42        35
+          h       0.46      0.44      0.45        39
+        hcc       0.37      0.46      0.41        24
+
+avg / total       0.43      0.43      0.43        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f3003f8beb8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.337884
+test accuracy: 0.367347
+
+              precision    recall  f1-score   support
+
+         bc       0.39      0.37      0.38        35
+          h       0.41      0.38      0.39        39
+        hcc       0.25      0.29      0.27        24
+
+avg / total       0.36      0.36      0.36        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f30248a8240>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7fe515a45128>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.296928
+test accuracy: 0.295918
+
+              precision    recall  f1-score   support
+
+         bc       0.30      0.31      0.31        35
+          h       0.31      0.23      0.26        39
+        hcc       0.28      0.38      0.32        24
+
+avg / total       0.30      0.30      0.29        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7fe5141507b8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7ff0cdac3fd0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.331058
+test accuracy: 0.357143
+
+              precision    recall  f1-score   support
+
+         bc       0.56      0.40      0.47        35
+          h       0.44      0.46      0.45        39
+        hcc       0.34      0.46      0.39        24
+
+avg / total       0.46      0.44      0.44        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7ff0cd07f9e8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f007463afd0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.337884
+test accuracy: 0.357143
+
+              precision    recall  f1-score   support
+
+         bc       0.50      0.49      0.49        35
+          h       0.42      0.33      0.37        39
+        hcc       0.42      0.58      0.49        24
+
+avg / total       0.45      0.45      0.44        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f00731130b8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f9d11fa5128>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.361775
+test accuracy: 0.346939
+
+              precision    recall  f1-score   support
+
+         bc       0.16      0.11      0.13        35
+          h       0.43      0.41      0.42        39
+        hcc       0.31      0.46      0.37        24
+
+avg / total       0.30      0.32      0.30        98
+
+
+ Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.959184
+
+              precision    recall  f1-score   support
+
+         bc       0.97      0.94      0.96        35
+          h       0.93      0.97      0.95        39
+        hcc       1.00      0.96      0.98        24
+
+avg / total       0.96      0.96      0.96        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f9d112c93c8>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
+  max_iter=-1, probability=False, random_state=0, shrinking=True,
+  tol=0.001, verbose=False))]) 
+
+train accuracy: 0.525597
+test accuracy: 0.551020
+
+              precision    recall  f1-score   support
+
+         bc       0.57      0.89      0.70        35
+          h       0.52      0.28      0.37        39
+        hcc       0.52      0.50      0.51        24
+
+avg / total       0.54      0.55      0.52        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f91820250f0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.348123
+test accuracy: 0.346939
+
+              precision    recall  f1-score   support
+
+         bc       0.38      0.34      0.36        35
+          h       0.42      0.36      0.39        39
+        hcc       0.24      0.33      0.28        24
+
+avg / total       0.36      0.35      0.35        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f95c263afd0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.351536
+test accuracy: 0.306122
+
+              precision    recall  f1-score   support
+
+         bc       0.25      0.23      0.24        35
+          h       0.34      0.33      0.34        39
+        hcc       0.14      0.17      0.15        24
+
+avg / total       0.26      0.26      0.26        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f78b568efd0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.334471
+test accuracy: 0.397959
+
+              precision    recall  f1-score   support
+
+         bc       0.26      0.26      0.26        35
+          h       0.47      0.38      0.42        39
+        hcc       0.19      0.25      0.22        24
+
+avg / total       0.33      0.31      0.31        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f7e497ed128>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.307167
+test accuracy: 0.306122
+
+              precision    recall  f1-score   support
+
+         bc       0.32      0.34      0.33        35
+          h       0.40      0.26      0.31        39
+        hcc       0.23      0.33      0.27        24
+
+avg / total       0.33      0.31      0.31        98
+
+
+ Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7efc3ee84fd0>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
+
+train accuracy: 0.354949
+test accuracy: 0.285714
+
+              precision    recall  f1-score   support
+
+         bc       0.25      0.17      0.20        35
+          h       0.44      0.41      0.43        39
+        hcc       0.26      0.42      0.32        24
+
+avg / total       0.33      0.33      0.32        98
+
