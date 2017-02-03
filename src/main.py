@@ -4,7 +4,7 @@ import cobra as cb
 import scripts
 from services import DataReader, NamingService
 from api import app
-from preprocessing import FormatedMeasurement
+from preprocessing import FormatedMeasurement, FVARangedMeasurement
 from analysis import FGSubsystemFBA
 
 
@@ -65,6 +65,17 @@ def subsystem_statistics():
         print(k, len(v))
         total += len(v)
     print('total:', total)
+
+
+@cli.command()
+def fva_range_analysis_save():
+    (X, y) = DataReader().read_all()
+    X = NamingService('recon').to(X)
+    fva = FVARangedMeasurement()
+    X = fva.fit_transform(X, y)
+    with open('../outputs/fva_solutions.txt', 'w') as f:
+        for x, label in zip(X, y):
+            f.write('%s %s\n' % (label, x))
 
 
 @cli.command()
