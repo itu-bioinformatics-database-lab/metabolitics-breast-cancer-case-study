@@ -84,13 +84,21 @@ class TestFVAScaler(unittest.TestCase):
     def setUp(self):
         (X, y) = DataReader().read_all()
         X = NamingService('recon').to(X)
-        vect = DictVectorizer(sparse=False)
-        X = vect.fit_transform(X, y)
+        self.vect = DictVectorizer(sparse=False)
+        X = self.vect.fit_transform(X, y)
         X = MetabolicChangeScaler().fit_transform(X, y)
         self.measured_metabolites = X[0]
-        self.scaler = FVAScaler(vect)
+        self.scaler = FVAScaler(self.vect)
 
     def test_transform(self):
         X = self.scaler.transform([self.measured_metabolites])
-        self.assertIsNotNone(X[0]['MDH_max'])
-        self.assertIsNotNone(X[0]['MDH_min'])
+        self.assert_min_max_defined(X[0])
+
+    def test__sample_transformation(self):
+        X = self.vect.inverse_transform([self.measured_metabolites])
+        X = self.scaler._sample_transformation(X[0])
+        self.assert_min_max_defined(X)
+
+    def assert_min_max_defined(self, X):
+        self.assertIsNotNone(X['MDH_max'])
+        self.assertIsNotNone(X['MDH_min'])

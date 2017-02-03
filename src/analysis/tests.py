@@ -2,13 +2,15 @@ import unittest
 
 import cobra as cb
 import cobra.test
+from sklearn.feature_extraction import DictVectorizer
 
 from .base_subsystem_fba import BaseSubsystemFBA
 from .fg_subsystem_fba import FGSubsystemFBA
 from .categorical_subsystem_fba import CategoricalSubsystemFBA
 from .base_fva import BaseFVA
 from models import *
-from services import DataReader
+from services import DataReader, NamingService
+from preprocessing import MetabolicStandardScaler
 
 
 class TestBaseSubsystemFBA(unittest.TestCase):
@@ -40,12 +42,16 @@ class TestBaseSubsystemFBA(unittest.TestCase):
 
     def test__init_increasing_metabolites_constrains(self):
         self.analysis._init_inc_met_constrains(self.measured_metabolites)
-
-        self.assertEqual(self.glycogen_c._constraint_sense, 'G')
-        self.assertEqual(self.glycogen_c._bound, 1)
+        cdm_name = 'cdm_glycogen_c'
+        cdm = self.analysis._model.metabolites.get_by_id(cdm_name)
+        self.assertEqual(cdm._constraint_sense, 'G')
+        self.assertEqual(cdm._bound, 1)
+        self.assertEqual(self.glycogen_c._constraint_sense, 'E')
+        self.assertEqual(self.glycogen_c._bound, 0)
 
     def test__init_objective_coefficients(self):
         self.analysis._init_objective_coefficients(self.measured_metabolites)
+
         for r in self.glycogen_c.producers():
             self.assertNotEqual(r.objective_coefficient, 0)
 
@@ -53,14 +59,14 @@ class TestBaseSubsystemFBA(unittest.TestCase):
 class TestFGSubsystemFBA(unittest.TestCase):
 
     def setUp(self):
-        self.model = cb.test.create_test_model('salmonella')
+        self.model = DataReader().read_network_model('e_coli_core')
         self.analysis = FGSubsystemFBA(self.model)
-        self.measured_metabolites = {'h2o_p': 1}
+        self.measured_metabolites = {'h2o_c': 1}
 
     def test__initial_activation_heuristic(self):
         activate_subsystems = self.analysis._initial_activation_heuristic(
             self.measured_metabolites)
-        self.assertEqual(len(activate_subsystems), 19)
+        self.assertEqual(len(activate_subsystems), 8)
 
     def test_analyze(self):
         solutions_subsystems = self.analysis.analyze(self.measured_metabolites)
@@ -74,6 +80,20 @@ class TestFGSubsystemFBA(unittest.TestCase):
         analysis = FGSubsystemFBA(self.model, 4)
         solutions = analysis.analyze(self.measured_metabolites)
         self.assertTrue(len(next(solutions)), 4)
+
+    def test_constrains(self):
+        (X, y) = DataReader().read_all()
+        vect = DictVectorizer(sparse=False)
+        X = vect.fit_transform(X, y)
+        X = MetabolicStandardScaler().fit_transform(X, y)
+        X = vect.inverse_transform(X)
+        X = NamingService('recon').to(X)
+
+        for x in X[:10]:
+            analysis = FGSubsystemFBA.create_for()
+            analysis._init_inc_met_constrains(x)
+            analysis._init_objective_coefficients(x)
+            self.assertEqual(analysis.solve().status, 'optimal')
 
 
 class TestCategoricalSubsystemFBA(unittest.TestCase):

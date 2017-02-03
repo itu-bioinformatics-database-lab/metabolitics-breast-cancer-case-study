@@ -59,19 +59,25 @@ class BaseSubsystemFBA:
         for k, v in measured_metabolites.items():
             if v > 0:
                 m = self._model.metabolites.get_by_id(k)
-                m._constraint_sense = "G"
-                m._bound = 1
+                # TODO: Create methods to create constrains
+                # instead of mock metabolites
+                cdm = cb.Metabolite('cdm_%s' % m.id)
+                cdm._constraint_sense = "G"
+                cdm._bound = 1
+                for r in m.producers():
+                    r.add_metabolites({cdm: 1})
 
     def _init_objective_coefficients(self, measured_metabolites):
         for k, v in measured_metabolites.items():
             m = self._model.metabolites.get_by_id(k)
             total_stoichiometry = m.total_stoichiometry()
+
             for r in m.producers():
                 update_rate = v * r.metabolites[m] / total_stoichiometry
                 r.objective_coefficient += update_rate
 
     def solve(self):
-        return self._model.optimize()
+        return self._model.optimize(time_limit=5)
 
     def analyze(self, measured_metabolites):
         raise NotImplemented()

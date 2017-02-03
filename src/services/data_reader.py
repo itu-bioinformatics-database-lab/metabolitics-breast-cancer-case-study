@@ -55,3 +55,13 @@ class DataReader(object):
         path = '../dataset/subsystem-categories/%s.json' % name
         with open(path) as f:
             return {k: set(v) for k, v in json.load(f).items()}
+
+    # def read_measured_metabolites_formated(self, name='recon'):
+    #     '''Read measured metabolites metablites named and stadart scaled'''
+    #     (X, y) = DataReader().read_all()
+    #     vect = DictVectorizer(sparse=False)
+    #     X = vect.fit_transform(X, y)
+    #     X = MetabolicStandardScaler().fit_transform(X, y)
+    #     X = vect.inverse_transform(X)
+    #     X = NamingService('recon').to(X)
+    #     return (X, y)

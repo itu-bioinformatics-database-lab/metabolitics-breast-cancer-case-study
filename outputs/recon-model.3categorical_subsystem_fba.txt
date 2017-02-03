@@ -2,3 +2,10 @@ metabolism-of-terpenoids-and-polyketides:
 energy-metabolism:
 biosynthesis-of-other-secondary-metabolites:
 metabolism-of-cofactors-and-vitamins:
+glycan-biosynthesis-and-metabolism:
+xenobiotics-biodegradation-and-metabolism:
+lipid-metabolism:
+amino-acid-metabolism:
+nucleotide-metabolism:
+metabolism-of-other-amino-acids:
+carbohydrate-metabolism:

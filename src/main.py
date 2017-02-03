@@ -1,8 +1,11 @@
 import click
 import cobra as cb
+
 import scripts
-from services import DataReader
+from services import DataReader, NamingService
 from api import app
+from preprocessing import FormatedMeasurement
+from analysis import FGSubsystemFBA
 
 
 @click.group()
@@ -62,6 +65,26 @@ def subsystem_statistics():
         print(k, len(v))
         total += len(v)
     print('total:', total)
+
+
+@cli.command()
+def dataset_feasible():
+    (X, y) = DataReader().read_data('BC')
+    X = NamingService('recon').to(X)
+    frm = FormatedMeasurement()
+    X = frm.to_dict(frm.fit_transform(X, y))
+
+    a = 0
+    for x, y in zip(X, y):
+        analysis = FGSubsystemFBA.create_for()
+        analysis._init_inc_met_constrains(x)
+        analysis._init_objective_coefficients(x)
+
+        if analysis.solve().status != 'optimal':
+            print(y)
+            a += 1
+        else:
+            print('-', y)
 
 
 if __name__ == '__main__':
