@@ -7,6 +7,7 @@ from .metabolic_change_scaler import MetabolicChangeScaler
 from .most_active_pathway_scaler import MostActivePathwayScaler
 from .fva_scaler import FVAScaler
 from services import DataReader, NamingService
+from .fva_ranged_mesearument import FVARangedMeasurement
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -79,6 +80,11 @@ class TestMostActivePathwayScaler(unittest.TestCase):
         self.assertEqual(expected_scores, scores)
 
 
+def assert_min_max_defined(self, X):
+    self.assertIsNotNone(X['MDH_max'])
+    self.assertIsNotNone(X['MDH_min'])
+
+
 class TestFVAScaler(unittest.TestCase):
 
     def setUp(self):
@@ -92,13 +98,21 @@ class TestFVAScaler(unittest.TestCase):
 
     def test_transform(self):
         X = self.scaler.transform([self.measured_metabolites])
-        self.assert_min_max_defined(X[0])
+        assert_min_max_defined(self, X[0])
 
     def test__sample_transformation(self):
         X = self.vect.inverse_transform([self.measured_metabolites])
         X = self.scaler._sample_transformation(X[0])
-        self.assert_min_max_defined(X)
+        assert_min_max_defined(self, X)
 
-    def assert_min_max_defined(self, X):
-        self.assertIsNotNone(X['MDH_max'])
-        self.assertIsNotNone(X['MDH_min'])
+
+class TestFVARangedMeasurement(unittest.TestCase):
+
+    def setUp(self):
+        (X, self.y) = DataReader().read_all()
+        self.X = NamingService('recon').to(X)
+        self.fva = FVARangedMeasurement()
+
+    def test_fit_transform(self):
+        X = self.fva.fit_transform([self.X[0]], [self.y[0]])
+        assert_min_max_defined(self, X[0])

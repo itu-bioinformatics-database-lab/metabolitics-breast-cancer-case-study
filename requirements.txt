@@ -1,11 +1,14 @@
 aniso8601==1.2.0
 appdirs==1.4.0
 click==6.7
-cobra==0.5.11
+cobra==0.5.9
+codeclimate-test-reporter==0.2.0
+coverage==4.3.4
 Flask==0.12
 Flask-RESTful==0.3.5
 itsdangerous==0.24
 Jinja2==2.9.5
+joblib==0.10.3
 lxml==3.7.2
 MarkupSafe==0.23
 mccabe==0.5.3
@@ -18,6 +21,7 @@ pyparsing==2.1.10
 python-dateutil==2.6.0
 python-libsbml==5.13.0
 pytz==2016.10
+requests==2.13.0
 scikit-learn==0.18.1
 scipy==0.18.1
 six==1.10.0
