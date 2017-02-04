@@ -69,7 +69,7 @@ def subsystem_statistics():
 
 @cli.command()
 def fva_range_analysis_save():
-    (X, y) = DataReader().read_all()
+    (X, y) = DataReader().read_data('BC')
     X = NamingService('recon').to(X)
     fva = FVARangedMeasurement()
     X = fva.fit_transform(X, y)

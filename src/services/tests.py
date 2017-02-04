@@ -30,3 +30,8 @@ class TestDataReader(unittest.TestCase):
 
     def test_read_subsystem_categories(self):
         self.assertNotEqual(len(self.service.read_subsystem_categories()), 0)
+
+    def test_read_fva_solutions(self):
+        (X, y) = self.service.read_fva_solutions()
+        self.assertNotEqual(len(X), 0)
+        self.assertNotEqual(len(y), 0)
