@@ -13,7 +13,7 @@ ctg_logger.addHandler(logging.FileHandler('../logs/ctg_subsystem_fba.log'))
 class CategoricalSubsystemFBA(FGSubsystemFBA):
 
     def __init__(self, model: cb.Model, possibilities='all'):
-        super().__init__(model, possibilities)
+        super(FGSubsystemFBA, self).__init__(model, possibilities)
         self.categories = DataReader().read_subsystem_categories()
 
     def analyze(self, measured_metabolites):

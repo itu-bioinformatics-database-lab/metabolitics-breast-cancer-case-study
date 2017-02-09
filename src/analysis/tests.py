@@ -4,7 +4,7 @@ import cobra as cb
 import cobra.test
 from sklearn.feature_extraction import DictVectorizer
 
-from .base_subsystem_fba import BaseSubsystemFBA
+from .base_pathway_model import BasePathwayModel
 from .fg_subsystem_fba import FGSubsystemFBA
 from .categorical_subsystem_fba import CategoricalSubsystemFBA
 from .base_fva import BaseFVA
@@ -13,65 +13,67 @@ from services import DataReader, NamingService
 from preprocessing import MetabolicStandardScaler
 
 
-class TestBaseSubsystemFBA(unittest.TestCase):
+class TestBasePathwayModel(unittest.TestCase):
 
     def setUp(self):
         model = cb.test.create_test_model('salmonella')
-        self.analysis = BaseSubsystemFBA(model)
-        self.subsystems = ['GlycolysisGluconeogenesis']
-        self.glycogen_phosph = self.analysis._model.reactions.get_by_id('GLCP')
-        self.measured_metabolites = {'glycogen_c': 1}
-        self.glycogen_c = self.analysis._model.metabolites.get_by_id(
-            'glycogen_c')
+        self.model = BasePathwayModel(description=model)
+        self.oxi_phos = self.model.get_pathway('Oxidative Phosphorylation')
+        self.h2o2_p = self.model.metabolites.get_by_id('h2o2_p')
 
-    def test_activate_subsystems(self):
-        self.analysis.activate_subsystems(self.subsystems)
+    def test_get_pathway(self):
+        pathway = self.model.get_pathway('Transport Inner Membrane')
+        r_12DGR120tipp = self.model.reactions.get_by_id('12DGR120tipp')
+        self.assertTrue(r_12DGR120tipp in pathway.reactions)
 
-        cdm_name = 'cdm_%s' % self.subsystems[0]
-        cdm = self.analysis._model.metabolites.get_by_id(cdm_name)
-        reactions_count = len([r for r in self.analysis._model.reactions
-                               if r.subsystem == self.subsystems[0]])
+    def test_activate_pathway(self):
+        self.model.activate_pathway(self.oxi_phos)
+        solution = self.model.solve()
+        sum_flux = sum(solution.x_dict[r.id] for r in self.oxi_phos.reactions)
+        self.assertTrue(sum_flux >= 0)
 
-        self.assertIsNotNone(cdm)
-        self.assertEqual(reactions_count, len(cdm.reactions))
+    def test_deactivate_pathway(self):
+        self.model.knock_out_pathway(self.oxi_phos)
+        solution = self.model.solve()
+        sum_flux = sum(solution.x_dict[r.id] for r in self.oxi_phos.reactions)
+        self.assertTrue(sum_flux == 0)
 
-    def test_deactivate_subsystems(self):
-        self.analysis.deactivate_subsystems(self.subsystems)
-        self.assertEqual(self.glycogen_phosph.upper_bound, 0)
-        self.assertEqual(self.glycogen_phosph.objective_coefficient, 0)
+    def test_increasing_metabolite_constrain(self):
+        self.model.increasing_metabolite_constrain(self.h2o2_p)
+        self.model.solve()
+        sum_flux = sum(r.forward_variable.primal + r.reverse_variable.primal
+                       for r in self.h2o2_p.reactions)
+        self.assertTrue(sum_flux >= 2)
 
-    def test__init_increasing_metabolites_constrains(self):
-        self.analysis._init_inc_met_constrains(self.measured_metabolites)
-        cdm_name = 'cdm_glycogen_c'
-        cdm = self.analysis._model.metabolites.get_by_id(cdm_name)
-        self.assertEqual(cdm._constraint_sense, 'G')
-        self.assertEqual(cdm._bound, 1)
-        self.assertEqual(self.glycogen_c._constraint_sense, 'E')
-        self.assertEqual(self.glycogen_c._bound, 0)
-
-    def test__init_objective_coefficients(self):
-        self.analysis._init_objective_coefficients(self.measured_metabolites)
-
-        for r in self.glycogen_c.producers():
+    def test_set_objective_coefficients(self):
+        self.model.set_objective_coefficients({'h2o2_p': 1})
+        for r in self.h2o2_p.producers():
             self.assertNotEqual(r.objective_coefficient, 0)
+
+    def test_create_for(self):
+        recon = BasePathwayModel.create_for()
+        self.assertIsNotNone(recon)
 
 
 class TestFGSubsystemFBA(unittest.TestCase):
 
     def setUp(self):
-        self.model = DataReader().read_network_model('e_coli_core')
-        self.analysis = FGSubsystemFBA(self.model)
+        model = DataReader().read_network_model('e_coli_core')
+        self.model = FGSubsystemFBA(model)
         self.measured_metabolites = {'h2o_c': 1}
+        import pdb; pdb.set_trace()
+
 
     def test__initial_activation_heuristic(self):
-        activate_subsystems = self.analysis._initial_activation_heuristic(
-            self.measured_metabolites)
+        activate_subsystems = self.model \
+            ._initial_activation_heuristic(self.measured_metabolites)
         self.assertEqual(len(activate_subsystems), 8)
+        self.assertEqual(self.model.solve().status, 'optimal')
 
     def test_analyze(self):
-        solutions_subsystems = self.analysis.analyze(self.measured_metabolites)
-        act_subs = self.analysis._initial_activation_heuristic(
-            self.measured_metabolites)
+        solutions_subsystems = self.model.analyze(self.measured_metabolites)
+        act_subs = self.model \
+            ._initial_activation_heuristic(self.measured_metabolites)
         solution = next(solutions_subsystems)
         self.assertTrue(solution >= act_subs)
         self.assertTrue(self.model.subsystems() >= solution)
@@ -91,8 +93,8 @@ class TestFGSubsystemFBA(unittest.TestCase):
 
         for x in X[:10]:
             analysis = FGSubsystemFBA.create_for()
-            analysis._init_inc_met_constrains(x)
-            analysis._init_objective_coefficients(x)
+            analysis.increasing_metabolite_constrains(x)
+            analysis.set_objective_coefficients(x)
             self.assertEqual(analysis.solve().status, 'optimal')
 
 
