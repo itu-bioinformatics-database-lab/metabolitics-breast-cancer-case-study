@@ -24,9 +24,9 @@ class FVAScaler(TransformerMixin):
 
     def _sample_transformation(self, x):
         nex_x = dict()
-        for k, v in self.analyzer.analyze(x).items():
-            nex_x['%s_max' % k] = v['maximum']
-            nex_x['%s_min' % k] = v['minimum']
+        for r in self.analyzer.analyze(x).data_frame.itertuples():
+            nex_x['%s_max' % r.Index] = r.lower_bound
+            nex_x['%s_min' % r.Index] = r.upper_bound
         return nex_x
 
     def fit_transform(self, X, y):

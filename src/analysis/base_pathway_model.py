@@ -66,8 +66,7 @@ class BasePathwayModel(SolverBasedModel):
         r is reactions of m
         constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
         '''
-        sum_flux = sum(r.forward_variable + r.reverse_variable
-                       for r in metabolite.reactions)
+        sum_flux = sum(r.forward_variable for r in metabolite.reactions)
         self.solver.add(self.solver.interface.Constraint(sum_flux, lb=2))
 
     def increasing_metabolite_constrains(self, measured_metabolites):
