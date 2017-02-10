@@ -54,15 +54,6 @@ class TestMetabolicChangeScaler(unittest.TestCase):
         self.assertListEqual(expected_X, transformed_X)
 
 
-class TestMetabolicSolutionScaler(unittest.TestCase):
-
-    def setUp(self):
-        self.data = [{'acon_C_c': 1}, ]
-        self.vict = DictVectorizer(sparse=False)
-        self.vict.fit(self.data)
-        self.scaler = MetabolicSolutionScaler(self.vict)
-
-
 class TestMostActivePathwayScaler(unittest.TestCase):
 
     def setUp(self):
@@ -110,12 +101,14 @@ class TestFVAScaler(unittest.TestCase):
 class TestFVARangedMeasurement(unittest.TestCase):
 
     def setUp(self):
-        (X, self.y) = DataReader().read_all()
-        self.X = NamingService('recon').to(X)
+        (X, y) = DataReader().read_all()
+        X = NamingService('recon').to(X)
+        Xy = next(filter(lambda k: k[1] == 'h', zip(X, y)))
+        (self.X, self.y) = ([Xy[0]], [Xy[1]])
         self.fva = FVARangedMeasurement()
 
     def test_fit_transform(self):
-        X = self.fva.fit_transform([self.X[0]], [self.y[0]])
+        X = self.fva.fit_transform(self.X, self.y)
         assert_min_max_defined(self, X[0])
 
 

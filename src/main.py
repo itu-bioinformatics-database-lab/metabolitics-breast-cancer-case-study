@@ -4,7 +4,7 @@ import cobra as cb
 import scripts
 from services import DataReader, NamingService
 from api import app
-from preprocessing import FormatedMeasurement, FVARangedMeasurement
+from preprocessing import FVARangedMeasurement
 
 
 @click.group()
@@ -75,6 +75,7 @@ def border_rate():
                                   for r in m.reactions
                                   if m.is_border()))
     print(num_border_reaction / len(model.reactions))
+
 
 if __name__ == '__main__':
     cli()
