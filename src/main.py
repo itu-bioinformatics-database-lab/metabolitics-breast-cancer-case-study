@@ -67,5 +67,14 @@ def fva_range_analysis_save():
             f.write('%s %s\n' % (label, x))
 
 
+@cli.command()
+def border_rate():
+    model = DataReader().read_network_model()
+    num_border_reaction = len(set(r.id
+                                  for m in model.metabolites
+                                  for r in m.reactions
+                                  if m.is_border()))
+    print(num_border_reaction / len(model.reactions))
+
 if __name__ == '__main__':
     cli()

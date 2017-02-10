@@ -6,6 +6,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 
 from .base_disease_classifier import BaseDiseaseClassifier
+from preprocessing import BorderSelector
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
@@ -13,6 +14,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
     def __init__(self):
         super().__init__()
         self._pipe = Pipeline([
+            # ('border-selector', BorderSelector()),
             ('vect2', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=10, kernel='poly', random_state=0))

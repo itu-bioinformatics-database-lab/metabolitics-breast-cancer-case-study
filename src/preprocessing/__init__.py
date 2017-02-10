@@ -4,3 +4,4 @@ from .most_active_pathway_scaler import MostActivePathwayScaler
 from .fva_scaler import FVAScaler
 from .formated_measurments import FormatedMeasurement
 from .fva_ranged_mesearument import FVARangedMeasurement
+from .border_selector import BorderSelector
