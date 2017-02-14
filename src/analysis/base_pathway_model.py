@@ -1,10 +1,16 @@
 from typing import List
+import logging
 
 from cameo.core import SolverBasedModel, Metabolite
 from cameo.core.pathway import Pathway
 from sympy.core.singleton import S
 
 from services import DataReader
+
+bpathway_model_logger = logging.getLogger('bpathway_model_logger')
+bpathway_model_logger.setLevel(logging.INFO)
+bpathway_model_logger \
+    .addHandler(logging.FileHandler('../logs/bpathway_model_logger.log'))
 
 
 class BasePathwayModel(SolverBasedModel):
@@ -66,8 +72,11 @@ class BasePathwayModel(SolverBasedModel):
         r is reactions of m
         constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
         '''
+        lb = 0
         sum_flux = sum(r.forward_variable for r in metabolite.reactions)
-        self.solver.add(self.solver.interface.Constraint(sum_flux, lb=1e-5))
+        bpathway_model_logger.info(metabolite.id)
+        bpathway_model_logger.info('%s >= %s' % (sum_flux, lb))
+        self.solver.add(self.solver.interface.Constraint(sum_flux, lb=lb))
 
     def increasing_metabolite_constrains(self, measured_metabolites):
         '''

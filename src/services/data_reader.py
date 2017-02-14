@@ -38,8 +38,8 @@ class DataReader(object):
         self.path = '../dataset/small-disease'
         return self.read_all()
 
-    def read_fva_solutions(self):
-        path = '../dataset/solutions/fva_solutions.txt'
+    def read_fva_solutions(self, file_name='fva_solutions.txt'):
+        path = '../dataset/solutions/%s' % file_name
         with open(path) as f:
             (X, y) = zip(*map(lambda x: (eval(x[1].strip()), x[0]),
                               [l.split(" ", 1) for l in f]))

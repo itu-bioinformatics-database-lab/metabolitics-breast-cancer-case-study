@@ -17,6 +17,7 @@ class FVAScaler(TransformerMixin):
         return self
 
     def transform(self, X, y=[]):
+        self._sample_transformation(self.vectorizer.inverse_transform(X)[0])
         return Parallel(n_jobs=-1)(
             delayed(self._sample_transformation)(i)
             for i in self.vectorizer.inverse_transform(X)
@@ -25,8 +26,8 @@ class FVAScaler(TransformerMixin):
     def _sample_transformation(self, x):
         nex_x = dict()
         for r in self.analyzer.analyze(x).data_frame.itertuples():
-            nex_x['%s_max' % r.Index] = r.lower_bound
-            nex_x['%s_min' % r.Index] = r.upper_bound
+            nex_x['%s_max' % r.Index] = r.upper_bound
+            nex_x['%s_min' % r.Index] = r.lower_bound
         return nex_x
 
     def fit_transform(self, X, y):

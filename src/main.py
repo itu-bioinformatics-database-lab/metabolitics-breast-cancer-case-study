@@ -5,6 +5,7 @@ import scripts
 from services import DataReader, NamingService
 from api import app
 from preprocessing import FVARangedMeasurement
+from metrics import fva_solution_distance, diff_range_solutions
 
 
 @click.group()
@@ -60,11 +61,19 @@ def subsystem_statistics():
 def fva_range_analysis_save():
     (X, y) = DataReader().read_data('BC')
     X = NamingService('recon').to(X)
-    fva = FVARangedMeasurement()
-    X = fva.fit_transform(X, y)
+    X = FVARangedMeasurement().fit_transform(X, y)
     with open('../outputs/fva_solutions.txt', 'w') as f:
         for x, label in zip(X, y):
             f.write('%s %s\n' % (label, x))
+
+
+@cli.command()
+def constraint_logging():
+    (X, y) = DataReader().read_data('BC')
+    X = NamingService('recon').to(X)
+    (X_h, y_h) = [(x, l) for x, l in zip(X, y) if l == 'h'][0]
+    (X_bc, y_bc) = [(x, l) for x, l in zip(X, y) if l == 'bc'][0]
+    FVARangedMeasurement().fit_transform([X_bc, X_h], [y_bc, y_h])
 
 
 @cli.command()
@@ -75,6 +84,22 @@ def border_rate():
                                   for r in m.reactions
                                   if m.is_border()))
     print(num_border_reaction / len(model.reactions))
+
+
+@cli.command()
+@click.argument('filename')
+def fva_min_max_mean(filename):
+    (X, y) = DataReader().read_fva_solutions(filename)
+    print(fva_solution_distance(X))
+
+
+@cli.command()
+@click.argument('filename')
+def fva_diff_range_solutions(filename):
+    (X, y) = DataReader().read_fva_solutions(filename)
+    X_h = [x for x, l in zip(X, y) if l == 'h']
+    X_bc = [x for x, l in zip(X, y) if l == 'bc']
+    print(diff_range_solutions(X_h, X_bc))
 
 
 if __name__ == '__main__':
