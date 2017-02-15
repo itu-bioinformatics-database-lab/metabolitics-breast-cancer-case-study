@@ -1170,3 +1170,9 @@ GLYCTDle + GLYCtm + H2OGLYAQPt + RE2067C + RE2068C + RE2563C + r0245 + GLYK + LP
 HIBDm + 3HBCOAHLm + r0779 >= 0
 Lcystin_c
 CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+etoh_e
+ETOHt2r + EX_etoh_e >= 0
+gln__L_c
+BIOMASS_Ecoli_core_w_GAM + GLNS + GLNabc + GLUN + GLUSy >= 0
+h2o2_p
+H2O2tex + SPODMpp >= 0

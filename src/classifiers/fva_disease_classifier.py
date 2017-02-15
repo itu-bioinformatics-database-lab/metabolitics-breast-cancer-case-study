@@ -17,7 +17,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
             ('vect2', DictVectorizer(sparse=False)),
-            ('feature_selection', SelectKBest(k=10)),
+            # ('feature_selection', SelectKBest(k=10)),
             ('pca', PCA()),
             # ('clf', SVC(C=10, kernel='poly', random_state=0))
             # ('clf', KNeighborsClassifier(n_neighbors=7))

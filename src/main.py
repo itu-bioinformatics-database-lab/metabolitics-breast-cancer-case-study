@@ -6,6 +6,7 @@ from services import DataReader, NamingService
 from api import app
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
+from sklearn.feature_selection import f_classif
 
 
 @click.group()
@@ -100,6 +101,15 @@ def fva_diff_range_solutions(filename):
     X_h = [x for x, l in zip(X, y) if l == 'h']
     X_bc = [x for x, l in zip(X, y) if l == 'bc']
     print(diff_range_solutions(X_h, X_bc))
+
+
+@cli.command()
+def most_correlated_reactions():
+    (X, y) = DataReader().read_fva_solutions()
+    (F, pval) = f_classif(X, y)
+
+    import pdb
+    pdb.set_trace()
 
 
 if __name__ == '__main__':
