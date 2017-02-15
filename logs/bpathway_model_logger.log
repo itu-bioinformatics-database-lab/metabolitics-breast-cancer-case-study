@@ -148,3 +148,1025 @@ cit_c
 ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
 andrstndn_c
 RE2766C + RE1096C >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+c6crn_x
+C6COAt + C6CRNtcx >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+bz_r
+BZtr + COKECBESr >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+pac_m
+r0546 + r0548 >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+inost_r
+RE3273R + r0826 >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+ser_L_x
+SERtp + SPTix >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+inost_r
+RE3273R + r0826 >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+c6crn_x
+C6COAt + C6CRNtcx >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+bz_r
+BZtr + COKECBESr >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+pac_m
+r0546 + r0548 >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+ser_L_x
+SERtp + SPTix >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+pac_m
+r0546 + r0548 >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+inost_r
+RE3273R + r0826 >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+pac_m
+r0546 + r0548 >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+inost_r
+RE3273R + r0826 >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+inost_r
+RE3273R + r0826 >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+pac_m
+r0546 + r0548 >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+C10164_c
+0 <= RE0549C <= 1000 >= 0
+3mop_m
+ILETAm + 3MOPt2im + OIVD3m + r0670 >= 0
+2coum_c
+0.0 <= BDG2HCGHD <= 1000 >= 0
+12ppd_R_c
+PPDOx + PPDOy >= 0
+leu_L_m
+LEUTAm + LEUt5m >= 0
+5hoxindoa_c
+r0758 + 5HOXINDACTO2OX + ACSOMT >= 0
+C06199_l
+0.0 <= RE3233L <= 1000 >= 0
+thm_e
+EX_thm_LPAREN_e_RPAREN_ + THMt3 + THMATPe >= 0
+nac_c
+NACSMCTte + r0391 + NACDe + NACHORCTL3le + NP1 >= 0
+acgam_l
+r0909 + ACGAMtly + AHEXASE2ly + AHEXASEly + B_MANNASEly + ENGASE2ly + ENGASE3ly + ENGASEly + GLCAASE9ly + GLCNACASE1ly + GLCNACASE2ly + GLCNACASE3ly + GLCNACASE4ly + GLCNACASE5ly + NACHEX10ly + NACHEX11ly + NACHEX12ly + NACHEX13ly + NACHEX14ly + NACHEX15ly + NACHEX16ly + NACHEX17ly + NACHEX18ly + NACHEX19ly + NACHEX20ly + NACHEX21ly + NACHEX22ly + NACHEX23ly + NACHEX24ly + NACHEX25ly + NACHEX26ly + NACHEX27ly + NACHEXA10ly + NACHEXA11ly + NACHEXA12ly + NACHEXA13ly + NACHEXA14ly + NACHEXA15ly + NACHEXA16ly + NACHEXA17ly + NACHEXA18ly + NACHEXA19ly + NACHEXA20ly + NACHEXA21ly + NACHEXA22ly + NACHEXA9ly + NAGLCAly + r0013 >= 0
+pser_L_c
+PSERT + PSP_L >= 0
+ala_D_c
+ALADGLNexR + ALADGLYexR + ALAR + DALAt2r + DALAt2rL + ALA_DASH_DTDe + DALAxt >= 0
+ivcrn_c
+C50CPT1 + IVCRNe >= 0
+sarcs_m
+DMGDHm + SARCStm + SARDHm >= 0
+trp_L_c
+RE2476C + TRPt + r0403 + r1547 + r1561 + r1574 + r1586 + r1597 + r1608 + r1609 + r1610 + r1611 + r1612 + r1613 + r1614 + r1615 + r1616 + r1617 + LTDCL + TRPATB0tc + TRPB0AT3tc + TRPHYDRO2 + TRPO2 + TRPt4 + biomass_protein + r1077 + r1676 + r1691 + r1706 + r1721 + r1736 + r1747 + r1748 + r1749 + r1750 + r1751 + r1752 + r1753 + r1754 + r1755 + r1756 + r1757 + r1758 + r1759 + r1760 + r1761 + r1767 + r1782 + r1797 + r1812 + r1827 + r1842 + r1857 + r1872 + r1887 + r1902 + r1937 + r1938 + r1939 + r1940 + r1941 + r1997 + r2013 + r2029 + r2045 + r2061 >= 0
+stcrn_m
+C180CPT2 + C180CRNt >= 0
+xylt_e
+EX_xylt_LPAREN_e_RPAREN_ + XYLTt >= 0
+cit_c
+ACONT + CITt4_2 + CITt4_4 + CITtam + CITtbm + r0915 + r0917 + r1088 + r2371 + r2373 + r2374 + ACITL + CITL + r2381 + r2382 + r2384 >= 0
+andrstndn_c
+RE2766C + RE1096C >= 0
+acnam_l
+ACNAMlt + SIAASE2ly + SIAASE3ly + SIAASE4ly + SIAASEly >= 0
+dhap_x
+r0202 + DHAPAx >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+c10crn_e
+EX_c10crn_ + C10CRNe >= 0
+5htrp_e
+EX_5htrp_LPAREN_e_RPAREN_ + 5HTRPVESSEC >= 0
+hom_L_e
+EX_hom_L_LPAREN_e_RPAREN_ + r1556 + r1570 + r1583 + r1595 + r1606 + r1616 + r1625 + r1633 + r1640 + r1646 + r1651 + r1655 + r1658 + r1660 + r1662 + r2535 + HOMt4 + r1685 + r1700 + r1715 + r1730 + r1745 + r1760 + r1775 + r1790 + r1805 + r1820 + r1835 + r1850 + r1865 + r1880 + r1882 + r1883 + r1884 + r1885 + r1886 + r1887 + r1888 + r1889 + r1890 + r1891 + r1892 + r1893 + r1894 + r1895 + r1896 + r1911 + r1982 + r1983 + r1984 + r1985 + r1986 + r2006 + r2022 + r2038 + r2054 + r2070 >= 0
+gln_L_e
+ALADGLNexR + ALAGLNexR + CYSGLUexR + EX_gln_L_LPAREN_e_RPAREN_ + GLNtN1 + SERDGLNexR + SERGLNexR + THRGLNexR + r1544 + r1573 + r1574 + r1575 + r1576 + r1578 + r1579 + r1580 + r1581 + r1583 + r1584 + r2525 + ALAGLNNaEx + ASNGLNNaEx + CYSGLNNaEx + GLNALANaEx + GLNASNNaEx + GLNATB0tc + GLNB0AT3tc + GLNCYSNaEx + GLNSERNaEx + GLNTHRNaEx + GLNt4 + GLNyLATthc + SERGLNNaEx + THRGLNNaEx + r1673 + r1702 + r1705 + r1706 + r1707 + r1708 + r1710 + r1711 + r1713 + r1715 + r1716 + r1734 + r1749 + r1764 + r1779 + r1809 + r1824 + r1854 + r1884 + r1899 + r1922 + r1923 + r1924 + r1925 + r1926 + r1994 + r2010 + r2026 + r2042 + r2058 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+urate_e
+EX_urate_LPAREN_e_RPAREN_ + RE2888E + URATEt + r1536 >= 0
+CE6205_c
+0.0 <= RE2562C <= 1000 >= 0
+4mop_c
+4MOPte + LEUTA + RE2292C + 4MOPt2im + RE1266C >= 0
+Lpipecol_x
+1PPDCRp + LPCOXp >= 0
+c4crn_m
+C4CRNCPT2 + C4tmc + r2438 >= 0
+sphs1p_e
+EX_sphs1p_LPAREN_e_RPAREN_ + SPHS1Pte >= 0
+succ_r
+0.0 <= PROAKGOX1r <= 1000 >= 0
+lac_D_c
+D_LACt2 + D_LACtm + LDH_D + GLYOX + LCADi_D >= 0
+glc_D_c
+GLCt2_2 + GLCt4 + GLCter + GLCtg + BDG2HCGHD + GBA + GLCGLUT2 + GLCSGLT1le + GLCtly + GLDBRAN + GLPASE2 + HEX1 + MALT + MLTG1 + SBTR + TREH + r0354 + r0355 + r1392 >= 0
+ddeccrn_m
+C120CPT2 + C120CRNt >= 0
+gua_e
+EX_gua_LPAREN_e_RPAREN_ + GUAt >= 0
+6pgc_c
+RE0124C + GNDc + PGL >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+glcur_c
+GLCURtly + RE0383C + RE2541C + RE3381C + GLCURter + GUR1PP + INOSTO + UDPGNP >= 0
+ser_L_x
+SERtp + SPTix >= 0
+lnlccrn_m
+LNLCCPT2 + LNLCCRNt >= 0
+prgstrn_e
+EX_prgstrn_LPAREN_e_RPAREN_ + PRGSTRNt >= 0
+fum_m
+FUMSO3tm + FUMSO4tm + FUMTSULtm + FUMm + FUMtm + SUCD1m + r0821 + r0822 >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+vacccrn_m
+VACCCPT2 + VACCCRNt + r2436 >= 0
+3mob_c
+3MOBte + VALTA + 3MOBt2im >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+C01507_c
+0 <= RE1317C <= 1000 >= 0
+25hvitd3_c
+25HVITD3c + 25HVITD3tin + 25HVITD3tm + RE1303C + RE1308C + RE2240C >= 0
+creat_m
+CK + CREATtmdiffir >= 0
+chol_m
+CHLtm + CHOLD2m + PCHOLPm_hs >= 0
+hyptaur_c
+r0381 + r0539 + 3SALACBOXL + HYPTROX >= 0
+cyst_L_m
+0 <= RE2156M <= 1000 >= 0
+val_L_e
+EX_val_L_LPAREN_e_RPAREN_ + VALB0AT2tc + VALtec + r1554 + r1568 + r1581 + r1593 + r1604 + r1614 + r1631 + r1638 + r1649 + r1653 + r1657 + r1658 + r1659 + VALATB0tc + VALB0AT3tc + VALLAT1tc + VALPHELAT2tc + r1683 + r1698 + r1713 + r1728 + r1743 + r1758 + r1773 + r1788 + r1803 + r1818 + r1833 + r1848 + r1852 + r1853 + r1854 + r1855 + r1856 + r1857 + r1858 + r1859 + r1860 + r1861 + r1862 + r1863 + r1864 + r1865 + r1866 + r1879 + r1894 + r1909 + r1972 + r1973 + r1974 + r1975 + r1976 + r2004 + r2020 + r2036 + r2052 + r2068 >= 0
+dmnoncrn_x
+C9BRxtc + CRNtx + CSNAT2x >= 0
+dhdascb_c
+DHAAt1r + RE2864C + RE2865C + RE2866C + RE2867C + RE2868C + RE2869C + RE2870C + RE2871C + RE2872C + RE2873C + RE2874C + RE2875C + RE2876C + RE2877C + RE2878C + RE2880C + RE2899C + RE3450C + RE3453C + RE3456C + RE3459C + RE3490C + RE3493C + RE3570C + ASCBOX + DASCBH + DASCBR + DOPABMO + GTHDH + RE2898C >= 0
+fru_e
+EX_fru_LPAREN_e_RPAREN_ + FRUt1r + FRUt4 + SUCRe >= 0
+im4ac_c
+0.0 <= IMACTD <= 1000 >= 0
+L2aadp6sa_m
+r0525 + r2539 + AASAD3m + SACCD4m >= 0
+1p2cbxl_x
+0.0 <= DPROOp <= 1000 >= 0
+inost_r
+RE3273R + r0826 >= 0
+tyr_L_l
+0.0 <= r1080 <= 1000 >= 0
+hdd2crn_c
+C161CPT12 + C161CRN2t >= 0
+pyr_m
+D3AIBTm + DDPGAm + LDH_Lm + r0081 + r1464 + 3SPYRSPm + AGTim + CITMCOALm + ME1m + ME2m + MESCOALm + PCm + PDHm + PYRt2m + r0157 + r0383 >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+orn_m
+ORNTArm + r0947 + ARGNm + OCBTm + ORNt3m + ORNt4m + r2396 + r2400 + r2403 + r2404 + r2405 + r2408 >= 0
+lys_L_m
+LYStm + APOCFm + BTNDm + SACCD3m + r2395 + r2396 + r2397 + r2398 + r2399 + r2403 + r2406 + r2410 >= 0
+pac_m
+r0546 + r0548 >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+gudac_c
+GACMTRc + GLYAMDTRc >= 0
+arab_L_c
+ARAB_Lt + ARABR >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+C02356_c
+RE2034C + RE2040C >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+ru5p_D_c
+RPE + RPI + r0841 + GNDc + RBK_D >= 0
+glyald_m
+r0246 + r0393 >= 0
+thr_L_e
+EX_thr_L_LPAREN_e_RPAREN_ + THRGLNexR + THRGLYexR + r1569 + r1594 + r1605 + r1615 + r1632 + r1639 + r1645 + r1650 + r1654 + r1657 + r1660 + r1661 + r2534 + ALATHRNaEx + ASNTHRNaEx + CYSTHRNaEx + GLNTHRNaEx + SERTHRNaEx + THRALANaEx + THRASNNaEx + THRATB0tc + THRCYSNaEx + THRGLNNaEx + THRPHELAT2tc + THRSERNaEx + THRt4 + r1684 + r1744 + r1759 + r1774 + r1789 + r1819 + r1834 + r1864 + r1867 + r1871 + r1872 + r1873 + r1874 + r1876 + r1877 + r1879 + r1880 + r1881 + r1895 + r1910 + r1977 + r1978 + r1979 + r1980 + r1981 + r2005 + r2021 + r2037 + r2053 + r2069 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+HC02024_r
+r1168 + r1179 >= 0
+oxa_c
+r2374 + r2376 + r2380 + r2420 + CLOXAtex2 + DOGULNO1 + DOGULNO2 + GLXO1 + OXAHCOtex + OXAtp + SO4OXAtex2 + r2384 + r2388 + r2392 >= 0
+phe_L_l
+0.0 <= r1074 <= 1000 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+C01601_c
+0 <= RE3411C <= 1000 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+urea_m
+UREAtm + AGMTm + ARGNm >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+hxan_e
+EX_hxan_LPAREN_e_RPAREN_ + HYXNt >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+glyc_c
+GLYCTDle + GLYCtm + H2OGLYAQPt + RE2067C + RE2068C + RE2563C + r0245 + GLYK + LPS3 >= 0
+3hmp_m
+HIBDm + 3HBCOAHLm + r0779 >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+C02356_c
+RE2034C + RE2040C >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+ru5p_D_c
+RPE + RPI + r0841 + GNDc + RBK_D >= 0
+glyald_m
+r0246 + r0393 >= 0
+thr_L_e
+EX_thr_L_LPAREN_e_RPAREN_ + THRGLNexR + THRGLYexR + r1569 + r1594 + r1605 + r1615 + r1632 + r1639 + r1645 + r1650 + r1654 + r1657 + r1660 + r1661 + r2534 + ALATHRNaEx + ASNTHRNaEx + CYSTHRNaEx + GLNTHRNaEx + SERTHRNaEx + THRALANaEx + THRASNNaEx + THRATB0tc + THRCYSNaEx + THRGLNNaEx + THRPHELAT2tc + THRSERNaEx + THRt4 + r1684 + r1744 + r1759 + r1774 + r1789 + r1819 + r1834 + r1864 + r1867 + r1871 + r1872 + r1873 + r1874 + r1876 + r1877 + r1879 + r1880 + r1881 + r1895 + r1910 + r1977 + r1978 + r1979 + r1980 + r1981 + r2005 + r2021 + r2037 + r2053 + r2069 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+HC02024_r
+r1168 + r1179 >= 0
+oxa_c
+r2374 + r2376 + r2380 + r2420 + CLOXAtex2 + DOGULNO1 + DOGULNO2 + GLXO1 + OXAHCOtex + OXAtp + SO4OXAtex2 + r2384 + r2388 + r2392 >= 0
+phe_L_l
+0.0 <= r1074 <= 1000 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+C01601_c
+0 <= RE3411C <= 1000 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+urea_m
+UREAtm + AGMTm + ARGNm >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+hxan_e
+EX_hxan_LPAREN_e_RPAREN_ + HYXNt >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+glyc_c
+GLYCTDle + GLYCtm + H2OGLYAQPt + RE2067C + RE2068C + RE2563C + r0245 + GLYK + LPS3 >= 0
+3hmp_m
+HIBDm + 3HBCOAHLm + r0779 >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0
+pro_D_l
+0 <= PRODt2rL <= 1000 >= 0
+ile_L_e
+EX_ile_L_LPAREN_e_RPAREN_ + ILEB0AT2tc + ILEtec + RE0936E + RE0937E + r1557 + r1571 + r1584 + r1596 + r1607 + r1617 + r1634 + r1641 + r1652 + r1656 + r1659 + r1661 + r1662 + ILEATB0tc + ILEB0AT3tc + ILELAT1tc + ILEPHELAT2tc + r1686 + r1701 + r1716 + r1731 + r1746 + r1761 + r1776 + r1791 + r1806 + r1821 + r1836 + r1851 + r1866 + r1881 + r1896 + r1897 + r1898 + r1899 + r1900 + r1901 + r1902 + r1903 + r1904 + r1905 + r1906 + r1907 + r1908 + r1909 + r1910 + r1911 + r1987 + r1988 + r1989 + r1990 + r1991 + r2007 + r2023 + r2039 + r2055 + r2071 >= 0
+HC02024_r
+r1168 + r1179 >= 0
+ser_L_x
+SERtp + SPTix >= 0
+C02356_c
+RE2034C + RE2040C >= 0
+ru5p_D_c
+RPE + RPI + r0841 + GNDc + RBK_D >= 0
+glyald_m
+r0246 + r0393 >= 0
+thr_L_e
+EX_thr_L_LPAREN_e_RPAREN_ + THRGLNexR + THRGLYexR + r1569 + r1594 + r1605 + r1615 + r1632 + r1639 + r1645 + r1650 + r1654 + r1657 + r1660 + r1661 + r2534 + ALATHRNaEx + ASNTHRNaEx + CYSTHRNaEx + GLNTHRNaEx + SERTHRNaEx + THRALANaEx + THRASNNaEx + THRATB0tc + THRCYSNaEx + THRGLNNaEx + THRPHELAT2tc + THRSERNaEx + THRt4 + r1684 + r1744 + r1759 + r1774 + r1789 + r1819 + r1834 + r1864 + r1867 + r1871 + r1872 + r1873 + r1874 + r1876 + r1877 + r1879 + r1880 + r1881 + r1895 + r1910 + r1977 + r1978 + r1979 + r1980 + r1981 + r2005 + r2021 + r2037 + r2053 + r2069 >= 0
+cys_L_m
+CYSTAm + RE2223M + r1437 >= 0
+oxa_c
+r2374 + r2376 + r2380 + r2420 + CLOXAtex2 + DOGULNO1 + DOGULNO2 + GLXO1 + OXAHCOtex + OXAtp + SO4OXAtex2 + r2384 + r2388 + r2392 >= 0
+phe_L_l
+0.0 <= r1074 <= 1000 >= 0
+ura_c
+DURAD + DURIPP + PYNP2r + URAt + CSND + r0236 >= 0
+hxan_e
+EX_hxan_LPAREN_e_RPAREN_ + HYXNt >= 0
+C01601_c
+0 <= RE3411C <= 1000 >= 0
+citr_L_m
+CITRtm + r0947 + OCBTm + ORNt4m + r2398 + r2402 + r2409 + r2410 + r2411 + r2413 >= 0
+urea_m
+UREAtm + AGMTm + ARGNm >= 0
+gly_m
+GCC2am + GCCam + GHMT2rm + GLYATm + GLYtm + RE2111M + RE2117M + RE2427M + RE2428M + RE2429M + r0196 + AGTim + ALASm + GHMT3m + SARDHm + r0295 >= 0
+asn_L_c
+ASNtN1 + RE2644C + r1553 + r1567 + r1580 + r1592 + r1603 + r1613 + r1630 + r1637 + r1643 + r1648 + r1653 + r1654 + r1655 + r1656 + r2532 + ALAASNNaEx + ASNALANaEx + ASNATB0tc + ASNB0AT3tc + ASNCYSNaEx + ASNGLNNaEx + ASNPHELAT2tc + ASNS1 + ASNSERNaEx + ASNTHRNaEx + ASNt4 + ASNtm + CYSASNNaEx + GLNASNNaEx + SERASNNaEx + THRASNNaEx + biomass_protein + r0127 + r1061 + r1682 + r1742 + r1757 + r1772 + r1787 + r1817 + r1832 + r1837 + r1841 + r1842 + r1843 + r1844 + r1846 + r1847 + r1848 + r1850 + r1851 + r1863 + r1893 + r1908 + r1967 + r1968 + r1969 + r1970 + r1971 + r2003 + r2019 + r2035 + r2051 + r2067 >= 0
+glyc_c
+GLYCTDle + GLYCtm + H2OGLYAQPt + RE2067C + RE2068C + RE2563C + r0245 + GLYK + LPS3 >= 0
+3hmp_m
+HIBDm + 3HBCOAHLm + r0779 >= 0
+Lcystin_c
+CYSGLTH + r0027 + CYSLYSL + CYSTALArBATtc + CYSTGLUex + CYSTLEUrBATtc + CYSTSERex + DM_Lcystin >= 0

@@ -8,9 +8,11 @@ class FVAScaler(TransformerMixin):
     """Scaler for converting metabolic level data
         into fva reaction min max values"""
 
-    def __init__(self, vectorizer, dataset_name="recon-model"):
+    def __init__(self, vectorizer, dataset_name="recon-model",
+                 filter_by_subsystem=False):
         super().__init__()
         self.analyzer = BaseFVA.create_for(dataset_name)
+        self.filter_by_subsystem = filter_by_subsystem
         self.vectorizer = vectorizer
 
     def fit(self, X, y):
@@ -25,7 +27,8 @@ class FVAScaler(TransformerMixin):
 
     def _sample_transformation(self, x):
         nex_x = dict()
-        for r in self.analyzer.analyze(x).data_frame.itertuples():
+        for r in self.analyzer.analyze(x, self.filter_by_subsystem) \
+                .data_frame.itertuples():
             nex_x['%s_max' % r.Index] = r.upper_bound
             nex_x['%s_min' % r.Index] = r.lower_bound
         return nex_x

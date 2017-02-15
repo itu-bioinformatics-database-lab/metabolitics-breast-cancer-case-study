@@ -63,3 +63,9 @@ class TestBaseFVA(unittest.TestCase):
         df = self.analyzer.analyze(measured_metabolites).data_frame
         self.assertIsNotNone(df.loc['EX_fum_e'].upper_bound)
         self.assertIsNotNone(df.loc['EX_fum_e'].lower_bound)
+
+    def test_filter_reaction_by_subsystems(self):
+        reactions = self.analyzer.filter_reaction_by_subsystems()
+        self.assertTrue(len(self.analyzer.reactions) > len(reactions))
+        num_systems = set(r.subsystem for r in self.analyzer.reactions)
+        self.assertTrue(len(num_systems) * 3 >= len(reactions))
