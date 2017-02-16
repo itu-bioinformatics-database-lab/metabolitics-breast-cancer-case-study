@@ -1,12 +1,16 @@
 import click
 import cobra as cb
 
+from sklearn.feature_selection import f_classif
+from sklearn.feature_extraction import DictVectorizer
+import numpy as np
+import pandas as pd
+
 import scripts
 from services import DataReader, NamingService
 from api import app
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
-from sklearn.feature_selection import f_classif
 
 
 @click.group()
@@ -104,12 +108,23 @@ def fva_diff_range_solutions(filename):
 
 
 @cli.command()
-def most_correlated_reactions():
+@click.argument('top_num_reaction')
+def most_correlated_reactions(top_num_reaction):
     (X, y) = DataReader().read_fva_solutions()
+    vect = DictVectorizer()
+    X = vect.fit_transform(X)
     (F, pval) = f_classif(X, y)
 
-    import pdb
-    pdb.set_trace()
+    top_n = sorted(zip(vect.feature_names_, F[~np.isnan(F)]),
+                   key=lambda x: x[1], reverse=True)[:int(top_num_reaction)]
+
+    model = DataReader().read_network_model()
+    for n, v in top_n:
+        print('name:', n[:-4])
+        print('reaction:', model.reactions.get_by_id(n[:-4]).reaction)
+        print('min-max:', n[-3:])
+        print('F:', v)
+        print('-' * 10)
 
 
 if __name__ == '__main__':
