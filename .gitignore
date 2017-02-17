@@ -1,5 +1,7 @@
 __pycache__
 *.pyc
 env/
-*.ipynb*
+.ipynb_checkpoints
 .Rhistory
+/src/**/*.ipynb
+!/src/notebooks/**/*.ipynb

@@ -103,7 +103,7 @@ class TestFVAScaler(unittest.TestCase):
 class TestFVARangedMeasurement(unittest.TestCase):
 
     def setUp(self):
-        (X, y) = DataReader().read_all()
+        (X, y) = DataReader().read_data('BC')
         X = NamingService('recon').to(X)
 
         Xy = next(filter(lambda k: k[1] == 'h', zip(X, y)))
