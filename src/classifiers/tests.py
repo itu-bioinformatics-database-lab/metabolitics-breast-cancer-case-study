@@ -71,7 +71,7 @@ class TestFVAClass(unittest.TestCase):
 
     def setUp(self):
         self.clf = FVADiseaseClassifier()
-        (self.X, self.y) = DataReader().read_fva_solutions()
+        (self.X, self.y) = DataReader().read_fva_solutions('fva_solutions5.txt')
 
         (self.X_train, self.X_test, self.y_train, self.y_test) =  \
             train_test_split(self.X, self.y, random_state=0)

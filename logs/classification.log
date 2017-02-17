@@ -3,133 +3,15 @@
         sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
   svd_solver='auto', tol=0.0, whiten=False)), ('clf', MLPClassifier(activation='logistic', alpha=0.0001...
        solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
-       warm_start=False))])
-
-train accuracy: 1.000000
-test accuracy: 0.962963
-
-              precision    recall  f1-score   support
-
-         bc       1.00      0.95      0.97        40
-          h       0.88      1.00      0.93        14
-
-avg / total       0.97      0.96      0.96        54
-
- Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('feature_selection', SelectKBest(k=100, score_func=<function f_classif at 0x7fe5722bbbf8>)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_sol...
-       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
        warm_start=False))]) 
 
-train accuracy: 0.937500
-test accuracy: 0.907407
+train accuracy: 0.612500
+test accuracy: 0.740741
 
               precision    recall  f1-score   support
 
-         bc       0.97      0.90      0.94        40
-          h       0.76      0.93      0.84        14
+         bc       0.74      1.00      0.85        40
+          h       0.00      0.00      0.00        14
 
-avg / total       0.92      0.91      0.91        54
-
-
- Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('feature_selection', SelectKBest(k=20, score_func=<function f_classif at 0x7fd85038ebf8>)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_solv...
-       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
-       warm_start=False))]) 
-
-train accuracy: 0.875000
-test accuracy: 0.944444
-
-              precision    recall  f1-score   support
-
-         bc       0.93      1.00      0.96        40
-          h       1.00      0.79      0.88        14
-
-avg / total       0.95      0.94      0.94        54
-
-
- Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('feature_selection', SelectKBest(k=10, score_func=<function f_classif at 0x7f39c79cfbf8>)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_solv...
-       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
-       warm_start=False))]) 
-
-train accuracy: 0.875000
-test accuracy: 0.944444
-
-              precision    recall  f1-score   support
-
-         bc       0.93      1.00      0.96        40
-          h       1.00      0.79      0.88        14
-
-avg / total       0.95      0.94      0.94        54
-
-
- Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f23f9d0e978>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_solver='auto', tol=0.0, whiten=False)), ('clf', DummyClassifier(constant=None, random_state=None, strategy='uniform'))]) 
-
-train accuracy: 0.344710
-test accuracy: 0.336735
-
-              precision    recall  f1-score   support
-
-         bc       0.37      0.29      0.32        35
-          h       0.38      0.38      0.38        39
-        hcc       0.16      0.21      0.18        24
-
-avg / total       0.32      0.31      0.31        98
-
-
- Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_solver='auto', tol=0.0, whiten=False)), ('clf', MLPClassifier(activation='logistic', alpha=0.0001...
-       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
-       warm_start=False))]) 
-
-train accuracy: 1.000000
-test accuracy: 0.962963
-
-              precision    recall  f1-score   support
-
-         bc       1.00      0.95      0.97        40
-          h       0.88      1.00      0.93        14
-
-avg / total       0.97      0.96      0.96        54
-
-
- Pipeline(steps=[('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('scaler', MetabolicStandardScaler()), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
-  svd_solver='auto', tol=0.0, whiten=False)), ('clf', SVC(C=0.01,...ar',
-  max_iter=-1, probability=False, random_state=0, shrinking=True,
-  tol=0.001, verbose=False))]) 
-
-train accuracy: 1.000000
-test accuracy: 0.959184
-
-              precision    recall  f1-score   support
-
-         bc       0.97      0.94      0.96        35
-          h       0.93      0.97      0.95        39
-        hcc       1.00      0.96      0.98        24
-
-avg / total       0.96      0.96      0.96        98
-
-
- Pipeline(steps=[('scaler_most_active', <preprocessing.most_active_pathway_scaler.MostActivePathwayScaler object at 0x7f23fc22e358>), ('vect', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
-        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random...bf',
-  max_iter=-1, probability=False, random_state=0, shrinking=True,
-  tol=0.001, verbose=False))]) 
-
-train accuracy: 0.525597
-test accuracy: 0.551020
-
-              precision    recall  f1-score   support
-
-         bc       0.57      0.89      0.70        35
-          h       0.52      0.28      0.37        39
-        hcc       0.52      0.50      0.51        24
-
-avg / total       0.54      0.55      0.52        98
+avg / total       0.55      0.74      0.63        54
 

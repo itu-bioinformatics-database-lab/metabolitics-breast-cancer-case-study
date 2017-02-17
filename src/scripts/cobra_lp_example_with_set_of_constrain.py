@@ -1,6 +1,8 @@
 from cobra import Model, Metabolite, Reaction
+from .cli import cli
 
 
+@cli.command()
 def cobra_lp_example_with_set_of_constrain():
 
     # max cone * cone_margin + popsicle * popsicle margin

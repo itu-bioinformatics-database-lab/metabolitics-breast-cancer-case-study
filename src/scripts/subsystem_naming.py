@@ -1,9 +1,9 @@
 from services import DataReader
-import operator
 from functools import reduce
-from models import *
+from .cli import cli
 
 
+@cli.command()
 def subsystem_naming():
     categoires = DataReader().read_subsystem_categories()
     subsystems = reduce(set.union, categoires.values())

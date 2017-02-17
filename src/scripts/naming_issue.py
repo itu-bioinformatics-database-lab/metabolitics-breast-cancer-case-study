@@ -1,3 +1,4 @@
+from .cli import cli
 from services import NamingService, DataReader
 
 
@@ -7,6 +8,7 @@ def report_matching(a, b, a_name, b_name):
     print()
 
 
+@cli.command()
 def naming_issue():
 
     human_names = set(NamingService('recon')._names.keys())
