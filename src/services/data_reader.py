@@ -3,7 +3,7 @@ import json
 
 import cobra as cb
 import pandas as pd
-
+from cobra.core import Model, DictList, Reaction, Metabolite
 
 class DataReader(object):
 
@@ -62,6 +62,41 @@ class DataReader(object):
         path = '../dataset/subsystem-categories/%s.json' % name
         with open(path) as f:
             return {k: set(v) for k, v in json.load(f).items()}
+
+    def create_example_model(self):
+        model = Model('example_model')
+
+        r1 = Reaction('R1')
+        r1.name = 'R1'
+        r1.lower_bound = 0.
+        r1.upper_bound = 1000.
+        r1.objective_coefficient = 0.
+
+        r2 = Reaction('R2')
+        r2.name = 'R2'
+        r2.lower_bound = 0.
+        r2.upper_bound = 1000.
+        r2.objective_coefficient = 0.
+
+        r3 = Reaction('R3')
+        r3.name = 'R3'
+        r3.lower_bound = 0
+        r3.upper_bound = 1000
+        r3.objective_coefficient = 0
+
+        ACP_c = Metabolite(
+            'ACP_c',
+            formula='C11H21N2O7PRS',
+            name='acyl-carrier-protein',
+            compartment='c')
+
+        r1.add_metabolites({ACP_c: 1.0})
+        r2.add_metabolites({ACP_c: 1.0})
+        r3.add_metabolites({ACP_c: -1.0})
+
+        model.add_reactions([r1, r2, r3])
+
+        return model
 
     # def read_measured_metabolites_formated(self, name='recon'):
     #     '''Read measured metabolites metablites named and stadart scaled'''

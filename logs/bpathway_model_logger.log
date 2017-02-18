@@ -1176,3 +1176,69 @@ gln__L_c
 BIOMASS_Ecoli_core_w_GAM + GLNS + GLNabc + GLUN + GLUSy >= 0
 h2o2_p
 H2O2tex + SPODMpp >= 0
+inost_r
+RE3273R + r0826 >= 0
+inost_r
+RE3273R + r0826 >= 0
+inost_r
+RE3273R + r0826 >= 0
+inost_r
+f4cf437b-f5f7-11e6-be80-e9177c3519c1: var_MI1PP = 1 -> 0.001 <= 0.0 <= MI1PP <= 1000
+f4cf437d-f5f7-11e6-a38a-e9177c3519c1: var_RE3273C = 1 -> 0.001 <= 0 <= RE3273C <= 1000
+f4cf437f-f5f7-11e6-bfdc-e9177c3519c1: var_INSTt2r = 1 -> 0.001 <= 0 <= INSTt2r <= 1000
+f4cf4381-f5f7-11e6-8106-e9177c3519c1: var_MI3PP = 1 -> 0.001 <= 0.0 <= MI3PP <= 1000
+f4cf4383-f5f7-11e6-9a71-e9177c3519c1: var_MI4PP = 1 -> 0.001 <= 0.0 <= MI4PP <= 1000
+f4cf4385-f5f7-11e6-af0e-e9177c3519c1: var_INSTt4_2 = 1 -> 0.001 <= 0 <= INSTt4_2 <= 1000
+f4cf4387-f5f7-11e6-93c6-e9177c3519c1: var_INSTt4 = 1 -> 0.001 <= 0 <= INSTt4 <= 1000
+f4cf4389-f5f7-11e6-992a-e9177c3519c1: var_r0826 = 1 -> 0.001 <= 0.0 <= r0826 <= 1000
+f4cf438b-f5f7-11e6-8381-e9177c3519c1: var_RE3273R = 1 -> 0.001 <= 0 <= RE3273R <= 1000
+f4cf438d-f5f7-11e6-b72f-e9177c3519c1: var_RE3273G = 1 -> 0.001 <= 0 <= RE3273G <= 1000
+f4cf438e-f5f7-11e6-8dce-e9177c3519c1: 1 <= var_INSTt2r + var_INSTt4 + var_INSTt4_2 + var_MI1PP + var_MI3PP + var_MI4PP + var_RE3273C + var_RE3273G + var_RE3273R + var_r0826 <= 10
+ACP_c
+f8caa840-f5f7-11e6-9666-e9177c3519c1: var_R1 = 1 -> 0.001 <= 0.0 <= R1 <= 1000.0
+f8caa842-f5f7-11e6-b7eb-e9177c3519c1: var_R2 = 1 -> 0.001 <= 0.0 <= R2 <= 1000.0
+f8caa843-f5f7-11e6-8333-e9177c3519c1: 1 <= var_R1 + var_R2 <= 2
+inost_r
+3c5d5987-f5f8-11e6-b140-e9177c3519c1: var_MI4PP = 1 -> 0.001 <= 0.0 <= MI4PP <= 1000
+3c5fbc03-f5f8-11e6-a5cc-e9177c3519c1: var_MI1PP = 1 -> 0.001 <= 0.0 <= MI1PP <= 1000
+3c5fbc05-f5f8-11e6-b3eb-e9177c3519c1: var_INSTt4_2 = 1 -> 0.001 <= 0 <= INSTt4_2 <= 1000
+3c5fbc07-f5f8-11e6-97f1-e9177c3519c1: var_INSTt4 = 1 -> 0.001 <= 0 <= INSTt4 <= 1000
+3c5fbc09-f5f8-11e6-a30f-e9177c3519c1: var_MI3PP = 1 -> 0.001 <= 0.0 <= MI3PP <= 1000
+3c5fbc0b-f5f8-11e6-9523-e9177c3519c1: var_INSTt2r = 1 -> 0.001 <= 0 <= INSTt2r <= 1000
+3c5fbc0d-f5f8-11e6-bd9b-e9177c3519c1: var_RE3273C = 1 -> 0.001 <= 0 <= RE3273C <= 1000
+3c5fbc0f-f5f8-11e6-acc1-e9177c3519c1: var_RE3273R = 1 -> 0.001 <= 0 <= RE3273R <= 1000
+3c5fbc11-f5f8-11e6-81dd-e9177c3519c1: var_r0826 = 1 -> 0.001 <= 0.0 <= r0826 <= 1000
+3c5fbc13-f5f8-11e6-a8f9-e9177c3519c1: var_RE3273G = 1 -> 0.001 <= 0 <= RE3273G <= 1000
+3c621e6e-f5f8-11e6-a765-e9177c3519c1: 1 <= var_INSTt2r + var_INSTt4 + var_INSTt4_2 + var_MI1PP + var_MI3PP + var_MI4PP + var_RE3273C + var_RE3273G + var_RE3273R + var_r0826 <= 10
+inost_r
+b1ce5437-f5f8-11e6-935f-e9177c3519c1: var_INSTt4_2 = 1 -> 0.001 <= 0 <= INSTt4_2 <= 1000
+b1ce7b62-f5f8-11e6-8b03-e9177c3519c1: var_INSTt4 = 1 -> 0.001 <= 0 <= INSTt4 <= 1000
+b1ce8ef4-f5f8-11e6-bb85-e9177c3519c1: var_MI1PP = 1 -> 0.001 <= 0.0 <= MI1PP <= 1000
+b1cea28a-f5f8-11e6-a8b8-e9177c3519c1: var_RE3273C = 1 -> 0.001 <= 0 <= RE3273C <= 1000
+b1cea28c-f5f8-11e6-bd72-e9177c3519c1: var_INSTt2r = 1 -> 0.001 <= 0 <= INSTt2r <= 1000
+b1ceb61f-f5f8-11e6-9673-e9177c3519c1: var_MI3PP = 1 -> 0.001 <= 0.0 <= MI3PP <= 1000
+b1cec9b9-f5f8-11e6-a51c-e9177c3519c1: var_MI4PP = 1 -> 0.001 <= 0.0 <= MI4PP <= 1000
+b1cedd4a-f5f8-11e6-ad05-e9177c3519c1: var_r0826 = 1 -> 0.001 <= 0.0 <= r0826 <= 1000
+b1cef0dc-f5f8-11e6-81e6-e9177c3519c1: var_RE3273R = 1 -> 0.001 <= 0 <= RE3273R <= 1000
+b1cef0de-f5f8-11e6-ac97-e9177c3519c1: var_RE3273G = 1 -> 0.001 <= 0 <= RE3273G <= 1000
+b1cf2b9c-f5f8-11e6-9f8e-e9177c3519c1: 1 <= var_INSTt2r + var_INSTt4 + var_INSTt4_2 + var_MI1PP + var_MI3PP + var_MI4PP + var_RE3273C + var_RE3273G + var_RE3273R + var_r0826 <= 10
+ACP_c
+b5be4d39-f5f8-11e6-9729-e9177c3519c1: var_R1 = 1 -> 0.001 <= 0.0 <= R1 <= 1000.0
+b5be4d3b-f5f8-11e6-93a9-e9177c3519c1: var_R2 = 1 -> 0.001 <= 0.0 <= R2 <= 1000.0
+b5be4d3c-f5f8-11e6-b9d3-e9177c3519c1: 1 <= var_R1 + var_R2 <= 2
+inost_r
+901285db-f601-11e6-98e0-e9177c3519c1: var_INSTt4_2 = 1 -> 0.001 <= 0 <= INSTt4_2 <= 1000
+901285dd-f601-11e6-8563-e9177c3519c1: var_INSTt4 = 1 -> 0.001 <= 0 <= INSTt4 <= 1000
+901285df-f601-11e6-b458-e9177c3519c1: var_MI1PP = 1 -> 0.001 <= 0.0 <= MI1PP <= 1000
+901285e1-f601-11e6-af25-e9177c3519c1: var_RE3273C = 1 -> 0.001 <= 0 <= RE3273C <= 1000
+901285e3-f601-11e6-bc14-e9177c3519c1: var_INSTt2r = 1 -> 0.001 <= 0 <= INSTt2r <= 1000
+901285e5-f601-11e6-b8c3-e9177c3519c1: var_MI3PP = 1 -> 0.001 <= 0.0 <= MI3PP <= 1000
+901285e7-f601-11e6-ac0d-e9177c3519c1: var_MI4PP = 1 -> 0.001 <= 0.0 <= MI4PP <= 1000
+901285e9-f601-11e6-87bc-e9177c3519c1: var_r0826 = 1 -> 0.001 <= 0.0 <= r0826 <= 1000
+901285eb-f601-11e6-8a33-e9177c3519c1: var_RE3273R = 1 -> 0.001 <= 0 <= RE3273R <= 1000
+901285ed-f601-11e6-80df-e9177c3519c1: var_RE3273G = 1 -> 0.001 <= 0 <= RE3273G <= 1000
+901285ee-f601-11e6-a18d-e9177c3519c1: 1 <= var_INSTt2r + var_INSTt4 + var_INSTt4_2 + var_MI1PP + var_MI3PP + var_MI4PP + var_RE3273C + var_RE3273G + var_RE3273R + var_r0826 <= 10
+ACP_c
+94479d75-f601-11e6-bbe1-e9177c3519c1: var_R1 = 1 -> 0.001 <= 0.0 <= R1 <= 1000.0
+94479d77-f601-11e6-b0b1-e9177c3519c1: var_R2 = 1 -> 0.001 <= 0.0 <= R2 <= 1000.0
+94479d78-f601-11e6-9121-e9177c3519c1: 1 <= var_R1 + var_R2 <= 2

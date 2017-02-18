@@ -1,12 +1,14 @@
 from .base_pathway_model import BasePathwayModel
-from cameo import flux_variability_analysis
+from cameo import flux_variability_analysis, fba
 from cobra.core import DictList
 
 
 class BaseFVA(BasePathwayModel):
 
-    def analyze(self, measured_metabolites, filter_by_subsystem=False):
-        # self.increasing_metabolite_constrains(measured_metabolites)
+    def analyze(self, measured_metabolites, filter_by_subsystem=False, add_constraints=False):
+        if add_constraints:
+            self.increasing_metabolite_constrains(measured_metabolites)
+
         self.set_objective_coefficients(measured_metabolites)
 
         reactions = None
@@ -14,6 +16,18 @@ class BaseFVA(BasePathwayModel):
             reactions = self.filter_reaction_by_subsystems()
 
         return flux_variability_analysis(self, reactions=reactions)
+
+    def fba(self, measured_metabolites, filter_by_subsystem=False, add_constraints=False):
+        if add_constraints:
+            self.increasing_metabolite_constrains(measured_metabolites)
+
+        self.set_objective_coefficients(measured_metabolites)
+
+        reactions = None
+        if filter_by_subsystem:
+            reactions = self.filter_reaction_by_subsystems()
+
+        return fba(self, reactions=reactions)
 
     def filter_reaction_by_subsystems(self):
         subsystem2reactions = {}
