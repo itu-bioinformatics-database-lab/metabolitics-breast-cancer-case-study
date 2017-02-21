@@ -3,6 +3,7 @@ import json
 
 import cobra as cb
 import pandas as pd
+from cobra.core import Model, DictList, Reaction, Metabolite
 
 
 class DataReader(object):
@@ -63,12 +64,25 @@ class DataReader(object):
         with open(path) as f:
             return {k: set(v) for k, v in json.load(f).items()}
 
-    # def read_measured_metabolites_formated(self, name='recon'):
-    #     '''Read measured metabolites metablites named and stadart scaled'''
-    #     (X, y) = DataReader().read_all()
-    #     vect = DictVectorizer(sparse=False)
-    #     X = vect.fit_transform(X, y)
-    #     X = MetabolicStandardScaler().fit_transform(X, y)
-    #     X = vect.inverse_transform(X)
-    #     X = NamingService('recon').to(X)
-    #     return (X, y)
+    def create_example_model(self):
+        model = Model('example_model')
+
+        rs = (r1, r2, r3) = (Reaction('R1'), Reaction('R2'), Reaction('R3'))
+        for r in rs:
+            r.lower_bound = 0.
+            r.upper_bound = 1000.
+            r.objective_coefficient = 0.
+
+        ACP_c = Metabolite(
+            'ACP_c',
+            formula='C11H21N2O7PRS',
+            name='acyl-carrier-protein',
+            compartment='c')
+
+        r1.add_metabolites({ACP_c: 1.0})
+        r2.add_metabolites({ACP_c: 1.0})
+        r3.add_metabolites({ACP_c: -1.0})
+
+        model.add_reactions(rs)
+
+        return model

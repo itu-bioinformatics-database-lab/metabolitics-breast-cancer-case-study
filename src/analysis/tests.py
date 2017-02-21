@@ -9,6 +9,11 @@ from .base_fva import BaseFVA
 from models import *
 from services import DataReader, NamingService
 from preprocessing import MetabolicStandardScaler
+from cobra.core import Model, Reaction
+from cameo.core import SolverBasedModel, Metabolite
+from cameo.core.solution import Solution
+from cameo.flux_analysis import fba
+import optlang
 
 
 class TestBasePathwayModel(unittest.TestCase):
@@ -70,6 +75,7 @@ class TestBaseFVA(unittest.TestCase):
         num_systems = set(r.subsystem for r in self.analyzer.reactions)
         self.assertTrue(len(num_systems) * 3 >= len(reactions))
 
+<<<<<<< HEAD
     def test_dataset_compatibility(self):
         (s, y) = DataReader().read_fva_solutions()
         (s6, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
@@ -81,3 +87,88 @@ class TestBaseFVA(unittest.TestCase):
                     a += 1
             print(a)
             # self.assertAlmostEqual(s[i][k], s6[i][k])
+=======
+class TestConstraint(unittest.TestCase):
+
+    def setUp(self):
+        self.model = BaseFVA.create_for()
+
+    def test_increasing_metabolite_constraint(self):
+        measured_metabolites = {'inost_r':1}
+        reactions = self.model.increasing_metabolite_constraints(measured_metabolites)
+
+        df = self.model.fba(measured_metabolites)
+
+        flux_sum = sum([1 for r in reactions if df[r.id] >= 10**-3 - 10**-6])
+
+        self.assertTrue(flux_sum >= 1)
+
+    def test_indicator_constraints_integrated(self):
+        self.model = BaseFVA.create_for('example')
+        measured_metabolites = {'ACP_c':1}
+        reactions = self.model.increasing_metabolite_constraints(measured_metabolites)
+        df = self.model.fba(measured_metabolites)
+
+        flux_sum = sum([1 for r in reactions if df[r.id] >= 10**-3 - 10**-6])
+
+        self.assertTrue(flux_sum >= 1)
+
+        #print(self.model.solver)
+
+    def test_indicator_constraints_synthetic(self):
+        model = Model('example_model')
+
+        r1 = Reaction('R1')
+        r1.name = 'R1'
+        r1.lower_bound = 0.
+        r1.upper_bound = 1000.
+        r1.objective_coefficient = 0.
+
+        r2 = Reaction('R2')
+        r2.name = 'R2'
+        r2.lower_bound = 0.
+        r2.upper_bound = 1000.
+        r2.objective_coefficient = 0.
+
+        r3 = Reaction('R3')
+        r3.name = 'R3'
+        r3.lower_bound = 0
+        r3.upper_bound = 1000
+        r3.objective_coefficient = 0
+
+        ACP_c = Metabolite(
+            'ACP_c',
+            formula='C11H21N2O7PRS',
+            name='acyl-carrier-protein',
+            compartment='c')
+
+        r1.add_metabolites({ACP_c: 1.0})
+        r2.add_metabolites({ACP_c: 1.0})
+        r3.add_metabolites({ACP_c: -1.0})
+
+        model.add_reactions([r1, r2, r3])
+        smodel = SolverBasedModel(description=model)
+
+        lb = 1
+        metabolite = ACP_c
+
+        indicator_vars = []
+        for r in metabolite.producers():
+            var = smodel.solver.interface.Variable("var_%s" % r.id, type="binary")
+            c = smodel.solver.interface.Constraint(r.flux_expression, lb=lb, indicator_variable=var,
+                                                   active_when=1)  # When the indicator is 1, constraint is enforced)
+            smodel.solver.add(c)
+            indicator_vars.append(var)
+
+        expr = sum(indicator_vars)
+        c = smodel.solver.interface.Constraint(expr, lb=1, ub=len(indicator_vars))
+        smodel.solver.add(c)
+
+        df = fba(smodel)
+
+        flux_sum = sum([1 for r in metabolite.producers() if df[r.id] >= 1 - 10**-6])
+
+        self.assertTrue(flux_sum >= 1)
+
+        #print(self.model.solver)
+>>>>>>> cc050d78f922ab3e7b71d6d98c72842430bb48a3
