@@ -69,3 +69,15 @@ class TestBaseFVA(unittest.TestCase):
         self.assertTrue(len(self.analyzer.reactions) > len(reactions))
         num_systems = set(r.subsystem for r in self.analyzer.reactions)
         self.assertTrue(len(num_systems) * 3 >= len(reactions))
+
+    def test_dataset_compatibility(self):
+        (s, y) = DataReader().read_fva_solutions()
+        (s6, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
+        for i in range(len(s)):
+            a = 0
+            for k, _ in s[i].items():
+                if abs(s[i][k] - s6[i][k]) > 1e-6:
+                    # print(k, s[i][k], s6[i][k])
+                    a += 1
+            print(a)
+            # self.assertAlmostEqual(s[i][k], s6[i][k])

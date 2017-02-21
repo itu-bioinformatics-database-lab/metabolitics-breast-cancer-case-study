@@ -4,4 +4,3 @@ from .naming_issue import naming_issue
 from .subsystem_naming import subsystem_naming
 from .cli import cli
 from .others import *
-from .cobrapy_vs_cameo_fva import cobrapy_vs_cameo_fva

@@ -1,4 +1,5 @@
 from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
@@ -15,5 +16,5 @@ class MetaboliteLevelDiseaseClassifier(BaseDiseaseClassifier):
             ('vect', DictVectorizer(sparse=False)),
             ('scaler', MetabolicStandardScaler()),
             ('pca', PCA()),
-            ('clf', SVC(C=0.01, kernel='linear', random_state=0))
+            ('clf', LogisticRegression(C=0.01, random_state=0))
         ])

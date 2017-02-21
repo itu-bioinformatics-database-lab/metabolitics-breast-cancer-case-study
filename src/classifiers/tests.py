@@ -1,10 +1,10 @@
 import unittest
 import logging
 
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import KFold
+import numpy as np
+from sklearn.model_selection import cross_val_score, StratifiedKFold
 
-from services import DataReader, NamingService
+from services import DataReader
 
 from .solution_level_disease_classifier import SolutionLevelDiseaseClassifier
 from .dummy_disease_classifier import DummyDiseaseClassifier
@@ -18,109 +18,88 @@ classification_logger.addHandler(
     logging.FileHandler('../logs/classification.log'))
 
 
-class TestMetaboliteLevelDiseaseClassifier(unittest.TestCase):
+class MachineLearningTestCases:
 
-    def setUp(self):
-        self.clf = MetaboliteLevelDiseaseClassifier()
-        (X, y) = DataReader().read_all()
+    class ClassificationTestCase(unittest.TestCase):
 
-        (self.X_train, self.X_test, self.y_train, self.y_test) =  \
-            train_test_split(X, y, random_state=0)
+        def setUpClf(self):
+            raise NotImplementedError
 
-        self.clf.fit(self.X_train, self.y_train)
+        def setUpData(self):
+            raise NotImplementedError
 
-    def test_accuracy(self):
-        classification_logger.info('\n %s \n' % str(self.clf))
+        def setUp(self):
+            self.clf = self.setUpClf()
+            (self.X, self.y) = self.setUpData()
+            self.X = np.array(self.X)
+            self.y = np.array(self.y)
+            self.kf = StratifiedKFold(n_splits=5, random_state=43)
+            classification_logger.info('\n %s \n' % str(self.clf))
 
-        train_accuracy = self.clf.score(self.X_train, self.y_train)
-        classification_logger.info('train accuracy: %f' % train_accuracy)
+        def folds(self):
+            for train_index, test_index in self.kf.split(self.X, self.y):
+                yield (self.X[train_index], self.X[test_index],
+                       self.y[train_index], self.y[test_index])
 
-        test_accuracy = self.clf.score(self.X_test, self.y_test)
-        classification_logger.info('test accuracy: %f' % test_accuracy)
+        def accuracy_scores(self, X_train, X_test, y_train, y_test):
+            classification_logger.info('train accuracy: %f' %
+                                       self.clf.score(X_train, y_train))
+            classification_logger.info('test accuracy: %f' %
+                                       self.clf.score(X_test, y_test))
 
-    def test_classification_report(self):
-        cr = self.clf.classification_report(self.X_test, self.y_test)
-        classification_logger.info('\n %s' % cr)
+        def classification_report(self, X_test, y_test):
+            cr = self.clf.classification_report(X_test, y_test)
+            classification_logger.info('\n %s' % cr)
 
+        def test_kfold(self):
+            for X_train, X_test, y_train, y_test in self.folds():
+                self.clf.fit(X_train, y_train)
+                self.accuracy_scores(X_train, X_test, y_train, y_test)
+                self.classification_report(X_test, y_test)
 
-class TestSolutionLevelDiseaseClassifier(unittest.TestCase):
-
-    def setUp(self):
-        self.clf = SolutionLevelDiseaseClassifier()
-        (X, y) = DataReader().read_solutions()
-        (self.X_train, self.X_test, self.y_train, self.y_test) =  \
-            train_test_split(X, y, random_state=0)
-
-        self.clf.fit(self.X_train, self.y_train)
-
-    def test_accuracy(self):
-        classification_logger.info('\n %s \n' % str(self.clf))
-
-        train_accuracy = self.clf.score(self.X_train, self.y_train)
-        classification_logger.info('train accuracy: %f' % train_accuracy)
-
-        test_accuracy = self.clf.score(self.X_test, self.y_test)
-        classification_logger.info('test accuracy: %f' % test_accuracy)
-
-    def test_classification_report(self):
-        cr = self.clf.classification_report(self.X_test, self.y_test)
-        classification_logger.info('\n %s' % cr)
-
-
-class TestFVAClass(unittest.TestCase):
-
-    def setUp(self):
-        self.clf = FVADiseaseClassifier()
-        (self.X, self.y) = DataReader().read_fva_solutions('fva_solutions5.txt')
-
-        (self.X_train, self.X_test, self.y_train, self.y_test) =  \
-            train_test_split(self.X, self.y, random_state=0)
-
-        self.clf.fit(self.X_train, self.y_train)
-
-    def test_accuracy(self):
-        classification_logger.info('\n %s \n' % str(self.clf))
-
-        train_accuracy = self.clf.score(self.X_train, self.y_train)
-        classification_logger.info('train accuracy: %f' % train_accuracy)
-
-        test_accuracy = self.clf.score(self.X_test, self.y_test)
-        classification_logger.info('test accuracy: %f' % test_accuracy)
-
-    def test_classification_report(self):
-        cr = self.clf.classification_report(self.X_test, self.y_test)
-        classification_logger.info('\n %s' % cr)
-
-    # def test_kfold(self):
-    #     kf = KFold(n_splits=5)
-    #     for train_index, test_index in kf.split(self.X):
-    #         (X_train, self.X_test) = (self.X[train_index], self.X[test_index])
-    #         (y_train, self.y_test) = (self.y[train_index], self.y[test_index])
-    #         self.clf = FVADiseaseClassifier()
-    #         self.clf.fit(X_train, y_train)
-    #         self.test_accuracy()
-    #         self.test_classification_report()
+        def test_kfold_on_average_test_accuracy(self):
+            for scoring in ['accuracy', 'f1_micro']:
+                score = cross_val_score(self.clf, self.X, self.y, cv=self.kf,
+                                        n_jobs=-1, scoring=scoring)
+                classification_logger.info(
+                    'kfold test %s: %s' % (scoring, score))
+                classification_logger.info('mean: %s' % score.mean())
+                classification_logger.info('std: %s' % score.std())
 
 
-class TestDummyClassifier(unittest.TestCase):
+class TestMetaboliteLevelDiseaseClassifier(
+        MachineLearningTestCases.ClassificationTestCase):
 
-    def setUp(self):
-        self.clf = DummyDiseaseClassifier()
-        (X, y) = DataReader().read_solutions()
-        (self.X_train, self.X_test, self.y_train, self.y_test) =  \
-            train_test_split(X, y, random_state=0)
+    def setUpClf(self):
+        return MetaboliteLevelDiseaseClassifier()
 
-        self.clf.fit(self.X_train, self.y_train)
+    def setUpData(self):
+        return DataReader().read_data('BC')
 
-    def test_accuracy(self):
-        classification_logger.info('\n %s \n' % str(self.clf))
 
-        train_accuracy = self.clf.score(self.X_train, self.y_train)
-        classification_logger.info('train accuracy: %f' % train_accuracy)
+class TestSolutionLevelDiseaseClassifier(
+        MachineLearningTestCases.ClassificationTestCase):
 
-        test_accuracy = self.clf.score(self.X_test, self.y_test)
-        classification_logger.info('test accuracy: %f' % test_accuracy)
+    def setUpClf(self):
+        return SolutionLevelDiseaseClassifier()
 
-    def test_classification_report(self):
-        cr = self.clf.classification_report(self.X_test, self.y_test)
-        classification_logger.info('\n %s' % cr)
+    def setUpData(self):
+        return DataReader().read_solutions()
+
+
+class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
+
+    def setUpClf(self):
+        return FVADiseaseClassifier()
+
+    def setUpData(self):
+        return DataReader().read_fva_solutions('fva_solutions6.txt')
+
+
+class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):
+
+    def setUpClf(self):
+        return DummyDiseaseClassifier()
+
+    def setUpData(self):
+        return DataReader().read_solutions()

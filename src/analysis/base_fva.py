@@ -13,7 +13,8 @@ class BaseFVA(BasePathwayModel):
         if filter_by_subsystem:
             reactions = self.filter_reaction_by_subsystems()
 
-        return flux_variability_analysis(self, reactions=reactions)
+        return flux_variability_analysis(self, reactions=reactions,
+                                         fraction_of_optimum=1)
 
     def filter_reaction_by_subsystems(self):
         subsystem2reactions = {}

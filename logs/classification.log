@@ -1,17 +1,138 @@
 
  Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
         sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', LogisticRegression(C=0.001, class_weight=None, du...ty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False))]) 
+
+train accuracy: 1.000000
+test accuracy: 0.909091
+
+              precision    recall  f1-score   support
+
+         bc       0.90      0.96      0.93        28
+          h       0.93      0.81      0.87        16
+
+avg / total       0.91      0.91      0.91        44
+
+train accuracy: 1.000000
+test accuracy: 0.930233
+
+              precision    recall  f1-score   support
+
+         bc       0.96      0.93      0.95        28
+          h       0.88      0.93      0.90        15
+
+avg / total       0.93      0.93      0.93        43
+
+train accuracy: 1.000000
+test accuracy: 0.837209
+
+              precision    recall  f1-score   support
+
+         bc       0.82      0.96      0.89        28
+          h       0.90      0.60      0.72        15
+
+avg / total       0.85      0.84      0.83        43
+
+train accuracy: 1.000000
+test accuracy: 0.976190
+
+              precision    recall  f1-score   support
+
+         bc       1.00      0.96      0.98        27
+          h       0.94      1.00      0.97        15
+
+avg / total       0.98      0.98      0.98        42
+
+train accuracy: 1.000000
+test accuracy: 0.928571
+
+              precision    recall  f1-score   support
+
+         bc       0.96      0.93      0.94        27
+          h       0.88      0.93      0.90        15
+
+avg / total       0.93      0.93      0.93        42
+
+
+ Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', LogisticRegression(C=0.001, class_weight=None, du...ty='l2', random_state=None, solver='liblinear', tol=0.0001,
+          verbose=0, warm_start=False))]) 
+
+kfold test accuracy: [ 0.90909091  0.93023256  0.8372093   0.97619048  0.92857143]
+mean: 0.916258934864
+std: 0.0452523464418
+kfold test f1_micro: [ 0.90909091  0.93023256  0.8372093   0.97619048  0.92857143]
+mean: 0.916258934864
+std: 0.0452523464418
+
+ Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
   svd_solver='auto', tol=0.0, whiten=False)), ('clf', MLPClassifier(activation='logistic', alpha=0.0001...
        solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
        warm_start=False))]) 
 
-train accuracy: 0.612500
-test accuracy: 0.740741
+train accuracy: 1.000000
+test accuracy: 0.909091
 
               precision    recall  f1-score   support
 
-         bc       0.74      1.00      0.85        40
-          h       0.00      0.00      0.00        14
+         bc       0.90      0.96      0.93        28
+          h       0.93      0.81      0.87        16
 
-avg / total       0.55      0.74      0.63        54
+avg / total       0.91      0.91      0.91        44
 
+train accuracy: 1.000000
+test accuracy: 0.930233
+
+              precision    recall  f1-score   support
+
+         bc       0.93      0.96      0.95        28
+          h       0.93      0.87      0.90        15
+
+avg / total       0.93      0.93      0.93        43
+
+train accuracy: 1.000000
+test accuracy: 0.790698
+
+              precision    recall  f1-score   support
+
+         bc       0.79      0.93      0.85        28
+          h       0.80      0.53      0.64        15
+
+avg / total       0.79      0.79      0.78        43
+
+train accuracy: 1.000000
+test accuracy: 1.000000
+
+              precision    recall  f1-score   support
+
+         bc       1.00      1.00      1.00        27
+          h       1.00      1.00      1.00        15
+
+avg / total       1.00      1.00      1.00        42
+
+train accuracy: 1.000000
+test accuracy: 0.976190
+
+              precision    recall  f1-score   support
+
+         bc       0.96      1.00      0.98        27
+          h       1.00      0.93      0.97        15
+
+avg / total       0.98      0.98      0.98        42
+
+
+ Pipeline(steps=[('vect2', DictVectorizer(dtype=<class 'numpy.float64'>, separator='=', sort=True,
+        sparse=False)), ('pca', PCA(copy=True, iterated_power='auto', n_components=None, random_state=None,
+  svd_solver='auto', tol=0.0, whiten=False)), ('clf', MLPClassifier(activation='logistic', alpha=0.0001...
+       solver='adam', tol=0.0001, validation_fraction=0.1, verbose=True,
+       warm_start=False))]) 
+
+kfold test accuracy: [ 0.90909091  0.93023256  0.79069767  1.          0.97619048]
+mean: 0.921242323568
+std: 0.0727907379913
+kfold test f1_micro: [ 0.90909091  0.93023256  0.79069767  1.          0.97619048]
+mean: 0.921242323568
+std: 0.0727907379913
