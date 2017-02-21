@@ -27,11 +27,11 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             # ('clf', DecisionTreeClassifier())
             # ('clf', RandomForestClassifier(n_estimators=10000, n_jobs=-1))
             # ('clf', LinearSVC(C=0.001))
-            # ('clf', LogisticRegression(C=0.001))
-            ('clf', MLPClassifier(activation="logistic",
-                                  random_state=43,
-                                  hidden_layer_sizes=(300, 100),
-                                  verbose=True,
-                                  #   alpha=1e-2,
-                                  max_iter=1000))
+            ('clf', LogisticRegression(C=0.001))
+            # ('clf', MLPClassifier(activation="logistic",
+            #                       random_state=43,
+            #                       hidden_layer_sizes=(300, 100),
+            #                       verbose=True,
+            #                       #   alpha=1e-2,
+            #                       max_iter=1000))
         ])

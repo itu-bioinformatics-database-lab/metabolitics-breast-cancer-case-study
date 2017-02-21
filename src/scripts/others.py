@@ -10,6 +10,7 @@ from services import DataReader, NamingService
 from api import app
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
+from classifiers import FVADiseaseClassifier
 from .optimal_currency_threshold import optimal_currency_threshold
 
 
@@ -90,12 +91,13 @@ def fva_diff_range_solutions(filename):
 @cli.command()
 @click.argument('top_num_reaction')
 def most_correlated_reactions(top_num_reaction):
-    (X, y) = DataReader().read_fva_solutions()
-    vect = DictVectorizer()
-    X = vect.fit_transform(X)
-    (F, pval) = f_classif(X, y)
+    (X, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
+    model = FVADiseaseClassifier()
+    model.fit(X, y)
+    import pdb
+    pdb.set_trace()
 
-    top_n = sorted(zip(vect.feature_names_, F[~np.isnan(F)]),
+    top_n = sorted(zip(vect.feature_names_, F[~np.isnan(F) and ~np.isinf(F)]),
                    key=lambda x: x[1], reverse=True)[:int(top_num_reaction)]
 
     model = DataReader().read_network_model()
