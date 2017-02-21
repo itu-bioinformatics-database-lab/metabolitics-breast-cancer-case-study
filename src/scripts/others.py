@@ -2,7 +2,7 @@ from .cli import cli
 import click
 import cobra as cb
 
-from sklearn.feature_selection import f_classif
+from sklearn.feature_selection import f_classif, VarianceThreshold
 from sklearn.feature_extraction import DictVectorizer
 import numpy as np
 
@@ -91,15 +91,16 @@ def fva_diff_range_solutions(filename):
 @cli.command()
 @click.argument('top_num_reaction')
 def most_correlated_reactions(top_num_reaction):
-    (X, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
-    model = FVADiseaseClassifier()
-    model.fit(X, y)
-    import pdb
-    pdb.set_trace()
+    (X, y) = DataReader().read_fva_solutions()
+    vect = DictVectorizer(sparse=False)
+    X = vect.fit_transform(X)
+    vt = VarianceThreshold(0.1)
+    X = vt.fit_transform(X)
+    (F, pval) = f_classif(X, y)
 
-    top_n = sorted(zip(vect.feature_names_, F[~np.isnan(F) and ~np.isinf(F)]),
-                   key=lambda x: x[1], reverse=True)[:int(top_num_reaction)]
-
+    top_n = sorted(zip(vect.feature_names_, F),
+                   key=lambda x: x[1],
+                   reverse=True)[:int(top_num_reaction)]
     model = DataReader().read_network_model()
     for n, v in top_n:
         print('name:', n[:-4])

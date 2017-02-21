@@ -5,7 +5,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.feature_selection import SelectKBest
+from sklearn.feature_selection import SelectKBest, VarianceThreshold
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 
@@ -20,7 +20,8 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
             ('vect2', DictVectorizer(sparse=False)),
-            # ('feature_selection', SelectKBest(k=50)),
+            # ('vt', VarianceThreshold(0.1)),
+            # ('feature_selection', SelectKBest(k=10)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='poly', random_state=0))
             # ('clf', KNeighborsClassifier(n_neighbors=31))
