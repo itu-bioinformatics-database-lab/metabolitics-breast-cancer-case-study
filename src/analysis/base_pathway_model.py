@@ -96,7 +96,7 @@ class BasePathwayModel(SolverBasedModel):
             for ch in suffixes:
                 metabolite_list.append('%s_%s' % (prefix, ch))
 
-        indicator_vars = []
+        new_reactions = []
 
         for mid in metabolite_list:
             try:
@@ -107,7 +107,22 @@ class BasePathwayModel(SolverBasedModel):
             for r in metabolite.producers():
                 if r in reactions:
                     continue
+                new_reactions.append(r)
 
+        count_new_reactions = len(new_reactions)
+        if count_new_reactions == 0:
+            return
+        elif count_new_reactions == 1:
+            r = new_reactions[0]
+            c = self.solver.interface.Constraint(r.flux_expression,
+                                                 lb=lb)
+            self.solver.add(c)
+            bpathway_model_logger.info(c)
+            reactions.append(r)
+            return
+        else:
+            indicator_vars = []
+            for r in new_reactions:
                 var = self.solver.interface.Variable(
                     "var_%s" % r.id, type="binary")
 
@@ -126,7 +141,6 @@ class BasePathwayModel(SolverBasedModel):
                 except:
                     print(r)
 
-        if len(indicator_vars) > 0:
             expr = sum(indicator_vars)
             c = self.solver.interface.Constraint(
                 expr, lb=1, ub=len(indicator_vars))
@@ -143,6 +157,7 @@ class BasePathwayModel(SolverBasedModel):
             if v > 0:
                 m = self.metabolites.get_by_id(k)
                 self.increasing_metabolite_constraint(m, v, reactions)
+        bpathway_model_logger.info(self.solver)
         return reactions
 
     def set_objective_coefficients(self, measured_metabolites):
