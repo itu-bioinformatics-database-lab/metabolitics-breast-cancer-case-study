@@ -8,7 +8,7 @@ class BaseFVA(BasePathwayModel):
     def analyze(self, measured_metabolites, filter_by_subsystem=False,
                 add_constraints=False):
         if add_constraints:
-            self.increasing_metabolite_constrains(measured_metabolites)
+            self.increasing_metabolite_constraints(measured_metabolites)
 
         self.set_objective_coefficients(measured_metabolites)
 

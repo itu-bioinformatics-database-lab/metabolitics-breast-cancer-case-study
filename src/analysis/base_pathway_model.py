@@ -9,6 +9,7 @@ from sympy.core.singleton import S
 
 from services import DataReader
 import re
+from optlang.exceptions import ContainerAlreadyContains
 
 bpathway_model_logger = logging.getLogger('bpathway_model_logger')
 bpathway_model_logger.setLevel(logging.INFO)
@@ -72,14 +73,14 @@ class BasePathwayModel(SolverBasedModel):
         for s in set(pathway_names):
             self.knock_out_pathway(s)
 
-    def increasing_metabolite_constraint(self, metabolite: Metabolite, v):
+    def increasing_metabolite_constraint(self, metabolite: Metabolite, v, reactions):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
         r is reactions of m
         constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
         '''
-        lb = 10 ** -3
+        lb = 10 ** -5
         bpathway_model_logger.info(metabolite.id)
 
         metabolite_list = []
@@ -95,8 +96,7 @@ class BasePathwayModel(SolverBasedModel):
             for ch in suffixes:
                 metabolite_list.append('%s_%s' % (prefix, ch))
 
-        indicator_vars = []
-        reactions = DictList()
+        new_reactions = []
 
         for mid in metabolite_list:
             try:
@@ -105,40 +105,60 @@ class BasePathwayModel(SolverBasedModel):
                 continue  # non-existing compartmental version
 
             for r in metabolite.producers():
+                if r in reactions:
+                    continue
+                new_reactions.append(r)
+
+        count_new_reactions = len(new_reactions)
+        if count_new_reactions == 0:
+            return
+        elif count_new_reactions == 1:
+            r = new_reactions[0]
+            c = self.solver.interface.Constraint(r.flux_expression,
+                                                 lb=lb)
+            self.solver.add(c)
+            bpathway_model_logger.info(c)
+            reactions.append(r)
+            return
+        else:
+            indicator_vars = []
+            for r in new_reactions:
                 var = self.solver.interface.Variable(
                     "var_%s" % r.id, type="binary")
 
-                # When the indicator is 1, constraint is enforced)
-                c = self.solver.interface.Constraint(r.forward_variable,
-                                                     lb=lb,
-                                                     indicator_variable=var,
-                                                     active_when=1)
-                self.solver.add(c)
-                indicator_vars.append(var)
-                bpathway_model_logger.info(c)
-                reactions.append(r)
+                try:
+                    # When the indicator is 1, constraint is enforced)
+                    c = self.solver.interface.Constraint(r.flux_expression,
+                                                         lb=lb,
+                                                         indicator_variable=var,
+                                                         active_when=1)
+                    self.solver.add(c)
+                    indicator_vars.append(var)
+                    bpathway_model_logger.info(c)
+                    reactions.append(r)
+                except ContainerAlreadyContains as e:
+                    continue
+                except:
+                    print(r)
 
-        if len(indicator_vars) > 0:
             expr = sum(indicator_vars)
             c = self.solver.interface.Constraint(
                 expr, lb=1, ub=len(indicator_vars))
             self.solver.add(c)
             bpathway_model_logger.info(c)
 
-        return reactions
-
     def increasing_metabolite_constraints(self, measured_metabolites):
         '''
         Set increasing metabolite constraint
         for increasing metabolite in measurements
         '''
-        rxns = DictList()
+        reactions = DictList()
         for k, v in measured_metabolites.items():
             if v > 0:
                 m = self.metabolites.get_by_id(k)
-                reactions = self.increasing_metabolite_constraint(m, v)
-                rxns.extend(reactions)
-        return rxns
+                self.increasing_metabolite_constraint(m, v, reactions)
+        bpathway_model_logger.info(self.solver)
+        return reactions
 
     def set_objective_coefficients(self, measured_metabolites):
         '''
