@@ -1,2 +1,2 @@
-from .base_pathway_model import BasePathwayModel
-from .base_fva import BaseFVA
+from .base_solver import BaseSolver
+from .fva_solver import FVASolver
