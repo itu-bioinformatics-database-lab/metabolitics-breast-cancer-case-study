@@ -1,19 +1,20 @@
 from flask import Flask
-from flask_restful import Resource, Api
-from .resources import StartWithQuery
+from flask_restful import Api
+
+from .celery import make_celery
 
 app = Flask(__name__)
+
+app.config.update(
+    CELERY_BROKER_URL='redis://localhost:6379',
+    CELERY_RESULT_BACKEND='redis://localhost:6379'
+)
+
+celery = make_celery(app)
 api = Api(app)
 
 
-class HelloWorld(Resource):
+from .resources import *
 
-    def __init__(self):
-        pass
-
-    def get(self):
-        return {'hello': 'world'}
-
-
-api.add_resource(HelloWorld, '/')
 api.add_resource(StartWithQuery, '/search/<query>')
+api.add_resource(FVAAnalysis, '/analysis/fva')

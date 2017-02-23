@@ -1,3 +1,4 @@
+from subprocess import call
 from .cli import cli
 import click
 import cobra as cb
@@ -17,6 +18,11 @@ from .optimal_currency_threshold import optimal_currency_threshold
 @cli.command()
 def run_api():
     app.run(debug=True)
+
+
+@cli.command()
+def run_celery():
+    call('celery -A api.celery worker')
 
 
 @cli.command()

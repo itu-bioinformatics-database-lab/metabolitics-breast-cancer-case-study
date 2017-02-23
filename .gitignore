@@ -5,3 +5,4 @@ env/
 .Rhistory
 /src/**/*.ipynb
 !/src/notebooks/**/*.ipynb
+db

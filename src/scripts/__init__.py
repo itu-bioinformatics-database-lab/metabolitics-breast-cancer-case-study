@@ -4,3 +4,4 @@ from .naming_issue import naming_issue
 from .subsystem_naming import subsystem_naming
 from .cli import cli
 from .others import *
+from .cobra_to_cplex import cobra_to_cplex
