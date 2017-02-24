@@ -1,7 +1,8 @@
 from typing import List
 import logging
 
-from cobra.core import Metabolite
+from cobra.core import Metabolite, Model
+from cobra.solvers import solver_dict
 from services import DataReader
 
 bpathway_model_logger = logging.getLogger('bpathway_model_logger')
@@ -12,8 +13,9 @@ bpathway_model_logger \
 
 class BaseSolver:
 
-    def __init__(self, model):
+    def __init__(self, model: Model):
         self._model = model.copy()
+        self._solver = solver_dict['cplex']
 
     @classmethod
     def create_for(cls, dataset_name="recon-model"):
@@ -21,15 +23,16 @@ class BaseSolver:
             model = DataReader().create_example_model()
         else:
             model = DataReader().read_network_model(dataset_name)
-        return BaseSolver(model)
+        return cls(model)
 
     def get_pathway(self, name: str):
         '''
         Gets pathway for given pathway name
         '''
-        return [r for r in self.reactions if r.subsystem == name]
+        return list(filter(lambda r: r.subsystem == name,
+                           self._model.reactions))
 
-    def activate_pathway(self, pathway):
+    def activate_pathway(self, pathway: str):
         '''
         Active subsystem means that
         S is active subsystem where
@@ -46,12 +49,11 @@ class BaseSolver:
         for n in set(pathway_names):
             self.activate_pathway(n)
 
-    def knock_out_pathway(self, pathway):
+    def knock_out_pathway(self, pathway: str):
         '''
         Knock outing subsystems means knock outing all reactions of subsystems
         '''
-        p = self.get_pathway(pathway) if type(pathway) == str else pathway
-        for r in p.reactions:
+        for r in self.get_pathway(pathway):
             r.knock_out()
 
     def knock_out_pathways(self, pathway_names: List[str]):
@@ -61,7 +63,7 @@ class BaseSolver:
         for s in set(pathway_names):
             self.knock_out_pathway(s)
 
-    def increasing_metabolite_constraint(self, metabolite: Metabolite, v):
+    def increasing_metabolite_constraint(self, metabolite: Metabolite, ch_val):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
@@ -77,7 +79,7 @@ class BaseSolver:
         '''
         for k, v in measured_metabolites.items():
             if v > 0:
-                m = self.metabolites.get_by_id(k)
+                m = self._model.metabolites.get_by_id(k)
                 self.increasing_metabolite_constraint(m, v)
 
     def set_objective_coefficients(self, measured_metabolites):
@@ -85,9 +87,15 @@ class BaseSolver:
         Set objective function for given measured metabolites
         '''
         for k, v in measured_metabolites.items():
-            m = self.metabolites.get_by_id(k)
+            m = self._model.metabolites.get_by_id(k)
             total_stoichiometry = m.total_stoichiometry()
 
             for r in m.producers():
                 update_rate = v * r.metabolites[m] / total_stoichiometry
                 r.objective_coefficient += update_rate
+
+    def solve(self):
+        return self._model.optimize()
+
+    def analyze(self, measured_metabolites):
+        raise NotImplementedError()
