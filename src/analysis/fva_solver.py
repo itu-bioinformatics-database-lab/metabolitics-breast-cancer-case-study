@@ -1,14 +1,10 @@
-from cobra.core import Model, DictList
-from cobra.solvers import solver_dict
+from cobra.core import DictList
 from cobra.flux_analysis.variability import calculate_lp_variability
 
+from .base_solver import BaseSolver
 
-class FVASolver:
 
-    def __init__(self, model: Model, measured_metabolites):
-        super().__init__()
-        self._solver = solver_dict['cplex']
-        self.measured_metabolites = measured_metabolites
+class FVASolver(BaseSolver):
 
     def create_fva_problem(self, fraction_of_optimum=1.0):
         """Runs flux variability analysis to find max/min flux values
@@ -40,14 +36,14 @@ class FVASolver:
                                                 self._model, reactions)
         return self.result_
 
-    def analyze(self, filter_by_subsystem=False,
+    def analyze(self, measured_metabolites, filter_by_subsystem=False,
                 increasing_metabolite_constraints=False):
 
         self.set_objective_coefficients(measured_metabolites)
         self.create_fva_problem()
 
         if increasing_metabolite_constraints:
-            self.increasing_metabolite_constraints(self.measured_metabolites)
+            self.increasing_metabolite_constraints(measured_metabolites)
 
         reactions = None
         if filter_by_subsystem:
@@ -60,7 +56,7 @@ class FVASolver:
 
     def filter_reaction_by_subsystems(self):
         subsystem2reactions = {}
-        for reaction in self.reactions:
+        for reaction in self._model.reactions:
             subsystem2reactions.setdefault(reaction.subsystem, [])
             subsystem2reactions[reaction.subsystem].append(reaction)
 
