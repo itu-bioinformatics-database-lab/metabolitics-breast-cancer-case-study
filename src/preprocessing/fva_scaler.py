@@ -1,6 +1,7 @@
 from joblib import Parallel, delayed
 from sklearn.base import TransformerMixin
-from analysis import BaseFVA
+from analysis import FVASolver
+from services import DataReader
 
 
 class FVAScaler(TransformerMixin):
@@ -10,7 +11,7 @@ class FVAScaler(TransformerMixin):
     def __init__(self, vectorizer=None, dataset_name="recon-model",
                  filter_by_subsystem=False):
         super().__init__()
-        self.analyzer = BaseFVA.create_for(dataset_name)
+        self.model = DataReader().read_network_model()
         self.filter_by_subsystem = filter_by_subsystem
         self.vectorizer = vectorizer
 
@@ -25,11 +26,11 @@ class FVAScaler(TransformerMixin):
 
     def _sample_transformation(self, x):
         nex_x = dict()
-        for r in self.analyzer.analyze(
-            x, filter_by_subsystem=self.filter_by_subsystem) \
-                .data_frame.itertuples():
-            nex_x['%s_max' % r.Index] = r.upper_bound
-            nex_x['%s_min' % r.Index] = r.lower_bound
+        analyzer = FVASolver(self.model)
+        for k, v in analyzer.analyze(
+                x, filter_by_subsystem=self.filter_by_subsystem).items():
+            nex_x['%s_max' % k] = v['maximum']
+            nex_x['%s_min' % k] = v['minimum']
         return nex_x
 
     def fit_transform(self, X, y):
