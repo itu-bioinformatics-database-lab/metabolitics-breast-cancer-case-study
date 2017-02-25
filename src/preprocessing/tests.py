@@ -88,12 +88,12 @@ class TestFVAScaler(unittest.TestCase):
         self.measured_metabolites = X[0]
         self.scaler = FVAScaler(self.vect)
 
-    @unittest.skip("long running test")
+    # @unittest.skip("long running test")
     def test_transform(self):
         X = self.scaler.transform([self.measured_metabolites])
         assert_min_max_defined(self, X[0])
 
-    @unittest.skip("long running test")
+    # @unittest.skip("long running test")
     def test__sample_transformation(self):
         X = self.vect.inverse_transform([self.measured_metabolites])
         X = self.scaler._sample_transformation(X[0])
@@ -110,7 +110,7 @@ class TestFVARangedMeasurement(unittest.TestCase):
         (self.X, self.y) = ([Xy[0]], [Xy[1]])
         self.fva = FVARangedMeasurement()
 
-    @unittest.skip("long running test")
+    # @unittest.skip("long running test")
     def test_fit_transform(self):
         X = self.fva.fit_transform(self.X, self.y)
         assert_min_max_defined(self, X[0])
