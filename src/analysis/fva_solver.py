@@ -42,14 +42,15 @@ class FVASolver(BaseSolver):
         self.set_objective_coefficients(measured_metabolites)
         self.create_fva_problem()
 
+        const_reactions = None
         if increasing_metabolite_constraints:
-            self.increasing_metabolite_constraints(measured_metabolites)
+            const_reactions = self.increasing_metabolite_constraints(measured_metabolites)
 
         reactions = None
         if filter_by_subsystem:
             reactions = self.filter_reaction_by_subsystems()
 
-        return self.solve(reactions)
+        return self.solve(reactions), const_reactions
 
     def result_as_dataframe(self):
         pass
