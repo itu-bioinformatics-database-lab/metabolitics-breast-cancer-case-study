@@ -6,7 +6,11 @@ from sklearn.feature_selection import f_classif, VarianceThreshold
 from sklearn.feature_extraction import DictVectorizer
 
 from services import DataReader, NamingService
+<<<<<<< HEAD
 
+=======
+#from api import app
+>>>>>>> 733630669416d85c8b1efbce62613952e6698c55
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
 from classifiers import FVADiseaseClassifier
