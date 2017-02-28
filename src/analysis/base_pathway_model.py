@@ -74,7 +74,7 @@ class BasePathwayModel(SolverBasedModel):
         for s in set(pathway_names):
             self.knock_out_pathway(s)
 
-    def increasing_metabolite_constraint_cobra(self, metabolite: Metabolite, v, reactions):
+    def increasing_metabolite_constraint_cobra_indicator_var(self, metabolite: Metabolite, v, reactions):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
@@ -174,7 +174,7 @@ class BasePathwayModel(SolverBasedModel):
 
             bpathway_model_logger.info('Const_OR_%s' % metabolite.id)
 
-    def increasing_metabolite_constraint(self, metabolite: Metabolite, v, reactions):
+    def increasing_metabolite_constraint_cameo_indicator_const(self, metabolite: Metabolite, v, reactions):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
@@ -233,14 +233,6 @@ class BasePathwayModel(SolverBasedModel):
         count_new_reactions = len(new_reactions)
         if count_new_reactions == 0:
             return
-        # elif count_new_reactions == 1:
-        #     r = new_reactions[0]
-        #     c = self.solver.interface.Constraint(r.flux_expression,
-        #                                          lb=lb)
-        #     self.solver.add(c)
-        #     bpathway_model_logger.info(c)
-        #     reactions.append(r)
-        #     return
         else:
             indicator_vars = []
             for r, coeff in new_reactions:
@@ -295,6 +287,86 @@ class BasePathwayModel(SolverBasedModel):
             except:
                 raise
 
+    def increasing_metabolite_constraint_linear(self, metabolite: Metabolite, v, reactions):
+        '''
+        Set increasing metaolite constraint which is
+        m is increasing metabolite where
+        r is reactions of m
+        constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
+        '''
+        lb = 10 ** -5
+        bpathway_model_logger.info(metabolite.id)
+
+        metabolite_list = []
+        suffixes = 'crmge'  # compartment suffixes
+
+        pat = re.compile('_[%s]$' % suffixes)
+        m = re.search(pat, metabolite.id)
+
+        if m == None:
+            metabolite_list.append(metabolite.id)
+        else:
+            prefix = metabolite.id[:m.start()]
+            for ch in suffixes:
+                metabolite_list.append('%s_%s' % (prefix, ch))
+
+        new_reactions = []
+
+        for mid in metabolite_list:
+            try:
+                metabolite = self.metabolites.get_by_id(mid)
+            except KeyError as err:
+                continue  # non-existing compartmental version
+
+            met_reactions = []
+            consumer_reaction_count = 0
+            consumer_reaction = None
+
+            for r in metabolite.reactions:
+            #     if r in reactions:
+            #         continue
+                if 'biomass' in r.name.lower():
+                    continue
+
+                coeff = r.get_coefficient(mid)
+                if coeff == 0:
+                    continue
+
+                if coeff > 0 or r.lower_bound < 0:
+                    met_reactions.append((r, coeff))
+
+                if coeff < 0 or r.lower_bound < 0:
+                    consumer_reaction_count += 1
+                    consumer_reaction = r
+
+            if consumer_reaction_count > 1 or \
+                    (consumer_reaction_count == 1 and (len(met_reactions) > 1 or consumer_reaction.lower_bound >= 0)):
+                new_reactions.extend(met_reactions)
+
+        count_new_reactions = len(new_reactions)
+        if count_new_reactions == 0:
+            return
+        else:
+            vars = []
+
+            # create the constraint on reaction flux
+            constraint_name = "const_%s_%s" % (metabolite.id, r.id)
+
+            for r, coeff in new_reactions:
+                if r.id in reactions:
+                    continue
+
+                if coeff > 0:
+                    vars.append(r.forward_variable)
+                else:
+                    vars.append(r.reverse_variable)
+
+                reactions[r.id] = [r]
+
+            expr = sum(vars)
+            c = self.solver.interface.Constraint(expr, lb=lb)
+            self.solver.add(c)
+
     def increasing_metabolite_constraints(self, measured_metabolites):
         '''
         Set increasing metabolite constraint
@@ -309,7 +381,7 @@ class BasePathwayModel(SolverBasedModel):
         for k, v in measured_metabolites:
             if v > 0:
                 m = self.metabolites.get_by_id(k)
-                self.increasing_metabolite_constraint_cobra(m, v, reactions)
+                self.increasing_metabolite_constraint_linear(m, v, reactions)
 
                 # if counter >= 0:
                 #     break

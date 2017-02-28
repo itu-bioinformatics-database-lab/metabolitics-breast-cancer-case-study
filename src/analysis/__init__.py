@@ -1,4 +1,2 @@
-from .base_solver import BaseSolver
-from .fva_solver import FVASolver
-
-__all__ = ['BaseSolver', 'FVASolver']
+from .base_pathway_model import BasePathwayModel
+from .base_fva import BaseFVA
