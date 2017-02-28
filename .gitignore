@@ -6,3 +6,4 @@ env/
 /src/**/*.ipynb
 !/src/notebooks/**/*.ipynb
 db
+*.sqlite3

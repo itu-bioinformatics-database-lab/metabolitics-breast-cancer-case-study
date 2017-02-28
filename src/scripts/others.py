@@ -1,28 +1,16 @@
-from subprocess import call
 from .cli import cli
 import click
 import cobra as cb
 
 from sklearn.feature_selection import f_classif, VarianceThreshold
 from sklearn.feature_extraction import DictVectorizer
-import numpy as np
 
 from services import DataReader, NamingService
-from api import app
+
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
 from classifiers import FVADiseaseClassifier
 from .optimal_currency_threshold import optimal_currency_threshold
-
-
-@cli.command()
-def run_api():
-    app.run(debug=True)
-
-
-@cli.command()
-def run_celery():
-    call('celery -A api.celery worker')
 
 
 @cli.command()
