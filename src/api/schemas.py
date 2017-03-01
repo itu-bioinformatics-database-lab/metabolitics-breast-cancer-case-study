@@ -2,22 +2,29 @@ from marshmallow import Schema, fields
 from flask_marshmallow import Marshmallow
 
 from .app import app
-from .models import User
+from .models import User, Analysis
 
 ma = Marshmallow(app)
 
 
-class AnalysisSchema(Schema):
+class AnalysisInputSchema(Schema):
     name = fields.String(required=True)
     concentration_changes = fields.Dict(required=True)
 
 
-class SignUpSchema(ma.ModelSchema):
+class UserSchema(ma.ModelSchema):
     name = fields.String(required=True)
     surname = fields.String(required=True)
-    email = fields.String(required=True)
+    email = fields.Email(required=True)
     affiliation = fields.String(required=True)
-    password = fields.String(required=True)
+    password = fields.String(required=True, load_only=True)
 
     class Meta:
         model = User
+        exclude = ('analysis',)
+
+
+class AnalysisSchema(ma.ModelSchema):
+
+    class Meta:
+        model = Analysis
