@@ -11,6 +11,11 @@ cd src
 python main.py --help
 ~~~
 
+## Run celery
+~~~
+celery -A your_application.celery worker
+~~~
+
 ## Related Projects
 
 [metabol](https://github.com/MuhammedHasan/metabol)

@@ -1,4 +1,11 @@
 from celery import Celery
+from .app import app
+
+
+app.config.update(
+    CELERY_BROKER_URL='redis://localhost:6379',
+    CELERY_RESULT_BACKEND='redis://localhost:6379'
+)
 
 
 def make_celery(app):
@@ -16,3 +23,6 @@ def make_celery(app):
                 return TaskBase.__call__(self, *args, **kwargs)
     celery.Task = ContextTask
     return celery
+
+
+celery = make_celery(app)

@@ -6,7 +6,7 @@ from cobra.core import DictList
 class BaseFVA(BasePathwayModel):
 
     def analyze(self, measured_metabolites, filter_by_subsystem=False,
-                add_constraints=True):
+                add_constraints=False):
         if add_constraints:
             self.increasing_metabolite_constraints(measured_metabolites)
 
