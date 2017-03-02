@@ -10,12 +10,10 @@ click==6.7
 cobra==0.5.11
 codeclimate-test-reporter==0.2.0
 coverage==4.3.4
-cplex==12.7.0.0
 decorator==4.0.11
 Escher==1.5.0
 Flask==0.12
 flask-marshmallow==0.7.0
-Flask-RESTful==0.3.5
 Flask-SQLAlchemy==2.2
 inspyred==1.0.1
 IProgress==0.4
