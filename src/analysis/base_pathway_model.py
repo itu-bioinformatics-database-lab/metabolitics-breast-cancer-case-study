@@ -10,7 +10,6 @@ from sympy.core.singleton import S
 from services import DataReader
 import re
 from optlang.exceptions import ContainerAlreadyContains
-from cplex import *
 
 bpathway_model_logger = logging.getLogger('bpathway_model_logger')
 bpathway_model_logger.setLevel(logging.INFO)
@@ -140,9 +139,9 @@ class BasePathwayModel(SolverBasedModel):
                 else:
                     # indicator variable creation
                     indicator_var_name = "var_%s_%d" % (r.id, coeff)
-                    self.lp.variables.add(names=[indicator_var_name], \
-                                          lb=[0], \
-                                          ub=[1], \
+                    self.lp.variables.add(names=[indicator_var_name],
+                                          lb=[0],
+                                          ub=[1],
                                           types=[self.lp.variables.type.binary])
 
                     # create the constraint on reaction flux
@@ -153,14 +152,16 @@ class BasePathwayModel(SolverBasedModel):
                         expr_val = -1
 
                     ic_dict = {}
-                    ic_dict["lin_expr"] = SparsePair(ind=[r.id], val=[expr_val])
+                    ic_dict["lin_expr"] = SparsePair(
+                        ind=[r.id], val=[expr_val])
                     ic_dict["rhs"] = lb
                     ic_dict["sense"] = "G"
                     ic_dict["indvar"] = indicator_var_name
                     ic_dict["complemented"] = 1
                     self.lp.indicator_constraints.add(**ic_dict)
 
-                    reactions[(r.id, coeff)] = [r, indicator_var_name, constraint_name]
+                    reactions[(r.id, coeff)] = [
+                        r, indicator_var_name, constraint_name]
 
                 indicator_vars.append(indicator_var_name)
                 bpathway_model_logger.info(constraint_name)
@@ -210,8 +211,8 @@ class BasePathwayModel(SolverBasedModel):
             consumer_reaction = None
 
             for r in metabolite.reactions:
-            #     if r in reactions:
-            #         continue
+                #     if r in reactions:
+                #         continue
                 if 'biomass' in r.name.lower():
                     continue
 
@@ -247,7 +248,7 @@ class BasePathwayModel(SolverBasedModel):
                         if coeff > 0:
                             expr = r.flux_expression
                         else:
-                            expr = -1*r.flux_expression
+                            expr = -1 * r.flux_expression
                         # When the indicator is 1, constraint is enforced)
                         c = self.solver.interface.Constraint(expr,
                                                              lb=lb,
@@ -323,8 +324,8 @@ class BasePathwayModel(SolverBasedModel):
             consumer_reaction = None
 
             for r in metabolite.reactions:
-            #     if r in reactions:
-            #         continue
+                #     if r in reactions:
+                #         continue
                 if 'biomass' in r.name.lower():
                     continue
 
