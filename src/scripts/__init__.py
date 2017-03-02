@@ -6,4 +6,4 @@ from .cli import cli
 from .others import fva_range_analysis_save
 from .cobra_to_cplex import cobra_to_cplex
 from .api import *
-# from .flux_diff_analysis import flux_diff_analysis
+from .flux_diff_analysis import flux_diff_analysis
