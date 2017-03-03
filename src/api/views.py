@@ -1,11 +1,12 @@
 import uuid
+import json
 
 from flask import jsonify, request
 from flask_swagger import swagger
 from flask_jwt import jwt_required, current_identity
 
 from .app import app
-from .schemas import AnalysisInputSchema, UserSchema, AnalysisSchema
+from .schemas import *
 from .models import db, User, Analysis
 from .tasks import save_analysis
 
@@ -56,14 +57,14 @@ def fva_analysis():
         description: Analysis is not yours
     """
     (data, error) = AnalysisInputSchema().load(request.json)
+    print(data)
     if error:
         return jsonify(error), 400
-    print(data)
     analysis = Analysis(data['name'], str(uuid.uuid4()), current_identity)
     db.session.add(analysis)
     db.session.commit()
     save_analysis.delay(analysis.id, data['concentration_changes'])
-    return ''
+    return '', 201
 
 
 @app.route('/analysis/list')
@@ -85,6 +86,44 @@ def user_analysis():
         i for i in current_identity.analysis)
 
 
+@app.route('/analysis/detail/<id>')
+@jwt_required()
+def analysis_detail(id):
+    """
+    Get analysis detail from id
+    ---
+    tags:
+      - analysis
+    parameters:
+        -
+          name: authorization
+          in: header
+          type: string
+          required: true
+        -
+          name: id
+          in: path
+          type: integer
+          required: true
+    responses:
+      200:
+        description: Analysis info
+      404:
+        description: Analysis not found
+      401:
+        description: Analysis is not yours
+    """
+    analysis = Analysis.query.get(id)
+    if not analysis:
+        return '', 404
+    if analysis.user_id != current_identity.id:
+        return '', 401
+    if analysis.status:
+        analysis.result = json.load(
+            open('../db/analysis-result/%s.json' % analysis.filename))
+    return AnalysisSchema().jsonify(analysis)
+
+
 @app.route('/auth/sign-up', methods=['POST'])
 def sign_up():
     """
@@ -92,10 +131,8 @@ def sign_up():
     ---
     tags:
       - users
-    parameters:
-      - in: body
-        name: body
-        schema:
+    definitions:
+      - schema:
           id: User
           required:
             - name
@@ -119,6 +156,11 @@ def sign_up():
             affiliation:
                 type: string
                 description: affiliation for user
+    parameters:
+      - in: body
+        name: body
+        schema:
+            $ref: "#/definitions/User"
     responses:
       201:
         description: User created
@@ -154,36 +196,76 @@ def auth_info():
     return UserSchema().jsonify(current_identity)
 
 
-@app.route('/analysis/detail/<id>')
+@app.route('/auth/update', methods=['POST'])
 @jwt_required()
-def analysis_detail(id):
+def auth_update():
     """
-    Get analysis detail from id
+    Update user info
     ---
     tags:
-      - analysis
+      - users
     parameters:
-        -
-          name: authorization
-          in: header
-          type: string
-          required: true
-        -
-          name: id
-          in: path
-          type: integer
-          required: true
+      - in: body
+        name: body
+        schema:
+            $ref: "#/definitions/User"
+      -
+        name: authorization
+        in: header
+        type: string
+        required: true
     responses:
       200:
-        description: Analysis info
-      404:
-        description: Analysis not found
-      401:
-        description: Analysis is not yours
+        description: User info
     """
-    analysis = Analysis.query.get(id)
-    if not analysis:
-        return '', 404
-    if analysis.user_id != current_identity.id:
+    (data, error) = UserSchema(exclude=('password',)).load(request.json)
+    if error:
+        return jsonify(error), 400
+    current_identity.name = data.name
+    current_identity.surname = data.surname
+    current_identity.email = data.email
+    current_identity.affiliation = data.affiliation
+    db.session.commit()
+    return ''
+
+
+@app.route('/auth/change-password', methods=['POST'])
+@jwt_required()
+def auth_change_password():
+    """
+    Change user password
+    ---
+    tags:
+      - users
+    parameters:
+      - in: body
+        name: body
+        schema:
+          id: ChangePassword
+          required:
+            - old_password
+            - new_password
+          properties:
+            old_password:
+                type: string
+                description: old user password
+            new_password:
+                type: string
+                description: new user password
+      -
+        name: authorization
+        in: header
+        type: string
+        required: true
+    responses:
+      200:
+        description: User info
+    """
+    (data, error) = PasswordChangeSchema().load(request.json)
+    if error:
+        return jsonify(error), 400
+    if current_identity.password != data['old_password']:
         return '', 401
-    return AnalysisSchema().jsonify(analysis)
+    current_identity.password = data['new_password']
+    db.session.commit()
+    return ''

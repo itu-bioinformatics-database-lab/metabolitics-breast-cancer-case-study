@@ -12,6 +12,11 @@ class AnalysisInputSchema(Schema):
     concentration_changes = fields.Dict(required=True)
 
 
+class PasswordChangeSchema(Schema):
+    old_password = fields.String(required=True)
+    new_password = fields.String(required=True)
+
+
 class UserSchema(ma.ModelSchema):
     name = fields.String(required=True)
     surname = fields.String(required=True)
@@ -25,6 +30,8 @@ class UserSchema(ma.ModelSchema):
 
 
 class AnalysisSchema(ma.ModelSchema):
+    result = fields.Dict()
 
     class Meta:
         model = Analysis
+        exclude = ('user',)
