@@ -37,7 +37,7 @@ def consumers(self):
 
 
 def total_stoichiometry(self):
-    return sum([r.metabolites[self] for r in self.producers()])
+    return sum(r.metabolites[self] for r in self.producers())
 
 
 cb.Metabolite.connected_subsystems = connected_subsystems

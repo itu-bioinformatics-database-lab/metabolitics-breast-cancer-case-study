@@ -13,7 +13,8 @@ python main.py --help
 
 ## Run celery
 ~~~
-celery -A your_application.celery worker
+celery -A api.celery worker
+flower -A api.celery --port=5555
 ~~~
 
 ## Related Projects

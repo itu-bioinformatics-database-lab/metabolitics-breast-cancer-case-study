@@ -57,37 +57,30 @@ class TestBaseFVA(unittest.TestCase):
         self.analyzer = BaseFVA.create_for('e_coli_core')
 
     def test_analyze(self):
-        measured_metabolites = {'etoh_e': 1, 'gln__L_c': 1}
-        for metabolite in self.analyzer.metabolites:
-            measured_metabolites[metabolite.id] = 1
-            if len(measured_metabolites) == 10000:
-                print(metabolite.id)
-                break
-        measured_metabolites = {'fru_e':1}
+        measured_metabolites = {'fru_e': '1.1'}
 
         df = self.analyzer.analyze(measured_metabolites).data_frame
         self.assertIsNotNone(df.loc['EX_fum_e'].upper_bound)
         self.assertIsNotNone(df.loc['EX_fum_e'].lower_bound)
 
     def test_filter_reaction_by_subsystems(self):
-        return
         reactions = self.analyzer.filter_reaction_by_subsystems()
         self.assertTrue(len(self.analyzer.reactions) > len(reactions))
         num_systems = set(r.subsystem for r in self.analyzer.reactions)
         self.assertTrue(len(num_systems) * 3 >= len(reactions))
 
+    @unittest.skip('they are not compatibility anyway')
     def test_dataset_compatibility(self):
-        return
         (s, y) = DataReader().read_fva_solutions()
         (s6, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
         for i in range(len(s)):
-            a = 0
+            # a = 0
             for k, _ in s[i].items():
-                if abs(s[i][k] - s6[i][k]) > 1e-6:
-                    # print(k, s[i][k], s6[i][k])
-                    a += 1
-            print(a)
-            # self.assertAlmostEqual(s[i][k], s6[i][k])
+                self.assertAlmostEqual(s[i][k], s6[i][k])
+            #     if abs(s[i][k] - s6[i][k]) > 1e-6:
+            #         # print(k, s[i][k], s6[i][k])
+            #         a += 1
+            # print(a)
 
 
 class TestConstraint(unittest.TestCase):
@@ -99,7 +92,8 @@ class TestConstraint(unittest.TestCase):
     def test_increasing_metabolite_constraint(self):
         metabolite = 'inost_r'
         measured_metabolites = {metabolite: 1}
-        reactions = self.model.increasing_metabolite_constraints(measured_metabolites)
+        reactions = self.model.increasing_metabolite_constraints(
+            measured_metabolites)
 
         df = self.model.analyze(measured_metabolites, add_constraints=False)
 

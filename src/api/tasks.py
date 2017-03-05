@@ -11,7 +11,7 @@ scaler = FVAScaler()
 def save_analysis(analysis_id, concentration_changes):
     result = scaler._sample_transformation(concentration_changes)
     analysis = Analysis.query.get(analysis_id)
-    with open('../db/analysis-result/%s.json' % analysis.file, 'w') as f:
+    with open('../db/analysis-result/%s.json' % analysis.filename, 'w') as f:
         json.dump(result, f)
     analysis.status = True
     db.session.commit()

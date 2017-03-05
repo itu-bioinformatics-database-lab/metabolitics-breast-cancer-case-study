@@ -39,15 +39,20 @@ def fva_analysis():
           in: header
           type: string
           required: true
-        -
-          name: name
-          in: body
-          type: string
-          required: true
-        -
-          name: concentration_changes
-          in: body
-          required: true
+        - in: body
+          name: body
+          schema:
+            id: AnalysisInput
+            required:
+              - name
+              - concentration_changes
+            properties:
+              name:
+                  type: string
+                  description: name of analysis
+              concentration_changes:
+                  type: object
+                  description: concentration changes of metabolitics
     responses:
       200:
         description: Analysis info

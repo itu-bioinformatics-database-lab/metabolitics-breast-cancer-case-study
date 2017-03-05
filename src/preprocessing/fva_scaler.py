@@ -24,6 +24,7 @@ class FVAScaler(TransformerMixin):
         )
 
     def _sample_transformation(self, x):
+
         nex_x = dict()
         analyzer = self.analyzer.copy()
         for r in analyzer.analyze(
