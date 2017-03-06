@@ -6,7 +6,7 @@ from api.models import db
 
 @cli.command()
 def run_api():
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
 
 
 @cli.command()

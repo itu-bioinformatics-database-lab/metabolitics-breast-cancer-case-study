@@ -17,6 +17,12 @@ celery -A api.celery worker
 flower -A api.celery --port=5555
 ~~~
 
+## Docker Run
+~~~
+docker build . -t metabolitics/api
+docker run -d -p 5000:5000 metabolitics/api
+~~~
+
 ## Related Projects
 
 [metabol](https://github.com/MuhammedHasan/metabol)

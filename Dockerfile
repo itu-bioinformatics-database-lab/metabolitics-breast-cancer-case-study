@@ -1,24 +1,28 @@
-FROM ubuntu:16:04
+FROM ubuntu:16.04
+
+# Language configuration
+ENV LC_ALL C.UTF-8
+ENV LANG C.UTF-8
 
 RUN apt-get update -y
-RUN apt-get install -y python-pip python-dev
-
-ENV CELERY_BROKER_URL redis://redis:6379/0
-ENV CELERY_RESULT_BACKEND redis://redis:6379/0
-ENV C_FORCE_ROOT true
+RUN apt-get install -y python3-pip python-dev
 
 ENV HOST 0.0.0.0
 ENV PORT 5000
 ENV DEBUG true
+
 # copy source code
 COPY . /app
-WORKDIR /app/src
+WORKDIR /app
 
 # install requirements
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
+
+WORKDIR /app/src
 
 # expose the app port
 EXPOSE 5000
-# run the app server
 
-ENTRYPOINT python main.py run_app
+# run the app server
+ENTRYPOINT ["python3"]
+CMD ["main.py", "run_api"]
