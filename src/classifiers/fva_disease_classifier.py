@@ -27,8 +27,8 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             # ('clf', KNeighborsClassifier(n_neighbors=31))
             # ('clf', DecisionTreeClassifier())
             # ('clf', RandomForestClassifier(n_estimators=10000, n_jobs=-1))
-            # ('clf', LinearSVC(C=0.1e-6, random_state=43))
-            ('clf', LogisticRegression(C=0.1e-6, random_state=43))
+            # ('clf', LinearSVC(C=0.1e-3, random_state=43))
+            ('clf', LogisticRegression(C=0.01, random_state=43))
             # ('clf', MLPClassifier(activation="logistic",
             #                       random_state=43,
             #                       hidden_layer_sizes=(300, 100),

@@ -20,9 +20,11 @@ RUN pip3 install -r requirements.txt
 
 WORKDIR /app/src
 
+# migrate db
+RUN python3 main.py migrate
+
 # expose the app port
 EXPOSE 5000
 
 # run the app server
-ENTRYPOINT ["python3"]
-CMD ["main.py", "run_api"]
+CMD ["gunicorn","--bind 0.0.0.0:5000", "--workers=10", "api:app"]
