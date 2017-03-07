@@ -59,8 +59,9 @@ class MachineLearningTestCases:
 
         def test_kfold_on_average_test_accuracy(self):
             for scoring in ['accuracy', 'f1_micro']:
-                score = cross_val_score(self.clf, self.X, self.y, cv=self.kf,
-                                        n_jobs=-1, scoring=scoring)
+                score = cross_val_score(self.clf, self.X, self.y,
+                                        cv=self.kf, n_jobs=-1,
+                                        scoring=scoring)
                 classification_logger.info(
                     'kfold test %s: %s' % (scoring, score))
                 classification_logger.info('mean: %s' % score.mean())
@@ -93,7 +94,7 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
         return FVADiseaseClassifier()
 
     def setUpData(self):
-        return DataReader().read_fva_solutions('fva_solutions6.txt')
+        return DataReader().read_fva_solutions('fva.cameo.0.10.txt')
 
 
 class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):

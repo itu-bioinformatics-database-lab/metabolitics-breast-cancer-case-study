@@ -7,3 +7,5 @@ env/
 !/src/notebooks/**/*.ipynb
 db
 *.sqlite3
+/logs
+/outputs

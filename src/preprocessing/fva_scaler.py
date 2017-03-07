@@ -1,6 +1,13 @@
+import logging
+import time
 from joblib import Parallel, delayed
 from sklearn.base import TransformerMixin
 from analysis import BaseFVA
+
+
+fva_scaler_logger = logging.getLogger('fva_scaler')
+fva_scaler_logger.setLevel(logging.INFO)
+fva_scaler_logger.addHandler(logging.FileHandler('../logs/fva_scaler.log'))
 
 
 class FVAScaler(TransformerMixin):
@@ -24,7 +31,7 @@ class FVAScaler(TransformerMixin):
         )
 
     def _sample_transformation(self, x):
-
+        t = time.time()
         nex_x = dict()
         analyzer = self.analyzer.copy()
         for r in analyzer.analyze(
@@ -32,6 +39,7 @@ class FVAScaler(TransformerMixin):
                 .data_frame.itertuples():
             nex_x['%s_max' % r.Index] = r.upper_bound
             nex_x['%s_min' % r.Index] = r.lower_bound
+        fva_scaler_logger.info(time.time() - t)
         return nex_x
 
     def fit_transform(self, X, y):
