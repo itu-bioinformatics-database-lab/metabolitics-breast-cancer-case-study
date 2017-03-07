@@ -27,4 +27,4 @@ RUN python3 main.py migrate
 EXPOSE 5000
 
 # run the app server
-CMD ["gunicorn","--bind 0.0.0.0:5000", "--workers=10", "api:app"]
+CMD gunicorn --bind 0.0.0.0:5000 --workers=10 api:app

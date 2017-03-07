@@ -23,6 +23,7 @@ flask-swagger==0.2.13
 flower==0.9.1
 gnomic==0.3.3
 grako==3.19.1
+gunicorn==19.7.0
 inspyred==1.0.1
 IProgress==0.4
 itsdangerous==0.24

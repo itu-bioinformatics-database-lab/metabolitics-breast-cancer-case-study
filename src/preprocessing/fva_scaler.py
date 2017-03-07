@@ -14,7 +14,7 @@ class FVAScaler(TransformerMixin):
     """Scaler for converting metabolic level data
         into fva reaction min max values"""
 
-    def __init__(self, vectorizer=None, dataset_name="recon-model",
+    def __init__(self, vectorizer=None, dataset_name="recon2",
                  filter_by_subsystem=False):
         super().__init__()
         self.analyzer = BaseFVA.create_for(dataset_name)
