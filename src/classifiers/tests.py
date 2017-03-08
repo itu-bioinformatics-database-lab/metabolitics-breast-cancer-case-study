@@ -33,7 +33,7 @@ class MachineLearningTestCases:
             (self.X, self.y) = self.setUpData()
             self.X = np.array(self.X)
             self.y = np.array(self.y)
-            self.kf = StratifiedKFold(n_splits=5, random_state=43)
+            self.kf = StratifiedKFold(n_splits=10, random_state=43)
             classification_logger.info('\n %s \n' % str(self.clf))
 
         def folds(self):

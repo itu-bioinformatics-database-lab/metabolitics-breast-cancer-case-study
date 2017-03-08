@@ -24,7 +24,7 @@ class BasePathwayModel(SolverBasedModel):
     '''
 
     @classmethod
-    def create_for(cls, dataset_name="recon-model"):
+    def create_for(cls, dataset_name="recon2"):
         if dataset_name == 'example':
             model = DataReader().create_example_model()
         else:
