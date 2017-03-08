@@ -48,8 +48,8 @@ class BasePathwayModel(SolverBasedModel):
         \sum_{i=1}^{n} V_{r_i} >= 0
         '''
         p = self.get_pathway(pathway) if type(pathway) == str else pathway
-        sum_flux = sum(r.flux_expression for r in p.reactions)
-        self.solver.add(self.solver.interface.Constraint(sum_flux, lb=0))
+        sum_flux = sum(r.forward_variable for r in p.reactions)
+        self.solver.add(self.solver.interface.Constraint(sum_flux, lb=1e-5))
 
     def activate_pathways(self, pathway_names: List[str]):
         '''
@@ -58,20 +58,20 @@ class BasePathwayModel(SolverBasedModel):
         for n in set(pathway_names):
             self.activate_pathway(n)
 
-    def knock_out_pathway(self, pathway):
+    def make_pathway_inactive(self, pathway):
         '''
         Knock outing subsystems means knock outing all reactions of subsystems
         '''
         p = self.get_pathway(pathway) if type(pathway) == str else pathway
-        for r in p.reactions:
-            r.knock_out()
+        sum_flux = sum(r.forward_variable for r in p.reactions)
+        self.solver.add(self.solver.interface.Constraint(sum_flux, lb=0, ub=0))
 
-    def knock_out_pathways(self, pathway_names: List[str]):
+    def make_pathways_inactive(self, pathway_names: List[str]):
         '''
         Knock outs all pathways in pathway_names list
         '''
         for s in set(pathway_names):
-            self.knock_out_pathway(s)
+            self.make_pathway_inactive(s)
 
     def increasing_metabolite_constraint_cameo_indicator_const(self, metabolite: Metabolite, v, reactions):
         '''
