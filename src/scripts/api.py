@@ -1,4 +1,5 @@
 from subprocess import call
+import os
 from api import app
 from .cli import cli
 from api.models import db
@@ -6,7 +7,10 @@ from api.models import db
 
 @cli.command()
 def run_api():
-    app.run(host='0.0.0.0', debug=True)
+    app.run(
+        host=os.environ.get('HOST', 'localhost'),
+        debug=os.environ.get('DEBUG', True)
+    )
 
 
 @cli.command()

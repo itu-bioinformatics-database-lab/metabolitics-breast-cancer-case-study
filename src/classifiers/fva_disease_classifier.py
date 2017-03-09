@@ -10,7 +10,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 
 from .base_disease_classifier import BaseDiseaseClassifier
-from preprocessing import BorderSelector
+from preprocessing import BorderSelector, PathwayFvaScaler
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
@@ -19,9 +19,10 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         super().__init__()
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
-            ('vect2', DictVectorizer(sparse=False)),
             # ('vt', VarianceThreshold(0.1)),
             # ('feature_selection', SelectKBest(k=10)),
+            ('pathway_scoring', PathwayFvaScaler()),
+            ('vect2', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='poly', random_state=0))
             # ('clf', KNeighborsClassifier(n_neighbors=31))

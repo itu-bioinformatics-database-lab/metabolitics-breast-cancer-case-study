@@ -24,7 +24,7 @@ class FVAScaler(TransformerMixin):
     def fit(self, X, y):
         return self
 
-    def transform(self, X, y=[]):
+    def transform(self, X, y=None):
         return Parallel(n_jobs=-1)(
             delayed(self._sample_transformation)(i)
             for i in self.vectorizer.inverse_transform(X)

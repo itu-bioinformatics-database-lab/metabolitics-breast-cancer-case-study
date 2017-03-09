@@ -9,6 +9,7 @@ from .fva_scaler import FVAScaler
 from services import DataReader, NamingService
 from .fva_ranged_mesearument import FVARangedMeasurement
 from .border_selector import BorderSelector
+from .pathway_fva_scaler import PathwayFvaScaler
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -127,3 +128,18 @@ class TestBorderSelector(unittest.TestCase):
         transformed_data = self.selector.fit_transform(self.data, [])
         self.assertEqual(transformed_data[0], {
                          'TAXOLte_max': 1, 'TAXOLte_min': -1})
+
+
+class TestPathwayFvaScaler(unittest.TestCase):
+
+    def setUp(self):
+        self.scaler = PathwayFvaScaler()
+        self.data = [{'TAXOLte_max': 1, 'TAXOLte_min': -1,
+                      'MAL_Lte_max': 5, 'MAL_Lte_min': -4}]
+
+    def test_fit_transform(self):
+        sub_scores = self.scaler.fit_transform(self.data)
+        self.assertTrue(sub_scores, [{
+            'Transport, extracellular_min': -2.5,
+            'Transport, extracellular_max': 3,
+        }])

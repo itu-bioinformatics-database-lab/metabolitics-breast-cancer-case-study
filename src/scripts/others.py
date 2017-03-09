@@ -104,7 +104,8 @@ def most_correlated_reactions(top_num_reaction):
     X = vt.fit_transform(X)
     (F, pval) = f_classif(X, y)
 
-    top_n = sorted(zip(vect.feature_names_, F),
+    feature_names = np.array(vect.feature_names_)[vt.get_support()]
+    top_n = sorted(zip(feature_names, F),
                    key=lambda x: x[1],
                    reverse=True)[:int(top_num_reaction)]
     model = DataReader().read_network_model()
