@@ -24,7 +24,8 @@ class BaseFVA(BasePathwayModel):
         if add_constraints:
             self.increasing_metabolite_constrains(measured_metabolites)
 
-        self.set_objective_coefficients(measured_metabolites)
+        if measured_metabolites != None:
+            self.set_objective_coefficients(measured_metabolites)
 
         reactions = None
         if filter_by_subsystem:
