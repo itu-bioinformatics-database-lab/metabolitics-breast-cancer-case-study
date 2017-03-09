@@ -13,7 +13,7 @@ class PathwayFvaScaler(TransformerMixin):
     def fit(self, X, y=None):
         return self
 
-    def transform(self, X, y=None):
+    def transform(self, X, y=None, metrics='sum'):
         subsystem_scores = list()
         for x in X:
             sub_flux = defaultdict(int)
@@ -23,7 +23,12 @@ class PathwayFvaScaler(TransformerMixin):
                 min_max = reaction_id[-3:]
                 sub_flux['%s_%s' % (reaction.subsystem, min_max)] += flux
                 sub_count['%s_%s' % (reaction.subsystem, min_max)] += 1
-            subsystem_scores.append({
-                s: sub_flux[s] / sub_count[s] for s in sub_flux
-            })
+            if metrics == 'mean':
+                subsystem_scores.append({
+                    s: sub_flux[s] / sub_count[s] for s in sub_flux
+                })
+            elif metrics == 'sum':
+                subsystem_scores.append({
+                    s: sub_flux[s] / 1 for s in sub_flux
+                })
         return subsystem_scores

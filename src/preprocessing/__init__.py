@@ -6,3 +6,4 @@ from .formated_measurments import FormatedMeasurement
 from .fva_ranged_mesearument import FVARangedMeasurement
 from .border_selector import BorderSelector
 from .pathway_fva_scaler import PathwayFvaScaler
+from .inverse_dict_vectorizer import InverseDictVectorizer

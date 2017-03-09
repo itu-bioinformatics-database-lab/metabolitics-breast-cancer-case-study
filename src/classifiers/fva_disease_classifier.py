@@ -10,26 +10,34 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 
 from .base_disease_classifier import BaseDiseaseClassifier
-from preprocessing import BorderSelector, PathwayFvaScaler
+from preprocessing import BorderSelector, PathwayFvaScaler, InverseDictVectorizer
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
 
     def __init__(self):
         super().__init__()
+        vect1 = DictVectorizer(sparse=False)
+        vect2 = DictVectorizer(sparse=False)
+        vt = VarianceThreshold(0.1)
+        skb = SelectKBest(k=5)
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
-            # ('vt', VarianceThreshold(0.1)),
-            # ('feature_selection', SelectKBest(k=10)),
+            ('vect1', vect1),
+            ('vt', vt),
+            ('inv_vec1', InverseDictVectorizer(vect1, vt)),
+            ('vect2', vect2),
+            ('skb', skb),
+            ('inv_vec2', InverseDictVectorizer(vect2, skb)),
             ('pathway_scoring', PathwayFvaScaler()),
-            ('vect2', DictVectorizer(sparse=False)),
+            ('vect3', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='poly', random_state=0))
             # ('clf', KNeighborsClassifier(n_neighbors=31))
-            # ('clf', DecisionTreeClassifier())
+            ('clf', DecisionTreeClassifier())
             # ('clf', RandomForestClassifier(n_estimators=10000, n_jobs=-1))
-            # ('clf', LinearSVC(C=0.1e-3, random_state=43))
-            ('clf', LogisticRegression(C=0.01, random_state=43))
+            # ('clf', LinearSVC(C=0.1, random_state=43))
+            # ('clf', LogisticRegression(C=0.01, random_state=43))
             # ('clf', MLPClassifier(activation="logistic",
             #                       random_state=43,
             #                       hidden_layer_sizes=(300, 100),
