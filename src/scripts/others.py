@@ -97,7 +97,8 @@ def fva_diff_range_solutions(filename):
 @cli.command()
 @click.argument('top_num_reaction')
 def most_correlated_reactions(top_num_reaction):
-    (X, y) = DataReader().read_fva_solutions()
+    file_name = 'fva.recon2.cameo.8.txt'
+    (X, y) = DataReader().read_fva_solutions(file_name)
     vect = DictVectorizer(sparse=False)
     X = vect.fit_transform(X)
     vt = VarianceThreshold(0.1)
@@ -107,11 +108,30 @@ def most_correlated_reactions(top_num_reaction):
     feature_names = np.array(vect.feature_names_)[vt.get_support()]
     top_n = sorted(zip(feature_names, F),
                    key=lambda x: x[1],
-                   reverse=True)[:int(top_num_reaction)]
+                   reverse=True)
+
+    if int(top_num_reaction) > 0:
+        top_n = top_n[:int(top_num_reaction)]
+
     model = DataReader().read_network_model()
-    for n, v in top_n:
-        print('name:', n[:-4])
-        print('reaction:', model.reactions.get_by_id(n[:-4]).reaction)
-        print('min-max:', n[-3:])
-        print('F:', v)
-        print('-' * 10)
+    subsystem_stats = {}
+    with open('../outputs/corr_rxns_%s' % file_name, 'w') as f:
+        max_subsys_length = 0
+        for n, v in top_n:
+            reaction = model.reactions.get_by_id(n[:-4])
+            # f.write('name: %s\n' % n[:-4])
+            # f.write('reaction: %s\n' % reaction.reaction)
+            # f.write('subsystem: %s\n' % reaction.subsystem)
+            # f.write('min-max: %s\n' % n[-3:])
+            # f.write('F: %s\n' % v)
+            # f.write('-' * 10 + '\n')
+            subsystem_stats.setdefault(reaction.subsystem, [0, []])
+            subsystem_stats[reaction.subsystem][0] += 1
+            subsystem_stats[reaction.subsystem][1] += [v]
+
+            if len(reaction.subsystem) > max_subsys_length:
+                max_subsys_length = len(reaction.subsystem)
+
+        f.write("\n\n")
+        for v, cnt, subsys in sorted([(max(stats[1]), stats[0], subsys) for subsys, stats in subsystem_stats.items()], reverse=True):
+            f.write(('{:>' + str(max_subsys_length) + '}\t{}\t{:.2f}\n').format(subsys, cnt, v))
