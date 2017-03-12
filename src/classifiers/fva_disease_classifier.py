@@ -15,7 +15,7 @@ from preprocessing import BorderSelector, PathwayFvaScaler, InverseDictVectorize
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
 
-    def __init__(self):
+    def __init__(self, file):
         super().__init__()
         vect1 = DictVectorizer(sparse=False)
         vect2 = DictVectorizer(sparse=False)
@@ -29,7 +29,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             ('vect2', vect2),
             ('skb', skb),
             ('inv_vec2', InverseDictVectorizer(vect2, skb)),
-            ('pathway_scoring', PathwayFvaScaler()),
+            ('pathway_scoring', PathwayFvaScaler(file)),
             ('vect3', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='poly', random_state=0))

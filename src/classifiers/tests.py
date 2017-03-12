@@ -90,11 +90,13 @@ class TestSolutionLevelDiseaseClassifier(
 
 class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
 
+    file = 'fva.recon2.cameo.8.txt'
+
     def setUpClf(self):
-        return FVADiseaseClassifier()
+        return FVADiseaseClassifier(TestFVAClass.file)
 
     def setUpData(self):
-        return DataReader().read_fva_solutions('fva.cameo.0.10.txt')
+        return DataReader().read_fva_solutions(TestFVAClass.file)
 
 
 class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):
