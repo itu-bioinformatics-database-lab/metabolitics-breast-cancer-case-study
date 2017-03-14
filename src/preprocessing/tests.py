@@ -1,4 +1,5 @@
 import unittest
+from collections import defaultdict
 
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import VarianceThreshold
@@ -11,6 +12,7 @@ from services import DataReader, NamingService
 from .fva_ranged_mesearument import FVARangedMeasurement
 from .border_selector import BorderSelector
 from .pathway_fva_scaler import PathwayFvaScaler
+from .reaction_dist_scaler import ReactionDiffScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
 
 
@@ -145,6 +147,26 @@ class TestPathwayFvaScaler(unittest.TestCase):
             'Transport, extracellular_min': -2.5,
             'Transport, extracellular_max': 3,
         }])
+
+
+class TestReactionDiffScaler(unittest.TestCase):
+
+    def setUp(self):
+        self.scaler = ReactionDiffScaler()
+        self.h = defaultdict(int, {'TAXOLte_max': 1, 'TAXOLte_min': -1})
+        self.X = [self.h,
+                  defaultdict(int, {'TAXOLte_max': 2, 'TAXOLte_min': 1})]
+        self.y = ['h', 'bc']
+
+    def fit(self):
+        self.scaler.fit(self.X, self.y)
+        self.assertEqual(self.scaler.healthy_flux, self.h)
+
+    def test_fit_transform(self):
+        sub_scores = self.scaler.fit_transform(self.X, self.y)
+        self.assertTrue(sub_scores, [
+            {'TAXOLte_dif': 0}, {'TAXOLte_dif': 1}
+        ])
 
 
 class TestInverseDictVectorizer(unittest.TestCase):

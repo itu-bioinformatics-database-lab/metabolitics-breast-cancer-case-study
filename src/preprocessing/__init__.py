@@ -7,3 +7,4 @@ from .fva_ranged_mesearument import FVARangedMeasurement
 from .border_selector import BorderSelector
 from .pathway_fva_scaler import PathwayFvaScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
+from .reaction_dist_scaler import ReactionDiffScaler

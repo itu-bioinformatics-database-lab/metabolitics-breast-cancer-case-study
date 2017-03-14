@@ -29,6 +29,6 @@ class PathwayFvaScaler(TransformerMixin):
                 })
             elif metrics == 'sum':
                 subsystem_scores.append({
-                    s: sub_flux[s] / 1 for s in sub_flux
+                    s: sub_flux[s] for s in sub_flux
                 })
         return subsystem_scores

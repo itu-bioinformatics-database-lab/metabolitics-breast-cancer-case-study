@@ -10,7 +10,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 
 from .base_disease_classifier import BaseDiseaseClassifier
-from preprocessing import BorderSelector, PathwayFvaScaler, InverseDictVectorizer
+from preprocessing import BorderSelector, PathwayFvaScaler, FVAScaler, \
+    InverseDictVectorizer, MetabolicStandardScaler, ReactionDiffScaler
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
@@ -23,6 +24,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         skb = SelectKBest(k=5)
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
+            ('flux-diff-scaler', ReactionDiffScaler()),
             ('vect1', vect1),
             ('vt', vt),
             ('inv_vec1', InverseDictVectorizer(vect1, vt)),
