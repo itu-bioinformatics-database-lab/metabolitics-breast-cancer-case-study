@@ -1,3 +1,6 @@
+import uuid
+import datetime
+
 from flask_sqlalchemy import SQLAlchemy
 from .app import app
 
@@ -22,11 +25,14 @@ class Analysis(db.Model):
     name = db.Column(db.String(255))
     status = db.Column(db.Boolean)
     filename = db.Column(db.String(255))
+    start_time = db.Column(db.DateTime, nullable=True)
+    end_time = db.Column(db.DateTime, nullable=True)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     user = db.relationship("User", back_populates="analysis")
 
-    def __init__(self, name, filename, user, status=False):
+    def __init__(self, name, user, status=False):
         self.name = name
-        self.filename = filename
+        self.filename = str(uuid.uuid4())
+        self.start_time = datetime.datetime.now()
         self.user = user
         self.status = status

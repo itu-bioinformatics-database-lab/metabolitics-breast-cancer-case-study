@@ -62,14 +62,15 @@ def fva_analysis():
         description: Analysis is not yours
     """
     (data, error) = AnalysisInputSchema().load(request.json)
-    print(data)
     if error:
         return jsonify(error), 400
-    analysis = Analysis(data['name'], str(uuid.uuid4()), current_identity)
+    analysis = Analysis(data['name'], current_identity)
     db.session.add(analysis)
     db.session.commit()
-    save_analysis.delay(analysis.id, data['concentration_changes'])
-    return '', 201
+    analysis_id = analysis.id
+    save_analysis.delay(analysis_id, data['concentration_changes'])
+    # save_analysis(analysis_id, data['concentration_changes'])
+    return jsonify({'id': analysis_id})
 
 
 @app.route('/analysis/list')

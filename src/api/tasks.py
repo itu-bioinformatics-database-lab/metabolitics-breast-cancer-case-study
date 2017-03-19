@@ -1,4 +1,5 @@
 import json
+import datetime
 
 from preprocessing import FVAScaler
 from .app import celery
@@ -14,4 +15,5 @@ def save_analysis(analysis_id, concentration_changes):
     with open('../db/analysis-result/%s.json' % analysis.filename, 'w') as f:
         json.dump(result, f)
     analysis.status = True
+    analysis.end_time = datetime.datetime.now()
     db.session.commit()

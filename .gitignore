@@ -5,7 +5,8 @@ env/
 .Rhistory
 /src/**/*.ipynb
 !/src/notebooks/**/*.ipynb
-db
+db/analysis-result/*.json
 *.sqlite3
-/logs
+/logs/*.log
 /outputs
+secret.txt

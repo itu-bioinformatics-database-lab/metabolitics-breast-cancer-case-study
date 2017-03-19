@@ -1,14 +1,15 @@
 import os
-import uuid
 import datetime
 
 from flask import Flask
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../../db.sqlite3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../../db/db.sqlite3'
+# "postgresql://postgres:%s@localhost"\
+# % os.environ.get("POSTGRES_PASSWORD", "xpst123")
 
-app.config['SECRET_KEY'] = uuid.uuid4()
+app.config['SECRET_KEY'] = open('../secret.txt').read()
 app.config['JWT_EXPIRATION_DELTA'] = datetime.timedelta(days=25)
 
 app.config['CELERY_BROKER_URL'] = os.environ.get(
