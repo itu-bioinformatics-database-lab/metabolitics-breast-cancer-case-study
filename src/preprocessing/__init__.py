@@ -8,3 +8,4 @@ from .border_selector import BorderSelector
 from .pathway_fva_scaler import PathwayFvaScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
 from .reaction_dist_scaler import ReactionDiffScaler
+from .pathway_fva_diff_scaler import PathwayFvaDiffScaler

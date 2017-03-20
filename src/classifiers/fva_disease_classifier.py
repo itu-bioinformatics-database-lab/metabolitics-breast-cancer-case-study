@@ -24,7 +24,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         skb = SelectKBest(k=5)
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
-            ('flux-diff-scaler', ReactionDiffScaler()),
+            # ('flux-diff-scaler', ReactionDiffScaler()),
             ('vect1', vect1),
             ('vt', vt),
             ('inv_vec1', InverseDictVectorizer(vect1, vt)),
@@ -36,9 +36,9 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='poly', random_state=0))
             # ('clf', KNeighborsClassifier(n_neighbors=31))
-            ('clf', DecisionTreeClassifier())
+            ('clf', DecisionTreeClassifier(max_depth=1))
             # ('clf', RandomForestClassifier(n_estimators=10000, n_jobs=-1))
-            # ('clf', LinearSVC(C=0.1, random_state=43))
+            # ('clf', LinearSVC(C=1, random_state=43))
             # ('clf', LogisticRegression(C=0.01, random_state=43))
             # ('clf', MLPClassifier(activation="logistic",
             #                       random_state=43,
