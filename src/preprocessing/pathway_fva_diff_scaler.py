@@ -14,7 +14,7 @@ class PathwayFvaDiffScaler(BasePreprocessingPipeline):
         vect1 = DictVectorizer(sparse=False)
         vect2 = DictVectorizer(sparse=False)
         vt = VarianceThreshold(0.1)
-        skb = SelectKBest(k=5)
+        skb = SelectKBest(k=10)
         self._pipe = Pipeline([
             ('vect1', vect1),
             ('vt', vt),
@@ -22,5 +22,5 @@ class PathwayFvaDiffScaler(BasePreprocessingPipeline):
             ('vect2', vect2),
             ('skb', skb),
             ('inv_vec2', InverseDictVectorizer(vect2, skb)),
-            ('pathway_scoring', PathwayFvaScaler()),
+            ('pathway_scoring', PathwayFvaScaler())
         ])

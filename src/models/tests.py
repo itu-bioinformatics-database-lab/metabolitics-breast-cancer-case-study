@@ -21,6 +21,9 @@ class TestMetaboliteExtantion(unittest.TestCase):
 
     def test_producers(self):
         self.assertEqual(len(self.hdd2coa_c.producers()), 3)
+        num_trans = len(self.h2o_c.producers()) - \
+            len(self.h2o_c.producers(without_transports=True))
+        self.assertEqual(num_trans, 6)
 
     def test_consumers(self):
         self.assertEqual(len(self.pglyc_c.consumers()), 1)

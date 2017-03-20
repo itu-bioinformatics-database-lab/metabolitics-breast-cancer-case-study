@@ -288,7 +288,7 @@ class BasePathwayModel(SolverBasedModel):
         bpathway_model_logger.info(self.solver)
         return DictList(set([rxn_const_triplet[0] for rxn_const_triplet in reactions.values()]))
 
-    def set_objective_coefficients(self, measured_metabolites):
+    def set_objective_coefficients(self, measured_metabolites, without_transports=True):
         '''
         Set objective function for given measured metabolites
         '''
@@ -300,10 +300,10 @@ class BasePathwayModel(SolverBasedModel):
             bpathway_model_logger.info(m)
             bpathway_model_logger.info(k)
 
-            total_stoichiometry = m.total_stoichiometry()
+            total_stoichiometry = m.total_stoichiometry(without_transports)
             bpathway_model_logger.info(total_stoichiometry)
 
-            for r in m.producers():
+            for r in m.producers(without_transports):
                 bpathway_model_logger.info(r.metabolites[m])
                 bpathway_model_logger.info(total_stoichiometry)
                 update_rate = v * r.metabolites[m] / total_stoichiometry

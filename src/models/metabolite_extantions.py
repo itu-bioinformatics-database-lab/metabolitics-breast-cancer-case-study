@@ -5,6 +5,8 @@ import json
 
 import cobra as cb
 
+black_list = ['Transport', 'Exchange']
+
 
 def connected_subsystems(self):
     '''Connected Subsystem of metabolite'''
@@ -28,16 +30,21 @@ def is_currency(self, by='subsystem'):
         raise ValueError('by should be either subsystem or reactions')
 
 
-def producers(self):
-    return [r for r in self.reactions if r.metabolites[self] > 0]
+def producers(self, without_transports=False):
+    reactions = filter(lambda r: r.metabolites[self] > 0, self.reactions)
+    if without_transports:
+        reactions = filter(lambda r: r.subsystem, reactions)
+        reactions = filter(lambda r: not any(r.subsystem.startswith(i)
+                                             for i in black_list), reactions)
+    return list(reactions)
 
 
 def consumers(self):
     return [r for r in self.reactions if r.metabolites[self] < 0]
 
 
-def total_stoichiometry(self):
-    return sum(r.metabolites[self] for r in self.producers())
+def total_stoichiometry(self, without_transports=False):
+    return sum(r.metabolites[self] for r in self.producers(without_transports))
 
 
 cb.Metabolite.connected_subsystems = connected_subsystems
