@@ -13,7 +13,7 @@ class PathwayFvaScaler(TransformerMixin):
     def fit(self, X, y=None):
         return self
 
-    def transform(self, X, y=None, metrics='sum'):
+    def transform(self, X, y=None, metrics='mean'):
         subsystem_scores = list()
         for x in X:
             sub_flux = defaultdict(int)
