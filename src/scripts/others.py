@@ -1,28 +1,21 @@
-from subprocess import call
+from collections import defaultdict
+
 from .cli import cli
 import click
 import cobra as cb
 
-from sklearn.feature_selection import f_classif, VarianceThreshold
+from sklearn.feature_selection import f_classif, VarianceThreshold, SelectKBest
+from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 import numpy as np
 
 from services import DataReader, NamingService
-#from api import app
+# from api import app
 from preprocessing import FVARangedMeasurement
 from metrics import fva_solution_distance, diff_range_solutions
 from classifiers import FVADiseaseClassifier
 from .optimal_currency_threshold import optimal_currency_threshold
-
-
-@cli.command()
-def run_api():
-    app.run(debug=True)
-
-
-@cli.command()
-def run_celery():
-    call('celery -A api.celery worker')
+from preprocessing import PathwayFvaScaler, InverseDictVectorizer
 
 
 @cli.command()
@@ -114,4 +107,55 @@ def most_correlated_reactions(top_num_reaction):
         print('reaction:', model.reactions.get_by_id(n[:-4]).reaction)
         print('min-max:', n[-3:])
         print('F:', v)
+        print('-' * 10)
+
+
+@cli.command()
+@click.argument('top_num_pathway')
+@click.argument('num_of_reactions')
+def most_correlated_pathway(top_num_pathway, num_of_reactions):
+    (X, y) = DataReader().read_fva_solutions('fva_without.transports.txt')
+
+    vect = [DictVectorizer(sparse=False)] * 3
+    vt = VarianceThreshold(0.1)
+    skb = SelectKBest(k=int(num_of_reactions))
+    X = Pipeline([
+        ('vect1', vect[0]),
+        ('vt', vt),
+        ('inv_vec1', InverseDictVectorizer(vect[0], vt)),
+        ('vect2', vect[1]),
+        ('skb', skb),
+        ('inv_vec2', InverseDictVectorizer(vect[1], skb)),
+        ('pathway_scoring', PathwayFvaScaler()),
+        ('vect3', vect[2])
+    ]).fit_transform(X, y)
+
+    (F, pval) = f_classif(X, y)
+
+    top_n = sorted(zip(vect[2].feature_names_, F, pval),
+                   key=lambda x: x[1],
+                   reverse=True)[:int(top_num_pathway)]
+
+    model = DataReader().read_network_model()
+    X, y = DataReader().read_data('BC')
+    bc = NamingService('recon').to(X)
+
+    subsystem_metabolite = defaultdict(set)
+    for r in model.reactions:
+        subsystem_metabolite[r.subsystem].update(m.id for m in r.metabolites)
+
+    subsystem_counts = defaultdict(float)
+    for sample in bc:
+        for s, v in subsystem_metabolite.items():
+            subsystem_counts[s] += len(v.intersection(sample.keys()))
+
+    subsystem_counts = {i: v / len(subsystem_counts)
+                        for i, v in subsystem_counts.items()}
+
+    for n, v, p in top_n:
+        print('name:', n[:-4])
+        print('min-max:', n[-3:])
+        print('metabolites:%s' % subsystem_counts[n[:-4]])
+        print('F:', v)
+        print('p:', p)
         print('-' * 10)
