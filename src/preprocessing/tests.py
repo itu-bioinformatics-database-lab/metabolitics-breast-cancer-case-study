@@ -14,6 +14,7 @@ from .border_selector import BorderSelector
 from .pathway_fva_scaler import PathwayFvaScaler
 from .reaction_dist_scaler import ReactionDiffScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
+from .transport_elimination import TransportElimination
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -196,3 +197,18 @@ class TestInverseDictVectorizer(unittest.TestCase):
             {'b': 1, 'c': 4}
         ]
         self.assertEqual(expected_data, scaler.fit_transform(data))
+
+
+class TestTransportElimination(unittest.TestCase):
+
+    def setUp(self):
+        self.data = [
+            {'Transport, a': 0, 'b': 2},
+            {'a': 0, 'Transport, b': 1}
+        ]
+        self.tranformer = TransportElimination()
+
+    def test_transform(self):
+        expected = [{'b': 2}, {'a': 0}]
+        calculated = self.tranformer.transform(self.data)
+        self.assertEqual(calculated, expected)

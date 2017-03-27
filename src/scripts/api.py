@@ -53,6 +53,7 @@ def generate_angular_friendly_model():
         model_json['metabolites'][m['id']] = m
 
     for r in reactions:
+        r['gene_reaction_rule'], r['notes'] = [], {}
         model_json['reactions'][r['id']] = r
         model_json['pathways'][r.get('subsystem', 'NOpathway')].append(r['id'])
 

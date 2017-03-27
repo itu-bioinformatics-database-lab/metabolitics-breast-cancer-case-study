@@ -11,7 +11,8 @@ from sklearn.feature_extraction import DictVectorizer
 
 from .base_disease_classifier import BaseDiseaseClassifier
 from preprocessing import BorderSelector, PathwayFvaScaler, FVAScaler, \
-    InverseDictVectorizer, MetabolicStandardScaler, ReactionDiffScaler
+    InverseDictVectorizer, MetabolicStandardScaler, ReactionDiffScaler, \
+    TransportElimination
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
@@ -25,6 +26,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
             # ('flux-diff-scaler', ReactionDiffScaler()),
+            ('transport_elimination', TransportElimination()),
             ('vect1', vect1),
             ('vt', vt),
             ('inv_vec1', InverseDictVectorizer(vect1, vt)),
