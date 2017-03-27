@@ -25,8 +25,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         skb = SelectKBest(k=100)
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
-            # ('flux-diff-scaler', ReactionDiffScaler()),
-            ('transport_elimination', TransportElimination()),
+            ('flux-diff-scaler', ReactionDiffScaler()),
             ('vect1', vect1),
             ('vt', vt),
             ('inv_vec1', InverseDictVectorizer(vect1, vt)),
@@ -34,6 +33,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             ('skb', skb),
             ('inv_vec2', InverseDictVectorizer(vect2, skb)),
             ('pathway_scoring', PathwayFvaScaler()),
+            # ('transport_elimination', TransportElimination()),
             ('vect3', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='rbf', random_state=0))
