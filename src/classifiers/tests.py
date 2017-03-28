@@ -75,7 +75,8 @@ class TestMetaboliteLevelDiseaseClassifier(
         return MetaboliteLevelDiseaseClassifier()
 
     def setUpData(self):
-        return DataReader().read_data('BC')
+        # return DataReader().read_data('BC')
+        return DataReader().read_data('HCC')
 
 
 class TestSolutionLevelDiseaseClassifier(
@@ -94,7 +95,7 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
         return FVADiseaseClassifier()
 
     def setUpData(self):
-        return DataReader().read_fva_solutions('fva_without.transports.txt')
+        return DataReader().read_fva_solutions('bcc.fva.v2.txt')
 
 
 class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):

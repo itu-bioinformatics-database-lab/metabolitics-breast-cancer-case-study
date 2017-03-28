@@ -1,4 +1,5 @@
 import json
+import numpy as np
 
 
 class NamingService(object):
@@ -16,7 +17,8 @@ class NamingService(object):
             return self._names.get(data.lower().strip())
         elif type(data) == dict:
             return {self.to(k): v for k, v in data.items() if self.to(k)}
-        elif type(data) == list:
+        elif type(data) == list or type(data) == np.ndarray:
             return [self.to(i) for i in data]
         else:
-            raise ValueError('data should be str, dict or list')
+            raise ValueError(
+                'data should be str, dict or list but not %s' % type(data))

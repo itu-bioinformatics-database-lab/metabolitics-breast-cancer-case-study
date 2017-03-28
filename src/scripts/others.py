@@ -44,7 +44,8 @@ def subsystem_statistics():
 
 @cli.command()
 def fva_range_analysis_save():
-    (X, y) = DataReader().read_data('BC')
+    # (X, y) = DataReader().read_data('BC')
+    (X, y) = DataReader().read_data('HCC')
     X = NamingService('recon').to(X)
     X = FVARangedMeasurement().fit_transform(X, y)
     with open('../outputs/fva_solutions.txt', 'w') as f:

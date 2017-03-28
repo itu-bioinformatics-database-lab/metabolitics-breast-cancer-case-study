@@ -15,6 +15,7 @@ from .pathway_fva_scaler import PathwayFvaScaler
 from .reaction_dist_scaler import ReactionDiffScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
 from .transport_elimination import TransportElimination
+from .name_matching import NameMatching
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -212,3 +213,13 @@ class TestTransportElimination(unittest.TestCase):
         expected = [{'b': 2}, {'a': 0}]
         calculated = self.tranformer.transform(self.data)
         self.assertEqual(calculated, expected)
+
+
+class TestNameMatching(unittest.TestCase):
+
+    def setUp(self):
+        self.service = NameMatching()
+
+    def test_transform(self):
+        self.service.naming._names = {'x': 'y'}
+        self.assertEqual(self.service.transform({'x': 1}), {'y': 1})

@@ -5,6 +5,7 @@ from services import NamingService, DataReader
 def report_matching(a, b, a_name, b_name):
     print('%s matching %s:' % (a_name, b_name), a.intersection(b))
     print('%s matching %s len:' % (a_name, b_name), len(a.intersection(b)))
+    print('total:', len(a))
     print()
 
 

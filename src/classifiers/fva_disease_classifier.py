@@ -22,7 +22,7 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
         vect1 = DictVectorizer(sparse=False)
         vect2 = DictVectorizer(sparse=False)
         vt = VarianceThreshold(0.1)
-        skb = SelectKBest(k=100)
+        skb = SelectKBest(k=50)
         self._pipe = Pipeline([
             # ('border-selector', BorderSelector()),
             ('flux-diff-scaler', ReactionDiffScaler()),
@@ -33,7 +33,6 @@ class FVADiseaseClassifier(BaseDiseaseClassifier):
             ('skb', skb),
             ('inv_vec2', InverseDictVectorizer(vect2, skb)),
             ('pathway_scoring', PathwayFvaScaler()),
-            # ('transport_elimination', TransportElimination()),
             ('vect3', DictVectorizer(sparse=False)),
             ('pca', PCA()),
             # ('clf', SVC(C=1e-6, kernel='rbf', random_state=0))
