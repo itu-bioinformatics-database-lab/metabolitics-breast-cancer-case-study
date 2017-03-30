@@ -1,4 +1,3 @@
 from .base_disease_classifier import BaseDiseaseClassifier
 from .metabolite_level_disease_classifier import MetaboliteLevelDiseaseClassifier
-from .solution_level_disease_classifier import SolutionLevelDiseaseClassifier
 from .fva_disease_classifier import FVADiseaseClassifier

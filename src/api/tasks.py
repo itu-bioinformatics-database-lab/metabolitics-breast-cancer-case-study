@@ -1,16 +1,16 @@
 import json
 import datetime
 
-from preprocessing import FVAScaler
+from preprocessing import FVAApi
 from .app import celery
 from .models import db, Analysis
 
-scaler = FVAScaler()
+scaler = FVAApi()
 
 
 @celery.task()
 def save_analysis(analysis_id, concentration_changes):
-    result = scaler._sample_transformation(concentration_changes)
+    result = scaler.fit_transform(concentration_changes, None)
     analysis = Analysis.query.get(analysis_id)
     with open('../db/analysis-result/%s.json' % analysis.filename, 'w') as f:
         json.dump(result, f)

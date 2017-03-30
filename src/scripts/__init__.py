@@ -8,3 +8,4 @@ from .api import *
 from .flux_diff_analysis import flux_diff_analysis
 from .solution_config_generator import solution_config_generator
 from .visualizations import *
+from .pathifier import pathifier

@@ -6,7 +6,6 @@ from sklearn.model_selection import cross_val_score, StratifiedKFold
 
 from services import DataReader
 
-from .solution_level_disease_classifier import SolutionLevelDiseaseClassifier
 from .dummy_disease_classifier import DummyDiseaseClassifier
 from .metabolite_level_disease_classifier \
     import MetaboliteLevelDiseaseClassifier
@@ -77,16 +76,6 @@ class TestMetaboliteLevelDiseaseClassifier(
     def setUpData(self):
         # return DataReader().read_data('BC')
         return DataReader().read_data('HCC')
-
-
-class TestSolutionLevelDiseaseClassifier(
-        MachineLearningTestCases.ClassificationTestCase):
-
-    def setUpClf(self):
-        return SolutionLevelDiseaseClassifier()
-
-    def setUpData(self):
-        return DataReader().read_solutions()
 
 
 class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):

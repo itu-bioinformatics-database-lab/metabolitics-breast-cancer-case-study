@@ -6,8 +6,6 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///../../db/db.sqlite3'
-# "postgresql://postgres:%s@localhost"\
-# % os.environ.get("POSTGRES_PASSWORD", "xpst123")
 
 app.config['SECRET_KEY'] = open('../secret.txt').read()
 app.config['JWT_EXPIRATION_DELTA'] = datetime.timedelta(days=25)

@@ -5,8 +5,6 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import VarianceThreshold
 
 from .metabolic_standard_scaler import MetabolicStandardScaler
-from .metabolic_change_scaler import MetabolicChangeScaler
-from .most_active_pathway_scaler import MostActivePathwayScaler
 from .fva_scaler import FVAScaler
 from services import DataReader, NamingService
 from .fva_ranged_mesearument import FVARangedMeasurement
@@ -16,6 +14,7 @@ from .reaction_dist_scaler import ReactionDiffScaler
 from .inverse_dict_vectorizer import InverseDictVectorizer
 from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
+from .dynamic_preprocessing import DynamicPreprocessing
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -32,53 +31,6 @@ class TestMetabolicStandardScaler(unittest.TestCase):
         self.assertEqual(expected_X, transformed_X)
 
 
-class TestMetabolicChangeScaler(unittest.TestCase):
-
-    def setUp(self):
-        self.scaler = MetabolicChangeScaler()
-        self.X = [[10, -1,  3, 12],
-                  [-1, 10,  2,  1],
-                  [1,   1, -1,  3],
-                  [1,   1,  3,  5],
-                  [1,   1,  3,  0]]
-
-        self.y = ['bc', 'bc', 'bc', 'h', 'h']
-
-    def test_fit(self):
-        expected_avgs = [1, 1, 3, 5]
-        transformed_avgs = self.scaler.fit(self.X, self.y)._avgs
-        self.assertListEqual(expected_avgs, transformed_avgs)
-
-    def test_transform(self):
-        expected_X = [[1, -1,  0,  1],
-                      [-1, 1, -1, -1],
-                      [0,  0, -1, -1],
-                      [0,  0,  0,  0],
-                      [0,  0,  0, -1]]
-        self.scaler.fit(self.X, self.y)
-        transformed_X = self.scaler.transform(self.X, self.y)
-        self.assertListEqual(self.y, ['bc', 'bc', 'bc', 'h', 'h'])
-        self.assertListEqual(expected_X, transformed_X)
-
-
-class TestMostActivePathwayScaler(unittest.TestCase):
-
-    def setUp(self):
-        self.scaler = MostActivePathwayScaler()
-
-    def test_transform(self):
-        solutions = [{
-            's1': ['a', 'b', 'c', 'd'],
-            's2': ['b', 'c', 'd'],
-            's3': ['b', 'c'],
-            's4': ['a', 'c', 'd']
-        }]
-
-        scores = self.scaler.transform(solutions)
-        expected_scores = [{'a': 2, 'b': 3, 'c': 4, 'd': 3}]
-        self.assertEqual(expected_scores, scores)
-
-
 def assert_min_max_defined(self, X):
     self.assertIsNotNone(X['MDH_max'])
     self.assertIsNotNone(X['MDH_min'])
@@ -91,7 +43,7 @@ class TestFVAScaler(unittest.TestCase):
         X = NamingService('recon').to(X)
         self.vect = DictVectorizer(sparse=False)
         X = self.vect.fit_transform(X, y)
-        X = MetabolicChangeScaler().fit_transform(X, y)
+        X = MetabolicStandardScaler().fit_transform(X, y)
         self.measured_metabolites = X[0]
         self.scaler = FVAScaler(self.vect)
 
@@ -223,3 +175,13 @@ class TestNameMatching(unittest.TestCase):
     def test_transform(self):
         self.service.naming._names = {'x': 'y'}
         self.assertEqual(self.service.transform({'x': 1}), {'y': 1})
+
+
+class TestDynamaicPreprocessing(unittest.TestCase):
+
+    def testinit(self):
+        tranformer = DynamicPreprocessing()
+        self.assertEqual(len(tranformer._pipe.steps), 11)
+
+        tranformer = DynamicPreprocessing(['metabolic-standard'])
+        self.assertEqual(len(tranformer._pipe.steps), 3)
