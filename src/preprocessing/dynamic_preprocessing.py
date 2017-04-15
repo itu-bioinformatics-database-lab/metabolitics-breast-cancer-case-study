@@ -10,15 +10,15 @@ from .base_preprocessing_pipeline import BasePreprocessingPipeline
 class DynamicPreprocessing(BasePreprocessingPipeline):
 
     def __init__(self, steps=None):
-        steps = steps or ['metabolic-standard', 'fva', 'flux-diff',
-                          'feature-selection', 'most_active_pathway_scaler']
+        steps = steps or ['naming', 'metabolic-standard', 'fva', 'flux-diff',
+                          'feature-selection', 'pathway-scoring']
         super().__init__()
-        vect = DictVectorizer(sparse=False)
-        pipe = [
-            ('naming', NameMatching()),
-            ('vect', vect),
-        ]
+        pipe = list()
+        if 'naming' in steps:
+            pipe.append(('naming', NameMatching()))
         if 'metabolic-standard' in steps:
+            vect = DictVectorizer(sparse=False)
+            pipe.append(('vect', vect)),
             pipe.append(('metabolic-standard', MetabolicStandardScaler()))
             pipe.append(('inv_vec', InverseDictVectorizer(vect)))
         if 'fva' in steps:
@@ -40,6 +40,6 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
                 ('skb', skb),
                 ('inv_vec2', InverseDictVectorizer(vect2, skb)),
             ])
-        if 'pathway_scoring' in steps:
+        if 'pathway-scoring' in steps:
             pipe.append(('pathway_scoring', PathwayFvaScaler()))
         self._pipe = Pipeline(pipe)

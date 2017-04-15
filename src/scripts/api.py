@@ -1,8 +1,15 @@
 from subprocess import call
+import click
 import os
 import uuid
 import json
 from collections import defaultdict
+import pickle
+
+import pandas as pd
+from preprocessing import PathwayFvaScaler, ReactionDiffScaler, \
+    DynamicPreprocessing
+from sklearn.pipeline import Pipeline
 
 from api import app
 from .cli import cli
@@ -53,8 +60,42 @@ def generate_angular_friendly_model():
         model_json['metabolites'][m['id']] = m
 
     for r in reactions:
-        r['gene_reaction_rule'], r['notes'] = [], {}
+        # r['gene_reaction_rule'], r['notes'] = [], {}
+        del r['gene_reaction_rule']
+        del r['notes']
+
         model_json['reactions'][r['id']] = r
         model_json['pathways'][r.get('subsystem', 'NOpathway')].append(r['id'])
 
     json.dump(model_json, open('../outputs/ng-recon.json', 'w'))
+
+
+@cli.command()
+@click.argument('num_of_reactions')
+def healty_for_heatmap(num_of_reactions):
+    (X, y) = DataReader().read_fva_solutions('fva_without.transports.txt')
+    X = Pipeline([
+        ('flux-diff-scaler', ReactionDiffScaler()),
+        ('pathway_scoring', PathwayFvaScaler()),
+    ]).fit_transform(X, y)
+
+    df = pd.DataFrame(ix for ix, iy in zip(X, y) if iy == 'h')
+
+    hjson = {
+        'x': [i[:-4] for i in df],
+        'z': df.values.tolist(),
+        'type': 'heatmap'
+    }
+
+    json.dump(hjson, open('../outputs/healties_heatmap.json', 'w'))
+
+
+@cli.command()
+def healties_model():
+    (X, y) = DataReader().read_data('BC')
+    pre_model = DynamicPreprocessing(['naming', 'metabolic-standard'])
+    X = pre_model.fit_transform(X, y)
+    model = DynamicPreprocessing(['fva', 'flux-diff', 'pathway-scoring'])
+    model.fit(X, y)
+    with open('../outputs/api_model.p', 'wb') as f:
+        pickle.dump(model, f)
