@@ -1,4 +1,3 @@
-import uuid
 import json
 
 from flask import jsonify, request
@@ -125,8 +124,7 @@ def analysis_detail(id):
     if analysis.user_id != current_identity.id:
         return '', 401
     if analysis.status:
-        analysis.result = json.load(
-            open('../db/analysis-result/%s.json' % analysis.filename))
+        analysis.load_results()
     return AnalysisSchema().jsonify(analysis)
 
 

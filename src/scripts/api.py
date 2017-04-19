@@ -92,10 +92,8 @@ def healty_for_heatmap(num_of_reactions):
 
 @cli.command()
 def healties_model():
-    (X, y) = DataReader().read_data('BC')
-    pre_model = DynamicPreprocessing(['naming', 'metabolic-standard'])
-    X = pre_model.fit_transform(X, y)
-    model = DynamicPreprocessing(['fva', 'flux-diff', 'pathway-scoring'])
+    (X, y) = DataReader().read_fva_solutions('fva_without.transports.txt')
+    model = DynamicPreprocessing(['flux-diff', 'pathway-scoring'])
     model.fit(X, y)
     with open('../outputs/api_model.p', 'wb') as f:
         pickle.dump(model, f)

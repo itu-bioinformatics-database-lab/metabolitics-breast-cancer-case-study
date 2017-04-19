@@ -9,5 +9,4 @@ from .inverse_dict_vectorizer import InverseDictVectorizer
 from .pathway_fva_diff_scaler import PathwayFvaDiffScaler
 from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
-from .fva_api import FVAApi
 from .dynamic_preprocessing import DynamicPreprocessing

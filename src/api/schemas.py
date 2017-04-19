@@ -30,7 +30,7 @@ class UserSchema(ma.ModelSchema):
 
 
 class AnalysisSchema(ma.ModelSchema):
-    result = fields.Dict()
+    results = fields.Dict()
 
     class Meta:
         model = Analysis
