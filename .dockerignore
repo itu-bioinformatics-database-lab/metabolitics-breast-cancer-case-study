@@ -14,7 +14,6 @@ env/
 .Rhistory
 /src/**/*.ipynb
 !/src/notebooks/**/*.ipynb
-db/analysis-result/*.json
 db/db.sqlite3
 logs/*.log
 outputs/

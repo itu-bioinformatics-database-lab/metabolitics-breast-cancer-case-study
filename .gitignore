@@ -10,3 +10,5 @@ db/analysis-result/*.json
 /logs/*.log
 /outputs
 secret.txt
+db/analysis-result/reaction/*.json
+db/analysis-result/pathway/*.json

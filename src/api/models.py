@@ -43,14 +43,14 @@ class Analysis(db.Model):
     def load_results(self):
         self.results = dict()
         t = (self._path, self.filename)
-        with open('%s/reaction/%s.json' % t) as f:
+        with open('%s/reaction-%s.json' % t) as f:
             self.results['reaction'] = json.load(f)
-        with open('%s/pathway/%s.json' % t) as f:
+        with open('%s/pathway-%s.json' % t) as f:
             self.results['pathway'] = json.load(f)
 
     def save_results(self, reaction_scores, pathway_scores):
         t = (self._path, self.filename)
-        with open('%s/reaction/%s.json' % t, 'w') as f:
+        with open('%s/reaction-%s.json' % t, 'w') as f:
             json.dump(reaction_scores, f)
-        with open('%s/pathway/%s.json' % t, 'w') as f:
+        with open('%s/pathway-%s.json' % t, 'w') as f:
             json.dump(pathway_scores, f)
