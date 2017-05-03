@@ -9,11 +9,7 @@ from .schemas import *
 from .models import db, User, Analysis
 from .tasks import save_analysis
 
-__all__ = [
-    'fva_analysis',
-    'sign_up',
-    'spec'
-]
+__all__ = ['fva_analysis', 'sign_up', 'spec']
 
 
 @app.route("/spec")
@@ -68,7 +64,6 @@ def fva_analysis():
     db.session.commit()
     analysis_id = analysis.id
     save_analysis.delay(analysis_id, data['concentration_changes'])
-    # save_analysis(analysis_id, data['concentration_changes'])
     return jsonify({'id': analysis_id})
 
 
@@ -222,7 +217,7 @@ def auth_update():
       200:
         description: User info
     """
-    (data, error) = UserSchema(exclude=('password',)).load(request.json)
+    (data, error) = UserSchema(exclude=('password', )).load(request.json)
     if error:
         return jsonify(error), 400
     current_identity.name = data.name
