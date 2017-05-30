@@ -95,7 +95,7 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
         return FVADiseaseClassifier()
 
     def setUpData(self):
-        return DataReader().read_fva_solutions('bcc.fva.v2.txt')
+        return DataReader().read_fva_solutions('fva_without.transports.txt')
 
 
 class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):
