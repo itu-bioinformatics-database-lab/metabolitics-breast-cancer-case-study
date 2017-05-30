@@ -3,15 +3,16 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import SelectKBest, VarianceThreshold
 
 from preprocessing import MetabolicStandardScaler, FVAScaler, NameMatching, \
-    ReactionDiffScaler, InverseDictVectorizer, PathwayFvaScaler
+    ReactionDiffScaler, InverseDictVectorizer, PathwayFvaScaler, TransportElimination
 from .base_preprocessing_pipeline import BasePreprocessingPipeline
 
 
 class DynamicPreprocessing(BasePreprocessingPipeline):
-
     def __init__(self, steps=None):
-        steps = steps or ['naming', 'metabolic-standard', 'fva', 'flux-diff',
-                          'feature-selection', 'pathway-scoring']
+        steps = steps or [
+            'naming', 'metabolic-standard', 'fva', 'flux-diff',
+            'feature-selection', 'pathway-scoring'
+        ]
         super().__init__()
         pipe = list()
         if 'naming' in steps:
@@ -42,4 +43,6 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             ])
         if 'pathway-scoring' in steps:
             pipe.append(('pathway_scoring', PathwayFvaScaler()))
+        if 'transport-elimination' in steps:
+            pipe.append(('transport_elimination', TransportElimination()))
         self._pipe = Pipeline(pipe)

@@ -3,6 +3,8 @@ from sklearn.base import TransformerMixin
 
 class TransportElimination(TransformerMixin):
 
+    black_list = ['Transport', 'Exchange', '_']
+
     def fit(self, X, y=None):
         return self
 
@@ -10,6 +12,7 @@ class TransportElimination(TransformerMixin):
         for x in X:
             keys = list(x.keys())
             for key in keys:
-                if key.startswith('Transport'):
-                    del x[key]
+                for b in self.black_list:
+                    if key.startswith(b):
+                        del x[key]
         return X

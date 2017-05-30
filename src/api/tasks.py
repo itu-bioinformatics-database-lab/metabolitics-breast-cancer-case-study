@@ -5,7 +5,8 @@ from preprocessing import DynamicPreprocessing
 from .app import celery
 from .models import db, Analysis
 
-pathway_scaler = DynamicPreprocessing(['pathway-scoring'])
+pathway_scaler = DynamicPreprocessing(
+    ['pathway-scoring', 'transport-elimination'])
 
 with open('../models/api_model.p', 'rb') as f:
     reaction_scaler = pickle.load(f)

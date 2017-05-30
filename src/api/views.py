@@ -2,6 +2,7 @@ import json
 
 from flask import jsonify, request
 from flask_swagger import swagger
+from sqlalchemy import and_
 from flask_jwt import jwt_required, current_identity
 
 from .app import app
@@ -67,6 +68,33 @@ def fva_analysis():
     return jsonify({'id': analysis_id})
 
 
+@app.route('/analysis/set')
+@jwt_required()
+def user_analysis_set():
+    """
+    List of analysis of user
+    ---
+    tags:
+        - analysis
+    parameters:
+        -
+          name: authorization
+          in: header
+          type: string
+          required: true
+    """
+    analyses = Analysis.query.filter(
+        and_(
+            Analysis.id.in_(request.args.values()),
+            Analysis.user.has(id=current_identity.id)))
+
+    if analyses.count() != len(request.args):
+        return '', 401
+    for i in analyses:
+        i.load_results()
+    return AnalysisSchema(many=True).jsonify(analyses)
+
+
 @app.route('/analysis/list')
 @jwt_required()
 def user_analysis():
@@ -82,8 +110,7 @@ def user_analysis():
           type: string
           required: true
     """
-    return AnalysisSchema(many=True).jsonify(
-        i for i in current_identity.analysis)
+    return AnalysisSchema(many=True).jsonify(current_identity.analysis)
 
 
 @app.route('/analysis/detail/<id>')

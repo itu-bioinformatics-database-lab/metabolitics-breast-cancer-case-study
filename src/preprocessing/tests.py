@@ -18,7 +18,6 @@ from .dynamic_preprocessing import DynamicPreprocessing
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
-
     def setUp(self):
         self.scaler = MetabolicStandardScaler()
         self.X = [[10], [10], [10], [0], [0], [0]]
@@ -37,7 +36,6 @@ def assert_min_max_defined(self, X):
 
 
 class TestFVAScaler(unittest.TestCase):
-
     def setUp(self):
         (X, y) = DataReader().read_all()
         X = NamingService('recon').to(X)
@@ -60,7 +58,6 @@ class TestFVAScaler(unittest.TestCase):
 
 
 class TestFVARangedMeasurement(unittest.TestCase):
-
     def setUp(self):
         (X, y) = DataReader().read_data('BC')
         X = NamingService('recon').to(X)
@@ -76,24 +73,31 @@ class TestFVARangedMeasurement(unittest.TestCase):
 
 
 class TestBorderSelector(unittest.TestCase):
-
     def setUp(self):
         self.selector = BorderSelector()
-        self.data = [{'TAXOLte_max': 1, 'TAXOLte_min': -1,
-                      'AM1CCSitr_max': 1, 'AM1CCSitr_min': -1}]
+        self.data = [{
+            'TAXOLte_max': 1,
+            'TAXOLte_min': -1,
+            'AM1CCSitr_max': 1,
+            'AM1CCSitr_min': -1
+        }]
 
     def test_fit_transform(self):
         transformed_data = self.selector.fit_transform(self.data, [])
-        self.assertEqual(transformed_data[0], {
-                         'TAXOLte_max': 1, 'TAXOLte_min': -1})
+        self.assertEqual(transformed_data[0],
+                         {'TAXOLte_max': 1,
+                          'TAXOLte_min': -1})
 
 
 class TestPathwayFvaScaler(unittest.TestCase):
-
     def setUp(self):
         self.scaler = PathwayFvaScaler()
-        self.data = [{'TAXOLte_max': 1, 'TAXOLte_min': -1,
-                      'MAL_Lte_max': 5, 'MAL_Lte_min': -4}]
+        self.data = [{
+            'TAXOLte_max': 1,
+            'TAXOLte_min': -1,
+            'MAL_Lte_max': 5,
+            'MAL_Lte_min': -4
+        }]
 
     def test_fit_transform(self):
         sub_scores = self.scaler.fit_transform(self.data)
@@ -104,12 +108,13 @@ class TestPathwayFvaScaler(unittest.TestCase):
 
 
 class TestReactionDiffScaler(unittest.TestCase):
-
     def setUp(self):
         self.scaler = ReactionDiffScaler()
         self.h = defaultdict(int, {'TAXOLte_max': 1, 'TAXOLte_min': -1})
-        self.X = [self.h,
-                  defaultdict(int, {'TAXOLte_max': 2, 'TAXOLte_min': 1})]
+        self.X = [
+            self.h, defaultdict(int, {'TAXOLte_max': 2,
+                                      'TAXOLte_min': 1})
+        ]
         self.y = ['h', 'bc']
 
     def fit(self):
@@ -118,47 +123,48 @@ class TestReactionDiffScaler(unittest.TestCase):
 
     def test_fit_transform(self):
         sub_scores = self.scaler.fit_transform(self.X, self.y)
-        self.assertTrue(sub_scores, [
-            {'TAXOLte_dif': 0}, {'TAXOLte_dif': 1}
-        ])
+        self.assertTrue(sub_scores, [{'TAXOLte_dif': 0}, {'TAXOLte_dif': 1}])
 
 
 class TestInverseDictVectorizer(unittest.TestCase):
-
     def setUp(self):
-        self.data = [
-            {'a': 0, 'b': 2, 'c': 0, 'd': 3},
-            {'a': 0, 'b': 1, 'c': 4, 'd': 3}
-        ]
+        self.data = [{
+            'a': 0,
+            'b': 2,
+            'c': 0,
+            'd': 3
+        }, {
+            'a': 0,
+            'b': 1,
+            'c': 4,
+            'd': 3
+        }]
         self.vect = DictVectorizer(sparse=False)
         self.trans_data = self.vect.fit_transform(self.data)
 
     def test_fit_transform(self):
         scaler = InverseDictVectorizer(self.vect)
-        expected_data = [
-            {'b': 2, 'd': 3},
-            {'b': 1, 'd': 3, 'c': 4}
-        ]
+        expected_data = [{'b': 2, 'd': 3}, {'b': 1, 'd': 3, 'c': 4}]
         self.assertEqual(expected_data, scaler.transform(self.trans_data))
 
     def test_fit_transform_with_feature_selection(self):
         vt = VarianceThreshold()
         data = vt.fit_transform(self.trans_data)
         scaler = InverseDictVectorizer(self.vect, vt)
-        expected_data = [
-            {'b': 2, 'c': 0},
-            {'b': 1, 'c': 4}
-        ]
+        expected_data = [{'b': 2, 'c': 0}, {'b': 1, 'c': 4}]
         self.assertEqual(expected_data, scaler.fit_transform(data))
 
 
 class TestTransportElimination(unittest.TestCase):
-
     def setUp(self):
-        self.data = [
-            {'Transport, a': 0, 'b': 2},
-            {'a': 0, 'Transport, b': 1}
-        ]
+        self.data = [{
+            'Transport, a': 0,
+            'b': 2,
+            '_dif': 1
+        }, {
+            'a': 0,
+            'Transport, b': 1
+        }]
         self.tranformer = TransportElimination()
 
     def test_transform(self):
@@ -168,7 +174,6 @@ class TestTransportElimination(unittest.TestCase):
 
 
 class TestNameMatching(unittest.TestCase):
-
     def setUp(self):
         self.service = NameMatching()
 
@@ -178,10 +183,12 @@ class TestNameMatching(unittest.TestCase):
 
 
 class TestDynamaicPreprocessing(unittest.TestCase):
+    def test_init(self):
+        transformer = DynamicPreprocessing()
+        self.assertEqual(len(transformer._pipe.steps), 14)
 
-    def testinit(self):
-        tranformer = DynamicPreprocessing()
-        self.assertEqual(len(tranformer._pipe.steps), 11)
+        transformer = DynamicPreprocessing(['metabolic-standard'])
+        self.assertEqual(len(transformer._pipe.steps), 3)
 
-        tranformer = DynamicPreprocessing(['metabolic-standard'])
-        self.assertEqual(len(tranformer._pipe.steps), 3)
+        transformer = DynamicPreprocessing(['transport-elimination'])
+        self.assertEqual(len(transformer._pipe.steps), 1)

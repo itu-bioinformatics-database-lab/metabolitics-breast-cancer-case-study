@@ -51,6 +51,10 @@ class Analysis(db.Model):
     def save_results(self, reaction_scores, pathway_scores):
         t = (self._path, self.filename)
         with open('%s/reaction-%s.json' % t, 'w') as f:
-            json.dump(reaction_scores, f)
+            json.dump(list(self.clean_name_tag(reaction_scores)), f)
         with open('%s/pathway-%s.json' % t, 'w') as f:
-            json.dump(pathway_scores, f)
+            json.dump(list(self.clean_name_tag(pathway_scores)), f)
+
+    def clean_name_tag(self, dataset):
+        for d in dataset:
+            yield {k[:-4]: v for k, v in d.items()}
