@@ -26,12 +26,13 @@ class UserSchema(ma.ModelSchema):
 
     class Meta:
         model = User
-        exclude = ('analysis',)
+        exclude = ('analysis', )
 
 
 class AnalysisSchema(ma.ModelSchema):
     results = fields.Dict()
+    visualization = fields.Dict()
 
     class Meta:
         model = Analysis
-        exclude = ('user',)
+        exclude = ('user', )

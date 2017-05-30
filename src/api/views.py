@@ -2,8 +2,10 @@ import json
 
 from flask import jsonify, request
 from flask_swagger import swagger
-from sqlalchemy import and_
+
 from flask_jwt import jwt_required, current_identity
+
+from visualization import HeatmapVisualization
 
 from .app import app
 from .schemas import *
@@ -83,16 +85,35 @@ def user_analysis_set():
           type: string
           required: true
     """
-    analyses = Analysis.query.filter(
-        and_(
-            Analysis.id.in_(request.args.values()),
-            Analysis.user.has(id=current_identity.id)))
-
-    if analyses.count() != len(request.args):
+    analyses = Analysis.get_multiple(request.args.values())
+    if len(analyses) != len(request.args):
         return '', 401
-    for i in analyses:
-        i.load_results()
+    X = [i.results['pathway'] for i in analyses]
+    y = [i.name for i in analyses]
     return AnalysisSchema(many=True).jsonify(analyses)
+
+
+@app.route('/analysis/visualization')
+@jwt_required()
+def analysis_visualization():
+    """
+    List of analysis of user
+    ---
+    tags:
+        - analysis
+    parameters:
+        -
+          name: authorization
+          in: header
+          type: string
+          required: true
+    """
+    analyses = Analysis.get_multiple(request.args.values())
+    if len(analyses) != len(request.args):
+        return '', 401
+    X = [i.results['pathway'][0] for i in analyses]
+    y = [i.name for i in analyses]
+    return jsonify(HeatmapVisualization(X, y).clustered_data())
 
 
 @app.route('/analysis/list')

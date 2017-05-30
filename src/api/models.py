@@ -2,7 +2,10 @@ import uuid
 import datetime
 import json
 
+from sqlalchemy import and_
 from flask_sqlalchemy import SQLAlchemy
+from flask_jwt import jwt_required, current_identity
+
 from .app import app
 
 db = SQLAlchemy(app)
@@ -58,3 +61,16 @@ class Analysis(db.Model):
     def clean_name_tag(self, dataset):
         for d in dataset:
             yield {k[:-4]: v for k, v in d.items()}
+
+    @staticmethod
+    def get_multiple(ids):
+        analyses = list(
+            Analysis.query.filter(
+                and_(
+                    Analysis.id.in_(ids),
+                    Analysis.user.has(id=current_identity.id))))
+
+        for i in analyses:
+            i.load_results()
+
+        return analyses
