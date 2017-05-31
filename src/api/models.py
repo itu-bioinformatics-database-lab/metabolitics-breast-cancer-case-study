@@ -69,8 +69,6 @@ class Analysis(db.Model):
                 and_(
                     Analysis.id.in_(ids),
                     Analysis.user.has(id=current_identity.id))))
-
         for i in analyses:
             i.load_results()
-
         return analyses

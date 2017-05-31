@@ -2,7 +2,6 @@ import json
 
 from flask import jsonify, request
 from flask_swagger import swagger
-
 from flask_jwt import jwt_required, current_identity
 
 from visualization import HeatmapVisualization
