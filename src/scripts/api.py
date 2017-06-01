@@ -14,7 +14,7 @@ from sklearn.pipeline import Pipeline
 from api import app
 from .cli import cli
 from api.models import db
-from services import DataReader
+from services import DataReader, DataWriter
 
 
 @cli.command()

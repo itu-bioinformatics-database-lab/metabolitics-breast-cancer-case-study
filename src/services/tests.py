@@ -5,7 +5,6 @@ from .data_reader import DataReader
 
 
 class TestNamingService(unittest.TestCase):
-
     def setUp(self):
         self.service = NamingService('recon')
 
@@ -21,7 +20,6 @@ class TestNamingService(unittest.TestCase):
 
 
 class TestDataReader(unittest.TestCase):
-
     def setUp(self):
         self.service = DataReader()
 
@@ -33,5 +31,13 @@ class TestDataReader(unittest.TestCase):
 
     def test_read_fva_solutions(self):
         (X, y) = self.service.read_fva_solutions()
+        self.assertNotEqual(len(X), 0)
+        self.assertNotEqual(len(y), 0)
+
+    def test_read_hmdb_diseases(self):
+        self.assertIsNotNone(self.service.read_hmdb_diseases())
+
+    def test_read_healthy(self):
+        X, y = self.service.read_healthy('BC')
         self.assertNotEqual(len(X), 0)
         self.assertNotEqual(len(y), 0)

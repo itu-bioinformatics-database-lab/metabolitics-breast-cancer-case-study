@@ -7,7 +7,6 @@ from cobra.core import Model, DictList, Reaction, Metabolite
 
 
 class DataReader(object):
-
     def __init__(self):
         self.path = '../dataset/disease'
         self.y_label = 'stage'
@@ -19,9 +18,14 @@ class DataReader(object):
         y = ['h' if i == 'h' else disease_name.lower() for i in y]
         return (X, y)
 
+    def read_healthy(self, disease_name):
+        return list(
+            zip(*filter(lambda y: y[1] == 'h',
+                        zip(*DataReader().read_data(disease_name)))))
+
     def read_columns(self, disease_name):
-        return pd.read_csv('%s/%s.csv' % (self.path, disease_name),
-                           header=0).columns
+        return pd.read_csv(
+            '%s/%s.csv' % (self.path, disease_name), header=0).columns
 
     def read_all(self):
         disease_names = [f[:-4] for f in os.listdir(self.path)]
@@ -86,3 +90,8 @@ class DataReader(object):
         model.add_reactions(rs)
 
         return model
+
+    def read_hmdb_diseases(self):
+        path = '%s/hmdb_disease_measurements.json' % self.path
+        with open(path) as f:
+            return json.load(f)
