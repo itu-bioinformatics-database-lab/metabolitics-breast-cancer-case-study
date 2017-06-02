@@ -22,9 +22,12 @@ def hmdb_disease_normalization():
 
 @cli.command()
 def hmdb_disease_analysis():
+
+    naming = NamingService('recon')
+
     y_hmdb, X_hmdb = list(zip(*DataReader().read_hmdb_diseases().items()))
     X_bch, y_bch = DataReader().read_healthy('BC')
-    X, y = X_hmdb + X_bch, y_hmdb + y_bch
+    X, y = X_hmdb + tuple(naming.to(list(X_bch))), y_hmdb + y_bch
 
     dyn_pre = DynamicPreprocessing(
         ['fva', 'flux-diff', 'pathway-scoring', 'transport-elimination'])
