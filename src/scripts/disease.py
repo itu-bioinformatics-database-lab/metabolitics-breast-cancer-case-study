@@ -27,10 +27,16 @@ def hmdb_disease_analysis():
 
     y_hmdb, X_hmdb = list(zip(*DataReader().read_hmdb_diseases().items()))
     X_bch, y_bch = DataReader().read_healthy('BC')
+
+    # TODO: standart scale X_bc then combine with hmdb
+
     X, y = X_hmdb + tuple(naming.to(list(X_bch))), y_hmdb + y_bch
 
     dyn_pre = DynamicPreprocessing(
         ['fva', 'flux-diff', 'pathway-scoring', 'transport-elimination'])
+
+    import pdb
+    pdb.set_trace()
 
     X_t = dyn_pre.fit_transform(X, y)
     DataWriter().write_json(dict(zip(y, X_t)), 'hmdb_disease_analysis.json')

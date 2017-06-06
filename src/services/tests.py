@@ -2,6 +2,7 @@ import unittest
 
 from .naming_service import NamingService
 from .data_reader import DataReader
+from .data_utils import *
 
 
 class TestNamingService(unittest.TestCase):
@@ -41,3 +42,30 @@ class TestDataReader(unittest.TestCase):
         X, y = self.service.read_healthy('BC')
         self.assertNotEqual(len(X), 0)
         self.assertNotEqual(len(y), 0)
+
+
+class TestDataUtils(unittest.TestCase):
+    def setUp(self):
+        self.y = ['bc', 'bc', 'h', 'h']
+
+    def test_filter_by_label(self):
+        X, y = filter_by_label(range(4), self.y, 'h')
+        self.assertEqual(X, (2, 3))
+        self.assertEqual(y, ('h', 'h'))
+
+    def test_average_by_label(self):
+        Xi = [{
+            'a': 1,
+            'b': 2
+        }, {
+            'a': 2,
+            'b': 3
+        }, {
+            'a': 4,
+            'b': 5
+        }, {
+            'a': 6,
+            'b': 7
+        }]
+        X = average_by_label(Xi, self.y, 'h')
+        self.assertEqual(X, {'a': 5, 'b': 6})

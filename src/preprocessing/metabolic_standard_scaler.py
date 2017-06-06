@@ -1,4 +1,5 @@
 from sklearn.preprocessing import StandardScaler
+from services import filter_by_label
 
 
 class MetabolicStandardScaler(StandardScaler):
@@ -6,9 +7,6 @@ class MetabolicStandardScaler(StandardScaler):
 
     def __init__(self):
         super().__init__()
-
-    def filter_healthies(self, X, y):
-        return zip(*filter(lambda t: t[1] == 'h', zip(X, y)))
 
     def partial_fit(self, X, y):
         """
@@ -19,6 +17,6 @@ class MetabolicStandardScaler(StandardScaler):
             used for later scaling along the features axis.
         y: Healthy 'h' or 'sick_name'
         """
-        (X, y) = self.filter_healthies(X, y)
+        (X, y) = filter_by_label(X, y, 'h')
         super().partial_fit(X, y)
         return self

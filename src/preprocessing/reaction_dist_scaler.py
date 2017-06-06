@@ -1,6 +1,6 @@
 from collections import defaultdict
 from sklearn.base import TransformerMixin
-from services import DataReader
+from services import DataReader, average_by_label
 import pandas as pd
 
 
@@ -12,13 +12,7 @@ class ReactionDiffScaler(TransformerMixin):
         self.model = DataReader.read_network_model(dataset_name)
 
     def fit(self, X, y=None):
-        self.healthy_flux = defaultdict(
-            int,
-            pd.DataFrame(
-                list(
-                    map(lambda x: x[0],
-                        filter(lambda t: t[1] == 'h', zip(X, y)))))
-            .mean().to_dict())
+        self.healthy_flux = average_by_label(X, y, 'h')
         return self
 
     def transform(self, X, y=None):

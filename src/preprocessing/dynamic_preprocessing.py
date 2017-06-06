@@ -2,17 +2,24 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import SelectKBest, VarianceThreshold
 
-from preprocessing import MetabolicStandardScaler, FVAScaler, NameMatching, \
-    ReactionDiffScaler, InverseDictVectorizer, PathwayFvaScaler, TransportElimination
+from preprocessing import *
 from .base_preprocessing_pipeline import BasePreprocessingPipeline
 
 
 class DynamicPreprocessing(BasePreprocessingPipeline):
+
+    all_steps = set([
+        'naming', 'metabolic-standard', 'fva', 'flux-diff',
+        'feature-selection', 'pathway-scoring', 'basic-fold-change-scaler',
+        'transport-elimination'
+    ])
+
     def __init__(self, steps=None):
         steps = steps or [
             'naming', 'metabolic-standard', 'fva', 'flux-diff',
             'feature-selection', 'pathway-scoring'
         ]
+        steps = set(steps)
         super().__init__()
         pipe = list()
         if 'naming' in steps:
@@ -22,6 +29,8 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             pipe.append(('vect', vect)),
             pipe.append(('metabolic-standard', MetabolicStandardScaler()))
             pipe.append(('inv_vec', InverseDictVectorizer(vect)))
+        if 'basic-fold-change-scaler' in steps:
+            pipe.append('basic_fold_change_scaler', BasicFoldChangeScaler())
         if 'fva' in steps:
             vect = DictVectorizer(sparse=False)
             pipe.append(('vect0', vect))
@@ -45,4 +54,7 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             pipe.append(('pathway_scoring', PathwayFvaScaler()))
         if 'transport-elimination' in steps:
             pipe.append(('transport_elimination', TransportElimination()))
+        if not self.all_steps >= steps:
+            raise ValueError('steps %s do not exist DynamicPreprocessing' %
+                             str(steps - self.all_steps))
         self._pipe = Pipeline(pipe)

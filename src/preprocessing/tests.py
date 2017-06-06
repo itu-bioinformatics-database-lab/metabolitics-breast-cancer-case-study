@@ -15,6 +15,7 @@ from .inverse_dict_vectorizer import InverseDictVectorizer
 from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
 from .dynamic_preprocessing import DynamicPreprocessing
+from .basic_fold_change_preprocessing import BasicFoldChangeScaler
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -192,3 +193,37 @@ class TestDynamaicPreprocessing(unittest.TestCase):
 
         transformer = DynamicPreprocessing(['transport-elimination'])
         self.assertEqual(len(transformer._pipe.steps), 1)
+
+    def test_raise_nonexistent_item_error(self):
+        with self.assertRaises(ValueError) as value_error:
+            tranformer = DynamicPreprocessing(['no-name'])
+
+
+class TestBasicFoldChangeScaler(unittest.TestCase):
+    def setUp(self):
+        self.X = [{'a': 2.5, 'b': 5, 'c': 10}, {'a': 20, 'b': 40, 'c': 80}]
+        self.h = {'a': 10, 'b': 10, 'c': 10}
+        self.X.append(self.h)
+        self.y = ['b', 'b', 'h']
+        self.scaler = BasicFoldChangeScaler()
+
+    def test_fit(self):
+        self.scaler.fit(self.X, self.y)
+        self.assertEqual(self.scaler.avgs_, self.h)
+
+    def test_transform(self):
+        X = self.scaler.fit_transform(self.X, self.y)
+        expected_X = [{
+            'a': -4,
+            'b': -2,
+            'c': 1
+        }, {
+            'a': 2,
+            'b': 4,
+            'c': 8
+        }, {
+            'a': 1,
+            'b': 1,
+            'c': 1
+        }]
+        self.assertEqual(X, expected_X)
