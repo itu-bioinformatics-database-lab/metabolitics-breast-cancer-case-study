@@ -4,7 +4,6 @@ from joblib import Parallel, delayed
 from sklearn.base import TransformerMixin
 from analysis import BaseFVA
 
-
 fva_scaler_logger = logging.getLogger('fva_scaler')
 fva_scaler_logger.setLevel(logging.INFO)
 fva_scaler_logger.addHandler(logging.FileHandler('../logs/fva_scaler.log'))
@@ -14,7 +13,9 @@ class FVAScaler(TransformerMixin):
     """Scaler for converting metabolic level data
         into fva reaction min max values"""
 
-    def __init__(self, vectorizer=None, dataset_name="recon2",
+    def __init__(self,
+                 vectorizer=None,
+                 dataset_name="recon2",
                  filter_by_subsystem=False):
         super().__init__()
         self.analyzer = BaseFVA.create_for(dataset_name)
@@ -27,8 +28,7 @@ class FVAScaler(TransformerMixin):
     def transform(self, X, y=None):
         return Parallel(n_jobs=-1)(
             delayed(self._sample_transformation)(i)
-            for i in self.vectorizer.inverse_transform(X)
-        )
+            for i in self.vectorizer.inverse_transform(X))
 
     def _sample_transformation(self, x):
         t = time.time()
