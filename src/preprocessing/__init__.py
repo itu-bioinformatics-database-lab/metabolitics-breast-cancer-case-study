@@ -9,4 +9,5 @@ from .inverse_dict_vectorizer import InverseDictVectorizer
 from .pathway_fva_diff_scaler import PathwayFvaDiffScaler
 from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
+from .basic_fold_change_preprocessing import BasicFoldChangeScaler
 from .dynamic_preprocessing import DynamicPreprocessing

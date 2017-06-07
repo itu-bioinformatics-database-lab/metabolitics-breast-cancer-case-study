@@ -194,6 +194,10 @@ class TestDynamaicPreprocessing(unittest.TestCase):
         transformer = DynamicPreprocessing(['transport-elimination'])
         self.assertEqual(len(transformer._pipe.steps), 1)
 
+        transformer = DynamicPreprocessing(transformer.all_steps)
+        self.assertTrue(
+            len(transformer._pipe.steps) > len(transformer.all_steps))
+
     def test_raise_nonexistent_item_error(self):
         with self.assertRaises(ValueError) as value_error:
             tranformer = DynamicPreprocessing(['no-name'])

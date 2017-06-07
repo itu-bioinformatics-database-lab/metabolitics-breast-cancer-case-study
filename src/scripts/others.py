@@ -9,11 +9,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction import DictVectorizer
 import numpy as np
 
-from services import DataReader, NamingService
+from services import DataReader, NamingService, DataWriter
 from preprocessing import FVARangedMeasurement
 from classifiers import FVADiseaseClassifier
 from .optimal_currency_threshold import optimal_currency_threshold
-from preprocessing import PathwayFvaScaler, InverseDictVectorizer
+from preprocessing import PathwayFvaScaler, InverseDictVectorizer, DynamicPreprocessing
 
 
 @cli.command()
@@ -52,6 +52,16 @@ def fva_range_analysis_save():
 
 
 @cli.command()
+def fva_range_with_basic_analysis_save():
+    X, y = DataReader().read_data('BC')
+    X_p = DynamicPreprocessing(['naming', 'basic-fold-change-scaler',
+                                'fva']).fit_transform(X, y)
+
+    DataWriter('fva_solution_with_basic_fold_change')\
+        .write_json_dataset(X_p, y_p)
+
+
+@cli.command()
 def constraint_logging():
     (X, y) = DataReader().read_data('BC')
     X = NamingService('recon').to(X)
@@ -63,10 +73,9 @@ def constraint_logging():
 @cli.command()
 def border_rate():
     model = DataReader().read_network_model()
-    num_border_reaction = len(set(r.id
-                                  for m in model.metabolites
-                                  for r in m.reactions
-                                  if m.is_border()))
+    num_border_reaction = len(
+        set(r.id for m in model.metabolites for r in m.reactions
+            if m.is_border()))
     print(num_border_reaction / len(model.reactions))
 
 
@@ -97,9 +106,9 @@ def most_correlated_reactions(top_num_reaction):
     (F, pval) = f_classif(X, y)
 
     feature_names = np.array(vect.feature_names_)[vt.get_support()]
-    top_n = sorted(zip(feature_names, F),
-                   key=lambda x: x[1],
-                   reverse=True)[:int(top_num_reaction)]
+    top_n = sorted(
+        zip(feature_names, F), key=lambda x: x[1],
+        reverse=True)[:int(top_num_reaction)]
     model = DataReader().read_network_model()
     for n, v in top_n:
         print('name:', n[:-4])
@@ -118,22 +127,18 @@ def most_correlated_pathway(top_num_pathway, num_of_reactions):
     vect = [DictVectorizer(sparse=False)] * 3
     vt = VarianceThreshold(0.1)
     skb = SelectKBest(k=int(num_of_reactions))
-    X = Pipeline([
-        ('vect1', vect[0]),
-        ('vt', vt),
-        ('inv_vec1', InverseDictVectorizer(vect[0], vt)),
-        ('vect2', vect[1]),
-        ('skb', skb),
-        ('inv_vec2', InverseDictVectorizer(vect[1], skb)),
-        ('pathway_scoring', PathwayFvaScaler()),
-        ('vect3', vect[2])
-    ]).fit_transform(X, y)
+    X = Pipeline([('vect1', vect[0]), ('vt',
+                                       vt), ('inv_vec1', InverseDictVectorizer(
+                                           vect[0], vt)), ('vect2', vect[1]),
+                  ('skb', skb), ('inv_vec2', InverseDictVectorizer(
+                      vect[1], skb)), ('pathway_scoring', PathwayFvaScaler()),
+                  ('vect3', vect[2])]).fit_transform(X, y)
 
     (F, pval) = f_classif(X, y)
 
-    top_n = sorted(zip(vect[2].feature_names_, F, pval),
-                   key=lambda x: x[1],
-                   reverse=True)[:int(top_num_pathway)]
+    top_n = sorted(
+        zip(vect[2].feature_names_, F, pval), key=lambda x: x[1],
+        reverse=True)[:int(top_num_pathway)]
 
     model = DataReader().read_network_model()
     X, y = DataReader().read_data('BC')
@@ -148,8 +153,10 @@ def most_correlated_pathway(top_num_pathway, num_of_reactions):
         for s, v in subsystem_metabolite.items():
             subsystem_counts[s] += len(v.intersection(sample.keys()))
 
-    subsystem_counts = {i: v / len(subsystem_counts)
-                        for i, v in subsystem_counts.items()}
+    subsystem_counts = {
+        i: v / len(subsystem_counts)
+        for i, v in subsystem_counts.items()
+    }
 
     for n, v, p in top_n:
         print('name:', n[:-4])

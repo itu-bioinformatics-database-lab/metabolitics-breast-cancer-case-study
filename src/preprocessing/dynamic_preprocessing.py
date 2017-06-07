@@ -9,8 +9,8 @@ from .base_preprocessing_pipeline import BasePreprocessingPipeline
 class DynamicPreprocessing(BasePreprocessingPipeline):
 
     all_steps = set([
-        'naming', 'metabolic-standard', 'fva', 'flux-diff',
-        'feature-selection', 'pathway-scoring', 'basic-fold-change-scaler',
+        'naming', 'metabolic-standard', 'basic-fold-change-scaler', 'fva',
+        'flux-diff', 'feature-selection', 'pathway-scoring',
         'transport-elimination'
     ])
 
@@ -30,7 +30,7 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             pipe.append(('metabolic-standard', MetabolicStandardScaler()))
             pipe.append(('inv_vec', InverseDictVectorizer(vect)))
         if 'basic-fold-change-scaler' in steps:
-            pipe.append('basic_fold_change_scaler', BasicFoldChangeScaler())
+            pipe.append(('basic_fold_change_scaler', BasicFoldChangeScaler()))
         if 'fva' in steps:
             vect = DictVectorizer(sparse=False)
             pipe.append(('vect0', vect))

@@ -28,7 +28,7 @@ def hmdb_disease_analysis():
     y_hmdb, X_hmdb = list(zip(*DataReader().read_hmdb_diseases().items()))
     X_bch, y_bch = DataReader().read_healthy('BC')
 
-    # TODO: standart scale X_bc then combine with hmdb
+    # TODO: restore original hmdb dataset
 
     X, y = X_hmdb + tuple(naming.to(list(X_bch))), y_hmdb + y_bch
 
