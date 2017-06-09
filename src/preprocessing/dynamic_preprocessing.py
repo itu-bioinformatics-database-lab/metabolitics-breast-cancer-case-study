@@ -1,4 +1,5 @@
 from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import Imputer
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.feature_selection import SelectKBest, VarianceThreshold
 
@@ -9,8 +10,8 @@ from .base_preprocessing_pipeline import BasePreprocessingPipeline
 class DynamicPreprocessing(BasePreprocessingPipeline):
 
     all_steps = set([
-        'naming', 'metabolic-standard', 'basic-fold-change-scaler', 'fva',
-        'flux-diff', 'feature-selection', 'pathway-scoring',
+        'naming', 'imputer', 'metabolic-standard', 'basic-fold-change-scaler',
+        'fva', 'flux-diff', 'feature-selection', 'pathway-scoring',
         'transport-elimination'
     ])
 
@@ -24,6 +25,11 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
         pipe = list()
         if 'naming' in steps:
             pipe.append(('naming', NameMatching()))
+        if 'imputer' in steps:
+            vect = DictVectorizer(sparse=False)
+            pipe.append(('vect', vect)),
+            pipe.append(('imputer-mean', Imputer(0, 'mean')))
+            pipe.append(('inv_vec', InverseDictVectorizer(vect)))
         if 'metabolic-standard' in steps:
             vect = DictVectorizer(sparse=False)
             pipe.append(('vect', vect)),

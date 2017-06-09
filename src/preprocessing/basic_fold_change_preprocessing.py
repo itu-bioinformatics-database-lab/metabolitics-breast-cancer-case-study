@@ -16,4 +16,4 @@ class BasicFoldChangeScaler(TransformerMixin):
 
     def scale(self, k, v):
         e = v / self.avgs_[k]
-        return max(1 - e**-1, -100) if self.avgs_[k] > v else min(e - 1, 100)
+        return max(1 - e**-1, -10) if self.avgs_[k] > v else min(e - 1, 10)
