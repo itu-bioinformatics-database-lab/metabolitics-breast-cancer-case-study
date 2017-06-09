@@ -1,6 +1,4 @@
-
 class BasePreprocessingPipeline(object):
-
     def __init__(self):
         self._model = object()
 
@@ -9,6 +7,7 @@ class BasePreprocessingPipeline(object):
         Fits model
         '''
         self._model = self._pipe.fit(X, y)
+        return self
 
     def transform(self, X):
         '''
