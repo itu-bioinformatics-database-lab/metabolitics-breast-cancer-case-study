@@ -5,7 +5,6 @@ from services import average_by_label
 class BasicFoldChangeScaler(TransformerMixin):
     '''
     Scales by measured value by distance to mean according to time of value
-    Thus scale is [inf, 1] and (-1, -inf)
     '''
 
     def fit(self, X, y):
@@ -13,7 +12,8 @@ class BasicFoldChangeScaler(TransformerMixin):
         return self
 
     def transform(self, X):
-        return [{
-            k: -self.avgs_[k] / v if self.avgs_[k] > v else v / self.avgs_[k]
-            for k, v in x.items()
-        } for x in X]
+        return [{k: self.scale(k, v) for k, v in x.items()} for x in X]
+
+    def scale(self, k, v):
+        e = v / self.avgs_[k]
+        return max(1 - e**-1, -100) if self.avgs_[k] > v else min(e - 1, 100)
