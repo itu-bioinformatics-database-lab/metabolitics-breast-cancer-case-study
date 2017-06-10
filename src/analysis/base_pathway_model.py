@@ -73,14 +73,15 @@ class BasePathwayModel(SolverBasedModel):
         for s in set(pathway_names):
             self.make_pathway_inactive(s)
 
-    def increasing_metabolite_constraint_cameo_indicator_const(self, metabolite: Metabolite, v, reactions):
+    def increasing_metabolite_constraint_cameo_indicator_const(
+            self, metabolite: Metabolite, v, reactions):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
         r is reactions of m
         constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
         '''
-        lb = 10 ** -5
+        lb = 10**-5
         bpathway_model_logger.info(metabolite.id)
 
         metabolite_list = []
@@ -148,10 +149,8 @@ class BasePathwayModel(SolverBasedModel):
                         else:
                             expr = -1 * r.flux_expression
                         # When the indicator is 1, constraint is enforced)
-                        c = self.solver.interface.Constraint(expr,
-                                                             lb=lb,
-                                                             indicator_variable=var,
-                                                             active_when=1)
+                        c = self.solver.interface.Constraint(
+                            expr, lb=lb, indicator_variable=var, active_when=1)
                         self.solver.add(c)
                     except ContainerAlreadyContains as e:
                         raise
@@ -186,14 +185,17 @@ class BasePathwayModel(SolverBasedModel):
             except:
                 raise
 
-    def increasing_metabolite_constraint_linear(self, metabolite: Metabolite, v, reactions):
+    def increasing_metabolite_constraint_linear(self,
+                                                metabolite: Metabolite,
+                                                v,
+                                                reactions):
         '''
         Set increasing metaolite constraint which is
         m is increasing metabolite where
         r is reactions of m
         constraint is \sum_{i=1}^{n} |V_{r_i}| >= 2
         '''
-        lb = 10 ** -5
+        lb = 10**-5
         bpathway_model_logger.info(metabolite.id)
 
         metabolite_list = []
@@ -286,9 +288,15 @@ class BasePathwayModel(SolverBasedModel):
                 #     break
                 counter += 1
         bpathway_model_logger.info(self.solver)
-        return DictList(set([rxn_const_triplet[0] for rxn_const_triplet in reactions.values()]))
+        return DictList(
+            set([
+                rxn_const_triplet[0]
+                for rxn_const_triplet in reactions.values()
+            ]))
 
-    def set_objective_coefficients(self, measured_metabolites, without_transports=True):
+    def set_objective_coefficients(self,
+                                   measured_metabolites,
+                                   without_transports=True):
         '''
         Set objective function for given measured metabolites
         '''

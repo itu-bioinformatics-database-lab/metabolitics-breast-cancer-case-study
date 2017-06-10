@@ -64,6 +64,10 @@ def fva_range_with_basic_analysis_save():
     #     pprint.pprint(i)
     #     pdb.set_trace()
 
+    for x in X:
+        for k, v in x.items():
+            x[k] = round(v, 3)
+
     preproc = DynamicPreprocessing(
         ['naming', 'basic-fold-change-scaler', 'fva']).fit(X, y)
 

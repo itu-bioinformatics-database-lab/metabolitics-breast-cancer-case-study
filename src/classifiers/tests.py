@@ -1,5 +1,6 @@
 import unittest
 import logging
+import json
 
 import numpy as np
 from sklearn.model_selection import cross_val_score, StratifiedKFold
@@ -19,9 +20,7 @@ classification_logger.addHandler(
 
 
 class MachineLearningTestCases:
-
     class ClassificationTestCase(unittest.TestCase):
-
         def setUpClf(self):
             raise NotImplementedError
 
@@ -42,10 +41,10 @@ class MachineLearningTestCases:
                        self.y[train_index], self.y[test_index])
 
         def accuracy_scores(self, X_train, X_test, y_train, y_test):
-            classification_logger.info('train accuracy: %f' %
-                                       self.clf.score(X_train, y_train))
-            classification_logger.info('test accuracy: %f' %
-                                       self.clf.score(X_test, y_test))
+            classification_logger.info(
+                'train accuracy: %f' % self.clf.score(X_train, y_train))
+            classification_logger.info(
+                'test accuracy: %f' % self.clf.score(X_test, y_test))
 
         def classification_report(self, X_test, y_test):
             cr = self.clf.classification_report(X_test, y_test)
@@ -59,18 +58,21 @@ class MachineLearningTestCases:
 
         def test_kfold_on_average_test_accuracy(self):
             for scoring in ['accuracy', 'f1_micro']:
-                score = cross_val_score(self.clf, self.X, self.y,
-                                        cv=self.kf, n_jobs=-1,
-                                        scoring=scoring)
-                classification_logger.info(
-                    'kfold test %s: %s' % (scoring, score))
+                score = cross_val_score(
+                    self.clf,
+                    self.X,
+                    self.y,
+                    cv=self.kf,
+                    n_jobs=-1,
+                    scoring=scoring)
+                classification_logger.info('kfold test %s: %s' % (scoring,
+                                                                  score))
                 classification_logger.info('mean: %s' % score.mean())
                 classification_logger.info('std: %s' % score.std())
 
 
 class TestMetaboliteLevelDiseaseClassifier(
         MachineLearningTestCases.ClassificationTestCase):
-
     def setUpClf(self):
         return MetaboliteLevelDiseaseClassifier()
 
@@ -81,7 +83,6 @@ class TestMetaboliteLevelDiseaseClassifier(
 
 class TestPathifierDiseaseClassifier(
         MachineLearningTestCases.ClassificationTestCase):
-
     def setUpClf(self):
         return PathifierDiseaseClassifier()
 
@@ -90,16 +91,19 @@ class TestPathifierDiseaseClassifier(
 
 
 class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
-
     def setUpClf(self):
         return FVADiseaseClassifier()
 
     def setUpData(self):
-        return DataReader().read_fva_solutions('fva_without.transports.txt')
+        _, y = DataReader().read_data('BC')
+        path = '../dataset/solutions/fva_solution_with_basic_fold_change.json'
+        X = [json.loads(i) for i in open(path)]
+        return X, y
+        # return DataReader().read_fva_solutions(
+        #     'fva_solution_with_basic_fold_change.json')
 
 
 class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):
-
     def setUpClf(self):
         return DummyDiseaseClassifier()
 
