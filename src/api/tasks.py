@@ -14,10 +14,11 @@ with open('../models/api_model.p', 'rb') as f:
 
 @celery.task()
 def save_analysis(analysis_id, concentration_changes):
-    reaction_scores = reaction_scaler.transform(concentration_changes)
-    pathway_scores = pathway_scaler.transform(reaction_scores)
     analysis = Analysis.query.get(analysis_id)
-    analysis.save_results(reaction_scores, pathway_scores)
+    analysis.results_reaction = analysis.clean_name_tag(
+        reaction_scaler.transform(concentration_changes))
+    analysis.results_pathway = analysis.clean_name_tag(
+        pathway_scaler.transform(analysis.results_reaction))
     analysis.status = True
     analysis.end_time = datetime.datetime.now()
     db.session.commit()

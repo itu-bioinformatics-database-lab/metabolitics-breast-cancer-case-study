@@ -3,6 +3,7 @@ import datetime
 import json
 
 from sqlalchemy import and_
+from sqlalchemy.dialects.postgresql import JSON
 from flask_sqlalchemy import SQLAlchemy
 from flask_jwt import jwt_required, current_identity
 
@@ -28,35 +29,20 @@ class Analysis(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255))
     status = db.Column(db.Boolean)
-    filename = db.Column(db.String(255))
+    public = db.Column(db.Boolean)
     start_time = db.Column(db.DateTime, nullable=True)
     end_time = db.Column(db.DateTime, nullable=True)
+    results_pathway = db.Column(JSON)
+    results_reaction = db.Column(JSON)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     user = db.relationship("User", back_populates="analysis")
 
-    _path = '../db/analysis-result'
-
-    def __init__(self, name, user, status=False):
+    def __init__(self, name, user, status=False, public=False):
         self.name = name
-        self.filename = str(uuid.uuid4())
+        self.status = status
+        self.public = public
         self.start_time = datetime.datetime.now()
         self.user = user
-        self.status = status
-
-    def load_results(self):
-        self.results = dict()
-        t = (self._path, self.filename)
-        with open('%s/reaction-%s.json' % t) as f:
-            self.results['reaction'] = json.load(f)
-        with open('%s/pathway-%s.json' % t) as f:
-            self.results['pathway'] = json.load(f)
-
-    def save_results(self, reaction_scores, pathway_scores):
-        t = (self._path, self.filename)
-        with open('%s/reaction-%s.json' % t, 'w') as f:
-            json.dump(list(self.clean_name_tag(reaction_scores)), f)
-        with open('%s/pathway-%s.json' % t, 'w') as f:
-            json.dump(list(self.clean_name_tag(pathway_scores)), f)
 
     def clean_name_tag(self, dataset):
         for d in dataset:
@@ -72,3 +58,6 @@ class Analysis(db.Model):
         for i in analyses:
             i.load_results()
         return analyses
+
+    def __repr__(self):
+        return '<Analysis %r>' % self.name
