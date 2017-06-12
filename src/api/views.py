@@ -11,8 +11,6 @@ from .schemas import *
 from .models import db, User, Analysis
 from .tasks import save_analysis
 
-__all__ = ['fva_analysis', 'sign_up', 'spec']
-
 
 @app.route("/spec")
 def spec():
@@ -84,10 +82,10 @@ def user_analysis_set():
           type: string
           required: true
     """
-    analyses = Analysis.get_multiple(request.args.values())
+    analyses = list(Analysis.get_multiple(request.args.values()))
     if len(analyses) != len(request.args):
         return '', 401
-    X = [i.results['pathway'] for i in analyses]
+    X = [i.results_pathway for i in analyses]
     y = [i.name for i in analyses]
     return AnalysisSchema(many=True).jsonify(analyses)
 
@@ -107,10 +105,10 @@ def analysis_visualization():
           type: string
           required: true
     """
-    analyses = Analysis.get_multiple(request.args.values())
+    analyses = list(Analysis.get_multiple(request.args.values()))
     if len(analyses) != len(request.args):
         return '', 401
-    X = [i.results['pathway'][0] for i in analyses]
+    X = [i.results_pathway[0] for i in analyses]
     y = [i.name for i in analyses]
     return jsonify(HeatmapVisualization(X, y).clustered_data())
 
@@ -130,7 +128,9 @@ def user_analysis():
           type: string
           required: true
     """
-    return AnalysisSchema(many=True).jsonify(current_identity.analysis)
+    return AnalysisSchema(many=True).jsonify(
+        current_identity.analysis.with_entities(Analysis.id, Analysis.name,
+                                                Analysis.status))
 
 
 @app.route('/analysis/detail/<id>')
@@ -165,8 +165,6 @@ def analysis_detail(id):
         return '', 404
     if analysis.user_id != current_identity.id:
         return '', 401
-    if analysis.status:
-        analysis.load_results()
     return AnalysisSchema().jsonify(analysis)
 
 

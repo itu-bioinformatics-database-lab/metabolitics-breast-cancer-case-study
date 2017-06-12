@@ -16,17 +16,16 @@ class TaskTests(unittest.TestCase):
         analysis = Analysis('test analysis', None)
         db.session.add(analysis)
         db.session.commit()
+        analysis_id = analysis.id
         save_analysis(analysis.id, {'h_c': 1})
 
-        q_anaylsis = Analysis.query.get(analysis.id)
+        q_anaylsis = Analysis.query.get(analysis_id)
         self.assertTrue(q_anaylsis)
         self.assertTrue(q_anaylsis.results_pathway)
         self.assertTrue(q_anaylsis.results_reaction)
 
-        print(q_anaylsis.results_pathway)
-
-        db.session.delete(self.analysis)
-        db.session.commit()
+        # db.session.delete(self.analysis)
+        # db.session.commit()
 
 
 class ModelsTests(flask_testing.TestCase):

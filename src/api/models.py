@@ -19,7 +19,8 @@ class User(db.Model):
     email = db.Column(db.String(255), unique=True)
     affiliation = db.Column(db.String(255))
     password = db.Column(db.String(255))  # TODO: hash password
-    analysis = db.relationship("Analysis", back_populates="user")
+    analysis = db.relationship(
+        "Analysis", back_populates="user", lazy='dynamic')
 
     def __repr__(self):
         return '<User %r>' % self.email
@@ -45,19 +46,17 @@ class Analysis(db.Model):
         self.user = user
 
     def clean_name_tag(self, dataset):
+        cleaned_dataset = list()
         for d in dataset:
-            yield {k[:-4]: v for k, v in d.items()}
+            cleaned_dataset.append({k[:-4]: v for k, v in d.items()})
+        return cleaned_dataset
 
     @staticmethod
     def get_multiple(ids):
-        analyses = list(
-            Analysis.query.filter(
-                and_(
-                    Analysis.id.in_(ids),
-                    Analysis.user.has(id=current_identity.id))))
-        for i in analyses:
-            i.load_results()
-        return analyses
+        return Analysis.query.filter(
+            and_(
+                Analysis.id.in_(ids),
+                Analysis.user.has(id=current_identity.id)))
 
     def __repr__(self):
         return '<Analysis %r>' % self.name
