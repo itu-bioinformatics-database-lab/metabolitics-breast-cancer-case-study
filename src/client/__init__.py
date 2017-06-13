@@ -1,1 +1,1 @@
-import MetaboliticsApiClient
+from .metabolitics_api import MetaboliticsApiClient

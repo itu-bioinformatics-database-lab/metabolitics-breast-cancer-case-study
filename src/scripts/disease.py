@@ -1,6 +1,7 @@
 from services import DataReader, DataWriter, NamingService
 from .cli import cli
 from preprocessing import DynamicPreprocessing
+from client import MetaboliticsApiClient
 
 
 @cli.command()
@@ -40,3 +41,10 @@ def hmdb_disease_analysis():
 
     X_t = dyn_pre.fit_transform(X, y)
     DataWriter().write_json(dict(zip(y, X_t)), 'hmdb_disease_analysis.json')
+
+
+@cli.command()
+def hmdb_disease_analysis_on_server():
+    client = MetaboliticsApiClient()
+    client.login('hasancelik@std.sehir.edu.tr', '123123')
+    print(client.analyze('test', {'h_c': 1}))
