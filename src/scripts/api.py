@@ -33,7 +33,6 @@ def run_celery():
 
 @cli.command()
 def migrate():
-    db.crea
     db.create_all()
 
 

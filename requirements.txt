@@ -86,7 +86,7 @@ SQLAlchemy==1.1.6
 swiglpk==1.4.1
 sympy==1.0
 tabulate==0.7.7
-tornado==4.4.2
+tornado==4.2.0
 traitlets==4.3.2
 tzlocal==1.3
 vine==1.1.3
