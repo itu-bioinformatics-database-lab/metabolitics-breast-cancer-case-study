@@ -30,7 +30,7 @@ class Analysis(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(255))
     status = db.Column(db.Boolean)
-    public = db.Column(db.Boolean)
+    type = db.Column(db.String(255))
     start_time = db.Column(db.DateTime, nullable=True)
     end_time = db.Column(db.DateTime, nullable=True)
     results_pathway = db.Column(JSON)
@@ -38,10 +38,10 @@ class Analysis(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     user = db.relationship("User", back_populates="analysis")
 
-    def __init__(self, name, user, status=False, public=False):
+    def __init__(self, name, user, status=False, type='private'):
         self.name = name
         self.status = status
-        self.public = public
+        self.type = type
         self.start_time = datetime.datetime.now()
         self.user = user
 

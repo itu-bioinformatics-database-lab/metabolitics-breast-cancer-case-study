@@ -12,9 +12,6 @@ RUN pip3 install -r requirements.txt
 
 WORKDIR /app/src
 
-# migrate db
-RUN python3 main.py migrate
-
 # expose the app port
 EXPOSE 5000
 
