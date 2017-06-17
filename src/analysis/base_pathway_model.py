@@ -304,8 +304,6 @@ class BasePathwayModel(SolverBasedModel):
         for k, v in measured_metabolites.items():
 
             m = self.metabolites.get_by_id(k)
-            v = round(v, 3)
-
             bpathway_model_logger.info(m)
             bpathway_model_logger.info(k)
 
