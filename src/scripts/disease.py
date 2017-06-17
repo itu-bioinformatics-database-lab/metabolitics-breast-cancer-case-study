@@ -15,29 +15,24 @@ def hmdb_disease_normalization():
             named_measurements = naming.to(dict(measurements))
             if len(named_measurements) >= 10:
                 nor_data['%s %s' % (dis, cat)] = {
-                    k: (v if v >= 1 else -v**-1)
+                    k: round(
+                        min(v - 1, 100) if v >= 1 else max(1 - v**-1, -100), 3)
                     for k, v in named_measurements.items()
                 }
-    DataWriter().write_json(nor_data, 'normalization_hmdb.json')
+    DataWriter('normalization_hmdb').write_json(nor_data)
 
 
 @cli.command()
 def hmdb_disease_analysis():
-
     naming = NamingService('recon')
 
     y_hmdb, X_hmdb = list(zip(*DataReader().read_hmdb_diseases().items()))
     X_bch, y_bch = DataReader().read_healthy('BC')
 
-    # TODO: restore original hmdb dataset
-
     X, y = X_hmdb + tuple(naming.to(list(X_bch))), y_hmdb + y_bch
 
     dyn_pre = DynamicPreprocessing(
         ['fva', 'flux-diff', 'pathway-scoring', 'transport-elimination'])
-
-    import pdb
-    pdb.set_trace()
 
     X_t = dyn_pre.fit_transform(X, y)
     DataWriter().write_json(dict(zip(y, X_t)), 'hmdb_disease_analysis.json')
@@ -46,5 +41,9 @@ def hmdb_disease_analysis():
 @cli.command()
 def hmdb_disease_analysis_on_server():
     client = MetaboliticsApiClient()
-    client.login('hasancelik@std.sehir.edu.tr', '123123')
-    print(client.analyze('test', {'h_c': 1}))
+    client.login('your_email', 'your_password')
+
+    hmdb_data = DataReader().read_hmdb_diseases()
+
+    for name, measurements in hmdb_data.items():
+        print(client.analyze(name, measurements))
