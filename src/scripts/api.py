@@ -94,7 +94,7 @@ def healty_for_heatmap(num_of_reactions):
 @cli.command()
 def healties_model():
     (X, y) = DataReader().read_data('BC')
-    pre_model = DynamicPreprocessing(['naming', 'metabolic-standard'])
+    pre_model = DynamicPreprocessing(['naming', 'basic-fold-change-scaler'])
     X = pre_model.fit_transform(X, y)
 
     model = DynamicPreprocessing(['fva', 'flux-diff'])
