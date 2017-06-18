@@ -129,8 +129,28 @@ def user_analysis():
           required: true
     """
     return AnalysisSchema(many=True).jsonify(
-        current_identity.analysis.with_entities(Analysis.id, Analysis.name,
-                                                Analysis.status))
+        current_identity.analysis.filter_by(type='private').with_entities(
+            Analysis.id, Analysis.name, Analysis.status))
+
+
+@app.route('/analysis/disease')
+@jwt_required()
+def disease_analysis():
+    """
+    List of disease analysis avaliable in db
+    ---
+    tags:
+        - analysis
+    parameters:
+        -
+          name: authorization
+          in: header
+          type: string
+          required: true
+    """
+    return AnalysisSchema(many=True).jsonify(
+        Analysis.query.filter_by(type='disease').with_entities(
+            Analysis.id, Analysis.name, Analysis.status))
 
 
 @app.route('/analysis/detail/<id>')
@@ -163,8 +183,9 @@ def analysis_detail(id):
     analysis = Analysis.query.get(id)
     if not analysis:
         return '', 404
-    if analysis.user_id != current_identity.id:
-        return '', 401
+    if analysis.type in ['private', 'noise']:
+        if analysis.user_id != current_identity.id:
+            return '', 401
     return AnalysisSchema().jsonify(analysis)
 
 
