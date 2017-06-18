@@ -4,6 +4,7 @@ from flask import jsonify, request
 from flask_swagger import swagger
 from flask_jwt import jwt_required, current_identity
 
+from services import similarty_dict
 from visualization import HeatmapVisualization
 
 from .app import app
@@ -183,10 +184,55 @@ def analysis_detail(id):
     analysis = Analysis.query.get(id)
     if not analysis:
         return '', 404
-    if analysis.type in ['private', 'noise']:
-        if analysis.user_id != current_identity.id:
-            return '', 401
+    if analysis.authenticated():
+        return '', 401
     return AnalysisSchema().jsonify(analysis)
+
+
+@app.route('/analysis/most-similar-diseases/<id>')
+@jwt_required()
+def most_similar_diseases(id: int):
+    """
+    Calculates most similar disease for given disease id
+    ---
+    tags:
+      - analysis
+    parameters:
+      -
+        name: authorization
+        in: header
+        type: string
+        required: true
+      -
+        name: id
+        in: path
+        type: integer
+        required: true
+    responses:
+      200:
+        description: Most similar diseases
+      404:
+        description: Analysis not found
+      401:
+        description: Analysis is not yours
+    """
+    analysis = Analysis.query.get(id)
+    if not analysis:
+        return '', 404
+    if analysis.authenticated():
+        return '', 401
+
+    row_disease_analyses = Analysis.query.filter_by(
+        type='disease').with_entities(Analysis.name,
+                                      Analysis.results_pathway).all()
+
+    names, disease_analyses = zip(*[(i[0], i[1][0])
+                                    for i in row_disease_analyses])
+
+    sims = similarty_dict(analysis.results_pathway[0], list(disease_analyses))
+    top_5 = sorted(zip(names, sims), key=lambda x: x[1], reverse=True)[:5]
+
+    return jsonify(dict(top_5))
 
 
 @app.route('/auth/sign-up', methods=['POST'])

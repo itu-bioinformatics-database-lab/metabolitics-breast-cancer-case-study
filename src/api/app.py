@@ -6,10 +6,10 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://%s:%s@%s/%s' % (
-    os.environ.get('POSTGRES_USER', 'postgres'),
+    os.environ.get('POSTGRES_USER', 'localhost'),
     os.environ.get('POSTGRES_PASSWORD', 'secret'),
     os.environ.get('POSTGRES_ADDRESS', 'localhost'),
-    os.environ.get('POSTGRES_DB', 'AppDb'))
+    os.environ.get('POSTGRES_DB', 'db'))
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

@@ -51,6 +51,10 @@ class Analysis(db.Model):
             cleaned_dataset.append({k[:-4]: v for k, v in d.items()})
         return cleaned_dataset
 
+    def authenticated(self):
+        return (self.type in ['private', 'noise'] and
+                self.user_id != current_identity.id)
+
     @staticmethod
     def get_multiple(ids):
         return Analysis.query.filter(
