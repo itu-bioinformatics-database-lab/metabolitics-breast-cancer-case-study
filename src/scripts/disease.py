@@ -31,7 +31,7 @@ def hmdb_disease_analysis():
     dyn_pre = DynamicPreprocessing(['fva'])
 
     X_t = dyn_pre.fit_transform(X, y)
-    DataWriter().write_json(dict(zip(y, X_t)), 'hmdb_disease_analysis.json')
+    DataWriter('hmdb_disease_analysis').write_json(dict(zip(y, X_t)))
 
 
 @cli.command()
