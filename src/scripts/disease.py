@@ -26,16 +26,12 @@ def hmdb_disease_normalization():
 def hmdb_disease_analysis():
     naming = NamingService('recon')
 
-    y_hmdb, X_hmdb = list(zip(*DataReader().read_hmdb_diseases().items()))
-    X_bch, y_bch = DataReader().read_healthy('BC')
+    y, X = list(zip(*DataReader().read_hmdb_diseases().items()))
 
-    X, y = X_hmdb + tuple(naming.to(list(X_bch))), y_hmdb + y_bch
-
-    dyn_pre = DynamicPreprocessing(
-        ['fva', 'flux-diff', 'pathway-scoring', 'transport-elimination'])
+    dyn_pre = DynamicPreprocessing(['fva'])
 
     X_t = dyn_pre.fit_transform(X, y)
-    DataWriter().write_json(dict(zip(y, X_t)), 'hmdb_disease_analysis.json')
+    DataWriter('hmdb_disease_analysis').write_json(dict(zip(y, X_t)))
 
 
 @cli.command()
