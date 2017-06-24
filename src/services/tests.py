@@ -1,5 +1,7 @@
 import unittest
 
+import numpy.testing as npt
+
 from .naming_service import NamingService
 from .data_reader import DataReader
 from .data_utils import *
@@ -69,3 +71,8 @@ class TestDataUtils(unittest.TestCase):
         }]
         X = average_by_label(Xi, self.y, 'h')
         self.assertEqual(X, {'a': 5, 'b': 6})
+
+    def test_similarty_dict(self):
+        x = {'a': 1, 'b': 2}
+        y = [{'b': 2, 'a': 2, 'c': 1}, {'b': 0, 'a': 2, 'd': 1}]
+        return npt.assert_almost_equal(similarty_dict(x, y), [0.1055728, 0.6])
