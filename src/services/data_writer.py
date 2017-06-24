@@ -16,7 +16,7 @@ class DataWriter:
         self.write_json(list(zip(X, y)))
 
     def write_json_stream(self, func, X, splits=24):
-        for xs in np.array_split(X, splits):
+        for xs in np.array_split(X, len(X) / splits):
             for x in func(xs):
                 self.file.write('%s\n' % json.dumps(x))
 
