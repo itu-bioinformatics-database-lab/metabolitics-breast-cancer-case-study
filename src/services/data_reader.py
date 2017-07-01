@@ -11,11 +11,12 @@ class DataReader(object):
         self.path = '../dataset/disease'
         self.y_label = 'stage'
 
-    def read_data(self, disease_name):
+    def read_data(self, disease_name, by_stage=False):
         df = pd.read_csv('%s/%s.csv' % (self.path, disease_name), header=0)
         X = df.ix[:, df.columns != self.y_label].to_dict('records')
         y = df[self.y_label].values
-        y = ['h' if i == 'h' else disease_name.lower() for i in y]
+        if not by_stage:
+            y = ['h' if i == 'h' else disease_name.lower() for i in y]
         return (X, y)
 
     def read_healthy(self, disease_name):
@@ -92,6 +93,12 @@ class DataReader(object):
         return model
 
     def read_hmdb_diseases(self):
-        path = '%s/hmdb_disease_measurements.json' % self.path
+        return self.read_json('%s/hmdb_disease_measurements.json' % self.path)
+
+    def read_json(self, path):
         with open(path) as f:
             return json.load(f)
+
+    def read_solution(self, filename):
+        solution = self.read_json('../dataset/solutions/%s.json' % filename)
+        return solution.values(), solution.keys()

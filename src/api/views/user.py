@@ -2,9 +2,9 @@ from flask import jsonify, request
 from flask_swagger import swagger
 from flask_jwt import jwt_required, current_identity
 
-from .app import app
-from .schemas import *
-from .models import db, User, Analysis
+from ..app import app
+from ..schemas import *
+from ..models import db, User, Analysis
 
 
 @app.route("/spec")

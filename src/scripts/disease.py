@@ -1,3 +1,5 @@
+import pickle
+
 from services import DataReader, DataWriter, NamingService
 from .cli import cli
 from preprocessing import DynamicPreprocessing
@@ -35,9 +37,25 @@ def hmdb_disease_analysis():
 
 
 @cli.command()
+def hmdb_disease_analysis_pathway_level():
+    X, y = DataReader().read_solution('hmdb_disease_analysis')
+
+    with open('../models/api_model.p', 'rb') as f:
+        reaction_scaler = pickle.load(f)
+
+    dyn_pre = DynamicPreprocessing(
+        ['pathway-scoring', 'transport-elimination'])
+
+    X_t = reaction_scaler._model.named_steps['flux-diff'].transform(X)
+    X_t = dyn_pre.fit_transform(X_t, y)
+    DataWriter('hmdb_disease_analysis_pathway_level').write_json(
+        dict(zip(y, X_t)))
+
+
+@cli.command()
 def hmdb_disease_analysis_on_server():
     client = MetaboliticsApiClient()
-    client.login('your_email', 'your_password')
+    client.login('email', 'password')
 
     hmdb_data = DataReader().read_hmdb_diseases()
 

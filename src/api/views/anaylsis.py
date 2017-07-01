@@ -4,10 +4,10 @@ from flask_jwt import jwt_required, current_identity
 from services import similarty_dict
 from visualization import HeatmapVisualization
 
-from .app import app
-from .schemas import *
-from .models import db, User, Analysis
-from .tasks import save_analysis
+from ..app import app
+from ..schemas import *
+from ..models import db, User, Analysis
+from ..tasks import save_analysis
 
 
 @app.route('/analysis/fva', methods=['POST'])
@@ -103,9 +103,8 @@ def analysis_visualization():
     return jsonify(HeatmapVisualization(X, y).clustered_data())
 
 
-@app.route('/analysis/disease')
-@jwt_required()
-def disease_analysis():
+@app.route('/analysis/<type>')
+def disease_analysis(type: str):
     """
     List of disease analysis avaliable in db
     ---
@@ -119,7 +118,7 @@ def disease_analysis():
           required: true
     """
     return AnalysisSchema(many=True).jsonify(
-        Analysis.query.filter_by(type='disease').with_entities(
+        Analysis.query.filter_by(type=type).with_entities(
             Analysis.id, Analysis.name, Analysis.status))
 
 
@@ -222,3 +221,22 @@ def user_analysis():
     return AnalysisSchema(many=True).jsonify(
         current_identity.analysis.filter_by(type='private').with_entities(
             Analysis.id, Analysis.name, Analysis.status))
+
+
+@app.route('/analysis/search/<query>')
+def search_analysis(query: str):
+    """
+    Search query in db
+    ---
+    tags:
+        - analysis
+    parameters:
+        -
+          name: query
+          in: url
+          type: string
+          required: true
+    """
+    return AnalysisSchema(many=True).jsonify(
+        Analysis.query.filter(Analysis.name.ilike('%' + query + '%'))
+        .with_entities(Analysis.id, Analysis.name, Analysis.status))

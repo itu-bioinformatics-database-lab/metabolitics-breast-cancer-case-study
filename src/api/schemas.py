@@ -33,6 +33,8 @@ class AnalysisSchema(ma.ModelSchema):
     results = fields.Dict()
     visualization = fields.Dict()
 
+    # type = fields.String(required=False)
+
     class Meta:
         model = Analysis
         exclude = ('user', )
