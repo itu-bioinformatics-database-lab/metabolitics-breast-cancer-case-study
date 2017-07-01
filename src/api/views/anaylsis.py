@@ -58,7 +58,6 @@ def fva_analysis():
 
 
 @app.route('/analysis/set')
-@jwt_required()
 def user_analysis_set():
     """
     List of analysis of user
@@ -81,7 +80,6 @@ def user_analysis_set():
 
 
 @app.route('/analysis/visualization')
-@jwt_required()
 def analysis_visualization():
     """
     List of analysis of user
@@ -123,7 +121,6 @@ def disease_analysis(type: str):
 
 
 @app.route('/analysis/detail/<id>')
-@jwt_required()
 def analysis_detail(id):
     """
     Get analysis detail from id
@@ -158,7 +155,6 @@ def analysis_detail(id):
 
 
 @app.route('/analysis/most-similar-diseases/<id>')
-@jwt_required()
 def most_similar_diseases(id: int):
     """
     Calculates most similar disease for given disease id
