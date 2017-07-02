@@ -38,3 +38,7 @@ class AnalysisSchema(ma.ModelSchema):
     class Meta:
         model = Analysis
         exclude = ('user', )
+
+
+class PathwayChangesScheme(Schema):
+    changes = fields.Dict(required=True)

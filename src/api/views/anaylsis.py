@@ -1,5 +1,9 @@
+from functools import reduce
+
 from flask import jsonify, request
 from flask_jwt import jwt_required, current_identity
+from sqlalchemy import and_
+from sqlalchemy.types import Float
 
 from services import similarty_dict
 from visualization import HeatmapVisualization
@@ -235,4 +239,32 @@ def search_analysis(query: str):
     """
     return AnalysisSchema(many=True).jsonify(
         Analysis.query.filter(Analysis.name.ilike('%' + query + '%'))
+        .with_entities(Analysis.id, Analysis.name, Analysis.status))
+
+
+@app.route('/analysis/search-by-change', methods=['POST'])
+def search_analysis_by_change():
+    """
+    Search query in db
+    ---
+    tags:
+        - analysis
+    parameters:
+        -
+          name: query
+          in: url
+          type: string
+          required: true
+    """
+    (data, error) = PathwayChangesScheme().load(request.json)
+    if error:
+        return jsonify(error), 400
+
+    filters = reduce(and_,
+                     ((lambda x: x > 0 if v == 1 else x < 0
+                       )(Analysis.results_pathway[0][k].astext.cast(Float))
+                      for k, v in data['changes'].items()))
+
+    return AnalysisSchema(many=True).jsonify(
+        Analysis.query.filter(filters)
         .with_entities(Analysis.id, Analysis.name, Analysis.status))
