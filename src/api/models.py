@@ -105,6 +105,12 @@ class Analysis(db.Model):
     def get_multiple(ids):
         query = Analysis.query.filter(Analysis.id.in_(ids))
         filter_type = Analysis.type.in_(['public', 'disease'])
+
+        try:
+            _jwt_required(app.config['JWT_DEFAULT_REALM'])
+        except:
+            pass
+
         if current_identity:
             return query.filter(
                 or_(filter_type, Analysis.user.has(id=current_identity.id)))

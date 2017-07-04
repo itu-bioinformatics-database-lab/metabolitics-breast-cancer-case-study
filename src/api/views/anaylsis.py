@@ -193,7 +193,7 @@ def most_similar_diseases(id: int):
     analysis = Analysis.query.get(id)
     if not analysis:
         return '', 404
-    if analysis.authenticated():
+    if not analysis.authenticated():
         return '', 401
 
     row_disease_analyses = Analysis.query.filter_by(
