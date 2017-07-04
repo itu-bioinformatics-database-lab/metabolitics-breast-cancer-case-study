@@ -6,7 +6,7 @@ from sqlalchemy import and_, or_
 from sqlalchemy.types import Float
 from sqlalchemy.dialects.postgresql import JSON
 from flask_sqlalchemy import SQLAlchemy, BaseQuery
-from flask_jwt import jwt_required, current_identity
+from flask_jwt import jwt_required, current_identity, _jwt_required
 
 from .app import app
 
@@ -96,15 +96,20 @@ class Analysis(db.Model):
         return cleaned_dataset
 
     def authenticated(self):
-        return (self.type not in ['private', 'noise'] or
-                (current_identity and self.user_id == current_identity.id))
+        if self.type in ['private', 'noise']:
+            _jwt_required(app.config['JWT_DEFAULT_REALM'])
+            return self.user_id == current_identity.id
+        return True
 
     @staticmethod
     def get_multiple(ids):
-        return Analysis.query.filter(
-            and_(
-                Analysis.id.in_(ids),
-                Analysis.user.has(id=current_identity.id)))
+        query = Analysis.query.filter(Analysis.id.in_(ids))
+        filter_type = Analysis.type.in_(['public', 'disease'])
+        if current_identity:
+            return query.filter(
+                or_(filter_type, Analysis.user.has(id=current_identity.id)))
+        else:
+            return query.filter(filter_type)
 
     def __repr__(self):
         return '<Analysis %r>' % self.name

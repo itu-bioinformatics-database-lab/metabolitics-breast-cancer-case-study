@@ -229,25 +229,6 @@ def user_analysis():
             Analysis.id, Analysis.name, Analysis.status))
 
 
-@app.route('/analysis/search/<query>')
-def search_analysis(query: str):
-    """
-    Search query in db
-    ---
-    tags:
-        - analysis
-    parameters:
-        -
-          name: query
-          in: url
-          type: string
-          required: true
-    """
-    return AnalysisSchema(many=True).jsonify(
-        Analysis.query.filter(Analysis.name.ilike('%' + query + '%'))
-        .with_entities(Analysis.id, Analysis.name, Analysis.status))
-
-
 @app.route('/analysis/search-by-change', methods=['POST'])
 def search_analysis_by_change():
     """
