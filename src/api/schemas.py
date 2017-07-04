@@ -41,4 +41,7 @@ class AnalysisSchema(ma.ModelSchema):
 
 
 class PathwayChangesScheme(Schema):
-    changes = fields.Dict(required=True)
+    pathway = fields.String(required=True)
+    change = fields.Integer(required=True)
+    qualifier = fields.String(allow_none=True)
+    amount = fields.Number(allow_none=True)

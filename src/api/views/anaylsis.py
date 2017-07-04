@@ -256,15 +256,11 @@ def search_analysis_by_change():
           type: string
           required: true
     """
-    (data, error) = PathwayChangesScheme().load(request.json)
+    (data, error) = PathwayChangesScheme().load(request.json, many=True)
     if error:
         return jsonify(error), 400
 
-    filters = reduce(and_,
-                     ((lambda x: x > 0 if v == 1 else x < 0
-                       )(Analysis.results_pathway[0][k].astext.cast(Float))
-                      for k, v in data['changes'].items()))
-
     return AnalysisSchema(many=True).jsonify(
-        Analysis.query.filter(filters)
+        Analysis.query.filter_by_change_many(data)
+        .filter_by_change_amount_many(data)
         .with_entities(Analysis.id, Analysis.name, Analysis.status))

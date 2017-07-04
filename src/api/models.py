@@ -2,9 +2,10 @@ import uuid
 import datetime
 import json
 
-from sqlalchemy import and_
+from sqlalchemy import and_, or_
+from sqlalchemy.types import Float
 from sqlalchemy.dialects.postgresql import JSON
-from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy, BaseQuery
 from flask_jwt import jwt_required, current_identity
 
 from .app import app
@@ -37,6 +38,49 @@ class Analysis(db.Model):
     results_reaction = db.Column(JSON)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
     user = db.relationship("User", back_populates="analysis")
+
+    class AnalysisQuery(BaseQuery):
+        def get_pathway_score(self, pathway):
+            return Analysis.results_pathway[0][pathway].astext.cast(Float)
+
+        def filter_by_change(self, pathway, change):
+            score = self.get_pathway_score(pathway)
+            return self.filter(score > 0 if change >= 0 else score < 0)
+
+        def for_many(self, iterable, func):
+            f = self
+            for i in iterable:
+                f = func(i)
+            return f
+
+        def filter_by_change_many(self, data):
+            return self.for_many(
+                data,
+                lambda x: self.filter_by_change(x['pathway'], x['change']))
+
+        def filter_by_change_amount(self, pathway, qualifier, amount):
+            if not (qualifier and amount):
+                return self
+
+            score = self.get_pathway_score(pathway)
+            if qualifier == 'lt':
+                return self.filter(amount >= score)
+            elif qualifier == 'gt':
+                return self.filter(score >= amount)
+            elif qualifier == 'eq':
+                return self.filter(
+                    or_(score + 10 >= amount, score - 10 <= amount))
+            else:
+                raise ValueError(
+                    'qualifier should be lt, gt or eq but not %s ' % qualifier)
+
+        def filter_by_change_amount_many(self, data):
+            return self.for_many(
+                data,
+                lambda x: self.filter_by_change_amount(x['pathway'], x['qualifier'], x['amount'])
+            )
+
+    query_class = AnalysisQuery
 
     def __init__(self, name, user, status=False, type='private'):
         self.name = name
