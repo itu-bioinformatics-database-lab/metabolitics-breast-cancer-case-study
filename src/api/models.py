@@ -96,8 +96,8 @@ class Analysis(db.Model):
         return cleaned_dataset
 
     def authenticated(self):
-        return (self.type in ['private', 'noise'] and
-                self.user_id != current_identity.id)
+        return (self.type not in ['private', 'noise'] or
+                (current_identity and self.user_id == current_identity.id))
 
     @staticmethod
     def get_multiple(ids):

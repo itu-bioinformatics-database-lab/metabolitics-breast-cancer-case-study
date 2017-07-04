@@ -53,11 +53,17 @@ def fva_analysis():
     (data, error) = AnalysisInputSchema().load(request.json)
     if error:
         return jsonify(error), 400
-    analysis = Analysis(data['name'], current_identity)
+
+    analysis = Analysis(
+        data['name'],
+        current_identity,
+        type='public' if data['public'] else 'private')
     db.session.add(analysis)
     db.session.commit()
+
     analysis_id = analysis.id
     save_analysis.delay(analysis_id, data['concentration_changes'])
+
     return jsonify({'id': analysis_id})
 
 
@@ -153,7 +159,7 @@ def analysis_detail(id):
     analysis = Analysis.query.get(id)
     if not analysis:
         return '', 404
-    if analysis.authenticated():
+    if not analysis.authenticated():
         return '', 401
     return AnalysisSchema().jsonify(analysis)
 

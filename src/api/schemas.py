@@ -9,6 +9,7 @@ ma = Marshmallow(app)
 
 class AnalysisInputSchema(Schema):
     name = fields.String(required=True)
+    public = fields.Boolean(required=True)
     concentration_changes = fields.Dict(required=True)
 
 
