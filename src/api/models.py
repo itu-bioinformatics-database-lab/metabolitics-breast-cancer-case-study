@@ -80,6 +80,19 @@ class Analysis(db.Model):
                 lambda x: self.filter_by_change_amount(x['pathway'], x['qualifier'], x['amount'])
             )
 
+        def filter_by_authentication(self):
+            filter_type = Analysis.type.in_(['public', 'disease'])
+
+            try:
+                _jwt_required(app.config['JWT_DEFAULT_REALM'])
+            except:
+                pass
+
+            if not current_identity:
+                return self.filter(filter_type)
+            return self.filter(
+                or_(filter_type, Analysis.user.has(id=current_identity.id)))
+
     query_class = AnalysisQuery
 
     def __init__(self, name, user, status=False, type='private'):
@@ -103,19 +116,8 @@ class Analysis(db.Model):
 
     @staticmethod
     def get_multiple(ids):
-        query = Analysis.query.filter(Analysis.id.in_(ids))
-        filter_type = Analysis.type.in_(['public', 'disease'])
-
-        try:
-            _jwt_required(app.config['JWT_DEFAULT_REALM'])
-        except:
-            pass
-
-        if current_identity:
-            return query.filter(
-                or_(filter_type, Analysis.user.has(id=current_identity.id)))
-        else:
-            return query.filter(filter_type)
+        return Analysis.query.filter(
+            Analysis.id.in_(ids)).filter_by_authentication()
 
     def __repr__(self):
         return '<Analysis %r>' % self.name

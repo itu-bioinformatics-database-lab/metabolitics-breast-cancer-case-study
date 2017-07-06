@@ -249,5 +249,5 @@ def search_analysis_by_change():
 
     return AnalysisSchema(many=True).jsonify(
         Analysis.query.filter_by_change_many(data)
-        .filter_by_change_amount_many(data)
+        .filter_by_change_amount_many(data).filter_by_authentication()
         .with_entities(Analysis.id, Analysis.name, Analysis.status))
