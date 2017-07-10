@@ -8,6 +8,7 @@ from .flux_diff_analysis import flux_diff_analysis
 from .solution_config_generator import solution_config_generator
 from .visualizations import *
 from .disease import *
+from .best_feature_elimination import *
 
 try:
     from .pathifier import pathifier

@@ -16,7 +16,6 @@ from preprocessing import BorderSelector, PathwayFvaScaler, FVAScaler, \
 
 
 class FVADiseaseClassifier(BaseDiseaseClassifier):
-
     def __init__(self):
         super().__init__()
         vect1 = DictVectorizer(sparse=False)

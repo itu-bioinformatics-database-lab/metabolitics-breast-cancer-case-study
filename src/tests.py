@@ -6,6 +6,7 @@ from analysis.tests import *
 from classifiers.tests import *
 from services.tests import *
 from api.tests import *
+from noise.tests import *
 
 if __name__ == "__main__":
     unittest.main()

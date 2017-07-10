@@ -19,6 +19,15 @@ class DataReader(object):
             y = ['h' if i == 'h' else disease_name.lower() for i in y]
         return (X, y)
 
+    def read_disease_sample(self, disease_name):
+        X, y = self.read_data(disease_name)
+        X_new, y_new = [], []
+        for label in ['h', disease_name.lower()]:
+            x, l = list(filter(lambda x: x[1] == label, zip(X, y)))[0]
+            X_new.append(x)
+            y_new.append(l)
+        return X_new, y_new
+
     def read_healthy(self, disease_name):
         return list(
             zip(*filter(lambda y: y[1] == 'h',

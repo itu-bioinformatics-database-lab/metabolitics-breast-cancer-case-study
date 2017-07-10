@@ -2,19 +2,19 @@ from collections import defaultdict
 import json
 
 from .cli import cli
+
 import click
 import cobra as cb
-
-from sklearn.feature_selection import f_classif, VarianceThreshold, SelectKBest
-from sklearn.pipeline import Pipeline
-from sklearn.feature_extraction import DictVectorizer
 import numpy as np
 
+from sklearn.pipeline import Pipeline
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.feature_selection import f_classif, VarianceThreshold, SelectKBest
+
 from services import DataReader, NamingService, DataWriter
-from preprocessing import FVARangedMeasurement
+from preprocessing import DynamicPreprocessing, FVARangedMeasurement, PathwayFvaScaler, InverseDictVectorizer
 from classifiers import FVADiseaseClassifier
 from .optimal_currency_threshold import optimal_currency_threshold
-from preprocessing import PathwayFvaScaler, InverseDictVectorizer, DynamicPreprocessing
 
 
 @cli.command()
