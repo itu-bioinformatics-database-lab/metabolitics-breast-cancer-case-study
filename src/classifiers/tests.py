@@ -95,9 +95,10 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
         return FVADiseaseClassifier()
 
     def setUpData(self):
-        _, y = DataReader().read_data('BC')
-        path = '../dataset/solutions/fva_solution_with_basic_fold_change.json'
-        X = [json.loads(i) for i in open(path)]
+        path = '../dataset/solutions/bc_disease_analysis#k=1.json'
+       
+        X, y = zip(*[json.loads(i) for i in open(path)][0])
+        
         return X, y
         # return DataReader().read_fva_solutions(
         #     'fva_solution_with_basic_fold_change.json')

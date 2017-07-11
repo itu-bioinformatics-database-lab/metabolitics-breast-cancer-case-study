@@ -12,9 +12,9 @@ from noise import SelectNotKBest
 
 @cli.command()
 def eliminate_best_k():
-    (X, y) = DataReader().read_disease_sample('BC')
+    (X, y) = DataReader().read_data('BC')
 
-    for i in range(1, len(X[0].keys()) + 1):
+    for i in range(1, len(X[0].keys()) + 1, 10):
 
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
