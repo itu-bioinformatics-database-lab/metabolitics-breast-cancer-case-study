@@ -4,22 +4,28 @@ from cobra.core import DictList
 
 
 class BaseFVA(BasePathwayModel):
+    def analyze(self,
+                measured_metabolites,
+                filter_by_subsystem=False,
+                add_constraints=False,
+                without_transports=True):
 
-    def analyze(self, measured_metabolites, filter_by_subsystem=False,
-                add_constraints=False):
         if add_constraints:
             self.increasing_metabolite_constraints(measured_metabolites)
 
-        self.set_objective_coefficients(measured_metabolites)
+        self.set_objective_coefficients(measured_metabolites,
+                                        without_transports)
 
         reactions = None
         if filter_by_subsystem:
             reactions = self.filter_reaction_by_subsystems()
 
-        return flux_variability_analysis(self, reactions=reactions,
-                                         fraction_of_optimum=1)
+        return flux_variability_analysis(
+            self, reactions=reactions, fraction_of_optimum=1)
 
-    def fba(self, measured_metabolites, filter_by_subsystem=False,
+    def fba(self,
+            measured_metabolites,
+            filter_by_subsystem=False,
             add_constraints=False):
         if add_constraints:
             self.increasing_metabolite_constrains(measured_metabolites)

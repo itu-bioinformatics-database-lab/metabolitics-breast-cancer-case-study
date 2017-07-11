@@ -35,15 +35,18 @@ class TestBasePathwayModel(unittest.TestCase):
         self.assertTrue(sum_flux >= 0)
 
     def test_deactivate_pathway(self):
-        self.model.knock_out_pathway(self.oxi_phos)
+        self.model.make_pathway_inactive(self.oxi_phos)
         solution = self.model.solve()
         sum_flux = sum(solution.x_dict[r.id] for r in self.oxi_phos.reactions)
-        self.assertTrue(sum_flux == 0)
+        self.assertEqual(sum_flux, 0)
 
     def test_set_objective_coefficients(self):
-        self.model.set_objective_coefficients({'h2o2_p': 1})
+        self.model.set_objective_coefficients(
+            {
+                'h2o2_p': 1
+            }, without_transports=False)
         for r in self.h2o2_p.producers():
-            self.assertNotEqual(r.objective_coefficient, 0)
+            self.assertNotEqual(r.objective_coefficient, 0.0)
 
     def test_create_for(self):
         recon = BasePathwayModel.create_for()
@@ -56,10 +59,10 @@ class TestBaseFVA(unittest.TestCase):
 
     def test_analyze_base_on_example_two(self):
         analyzer = BaseFVA.create_for('example2')
-        measured_metabolites = {'M2': -1, 'M3': 1}
+        measured_metabolites = {'M2': -0.5, 'M3': 10}
         df = analyzer.analyze(
-            measured_metabolites, add_constraints=True).data_frame
-        print(df)
+            measured_metabolites, without_transports=False).data_frame
+        self.assertIsNotNone(df)
 
     def test_analyze(self):
         measured_metabolites = {'fru_e': '1.1'}
@@ -73,82 +76,3 @@ class TestBaseFVA(unittest.TestCase):
         self.assertTrue(len(self.analyzer.reactions) > len(reactions))
         num_systems = set(r.subsystem for r in self.analyzer.reactions)
         self.assertTrue(len(num_systems) * 3 >= len(reactions))
-
-    @unittest.skip('they are not compatibility anyway')
-    def test_dataset_compatibility(self):
-        (s, y) = DataReader().read_fva_solutions()
-        (s6, y) = DataReader().read_fva_solutions('fva_solutions6.txt')
-        for i in range(len(s)):
-            # a = 0
-            for k, _ in s[i].items():
-                self.assertAlmostEqual(s[i][k], s6[i][k])
-            #     if abs(s[i][k] - s6[i][k]) > 1e-6:
-            #         # print(k, s[i][k], s6[i][k])
-            #         a += 1
-            # print(a)
-
-
-class TestConstraint(unittest.TestCase):
-    def setUp(self):
-        self.model = BaseFVA.create_for()
-
-    @unittest.skip('not migrate test: FIX ME')
-    def test_increasing_metabolite_constraint(self):
-        metabolite = 'inost_r'
-        measured_metabolites = {metabolite: 1}
-        reactions = self.model.increasing_metabolite_constraints(
-            measured_metabolites)
-
-        df = self.model.analyze(measured_metabolites, add_constraints=False)
-
-        flux_sum = sum([1 for r in reactions if df[r.id] >= 10**-3 - 10**-6])
-
-        self.assertTrue(flux_sum >= 1)
-
-    def test_indicator_constraints_integrated(self):
-        self.model = BaseFVA.create_for('example')
-        measured_metabolites = {'ACP_c': 1}
-        reactions = self.model.increasing_metabolite_constraints(
-            measured_metabolites)
-        df = self.model.fba(measured_metabolites)
-
-        flux_sum = sum([1 for r in reactions if df[r.id] >= 10**-3 - 10**-6])
-
-        self.assertTrue(flux_sum >= 1)
-
-        # print(self.model.solver)
-
-    def test_indicator_constraints_synthetic(self):
-        model = DataReader().create_example_model()
-        smodel = SolverBasedModel(description=model)
-
-        lb = 1
-        metabolite = model.metabolites.get_by_id('ACP_c')
-
-        indicator_vars = []
-        for r in metabolite.producers():
-            var = smodel.solver.interface.Variable(
-                "var_%s" % r.id, type="binary")
-
-            # When the indicator is 1, constraint is enforced)
-            c = smodel.solver.interface.Constraint(
-                r.flux_expression,
-                lb=lb,
-                indicator_variable=var,
-                active_when=1)
-
-            smodel.solver.add(c)
-            indicator_vars.append(var)
-
-        expr = sum(indicator_vars)
-        c = smodel.solver.interface.Constraint(
-            expr, lb=1, ub=len(indicator_vars))
-        smodel.solver.add(c)
-
-        df = fba(smodel)
-
-        flux_sum = sum(df[r.id] >= 1 - 10**-6 for r in metabolite.producers())
-
-        self.assertTrue(flux_sum >= 1)
-
-        # print(self.model.solver)

@@ -27,19 +27,19 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             pipe.append(('naming', NameMatching()))
         if 'imputer' in steps:
             vect = DictVectorizer(sparse=False)
-            pipe.append(('vect', vect)),
+            pipe.append(('vect-imputer', vect)),
             pipe.append(('imputer-mean', Imputer(0, 'mean')))
-            pipe.append(('inv_vec', InverseDictVectorizer(vect)))
+            pipe.append(('inv_vec-imputer', InverseDictVectorizer(vect)))
         if 'metabolic-standard' in steps:
             vect = DictVectorizer(sparse=False)
-            pipe.append(('vect', vect)),
+            pipe.append(('vect-standard', vect)),
             pipe.append(('metabolic-standard', MetabolicStandardScaler()))
-            pipe.append(('inv_vec', InverseDictVectorizer(vect)))
+            pipe.append(('inv_vec-standard', InverseDictVectorizer(vect)))
         if 'basic-fold-change-scaler' in steps:
             pipe.append(('basic_fold_change_scaler', BasicFoldChangeScaler()))
         if 'fva' in steps:
             vect = DictVectorizer(sparse=False)
-            pipe.append(('vect0', vect))
+            pipe.append(('vect-fva', vect))
             pipe.append(('fva', FVAScaler(vect)))
         if 'flux-diff' in steps:
             pipe.append(('flux-diff', ReactionDiffScaler()))
@@ -49,12 +49,12 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             vt = VarianceThreshold(0.1)
             skb = SelectKBest(k=50)
             pipe.extend([
-                ('vect1', vect1),
+                ('vect-vt', vect1),
                 ('vt', vt),
-                ('inv_vec1', InverseDictVectorizer(vect1, vt)),
-                ('vect2', vect2),
+                ('inv_vec-vt', InverseDictVectorizer(vect1, vt)),
+                ('vect-skb', vect2),
                 ('skb', skb),
-                ('inv_vec2', InverseDictVectorizer(vect2, skb)),
+                ('inv_vec-skb', InverseDictVectorizer(vect2, skb)),
             ])
         if 'pathway-scoring' in steps:
             pipe.append(('pathway_scoring', PathwayFvaScaler()))
