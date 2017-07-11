@@ -38,7 +38,7 @@ class DataReader(object):
             '%s/%s.csv' % (self.path, disease_name), header=0).columns
 
     def read_all(self):
-        disease_names = [f[:-4] for f in os.listdir(self.path)]
+        disease_names = ['BC', 'HCC']
         (X, y) = (list(), list())
         for i in disease_names:
             (tX, ty) = self.read_data(i)
