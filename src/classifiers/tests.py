@@ -77,8 +77,8 @@ class TestMetaboliteLevelDiseaseClassifier(
         return MetaboliteLevelDiseaseClassifier()
 
     def setUpData(self):
-        # return DataReader().read_data('BC')
-        return DataReader().read_data('HCC')
+        return DataReader().read_data('BC')
+        # return DataReader().read_data('HCC')
 
 
 class TestPathifierDiseaseClassifier(
@@ -96,9 +96,9 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
 
     def setUpData(self):
         path = '../dataset/solutions/bc_disease_analysis#k=1.json'
-       
+
         X, y = zip(*[json.loads(i) for i in open(path)][0])
-        
+
         return X, y
         # return DataReader().read_fva_solutions(
         #     'fva_solution_with_basic_fold_change.json')

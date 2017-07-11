@@ -17,7 +17,6 @@ import optlang
 
 
 class TestBasePathwayModel(unittest.TestCase):
-
     def setUp(self):
         model = cb.test.create_test_model('salmonella')
         self.model = BasePathwayModel(description=model)
@@ -52,9 +51,15 @@ class TestBasePathwayModel(unittest.TestCase):
 
 
 class TestBaseFVA(unittest.TestCase):
-
     def setUp(self):
         self.analyzer = BaseFVA.create_for('e_coli_core')
+
+    def test_analyze_base_on_example_two(self):
+        analyzer = BaseFVA.create_for('example2')
+        measured_metabolites = {'M2': -1, 'M3': 1}
+        df = analyzer.analyze(
+            measured_metabolites, add_constraints=True).data_frame
+        print(df)
 
     def test_analyze(self):
         measured_metabolites = {'fru_e': '1.1'}
@@ -84,7 +89,6 @@ class TestBaseFVA(unittest.TestCase):
 
 
 class TestConstraint(unittest.TestCase):
-
     def setUp(self):
         self.model = BaseFVA.create_for()
 

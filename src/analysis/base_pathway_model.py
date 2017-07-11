@@ -27,6 +27,8 @@ class BasePathwayModel(SolverBasedModel):
     def create_for(cls, dataset_name="recon2"):
         if dataset_name == 'example':
             model = DataReader().create_example_model()
+        elif dataset_name == 'example2':
+            model = DataReader().create_example2_model()
         else:
             model = DataReader().read_network_model(dataset_name)
 

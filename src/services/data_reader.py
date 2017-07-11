@@ -101,6 +101,30 @@ class DataReader(object):
 
         return model
 
+    def create_example2_model(self):
+        model = Model('example2_model')
+
+        rs = (r1, r2, r3, r4,
+              r5) = (Reaction('R1'), Reaction('R2'), Reaction('R3'),
+                     Reaction('R4'), Reaction('R5'))
+        for r in rs:
+            r.lower_bound = 0.
+            r.upper_bound = 1000.
+            r.objective_coefficient = 0.
+
+        ms = (m1, m2, m3) = (Metabolite('M1'), Metabolite('M2'),
+                             Metabolite('M3'))
+
+        r1.add_metabolites({m1: 1.0})
+        r2.add_metabolites({m1: -1.0, m2: 1.0})
+        r3.add_metabolites({m2: -1.0})
+        r4.add_metabolites({m1: -1.0, m3: 1.0})
+        r5.add_metabolites({m3: -1.0})
+
+        model.add_reactions(rs)
+
+        return model
+
     def read_hmdb_diseases(self):
         return self.read_json('%s/hmdb_disease_measurements.json' % self.path)
 
