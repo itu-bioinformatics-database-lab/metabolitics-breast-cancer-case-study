@@ -23,6 +23,7 @@ flask-marshmallow==0.7.0
 Flask-RESTful==0.3.5
 Flask-SQLAlchemy==2.2
 flask-swagger==0.2.13
+Flask-Testing==0.6.2
 flower==0.9.1
 fn==0.4.3
 future==0.16.0
@@ -90,7 +91,7 @@ SQLAlchemy==1.1.6
 swiglpk==1.4.1
 sympy==1.0
 tabulate==0.7.7
-tornado==4.2.0
+tornado==4.2
 traitlets==4.3.2
 tzlocal==1.3
 vine==1.1.3
