@@ -49,12 +49,14 @@ class MachineLearningTestCases:
             cr = self.clf.classification_report(X_test, y_test)
             classification_logger.info('\n %s' % cr)
 
+        @unittest.skip('long running tests')
         def test_kfold(self):
             for X_train, X_test, y_train, y_test in self.folds():
                 self.clf.fit(X_train, y_train)
                 self.accuracy_scores(X_train, X_test, y_train, y_test)
                 self.classification_report(X_test, y_test)
 
+        @unittest.skip('long running tests')
         def test_kfold_on_average_test_accuracy(self):
             for scoring in ['accuracy', 'f1_micro']:
                 score = cross_val_score(
