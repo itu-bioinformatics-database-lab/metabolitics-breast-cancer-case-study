@@ -18,7 +18,7 @@ def average_by_label(X, y, label):
                            filter_by_label(X, y, label)[0]).mean().to_dict())
 
 
-def similarty_dict(x: Dict, y: List[Dict]):
+def similarty_dict(x: Dict, y: List[Dict], metric=correlation):
     """Calculate dictance of one vector in dict format to other dictinary in list of dict"""
     vecs = pd.DataFrame([x] + y).fillna(0).values
-    return [1 - correlation(vecs[0], v) for v in vecs[1:]]
+    return [1 - metric(vecs[0], v) for v in vecs[1:]]

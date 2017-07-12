@@ -33,6 +33,12 @@ docker build . -t metabolitics/api
 docker run -d -p 5000:5000 metabolitics/api
 ```
 
+Docker db
+```
+docker run -p 5432:5432 -d postgres
+```
+
+
 ## Related Projects
 
 [metabol](https://github.com/MuhammedHasan/metabol)

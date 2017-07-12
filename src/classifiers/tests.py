@@ -7,7 +7,6 @@ from sklearn.model_selection import cross_val_score, StratifiedKFold
 
 from services import DataReader
 
-from .dummy_disease_classifier import DummyDiseaseClassifier
 from .metabolite_level_disease_classifier \
     import MetaboliteLevelDiseaseClassifier
 from .fva_disease_classifier import FVADiseaseClassifier
@@ -96,17 +95,8 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
 
     def setUpData(self):
         path = '../dataset/solutions/bc_disease_analysis#k=1.json'
-
-        X, y = zip(*[json.loads(i) for i in open(path)][0])
-
+        with open(path) as f:
+            X, y = zip(*[json.loads(i) for i in f][0])
         return X, y
         # return DataReader().read_fva_solutions(
         #     'fva_solution_with_basic_fold_change.json')
-
-
-class TestDummyClassifier(MachineLearningTestCases.ClassificationTestCase):
-    def setUpClf(self):
-        return DummyDiseaseClassifier()
-
-    def setUpData(self):
-        return DataReader().read_solutions()

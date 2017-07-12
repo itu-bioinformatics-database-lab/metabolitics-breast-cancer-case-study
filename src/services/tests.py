@@ -1,6 +1,7 @@
 import unittest
 
 import numpy.testing as npt
+from scipy.spatial.distance import euclidean
 
 from .naming_service import NamingService
 from .data_reader import DataReader
@@ -75,4 +76,6 @@ class TestDataUtils(unittest.TestCase):
     def test_similarty_dict(self):
         x = {'a': 1, 'b': 2}
         y = [{'b': 2, 'a': 2, 'c': 1}, {'b': 0, 'a': 2, 'd': 1}]
-        return npt.assert_almost_equal(similarty_dict(x, y), [0.1055728, 0.6])
+
+        return npt.assert_almost_equal(
+            similarty_dict(x, y, euclidean), [-0.4142136, -1.4494897])

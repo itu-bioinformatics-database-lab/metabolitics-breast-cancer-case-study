@@ -3,6 +3,9 @@ language: python
 python:
   - "3.5.2"
 
+services:
+  - postgresql
+
 install: "pip install -r requirements.txt"
 
 before_script: "cd src"

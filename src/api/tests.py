@@ -1,7 +1,7 @@
 import unittest
 import flask_testing
 
-from .app import app
+from .app import app, config
 from .models import Analysis, db
 from .tasks import save_analysis
 
@@ -11,8 +11,8 @@ class ApiTests(flask_testing.TestCase):
 
 
 class TaskTests(unittest.TestCase):
+    @unittest.skip('Require db')
     def test_save_analysis(self):
-        # Warning: Do not use production db
         analysis = Analysis('test analysis', None)
         db.session.add(analysis)
         db.session.commit()
@@ -35,11 +35,10 @@ class ModelsTests(flask_testing.TestCase):
         self.analysis = Analysis('test analysis', None)
 
     def create_app(self):
-        # Warning: Do not use production db
-        app.config['TESTING'] = True
+        app.config.from_object(config['testing'])
+        db.create_all()
         return app
 
-    @unittest.skip('Require db')
     def test_analysis(self):
         self.analysis.results_pathway = self.pathway_result
         self.analysis.results_reaction = self.reaction_result

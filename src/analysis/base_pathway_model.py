@@ -65,7 +65,8 @@ class BasePathwayModel(SolverBasedModel):
         Knock outing subsystems means knock outing all reactions of subsystems
         '''
         p = self.get_pathway(pathway) if type(pathway) == str else pathway
-        sum_flux = sum(r.flux_expression for r in p.reactions)
+        sum_flux = sum(r.forward_variable + r.reverse_variable
+                       for r in p.reactions)
         self.solver.add(self.solver.interface.Constraint(sum_flux, lb=0, ub=0))
 
     def make_pathways_inactive(self, pathway_names: List[str]):

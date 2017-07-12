@@ -7,6 +7,7 @@ from sqlalchemy.types import Float
 from sqlalchemy.dialects.postgresql import JSON
 from flask_sqlalchemy import SQLAlchemy, BaseQuery
 from flask_jwt import jwt_required, current_identity, _jwt_required
+import sqlalchemy_jsonfield
 
 from .app import app
 
