@@ -1,20 +1,14 @@
-from typing import List
 import logging
-from cobra.core import Model, DictList, Reaction
-
-from cameo.core import SolverBasedModel, Metabolite
-from cameo.core.pathway import Pathway
+from typing import List
 
 from sympy.core.singleton import S
+from cameo.core.pathway import Pathway
+from cameo.core import SolverBasedModel, Metabolite
+from cobra.core import Model, DictList, Reaction
 
 from services import DataReader
-import re
-from optlang.exceptions import ContainerAlreadyContains
 
-bpathway_model_logger = logging.getLogger('bpathway_model_logger')
-bpathway_model_logger.setLevel(logging.INFO)
-bpathway_model_logger \
-    .addHandler(logging.FileHandler('../logs/bpathway_model_logger.log'))
+logger = logging.getLogger(__name__)
 
 
 class BasePathwayModel(SolverBasedModel):
@@ -86,15 +80,15 @@ class BasePathwayModel(SolverBasedModel):
         for k, v in measured_metabolites.items():
 
             m = self.metabolites.get_by_id(k)
-            bpathway_model_logger.info(m)
-            bpathway_model_logger.info(k)
+            logger.info(m)
+            logger.info(k)
 
             total_stoichiometry = m.total_stoichiometry(without_transports)
-            bpathway_model_logger.info(total_stoichiometry)
+            logger.info(total_stoichiometry)
 
             for r in m.producers(without_transports):
-                bpathway_model_logger.info(r.metabolites[m])
-                bpathway_model_logger.info(total_stoichiometry)
+                logger.info(r.metabolites[m])
+                logger.info(total_stoichiometry)
                 update_rate = v * r.metabolites[m] / total_stoichiometry
                 r.objective_coefficient += update_rate
 

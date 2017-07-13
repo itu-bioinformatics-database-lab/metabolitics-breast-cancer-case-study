@@ -8,12 +8,7 @@ from sklearn.base import TransformerMixin
 
 from analysis import BaseFVA
 
-fva_scaler_logger = logging.getLogger('fva_scaler')
-fva_scaler_logger.setLevel(logging.INFO)
-handler = logging.FileHandler('../logs/fva_scaler.log')
-formatter = logging.Formatter('%(asctime)s - %(message)s')
-handler.setFormatter(formatter)
-fva_scaler_logger.addHandler(handler)
+logger = logging.getLogger(__name__)
 
 
 class FVAScaler(TransformerMixin):

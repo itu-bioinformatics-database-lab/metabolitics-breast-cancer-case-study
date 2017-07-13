@@ -12,10 +12,7 @@ from .metabolite_level_disease_classifier \
 from .fva_disease_classifier import FVADiseaseClassifier
 from .pathifier_disease_classifier import PathifierDiseaseClassifier
 
-classification_logger = logging.getLogger('classification')
-classification_logger.setLevel(logging.INFO)
-classification_logger.addHandler(
-    logging.FileHandler('../logs/classification.log'))
+logger = logging.getLogger(__name__)
 
 
 class MachineLearningTestCases:
@@ -32,7 +29,7 @@ class MachineLearningTestCases:
             self.X = np.array(self.X)
             self.y = np.array(self.y)
             self.kf = StratifiedKFold(n_splits=10, random_state=43)
-            classification_logger.info('\n %s \n' % str(self.clf))
+            logger.info('\n %s \n' % str(self.clf))
 
         def folds(self):
             for train_index, test_index in self.kf.split(self.X, self.y):
@@ -40,23 +37,20 @@ class MachineLearningTestCases:
                        self.y[train_index], self.y[test_index])
 
         def accuracy_scores(self, X_train, X_test, y_train, y_test):
-            classification_logger.info(
+            logger.info(
                 'train accuracy: %f' % self.clf.score(X_train, y_train))
-            classification_logger.info(
-                'test accuracy: %f' % self.clf.score(X_test, y_test))
+            logger.info('test accuracy: %f' % self.clf.score(X_test, y_test))
 
         def classification_report(self, X_test, y_test):
             cr = self.clf.classification_report(X_test, y_test)
-            classification_logger.info('\n %s' % cr)
+            logger.info('\n %s' % cr)
 
-        @unittest.skip('long running tests')
         def test_kfold(self):
             for X_train, X_test, y_train, y_test in self.folds():
                 self.clf.fit(X_train, y_train)
                 self.accuracy_scores(X_train, X_test, y_train, y_test)
                 self.classification_report(X_test, y_test)
 
-        @unittest.skip('long running tests')
         def test_kfold_on_average_test_accuracy(self):
             for scoring in ['accuracy', 'f1_micro']:
                 score = cross_val_score(
@@ -66,10 +60,9 @@ class MachineLearningTestCases:
                     cv=self.kf,
                     n_jobs=-1,
                     scoring=scoring)
-                classification_logger.info('kfold test %s: %s' % (scoring,
-                                                                  score))
-                classification_logger.info('mean: %s' % score.mean())
-                classification_logger.info('std: %s' % score.std())
+                logger.info('kfold test %s: %s' % (scoring, score))
+                logger.info('mean: %s' % score.mean())
+                logger.info('std: %s' % score.std())
 
 
 class TestMetaboliteLevelDiseaseClassifier(
@@ -95,6 +88,7 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
     def setUpClf(self):
         return FVADiseaseClassifier()
 
+    @unittest.skip('long running tests')
     def setUpData(self):
         path = '../dataset/solutions/bc_disease_analysis#k=1.json'
         with open(path) as f:
