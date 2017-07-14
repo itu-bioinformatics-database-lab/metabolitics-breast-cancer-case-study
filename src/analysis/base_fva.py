@@ -1,5 +1,5 @@
 from .base_pathway_model import BasePathwayModel
-from cameo import flux_variability_analysis, fba
+from cameo import fba, flux_variability_analysis
 from cobra.core import DictList
 
 

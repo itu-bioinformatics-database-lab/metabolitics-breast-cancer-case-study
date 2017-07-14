@@ -1,10 +1,10 @@
 import logging
+from collections import defaultdict
 from typing import List
 
 from sympy.core.singleton import S
+from cameo.core import SolverBasedModel, Metabolite, Reaction
 from cameo.core.pathway import Pathway
-from cameo.core import SolverBasedModel, Metabolite
-from cobra.core import Model, DictList, Reaction
 
 from services import DataReader
 
@@ -80,17 +80,32 @@ class BasePathwayModel(SolverBasedModel):
         for k, v in measured_metabolites.items():
 
             m = self.metabolites.get_by_id(k)
-            logger.info(m)
-            logger.info(k)
-
             total_stoichiometry = m.total_stoichiometry(without_transports)
-            logger.info(total_stoichiometry)
 
             for r in m.producers(without_transports):
-                logger.info(r.metabolites[m])
-                logger.info(total_stoichiometry)
                 update_rate = v * r.metabolites[m] / total_stoichiometry
                 r.objective_coefficient += update_rate
+
+        logger.info('Objective: %s' % str(self.objective.expression))
+
+    def set_objective_coefficients_cobra(self,
+                                         measured_metabolites,
+                                         without_transports=True):
+        '''
+        Set objective function for given measured metabolites
+        '''
+        objective = defaultdict(float)
+
+        for k, v in measured_metabolites.items():
+            m = self.metabolites.get_by_id(k)
+            total_stoichiometry = m.total_stoichiometry(without_transports)
+
+            for r in m.producers(without_transports):
+                update_rate = v * r.metabolites[m] / total_stoichiometry
+                objective[r] += update_rate
+
+        self.objective = dict(objective)
+        logger.info('Objective: %s' % str(self.objective.experssion))
 
     def clean_objective(self):
         self.objective = S.Zero
