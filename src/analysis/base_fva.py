@@ -1,6 +1,9 @@
-from .base_pathway_model import BasePathwayModel
+import logging
+
 from cameo import fba, flux_variability_analysis
 from cobra.core import DictList
+
+from .base_pathway_model import BasePathwayModel
 
 
 class BaseFVA(BasePathwayModel):
@@ -20,8 +23,17 @@ class BaseFVA(BasePathwayModel):
         if filter_by_subsystem:
             reactions = self.filter_reaction_by_subsystems()
 
-        return flux_variability_analysis(
-            self, reactions=reactions, fraction_of_optimum=1)
+        self.solver.configuration.timeout = 10 * 60
+
+        try:
+            results = flux_variability_analysis(
+                self, reactions=reactions, fraction_of_optimum=1)
+        except:
+            logging.getLogger('timeout_errors').error('FVA timeout error')
+            logging.getLogger('timeout_errors').error(self.solver.to_json())
+            raise TimeoutError('FVA timeout error')
+
+        return results
 
     def fba(self,
             measured_metabolites,
