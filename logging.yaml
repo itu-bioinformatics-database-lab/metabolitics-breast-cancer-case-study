@@ -60,7 +60,7 @@ loggers:
         level: INFO
         handlers: [analysis]
     preprocessing:
-        level: ERROR
+        level: INFO
         handlers: [preprocessing]
     timeout_errors:
         level: ERROR
