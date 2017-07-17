@@ -98,9 +98,10 @@ class BaseFVA(BasePathwayModel):
             except Infeasible:
                 lb_flags[reaction.id] = True
 
+            fluxes = solution.fluxes
             for r in self.reactions:
                 if r != reaction:
-                    fva_sol[r.id]['average_bound'] += solution.fluxes[r.id]
+                    fva_sol[r.id]['average_bound'] += fluxes[r.id]
 
             self.solver.objective.set_linear_coefficients({
                 reaction.forward_variable:
@@ -129,9 +130,10 @@ class BaseFVA(BasePathwayModel):
             except Infeasible:
                 ub_flag = True
 
+            fluxes = solution.fluxes
             for r in self.reactions:
                 if r != reaction:
-                    fva_sol[r.id]['average_bound'] += solution.fluxes[r.id]
+                    fva_sol[r.id]['average_bound'] += fluxes[r.id]
 
             if lb_flags[reaction.id] is True and ub_flag is True:
                 fva_sol[reaction.id]['lower_bound'] = 0
