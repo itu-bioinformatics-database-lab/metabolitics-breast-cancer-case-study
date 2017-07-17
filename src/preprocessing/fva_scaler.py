@@ -39,8 +39,7 @@ class FVAScaler(TransformerMixin):
         nex_x = dict()
         analyzer = self.analyzer.copy()
         for r in analyzer.analyze(
-            x, filter_by_subsystem=self.filter_by_subsystem) \
-                .data_frame.itertuples():
+                x, filter_by_subsystem=self.filter_by_subsystem).itertuples():
             nex_x['%s_max' % r.Index] = r.upper_bound
             nex_x['%s_min' % r.Index] = r.lower_bound
             nex_x['%s_ave' % r.Index] = r.average_bound
