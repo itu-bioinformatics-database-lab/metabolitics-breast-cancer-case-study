@@ -43,6 +43,7 @@ class FVAScaler(TransformerMixin):
                 .data_frame.itertuples():
             nex_x['%s_max' % r.Index] = r.upper_bound
             nex_x['%s_min' % r.Index] = r.lower_bound
+            nex_x['%s_ave' % r.Index] = r.average_bound
         logger.info('%s ended' % str(guid))
         return nex_x
 

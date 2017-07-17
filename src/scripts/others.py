@@ -43,8 +43,8 @@ def subsystem_statistics():
 
 @cli.command()
 def fva_range_analysis_save():
-    # (X, y) = DataReader().read_data('BC')
-    (X, y) = DataReader().read_data('HCC')
+    (X, y) = DataReader().read_data('BC')
+    # (X, y) = DataReader().read_data('HCC')
     X = NamingService('recon').to(X)
     X = FVARangedMeasurement().fit_transform(X, y)
     with open('../outputs/fva_solutions.txt', 'w') as f:
@@ -55,14 +55,6 @@ def fva_range_analysis_save():
 @cli.command()
 def fva_range_with_basic_analysis_save():
     X, y = DataReader().read_data('BC')
-
-    # preproc = DynamicPreprocessing(['naming', 'basic-fold-change-scaler'])
-    # X_p = preproc.fit_transform(X, y)
-    # import pprint
-    # import pdb
-    # for i in X_p:
-    #     pprint.pprint(i)
-    #     pdb.set_trace()
 
     for x in X:
         for k, v in x.items():

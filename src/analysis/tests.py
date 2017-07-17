@@ -67,7 +67,7 @@ class TestBaseFVA(unittest.TestCase):
     def test_analyze(self):
         measured_metabolites = {'fru_e': '1.1'}
 
-        df = self.analyzer.analyze(measured_metabolites).data_frame
+        df = self.analyzer.analyze(measured_metabolites)
         self.assertIsNotNone(df.loc['EX_fum_e'].upper_bound)
         self.assertIsNotNone(df.loc['EX_fum_e'].lower_bound)
 
