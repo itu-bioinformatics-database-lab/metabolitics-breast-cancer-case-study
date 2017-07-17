@@ -59,9 +59,9 @@ class TestBaseFVA(unittest.TestCase):
 
     def test_analyze_base_on_example_two(self):
         analyzer = BaseFVA.create_for('example2')
-        measured_metabolites = {'M2': -0.5, 'M3': 10}
-        df = analyzer.analyze(
-            measured_metabolites, without_transports=False).data_frame
+        measured_metabolites = {'M2': 1, 'M3': 1}
+        df = analyzer.analyze(measured_metabolites, without_transports=False)
+        print(df)
         self.assertIsNotNone(df)
 
     def test_analyze(self):
