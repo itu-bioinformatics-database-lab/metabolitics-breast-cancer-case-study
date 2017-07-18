@@ -29,7 +29,7 @@ class BaseFVA(BasePathwayModel):
 
         try:
             results = self._fva_averaging()
-        except:
+        except TimeoutError:
             logging.getLogger('timeout_errors').error('FVA timeout error')
             logging.getLogger('timeout_errors').error(self.solver.to_json())
             raise TimeoutError('FVA timeout error')

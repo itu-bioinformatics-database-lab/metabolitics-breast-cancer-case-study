@@ -56,17 +56,11 @@ def fva_range_analysis_save():
 def fva_range_with_basic_analysis_save():
     X, y = DataReader().read_data('BC')
 
-    for x in X:
-        for k, v in x.items():
-            x[k] = round(v, 3)
+    dy_pre = DynamicPreprocessing(
+        ['naming', 'basic-fold-change-scaler', 'fva'])
 
-    preproc = DynamicPreprocessing(
-        ['naming', 'basic-fold-change-scaler', 'fva']).fit(X, y)
-
-    print('model trained...')
-
-    DataWriter('fva_solution_with_basic_fold_change') \
-        .write_json_stream(preproc.transform, X)
+    x_pre = dy_pre.fit_transform(X, y)
+    DataWriter('fva_solution_with_basic_fold_change').write_json(X_pre)
 
 
 @cli.command()
