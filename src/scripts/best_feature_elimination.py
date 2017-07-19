@@ -21,10 +21,9 @@ from noise import SelectNotKBest
 def eliminate_best_k():
     (X, y) = DataReader().read_data('BC')
 
-#    for i in range(1, len(X[0].keys()) + 1, 10):
+    #    for i in range(1, len(X[0].keys()) + 1, 10):
     for i in range(1, len(X[0].keys())):
 
-        
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
 
