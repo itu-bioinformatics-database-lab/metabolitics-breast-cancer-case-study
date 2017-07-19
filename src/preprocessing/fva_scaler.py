@@ -8,12 +8,7 @@ from sklearn.base import TransformerMixin
 
 from analysis import BaseFVA
 
-fva_scaler_logger = logging.getLogger('fva_scaler')
-fva_scaler_logger.setLevel(logging.INFO)
-handler = logging.FileHandler('../logs/fva_scaler.log')
-formatter = logging.Formatter('%(asctime)s - %(message)s')
-handler.setFormatter(formatter)
-fva_scaler_logger.addHandler(handler)
+logger = logging.getLogger(__name__)
 
 
 class FVAScaler(TransformerMixin):
@@ -40,8 +35,7 @@ class FVAScaler(TransformerMixin):
     def _sample_transformation(self, x):
         t = time.time()
         guid = uuid.uuid4()
-        fva_scaler_logger.info('%s started data: %s' % (str(guid),
-                                                        json.dumps(x)))
+        logger.info('%s started data: %s' % (str(guid), json.dumps(x)))
         nex_x = dict()
         analyzer = self.analyzer.copy()
         for r in analyzer.analyze(
@@ -49,7 +43,7 @@ class FVAScaler(TransformerMixin):
                 .data_frame.itertuples():
             nex_x['%s_max' % r.Index] = r.upper_bound
             nex_x['%s_min' % r.Index] = r.lower_bound
-        fva_scaler_logger.info('%s ended' % str(guid))
+        logger.info('%s ended' % str(guid))
         return nex_x
 
     def fit_transform(self, X, y):

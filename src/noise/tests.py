@@ -7,7 +7,7 @@ from .select_not_k_best import SelectNotKBest
 class SelectNotKBestTests(unittest.TestCase):
     def setUp(self):
         self.notk_best = SelectNotKBest(k=1)
-        self.X = np.matrix([[1, 1, 3], [2, 2, 3], [2, 2, 3]])
+        self.X = np.matrix([[1, 1, 10], [2, 2, 20], [2, 2, 30]])
         self.y = [1, 2, 2]
 
     def test_fit(self):

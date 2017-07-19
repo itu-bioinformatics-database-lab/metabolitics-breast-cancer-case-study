@@ -1,20 +1,14 @@
-from typing import List
 import logging
-from cobra.core import Model, DictList, Reaction
-
-from cameo.core import SolverBasedModel, Metabolite
-from cameo.core.pathway import Pathway
+from collections import defaultdict
+from typing import List
 
 from sympy.core.singleton import S
+from cameo.core import SolverBasedModel, Metabolite, Reaction
+from cameo.core.pathway import Pathway
 
 from services import DataReader
-import re
-from optlang.exceptions import ContainerAlreadyContains
 
-bpathway_model_logger = logging.getLogger('bpathway_model_logger')
-bpathway_model_logger.setLevel(logging.INFO)
-bpathway_model_logger \
-    .addHandler(logging.FileHandler('../logs/bpathway_model_logger.log'))
+logger = logging.getLogger(__name__)
 
 
 class BasePathwayModel(SolverBasedModel):
@@ -65,7 +59,8 @@ class BasePathwayModel(SolverBasedModel):
         Knock outing subsystems means knock outing all reactions of subsystems
         '''
         p = self.get_pathway(pathway) if type(pathway) == str else pathway
-        sum_flux = sum(r.flux_expression for r in p.reactions)
+        sum_flux = sum(r.forward_variable + r.reverse_variable
+                       for r in p.reactions)
         self.solver.add(self.solver.interface.Constraint(sum_flux, lb=0, ub=0))
 
     def make_pathways_inactive(self, pathway_names: List[str]):
@@ -85,17 +80,32 @@ class BasePathwayModel(SolverBasedModel):
         for k, v in measured_metabolites.items():
 
             m = self.metabolites.get_by_id(k)
-            bpathway_model_logger.info(m)
-            bpathway_model_logger.info(k)
-
             total_stoichiometry = m.total_stoichiometry(without_transports)
-            bpathway_model_logger.info(total_stoichiometry)
 
             for r in m.producers(without_transports):
-                bpathway_model_logger.info(r.metabolites[m])
-                bpathway_model_logger.info(total_stoichiometry)
                 update_rate = v * r.metabolites[m] / total_stoichiometry
                 r.objective_coefficient += update_rate
+
+        logger.info('Objective: %s' % str(self.objective.expression))
+
+    def set_objective_coefficients_cobra(self,
+                                         measured_metabolites,
+                                         without_transports=True):
+        '''
+        Set objective function for given measured metabolites
+        '''
+        objective = defaultdict(float)
+
+        for k, v in measured_metabolites.items():
+            m = self.metabolites.get_by_id(k)
+            total_stoichiometry = m.total_stoichiometry(without_transports)
+
+            for r in m.producers(without_transports):
+                update_rate = v * r.metabolites[m] / total_stoichiometry
+                objective[r] += update_rate
+
+        self.objective = dict(objective)
+        logger.info('Objective: %s' % str(self.objective.experssion))
 
     def clean_objective(self):
         self.objective = S.Zero

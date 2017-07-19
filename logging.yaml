@@ -1,0 +1,67 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+    simple:
+        format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: simple
+        stream: ext://sys.stdout
+    classifiers:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: ../logs/classification.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+    api:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: ../logs/api.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+    analysis:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: ../logs/analysis.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+    preprocessing:
+        class: logging.handlers.RotatingFileHandler
+        level: INFO
+        formatter: simple
+        filename: ../logs/preprocessing.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+    timeout_errors:
+        class: logging.handlers.RotatingFileHandler
+        level: ERROR
+        formatter: simple
+        filename: ../logs/timeout_errors.log
+        maxBytes: 10485760
+        backupCount: 20
+        encoding: utf8
+loggers:
+    classifiers:
+        level: INFO
+        handlers: [console, classifiers]
+    api:
+        level: INFO
+        handlers: [api]
+    analysis:
+        level: INFO
+        handlers: [analysis]
+    preprocessing:
+        level: INFO
+        handlers: [preprocessing]
+    timeout_errors:
+        level: ERROR
+        handlers: [timeout_errors]
