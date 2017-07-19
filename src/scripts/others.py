@@ -59,7 +59,7 @@ def fva_range_with_basic_analysis_save():
     dy_pre = DynamicPreprocessing(
         ['naming', 'basic-fold-change-scaler', 'fva'])
 
-    x_pre = dy_pre.fit_transform(X, y)
+    X_pre = dy_pre.fit_transform(X, y)
     DataWriter('fva_solution_with_basic_fold_change').write_json(X_pre)
 
 

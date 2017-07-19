@@ -27,6 +27,7 @@ class BaseFVA(BasePathwayModel):
 
         self.solver.configuration.timeout = 10 * 60
 
+        
         try:
             results = self._fva_averaging()
         except TimeoutError:
