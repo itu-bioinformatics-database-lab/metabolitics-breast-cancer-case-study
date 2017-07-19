@@ -4,6 +4,7 @@ from collections import OrderedDict
 import pandas
 from cobra.core import DictList
 from cameo import fba, flux_variability_analysis
+from cameo.exceptions import Infeasible, Unbounded
 
 from .base_pathway_model import BasePathwayModel
 
