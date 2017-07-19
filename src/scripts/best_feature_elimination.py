@@ -21,7 +21,7 @@ from noise import SelectNotKBest
 def eliminate_best_k():
     (X, y) = DataReader().read_data('BC')
 
-    for i in range(1, len(X[0].keys()) + 1, 10):
+    for i in range(0, len(X[0].keys()) + 1, 5):
 
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
@@ -29,7 +29,7 @@ def eliminate_best_k():
         pipe = Pipeline([
             # pipe for compare model with eliminating some features
             ('metabolic',
-             DynamicPreprocessing(['naming', 'metabolic-standard'])),
+             DynamicPreprocessing(['naming', 'basic-fold-change-scaler'])),
             ('vect', vect),
             ('selector', selector),
             ('inv_vect', InverseDictVectorizer(vect, selector)),
@@ -38,7 +38,7 @@ def eliminate_best_k():
 
         X_result = pipe.fit_transform(X, y)
 
-        DataWriter('bc_disease_analysis#k=%s' % i) \
+        DataWriter('bc_basic_fold_disease_analysis#k=%s' % i) \
             .write_json_dataset(X_result, y)
 
 
@@ -49,7 +49,7 @@ def elimination_tabular():
     datasets = {'metabolite': DataReader().read_data('BC')}
     scores = list()
 
-    for i in range(1, len(X[0].keys()) + 1, 10):
+    for i in range(0, len(X[0].keys()) + 1, 5):
 
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
@@ -67,7 +67,7 @@ def elimination_tabular():
         ])
 
         try:
-            path = '../dataset/solutions/bc_disease_analysis#k=%d.json' % i
+            path = '../dataset/solutions/bc_basic_fold_disease_analysis#k=%d.json' % i
             datasets['reaction'] = list(
                 zip(*[json.loads(i) for i in open(path)][0]))
         except:
