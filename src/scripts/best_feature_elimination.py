@@ -22,7 +22,7 @@ def eliminate_best_k():
     (X, y) = DataReader().read_data('BC')
 
     for i in range(10, len(X[0].keys()) + 1, 10):
-        
+
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
 
