@@ -21,9 +21,7 @@ from noise import SelectNotKBest
 def eliminate_best_k():
     (X, y) = DataReader().read_data('BC')
 
-#    for i in range(1, len(X[0].keys()) + 1, 10):
-    for i in range(1, len(X[0].keys())):
-
+    for i in range(10, len(X[0].keys()) + 1, 10):
         
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
@@ -31,7 +29,7 @@ def eliminate_best_k():
         pipe = Pipeline([
             # pipe for compare model with eliminating some features
             ('metabolic',
-             DynamicPreprocessing(['naming', 'metabolic-standard'])),
+             DynamicPreprocessing(['naming', 'basic-fold-change-scaler'])),
             ('vect', vect),
             ('selector', selector),
             ('inv_vect', InverseDictVectorizer(vect, selector)),
@@ -40,7 +38,7 @@ def eliminate_best_k():
 
         X_result = pipe.fit_transform(X, y)
 
-        DataWriter('bc_disease_analysis#k=%s' % i) \
+        DataWriter('bc_averaging_disease_analysis#k=%s' % i) \
             .write_json_dataset(X_result, y)
 
 
