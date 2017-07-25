@@ -88,9 +88,9 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
     def setUpClf(self):
         return FVADiseaseClassifier()
 
-    # @unittest.skip('long running tests')
+    @unittest.skip('long running tests')
     def setUpData(self):
-        path = '../dataset/solutions/bc_with_averaging_disease_analysis#k=0.json'
+        path = '../dataset/solutions/bc_averaging_disease_analysis#k=0.json'
         _, y = DataReader().read_data('BC')
         with open(path) as f:
             X = [json.loads(i) for i in f][0]

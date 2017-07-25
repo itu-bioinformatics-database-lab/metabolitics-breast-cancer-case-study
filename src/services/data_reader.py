@@ -1,5 +1,6 @@
 import os
 import json
+import gzip
 
 import cobra as cb
 import pandas as pd
@@ -135,3 +136,12 @@ class DataReader(object):
     def read_solution(self, filename):
         solution = self.read_json('../dataset/solutions/%s.json' % filename)
         return solution.values(), solution.keys()
+
+    def read_analyze_solution(self, filename, gz=True):
+        path = '../dataset/solutions/%s.json' % filename
+        if gz:
+            with gzip.open('%s.gz' % path, 'rt') if gz else open(path) as f:
+                return list(zip(*list(self.json_read_lines(f))[0]))
+
+    def json_read_lines(self, file):
+        return (json.loads(i) for i in file)
