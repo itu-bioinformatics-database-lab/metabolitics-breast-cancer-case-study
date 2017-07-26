@@ -11,7 +11,7 @@ env/
 db/analysis-result/*.json
 *.sqlite3
 /logs/*.log
-/outputs
+/outputs/*.json.gz
 secret.txt
 db/analysis-result/reaction/*.json
 db/analysis-result/pathway/*.json
