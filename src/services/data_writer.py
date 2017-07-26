@@ -1,15 +1,18 @@
 import json
+import gzip
 import pickle
 
 import numpy as np
 
 
 class DataWriter:
-    def __init__(self, filename):
+    def __init__(self, filename, gz=False):
         self.path = '../outputs/%s.json' % filename
+        self.gz = gz
 
     def write_json(self, data):
-        with open(self.path, 'w', 1) as file:
+        with gzip.open('%s.gz' % self.path, 'wt') if self.gz else open(
+                self.path, 'w') as file:
             json.dump(data, file)
 
     def write_json_dataset(self, X, y):

@@ -6,6 +6,7 @@ from scipy.spatial.distance import euclidean
 from .naming_service import NamingService
 from .data_reader import DataReader
 from .data_utils import *
+from .data_writer import DataWriter
 
 
 class TestNamingService(unittest.TestCase):
@@ -79,3 +80,13 @@ class TestDataUtils(unittest.TestCase):
 
         return npt.assert_almost_equal(
             similarty_dict(x, y, euclidean), [-0.4142136, -1.4494897])
+
+
+class TestDataWriter(unittest.TestCase):
+    def setUp(self):
+        self.X = [1] * 4
+        self.y = ['bc', 'bc', 'h', 'h']
+
+    def test_write_json(self):
+        DataWriter('a', gz=True).write_json(self.X)
+        DataWriter('a').write_json(self.X)

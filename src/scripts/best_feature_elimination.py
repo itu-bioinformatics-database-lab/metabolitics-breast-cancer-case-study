@@ -38,7 +38,7 @@ def eliminate_best_k():
 
         X_result = pipe.fit_transform(X, y)
 
-        DataWriter('bc_averaging_disease_analysis#k=%s' % i) \
+        DataWriter('bc_averaging_disease_analysis#k=%s' % i, gz=True) \
             .write_json_dataset(X_result, y)
 
 
@@ -64,12 +64,13 @@ def elimination_tabular():
 
         try:
             filename = 'bc_averaging_disease_analysis#k=%d' % i
-            datasets['reaction'] = DataReader().read_analyze_solution(filename)
+            datasets['pathway'] = DataReader().read_analyze_solution(filename)
         except FileNotFoundError:
             print(pd.DataFrame(scores))
             return
 
-        clfs['reaction'] = FVADiseaseClassifier()
+        clfs['pathway'] = FVADiseaseClassifier()
+
         kf = StratifiedKFold(n_splits=10, random_state=43)
 
         score = {

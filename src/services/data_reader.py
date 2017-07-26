@@ -129,8 +129,8 @@ class DataReader(object):
     def read_hmdb_diseases(self):
         return self.read_json('%s/hmdb_disease_measurements.json' % self.path)
 
-    def read_json(self, path):
-        with open(path) as f:
+    def read_json(self, path, gz=False):
+        with gzip.open('%s.gz' % path, 'rt') if gz else open(path) as f:
             return json.load(f)
 
     def read_solution(self, filename):
@@ -139,9 +139,4 @@ class DataReader(object):
 
     def read_analyze_solution(self, filename, gz=True):
         path = '../dataset/solutions/%s.json' % filename
-        if gz:
-            with gzip.open('%s.gz' % path, 'rt') if gz else open(path) as f:
-                return list(zip(*list(self.json_read_lines(f))[0]))
-
-    def json_read_lines(self, file):
-        return (json.loads(i) for i in file)
+        return list(zip(*self.read_json(path, gz=gz)))
