@@ -9,13 +9,13 @@ from preprocessing import MetabolicStandardScaler, NameMatching
 
 
 class MetaboliteLevelDiseaseClassifier(BaseDiseaseClassifier):
-
     def __init__(self):
         super().__init__()
         self._pipe = Pipeline([
+            # Metabolite level classification
             ('naming', NameMatching()),
             ('vect', DictVectorizer(sparse=False)),
             ('scaler', MetabolicStandardScaler()),
-            ('pca', PCA()),
-            ('clf', LogisticRegression(C=0.01, random_state=0))
+            ('pca', PCA(random_state=43)),
+            ('clf', LogisticRegression(C=0.01, random_state=43))
         ])

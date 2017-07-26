@@ -38,7 +38,7 @@ def eliminate_best_k():
 
         X_result = pipe.fit_transform(X, y)
 
-        DataWriter('bc_averaging_disease_analysis#k=%s' % i) \
+        DataWriter('bc_averaging_disease_analysis#k=%s' % i, gz=True) \
             .write_json_dataset(X_result, y)
 
 
@@ -49,32 +49,27 @@ def elimination_tabular():
     datasets = {'metabolite': DataReader().read_data('BC')}
     scores = list()
 
-    for i in range(1, len(X[0].keys()) + 1, 10):
-
-        vect = DictVectorizer(sparse=False)
-        selector = SelectNotKBest(k=i)
+    for i in range(0, len(X[0].keys()) + 1, 10):
 
         clfs = dict()
-
         clfs['metabolite'] = Pipeline([
             # pipe for compare model with eliminating some features
             ('metabolic',
              DynamicPreprocessing(['naming', 'metabolic-standard'])),
-            ('vect', vect),
-            ('selector', selector),
-            ('pca', PCA()),
+            ('vect', DictVectorizer(sparse=False)),
+            ('selector', SelectNotKBest(k=i)),
+            ('pca', PCA(random_state=43)),
             ('clf', LogisticRegression(C=0.01, random_state=43))
         ])
 
         try:
-            path = '../dataset/solutions/bc_disease_analysis#k=%d.json' % i
-            datasets['reaction'] = list(
-                zip(*[json.loads(i) for i in open(path)][0]))
-        except:
+            filename = 'bc_averaging_disease_analysis#k=%d' % i
+            datasets['pathway'] = DataReader().read_analyze_solution(filename)
+        except FileNotFoundError:
             print(pd.DataFrame(scores))
             return
 
-        clfs['reaction'] = FVADiseaseClassifier()
+        clfs['pathway'] = FVADiseaseClassifier()
 
         kf = StratifiedKFold(n_splits=10, random_state=43)
 

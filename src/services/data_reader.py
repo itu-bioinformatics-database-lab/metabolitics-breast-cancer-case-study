@@ -1,5 +1,6 @@
 import os
 import json
+import gzip
 
 import cobra as cb
 import pandas as pd
@@ -128,10 +129,14 @@ class DataReader(object):
     def read_hmdb_diseases(self):
         return self.read_json('%s/hmdb_disease_measurements.json' % self.path)
 
-    def read_json(self, path):
-        with open(path) as f:
+    def read_json(self, path, gz=False):
+        with gzip.open('%s.gz' % path, 'rt') if gz else open(path) as f:
             return json.load(f)
 
     def read_solution(self, filename):
         solution = self.read_json('../dataset/solutions/%s.json' % filename)
         return solution.values(), solution.keys()
+
+    def read_analyze_solution(self, filename, gz=True):
+        path = '../dataset/solutions/%s.json' % filename
+        return list(zip(*self.read_json(path, gz=gz)))
