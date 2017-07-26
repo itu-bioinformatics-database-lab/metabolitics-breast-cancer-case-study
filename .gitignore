@@ -10,7 +10,7 @@ env/
 !/src/notebooks/**/*.ipynb
 db/analysis-result/*.json
 *.sqlite3
-/logs/*.log
+/logs/*
 /outputs
 secret.txt
 db/analysis-result/reaction/*.json
