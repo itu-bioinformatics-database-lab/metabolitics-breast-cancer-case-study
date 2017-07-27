@@ -90,10 +90,4 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
 
     @unittest.skip('long running tests')
     def setUpData(self):
-        path = '../dataset/solutions/bc_averaging_disease_analysis#k=0.json'
-        _, y = DataReader().read_data('BC')
-        with open(path) as f:
-            X = [json.loads(i) for i in f][0]
-        return X, y
-        # return DataReader().read_fva_solutions(
-        #     'fva_solution_with_basic_fold_change.json')
+        return DataReader().read_analyze_solution('bc_averaging_disease_analysis#k=0')
