@@ -8,6 +8,7 @@ import plotly.plotly as py
 from plotly.graph_objs import *
 from plotly import figure_factory as ff
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
+import plotly.graph_objs as go
 
 
 class HeatmapVisualization:
@@ -45,8 +46,10 @@ class HeatmapVisualization:
 
     def iplot_heatmap(self):
         init_notebook_mode(connected=True)
+        
+        layout = go.Layout(autosize=True,
+            margin=go.Margin(l=250, r=15, b=75, t=15, pad=10))
 
-        hd = self.clustered_data()
-        heatmap = Heatmap(z=hd['z'], x=hd['x'], y=hd['y'])
-
-        iplot([heatmap], filename='heatmap_subject_pathway.html')
+        heatmap = Heatmap(**self.clustered_data())
+        fig = go.Figure(data=[heatmap], layout=layout)
+        iplot(fig, filename='heatmap_subject_pathway.html')
