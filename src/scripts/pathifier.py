@@ -19,7 +19,7 @@ def pathifier(disease_name):
     model = DataReader().read_network_model()
     X, y = DataReader().read_data(disease_name)
 
-    for i in range(0, 100, 10):
+    for i in range(0, 110, 10):
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
 
@@ -36,7 +36,7 @@ def pathifier(disease_name):
         df = pd.DataFrame(X_pre)
 
         metabolite_fold_changes = robj.r.matrix(
-            robj.FloatVector(df.as_matrix().T.ravel().tolist()),
+            robj.FloatVector(df.as_matrix().ravel().tolist()),
             nrow=df.shape[1])
 
         all_metabolite_ids = robj.StrVector(list(df))
@@ -77,3 +77,69 @@ def pathifier(disease_name):
 
         DataWriter('bc_pathifier_analysis#k=%s' % i, gz=True) \
             .write_json_dataset(X_regs, y)
+
+
+@cli.command()
+def mock_pathifier():
+    model = DataReader().read_network_model()
+
+    changes = [{
+        'xoldioloneh_c': 10,
+        'xoltriol_c': 10,
+        'arachd_c': 10
+    }, {
+        'xoldioloneh_c': 10,
+        'xoltriol_c': 10,
+        'arachd_c': 10
+    }, {
+        'xoldioloneh_c': 0,
+        'xoltriol_c': 0,
+        'arachd_c': 0
+    }, {
+        'xoldioloneh_c': 0,
+        'xoltriol_c': 0,
+        'arachd_c': 0
+    }]
+
+    y = ['d', 'd', 'h', 'h']
+
+    df = pd.DataFrame(changes)
+
+    metabolite_fold_changes = robj.r.matrix(
+        robj.FloatVector(df.as_matrix().ravel().tolist()), nrow=df.shape[1])
+
+    all_metabolite_ids = robj.StrVector(list(df))
+
+    subsystem_metabolite = defaultdict(set)
+    for r in model.reactions:
+        if r.subsystem and not (r.subsystem.startswith('Transport') or
+                                r.subsystem.startswith('Exchange')):
+            subsystem_metabolite[r.subsystem] \
+                .update(m.id for m in r.metabolites if m.id in df)
+
+    pathway_names, pathway_metabolites = zip(*filter(
+        lambda x: x[1], subsystem_metabolite.items()))
+
+    pathway_metabolites = robj.r['list'](*map(
+        lambda x: robj.StrVector(list(x)), pathway_metabolites))
+
+    pathway_names = robj.StrVector(list(pathway_names))
+    is_healthy = robj.BoolVector(list(map(lambda x: x == 'h', y)))
+
+    pathifier = importr("pathifier")
+
+    result = pathifier.quantify_pathways_deregulation(
+        metabolite_fold_changes,
+        all_metabolite_ids,
+        pathway_metabolites,
+        pathway_names,
+        is_healthy,
+        attempts=100,
+        min_exp=-10,
+        min_std=0)
+
+    regScores = dict()
+    for pathway, scores in dict(result.items())['scores'].items():
+        regScores[pathway] = list(scores[:])
+
+    print(pd.DataFrame(regScores).T)
