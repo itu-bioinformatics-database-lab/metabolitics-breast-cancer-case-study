@@ -62,14 +62,26 @@ def elimination_tabular():
             ('clf', LogisticRegression(C=0.01, random_state=43))
         ])
 
+        clfs['pathifier'] = Pipeline([
+            # pipe for compare model with eliminating some features
+            ('vect', DictVectorizer(sparse=False)),
+            ('pca', PCA(random_state=43)),
+            ('clf', LogisticRegression(random_state=43))
+        ])
+
+        clfs['pathway'] = FVADiseaseClassifier()
+
         try:
             filename = 'bc_averaging_disease_analysis#k=%d' % i
             datasets['pathway'] = DataReader().read_analyze_solution(filename)
+
+            filename = 'bc_pathifier_analysis#k=%d' % i
+            datasets['pathifier'] = DataReader().read_analyze_solution(
+                filename)
+
         except FileNotFoundError:
             print(pd.DataFrame(scores))
             return
-
-        clfs['pathway'] = FVADiseaseClassifier()
 
         kf = StratifiedKFold(n_splits=10, random_state=43)
 
@@ -87,4 +99,4 @@ def elimination_tabular():
         score['iteration'] = i
         scores.append(score)
 
-    print(pd.DataFrame(scores))
+        print(pd.DataFrame(scores))

@@ -167,13 +167,3 @@ def most_correlated_pathway(top_num_pathway, num_of_reactions):
         print('F:', v)
         print('p:', p)
         print('-' * 10)
-
-
-@cli.command()
-def lasting_anaylsis():
-    sample = json.load(open('../dataset/lasting.json'))
-
-    x = DynamicPreprocessing(['fva']).fit_transform(sample, ['bc'])
-
-    import pdb
-    pdb.set_trace()
