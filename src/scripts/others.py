@@ -43,58 +43,13 @@ def subsystem_statistics():
 
 @cli.command()
 def fva_range_analysis_save():
-    (X, y) = DataReader().read_data('BC')
-    # (X, y) = DataReader().read_data('HCC')
-    X = NamingService('recon').to(X)
-    X = FVARangedMeasurement().fit_transform(X, y)
-    with open('../outputs/fva_solutions.txt', 'w') as f:
-        for x, label in zip(X, y):
-            f.write('%s %s\n' % (label, x))
-
-
-@cli.command()
-def fva_range_with_basic_analysis_save():
-    X, y = DataReader().read_data('BC')
-
-    dy_pre = DynamicPreprocessing(
-        ['naming', 'basic-fold-change-scaler', 'fva'])
-
+    # (X, y) = DataReader().read_data('BC')
+    (X, y) = DataReader().read_data('HCC')
+    
+    dy_pre = DynamicPreprocessing(['naming', 'basic-fold-change-scaler', 'fva'])   
     X_pre = dy_pre.fit_transform(X, y)
-    DataWriter('fva_solution_with_basic_fold_change').write_json(X_pre)
 
-
-@cli.command()
-def constraint_logging():
-    (X, y) = DataReader().read_data('BC')
-    X = NamingService('recon').to(X)
-    (X_h, y_h) = [(x, l) for x, l in zip(X, y) if l == 'h'][0]
-    (X_bc, y_bc) = [(x, l) for x, l in zip(X, y) if l == 'bc'][0]
-    FVARangedMeasurement().fit_transform([X_bc, X_h], [y_bc, y_h])
-
-
-@cli.command()
-def border_rate():
-    model = DataReader().read_network_model()
-    num_border_reaction = len(
-        set(r.id for m in model.metabolites for r in m.reactions
-            if m.is_border()))
-    print(num_border_reaction / len(model.reactions))
-
-
-@cli.command()
-@click.argument('filename')
-def fva_min_max_mean(filename):
-    (X, y) = DataReader().read_fva_solutions(filename)
-    print(fva_solution_distance(X))
-
-
-@cli.command()
-@click.argument('filename')
-def fva_diff_range_solutions(filename):
-    (X, y) = DataReader().read_fva_solutions(filename)
-    X_h = [x for x, l in zip(X, y) if l == 'h']
-    X_bc = [x for x, l in zip(X, y) if l == 'bc']
-    print(diff_range_solutions(X_h, X_bc))
+    DataWriter('hcc_averaging', gz=True).write_json_dataset(X_pre, y)
 
 
 @cli.command()

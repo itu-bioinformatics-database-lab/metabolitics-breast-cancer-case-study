@@ -213,7 +213,7 @@ class TestBasicFoldChangeScaler(unittest.TestCase):
 
     def test_fit(self):
         self.scaler.fit(self.X, self.y)
-        self.assertEqual(self.scaler.avgs_, self.h)
+        self.assertEqual(self.scaler._avgs, self.h)
 
     def test_transform(self):
         X = self.scaler.fit_transform(self.X, self.y)
@@ -231,3 +231,15 @@ class TestBasicFoldChangeScaler(unittest.TestCase):
             'c': 0
         }]
         self.assertEqual(X, expected_X)
+
+
+    def test_scale(self):
+        self.scaler._avgs = {'a' : 10**-6}
+        self.assertEqual(self.scaler._scale('a', 10**6), 10)
+
+        self.scaler._avgs = {'a' : 2}
+        self.assertEqual(self.scaler._scale('a', 8), 3)
+
+        
+        self.scaler._avgs = {'a' : 10**6}
+        self.assertEqual(self.scaler._scale('a', 10**-6), -10)

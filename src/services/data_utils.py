@@ -13,7 +13,7 @@ def filter_by_label(X, y, label):
 
 def average_by_label(X, y, label):
     """returns average dictinary from list of dictionary for give label"""
-    return defaultdict(int,
+    return defaultdict(float,
                        pd.DataFrame.from_records(
                            filter_by_label(X, y, label)[0]).mean().to_dict())
 
