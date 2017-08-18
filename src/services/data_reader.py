@@ -54,20 +54,6 @@ class DataReader(object):
         self.path = '../dataset/small-disease'
         return self.read_all()
 
-    def read_fva_solutions(self, file_name='fva.cobra.txt'):
-        path = '../dataset/solutions/%s' % file_name
-        with open(path) as f:
-            (X, y) = zip(*map(lambda x: (eval(x[1].strip()), x[0]),
-                              [l.split(" ", 1) for l in f]))
-            return (X, y)
-
-    def read_solutions(self):
-        path = '../dataset/solutions/solution_for_dataset.json'
-        with open(path) as f:
-            X = [json.loads(l) for l in f]
-            y = self.read_all()[1]
-            return (X, y)
-
     def read_categorical_solutions(self):
         raise NotImplemented()
 
