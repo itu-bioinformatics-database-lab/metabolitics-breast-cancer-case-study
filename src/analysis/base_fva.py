@@ -1,10 +1,7 @@
 import logging
-from collections import OrderedDict
 
-import pandas
-from cobra.core import DictList
 from cameo import fba, flux_variability_analysis
-from cameo.exceptions import Infeasible, Unbounded
+from cobra.core import DictList
 
 from .base_pathway_model import BasePathwayModel
 
@@ -28,10 +25,10 @@ class BaseFVA(BasePathwayModel):
 
         self.solver.configuration.timeout = 10 * 60
 
-        
         try:
-            results = self._fva_averaging()
-        except TimeoutError:
+            results = flux_variability_analysis(
+                self, reactions=reactions, fraction_of_optimum=1)
+        except:
             logging.getLogger('timeout_errors').error('FVA timeout error')
             logging.getLogger('timeout_errors').error(self.solver.to_json())
             raise TimeoutError('FVA timeout error')
@@ -71,106 +68,3 @@ class BaseFVA(BasePathwayModel):
                     break
                 fva_reactions.append(reactions[i])
         return fva_reactions
-
-    def _fva_averaging(self):
-        fva_sol = OrderedDict()
-        lb_flags = dict()
-
-        self.fix_objective_as_constraint(fraction=1)
-        self.clean_objective()
-
-        for r in self.reactions:
-            lb_flags[r.id] = False
-            fva_sol[r.id] = dict()
-            fva_sol[r.id]['average_bound'] = 0
-
-        self.objective.direction = 'min'
-        for reaction in self.reactions:
-            self.solver.objective.set_linear_coefficients({
-                reaction.forward_variable:
-                1.,
-                reaction.reverse_variable:
-                -1.
-            })
-            try:
-                solution = self.solve()
-                fva_sol[reaction.id]['lower_bound'] = solution.f
-            except Unbounded:
-                fva_sol[reaction.id]['lower_bound'] = -numpy.inf
-            except Infeasible:
-                lb_flags[reaction.id] = True
-
-            fluxes = solution.fluxes
-            for r in self.reactions:
-                if r != reaction:
-                    fva_sol[r.id]['average_bound'] += fluxes[r.id]
-
-            self.solver.objective.set_linear_coefficients({
-                reaction.forward_variable:
-                0.,
-                reaction.reverse_variable:
-                0.
-            })
-
-            assert self.objective.expression == 0, self.objective.expression
-
-        self.objective.direction = 'max'
-        for reaction in self.reactions:
-            ub_flag = False
-            self.solver.objective.set_linear_coefficients({
-                reaction.forward_variable:
-                1.,
-                reaction.reverse_variable:
-                -1.
-            })
-
-            try:
-                solution = self.solve()
-                fva_sol[reaction.id]['upper_bound'] = solution.f
-            except Unbounded:
-                fva_sol[reaction.id]['upper_bound'] = numpy.inf
-            except Infeasible:
-                ub_flag = True
-
-            fluxes = solution.fluxes
-            for r in self.reactions:
-                if r != reaction:
-                    fva_sol[r.id]['average_bound'] += fluxes[r.id]
-
-            if lb_flags[reaction.id] is True and ub_flag is True:
-                fva_sol[reaction.id]['lower_bound'] = 0
-                fva_sol[reaction.id]['upper_bound'] = 0
-                [lb_flags[reaction.id], ub_flag] = [False, False]
-            elif lb_flags[reaction.id] is True and ub_flag is False:
-                fva_sol[reaction.id]['lower_bound'] = fva_sol[reaction.id][
-                    'upper_bound']
-                lb_flags[reaction.id] = False
-            elif lb_flags[reaction.id] is False and ub_flag is True:
-                fva_sol[reaction.id]['upper_bound'] = fva_sol[reaction.id][
-                    'lower_bound']
-                ub_flag = False
-
-            self.solver.objective.set_linear_coefficients({
-                reaction.forward_variable:
-                0.,
-                reaction.reverse_variable:
-                0.
-            })
-
-            assert self.objective.expression == 0, self.objective.expression
-
-            assert lb_flags[reaction.
-                            id] is False and ub_flag is False, "Something is wrong with FVA (%s)" % reaction.id
-
-        df = pandas.DataFrame.from_dict(fva_sol, orient='index')
-        lb_higher_ub = df[df.lower_bound > df.upper_bound]
-
-        # this is an alternative solution to what I did above with flags
-        # Assert that these cases really only numerical artifacts
-        assert ((lb_higher_ub.lower_bound - lb_higher_ub.upper_bound) <
-                1e-6).all()
-        df.lower_bound[lb_higher_ub.index] = df.upper_bound[lb_higher_ub.index]
-
-        df.average_bound = df.average_bound / 2 / (len(self.reactions) - 1)
-
-        return df
