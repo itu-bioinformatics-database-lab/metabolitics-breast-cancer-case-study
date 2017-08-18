@@ -21,7 +21,7 @@ from noise import SelectNotKBest
 def eliminate_best_k():
     (X, y) = DataReader().read_data('BC')
 
-    for i in range(10, len(X[0].keys()) + 1, 10):
+    for i in range(0, len(X[0].keys()) + 1, 5):
 
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
@@ -49,7 +49,10 @@ def elimination_tabular():
     datasets = {'metabolite': DataReader().read_data('BC')}
     scores = list()
 
-    for i in range(0, len(X[0].keys()) + 1, 10):
+    for i in range(0, len(X[0].keys()) + 1, 5):
+
+        vect = DictVectorizer(sparse=False)
+        selector = SelectNotKBest(k=i)
 
         clfs = dict()
         clfs['metabolite'] = Pipeline([
