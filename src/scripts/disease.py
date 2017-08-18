@@ -1,9 +1,13 @@
 import pickle
+import datetime
 
-from services import DataReader, DataWriter, NamingService
 from .cli import cli
+import pandas as pd
+
+from services import DataReader, DataWriter, NamingService, filter_by_label
 from preprocessing import DynamicPreprocessing
 from client import MetaboliticsApiClient
+from api.models import db, Analysis
 
 
 @cli.command()
@@ -26,13 +30,8 @@ def hmdb_disease_normalization():
 
 @cli.command()
 def hmdb_disease_analysis():
-    naming = NamingService('recon')
-
     y, X = list(zip(*DataReader().read_hmdb_diseases().items()))
-
-    dyn_pre = DynamicPreprocessing(['fva'])
-
-    X_t = dyn_pre.fit_transform(X, y)
+    X_t = DynamicPreprocessing(['fva']).fit_transform(X, y)
     DataWriter('hmdb_disease_analysis').write_json(dict(zip(y, X_t)))
 
 
@@ -61,3 +60,73 @@ def hmdb_disease_analysis_on_server():
 
     for name, measurements in hmdb_data.items():
         print(client.analyze(name, measurements))
+
+
+@cli.command()
+def save_to_server():
+    X_hcc, y_hcc = DataReader().read_analyze_solution(
+        'bc_averaging_disease_analysis#k=0')
+
+    df_without_h = lambda X, y: pd.DataFrame.from_records(
+        filter_by_label(X, y, 'h', reverse=True)[0])
+
+    df_reaction = df_without_h(X_hcc, y_hcc)
+
+    reaction_mean = df_reaction[list(
+        filter(lambda x: not x.endswith('ave'),
+               df_reaction.columns))].mean().to_dict()
+
+    pathway_scaler = DynamicPreprocessing(
+        ['pathway-scoring', 'transport-elimination'])
+
+    pathways_mean = df_without_h(
+        pathway_scaler.fit_transform(X_hcc, y_hcc), y_hcc).mean().to_dict()
+
+    analysis = Analysis('Breast Cancer', None)
+    analysis.status = True
+    analysis.type = 'disease'
+    analysis.start_time = datetime.datetime.now()
+    analysis.end_time = datetime.datetime.now()
+    analysis.results_reaction = analysis.clean_name_tag([reaction_mean])
+    analysis.results_pathway = analysis.clean_name_tag([pathways_mean])
+    db.session.add(analysis)
+    db.session.commit()
+
+
+@cli.command()
+def save_hmdb_to_server():
+
+    hmdb = DataReader().read_solution('hmdb_averaging_disease_analysis')
+
+    df = pd.DataFrame.from_records(list(hmdb[0]))
+
+    hmdb[0] = df[list(filter(lambda x: not x.endswith('ave'),
+                             df.columns))].T.to_dict().values()
+
+    pathway_scaler = DynamicPreprocessing(
+        ['pathway-scoring', 'transport-elimination'])
+
+    for x, l in zip(*hmdb):
+        if 'Saliva' not in l:
+            analysis = Analysis(l.title(), None)
+            analysis.status = True
+            analysis.type = 'disease'
+            analysis.start_time = datetime.datetime.now()
+            analysis.end_time = datetime.datetime.now()
+            analysis.results_reaction = analysis.clean_name_tag([x])
+            analysis.results_pathway = analysis.clean_name_tag(
+                pathway_scaler.fit_transform([x], [l]))
+            db.session.add(analysis)
+            db.session.commit()
+
+
+@cli.command()
+def average_metabolite_data():
+    scaler = DynamicPreprocessing(['naming'])
+    X, y = DataReader().read_data('HCC')
+
+    df = pd.DataFrame.from_records(
+        filter_by_label(scaler.fit_transform(X, y), y, 'h', reverse=True)[0])
+
+    DataWriter('hcc_metabolite_concentration_changes').write_json(
+        df.mean().to_dict())

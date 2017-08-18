@@ -3,7 +3,6 @@ from sklearn.base import BaseEstimator
 
 
 class BaseDiseaseClassifier(BaseEstimator):
-
     def __init__(self):
         self._model = object()
 
@@ -12,6 +11,7 @@ class BaseDiseaseClassifier(BaseEstimator):
         Fits model
         '''
         self._model = self._pipe.fit(X, y)
+        return self._model
 
     def score(self, X, y):
         '''

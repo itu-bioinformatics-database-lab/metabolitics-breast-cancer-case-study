@@ -4,6 +4,7 @@ import json
 
 import numpy as np
 from sklearn.model_selection import cross_val_score, StratifiedKFold
+from sklearn.metrics import precision_recall_fscore_support
 
 from services import DataReader
 
@@ -64,6 +65,19 @@ class MachineLearningTestCases:
                 logger.info('mean: %s' % score.mean())
                 logger.info('std: %s' % score.std())
 
+        @unittest.skip('long running tests')
+        def test_on_average_classification_report(self):
+            results = list()
+            for X_train, X_test, y_train, y_test in self.folds():
+                self.clf.fit(X_train, y_train)
+                y_pred = self.clf.predict(X_test)
+
+                result = precision_recall_fscore_support(y_test, y_pred)
+                logger.info('\n %s' % str(result))
+                results.append(np.array(result))
+
+            logger.info('\n %s' % str(np.array(results).mean(0)))
+
 
 class TestMetaboliteLevelDiseaseClassifier(
         MachineLearningTestCases.ClassificationTestCase):
@@ -90,4 +104,4 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
 
     @unittest.skip('long running tests')
     def setUpData(self):
-        return DataReader().read_analyze_solution('bc_averaging_disease_analysis#k=0')
+        return DataReader().read_analyze_solution('hcc_averaging')

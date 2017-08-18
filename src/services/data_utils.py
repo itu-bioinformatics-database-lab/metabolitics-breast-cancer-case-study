@@ -6,9 +6,10 @@ import pandas as pd
 from scipy.spatial.distance import cosine, correlation
 
 
-def filter_by_label(X, y, label):
+def filter_by_label(X, y, label, reverse=False):
     """Select items with label from dataset"""
-    return list(zip(*filter(lambda t: t[1] == label, zip(X, y))))
+    return list(
+        zip(*filter(lambda t: (not reverse) == (t[1] == label), zip(X, y))))
 
 
 def average_by_label(X, y, label):

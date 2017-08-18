@@ -135,7 +135,7 @@ class DataReader(object):
 
     def read_solution(self, filename):
         solution = self.read_json('../dataset/solutions/%s.json' % filename)
-        return solution.values(), solution.keys()
+        return [solution.values(), solution.keys()]
 
     def read_analyze_solution(self, filename, gz=True):
         path = '../dataset/solutions/%s.json' % filename
