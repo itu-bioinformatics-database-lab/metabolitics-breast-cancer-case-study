@@ -6,6 +6,7 @@ from sympy.core.singleton import S
 from cameo.core import SolverBasedModel, Metabolite, Reaction
 from cameo.core.pathway import Pathway
 
+from models import metabolite_extantions
 from services import DataReader
 
 logger = logging.getLogger(__name__)
@@ -19,7 +20,9 @@ class BasePathwayModel(SolverBasedModel):
 
     @classmethod
     def create_for(cls, dataset_name="recon2"):
-        if dataset_name == 'example':
+        if type(dataset_name) != str:
+            model = dataset_name
+        elif dataset_name == 'example':
             model = DataReader().create_example_model()
         elif dataset_name == 'example2':
             model = DataReader().create_example2_model()

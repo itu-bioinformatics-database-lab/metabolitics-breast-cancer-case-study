@@ -3,7 +3,7 @@ from typing import Dict, List
 from collections import defaultdict
 
 import pandas as pd
-from scipy.spatial.distance import cosine, correlation
+from scipy.spatial.distance import pdist, squareform, cosine, correlation
 
 
 def filter_by_label(X, y, label):
@@ -22,3 +22,11 @@ def similarty_dict(x: Dict, y: List[Dict], metric=correlation):
     """Calculate dictance of one vector in dict format to other dictinary in list of dict"""
     vecs = pd.DataFrame([x] + y).fillna(0).values
     return [1 - metric(vecs[0], v) for v in vecs[1:]]
+
+
+def convert_df_to_squareform(df: pd.DataFrame, metric=correlation):
+    """Converts pandas dataframe with columns into squareformed dataframe"""
+    df_squareform = pd.DataFrame(squareform(pdist(df.T, metric)))
+    df_squareform.columns = df.columns
+    df_squareform.index = df.columns
+    return df_squareform
