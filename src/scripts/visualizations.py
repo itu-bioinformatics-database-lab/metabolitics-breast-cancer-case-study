@@ -13,7 +13,6 @@ from .cli import cli
 from scripts import DataReader
 from preprocessing import PathwayFvaDiffScaler
 
-
 import random
 from collections import OrderedDict
 from time import time
@@ -24,6 +23,7 @@ from cameo import models as cameo_models
 from retrying import retry
 
 from analysis import BaseFVA
+from services import DataWriter
 
 
 @cli.command()
@@ -53,49 +53,55 @@ def visualize_pathways_for_desease():
 
             # clf = LogisticRegression(C=0.1e-1, random_state=43).fit(x, y)
 
-            x = x + np.reshape(np.random.normal(1, 100,
-                                                size=len(x) * 2), x.shape)
+            x = x + np.reshape(
+                np.random.normal(1, 100, size=len(x) * 2), x.shape)
             plot_decision_regions(X=x, y=y, clf=clf, legend=2, res=10)
             plt.xlabel('%s_min' % fn)
             plt.ylabel('%s_max' % fn)
             plt.show()
 
+
 @cli.command()
 def metabolitics_complexity_graph():
     bigg_models = cameo_models.bigg
 
-    models = OrderedDict({
-        'e_coli_core': BaseFVA.create_for(bigg_models.e_coli_core),
-        'iAB_RBC_283': BaseFVA.create_for(bigg_models.iAB_RBC_283),
-        'iRC1080': BaseFVA.create_for(bigg_models.iRC1080),
-        'RECON1': BaseFVA.create_for(bigg_models.RECON1),
-        'RECON2': BaseFVA.create_for()
-    })
+    models = [
+        # example models 
+        ('e_coli_core', BaseFVA.create_for(bigg_models.e_coli_core)),
+        ('iAB_RBC_283', BaseFVA.create_for(bigg_models.iAB_RBC_283)),
+        ('iRC1080', BaseFVA.create_for(bigg_models.iRC1080)),
+        ('RECON1', BaseFVA.create_for(bigg_models.RECON1)),
+        ('RECON2', BaseFVA.create_for())
+    ]
 
     @retry
     def sample_analysis_time(model, size):
         print(model, size)
-        input_data = { m.id: random.uniform(-10, 10) for m in random.sample(model.metabolites, size)}
+        input_data = {
+            m.id: random.uniform(-10, 10)
+            for m in random.sample(model.metabolites, size)
+        }
         t = time()
         model.analyze(input_data)
         return time() - t
-    
+
     measurements = dict()
-    
-    for name, model in models.items():
+
+    for name, model in models:
         measurements[name] = list()
         for s in range(5, 150, 5):
             times = list()
-            for _ in range(10 if len(model.metabolites) < 1000 else 1):
+            for _ in range(50):
                 if len(model.metabolites) >= s:
                     times.append(sample_analysis_time(model.copy(), s))
-                    measurements[name].append(np.mean(times))
+            measurements[name].append(np.mean(times))
+
+            DataWriter('complexity_visualization').write_json(measurements)
             print(measurements)
 
-    df = pd.DataFrame(measurements)
+            df = pd.DataFrame.from_dict(
+                measurements, orient='index').transpose()
+            # df.index = list(range(5, 150, 5))
 
-    print(df)
-    
-    df.plot()
-
-    
+            ax = df.plot()
+            plt.savefig('../outputs/fig.png')
