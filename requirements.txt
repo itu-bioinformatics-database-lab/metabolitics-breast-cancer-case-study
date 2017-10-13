@@ -88,6 +88,9 @@ PyYAML==3.12
 pyzmq==16.0.2
 redis==2.10.5
 requests==2.18.1
+retrying==1.3.3
+rpy2==2.8.6
+ruamel.yaml==0.14.12
 scikit-learn==0.18.1
 scipy==0.19.1
 simplegeneric==0.8.1
@@ -98,7 +101,7 @@ SQLAlchemy-JSONField==0.6.4
 swiglpk==1.4.3
 sympy==1.1
 tabulate==0.7.7
-tornado==4.2
+tornado==4.5.1
 traitlets==4.3.2
 tzlocal==1.3
 ujson==1.35
