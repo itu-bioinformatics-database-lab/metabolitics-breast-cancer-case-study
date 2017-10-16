@@ -30,5 +30,7 @@ def robustness_test_with_noise():
 
         X_result = pipe.fit_transform(X, y)
 
-        DataWriter('bc_noise#k=%f' % i, gz=True) \
+        noise_size = pipe.named_steps['noise'].relative_noise_size_
+
+        DataWriter('bc_noise#k=%f' % noise_size, gz=True) \
             .write_json_dataset(X_result, y)

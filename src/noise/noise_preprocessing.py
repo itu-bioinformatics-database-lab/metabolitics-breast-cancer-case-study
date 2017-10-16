@@ -1,4 +1,4 @@
-import numpy.random as npr
+import numpy.linalg as la
 from sklearn.base import TransformerMixin
 
 
@@ -23,4 +23,13 @@ class NoiseGenerator(TransformerMixin):
         '''
         :X: numpy ndarray 
         '''
-        return self._noise_func(*self._args, size=X.shape)
+        noise = self._noise_func(*self._args, size=X.shape)
+        self.relative_noise_size_ = self.relative_noise_size(X, noise)
+        return X + noise
+
+    def relative_noise_size(self, data, noise):
+        '''
+        :data: original data as numpy matrix
+        :noise: noise matrix as numpy matrix
+        '''
+        return la.norm(noise.ravel()) / la.norm(data.ravel())
