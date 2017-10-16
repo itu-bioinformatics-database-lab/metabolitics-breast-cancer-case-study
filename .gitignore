@@ -11,8 +11,8 @@ env/
 db/analysis-result/*.json
 *.sqlite3
 /logs/*
-/outputs/*.json
-/outputs/*.json.gz
+/outputs/*
+!outputs/.gitkeep
 secret.txt
 db/analysis-result/reaction/*.json
 db/analysis-result/pathway/*.json
