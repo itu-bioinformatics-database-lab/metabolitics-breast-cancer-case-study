@@ -11,6 +11,7 @@ from .disease import *
 from .best_feature_elimination import *
 from .paradigm import *
 from .noise import *
+from .uniceller import *
 
 try:
     from .pathifier import pathifier
