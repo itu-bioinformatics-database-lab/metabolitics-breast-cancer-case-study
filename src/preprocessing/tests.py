@@ -118,7 +118,7 @@ class TestReactionDiffScaler(unittest.TestCase):
         ]
         self.y = ['h', 'bc']
 
-    def fit(self):
+    def test_fit(self):
         self.scaler.fit(self.X, self.y)
         self.assertEqual(self.scaler.healthy_flux, self.h)
 
