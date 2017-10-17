@@ -26,9 +26,9 @@ def paradigm():
 
     for s in model.subsystems():
         if s:
-            files[s] = open('../outputs/%s' % s.replace('/', '-'), 'w')
+            files[s] = open('../outputs/%s.pat' % s.replace('/', '-'), 'w')
 
-#            write_pathway(files[s], s)
+            # write_pathway(files[s], s)
 
     for m in model.metabolites:
         for s in m.connected_subsystems():

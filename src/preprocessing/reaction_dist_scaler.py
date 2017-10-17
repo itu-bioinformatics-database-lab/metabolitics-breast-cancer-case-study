@@ -22,11 +22,5 @@ class ReactionDiffScaler(TransformerMixin):
         } for x in X]
 
     def _reaction_flux_dis(self, reaction, x):
-        score = 0
-
-        for i in ['min', 'max', 'ave']:
-        # for i in ['min', 'max']:
-            label = '%s_%s' % (reaction.id, i)
-            score += x[label] - self.healthy_flux[label]
-
-        return score
+        f_score = lambda label: x[label] - self.healthy_flux[label]
+        return sum(f_score('%s_%s' % (reaction.id, i)) for i in ['min', 'max'])

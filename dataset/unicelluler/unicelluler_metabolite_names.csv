@@ -1,0 +1,38 @@
+,id,name
+0,2-KDPG,2-keto-3-deoxy-6-phospho-gluconate
+1,2-KG,2-keto-glutarate
+2,2PG,2-phosphoglycerate
+3,3PG,3-phosphoglycerate
+4,6PG,6-phosphogluconate
+5,Ac-P,acetylphosphate
+6,AcCoA,acetyl-CoA
+7,ADP,adenosine diphosphate
+8,AMP,adenosine monophosphate
+9,ATP,adenosine triphosphate
+10,CIT,citrate
+11,DHAP,dihydroxyacetone phosphate
+12,E4P,erythrose 4-phosphate
+13,EtOH,ethanol
+14,F6P,fructose 6-phosphate
+15,"F1,6P","fructose 1,6-bisphosphate"
+16,FUM,fumarate
+17,G1P,glucose 1-phosphate
+18,G3P,glyceraldehyde 3-phosphate
+19,G6P,glucose 6-phosphate
+20,Gcl6P,gluconolactone 6-phosphate
+21,ICT,isocitrate
+22,MAL,malate
+23,NAD,"nicotinamide adenine dinucleotide, oxidized"
+24,NADH,"nicotinamide adenine dinucleotide, reduced"
+25,NADP,"nicotinamide adenine dinucleotide phosphate, oxidized"
+26,NADPH,"nicotinamide adenine dinucleotide phosphate, reduced"
+27,OAA,oxaloacetate
+28,PEP,phosphoenolpyruvate
+29,PGP,"1,3-bisphospho glycerate"
+30,PYR,pyruvate
+31,R5P,ribose 5-phosphate
+32,Ru5P,ribulose 5-phosphate
+33,S7P,sedoheptulose 7-phosphate
+34,SUC,succinate
+35,Suc-CoA,succinate-CoA
+36,X5P,xylulose 5-phosphate
