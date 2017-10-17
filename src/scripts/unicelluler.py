@@ -31,3 +31,18 @@ def generate_unicelluler_network():
                             i.replace('->', '-->'))
 
     cb.io.save_json_model(model, '../outputs/unicelluler.json')
+
+
+@cli.command()
+def name_macthing_unicelluler():
+    df_metabolite_names = pd.DataFrame.from_csv(
+        '../dataset/unicelluler/unicelluler_metabolite_names.csv')
+    df_metabolites = pd.DataFrame.from_csv(
+        '../dataset/unicelluler/unicelluler_metabolites.csv')
+
+    network_names = set(df_metabolite_names['name'])
+    dataset_names = set(map(lambda x: x.lower().strip(), df_metabolites.index))
+
+    print('%d of %d' % (len(network_names.intersection(dataset_names)),
+                        len(network_names)))
+    print(network_names - dataset_names)
