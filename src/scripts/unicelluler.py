@@ -2,18 +2,29 @@ from functools import reduce
 
 import pandas as pd
 import cobra as cb
-from cobra import Model, Reaction
+from cobra import Model, Reaction, Metabolite
 
 from .cli import cli
 
 
 @cli.command()
-def generate_uniceller_network():
-    df = pd.DataFrame.from_csv('../dataset/unicelluler_flux.csv')
+def generate_unicelluler_network():
+    df_flux = pd.DataFrame.from_csv('../dataset/unicelluler_flux.csv')
+    df_metabolite_names = pd.DataFrame.from_csv(
+        '../dataset/unicelluler_metabolite_names.csv')
+    df_metabolites = pd.DataFrame.from_csv(
+        '../dataset/unicelluler_metabolites.csv')
+
+    import pdb
+    pdb.set_trace()
 
     model = cb.Model('unicelluler')
 
-    for i in df.index:
+    model.add_metabolites(
+        Metabolite(id=row['id'], name=row['name'])
+        for _, row in df_metabolite_names.iterrows())
+
+    for i in df_flux.index:
         r = cb.Reaction(i)
         model.add_reaction(r)
 
