@@ -9,14 +9,12 @@ from .cli import cli
 
 @cli.command()
 def generate_unicelluler_network():
-    df_flux = pd.DataFrame.from_csv('../dataset/unicelluler_flux.csv')
+    df_flux = pd.DataFrame.from_csv(
+        '../dataset/unicelluler/unicelluler_flux.csv')
     df_metabolite_names = pd.DataFrame.from_csv(
-        '../dataset/unicelluler_metabolite_names.csv')
+        '../dataset/unicelluler/unicelluler_metabolite_names.csv')
     df_metabolites = pd.DataFrame.from_csv(
-        '../dataset/unicelluler_metabolites.csv')
-
-    import pdb
-    pdb.set_trace()
+        '../dataset/unicelluler/unicelluler_metabolites.csv')
 
     model = cb.Model('unicelluler')
 
