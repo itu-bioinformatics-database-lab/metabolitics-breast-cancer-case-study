@@ -4,6 +4,7 @@ from collections import defaultdict
 
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform, cosine, correlation
+from sklearn.feature_selection import VarianceThreshold
 
 
 def filter_by_label(X, y, label, reverse=False):
@@ -31,3 +32,11 @@ def convert_df_to_squareform(df: pd.DataFrame, metric=correlation):
     df_squareform.columns = df.columns
     df_squareform.index = df.columns
     return df_squareform
+
+def variance_threshold_on_df(df: pd.DataFrame, threshold=0):
+    vt = VarianceThreshold(threshold)
+    vt.fit(df.values)
+    return df.iloc[:, vt.variances_ > threshold] 
+
+    
+    

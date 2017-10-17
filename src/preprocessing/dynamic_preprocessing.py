@@ -47,7 +47,7 @@ class DynamicPreprocessing(BasePreprocessingPipeline):
             vect1 = DictVectorizer(sparse=False)
             vect2 = DictVectorizer(sparse=False)
             vt = VarianceThreshold(0.1)
-            skb = SelectKBest(k=100)
+            skb = SelectKBest(k=50)
             pipe.extend([
                 ('vect-vt', vect1),
                 ('vt', vt),
