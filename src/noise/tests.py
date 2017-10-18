@@ -23,14 +23,14 @@ class SelectNotKBestTests(unittest.TestCase):
 class NoiseGeneratorTests(unittest.TestCase):
     def setUp(self):
         self.noise_gen = NoiseGenerator(np.random.uniform, (0.1, -0.1))
-        self.ones = np.ones((3, 3))
+        self.ones = np.ones((30, 30))
 
     def test_relative_noise_size(self):
-        ns = self.noise_gen.relative_noise_size(self.ones, self.ones)
-        self.assertEqual(ns, 1)
+        ns = self.noise_gen.relative_noise_size(self.ones, self.ones * 30)
+        self.assertEqual(ns, 30)
 
     def test_fit_transform(self):
-        t_X = self.noise_gen.fit_transform(self.ones, [1, 1, 1])
+        t_X = self.noise_gen.fit_transform(self.ones, [1] * 30)
         self.assertGreater(1, self.noise_gen.relative_noise_size_)
 
         self.assertTrue(np.all(self.ones * 1.11 > t_X))

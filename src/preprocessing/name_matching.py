@@ -3,10 +3,9 @@ from services import NamingService
 
 
 class NameMatching(TransformerMixin):
-
-    def __init__(self):
+    def __init__(self, naming='recon'):
         super().__init__()
-        self.naming = NamingService('recon')
+        self.naming = NamingService(naming)
 
     def fit(self, X, y=None):
         return self

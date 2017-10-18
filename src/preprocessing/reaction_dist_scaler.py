@@ -9,7 +9,7 @@ class ReactionDiffScaler(TransformerMixin):
 
     def __init__(self, dataset_name="recon2"):
         super().__init__()
-        self.model = DataReader.read_network_model(dataset_name)
+        self.model = DataReader().read_network_model(dataset_name)
 
     def fit(self, X, y=None):
         self.healthy_flux = average_by_label(X, y, 'h')
