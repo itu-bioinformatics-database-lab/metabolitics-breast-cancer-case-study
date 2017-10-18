@@ -1,6 +1,7 @@
 import unittest
 
 import numpy.testing as npt
+import pandas as pd
 from scipy.spatial.distance import euclidean
 
 from .naming_service import NamingService
@@ -73,6 +74,11 @@ class TestDataUtils(unittest.TestCase):
         return npt.assert_almost_equal(
             similarty_dict(x, y, euclidean), [-0.4142136, -1.4494897])
 
+    def test_variance_threshold_on_df(self):
+        df = pd.DataFrame({'a':[1, 2, 3], 'b':[1, 1, 1]})
+        df_expected = pd.DataFrame({'a':[1, 2, 3]})
+        return pd.testing.assert_frame_equal(variance_threshold_on_df(df), df_expected)
+    
 
 class TestDataWriter(unittest.TestCase):
     def setUp(self):
