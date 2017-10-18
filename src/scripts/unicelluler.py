@@ -83,8 +83,9 @@ def analysis_unicelluler():
         ('scaler', DynamicPreprocessing(['metabolic-standard'])),
         ('vect', vect),
         ('fva', FVAScaler(vectorizer=vect, dataset_name=dataset_name)),
-        ('flux-diff', ReactionDiffScaler(dataset_name=dataset_name))
+        # ('flux-diff', ReactionDiffScaler(dataset_name=dataset_name))
     ])
 
     X_t = pipe.fit_transform(X, y)
-    DataWriter('unicelluler_analysis').write_json_dataset(X, y)
+
+    DataWriter('unicelluler_analysis').write_json_dataset(X_t, y)
