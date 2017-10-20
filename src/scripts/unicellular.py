@@ -13,13 +13,13 @@ from .cli import cli
 
 
 @cli.command()
-def generate_unicelluler_network():
+def generate_unicellular_network():
     df_flux = pd.DataFrame.from_csv(
-        '../dataset/unicelluler/unicelluler_flux.csv')
+        '../dataset/unicellular/unicellular_flux.csv')
     df_metabolite_names = pd.DataFrame.from_csv(
-        '../dataset/unicelluler/unicelluler_metabolite_names.csv')
+        '../dataset/unicellular/unicellular_metabolite_names.csv')
 
-    model = cb.Model('unicelluler')
+    model = cb.Model('unicellular')
 
     model.add_metabolites(
         cb.Metabolite(id=row['id'], name=row['name'])
@@ -33,15 +33,15 @@ def generate_unicelluler_network():
         r.reaction = reduce(lambda x, y: x.replace(y, ''), black_list,
                             i.replace('->', '-->'))
 
-    cb.io.save_json_model(model, '../outputs/unicelluler.json')
+    cb.io.save_json_model(model, '../outputs/unicellular.json')
 
 
 @cli.command()
-def name_matching_unicelluler():
+def name_matching_unicellular():
     df_metabolite_names = pd.DataFrame.from_csv(
-        '../dataset/unicelluler/unicelluler_metabolite_names.csv')
+        '../dataset/unicellular/unicellular_metabolite_names.csv')
     df_metabolites = pd.DataFrame.from_csv(
-        '../dataset/unicelluler/unicelluler_metabolites.csv')
+        '../dataset/unicellular/unicellular_metabolites.csv')
 
     network_names = set(df_metabolite_names['name'])
     dataset_names = set(map(lambda x: x.lower().strip(), df_metabolites.index))
@@ -54,15 +54,15 @@ def name_matching_unicelluler():
 
     name_id_mapping = df_metabolite_names.set_index('name').to_dict()['id']
     name_id_mapping = {k: [v] for k, v in name_id_mapping.items()}
-    DataWriter('unicelluler-mapping').write_json(name_id_mapping)
+    DataWriter('unicellular-mapping').write_json(name_id_mapping)
     print()
-    print('Unicelluler mapping file created')
+    print('Unicellular mapping file created')
 
 
 @cli.command()
-def analysis_unicelluler():
+def analysis_unicellular():
     df_metabolites = pd.DataFrame.from_csv(
-        '../dataset/unicelluler/unicelluler_metabolites.csv')
+        '../dataset/unicellular/unicellular_metabolites.csv')
 
     y, X = list(zip(*df_metabolites.to_dict().items()))
     X = [{k: v for k, v in x.items() if not math.isnan(v)} for x in X]
@@ -75,17 +75,16 @@ def analysis_unicelluler():
 
     # TOTHINK: Low featured sample can be elimated in here 
 
-    dataset_name = 'unicelluler'
+    dataset_name = 'unicellular'
     vect = DictVectorizer(sparse=False)
     pipe = Pipeline([
-        # unicelluler analysis pipeline
+        # unicellular analysis pipeline
         ('naming', NameMatching(dataset_name)),
         ('scaler', DynamicPreprocessing(['metabolic-standard'])),
         ('vect', vect),
         ('fva', FVAScaler(vectorizer=vect, dataset_name=dataset_name)),
-        # ('flux-diff', ReactionDiffScaler(dataset_name=dataset_name))
     ])
 
     X_t = pipe.fit_transform(X, y)
 
-    DataWriter('unicelluler_analysis').write_json_dataset(X_t, y)
+    DataWriter('unicellular_analysis').write_json_dataset(X_t, y)
