@@ -4,10 +4,11 @@ from functools import reduce
 from functional import seq
 import pandas as pd
 import cobra as cb
+from escher import Builder
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
-from services import DataWriter
+from services import DataWriter, DataReader
 from preprocessing import FVAScaler, NameMatching, DynamicPreprocessing, ReactionDiffScaler
 from .cli import cli
 
@@ -73,9 +74,11 @@ def analysis_unicellular():
         lambda x: x[0].keys()).flatten().to_set()
     X = [{k: v for k, v in x.items() if k in healthy_features} for x in X]
 
+    import pdb
+    pdb.set_trace()
     # TOTHINK: Low featured sample can be elimated in here 
 
-    dataset_name = 'unicellular'
+    dataset_name = 'e_coli_core'
     vect = DictVectorizer(sparse=False)
     pipe = Pipeline([
         # unicellular analysis pipeline
@@ -88,3 +91,11 @@ def analysis_unicellular():
     X_t = pipe.fit_transform(X, y)
 
     DataWriter('unicellular_analysis').write_json_dataset(X_t, y)
+
+
+@cli.command()
+def unicellular_escher():
+    model = DataReader().read_network_model(name='unicellular')
+    builder = Builder(model=model)
+
+    builder.display_in_browser()

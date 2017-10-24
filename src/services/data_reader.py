@@ -4,6 +4,7 @@ import gzip
 
 import cobra as cb
 import pandas as pd
+import escher
 from cobra.core import Model, DictList, Reaction, Metabolite
 
 
@@ -53,6 +54,10 @@ class DataReader(object):
     def read_small_data(self):
         self.path = '../dataset/small-disease'
         return self.read_all()
+
+    def read_escher_map(self, map_name):
+        return escher.Builder(
+            map_json='../dataset/visualizations/%s_map.json' % map_name)
 
     def read_categorical_solutions(self):
         raise NotImplemented()

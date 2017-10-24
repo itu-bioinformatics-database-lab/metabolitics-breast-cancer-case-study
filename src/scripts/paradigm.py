@@ -1,50 +1,75 @@
-import click
+import os
+
 import pandas as pd
 
-from .cli import cli
 import models
 from services import DataReader, NamingService
+from .cli import cli
 
 
 @cli.command()
 def paradigm():
     model = DataReader().read_network_model()
-    X = NamingService('recon').to(DataReader().read_data('BC')[0])
 
-    pd.DataFrame.from_records(X).T.to_csv(
-        '../outputs/BC.tsv', sep='\t', header=False)
+    path = '../outputs/paradigm'
+    if not os.path.exists(path):
+        os.makedirs(path)
 
-    write_reaction = lambda f, reaction_id: f.write('abstract\t%s\n' % reaction_id)
-    write_metabolite = lambda f, metabolite_id: f.write('chemical\t%s\n' % metabolite_id)
-    #    write_pathway = lambda f, pathway_id: f.write('complex\t%s\n' % pathway_id)
+    def parse_disease_dataset():
+        X, y = DataReader().read_data('BC')
+        X = NamingService('recon').to(X)
 
-    write_producer = lambda f, metabolite_id, reaction_id: f.write('%s\t%s\t-a>\n' % (reaction_id, metabolite_id))
-    write_consumer = lambda f, metabolite_id, reaction_id: f.write('%s\t%s\t-a|\n' % (reaction_id, metabolite_id))
-    #    write_reaction_pathway = lambda f, reaction_id, pathway_id: f.write('%s\t%s\tcomponent>\n' % (reaction_id, pathway_id))
+        df = pd.DataFrame.from_records(X)
+        df.to_csv('%s/BC.tsv' % path, sep='\t')
 
-    files = dict()
+    def parse_network_as_pathway_files():
+        write_reaction = lambda f, reaction_id: f.write('abstract\t%s\n' % reaction_id)
+        write_metabolite = lambda f, metabolite_id: f.write('protein\t%s\n' % metabolite_id)
+        write_relation = lambda f, metabolite_id, reaction_id: f.write('%s\t%s\t-a>\n' % (metabolite_id, reaction_id))
 
-    for s in model.subsystems():
-        if s:
-            files[s] = open('../outputs/%s.pat' % s.replace('/', '-'), 'w')
+        # TOTHINK: be sure about right mapping
 
-            # write_pathway(files[s], s)
+        files = {
+            s: open('%s/pathway_%s.tab' %
+                    (path, s.replace('/', '-').replace(' ', '-')), 'w')
+            for s in model.subsystems() if s
+        }
 
-    for m in model.metabolites:
-        for s in m.connected_subsystems():
-            if s:
-                write_metabolite(files[s], m.id)
+        # f = open('%s/pathway_data.tab' % path, 'w')
 
-    for r in model.reactions:
-        if r.subsystem:
-            f = files[r.subsystem]
-            write_reaction(f, r.id)
-            #           write_reaction_pathway(f, r.id, r.subsystem)
+        for m in model.metabolites:
+            for s in m.connected_subsystems():
+                if s:
+                    write_metabolite(files[s], m.id)
+                    # write_metabolite(f, m.id)
 
-            for rea in r.reactants:
-                write_consumer(f, rea.id, r.id)
+        for r in model.reactions:
+            if r.subsystem:
+                write_reaction(files[r.subsystem], r.id)
 
-            for pro in r.products:
-                write_producer(f, pro.id, r.id)
+        for r in model.reactions:
+            if r.subsystem:
+                for m in r.metabolites:
+                    write_relation(files[r.subsystem], m.id, r.id)
 
-    map(lambda f: f.close(), files.values())
+        # f.close()
+        map(lambda f: f.close(), files.values())
+
+    def parse_configuration_file():
+        with open('%s/bc.cfg' % path, 'w') as f:
+            # f.write('inference [method=BP,updates=SEQFIX,tol=1,maxiter=100000]\n')
+            f.write('inference [method=JTREE,updates=HUGIN,verbose=1]\n')
+            f.write(
+                'evidence [suffix=.tsv,node=mRNA,disc=–0.33;0.33,epsilon=0.1]\n'
+            )
+
+        pathway_names = [
+            s.replace('/', '-').replace(' ', '-') for s in model.subsystems()
+            if s
+        ]
+        # print('./paradigm -c bc.cfg %s  -b pathway' %
+        #      ''.join(map(lambda x: ' -p pathway_%s.tab' % x, pathway_names)))
+
+    parse_disease_dataset()
+    parse_network_as_pathway_files()
+    parse_configuration_file()

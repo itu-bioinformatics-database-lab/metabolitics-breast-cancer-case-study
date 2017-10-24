@@ -40,6 +40,9 @@ class TestDataReader(unittest.TestCase):
         self.assertNotEqual(len(X), 0)
         self.assertNotEqual(len(y), 0)
 
+    def test_read_hmdb_diseases(self):
+        self.assertIsNotNone(self.service.read_escher_map('unicellular'))
+
 
 class TestDataUtils(unittest.TestCase):
     def setUp(self):
@@ -75,10 +78,11 @@ class TestDataUtils(unittest.TestCase):
             similarty_dict(x, y, euclidean), [-0.4142136, -1.4494897])
 
     def test_variance_threshold_on_df(self):
-        df = pd.DataFrame({'a':[1, 2, 3], 'b':[1, 1, 1]})
-        df_expected = pd.DataFrame({'a':[1, 2, 3]})
-        return pd.testing.assert_frame_equal(variance_threshold_on_df(df), df_expected)
-    
+        df = pd.DataFrame({'a': [1, 2, 3], 'b': [1, 1, 1]})
+        df_expected = pd.DataFrame({'a': [1, 2, 3]})
+        return pd.testing.assert_frame_equal(
+            variance_threshold_on_df(df), df_expected)
+
 
 class TestDataWriter(unittest.TestCase):
     def setUp(self):
