@@ -96,6 +96,8 @@ def analysis_unicellular():
 @cli.command()
 def unicellular_escher():
     model = DataReader().read_network_model(name='unicellular')
-    builder = Builder(model=model)
+    map_json = DataReader().read_escher_map('unicellular')
+    builder = Builder(
+        model=model, map_json='../dataset/visualizations/unicellular_map.json')
 
     builder.display_in_browser()
