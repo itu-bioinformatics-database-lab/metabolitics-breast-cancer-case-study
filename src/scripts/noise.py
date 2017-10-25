@@ -15,7 +15,7 @@ def robustness_test_with_noise():
 
     X, y = DataReader().read_data('BC')
 
-    for i in np.linspace(0.1, 1, 10):
+    for i in np.linspace(0.1, 1, 10) + 1:
 
         vect = DictVectorizer(sparse=False)
 
