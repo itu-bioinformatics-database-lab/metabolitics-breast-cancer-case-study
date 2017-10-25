@@ -34,6 +34,21 @@ def generate_unicellular_network():
         r.reaction = reduce(lambda x, y: x.replace(y, ''), black_list,
                             i.replace('->', '-->'))
 
+    def custom_model_edit_for_balance():
+        missing_metabolites = ['Lactate', 'Acetate', 'Ethanol']
+
+        for m in missing_metabolites:
+            r = cb.Reaction('%s->(Cellsynthesis)' % m)
+            model.add_reaction(r)
+            r.reaction = '%s-->' % m
+
+        m = 'Glucose'
+        r = cb.Reaction('(Cellconsumption)->%s' % m)
+        model.add_reaction(r)
+        r.reaction = '-->%s' % m
+
+    custom_model_edit_for_balance()
+
     cb.io.save_json_model(model, '../outputs/unicellular.json')
 
 
@@ -74,11 +89,9 @@ def analysis_unicellular():
         lambda x: x[0].keys()).flatten().to_set()
     X = [{k: v for k, v in x.items() if k in healthy_features} for x in X]
 
-    import pdb
-    pdb.set_trace()
     # TOTHINK: Low featured sample can be elimated in here 
 
-    dataset_name = 'e_coli_core'
+    dataset_name = 'unicellular'
     vect = DictVectorizer(sparse=False)
     pipe = Pipeline([
         # unicellular analysis pipeline
