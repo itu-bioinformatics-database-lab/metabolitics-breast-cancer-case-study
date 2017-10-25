@@ -27,6 +27,9 @@ def generate_unicellular_network():
         for _, row in df_metabolite_names.iterrows())
 
     for i in df_flux.index:
+        if i.startswith('Exch. ('):
+            continue
+
         r = cb.Reaction(i.replace(' ', ''))
         model.add_reaction(r)
 
