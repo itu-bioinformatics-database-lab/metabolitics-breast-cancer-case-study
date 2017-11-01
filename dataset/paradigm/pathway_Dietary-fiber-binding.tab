@@ -1,0 +1,72 @@
+protein	bglc_e
+protein	dchac_e
+protein	gchola_e
+protein	glgchlo_e
+protein	gltcho_e
+protein	gltdechol_e
+protein	gum_e
+protein	gumdchac_e
+protein	gumgchol_e
+protein	gumtchol_e
+protein	h_e
+protein	pect_e
+protein	pectindchac_e
+protein	pectingchol_e
+protein	pectintchol_e
+protein	psyl_e
+protein	psylchol_e
+protein	psyltchol_e
+protein	psyltdechol_e
+protein	tchola_e
+protein	tdechola_e
+abstract	BGLUGCHe
+abstract	BGLUTCHLe
+abstract	BGLUTDECHOe
+abstract	GUMDCHAe
+abstract	GUMGCHLe
+abstract	GUMTCHOLe
+abstract	PECDCHe
+abstract	PECGCHLe
+abstract	PECTCHLe
+abstract	PSYGCHe
+abstract	PSYTCHe
+abstract	PSYTDECHe
+glgchlo_e	BGLUGCHe	-a>
+gchola_e	BGLUGCHe	-a>
+bglc_e	BGLUGCHe	-a>
+tchola_e	BGLUTCHLe	-a>
+gltcho_e	BGLUTCHLe	-a>
+bglc_e	BGLUTCHLe	-a>
+bglc_e	BGLUTDECHOe	-a>
+gltdechol_e	BGLUTDECHOe	-a>
+tdechola_e	BGLUTDECHOe	-a>
+gum_e	GUMDCHAe	-a>
+gumdchac_e	GUMDCHAe	-a>
+dchac_e	GUMDCHAe	-a>
+gum_e	GUMGCHLe	-a>
+gchola_e	GUMGCHLe	-a>
+gumgchol_e	GUMGCHLe	-a>
+gum_e	GUMTCHOLe	-a>
+tchola_e	GUMTCHOLe	-a>
+gumtchol_e	GUMTCHOLe	-a>
+pect_e	PECDCHe	-a>
+h_e	PECDCHe	-a>
+pectindchac_e	PECDCHe	-a>
+dchac_e	PECDCHe	-a>
+pect_e	PECGCHLe	-a>
+h_e	PECGCHLe	-a>
+gchola_e	PECGCHLe	-a>
+pectingchol_e	PECGCHLe	-a>
+pect_e	PECTCHLe	-a>
+tchola_e	PECTCHLe	-a>
+pectintchol_e	PECTCHLe	-a>
+h_e	PECTCHLe	-a>
+psyl_e	PSYGCHe	-a>
+gchola_e	PSYGCHe	-a>
+psylchol_e	PSYGCHe	-a>
+psyl_e	PSYTCHe	-a>
+tchola_e	PSYTCHe	-a>
+psyltchol_e	PSYTCHe	-a>
+psyl_e	PSYTDECHe	-a>
+psyltdechol_e	PSYTDECHe	-a>
+tdechola_e	PSYTDECHe	-a>

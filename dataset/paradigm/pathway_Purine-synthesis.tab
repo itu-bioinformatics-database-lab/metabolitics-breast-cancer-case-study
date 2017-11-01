@@ -1,0 +1,98 @@
+protein	10fthf_c
+protein	25aics_c
+protein	adn_c
+protein	adp_c
+protein	aicar_c
+protein	air_c
+protein	amp_c
+protein	atp_c
+protein	dgdp_c
+protein	dgtp_c
+protein	fgam_c
+protein	fpram_c
+protein	fprica_c
+protein	fum_c
+protein	gar_c
+protein	gdp_c
+protein	gln_L_c
+protein	glu_L_c
+protein	gly_c
+protein	gtp_c
+protein	h2o_c
+protein	h_c
+protein	imp_c
+protein	ins_c
+protein	pi_c
+protein	ppi_c
+protein	pram_c
+protein	prpp_c
+protein	thf_c
+abstract	ADSL2
+abstract	AICART
+abstract	GARFT
+abstract	GLUPRT
+abstract	IMPC
+abstract	PRAGSr
+abstract	PRFGS
+abstract	r0666
+abstract	ADNK3
+abstract	ADNK4
+abstract	INSK
+fum_c	ADSL2	-a>
+25aics_c	ADSL2	-a>
+aicar_c	ADSL2	-a>
+10fthf_c	AICART	-a>
+fprica_c	AICART	-a>
+thf_c	AICART	-a>
+aicar_c	AICART	-a>
+10fthf_c	GARFT	-a>
+gar_c	GARFT	-a>
+thf_c	GARFT	-a>
+fgam_c	GARFT	-a>
+h_c	GARFT	-a>
+glu_L_c	GLUPRT	-a>
+pram_c	GLUPRT	-a>
+prpp_c	GLUPRT	-a>
+gln_L_c	GLUPRT	-a>
+h2o_c	GLUPRT	-a>
+ppi_c	GLUPRT	-a>
+h2o_c	IMPC	-a>
+fprica_c	IMPC	-a>
+imp_c	IMPC	-a>
+pram_c	PRAGSr	-a>
+gly_c	PRAGSr	-a>
+h_c	PRAGSr	-a>
+pi_c	PRAGSr	-a>
+atp_c	PRAGSr	-a>
+gar_c	PRAGSr	-a>
+adp_c	PRAGSr	-a>
+h2o_c	PRFGS	-a>
+h_c	PRFGS	-a>
+glu_L_c	PRFGS	-a>
+pi_c	PRFGS	-a>
+gln_L_c	PRFGS	-a>
+adp_c	PRFGS	-a>
+fgam_c	PRFGS	-a>
+fpram_c	PRFGS	-a>
+atp_c	PRFGS	-a>
+h_c	r0666	-a>
+air_c	r0666	-a>
+fpram_c	r0666	-a>
+pi_c	r0666	-a>
+atp_c	r0666	-a>
+adp_c	r0666	-a>
+gdp_c	ADNK3	-a>
+gtp_c	ADNK3	-a>
+amp_c	ADNK3	-a>
+h_c	ADNK3	-a>
+adn_c	ADNK3	-a>
+amp_c	ADNK4	-a>
+h_c	ADNK4	-a>
+dgdp_c	ADNK4	-a>
+adn_c	ADNK4	-a>
+dgtp_c	ADNK4	-a>
+atp_c	INSK	-a>
+adp_c	INSK	-a>
+ins_c	INSK	-a>
+imp_c	INSK	-a>
+h_c	INSK	-a>

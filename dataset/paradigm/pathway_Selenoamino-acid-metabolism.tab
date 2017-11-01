@@ -1,0 +1,147 @@
+protein	2obut_c
+protein	3padsel_c
+protein	5mthf_n
+protein	5mthf_r
+protein	C05708_c
+protein	C05708_r
+protein	adn_c
+protein	adp_c
+protein	adsel_c
+protein	ala_L_c
+protein	amp_c
+protein	atp_c
+protein	dna5mtc_n
+protein	dna_n
+protein	dttOX_c
+protein	dtt_c
+protein	h2o_c
+protein	h2o_r
+protein	h_c
+protein	h_n
+protein	h_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	nh4_c
+protein	o2_c
+protein	o2_r
+protein	pdx5p_c
+protein	pi_c
+protein	ppi_c
+protein	pydx5p_c
+protein	seahcys_c
+protein	seahcys_n
+protein	seasmet_c
+protein	seasmet_n
+protein	sel_c
+protein	selcys_c
+protein	selcyst_c
+protein	selhcys_c
+protein	selhcys_n
+protein	selhcys_r
+protein	selmeth_c
+protein	selmeth_n
+protein	selmeth_r
+protein	seln_c
+protein	selnp_c
+protein	ser_L_c
+protein	thf_n
+protein	thf_r
+abstract	ADSELK
+abstract	DNAMTSEn
+abstract	SEAHCYSHYD
+abstract	SELADT
+abstract	SELCYSLY
+abstract	SELCYSLY2
+abstract	SELCYSTGL
+abstract	SELCYSTS
+abstract	SELMETAT
+abstract	SELNPS
+abstract	RN0001C
+abstract	RN0001R
+abstract	RN0002N
+abstract	RN0002R
+abstract	SEAHCYStn
+abstract	SEASMETtn
+3padsel_c	ADSELK	-a>
+atp_c	ADSELK	-a>
+adsel_c	ADSELK	-a>
+adp_c	ADSELK	-a>
+h_c	ADSELK	-a>
+seasmet_n	DNAMTSEn	-a>
+dna5mtc_n	DNAMTSEn	-a>
+dna_n	DNAMTSEn	-a>
+h_n	DNAMTSEn	-a>
+seahcys_n	DNAMTSEn	-a>
+h2o_c	SEAHCYSHYD	-a>
+seahcys_c	SEAHCYSHYD	-a>
+adn_c	SEAHCYSHYD	-a>
+selhcys_c	SEAHCYSHYD	-a>
+sel_c	SELADT	-a>
+atp_c	SELADT	-a>
+adsel_c	SELADT	-a>
+h_c	SELADT	-a>
+ppi_c	SELADT	-a>
+selcys_c	SELCYSLY	-a>
+ala_L_c	SELCYSLY	-a>
+dttOX_c	SELCYSLY	-a>
+dtt_c	SELCYSLY	-a>
+seln_c	SELCYSLY	-a>
+h_c	SELCYSLY	-a>
+selcys_c	SELCYSLY2	-a>
+pydx5p_c	SELCYSLY2	-a>
+ala_L_c	SELCYSLY2	-a>
+pdx5p_c	SELCYSLY2	-a>
+h_c	SELCYSLY2	-a>
+seln_c	SELCYSLY2	-a>
+selcys_c	SELCYSTGL	-a>
+h2o_c	SELCYSTGL	-a>
+2obut_c	SELCYSTGL	-a>
+selcyst_c	SELCYSTGL	-a>
+nh4_c	SELCYSTGL	-a>
+ser_L_c	SELCYSTS	-a>
+selcyst_c	SELCYSTS	-a>
+h2o_c	SELCYSTS	-a>
+selhcys_c	SELCYSTS	-a>
+selmeth_c	SELMETAT	-a>
+seasmet_c	SELMETAT	-a>
+pi_c	SELMETAT	-a>
+atp_c	SELMETAT	-a>
+h2o_c	SELMETAT	-a>
+ppi_c	SELMETAT	-a>
+selnp_c	SELNPS	-a>
+amp_c	SELNPS	-a>
+h2o_c	SELNPS	-a>
+h_c	SELNPS	-a>
+pi_c	SELNPS	-a>
+atp_c	SELNPS	-a>
+seln_c	SELNPS	-a>
+C05708_c	RN0001C	-a>
+h2o_c	RN0001C	-a>
+nadp_c	RN0001C	-a>
+h_c	RN0001C	-a>
+nadph_c	RN0001C	-a>
+selmeth_c	RN0001C	-a>
+o2_c	RN0001C	-a>
+o2_r	RN0001R	-a>
+C05708_r	RN0001R	-a>
+h2o_r	RN0001R	-a>
+selmeth_r	RN0001R	-a>
+h_r	RN0001R	-a>
+nadph_r	RN0001R	-a>
+nadp_r	RN0001R	-a>
+selhcys_n	RN0002N	-a>
+thf_n	RN0002N	-a>
+selmeth_n	RN0002N	-a>
+h_n	RN0002N	-a>
+5mthf_n	RN0002N	-a>
+selmeth_r	RN0002R	-a>
+5mthf_r	RN0002R	-a>
+h_r	RN0002R	-a>
+selhcys_r	RN0002R	-a>
+thf_r	RN0002R	-a>
+seahcys_n	SEAHCYStn	-a>
+seahcys_c	SEAHCYStn	-a>
+seasmet_n	SEASMETtn	-a>
+seasmet_c	SEASMETtn	-a>

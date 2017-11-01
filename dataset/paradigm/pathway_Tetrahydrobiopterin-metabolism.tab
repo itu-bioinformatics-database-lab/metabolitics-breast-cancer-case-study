@@ -1,0 +1,179 @@
+protein	5htrp_c
+protein	5mthf_c
+protein	6pthp_c
+protein	6pthp_n
+protein	CE2705_c
+protein	CE2705_n
+protein	CE5236_c
+protein	CE5236_n
+protein	HC01254_c
+protein	HC01651_c
+protein	HC01651_n
+protein	HC01652_c
+protein	HC01652_n
+protein	HC01710_c
+protein	HC01710_n
+protein	ahdt_c
+protein	ahdt_n
+protein	dhbpt_c
+protein	for_c
+protein	for_n
+protein	gtp_c
+protein	gtp_n
+protein	h2o_c
+protein	h2o_n
+protein	h_c
+protein	h_n
+protein	mlthf_c
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadp_n
+protein	nadph_c
+protein	nadph_n
+protein	o2_c
+protein	phe_L_c
+protein	pppi_c
+protein	pppi_n
+protein	thbpt4acam_c
+protein	thbpt4acam_n
+protein	thbpt_c
+protein	thbpt_n
+protein	trp_L_c
+protein	tyr_L_c
+abstract	DHPR
+abstract	DHPR2
+abstract	GTPCI
+abstract	GTPCIn
+abstract	PTHPS
+abstract	PTHPSn
+abstract	SPR
+abstract	SPRn
+abstract	THBPT4ACAMDASE
+abstract	r0120
+abstract	r0121
+abstract	r0398
+abstract	r0399
+abstract	r0402
+abstract	r0403
+abstract	r0673
+abstract	r0708
+abstract	r0709
+abstract	r0776
+abstract	r0777
+abstract	r0778
+abstract	RE0830C
+abstract	RE0830N
+abstract	RE1709C
+abstract	RE1709N
+abstract	RE2660C
+abstract	RE2660N
+nad_c	DHPR	-a>
+dhbpt_c	DHPR	-a>
+thbpt_c	DHPR	-a>
+h_c	DHPR	-a>
+nadh_c	DHPR	-a>
+5mthf_c	DHPR2	-a>
+dhbpt_c	DHPR2	-a>
+mlthf_c	DHPR2	-a>
+thbpt_c	DHPR2	-a>
+h_c	DHPR2	-a>
+gtp_c	GTPCI	-a>
+h2o_c	GTPCI	-a>
+ahdt_c	GTPCI	-a>
+h_c	GTPCI	-a>
+for_c	GTPCI	-a>
+for_n	GTPCIn	-a>
+ahdt_n	GTPCIn	-a>
+gtp_n	GTPCIn	-a>
+h2o_n	GTPCIn	-a>
+h_n	GTPCIn	-a>
+ahdt_c	PTHPS	-a>
+6pthp_c	PTHPS	-a>
+pppi_c	PTHPS	-a>
+6pthp_n	PTHPSn	-a>
+ahdt_n	PTHPSn	-a>
+pppi_n	PTHPSn	-a>
+nadph_c	SPR	-a>
+nadp_c	SPR	-a>
+thbpt_c	SPR	-a>
+h_c	SPR	-a>
+6pthp_c	SPR	-a>
+thbpt_n	SPRn	-a>
+nadp_n	SPRn	-a>
+6pthp_n	SPRn	-a>
+h_n	SPRn	-a>
+nadph_n	SPRn	-a>
+dhbpt_c	THBPT4ACAMDASE	-a>
+thbpt4acam_c	THBPT4ACAMDASE	-a>
+h2o_c	THBPT4ACAMDASE	-a>
+gtp_c	r0120	-a>
+HC01651_c	r0120	-a>
+h_c	r0120	-a>
+h2o_c	r0120	-a>
+h2o_n	r0121	-a>
+gtp_n	r0121	-a>
+HC01651_n	r0121	-a>
+h_n	r0121	-a>
+nadph_c	r0398	-a>
+dhbpt_c	r0398	-a>
+nadp_c	r0398	-a>
+thbpt_c	r0398	-a>
+h_c	r0398	-a>
+dhbpt_c	r0399	-a>
+phe_L_c	r0399	-a>
+thbpt_c	r0399	-a>
+tyr_L_c	r0399	-a>
+h2o_c	r0399	-a>
+o2_c	r0399	-a>
+thbpt_c	r0402	-a>
+nadp_c	r0402	-a>
+nadph_c	r0402	-a>
+h_c	r0402	-a>
+HC01254_c	r0402	-a>
+trp_L_c	r0403	-a>
+dhbpt_c	r0403	-a>
+thbpt_c	r0403	-a>
+5htrp_c	r0403	-a>
+h2o_c	r0403	-a>
+o2_c	r0403	-a>
+nadph_c	r0673	-a>
+nadp_c	r0673	-a>
+HC01254_c	r0673	-a>
+h_c	r0673	-a>
+6pthp_c	r0673	-a>
+HC01710_c	r0708	-a>
+ahdt_c	r0708	-a>
+h_c	r0708	-a>
+h2o_c	r0708	-a>
+HC01710_n	r0709	-a>
+ahdt_n	r0709	-a>
+h2o_n	r0709	-a>
+h_n	r0709	-a>
+for_n	r0776	-a>
+h2o_n	r0776	-a>
+HC01652_n	r0776	-a>
+HC01651_n	r0776	-a>
+h_n	r0776	-a>
+HC01652_c	r0777	-a>
+HC01710_c	r0777	-a>
+h_c	r0777	-a>
+HC01710_n	r0778	-a>
+HC01652_n	r0778	-a>
+h_n	r0778	-a>
+h2o_c	RE0830C	-a>
+thbpt4acam_c	RE0830C	-a>
+CE2705_c	RE0830C	-a>
+CE2705_n	RE0830N	-a>
+thbpt4acam_n	RE0830N	-a>
+h2o_n	RE0830N	-a>
+h2o_c	RE1709C	-a>
+thbpt4acam_c	RE1709C	-a>
+CE5236_c	RE1709C	-a>
+thbpt4acam_n	RE1709N	-a>
+h2o_n	RE1709N	-a>
+CE5236_n	RE1709N	-a>
+CE2705_c	RE2660C	-a>
+CE5236_c	RE2660C	-a>
+CE2705_n	RE2660N	-a>
+CE5236_n	RE2660N	-a>

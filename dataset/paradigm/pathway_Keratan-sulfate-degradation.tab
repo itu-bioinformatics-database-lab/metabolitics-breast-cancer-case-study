@@ -1,0 +1,497 @@
+protein	Asn_X_Ser_Thr_l
+protein	Ser_Thr_l
+protein	Tn_antigen_l
+protein	acgam_l
+protein	acnam_l
+protein	core6_l
+protein	f1a_l
+protein	fuc_L_e
+protein	fuc_L_l
+protein	gal_l
+protein	h2o_e
+protein	h2o_l
+protein	h_l
+protein	ksi_deg10_l
+protein	ksi_deg11_l
+protein	ksi_deg12_l
+protein	ksi_deg13_l
+protein	ksi_deg14_l
+protein	ksi_deg15_l
+protein	ksi_deg16_l
+protein	ksi_deg17_l
+protein	ksi_deg18_l
+protein	ksi_deg19_l
+protein	ksi_deg1_e
+protein	ksi_deg1_l
+protein	ksi_deg20_l
+protein	ksi_deg21_l
+protein	ksi_deg22_l
+protein	ksi_deg23_l
+protein	ksi_deg24_l
+protein	ksi_deg25_l
+protein	ksi_deg26_l
+protein	ksi_deg27_l
+protein	ksi_deg28_l
+protein	ksi_deg29_l
+protein	ksi_deg2_l
+protein	ksi_deg30_l
+protein	ksi_deg31_l
+protein	ksi_deg32_l
+protein	ksi_deg33_l
+protein	ksi_deg34_l
+protein	ksi_deg35_l
+protein	ksi_deg36_l
+protein	ksi_deg37_l
+protein	ksi_deg38_l
+protein	ksi_deg39_l
+protein	ksi_deg3_l
+protein	ksi_deg40_l
+protein	ksi_deg41_l
+protein	ksi_deg4_l
+protein	ksi_deg5_l
+protein	ksi_deg6_l
+protein	ksi_deg7_l
+protein	ksi_deg8_l
+protein	ksi_deg9_l
+protein	ksi_e
+protein	ksi_l
+protein	ksii_core2_deg1_l
+protein	ksii_core2_deg2_l
+protein	ksii_core2_deg3_l
+protein	ksii_core2_deg4_l
+protein	ksii_core2_deg5_l
+protein	ksii_core2_deg6_l
+protein	ksii_core2_deg7_l
+protein	ksii_core2_deg8_l
+protein	ksii_core2_deg9_l
+protein	ksii_core2_l
+protein	ksii_core4_deg1_l
+protein	ksii_core4_deg2_l
+protein	ksii_core4_deg3_l
+protein	ksii_core4_deg4_l
+protein	ksii_core4_l
+protein	m2mn_l
+protein	so4_l
+protein	udp_l
+protein	udpacgal_l
+abstract	ENGASE3ly
+abstract	FUCASE2e
+abstract	FUCASE2ly
+abstract	GALASE10ly
+abstract	GALASE11ly
+abstract	GALASE12ly
+abstract	GALASE13ly
+abstract	GALASE14ly
+abstract	GALASE15ly
+abstract	GALASE16ly
+abstract	GALASE17ly
+abstract	GALASE18ly
+abstract	GALASE19ly
+abstract	GALASE20ly
+abstract	GALASE3ly
+abstract	GALASE4ly
+abstract	GALASE5ly
+abstract	GALASE6ly
+abstract	GALASE7ly
+abstract	GALASE8ly
+abstract	GALASE9ly
+abstract	GASNASE3ly
+abstract	NACHEX10ly
+abstract	NACHEX11ly
+abstract	NACHEX12ly
+abstract	NACHEX13ly
+abstract	NACHEX14ly
+abstract	NACHEX15ly
+abstract	NACHEX16ly
+abstract	NACHEX17ly
+abstract	NACHEX18ly
+abstract	NACHEX19ly
+abstract	NACHEX20ly
+abstract	NACHEX21ly
+abstract	NACHEX22ly
+abstract	NACHEX23ly
+abstract	NACHEX24ly
+abstract	NACHEX25ly
+abstract	NACHEX26ly
+abstract	NACHEXA10ly
+abstract	NACHEXA11ly
+abstract	NACHEXA12ly
+abstract	NACHEXA13ly
+abstract	NACHEXA14ly
+abstract	NACHEXA15ly
+abstract	NACHEXA16ly
+abstract	NACHEXA17ly
+abstract	NACHEXA18ly
+abstract	NACHEXA19ly
+abstract	NACHEXA20ly
+abstract	NACHEXA21ly
+abstract	NACHEXA22ly
+abstract	NACHEXA9ly
+abstract	NAGA2ly
+abstract	NAGLCAly
+abstract	S6TASE10ly
+abstract	S6TASE11ly
+abstract	S6TASE12ly
+abstract	S6TASE13ly
+abstract	S6TASE14ly
+abstract	S6TASE15ly
+abstract	S6TASE16ly
+abstract	S6TASE17ly
+abstract	S6TASE18ly
+abstract	S6TASE19ly
+abstract	S6TASE20ly
+abstract	S6TASE21ly
+abstract	S6TASE22ly
+abstract	S6TASE23ly
+abstract	S6TASE24ly
+abstract	S6TASE25ly
+abstract	S6TASE26ly
+abstract	SIAASE2ly
+abstract	SIAASE3ly
+abstract	SIAASE4ly
+h2o_l	ENGASE3ly	-a>
+ksi_deg2_l	ENGASE3ly	-a>
+ksi_deg3_l	ENGASE3ly	-a>
+acgam_l	ENGASE3ly	-a>
+ksi_deg1_e	FUCASE2e	-a>
+ksi_e	FUCASE2e	-a>
+h2o_e	FUCASE2e	-a>
+fuc_L_e	FUCASE2e	-a>
+fuc_L_l	FUCASE2ly	-a>
+ksi_l	FUCASE2ly	-a>
+h2o_l	FUCASE2ly	-a>
+ksi_deg1_l	FUCASE2ly	-a>
+ksi_deg26_l	GALASE10ly	-a>
+gal_l	GALASE10ly	-a>
+h2o_l	GALASE10ly	-a>
+ksi_deg27_l	GALASE10ly	-a>
+gal_l	GALASE11ly	-a>
+h2o_l	GALASE11ly	-a>
+ksi_deg30_l	GALASE11ly	-a>
+ksi_deg29_l	GALASE11ly	-a>
+ksi_deg33_l	GALASE12ly	-a>
+h2o_l	GALASE12ly	-a>
+gal_l	GALASE12ly	-a>
+ksi_deg32_l	GALASE12ly	-a>
+gal_l	GALASE13ly	-a>
+h2o_l	GALASE13ly	-a>
+ksi_deg36_l	GALASE13ly	-a>
+ksi_deg35_l	GALASE13ly	-a>
+ksi_deg38_l	GALASE14ly	-a>
+gal_l	GALASE14ly	-a>
+h2o_l	GALASE14ly	-a>
+ksi_deg39_l	GALASE14ly	-a>
+ksi_deg40_l	GALASE15ly	-a>
+gal_l	GALASE15ly	-a>
+ksi_deg41_l	GALASE15ly	-a>
+h2o_l	GALASE15ly	-a>
+ksii_core2_deg2_l	GALASE16ly	-a>
+gal_l	GALASE16ly	-a>
+ksii_core2_deg3_l	GALASE16ly	-a>
+h2o_l	GALASE16ly	-a>
+ksii_core2_deg5_l	GALASE17ly	-a>
+h2o_l	GALASE17ly	-a>
+gal_l	GALASE17ly	-a>
+ksii_core2_deg6_l	GALASE17ly	-a>
+ksii_core2_deg9_l	GALASE18ly	-a>
+gal_l	GALASE18ly	-a>
+h2o_l	GALASE18ly	-a>
+ksii_core2_deg8_l	GALASE18ly	-a>
+gal_l	GALASE19ly	-a>
+f1a_l	GALASE19ly	-a>
+h2o_l	GALASE19ly	-a>
+core6_l	GALASE19ly	-a>
+h2o_l	GALASE20ly	-a>
+gal_l	GALASE20ly	-a>
+ksii_core4_deg3_l	GALASE20ly	-a>
+ksii_core4_deg2_l	GALASE20ly	-a>
+gal_l	GALASE3ly	-a>
+h2o_l	GALASE3ly	-a>
+ksi_deg5_l	GALASE3ly	-a>
+ksi_deg6_l	GALASE3ly	-a>
+ksi_deg9_l	GALASE4ly	-a>
+gal_l	GALASE4ly	-a>
+h2o_l	GALASE4ly	-a>
+ksi_deg8_l	GALASE4ly	-a>
+ksi_deg11_l	GALASE5ly	-a>
+h2o_l	GALASE5ly	-a>
+gal_l	GALASE5ly	-a>
+ksi_deg12_l	GALASE5ly	-a>
+gal_l	GALASE6ly	-a>
+ksi_deg14_l	GALASE6ly	-a>
+h2o_l	GALASE6ly	-a>
+ksi_deg15_l	GALASE6ly	-a>
+ksi_deg18_l	GALASE7ly	-a>
+gal_l	GALASE7ly	-a>
+h2o_l	GALASE7ly	-a>
+ksi_deg17_l	GALASE7ly	-a>
+gal_l	GALASE8ly	-a>
+h2o_l	GALASE8ly	-a>
+ksi_deg21_l	GALASE8ly	-a>
+ksi_deg20_l	GALASE8ly	-a>
+ksi_deg23_l	GALASE9ly	-a>
+gal_l	GALASE9ly	-a>
+h2o_l	GALASE9ly	-a>
+ksi_deg24_l	GALASE9ly	-a>
+Asn_X_Ser_Thr_l	GASNASE3ly	-a>
+ksi_deg2_l	GASNASE3ly	-a>
+ksi_deg1_l	GASNASE3ly	-a>
+h2o_l	GASNASE3ly	-a>
+ksi_deg7_l	NACHEX10ly	-a>
+h2o_l	NACHEX10ly	-a>
+ksi_deg8_l	NACHEX10ly	-a>
+acgam_l	NACHEX10ly	-a>
+ksi_deg11_l	NACHEX11ly	-a>
+h2o_l	NACHEX11ly	-a>
+ksi_deg10_l	NACHEX11ly	-a>
+acgam_l	NACHEX11ly	-a>
+ksi_deg13_l	NACHEX12ly	-a>
+ksi_deg14_l	NACHEX12ly	-a>
+h2o_l	NACHEX12ly	-a>
+acgam_l	NACHEX12ly	-a>
+ksi_deg16_l	NACHEX13ly	-a>
+h2o_l	NACHEX13ly	-a>
+ksi_deg17_l	NACHEX13ly	-a>
+acgam_l	NACHEX13ly	-a>
+ksi_deg19_l	NACHEX14ly	-a>
+acgam_l	NACHEX14ly	-a>
+h2o_l	NACHEX14ly	-a>
+ksi_deg20_l	NACHEX14ly	-a>
+ksi_deg23_l	NACHEX15ly	-a>
+h2o_l	NACHEX15ly	-a>
+ksi_deg22_l	NACHEX15ly	-a>
+acgam_l	NACHEX15ly	-a>
+ksi_deg25_l	NACHEX16ly	-a>
+h2o_l	NACHEX16ly	-a>
+ksi_deg26_l	NACHEX16ly	-a>
+acgam_l	NACHEX16ly	-a>
+ksi_deg28_l	NACHEX17ly	-a>
+h2o_l	NACHEX17ly	-a>
+ksi_deg29_l	NACHEX17ly	-a>
+acgam_l	NACHEX17ly	-a>
+ksi_deg31_l	NACHEX18ly	-a>
+h2o_l	NACHEX18ly	-a>
+ksi_deg32_l	NACHEX18ly	-a>
+acgam_l	NACHEX18ly	-a>
+ksi_deg35_l	NACHEX19ly	-a>
+ksi_deg34_l	NACHEX19ly	-a>
+h2o_l	NACHEX19ly	-a>
+acgam_l	NACHEX19ly	-a>
+ksi_deg38_l	NACHEX20ly	-a>
+h2o_l	NACHEX20ly	-a>
+ksi_deg37_l	NACHEX20ly	-a>
+acgam_l	NACHEX20ly	-a>
+ksi_deg40_l	NACHEX21ly	-a>
+h2o_l	NACHEX21ly	-a>
+ksi_deg39_l	NACHEX21ly	-a>
+acgam_l	NACHEX21ly	-a>
+h2o_l	NACHEX22ly	-a>
+ksi_deg41_l	NACHEX22ly	-a>
+m2mn_l	NACHEX22ly	-a>
+acgam_l	NACHEX22ly	-a>
+ksii_core2_deg5_l	NACHEX23ly	-a>
+ksii_core2_deg4_l	NACHEX23ly	-a>
+h2o_l	NACHEX23ly	-a>
+acgam_l	NACHEX23ly	-a>
+ksii_core2_deg7_l	NACHEX24ly	-a>
+h2o_l	NACHEX24ly	-a>
+ksii_core2_deg8_l	NACHEX24ly	-a>
+acgam_l	NACHEX24ly	-a>
+ksii_core2_deg9_l	NACHEX25ly	-a>
+f1a_l	NACHEX25ly	-a>
+h2o_l	NACHEX25ly	-a>
+acgam_l	NACHEX25ly	-a>
+ksii_core4_deg4_l	NACHEX26ly	-a>
+ksii_core2_deg5_l	NACHEX26ly	-a>
+h2o_l	NACHEX26ly	-a>
+acgam_l	NACHEX26ly	-a>
+ksi_deg9_l	NACHEXA10ly	-a>
+ksi_deg11_l	NACHEXA10ly	-a>
+acgam_l	NACHEXA10ly	-a>
+so4_l	NACHEXA10ly	-a>
+h2o_l	NACHEXA10ly	-a>
+h_l	NACHEXA10ly	-a>
+ksi_deg12_l	NACHEXA11ly	-a>
+acgam_l	NACHEXA11ly	-a>
+so4_l	NACHEXA11ly	-a>
+ksi_deg14_l	NACHEXA11ly	-a>
+h2o_l	NACHEXA11ly	-a>
+h_l	NACHEXA11ly	-a>
+ksi_deg17_l	NACHEXA12ly	-a>
+acgam_l	NACHEXA12ly	-a>
+h_l	NACHEXA12ly	-a>
+h2o_l	NACHEXA12ly	-a>
+ksi_deg15_l	NACHEXA12ly	-a>
+so4_l	NACHEXA12ly	-a>
+ksi_deg20_l	NACHEXA13ly	-a>
+ksi_deg18_l	NACHEXA13ly	-a>
+acgam_l	NACHEXA13ly	-a>
+h2o_l	NACHEXA13ly	-a>
+h_l	NACHEXA13ly	-a>
+so4_l	NACHEXA13ly	-a>
+ksi_deg23_l	NACHEXA14ly	-a>
+acgam_l	NACHEXA14ly	-a>
+ksi_deg21_l	NACHEXA14ly	-a>
+so4_l	NACHEXA14ly	-a>
+h2o_l	NACHEXA14ly	-a>
+h_l	NACHEXA14ly	-a>
+ksi_deg24_l	NACHEXA15ly	-a>
+acgam_l	NACHEXA15ly	-a>
+ksi_deg26_l	NACHEXA15ly	-a>
+so4_l	NACHEXA15ly	-a>
+h2o_l	NACHEXA15ly	-a>
+h_l	NACHEXA15ly	-a>
+ksi_deg29_l	NACHEXA16ly	-a>
+acgam_l	NACHEXA16ly	-a>
+so4_l	NACHEXA16ly	-a>
+ksi_deg27_l	NACHEXA16ly	-a>
+h2o_l	NACHEXA16ly	-a>
+h_l	NACHEXA16ly	-a>
+ksi_deg32_l	NACHEXA17ly	-a>
+acgam_l	NACHEXA17ly	-a>
+h_l	NACHEXA17ly	-a>
+h2o_l	NACHEXA17ly	-a>
+ksi_deg30_l	NACHEXA17ly	-a>
+so4_l	NACHEXA17ly	-a>
+so4_l	NACHEXA18ly	-a>
+acgam_l	NACHEXA18ly	-a>
+ksi_deg33_l	NACHEXA18ly	-a>
+h_l	NACHEXA18ly	-a>
+h2o_l	NACHEXA18ly	-a>
+ksi_deg35_l	NACHEXA18ly	-a>
+ksi_deg36_l	NACHEXA19ly	-a>
+acgam_l	NACHEXA19ly	-a>
+ksi_deg38_l	NACHEXA19ly	-a>
+so4_l	NACHEXA19ly	-a>
+h2o_l	NACHEXA19ly	-a>
+h_l	NACHEXA19ly	-a>
+ksii_core2_deg3_l	NACHEXA20ly	-a>
+acgam_l	NACHEXA20ly	-a>
+ksii_core2_deg5_l	NACHEXA20ly	-a>
+so4_l	NACHEXA20ly	-a>
+h2o_l	NACHEXA20ly	-a>
+h_l	NACHEXA20ly	-a>
+ksii_core2_deg8_l	NACHEXA21ly	-a>
+acgam_l	NACHEXA21ly	-a>
+so4_l	NACHEXA21ly	-a>
+h2o_l	NACHEXA21ly	-a>
+ksii_core2_deg6_l	NACHEXA21ly	-a>
+h_l	NACHEXA21ly	-a>
+ksii_core4_deg3_l	NACHEXA22ly	-a>
+acgam_l	NACHEXA22ly	-a>
+ksii_core2_deg5_l	NACHEXA22ly	-a>
+so4_l	NACHEXA22ly	-a>
+h2o_l	NACHEXA22ly	-a>
+h_l	NACHEXA22ly	-a>
+ksi_deg6_l	NACHEXA9ly	-a>
+acgam_l	NACHEXA9ly	-a>
+so4_l	NACHEXA9ly	-a>
+h2o_l	NACHEXA9ly	-a>
+ksi_deg8_l	NACHEXA9ly	-a>
+h_l	NACHEXA9ly	-a>
+Tn_antigen_l	NAGA2ly	-a>
+udp_l	NAGA2ly	-a>
+udpacgal_l	NAGA2ly	-a>
+Ser_Thr_l	NAGA2ly	-a>
+h_l	NAGA2ly	-a>
+Tn_antigen_l	NAGLCAly	-a>
+acgam_l	NAGLCAly	-a>
+h2o_l	NAGLCAly	-a>
+core6_l	NAGLCAly	-a>
+so4_l	S6TASE10ly	-a>
+ksi_deg5_l	S6TASE10ly	-a>
+h_l	S6TASE10ly	-a>
+h2o_l	S6TASE10ly	-a>
+ksi_deg4_l	S6TASE10ly	-a>
+ksi_deg7_l	S6TASE11ly	-a>
+so4_l	S6TASE11ly	-a>
+h2o_l	S6TASE11ly	-a>
+ksi_deg6_l	S6TASE11ly	-a>
+h_l	S6TASE11ly	-a>
+ksi_deg9_l	S6TASE12ly	-a>
+h_l	S6TASE12ly	-a>
+h2o_l	S6TASE12ly	-a>
+ksi_deg10_l	S6TASE12ly	-a>
+so4_l	S6TASE12ly	-a>
+so4_l	S6TASE13ly	-a>
+h2o_l	S6TASE13ly	-a>
+h_l	S6TASE13ly	-a>
+ksi_deg12_l	S6TASE13ly	-a>
+ksi_deg13_l	S6TASE13ly	-a>
+ksi_deg16_l	S6TASE14ly	-a>
+so4_l	S6TASE14ly	-a>
+h2o_l	S6TASE14ly	-a>
+ksi_deg15_l	S6TASE14ly	-a>
+h_l	S6TASE14ly	-a>
+so4_l	S6TASE15ly	-a>
+ksi_deg18_l	S6TASE15ly	-a>
+h2o_l	S6TASE15ly	-a>
+ksi_deg19_l	S6TASE15ly	-a>
+h_l	S6TASE15ly	-a>
+ksi_deg21_l	S6TASE16ly	-a>
+so4_l	S6TASE16ly	-a>
+h2o_l	S6TASE16ly	-a>
+ksi_deg22_l	S6TASE16ly	-a>
+h_l	S6TASE16ly	-a>
+ksi_deg25_l	S6TASE17ly	-a>
+so4_l	S6TASE17ly	-a>
+h2o_l	S6TASE17ly	-a>
+ksi_deg24_l	S6TASE17ly	-a>
+h_l	S6TASE17ly	-a>
+so4_l	S6TASE18ly	-a>
+ksi_deg28_l	S6TASE18ly	-a>
+h2o_l	S6TASE18ly	-a>
+ksi_deg27_l	S6TASE18ly	-a>
+h_l	S6TASE18ly	-a>
+ksi_deg31_l	S6TASE19ly	-a>
+so4_l	S6TASE19ly	-a>
+h2o_l	S6TASE19ly	-a>
+ksi_deg30_l	S6TASE19ly	-a>
+h_l	S6TASE19ly	-a>
+ksi_deg33_l	S6TASE20ly	-a>
+ksi_deg34_l	S6TASE20ly	-a>
+h2o_l	S6TASE20ly	-a>
+so4_l	S6TASE20ly	-a>
+h_l	S6TASE20ly	-a>
+ksi_deg36_l	S6TASE21ly	-a>
+h_l	S6TASE21ly	-a>
+h2o_l	S6TASE21ly	-a>
+ksi_deg37_l	S6TASE21ly	-a>
+so4_l	S6TASE21ly	-a>
+ksii_core2_deg2_l	S6TASE22ly	-a>
+h2o_l	S6TASE22ly	-a>
+so4_l	S6TASE22ly	-a>
+ksii_core2_deg1_l	S6TASE22ly	-a>
+h_l	S6TASE22ly	-a>
+so4_l	S6TASE23ly	-a>
+ksii_core2_deg3_l	S6TASE23ly	-a>
+h2o_l	S6TASE23ly	-a>
+h_l	S6TASE23ly	-a>
+ksii_core2_deg4_l	S6TASE23ly	-a>
+ksii_core2_deg7_l	S6TASE24ly	-a>
+so4_l	S6TASE24ly	-a>
+h2o_l	S6TASE24ly	-a>
+ksii_core2_deg6_l	S6TASE24ly	-a>
+h_l	S6TASE24ly	-a>
+ksii_core4_deg1_l	S6TASE25ly	-a>
+so4_l	S6TASE25ly	-a>
+h2o_l	S6TASE25ly	-a>
+ksii_core4_deg2_l	S6TASE25ly	-a>
+h_l	S6TASE25ly	-a>
+ksii_core4_deg4_l	S6TASE26ly	-a>
+h2o_l	S6TASE26ly	-a>
+so4_l	S6TASE26ly	-a>
+ksii_core4_deg3_l	S6TASE26ly	-a>
+h_l	S6TASE26ly	-a>
+h2o_l	SIAASE2ly	-a>
+acnam_l	SIAASE2ly	-a>
+ksi_deg3_l	SIAASE2ly	-a>
+ksi_deg4_l	SIAASE2ly	-a>
+h2o_l	SIAASE3ly	-a>
+ksii_core2_l	SIAASE3ly	-a>
+ksii_core2_deg1_l	SIAASE3ly	-a>
+acnam_l	SIAASE3ly	-a>
+ksii_core4_deg1_l	SIAASE4ly	-a>
+ksii_core4_l	SIAASE4ly	-a>
+h2o_l	SIAASE4ly	-a>
+acnam_l	SIAASE4ly	-a>

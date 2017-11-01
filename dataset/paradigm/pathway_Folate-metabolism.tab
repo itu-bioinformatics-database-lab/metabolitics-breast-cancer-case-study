@@ -1,0 +1,459 @@
+protein	10fthf5glu_c
+protein	10fthf5glu_e
+protein	10fthf5glu_l
+protein	10fthf5glu_m
+protein	10fthf6glu_c
+protein	10fthf6glu_e
+protein	10fthf6glu_l
+protein	10fthf6glu_m
+protein	10fthf7glu_c
+protein	10fthf7glu_e
+protein	10fthf7glu_l
+protein	10fthf7glu_m
+protein	10fthf_c
+protein	10fthf_e
+protein	10fthf_l
+protein	10fthf_m
+protein	5dhf_c
+protein	5dhf_e
+protein	5dhf_l
+protein	5dhf_m
+protein	5forthf_c
+protein	5fthf_c
+protein	5fthf_m
+protein	5mthf_c
+protein	5thf_c
+protein	5thf_e
+protein	5thf_l
+protein	5thf_m
+protein	6dhf_c
+protein	6dhf_e
+protein	6dhf_l
+protein	6dhf_m
+protein	6thf_c
+protein	6thf_e
+protein	6thf_l
+protein	6thf_m
+protein	7dhf_c
+protein	7dhf_e
+protein	7dhf_l
+protein	7dhf_m
+protein	7thf_c
+protein	7thf_e
+protein	7thf_l
+protein	7thf_m
+protein	HC02129_c
+protein	adp_c
+protein	adp_m
+protein	atp_c
+protein	atp_m
+protein	co2_c
+protein	dhf_c
+protein	dhf_e
+protein	dhf_l
+protein	dhf_m
+protein	fol_c
+protein	fol_m
+protein	for_c
+protein	for_m
+protein	glu_L_c
+protein	glu_L_e
+protein	glu_L_l
+protein	glu_L_m
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	methf_c
+protein	methf_m
+protein	mlthf_c
+protein	mlthf_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	nh4_c
+protein	pi_c
+protein	pi_m
+protein	thf_c
+protein	thf_e
+protein	thf_l
+protein	thf_m
+abstract	DHFR
+abstract	FOLR2
+abstract	FPGS
+abstract	FPGS2
+abstract	FPGS2m
+abstract	FPGS3
+abstract	FPGS3m
+abstract	FPGS4
+abstract	FPGS4m
+abstract	FPGS5
+abstract	FPGS5m
+abstract	FPGS6
+abstract	FPGS6m
+abstract	FPGS7
+abstract	FPGS7m
+abstract	FPGS8
+abstract	FPGS8m
+abstract	FPGS9
+abstract	FPGS9m
+abstract	FPGSm
+abstract	FTCD
+abstract	FTHFCL
+abstract	FTHFDH
+abstract	FTHFL
+abstract	FTHFLm
+abstract	GGH_10FTHF5GLUe
+abstract	GGH_10FTHF5GLUl
+abstract	GGH_10FTHF6GLUe
+abstract	GGH_10FTHF6GLUl
+abstract	GGH_10FTHF7GLUe
+abstract	GGH_10FTHF7GLUl
+abstract	GGH_5DHFe
+abstract	GGH_5DHFl
+abstract	GGH_5THFe
+abstract	GGH_5THFl
+abstract	GGH_6DHFe
+abstract	GGH_6DHFl
+abstract	GGH_6THFe
+abstract	GGH_6THFl
+abstract	GGH_7DHFe
+abstract	GGH_7DHFl
+abstract	GGH_7THFe
+abstract	GGH_7THFl
+abstract	MTHFC
+abstract	MTHFCm
+abstract	MTHFD
+abstract	MTHFD2
+abstract	MTHFD2m
+abstract	MTHFDm
+abstract	r0224
+abstract	r0226
+abstract	r0512
+abstract	r0514
+abstract	r0522
+abstract	r0523
+abstract	r0792
+abstract	r1382
+abstract	r1383
+abstract	MTHFR3
+nadp_c	DHFR	-a>
+nadph_c	DHFR	-a>
+h_c	DHFR	-a>
+thf_c	DHFR	-a>
+dhf_c	DHFR	-a>
+fol_c	FOLR2	-a>
+nadp_c	FOLR2	-a>
+nadph_c	FOLR2	-a>
+dhf_c	FOLR2	-a>
+h2o_c	FPGS	-a>
+h_c	FPGS	-a>
+glu_L_c	FPGS	-a>
+pi_c	FPGS	-a>
+adp_c	FPGS	-a>
+thf_c	FPGS	-a>
+atp_c	FPGS	-a>
+5thf_c	FPGS	-a>
+h_c	FPGS2	-a>
+glu_L_c	FPGS2	-a>
+pi_c	FPGS2	-a>
+atp_c	FPGS2	-a>
+5thf_c	FPGS2	-a>
+adp_c	FPGS2	-a>
+6thf_c	FPGS2	-a>
+6thf_m	FPGS2m	-a>
+glu_L_m	FPGS2m	-a>
+5thf_m	FPGS2m	-a>
+h_m	FPGS2m	-a>
+pi_m	FPGS2m	-a>
+atp_m	FPGS2m	-a>
+adp_m	FPGS2m	-a>
+7thf_c	FPGS3	-a>
+h_c	FPGS3	-a>
+glu_L_c	FPGS3	-a>
+pi_c	FPGS3	-a>
+atp_c	FPGS3	-a>
+adp_c	FPGS3	-a>
+6thf_c	FPGS3	-a>
+6thf_m	FPGS3m	-a>
+glu_L_m	FPGS3m	-a>
+h_m	FPGS3m	-a>
+pi_m	FPGS3m	-a>
+atp_m	FPGS3m	-a>
+adp_m	FPGS3m	-a>
+7thf_m	FPGS3m	-a>
+h2o_c	FPGS4	-a>
+h_c	FPGS4	-a>
+glu_L_c	FPGS4	-a>
+pi_c	FPGS4	-a>
+adp_c	FPGS4	-a>
+dhf_c	FPGS4	-a>
+5dhf_c	FPGS4	-a>
+atp_c	FPGS4	-a>
+5dhf_m	FPGS4m	-a>
+atp_m	FPGS4m	-a>
+h2o_m	FPGS4m	-a>
+glu_L_m	FPGS4m	-a>
+h_m	FPGS4m	-a>
+pi_m	FPGS4m	-a>
+dhf_m	FPGS4m	-a>
+adp_m	FPGS4m	-a>
+h_c	FPGS5	-a>
+5dhf_c	FPGS5	-a>
+glu_L_c	FPGS5	-a>
+pi_c	FPGS5	-a>
+atp_c	FPGS5	-a>
+6dhf_c	FPGS5	-a>
+adp_c	FPGS5	-a>
+glu_L_m	FPGS5m	-a>
+5dhf_m	FPGS5m	-a>
+h_m	FPGS5m	-a>
+pi_m	FPGS5m	-a>
+atp_m	FPGS5m	-a>
+6dhf_m	FPGS5m	-a>
+adp_m	FPGS5m	-a>
+7dhf_c	FPGS6	-a>
+h_c	FPGS6	-a>
+glu_L_c	FPGS6	-a>
+pi_c	FPGS6	-a>
+atp_c	FPGS6	-a>
+6dhf_c	FPGS6	-a>
+adp_c	FPGS6	-a>
+glu_L_m	FPGS6m	-a>
+h_m	FPGS6m	-a>
+pi_m	FPGS6m	-a>
+atp_m	FPGS6m	-a>
+6dhf_m	FPGS6m	-a>
+7dhf_m	FPGS6m	-a>
+adp_m	FPGS6m	-a>
+h2o_c	FPGS7	-a>
+h_c	FPGS7	-a>
+10fthf_c	FPGS7	-a>
+pi_c	FPGS7	-a>
+adp_c	FPGS7	-a>
+glu_L_c	FPGS7	-a>
+atp_c	FPGS7	-a>
+10fthf5glu_c	FPGS7	-a>
+10fthf5glu_m	FPGS7m	-a>
+atp_m	FPGS7m	-a>
+h2o_m	FPGS7m	-a>
+10fthf_m	FPGS7m	-a>
+glu_L_m	FPGS7m	-a>
+h_m	FPGS7m	-a>
+pi_m	FPGS7m	-a>
+adp_m	FPGS7m	-a>
+glu_L_c	FPGS8	-a>
+h_c	FPGS8	-a>
+10fthf6glu_c	FPGS8	-a>
+pi_c	FPGS8	-a>
+atp_c	FPGS8	-a>
+10fthf5glu_c	FPGS8	-a>
+adp_c	FPGS8	-a>
+10fthf6glu_m	FPGS8m	-a>
+h_m	FPGS8m	-a>
+10fthf5glu_m	FPGS8m	-a>
+pi_m	FPGS8m	-a>
+atp_m	FPGS8m	-a>
+adp_m	FPGS8m	-a>
+glu_L_m	FPGS8m	-a>
+glu_L_c	FPGS9	-a>
+h_c	FPGS9	-a>
+10fthf7glu_c	FPGS9	-a>
+10fthf6glu_c	FPGS9	-a>
+pi_c	FPGS9	-a>
+atp_c	FPGS9	-a>
+adp_c	FPGS9	-a>
+10fthf6glu_m	FPGS9m	-a>
+glu_L_m	FPGS9m	-a>
+10fthf7glu_m	FPGS9m	-a>
+h_m	FPGS9m	-a>
+pi_m	FPGS9m	-a>
+atp_m	FPGS9m	-a>
+adp_m	FPGS9m	-a>
+thf_m	FPGSm	-a>
+5thf_m	FPGSm	-a>
+atp_m	FPGSm	-a>
+h2o_m	FPGSm	-a>
+glu_L_m	FPGSm	-a>
+h_m	FPGSm	-a>
+pi_m	FPGSm	-a>
+adp_m	FPGSm	-a>
+h_c	FTCD	-a>
+methf_c	FTCD	-a>
+5forthf_c	FTCD	-a>
+nh4_c	FTCD	-a>
+pi_c	FTHFCL	-a>
+atp_c	FTHFCL	-a>
+5fthf_c	FTHFCL	-a>
+methf_c	FTHFCL	-a>
+adp_c	FTHFCL	-a>
+h2o_c	FTHFDH	-a>
+nadp_c	FTHFDH	-a>
+h_c	FTHFDH	-a>
+thf_c	FTHFDH	-a>
+10fthf_c	FTHFDH	-a>
+nadph_c	FTHFDH	-a>
+co2_c	FTHFDH	-a>
+thf_c	FTHFL	-a>
+for_c	FTHFL	-a>
+10fthf_c	FTHFL	-a>
+pi_c	FTHFL	-a>
+atp_c	FTHFL	-a>
+adp_c	FTHFL	-a>
+thf_m	FTHFLm	-a>
+10fthf_m	FTHFLm	-a>
+for_m	FTHFLm	-a>
+pi_m	FTHFLm	-a>
+atp_m	FTHFLm	-a>
+adp_m	FTHFLm	-a>
+10fthf_e	GGH_10FTHF5GLUe	-a>
+glu_L_e	GGH_10FTHF5GLUe	-a>
+h2o_e	GGH_10FTHF5GLUe	-a>
+10fthf5glu_e	GGH_10FTHF5GLUe	-a>
+10fthf5glu_l	GGH_10FTHF5GLUl	-a>
+glu_L_l	GGH_10FTHF5GLUl	-a>
+h2o_l	GGH_10FTHF5GLUl	-a>
+10fthf_l	GGH_10FTHF5GLUl	-a>
+10fthf6glu_e	GGH_10FTHF6GLUe	-a>
+glu_L_e	GGH_10FTHF6GLUe	-a>
+h2o_e	GGH_10FTHF6GLUe	-a>
+10fthf5glu_e	GGH_10FTHF6GLUe	-a>
+10fthf5glu_l	GGH_10FTHF6GLUl	-a>
+glu_L_l	GGH_10FTHF6GLUl	-a>
+h2o_l	GGH_10FTHF6GLUl	-a>
+10fthf6glu_l	GGH_10FTHF6GLUl	-a>
+10fthf7glu_e	GGH_10FTHF7GLUe	-a>
+10fthf6glu_e	GGH_10FTHF7GLUe	-a>
+glu_L_e	GGH_10FTHF7GLUe	-a>
+h2o_e	GGH_10FTHF7GLUe	-a>
+glu_L_l	GGH_10FTHF7GLUl	-a>
+h2o_l	GGH_10FTHF7GLUl	-a>
+10fthf7glu_l	GGH_10FTHF7GLUl	-a>
+10fthf6glu_l	GGH_10FTHF7GLUl	-a>
+dhf_e	GGH_5DHFe	-a>
+glu_L_e	GGH_5DHFe	-a>
+5dhf_e	GGH_5DHFe	-a>
+h2o_e	GGH_5DHFe	-a>
+5dhf_l	GGH_5DHFl	-a>
+h2o_l	GGH_5DHFl	-a>
+dhf_l	GGH_5DHFl	-a>
+glu_L_l	GGH_5DHFl	-a>
+thf_e	GGH_5THFe	-a>
+glu_L_e	GGH_5THFe	-a>
+h2o_e	GGH_5THFe	-a>
+5thf_e	GGH_5THFe	-a>
+5thf_l	GGH_5THFl	-a>
+h2o_l	GGH_5THFl	-a>
+thf_l	GGH_5THFl	-a>
+glu_L_l	GGH_5THFl	-a>
+6dhf_e	GGH_6DHFe	-a>
+glu_L_e	GGH_6DHFe	-a>
+5dhf_e	GGH_6DHFe	-a>
+h2o_e	GGH_6DHFe	-a>
+5dhf_l	GGH_6DHFl	-a>
+6dhf_l	GGH_6DHFl	-a>
+h2o_l	GGH_6DHFl	-a>
+glu_L_l	GGH_6DHFl	-a>
+6thf_e	GGH_6THFe	-a>
+glu_L_e	GGH_6THFe	-a>
+h2o_e	GGH_6THFe	-a>
+5thf_e	GGH_6THFe	-a>
+h2o_l	GGH_6THFl	-a>
+5thf_l	GGH_6THFl	-a>
+6thf_l	GGH_6THFl	-a>
+glu_L_l	GGH_6THFl	-a>
+6dhf_e	GGH_7DHFe	-a>
+glu_L_e	GGH_7DHFe	-a>
+h2o_e	GGH_7DHFe	-a>
+7dhf_e	GGH_7DHFe	-a>
+7dhf_l	GGH_7DHFl	-a>
+6dhf_l	GGH_7DHFl	-a>
+h2o_l	GGH_7DHFl	-a>
+glu_L_l	GGH_7DHFl	-a>
+7thf_e	GGH_7THFe	-a>
+6thf_e	GGH_7THFe	-a>
+glu_L_e	GGH_7THFe	-a>
+h2o_e	GGH_7THFe	-a>
+h2o_l	GGH_7THFl	-a>
+7thf_l	GGH_7THFl	-a>
+6thf_l	GGH_7THFl	-a>
+glu_L_l	GGH_7THFl	-a>
+10fthf_c	MTHFC	-a>
+h2o_c	MTHFC	-a>
+h_c	MTHFC	-a>
+methf_c	MTHFC	-a>
+h2o_m	MTHFCm	-a>
+methf_m	MTHFCm	-a>
+10fthf_m	MTHFCm	-a>
+h_m	MTHFCm	-a>
+mlthf_c	MTHFD	-a>
+nadp_c	MTHFD	-a>
+nadph_c	MTHFD	-a>
+methf_c	MTHFD	-a>
+nad_c	MTHFD2	-a>
+mlthf_c	MTHFD2	-a>
+methf_c	MTHFD2	-a>
+nadh_c	MTHFD2	-a>
+nadh_m	MTHFD2m	-a>
+nad_m	MTHFD2m	-a>
+mlthf_m	MTHFD2m	-a>
+methf_m	MTHFD2m	-a>
+methf_m	MTHFDm	-a>
+nadph_m	MTHFDm	-a>
+mlthf_m	MTHFDm	-a>
+nadp_m	MTHFDm	-a>
+nad_c	r0224	-a>
+h_c	r0224	-a>
+nadh_c	r0224	-a>
+thf_c	r0224	-a>
+dhf_c	r0224	-a>
+thf_m	r0226	-a>
+dhf_m	r0226	-a>
+nadph_m	r0226	-a>
+h_m	r0226	-a>
+nadp_m	r0226	-a>
+nad_c	r0512	-a>
+fol_c	r0512	-a>
+nadh_c	r0512	-a>
+dhf_c	r0512	-a>
+dhf_m	r0514	-a>
+nadph_m	r0514	-a>
+nadp_m	r0514	-a>
+fol_m	r0514	-a>
+h2o_m	r0522	-a>
+5fthf_m	r0522	-a>
+h_m	r0522	-a>
+methf_m	r0522	-a>
+atp_m	r0523	-a>
+5fthf_m	r0523	-a>
+adp_m	r0523	-a>
+methf_m	r0523	-a>
+pi_m	r0523	-a>
+nad_c	r0792	-a>
+5mthf_c	r0792	-a>
+mlthf_c	r0792	-a>
+h_c	r0792	-a>
+nadh_c	r0792	-a>
+h2o_c	r1382	-a>
+h_c	r1382	-a>
+glu_L_c	r1382	-a>
+pi_c	r1382	-a>
+adp_c	r1382	-a>
+HC02129_c	r1382	-a>
+thf_c	r1382	-a>
+atp_c	r1382	-a>
+HC02129_c	r1383	-a>
+glu_L_c	r1383	-a>
+thf_c	r1383	-a>
+5mthf_c	MTHFR3	-a>
+mlthf_c	MTHFR3	-a>
+nadp_c	MTHFR3	-a>
+nadph_c	MTHFR3	-a>
+h_c	MTHFR3	-a>

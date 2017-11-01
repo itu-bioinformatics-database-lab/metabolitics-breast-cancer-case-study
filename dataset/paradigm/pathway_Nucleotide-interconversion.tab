@@ -1,0 +1,1154 @@
+protein	2dr1p_c
+protein	35cgmp_c
+protein	35cgmp_g
+protein	35cgmp_n
+protein	ade_c
+protein	adn_c
+protein	adn_e
+protein	adn_m
+protein	adp_c
+protein	adp_e
+protein	adp_m
+protein	adp_n
+protein	adpglc_c
+protein	adpman_c
+protein	adprib_c
+protein	adprib_m
+protein	amp_c
+protein	amp_e
+protein	amp_g
+protein	amp_m
+protein	ap4a_c
+protein	aps_c
+protein	asp_L_c
+protein	atp_c
+protein	atp_e
+protein	atp_m
+protein	atp_n
+protein	camp_c
+protein	camp_g
+protein	cdp_c
+protein	cdp_m
+protein	cdp_n
+protein	cmp_c
+protein	cmp_e
+protein	cmp_m
+protein	cmp_n
+protein	ctp_c
+protein	ctp_m
+protein	ctp_n
+protein	cytd_c
+protein	cytd_e
+protein	cytd_m
+protein	cytd_n
+protein	dad_2_c
+protein	dad_2_e
+protein	dadp_c
+protein	dadp_m
+protein	dadp_n
+protein	damp_c
+protein	datp_c
+protein	datp_m
+protein	datp_n
+protein	dcamp_c
+protein	dcdp_c
+protein	dcdp_m
+protein	dcdp_n
+protein	dcmp_c
+protein	dcmp_m
+protein	dcmp_n
+protein	dctp_c
+protein	dctp_m
+protein	dctp_n
+protein	dcyt_m
+protein	dcyt_n
+protein	dgdp_c
+protein	dgdp_m
+protein	dgdp_n
+protein	dgmp_c
+protein	dgmp_m
+protein	dgsn_c
+protein	dgsn_m
+protein	dgtp_c
+protein	dgtp_m
+protein	dgtp_n
+protein	dhf_c
+protein	didp_c
+protein	didp_m
+protein	didp_n
+protein	dimp_c
+protein	din_c
+protein	din_e
+protein	ditp_c
+protein	ditp_m
+protein	ditp_n
+protein	dtdp_c
+protein	dtdp_m
+protein	dtdp_n
+protein	dtmp_c
+protein	dtmp_m
+protein	dttp_c
+protein	dttp_m
+protein	dttp_n
+protein	dudp_c
+protein	dudp_m
+protein	dudp_n
+protein	dump_c
+protein	dump_m
+protein	dump_n
+protein	duri_c
+protein	duri_m
+protein	duri_n
+protein	dutp_c
+protein	dutp_m
+protein	dutp_n
+protein	fum_c
+protein	g1p_c
+protein	gdp_c
+protein	gdp_e
+protein	gdp_m
+protein	gdp_n
+protein	gln_L_c
+protein	glu_L_c
+protein	gmp_c
+protein	gmp_e
+protein	gmp_g
+protein	gmp_m
+protein	gmp_n
+protein	gsn_c
+protein	gsn_e
+protein	gsn_m
+protein	gtp_c
+protein	gtp_e
+protein	gtp_m
+protein	gtp_n
+protein	h2o2_c
+protein	h2o_c
+protein	h2o_e
+protein	h2o_g
+protein	h2o_m
+protein	h2o_n
+protein	h2o_r
+protein	h_c
+protein	h_e
+protein	h_g
+protein	h_m
+protein	h_n
+protein	h_r
+protein	hxan_c
+protein	idp_c
+protein	idp_e
+protein	idp_m
+protein	idp_n
+protein	imp_c
+protein	imp_e
+protein	imp_m
+protein	ins_m
+protein	itp_c
+protein	itp_m
+protein	itp_n
+protein	man1p_c
+protein	mlthf_c
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	nh4_c
+protein	nh4_e
+protein	nh4_n
+protein	o2_c
+protein	pap_c
+protein	paps_c
+protein	pi_c
+protein	pi_e
+protein	pi_g
+protein	pi_m
+protein	pi_r
+protein	ppi_c
+protein	ppi_m
+protein	ppi_n
+protein	r1p_c
+protein	r5p_c
+protein	r5p_m
+protein	so4_c
+protein	thymd_c
+protein	thymd_m
+protein	trdox_c
+protein	trdox_m
+protein	trdrd_c
+protein	trdrd_m
+protein	udp_c
+protein	udp_e
+protein	udp_g
+protein	udp_m
+protein	udp_n
+protein	udp_r
+protein	ump_c
+protein	ump_e
+protein	ump_g
+protein	ump_m
+protein	ump_n
+protein	ump_r
+protein	ura_c
+protein	uri_c
+protein	uri_e
+protein	uri_m
+protein	uri_n
+protein	utp_c
+protein	utp_e
+protein	utp_m
+protein	utp_n
+protein	xan_c
+protein	xmp_c
+protein	xtp_c
+protein	xtsn_c
+abstract	ADK1
+abstract	ADK1m
+abstract	ADK3
+abstract	ADK3m
+abstract	ADKd
+abstract	ADNCYC
+abstract	ADNK1
+abstract	ADNK1m
+abstract	ADPGLC
+abstract	ADPMAN
+abstract	ADPRDP
+abstract	ADPRDPm
+abstract	ADSK
+abstract	ADSL1
+abstract	ADSS
+abstract	AMPDA
+abstract	AP4AH1
+abstract	ATPH1e
+abstract	ATPH2e
+abstract	BPNT
+abstract	BPNT2
+abstract	CTPS1
+abstract	CYTDK1
+abstract	CYTDK2m
+abstract	CYTDn
+abstract	CYTK1
+abstract	CYTK10
+abstract	CYTK10n
+abstract	CYTK11
+abstract	CYTK11n
+abstract	CYTK12
+abstract	CYTK12n
+abstract	CYTK13
+abstract	CYTK13n
+abstract	CYTK14
+abstract	CYTK14n
+abstract	CYTK1m
+abstract	CYTK1n
+abstract	CYTK2
+abstract	CYTK2n
+abstract	CYTK3
+abstract	CYTK3n
+abstract	CYTK4
+abstract	CYTK4n
+abstract	CYTK5
+abstract	CYTK5n
+abstract	CYTK6
+abstract	CYTK6n
+abstract	CYTK7
+abstract	CYTK7n
+abstract	CYTK8
+abstract	CYTK8n
+abstract	CYTK9
+abstract	CYTK9n
+abstract	DADA
+abstract	DADAe
+abstract	DADNK
+abstract	DCK1m
+abstract	DCK1n
+abstract	DCK2n
+abstract	DCYTDn
+abstract	DGK1
+abstract	DGK2m
+abstract	DGNSKm
+abstract	DTMPK
+abstract	DURIK1
+abstract	DURIK1m
+abstract	DURIPP
+abstract	DUTPDPm
+abstract	DUTPDPn
+abstract	GK1
+abstract	GK1m
+abstract	GMPR
+abstract	GMPS2
+abstract	GSNKm
+abstract	GUACYC
+abstract	IMPD
+abstract	INSKm
+abstract	NDP10ex
+abstract	NDP3ex
+abstract	NDP6
+abstract	NDP7er
+abstract	NDP7ex
+abstract	NDP7g
+abstract	NDP8
+abstract	NDP8ex
+abstract	NDPK1
+abstract	NDPK10
+abstract	NDPK10m
+abstract	NDPK10n
+abstract	NDPK1m
+abstract	NDPK1n
+abstract	NDPK2
+abstract	NDPK2m
+abstract	NDPK2n
+abstract	NDPK3
+abstract	NDPK3m
+abstract	NDPK3n
+abstract	NDPK4
+abstract	NDPK4m
+abstract	NDPK4n
+abstract	NDPK5
+abstract	NDPK5m
+abstract	NDPK5n
+abstract	NDPK6
+abstract	NDPK6m
+abstract	NDPK6n
+abstract	NDPK7
+abstract	NDPK7m
+abstract	NDPK7n
+abstract	NDPK8
+abstract	NDPK8m
+abstract	NDPK8n
+abstract	NDPK9
+abstract	NDPK9m
+abstract	NDPK9n
+abstract	NTD10
+abstract	NTD12
+abstract	NTD1m
+abstract	NTD2e
+abstract	NTD2m
+abstract	NTD4e
+abstract	NTD5m
+abstract	NTD6
+abstract	NTD7
+abstract	NTD7e
+abstract	NTD8
+abstract	NTD9
+abstract	NTD9e
+abstract	NTP3e
+abstract	NTPP10
+abstract	NTPP11
+abstract	NTPP9
+abstract	PDE1
+abstract	PDE1g
+abstract	PDE4
+abstract	PDE4g
+abstract	PDE4n
+abstract	PUNP1
+abstract	PUNP7
+abstract	RNDR1
+abstract	RNDR2
+abstract	RNDR3
+abstract	RNDR4
+abstract	SADT
+abstract	TMDK1
+abstract	TMDK1m
+abstract	TMDS
+abstract	TRDR
+abstract	TRDRm
+abstract	UMPK
+abstract	UMPK2
+abstract	UMPK2n
+abstract	UMPK3
+abstract	UMPK3n
+abstract	UMPK4
+abstract	UMPK4n
+abstract	UMPK5
+abstract	UMPK5n
+abstract	UMPK6
+abstract	UMPK6n
+abstract	UMPK7
+abstract	UMPK7n
+abstract	UMPKm
+abstract	UMPKn
+abstract	URIDK2m
+abstract	r0345
+abstract	r0394
+abstract	r0395
+abstract	r0456
+abstract	r0470
+abstract	r0472
+abstract	r0474
+abstract	r0475
+abstract	r0531
+abstract	r1156
+abstract	r1384
+amp_c	ADK1	-a>
+atp_c	ADK1	-a>
+adp_c	ADK1	-a>
+atp_m	ADK1m	-a>
+adp_m	ADK1m	-a>
+amp_m	ADK1m	-a>
+gdp_c	ADK3	-a>
+gtp_c	ADK3	-a>
+amp_c	ADK3	-a>
+adp_c	ADK3	-a>
+gtp_m	ADK3m	-a>
+gdp_m	ADK3m	-a>
+adp_m	ADK3m	-a>
+amp_m	ADK3m	-a>
+datp_c	ADKd	-a>
+dadp_c	ADKd	-a>
+damp_c	ADKd	-a>
+atp_c	ADNCYC	-a>
+camp_c	ADNCYC	-a>
+ppi_c	ADNCYC	-a>
+amp_c	ADNK1	-a>
+atp_c	ADNK1	-a>
+h_c	ADNK1	-a>
+adn_c	ADNK1	-a>
+adp_c	ADNK1	-a>
+atp_m	ADNK1m	-a>
+adp_m	ADNK1m	-a>
+h_m	ADNK1m	-a>
+amp_m	ADNK1m	-a>
+adn_m	ADNK1m	-a>
+amp_c	ADPGLC	-a>
+h2o_c	ADPGLC	-a>
+adpglc_c	ADPGLC	-a>
+h_c	ADPGLC	-a>
+g1p_c	ADPGLC	-a>
+amp_c	ADPMAN	-a>
+h2o_c	ADPMAN	-a>
+adpman_c	ADPMAN	-a>
+man1p_c	ADPMAN	-a>
+h_c	ADPMAN	-a>
+amp_c	ADPRDP	-a>
+h2o_c	ADPRDP	-a>
+r5p_c	ADPRDP	-a>
+adprib_c	ADPRDP	-a>
+h_c	ADPRDP	-a>
+h2o_m	ADPRDPm	-a>
+h_m	ADPRDPm	-a>
+adprib_m	ADPRDPm	-a>
+r5p_m	ADPRDPm	-a>
+amp_m	ADPRDPm	-a>
+paps_c	ADSK	-a>
+atp_c	ADSK	-a>
+adp_c	ADSK	-a>
+aps_c	ADSK	-a>
+h_c	ADSK	-a>
+dcamp_c	ADSL1	-a>
+amp_c	ADSL1	-a>
+fum_c	ADSL1	-a>
+gdp_c	ADSS	-a>
+gtp_c	ADSS	-a>
+h_c	ADSS	-a>
+pi_c	ADSS	-a>
+asp_L_c	ADSS	-a>
+imp_c	ADSS	-a>
+dcamp_c	ADSS	-a>
+amp_c	AMPDA	-a>
+h_c	AMPDA	-a>
+h2o_c	AMPDA	-a>
+imp_c	AMPDA	-a>
+nh4_c	AMPDA	-a>
+amp_c	AP4AH1	-a>
+atp_c	AP4AH1	-a>
+ap4a_c	AP4AH1	-a>
+h_c	AP4AH1	-a>
+h2o_c	AP4AH1	-a>
+h_e	ATPH1e	-a>
+amp_e	ATPH1e	-a>
+atp_e	ATPH1e	-a>
+pi_e	ATPH1e	-a>
+h2o_e	ATPH1e	-a>
+h_e	ATPH2e	-a>
+adp_e	ATPH2e	-a>
+amp_e	ATPH2e	-a>
+pi_e	ATPH2e	-a>
+h2o_e	ATPH2e	-a>
+amp_c	BPNT	-a>
+pap_c	BPNT	-a>
+h2o_c	BPNT	-a>
+pi_c	BPNT	-a>
+paps_c	BPNT2	-a>
+pi_c	BPNT2	-a>
+h2o_c	BPNT2	-a>
+aps_c	BPNT2	-a>
+ctp_c	CTPS1	-a>
+h_c	CTPS1	-a>
+utp_c	CTPS1	-a>
+pi_c	CTPS1	-a>
+atp_c	CTPS1	-a>
+adp_c	CTPS1	-a>
+nh4_c	CTPS1	-a>
+atp_c	CYTDK1	-a>
+adp_c	CYTDK1	-a>
+cmp_c	CYTDK1	-a>
+cytd_c	CYTDK1	-a>
+h_c	CYTDK1	-a>
+atp_m	CYTDK2m	-a>
+cytd_m	CYTDK2m	-a>
+adp_m	CYTDK2m	-a>
+cmp_m	CYTDK2m	-a>
+h_m	CYTDK2m	-a>
+nh4_n	CYTDn	-a>
+uri_n	CYTDn	-a>
+h2o_n	CYTDn	-a>
+cytd_n	CYTDn	-a>
+h_n	CYTDn	-a>
+atp_c	CYTK1	-a>
+adp_c	CYTK1	-a>
+cmp_c	CYTK1	-a>
+cdp_c	CYTK1	-a>
+cmp_c	CYTK10	-a>
+cdp_c	CYTK10	-a>
+dgdp_c	CYTK10	-a>
+dgtp_c	CYTK10	-a>
+cdp_n	CYTK10n	-a>
+dgtp_n	CYTK10n	-a>
+dgdp_n	CYTK10n	-a>
+cmp_n	CYTK10n	-a>
+dgtp_c	CYTK11	-a>
+dcdp_c	CYTK11	-a>
+dgdp_c	CYTK11	-a>
+dcmp_c	CYTK11	-a>
+dgtp_n	CYTK11n	-a>
+dgdp_n	CYTK11n	-a>
+dcdp_n	CYTK11n	-a>
+dcmp_n	CYTK11n	-a>
+dctp_c	CYTK12	-a>
+dcdp_c	CYTK12	-a>
+dcmp_c	CYTK12	-a>
+dctp_n	CYTK12n	-a>
+dcdp_n	CYTK12n	-a>
+dcmp_n	CYTK12n	-a>
+datp_c	CYTK13	-a>
+dadp_c	CYTK13	-a>
+dcdp_c	CYTK13	-a>
+dcmp_c	CYTK13	-a>
+datp_n	CYTK13n	-a>
+dadp_n	CYTK13n	-a>
+dcdp_n	CYTK13n	-a>
+dcmp_n	CYTK13n	-a>
+udp_c	CYTK14	-a>
+dcdp_c	CYTK14	-a>
+utp_c	CYTK14	-a>
+dcmp_c	CYTK14	-a>
+utp_n	CYTK14n	-a>
+udp_n	CYTK14n	-a>
+dcdp_n	CYTK14n	-a>
+dcmp_n	CYTK14n	-a>
+atp_m	CYTK1m	-a>
+cdp_m	CYTK1m	-a>
+cmp_m	CYTK1m	-a>
+adp_m	CYTK1m	-a>
+atp_n	CYTK1n	-a>
+cdp_n	CYTK1n	-a>
+adp_n	CYTK1n	-a>
+cmp_n	CYTK1n	-a>
+atp_c	CYTK2	-a>
+dcdp_c	CYTK2	-a>
+adp_c	CYTK2	-a>
+dcmp_c	CYTK2	-a>
+dcdp_n	CYTK2n	-a>
+atp_n	CYTK2n	-a>
+dcmp_n	CYTK2n	-a>
+adp_n	CYTK2n	-a>
+gdp_c	CYTK3	-a>
+gtp_c	CYTK3	-a>
+cdp_c	CYTK3	-a>
+cmp_c	CYTK3	-a>
+dcdp_n	CYTK3n	-a>
+cdp_n	CYTK3n	-a>
+dcmp_n	CYTK3n	-a>
+ctp_n	CYTK3n	-a>
+gdp_c	CYTK4	-a>
+gtp_c	CYTK4	-a>
+dcdp_c	CYTK4	-a>
+dcmp_c	CYTK4	-a>
+dcdp_n	CYTK4n	-a>
+gtp_n	CYTK4n	-a>
+dcmp_n	CYTK4n	-a>
+gdp_n	CYTK4n	-a>
+cdp_c	CYTK5	-a>
+dcdp_c	CYTK5	-a>
+ctp_c	CYTK5	-a>
+dcmp_c	CYTK5	-a>
+gtp_n	CYTK5n	-a>
+cdp_n	CYTK5n	-a>
+gdp_n	CYTK5n	-a>
+cmp_n	CYTK5n	-a>
+cdp_c	CYTK6	-a>
+ctp_c	CYTK6	-a>
+cmp_c	CYTK6	-a>
+cdp_n	CYTK6n	-a>
+ctp_n	CYTK6n	-a>
+cmp_n	CYTK6n	-a>
+cdp_c	CYTK7	-a>
+cmp_c	CYTK7	-a>
+utp_c	CYTK7	-a>
+udp_c	CYTK7	-a>
+utp_n	CYTK7n	-a>
+udp_n	CYTK7n	-a>
+cdp_n	CYTK7n	-a>
+cmp_n	CYTK7n	-a>
+datp_c	CYTK8	-a>
+dadp_c	CYTK8	-a>
+cdp_c	CYTK8	-a>
+cmp_c	CYTK8	-a>
+datp_n	CYTK8n	-a>
+dadp_n	CYTK8n	-a>
+cdp_n	CYTK8n	-a>
+cmp_n	CYTK8n	-a>
+dctp_c	CYTK9	-a>
+cdp_c	CYTK9	-a>
+dcdp_c	CYTK9	-a>
+cmp_c	CYTK9	-a>
+dctp_n	CYTK9n	-a>
+dcdp_n	CYTK9n	-a>
+cdp_n	CYTK9n	-a>
+cmp_n	CYTK9n	-a>
+dad_2_c	DADA	-a>
+h2o_c	DADA	-a>
+din_c	DADA	-a>
+h_c	DADA	-a>
+nh4_c	DADA	-a>
+h_e	DADAe	-a>
+din_e	DADAe	-a>
+dad_2_e	DADAe	-a>
+h2o_e	DADAe	-a>
+nh4_e	DADAe	-a>
+dad_2_c	DADNK	-a>
+atp_c	DADNK	-a>
+damp_c	DADNK	-a>
+h_c	DADNK	-a>
+adp_c	DADNK	-a>
+atp_m	DCK1m	-a>
+dcmp_m	DCK1m	-a>
+adp_m	DCK1m	-a>
+h_m	DCK1m	-a>
+dcyt_m	DCK1m	-a>
+dcyt_n	DCK1n	-a>
+atp_n	DCK1n	-a>
+dcmp_n	DCK1n	-a>
+h_n	DCK1n	-a>
+adp_n	DCK1n	-a>
+utp_n	DCK2n	-a>
+udp_n	DCK2n	-a>
+dcyt_n	DCK2n	-a>
+dcmp_n	DCK2n	-a>
+h_n	DCK2n	-a>
+nh4_n	DCYTDn	-a>
+dcyt_n	DCYTDn	-a>
+h2o_n	DCYTDn	-a>
+h_n	DCYTDn	-a>
+duri_n	DCYTDn	-a>
+dgmp_c	DGK1	-a>
+atp_c	DGK1	-a>
+adp_c	DGK1	-a>
+dgdp_c	DGK1	-a>
+dgdp_m	DGK2m	-a>
+dgmp_m	DGK2m	-a>
+datp_m	DGK2m	-a>
+dadp_m	DGK2m	-a>
+atp_m	DGNSKm	-a>
+dgmp_m	DGNSKm	-a>
+h_m	DGNSKm	-a>
+dgsn_m	DGNSKm	-a>
+adp_m	DGNSKm	-a>
+atp_c	DTMPK	-a>
+dtmp_c	DTMPK	-a>
+adp_c	DTMPK	-a>
+dtdp_c	DTMPK	-a>
+h_c	DURIK1	-a>
+atp_c	DURIK1	-a>
+dump_c	DURIK1	-a>
+adp_c	DURIK1	-a>
+duri_c	DURIK1	-a>
+dump_m	DURIK1m	-a>
+atp_m	DURIK1m	-a>
+h_m	DURIK1m	-a>
+duri_m	DURIK1m	-a>
+adp_m	DURIK1m	-a>
+pi_c	DURIPP	-a>
+ura_c	DURIPP	-a>
+2dr1p_c	DURIPP	-a>
+duri_c	DURIPP	-a>
+dump_m	DUTPDPm	-a>
+h2o_m	DUTPDPm	-a>
+dutp_m	DUTPDPm	-a>
+h_m	DUTPDPm	-a>
+ppi_m	DUTPDPm	-a>
+dump_n	DUTPDPn	-a>
+ppi_n	DUTPDPn	-a>
+dutp_n	DUTPDPn	-a>
+h2o_n	DUTPDPn	-a>
+h_n	DUTPDPn	-a>
+gdp_c	GK1	-a>
+atp_c	GK1	-a>
+adp_c	GK1	-a>
+gmp_c	GK1	-a>
+atp_m	GK1m	-a>
+gdp_m	GK1m	-a>
+gmp_m	GK1m	-a>
+adp_m	GK1m	-a>
+nadp_c	GMPR	-a>
+h_c	GMPR	-a>
+nh4_c	GMPR	-a>
+nadph_c	GMPR	-a>
+imp_c	GMPR	-a>
+gmp_c	GMPR	-a>
+h2o_c	GMPS2	-a>
+h_c	GMPS2	-a>
+xmp_c	GMPS2	-a>
+glu_L_c	GMPS2	-a>
+gln_L_c	GMPS2	-a>
+amp_c	GMPS2	-a>
+atp_c	GMPS2	-a>
+ppi_c	GMPS2	-a>
+gmp_c	GMPS2	-a>
+atp_m	GSNKm	-a>
+gsn_m	GSNKm	-a>
+adp_m	GSNKm	-a>
+gmp_m	GSNKm	-a>
+h_m	GSNKm	-a>
+gtp_c	GUACYC	-a>
+ppi_c	GUACYC	-a>
+35cgmp_c	GUACYC	-a>
+nad_c	IMPD	-a>
+h2o_c	IMPD	-a>
+h_c	IMPD	-a>
+xmp_c	IMPD	-a>
+imp_c	IMPD	-a>
+nadh_c	IMPD	-a>
+atp_m	INSKm	-a>
+h_m	INSKm	-a>
+imp_m	INSKm	-a>
+adp_m	INSKm	-a>
+ins_m	INSKm	-a>
+h_e	NDP10ex	-a>
+imp_e	NDP10ex	-a>
+idp_e	NDP10ex	-a>
+h2o_e	NDP10ex	-a>
+pi_e	NDP10ex	-a>
+h_e	NDP3ex	-a>
+gmp_e	NDP3ex	-a>
+gdp_e	NDP3ex	-a>
+pi_e	NDP3ex	-a>
+h2o_e	NDP3ex	-a>
+pi_c	NDP6	-a>
+h2o_c	NDP6	-a>
+dcdp_c	NDP6	-a>
+h_c	NDP6	-a>
+dcmp_c	NDP6	-a>
+h_r	NDP7er	-a>
+ump_r	NDP7er	-a>
+udp_r	NDP7er	-a>
+pi_r	NDP7er	-a>
+h2o_r	NDP7er	-a>
+h_e	NDP7ex	-a>
+udp_e	NDP7ex	-a>
+pi_e	NDP7ex	-a>
+ump_e	NDP7ex	-a>
+h2o_e	NDP7ex	-a>
+pi_g	NDP7g	-a>
+h2o_g	NDP7g	-a>
+h_g	NDP7g	-a>
+udp_g	NDP7g	-a>
+ump_g	NDP7g	-a>
+pi_c	NDP8	-a>
+dudp_c	NDP8	-a>
+dump_c	NDP8	-a>
+h_c	NDP8	-a>
+h2o_c	NDP8	-a>
+h_e	NDP8ex	-a>
+utp_e	NDP8ex	-a>
+udp_e	NDP8ex	-a>
+pi_e	NDP8ex	-a>
+h2o_e	NDP8ex	-a>
+gdp_c	NDPK1	-a>
+gtp_c	NDPK1	-a>
+atp_c	NDPK1	-a>
+adp_c	NDPK1	-a>
+didp_c	NDPK10	-a>
+atp_c	NDPK10	-a>
+adp_c	NDPK10	-a>
+ditp_c	NDPK10	-a>
+atp_m	NDPK10m	-a>
+ditp_m	NDPK10m	-a>
+didp_m	NDPK10m	-a>
+adp_m	NDPK10m	-a>
+atp_n	NDPK10n	-a>
+ditp_n	NDPK10n	-a>
+adp_n	NDPK10n	-a>
+didp_n	NDPK10n	-a>
+gtp_m	NDPK1m	-a>
+atp_m	NDPK1m	-a>
+gdp_m	NDPK1m	-a>
+adp_m	NDPK1m	-a>
+atp_n	NDPK1n	-a>
+gtp_n	NDPK1n	-a>
+gdp_n	NDPK1n	-a>
+adp_n	NDPK1n	-a>
+atp_c	NDPK2	-a>
+adp_c	NDPK2	-a>
+utp_c	NDPK2	-a>
+udp_c	NDPK2	-a>
+atp_m	NDPK2m	-a>
+adp_m	NDPK2m	-a>
+udp_m	NDPK2m	-a>
+utp_m	NDPK2m	-a>
+utp_n	NDPK2n	-a>
+udp_n	NDPK2n	-a>
+atp_n	NDPK2n	-a>
+adp_n	NDPK2n	-a>
+atp_c	NDPK3	-a>
+ctp_c	NDPK3	-a>
+cdp_c	NDPK3	-a>
+adp_c	NDPK3	-a>
+atp_m	NDPK3m	-a>
+cdp_m	NDPK3m	-a>
+adp_m	NDPK3m	-a>
+ctp_m	NDPK3m	-a>
+atp_n	NDPK3n	-a>
+cdp_n	NDPK3n	-a>
+ctp_n	NDPK3n	-a>
+adp_n	NDPK3n	-a>
+atp_c	NDPK4	-a>
+dttp_c	NDPK4	-a>
+adp_c	NDPK4	-a>
+dtdp_c	NDPK4	-a>
+atp_m	NDPK4m	-a>
+dttp_m	NDPK4m	-a>
+dtdp_m	NDPK4m	-a>
+adp_m	NDPK4m	-a>
+dtdp_n	NDPK4n	-a>
+atp_n	NDPK4n	-a>
+dttp_n	NDPK4n	-a>
+adp_n	NDPK4n	-a>
+atp_c	NDPK5	-a>
+adp_c	NDPK5	-a>
+dgdp_c	NDPK5	-a>
+dgtp_c	NDPK5	-a>
+atp_m	NDPK5m	-a>
+dgdp_m	NDPK5m	-a>
+adp_m	NDPK5m	-a>
+dgtp_m	NDPK5m	-a>
+dgtp_n	NDPK5n	-a>
+atp_n	NDPK5n	-a>
+dgdp_n	NDPK5n	-a>
+adp_n	NDPK5n	-a>
+atp_c	NDPK6	-a>
+dudp_c	NDPK6	-a>
+dutp_c	NDPK6	-a>
+adp_c	NDPK6	-a>
+atp_m	NDPK6m	-a>
+dutp_m	NDPK6m	-a>
+adp_m	NDPK6m	-a>
+dudp_m	NDPK6m	-a>
+dudp_n	NDPK6n	-a>
+atp_n	NDPK6n	-a>
+dutp_n	NDPK6n	-a>
+adp_n	NDPK6n	-a>
+dctp_c	NDPK7	-a>
+atp_c	NDPK7	-a>
+dcdp_c	NDPK7	-a>
+adp_c	NDPK7	-a>
+atp_m	NDPK7m	-a>
+adp_m	NDPK7m	-a>
+dctp_m	NDPK7m	-a>
+dcdp_m	NDPK7m	-a>
+dctp_n	NDPK7n	-a>
+dcdp_n	NDPK7n	-a>
+atp_n	NDPK7n	-a>
+adp_n	NDPK7n	-a>
+datp_c	NDPK8	-a>
+dadp_c	NDPK8	-a>
+atp_c	NDPK8	-a>
+adp_c	NDPK8	-a>
+atp_m	NDPK8m	-a>
+adp_m	NDPK8m	-a>
+datp_m	NDPK8m	-a>
+dadp_m	NDPK8m	-a>
+datp_n	NDPK8n	-a>
+dadp_n	NDPK8n	-a>
+atp_n	NDPK8n	-a>
+adp_n	NDPK8n	-a>
+atp_c	NDPK9	-a>
+idp_c	NDPK9	-a>
+adp_c	NDPK9	-a>
+itp_c	NDPK9	-a>
+atp_m	NDPK9m	-a>
+adp_m	NDPK9m	-a>
+itp_m	NDPK9m	-a>
+idp_m	NDPK9m	-a>
+idp_n	NDPK9n	-a>
+itp_n	NDPK9n	-a>
+atp_n	NDPK9n	-a>
+adp_n	NDPK9n	-a>
+pi_c	NTD10	-a>
+h2o_c	NTD10	-a>
+xtsn_c	NTD10	-a>
+xmp_c	NTD10	-a>
+pi_c	NTD12	-a>
+h2o_c	NTD12	-a>
+dimp_c	NTD12	-a>
+din_c	NTD12	-a>
+dump_m	NTD1m	-a>
+h2o_m	NTD1m	-a>
+duri_m	NTD1m	-a>
+pi_m	NTD1m	-a>
+uri_e	NTD2e	-a>
+pi_e	NTD2e	-a>
+ump_e	NTD2e	-a>
+h2o_e	NTD2e	-a>
+ump_m	NTD2m	-a>
+h2o_m	NTD2m	-a>
+pi_m	NTD2m	-a>
+uri_m	NTD2m	-a>
+cmp_e	NTD4e	-a>
+cytd_e	NTD4e	-a>
+pi_e	NTD4e	-a>
+h2o_e	NTD4e	-a>
+h2o_m	NTD5m	-a>
+thymd_m	NTD5m	-a>
+dtmp_m	NTD5m	-a>
+pi_m	NTD5m	-a>
+dad_2_c	NTD6	-a>
+pi_c	NTD6	-a>
+damp_c	NTD6	-a>
+h2o_c	NTD6	-a>
+amp_c	NTD7	-a>
+pi_c	NTD7	-a>
+h2o_c	NTD7	-a>
+adn_c	NTD7	-a>
+adn_e	NTD7e	-a>
+amp_e	NTD7e	-a>
+pi_e	NTD7e	-a>
+h2o_e	NTD7e	-a>
+dgmp_c	NTD8	-a>
+dgsn_c	NTD8	-a>
+h2o_c	NTD8	-a>
+pi_c	NTD8	-a>
+gsn_c	NTD9	-a>
+pi_c	NTD9	-a>
+h2o_c	NTD9	-a>
+gmp_c	NTD9	-a>
+gmp_e	NTD9e	-a>
+gsn_e	NTD9e	-a>
+pi_e	NTD9e	-a>
+h2o_e	NTD9e	-a>
+h_e	NTP3e	-a>
+gdp_e	NTP3e	-a>
+h2o_e	NTP3e	-a>
+gtp_e	NTP3e	-a>
+pi_e	NTP3e	-a>
+h2o_c	NTPP10	-a>
+dimp_c	NTPP10	-a>
+ppi_c	NTPP10	-a>
+ditp_c	NTPP10	-a>
+h_c	NTPP10	-a>
+xtp_c	NTPP11	-a>
+h2o_c	NTPP11	-a>
+ppi_c	NTPP11	-a>
+xmp_c	NTPP11	-a>
+h_c	NTPP11	-a>
+h_c	NTPP9	-a>
+h2o_c	NTPP9	-a>
+imp_c	NTPP9	-a>
+ppi_c	NTPP9	-a>
+itp_c	NTPP9	-a>
+amp_c	PDE1	-a>
+h2o_c	PDE1	-a>
+camp_c	PDE1	-a>
+h_c	PDE1	-a>
+h2o_g	PDE1g	-a>
+camp_g	PDE1g	-a>
+h_g	PDE1g	-a>
+amp_g	PDE1g	-a>
+h2o_c	PDE4	-a>
+35cgmp_c	PDE4	-a>
+h_c	PDE4	-a>
+gmp_c	PDE4	-a>
+h2o_g	PDE4g	-a>
+h_g	PDE4g	-a>
+gmp_g	PDE4g	-a>
+35cgmp_g	PDE4g	-a>
+35cgmp_n	PDE4n	-a>
+h2o_n	PDE4n	-a>
+h_n	PDE4n	-a>
+gmp_n	PDE4n	-a>
+pi_c	PUNP1	-a>
+ade_c	PUNP1	-a>
+adn_c	PUNP1	-a>
+r1p_c	PUNP1	-a>
+pi_c	PUNP7	-a>
+r1p_c	PUNP7	-a>
+xtsn_c	PUNP7	-a>
+xan_c	PUNP7	-a>
+trdrd_c	RNDR1	-a>
+dadp_c	RNDR1	-a>
+adp_c	RNDR1	-a>
+h2o_c	RNDR1	-a>
+trdox_c	RNDR1	-a>
+gdp_c	RNDR2	-a>
+trdrd_c	RNDR2	-a>
+h2o_c	RNDR2	-a>
+dgdp_c	RNDR2	-a>
+trdox_c	RNDR2	-a>
+trdrd_c	RNDR3	-a>
+cdp_c	RNDR3	-a>
+dcdp_c	RNDR3	-a>
+h2o_c	RNDR3	-a>
+trdox_c	RNDR3	-a>
+trdrd_c	RNDR4	-a>
+dudp_c	RNDR4	-a>
+udp_c	RNDR4	-a>
+h2o_c	RNDR4	-a>
+trdox_c	RNDR4	-a>
+atp_c	SADT	-a>
+so4_c	SADT	-a>
+h_c	SADT	-a>
+aps_c	SADT	-a>
+ppi_c	SADT	-a>
+thymd_c	TMDK1	-a>
+atp_c	TMDK1	-a>
+dtmp_c	TMDK1	-a>
+adp_c	TMDK1	-a>
+h_c	TMDK1	-a>
+atp_m	TMDK1m	-a>
+h_m	TMDK1m	-a>
+thymd_m	TMDK1m	-a>
+dtmp_m	TMDK1m	-a>
+adp_m	TMDK1m	-a>
+mlthf_c	TMDS	-a>
+dtmp_c	TMDS	-a>
+dump_c	TMDS	-a>
+dhf_c	TMDS	-a>
+trdrd_c	TRDR	-a>
+nadp_c	TRDR	-a>
+nadph_c	TRDR	-a>
+h_c	TRDR	-a>
+trdox_c	TRDR	-a>
+trdox_m	TRDRm	-a>
+nadph_m	TRDRm	-a>
+nadp_m	TRDRm	-a>
+trdrd_m	TRDRm	-a>
+h_m	TRDRm	-a>
+atp_c	UMPK	-a>
+udp_c	UMPK	-a>
+adp_c	UMPK	-a>
+ump_c	UMPK	-a>
+cdp_c	UMPK2	-a>
+ctp_c	UMPK2	-a>
+ump_c	UMPK2	-a>
+udp_c	UMPK2	-a>
+cdp_n	UMPK2n	-a>
+ump_n	UMPK2n	-a>
+ctp_n	UMPK2n	-a>
+udp_n	UMPK2n	-a>
+ump_c	UMPK3	-a>
+utp_c	UMPK3	-a>
+udp_c	UMPK3	-a>
+utp_n	UMPK3n	-a>
+udp_n	UMPK3n	-a>
+ump_n	UMPK3n	-a>
+gdp_c	UMPK4	-a>
+gtp_c	UMPK4	-a>
+ump_c	UMPK4	-a>
+udp_c	UMPK4	-a>
+udp_n	UMPK4n	-a>
+gtp_n	UMPK4n	-a>
+gdp_n	UMPK4n	-a>
+ump_n	UMPK4n	-a>
+datp_c	UMPK5	-a>
+dadp_c	UMPK5	-a>
+ump_c	UMPK5	-a>
+udp_c	UMPK5	-a>
+datp_n	UMPK5n	-a>
+udp_n	UMPK5n	-a>
+ump_n	UMPK5n	-a>
+dadp_n	UMPK5n	-a>
+dctp_c	UMPK6	-a>
+ump_c	UMPK6	-a>
+dcdp_c	UMPK6	-a>
+udp_c	UMPK6	-a>
+dctp_n	UMPK6n	-a>
+udp_n	UMPK6n	-a>
+dcdp_n	UMPK6n	-a>
+ump_n	UMPK6n	-a>
+ump_c	UMPK7	-a>
+udp_c	UMPK7	-a>
+dgdp_c	UMPK7	-a>
+dgtp_c	UMPK7	-a>
+dgdp_n	UMPK7n	-a>
+dgtp_n	UMPK7n	-a>
+ump_n	UMPK7n	-a>
+udp_n	UMPK7n	-a>
+atp_m	UMPKm	-a>
+ump_m	UMPKm	-a>
+adp_m	UMPKm	-a>
+udp_m	UMPKm	-a>
+udp_n	UMPKn	-a>
+atp_n	UMPKn	-a>
+ump_n	UMPKn	-a>
+adp_n	UMPKn	-a>
+dump_m	URIDK2m	-a>
+atp_m	URIDK2m	-a>
+adp_m	URIDK2m	-a>
+dudp_m	URIDK2m	-a>
+dadp_c	r0345	-a>
+atp_c	r0345	-a>
+damp_c	r0345	-a>
+adp_c	r0345	-a>
+nad_c	r0394	-a>
+h2o_c	r0394	-a>
+nadh_c	r0394	-a>
+xan_c	r0394	-a>
+hxan_c	r0394	-a>
+h_c	r0394	-a>
+h2o2_c	r0395	-a>
+hxan_c	r0395	-a>
+o2_c	r0395	-a>
+h2o_c	r0395	-a>
+xan_c	r0395	-a>
+dgmp_c	r0456	-a>
+dgsn_c	r0456	-a>
+atp_c	r0456	-a>
+adp_c	r0456	-a>
+h_c	r0456	-a>
+trdrd_c	r0470	-a>
+atp_c	r0470	-a>
+datp_c	r0470	-a>
+h2o_c	r0470	-a>
+trdox_c	r0470	-a>
+trdrd_c	r0472	-a>
+h2o_c	r0472	-a>
+dgtp_c	r0472	-a>
+gtp_c	r0472	-a>
+trdox_c	r0472	-a>
+dctp_c	r0474	-a>
+h2o_c	r0474	-a>
+trdrd_c	r0474	-a>
+ctp_c	r0474	-a>
+trdox_c	r0474	-a>
+trdrd_c	r0475	-a>
+h2o_c	r0475	-a>
+dutp_c	r0475	-a>
+utp_c	r0475	-a>
+trdox_c	r0475	-a>
+dutp_c	r0531	-a>
+dudp_c	r0531	-a>
+cmp_c	r0531	-a>
+cytd_c	r0531	-a>
+h_c	r0531	-a>
+ump_c	r1156	-a>
+dudp_c	r1156	-a>
+uri_c	r1156	-a>
+h_c	r1156	-a>
+dutp_c	r1156	-a>
+gsn_c	r1384	-a>
+h2o_c	r1384	-a>
+xtsn_c	r1384	-a>
+h_c	r1384	-a>
+nh4_c	r1384	-a>

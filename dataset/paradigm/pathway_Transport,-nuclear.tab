@@ -1,0 +1,320 @@
+protein	13_cis_oretn_c
+protein	13_cis_oretn_n
+protein	13_cis_retn_c
+protein	13_cis_retn_n
+protein	1a25dhvitd3_c
+protein	1a25dhvitd3_n
+protein	35cgmp_c
+protein	35cgmp_n
+protein	4abut_c
+protein	4abut_n
+protein	Ntmelys_n
+protein	Ntmelys_r
+protein	accoa_c
+protein	accoa_n
+protein	ach_c
+protein	ach_n
+protein	acnam_c
+protein	acnam_n
+protein	ahcys_c
+protein	ahcys_n
+protein	amet_c
+protein	amet_n
+protein	atp_c
+protein	atp_n
+protein	biocyt_c
+protein	biocyt_n
+protein	btn_c
+protein	btn_n
+protein	chol_c
+protein	chol_n
+protein	cmpacna_c
+protein	cmpacna_n
+protein	co2_c
+protein	co2_n
+protein	coa_c
+protein	coa_n
+protein	ctp_c
+protein	ctp_n
+protein	cytd_c
+protein	cytd_n
+protein	datp_c
+protein	datp_n
+protein	dctp_c
+protein	dctp_n
+protein	dgtp_c
+protein	dgtp_n
+protein	didp_c
+protein	didp_n
+protein	ditp_c
+protein	ditp_n
+protein	dnad_c
+protein	dnad_n
+protein	dtdp_c
+protein	dtdp_n
+protein	dttp_c
+protein	dttp_n
+protein	dudp_c
+protein	dudp_n
+protein	dump_c
+protein	dump_n
+protein	duri_c
+protein	duri_n
+protein	for_c
+protein	for_n
+protein	gmp_c
+protein	gmp_n
+protein	gtp_c
+protein	gtp_n
+protein	h2o2_c
+protein	h2o2_n
+protein	h2o_c
+protein	h2o_n
+protein	hretn_c
+protein	hretn_n
+protein	idp_c
+protein	idp_n
+protein	itp_c
+protein	itp_n
+protein	lys_L_c
+protein	lys_L_n
+protein	mi13456p_c
+protein	mi13456p_n
+protein	mi1346p_c
+protein	mi1346p_n
+protein	mi14p_c
+protein	mi14p_n
+protein	mi1p_D_c
+protein	mi1p_D_n
+protein	minohp_c
+protein	minohp_n
+protein	nad_c
+protein	nad_n
+protein	nh4_c
+protein	nh4_n
+protein	nicrnt_c
+protein	nicrnt_n
+protein	nmn_c
+protein	nmn_n
+protein	o2_c
+protein	o2_n
+protein	o2s_c
+protein	o2s_n
+protein	oretn_c
+protein	oretn_n
+protein	pa_hs_c
+protein	pa_hs_n
+protein	pail45p_hs_c
+protein	pail45p_hs_n
+protein	pail4p_hs_c
+protein	pail4p_hs_n
+protein	pail_hs_c
+protein	pail_hs_n
+protein	peplys_e
+protein	peplys_n
+protein	pi_c
+protein	pi_n
+protein	ppi_c
+protein	ppi_n
+protein	ppmi12346p_c
+protein	ppmi12346p_n
+protein	pppi_c
+protein	pppi_n
+protein	retn_c
+protein	retn_n
+protein	uri_c
+protein	uri_n
+protein	utp_c
+protein	utp_n
+abstract	35CGMPtn
+abstract	ACCOAtn
+abstract	ACHtn
+abstract	ACNAMtn
+abstract	AHCYStn
+abstract	AMETtn
+abstract	ATPtn
+abstract	BIOCYTtn
+abstract	BTNtn
+abstract	CHOLtn
+abstract	CMPACNAtn
+abstract	CO2tn
+abstract	COAtn
+abstract	CTPtn
+abstract	CYTDtn
+abstract	DATPtn
+abstract	DCTPtn
+abstract	DGTPtn
+abstract	DIDPtn
+abstract	DITPtn
+abstract	DNADtn
+abstract	DTDPtn
+abstract	DTTPtn
+abstract	DUDPtn
+abstract	DUMPtn
+abstract	DURItn
+abstract	FORtrn
+abstract	GMPtn
+abstract	GTPtn
+abstract	H2O2tn
+abstract	H2Otn
+abstract	HRETNtn
+abstract	IDPtn
+abstract	ITPtn
+abstract	LYStn
+abstract	MI13456Ptn
+abstract	MI1346Ptn
+abstract	MI14Ptn
+abstract	MI1P_Dtn
+abstract	MINOHPtn
+abstract	NADtn
+abstract	NH4tn
+abstract	NICRNTtn
+abstract	NMNtn
+abstract	NTMELYStner
+abstract	O2Stn
+abstract	O2tn
+abstract	ORETNtn
+abstract	ORETNtn2
+abstract	PA_HStn
+abstract	PAIL_HStn
+abstract	PAIL45P_HStn
+abstract	PAIL4P_HStn
+abstract	PEPLYStn
+abstract	PItn
+abstract	PPMI12346Ptn
+abstract	PPPItn
+abstract	RAtn
+abstract	RAtn3
+abstract	Uritn
+abstract	UTPtn
+abstract	r1459
+abstract	1a25DHVITD3TRn
+abstract	4ABUTtcn
+35cgmp_n	35CGMPtn	-a>
+35cgmp_c	35CGMPtn	-a>
+accoa_n	ACCOAtn	-a>
+accoa_c	ACCOAtn	-a>
+ach_n	ACHtn	-a>
+ach_c	ACHtn	-a>
+acnam_n	ACNAMtn	-a>
+acnam_c	ACNAMtn	-a>
+ahcys_n	AHCYStn	-a>
+ahcys_c	AHCYStn	-a>
+amet_n	AMETtn	-a>
+amet_c	AMETtn	-a>
+atp_c	ATPtn	-a>
+atp_n	ATPtn	-a>
+biocyt_c	BIOCYTtn	-a>
+biocyt_n	BIOCYTtn	-a>
+btn_c	BTNtn	-a>
+btn_n	BTNtn	-a>
+chol_n	CHOLtn	-a>
+chol_c	CHOLtn	-a>
+cmpacna_n	CMPACNAtn	-a>
+cmpacna_c	CMPACNAtn	-a>
+co2_n	CO2tn	-a>
+co2_c	CO2tn	-a>
+coa_n	COAtn	-a>
+coa_c	COAtn	-a>
+ctp_c	CTPtn	-a>
+ctp_n	CTPtn	-a>
+cytd_n	CYTDtn	-a>
+cytd_c	CYTDtn	-a>
+datp_n	DATPtn	-a>
+datp_c	DATPtn	-a>
+dctp_n	DCTPtn	-a>
+dctp_c	DCTPtn	-a>
+dgtp_n	DGTPtn	-a>
+dgtp_c	DGTPtn	-a>
+didp_c	DIDPtn	-a>
+didp_n	DIDPtn	-a>
+ditp_n	DITPtn	-a>
+ditp_c	DITPtn	-a>
+dnad_n	DNADtn	-a>
+dnad_c	DNADtn	-a>
+dtdp_n	DTDPtn	-a>
+dtdp_c	DTDPtn	-a>
+dttp_c	DTTPtn	-a>
+dttp_n	DTTPtn	-a>
+dudp_n	DUDPtn	-a>
+dudp_c	DUDPtn	-a>
+dump_n	DUMPtn	-a>
+dump_c	DUMPtn	-a>
+duri_n	DURItn	-a>
+duri_c	DURItn	-a>
+for_n	FORtrn	-a>
+for_c	FORtrn	-a>
+gmp_c	GMPtn	-a>
+gmp_n	GMPtn	-a>
+gtp_c	GTPtn	-a>
+gtp_n	GTPtn	-a>
+h2o2_c	H2O2tn	-a>
+h2o2_n	H2O2tn	-a>
+h2o_c	H2Otn	-a>
+h2o_n	H2Otn	-a>
+hretn_n	HRETNtn	-a>
+hretn_c	HRETNtn	-a>
+idp_n	IDPtn	-a>
+idp_c	IDPtn	-a>
+itp_n	ITPtn	-a>
+itp_c	ITPtn	-a>
+lys_L_n	LYStn	-a>
+lys_L_c	LYStn	-a>
+mi13456p_n	MI13456Ptn	-a>
+mi13456p_c	MI13456Ptn	-a>
+mi1346p_c	MI1346Ptn	-a>
+mi1346p_n	MI1346Ptn	-a>
+mi14p_n	MI14Ptn	-a>
+mi14p_c	MI14Ptn	-a>
+mi1p_D_c	MI1P_Dtn	-a>
+mi1p_D_n	MI1P_Dtn	-a>
+minohp_c	MINOHPtn	-a>
+minohp_n	MINOHPtn	-a>
+nad_c	NADtn	-a>
+nad_n	NADtn	-a>
+nh4_n	NH4tn	-a>
+nh4_c	NH4tn	-a>
+nicrnt_n	NICRNTtn	-a>
+nicrnt_c	NICRNTtn	-a>
+nmn_n	NMNtn	-a>
+nmn_c	NMNtn	-a>
+Ntmelys_n	NTMELYStner	-a>
+Ntmelys_r	NTMELYStner	-a>
+o2s_c	O2Stn	-a>
+o2s_n	O2Stn	-a>
+o2_n	O2tn	-a>
+o2_c	O2tn	-a>
+oretn_n	ORETNtn	-a>
+oretn_c	ORETNtn	-a>
+13_cis_oretn_c	ORETNtn2	-a>
+13_cis_oretn_n	ORETNtn2	-a>
+pa_hs_n	PA_HStn	-a>
+pa_hs_c	PA_HStn	-a>
+pail_hs_n	PAIL_HStn	-a>
+pail_hs_c	PAIL_HStn	-a>
+pail45p_hs_n	PAIL45P_HStn	-a>
+pail45p_hs_c	PAIL45P_HStn	-a>
+pail4p_hs_c	PAIL4P_HStn	-a>
+pail4p_hs_n	PAIL4P_HStn	-a>
+peplys_e	PEPLYStn	-a>
+peplys_n	PEPLYStn	-a>
+pi_c	PItn	-a>
+pi_n	PItn	-a>
+ppmi12346p_n	PPMI12346Ptn	-a>
+ppmi12346p_c	PPMI12346Ptn	-a>
+pppi_n	PPPItn	-a>
+pppi_c	PPPItn	-a>
+retn_n	RAtn	-a>
+retn_c	RAtn	-a>
+13_cis_retn_c	RAtn3	-a>
+13_cis_retn_n	RAtn3	-a>
+uri_n	Uritn	-a>
+uri_c	Uritn	-a>
+utp_n	UTPtn	-a>
+utp_c	UTPtn	-a>
+ppi_n	r1459	-a>
+ppi_c	r1459	-a>
+1a25dhvitd3_n	1a25DHVITD3TRn	-a>
+1a25dhvitd3_c	1a25DHVITD3TRn	-a>
+4abut_n	4ABUTtcn	-a>
+4abut_c	4ABUTtcn	-a>

@@ -1,0 +1,37 @@
+protein	bildglcur_r
+protein	bilglcur_r
+protein	bilirub_c
+protein	biliverd_c
+protein	co_c
+protein	fe2_c
+protein	h2o_c
+protein	h_c
+protein	h_r
+protein	nadp_c
+protein	nadph_c
+protein	o2_c
+protein	pheme_c
+protein	udp_r
+protein	udpglcur_r
+abstract	BILIRED
+abstract	HOXG
+abstract	BIDGLCURr
+biliverd_c	BILIRED	-a>
+nadp_c	BILIRED	-a>
+nadph_c	BILIRED	-a>
+h_c	BILIRED	-a>
+bilirub_c	BILIRED	-a>
+h2o_c	HOXG	-a>
+nadp_c	HOXG	-a>
+h_c	HOXG	-a>
+co_c	HOXG	-a>
+o2_c	HOXG	-a>
+pheme_c	HOXG	-a>
+biliverd_c	HOXG	-a>
+nadph_c	HOXG	-a>
+fe2_c	HOXG	-a>
+bildglcur_r	BIDGLCURr	-a>
+udp_r	BIDGLCURr	-a>
+bilglcur_r	BIDGLCURr	-a>
+udpglcur_r	BIDGLCURr	-a>
+h_r	BIDGLCURr	-a>

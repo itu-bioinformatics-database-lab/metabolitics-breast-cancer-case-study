@@ -1,0 +1,49 @@
+protein	adp_c
+protein	amp_c
+protein	atp_c
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	pi_c
+protein	pi_m
+protein	thm_c
+protein	thmmp_c
+protein	thmmp_m
+protein	thmpp_c
+protein	thmpp_m
+protein	thmtp_c
+abstract	TDP
+abstract	TDPm
+abstract	THMP
+abstract	THMTP
+abstract	TMDPK
+abstract	TMDPPK
+thmpp_c	TDP	-a>
+pi_c	TDP	-a>
+h2o_c	TDP	-a>
+thmmp_c	TDP	-a>
+h_c	TDP	-a>
+h2o_m	TDPm	-a>
+thmpp_m	TDPm	-a>
+thmmp_m	TDPm	-a>
+h_m	TDPm	-a>
+pi_m	TDPm	-a>
+pi_c	THMP	-a>
+h2o_c	THMP	-a>
+thm_c	THMP	-a>
+thmmp_c	THMP	-a>
+thmpp_c	THMTP	-a>
+pi_c	THMTP	-a>
+h2o_c	THMTP	-a>
+h_c	THMTP	-a>
+thmtp_c	THMTP	-a>
+thmpp_c	TMDPK	-a>
+amp_c	TMDPK	-a>
+atp_c	TMDPK	-a>
+thm_c	TMDPK	-a>
+h_c	TMDPK	-a>
+thmpp_c	TMDPPK	-a>
+atp_c	TMDPPK	-a>
+adp_c	TMDPPK	-a>
+thmtp_c	TMDPPK	-a>

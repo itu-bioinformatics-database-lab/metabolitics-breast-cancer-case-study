@@ -1,0 +1,245 @@
+protein	2dr1p_c
+protein	2dr5p_c
+protein	3dhguln_c
+protein	6pgc_c
+protein	6pgc_r
+protein	6pgl_c
+protein	6pgl_r
+protein	abt_c
+protein	acald_c
+protein	adp_c
+protein	amp_c
+protein	arab_L_c
+protein	atp_c
+protein	co2_c
+protein	co2_r
+protein	drib_c
+protein	e4p_c
+protein	f6p_c
+protein	g3p_c
+protein	g6p_c
+protein	g6p_r
+protein	glcn_c
+protein	glcur1p_c
+protein	glcur_c
+protein	glcur_r
+protein	gly_c
+protein	glyphe_c
+protein	guln_c
+protein	guln_r
+protein	h2o_c
+protein	h2o_r
+protein	h_c
+protein	h_r
+protein	nad_c
+protein	nad_r
+protein	nadh_c
+protein	nadh_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	phe_L_c
+protein	pi_c
+protein	prpp_c
+protein	r1p_c
+protein	r5p_c
+protein	r5p_r
+protein	rbl_D_c
+protein	rbt_c
+protein	rib_D_c
+protein	ru5p_D_c
+protein	ru5p_D_r
+protein	s7p_c
+protein	udp_c
+protein	udpglcur_c
+protein	ump_c
+protein	xu5p_D_c
+protein	xylt_c
+protein	xylu_D_c
+protein	xylu_L_c
+abstract	ABTD
+abstract	ARABR
+abstract	DGULND
+abstract	DRBK
+abstract	DRPA
+abstract	G6PDH1rer
+abstract	G6PDH2r
+abstract	G6PDH2rer
+abstract	GNDer
+abstract	GULN3D
+abstract	GULNDer
+abstract	GUR1PP
+abstract	PGL
+abstract	PGLer
+abstract	PPM
+abstract	PRPPS
+abstract	RBK
+abstract	RBK_D
+abstract	RPE
+abstract	RPI
+abstract	TALA
+abstract	TKT1
+abstract	TKT2
+abstract	UDPG1P
+abstract	UDPGNP
+abstract	XYLK
+abstract	XYLTD_Dr
+abstract	XYLUR
+abstract	r0249
+abstract	r0570
+abstract	r0784
+abstract	r0796
+abstract	RE0124C
+abstract	GLYPHEHYc
+abstract	GNDc
+nad_c	ABTD	-a>
+nadh_c	ABTD	-a>
+xylu_L_c	ABTD	-a>
+h_c	ABTD	-a>
+abt_c	ABTD	-a>
+arab_L_c	ARABR	-a>
+nadp_c	ARABR	-a>
+nadph_c	ARABR	-a>
+abt_c	ARABR	-a>
+h_c	ARABR	-a>
+xylu_L_c	DGULND	-a>
+3dhguln_c	DGULND	-a>
+h_c	DGULND	-a>
+co2_c	DGULND	-a>
+2dr5p_c	DRBK	-a>
+atp_c	DRBK	-a>
+adp_c	DRBK	-a>
+drib_c	DRBK	-a>
+h_c	DRBK	-a>
+g3p_c	DRPA	-a>
+2dr5p_c	DRPA	-a>
+acald_c	DRPA	-a>
+g6p_r	G6PDH1rer	-a>
+6pgl_r	G6PDH1rer	-a>
+nadh_r	G6PDH1rer	-a>
+h_r	G6PDH1rer	-a>
+nad_r	G6PDH1rer	-a>
+g6p_c	G6PDH2r	-a>
+nadp_c	G6PDH2r	-a>
+nadph_c	G6PDH2r	-a>
+h_c	G6PDH2r	-a>
+6pgl_c	G6PDH2r	-a>
+h_r	G6PDH2rer	-a>
+6pgl_r	G6PDH2rer	-a>
+g6p_r	G6PDH2rer	-a>
+nadph_r	G6PDH2rer	-a>
+nadp_r	G6PDH2rer	-a>
+ru5p_D_r	GNDer	-a>
+6pgc_r	GNDer	-a>
+nadph_r	GNDer	-a>
+co2_r	GNDer	-a>
+nadp_r	GNDer	-a>
+nad_c	GULN3D	-a>
+guln_c	GULN3D	-a>
+3dhguln_c	GULN3D	-a>
+h_c	GULN3D	-a>
+nadh_c	GULN3D	-a>
+glcur_r	GULNDer	-a>
+nadph_r	GULNDer	-a>
+guln_r	GULNDer	-a>
+h_r	GULNDer	-a>
+nadp_r	GULNDer	-a>
+pi_c	GUR1PP	-a>
+h2o_c	GUR1PP	-a>
+glcur_c	GUR1PP	-a>
+glcur1p_c	GUR1PP	-a>
+6pgc_c	PGL	-a>
+h2o_c	PGL	-a>
+h_c	PGL	-a>
+6pgl_c	PGL	-a>
+h_r	PGLer	-a>
+6pgl_r	PGLer	-a>
+6pgc_r	PGLer	-a>
+h2o_r	PGLer	-a>
+r5p_c	PPM	-a>
+r1p_c	PPM	-a>
+prpp_c	PRPPS	-a>
+amp_c	PRPPS	-a>
+atp_c	PRPPS	-a>
+r5p_c	PRPPS	-a>
+h_c	PRPPS	-a>
+atp_c	RBK	-a>
+rib_D_c	RBK	-a>
+r5p_c	RBK	-a>
+adp_c	RBK	-a>
+h_c	RBK	-a>
+rbl_D_c	RBK_D	-a>
+atp_c	RBK_D	-a>
+ru5p_D_c	RBK_D	-a>
+h_c	RBK_D	-a>
+adp_c	RBK_D	-a>
+xu5p_D_c	RPE	-a>
+ru5p_D_c	RPE	-a>
+r5p_c	RPI	-a>
+ru5p_D_c	RPI	-a>
+g3p_c	TALA	-a>
+f6p_c	TALA	-a>
+e4p_c	TALA	-a>
+s7p_c	TALA	-a>
+g3p_c	TKT1	-a>
+xu5p_D_c	TKT1	-a>
+s7p_c	TKT1	-a>
+r5p_c	TKT1	-a>
+g3p_c	TKT2	-a>
+f6p_c	TKT2	-a>
+e4p_c	TKT2	-a>
+xu5p_D_c	TKT2	-a>
+h_c	UDPG1P	-a>
+ump_c	UDPG1P	-a>
+glcur1p_c	UDPG1P	-a>
+udpglcur_c	UDPG1P	-a>
+h2o_c	UDPG1P	-a>
+h2o_c	UDPGNP	-a>
+glcur_c	UDPGNP	-a>
+udpglcur_c	UDPGNP	-a>
+udp_c	UDPGNP	-a>
+h_c	UDPGNP	-a>
+xu5p_D_c	XYLK	-a>
+atp_c	XYLK	-a>
+xylu_D_c	XYLK	-a>
+adp_c	XYLK	-a>
+h_c	XYLK	-a>
+nad_c	XYLTD_Dr	-a>
+xylu_D_c	XYLTD_Dr	-a>
+xylt_c	XYLTD_Dr	-a>
+h_c	XYLTD_Dr	-a>
+nadh_c	XYLTD_Dr	-a>
+nadph_c	XYLUR	-a>
+nadp_c	XYLUR	-a>
+xylt_c	XYLUR	-a>
+h_c	XYLUR	-a>
+xylu_L_c	XYLUR	-a>
+ru5p_D_r	r0249	-a>
+r5p_r	r0249	-a>
+2dr1p_c	r0570	-a>
+2dr5p_c	r0570	-a>
+nad_c	r0784	-a>
+xylu_L_c	r0784	-a>
+xylt_c	r0784	-a>
+nadh_c	r0784	-a>
+h_c	r0784	-a>
+nad_c	r0796	-a>
+rbt_c	r0796	-a>
+rib_D_c	r0796	-a>
+h_c	r0796	-a>
+nadh_c	r0796	-a>
+6pgc_c	RE0124C	-a>
+atp_c	RE0124C	-a>
+adp_c	RE0124C	-a>
+glcn_c	RE0124C	-a>
+h_c	RE0124C	-a>
+h2o_c	GLYPHEHYc	-a>
+phe_L_c	GLYPHEHYc	-a>
+gly_c	GLYPHEHYc	-a>
+glyphe_c	GLYPHEHYc	-a>
+6pgc_c	GNDc	-a>
+nadp_c	GNDc	-a>
+nadph_c	GNDc	-a>
+ru5p_D_c	GNDc	-a>
+co2_c	GNDc	-a>

@@ -1,0 +1,295 @@
+protein	2maacoa_m
+protein	2mb2coa_m
+protein	2mbcoa_m
+protein	2mop_m
+protein	2mp2coa_m
+protein	2mpdhl_m
+protein	3aib_m
+protein	3hibutcoa_m
+protein	3hmbcoa_m
+protein	3hmp_m
+protein	3mb2coa_m
+protein	3mgcoa_m
+protein	3mob_c
+protein	3mob_m
+protein	3mop_c
+protein	3mop_m
+protein	4mop_c
+protein	4mop_m
+protein	CE2028_c
+protein	CE5068_m
+protein	CE5456_c
+protein	CE5875_m
+protein	HC00900_m
+protein	HC01223_m
+protein	aacoa_m
+protein	acac_m
+protein	accoa_m
+protein	adp_m
+protein	akg_c
+protein	akg_m
+protein	atp_m
+protein	co2_c
+protein	co2_m
+protein	co2_x
+protein	coa_m
+protein	dhlam_m
+protein	fad_m
+protein	fadh2_m
+protein	glu_L_c
+protein	glu_L_m
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	h_x
+protein	hco3_m
+protein	hmgcoa_m
+protein	ibcoa_m
+protein	ile_L_c
+protein	ile_L_m
+protein	ivcoa_m
+protein	leu_L_c
+protein	leu_L_m
+protein	mmcoa_R_m
+protein	mmcoa_S_c
+protein	mmcoa_S_m
+protein	mmcoa_S_x
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	o2_c
+protein	pi_m
+protein	ppcoa_c
+protein	ppcoa_m
+protein	ppcoa_x
+protein	q10_m
+protein	q10h2_m
+protein	succ_m
+protein	succoa_m
+protein	val_L_c
+protein	val_L_m
+abstract	3AIBTm
+abstract	3HBCOAHLm
+abstract	ACACT10m
+abstract	ACOAD10m
+abstract	ACOAD8m
+abstract	ACOAD9m
+abstract	ECOAH12m
+abstract	ECOAH9m
+abstract	HACD9m
+abstract	HIBDm
+abstract	ILETA
+abstract	ILETAm
+abstract	LEUTA
+abstract	LEUTAm
+abstract	MCCCrm
+abstract	MGCHrm
+abstract	MMCD
+abstract	MMCDm
+abstract	MMCDp
+abstract	MMEm
+abstract	MMMm
+abstract	MMSAD1m
+abstract	MMTSADm
+abstract	OCOAT1m
+abstract	OIVD1m
+abstract	OIVD2m
+abstract	OIVD3m
+abstract	PPCOACm
+abstract	VALTA
+abstract	VALTAm
+abstract	r0560
+abstract	r0571
+abstract	r0603
+abstract	r0643
+abstract	r0655
+abstract	r0669
+abstract	RE1266C
+abstract	RE2292C
+abstract	RE2453M
+abstract	RE2454M
+abstract	RE3326M
+2mop_m	3AIBTm	-a>
+glu_L_m	3AIBTm	-a>
+akg_m	3AIBTm	-a>
+3aib_m	3AIBTm	-a>
+h2o_m	3HBCOAHLm	-a>
+3hibutcoa_m	3HBCOAHLm	-a>
+h_m	3HBCOAHLm	-a>
+coa_m	3HBCOAHLm	-a>
+3hmp_m	3HBCOAHLm	-a>
+2maacoa_m	ACACT10m	-a>
+coa_m	ACACT10m	-a>
+ppcoa_m	ACACT10m	-a>
+accoa_m	ACACT10m	-a>
+fadh2_m	ACOAD10m	-a>
+2mb2coa_m	ACOAD10m	-a>
+fad_m	ACOAD10m	-a>
+2mbcoa_m	ACOAD10m	-a>
+ivcoa_m	ACOAD8m	-a>
+fadh2_m	ACOAD8m	-a>
+fad_m	ACOAD8m	-a>
+3mb2coa_m	ACOAD8m	-a>
+2mp2coa_m	ACOAD9m	-a>
+fadh2_m	ACOAD9m	-a>
+fad_m	ACOAD9m	-a>
+ibcoa_m	ACOAD9m	-a>
+h2o_m	ECOAH12m	-a>
+2mp2coa_m	ECOAH12m	-a>
+3hibutcoa_m	ECOAH12m	-a>
+h2o_m	ECOAH9m	-a>
+3hmbcoa_m	ECOAH9m	-a>
+2mb2coa_m	ECOAH9m	-a>
+3hmbcoa_m	HACD9m	-a>
+nadh_m	HACD9m	-a>
+h_m	HACD9m	-a>
+2maacoa_m	HACD9m	-a>
+nad_m	HACD9m	-a>
+2mop_m	HIBDm	-a>
+nadh_m	HIBDm	-a>
+3hmp_m	HIBDm	-a>
+h_m	HIBDm	-a>
+nad_m	HIBDm	-a>
+glu_L_c	ILETA	-a>
+3mop_c	ILETA	-a>
+ile_L_c	ILETA	-a>
+akg_c	ILETA	-a>
+3mop_m	ILETAm	-a>
+ile_L_m	ILETAm	-a>
+akg_m	ILETAm	-a>
+glu_L_m	ILETAm	-a>
+4mop_c	LEUTA	-a>
+glu_L_c	LEUTA	-a>
+leu_L_c	LEUTA	-a>
+akg_c	LEUTA	-a>
+glu_L_m	LEUTAm	-a>
+akg_m	LEUTAm	-a>
+leu_L_m	LEUTAm	-a>
+4mop_m	LEUTAm	-a>
+h_m	MCCCrm	-a>
+3mb2coa_m	MCCCrm	-a>
+atp_m	MCCCrm	-a>
+hco3_m	MCCCrm	-a>
+adp_m	MCCCrm	-a>
+pi_m	MCCCrm	-a>
+3mgcoa_m	MCCCrm	-a>
+h2o_m	MGCHrm	-a>
+3mgcoa_m	MGCHrm	-a>
+hmgcoa_m	MGCHrm	-a>
+mmcoa_S_c	MMCD	-a>
+ppcoa_c	MMCD	-a>
+h_c	MMCD	-a>
+co2_c	MMCD	-a>
+h_m	MMCDm	-a>
+mmcoa_S_m	MMCDm	-a>
+co2_m	MMCDm	-a>
+ppcoa_m	MMCDm	-a>
+mmcoa_S_x	MMCDp	-a>
+co2_x	MMCDp	-a>
+h_x	MMCDp	-a>
+ppcoa_x	MMCDp	-a>
+mmcoa_S_m	MMEm	-a>
+mmcoa_R_m	MMEm	-a>
+succoa_m	MMMm	-a>
+mmcoa_R_m	MMMm	-a>
+2mop_m	MMSAD1m	-a>
+coa_m	MMSAD1m	-a>
+ppcoa_m	MMSAD1m	-a>
+nad_m	MMSAD1m	-a>
+nadh_m	MMSAD1m	-a>
+co2_m	MMSAD1m	-a>
+2mop_m	MMTSADm	-a>
+h_m	MMTSADm	-a>
+coa_m	MMTSADm	-a>
+mmcoa_R_m	MMTSADm	-a>
+nad_m	MMTSADm	-a>
+nadh_m	MMTSADm	-a>
+acac_m	OCOAT1m	-a>
+succoa_m	OCOAT1m	-a>
+succ_m	OCOAT1m	-a>
+aacoa_m	OCOAT1m	-a>
+ivcoa_m	OIVD1m	-a>
+coa_m	OIVD1m	-a>
+nad_m	OIVD1m	-a>
+nadh_m	OIVD1m	-a>
+co2_m	OIVD1m	-a>
+4mop_m	OIVD1m	-a>
+coa_m	OIVD2m	-a>
+3mob_m	OIVD2m	-a>
+nad_m	OIVD2m	-a>
+nadh_m	OIVD2m	-a>
+co2_m	OIVD2m	-a>
+ibcoa_m	OIVD2m	-a>
+3mop_m	OIVD3m	-a>
+coa_m	OIVD3m	-a>
+nad_m	OIVD3m	-a>
+nadh_m	OIVD3m	-a>
+co2_m	OIVD3m	-a>
+2mbcoa_m	OIVD3m	-a>
+h_m	PPCOACm	-a>
+ppcoa_m	PPCOACm	-a>
+pi_m	PPCOACm	-a>
+atp_m	PPCOACm	-a>
+hco3_m	PPCOACm	-a>
+adp_m	PPCOACm	-a>
+mmcoa_S_m	PPCOACm	-a>
+glu_L_c	VALTA	-a>
+val_L_c	VALTA	-a>
+akg_c	VALTA	-a>
+3mob_c	VALTA	-a>
+glu_L_m	VALTAm	-a>
+val_L_m	VALTAm	-a>
+akg_m	VALTAm	-a>
+3mob_m	VALTAm	-a>
+q10h2_m	r0560	-a>
+2mp2coa_m	r0560	-a>
+q10_m	r0560	-a>
+ibcoa_m	r0560	-a>
+h2o_m	r0571	-a>
+mmcoa_S_m	r0571	-a>
+HC00900_m	r0571	-a>
+h_m	r0571	-a>
+coa_m	r0571	-a>
+q10h2_m	r0603	-a>
+2mb2coa_m	r0603	-a>
+q10_m	r0603	-a>
+2mbcoa_m	r0603	-a>
+h2o_m	r0643	-a>
+2mop_m	r0643	-a>
+HC00900_m	r0643	-a>
+h_m	r0643	-a>
+nad_m	r0643	-a>
+nadh_m	r0643	-a>
+q10h2_m	r0655	-a>
+ivcoa_m	r0655	-a>
+q10_m	r0655	-a>
+3mb2coa_m	r0655	-a>
+h2o_m	r0669	-a>
+HC01223_m	r0669	-a>
+2mp2coa_m	r0669	-a>
+4mop_c	RE1266C	-a>
+o2_c	RE1266C	-a>
+CE2028_c	RE1266C	-a>
+co2_c	RE1266C	-a>
+nad_c	RE2292C	-a>
+4mop_c	RE2292C	-a>
+h_c	RE2292C	-a>
+nadh_c	RE2292C	-a>
+CE5456_c	RE2292C	-a>
+h_m	RE2453M	-a>
+pi_m	RE2453M	-a>
+atp_m	RE2453M	-a>
+hco3_m	RE2453M	-a>
+2mb2coa_m	RE2453M	-a>
+CE5875_m	RE2453M	-a>
+adp_m	RE2453M	-a>
+h2o_m	RE2454M	-a>
+CE5875_m	RE2454M	-a>
+h_m	RE2454M	-a>
+coa_m	RE2454M	-a>
+CE5068_m	RE2454M	-a>
+ibcoa_m	RE3326M	-a>
+coa_m	RE3326M	-a>
+dhlam_m	RE3326M	-a>
+2mpdhl_m	RE3326M	-a>

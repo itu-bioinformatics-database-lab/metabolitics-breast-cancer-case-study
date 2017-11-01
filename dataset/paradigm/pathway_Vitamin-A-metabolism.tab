@@ -1,0 +1,527 @@
+protein	11_cis_retfa_c
+protein	11_cis_retfa_e
+protein	13_cis_oretn_c
+protein	13_cis_retn_c
+protein	13_cis_retn_r
+protein	13_cis_retnglc_c
+protein	13_cis_retnglc_r
+protein	9_cis_retfa_c
+protein	9_cis_retfa_e
+protein	CE1162_c
+protein	CE1617_c
+protein	CE1617_r
+protein	CE1761_c
+protein	CE1761_r
+protein	CE2953_c
+protein	CE2953_r
+protein	CE2955_c
+protein	CE2957_c
+protein	CE2957_r
+protein	CE2958_c
+protein	CE2958_r
+protein	CE2961_c
+protein	CE2961_r
+protein	CE2962_c
+protein	CE2962_r
+protein	CE2963_c
+protein	CE2964_c
+protein	CE3136_c
+protein	CE5013_c
+protein	CE5014_c
+protein	CE5016_c
+protein	CE5591_c
+protein	CE5591_r
+protein	CE5592_c
+protein	CE5592_r
+protein	CE5593_c
+protein	CE5593_r
+protein	CE5594_c
+protein	CE5653_c
+protein	CE5653_r
+protein	CE5654_c
+protein	CE5654_r
+protein	CE5756_c
+protein	CE5756_r
+protein	CE5757_c
+protein	CE5757_r
+protein	CE5932_c
+protein	Rtotal_c
+protein	Rtotal_e
+protein	Rtotalcoa_c
+protein	amp_c
+protein	atp_c
+protein	caro_c
+protein	coa_c
+protein	h2o_c
+protein	h2o_e
+protein	h2o_r
+protein	h_c
+protein	h_e
+protein	h_r
+protein	hretn_c
+protein	lpchol_hs_c
+protein	nad_c
+protein	nad_r
+protein	nadh_c
+protein	nadh_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	o2_c
+protein	o2_r
+protein	oretn_c
+protein	pchol_hs_c
+protein	ppi_c
+protein	retfa_c
+protein	retfa_e
+protein	retinal_11_cis_c
+protein	retinal_c
+protein	retinal_cis_13_c
+protein	retinal_cis_13_r
+protein	retinal_cis_9_c
+protein	retinal_cis_9_r
+protein	retinal_r
+protein	retinol_9_cis_c
+protein	retinol_9_cis_e
+protein	retinol_c
+protein	retinol_cis_11_c
+protein	retinol_cis_11_e
+protein	retinol_cis_13_c
+protein	retinol_e
+protein	retinol_r
+protein	retn_c
+protein	retn_r
+protein	retncoa_c
+protein	retnglc_r
+protein	udp_c
+protein	udp_r
+protein	udpglcur_c
+protein	udpglcur_r
+abstract	BCDO
+abstract	LRAT
+abstract	LRAT1
+abstract	LRAT2
+abstract	ORETNF
+abstract	ORETNF2
+abstract	RADH
+abstract	RADH2
+abstract	RADH3
+abstract	RADH4
+abstract	RAHY
+abstract	RAI1
+abstract	RAI2
+abstract	RAI3
+abstract	RAI4
+abstract	RDH1
+abstract	RDH1a
+abstract	RDH2
+abstract	RDH2a
+abstract	RDH3
+abstract	RDH3a
+abstract	RDH4
+abstract	RETFA
+abstract	RETH
+abstract	RETH1
+abstract	RETH1e
+abstract	RETH2
+abstract	RETH2e
+abstract	RETHe
+abstract	RETI1
+abstract	RETI2
+abstract	RETI3
+abstract	RETNCOA
+abstract	UGT1A5r
+abstract	UGT1A5r2
+abstract	RE1901R
+abstract	RE1903R
+abstract	RE1904C
+abstract	RE1904R
+abstract	RE1905C
+abstract	RE1905R
+abstract	RE1906C
+abstract	RE1906R
+abstract	RE1907C
+abstract	RE1938C
+abstract	RE1938R
+abstract	RE1941C
+abstract	RE1941R
+abstract	RE1942C
+abstract	RE1942R
+abstract	RE1943C
+abstract	RE1943R
+abstract	RE2146C
+abstract	RE2146R
+abstract	RE2147C
+abstract	RE2149C
+abstract	RE2149R
+abstract	RE2150C
+abstract	RE2150R
+abstract	RE2151C
+abstract	RE2151R
+abstract	RE2152C
+abstract	RE2248C
+abstract	RE2249C
+abstract	RE2250C
+abstract	RE2251C
+abstract	RE2252C
+abstract	RE2452C
+abstract	RE2651R
+abstract	RE2655R
+abstract	RE2658C
+abstract	RE2658R
+abstract	RE2659R
+abstract	RE3050R
+caro_c	BCDO	-a>
+retinal_c	BCDO	-a>
+o2_c	BCDO	-a>
+retfa_c	LRAT	-a>
+lpchol_hs_c	LRAT	-a>
+retinol_c	LRAT	-a>
+pchol_hs_c	LRAT	-a>
+lpchol_hs_c	LRAT1	-a>
+retinol_cis_11_c	LRAT1	-a>
+11_cis_retfa_c	LRAT1	-a>
+pchol_hs_c	LRAT1	-a>
+lpchol_hs_c	LRAT2	-a>
+9_cis_retfa_c	LRAT2	-a>
+pchol_hs_c	LRAT2	-a>
+retinol_9_cis_c	LRAT2	-a>
+o2_c	ORETNF	-a>
+retn_c	ORETNF	-a>
+h_c	ORETNF	-a>
+oretn_c	ORETNF	-a>
+13_cis_retn_c	ORETNF2	-a>
+13_cis_oretn_c	ORETNF2	-a>
+h_c	ORETNF2	-a>
+o2_c	ORETNF2	-a>
+nad_c	RADH	-a>
+h2o_c	RADH	-a>
+nadh_c	RADH	-a>
+retinal_c	RADH	-a>
+retn_c	RADH	-a>
+h_c	RADH	-a>
+h2o_c	RADH2	-a>
+nadp_c	RADH2	-a>
+h_c	RADH2	-a>
+retinal_c	RADH2	-a>
+retn_c	RADH2	-a>
+nadph_c	RADH2	-a>
+nad_c	RADH3	-a>
+h2o_c	RADH3	-a>
+h_c	RADH3	-a>
+13_cis_retn_c	RADH3	-a>
+retinal_cis_13_c	RADH3	-a>
+nadh_c	RADH3	-a>
+h2o_c	RADH4	-a>
+nadp_c	RADH4	-a>
+h_c	RADH4	-a>
+13_cis_retn_c	RADH4	-a>
+nadph_c	RADH4	-a>
+retinal_cis_13_c	RADH4	-a>
+h2o_c	RAHY	-a>
+nadp_c	RAHY	-a>
+h_c	RAHY	-a>
+hretn_c	RAHY	-a>
+retn_c	RAHY	-a>
+nadph_c	RAHY	-a>
+o2_c	RAHY	-a>
+retinal_c	RAI1	-a>
+retinal_11_cis_c	RAI1	-a>
+retinal_c	RAI2	-a>
+retinal_cis_9_c	RAI2	-a>
+13_cis_retn_c	RAI3	-a>
+retn_c	RAI3	-a>
+13_cis_oretn_c	RAI4	-a>
+oretn_c	RAI4	-a>
+nad_c	RDH1	-a>
+retinal_c	RDH1	-a>
+h_c	RDH1	-a>
+retinol_c	RDH1	-a>
+nadh_c	RDH1	-a>
+retinal_c	RDH1a	-a>
+nadp_c	RDH1a	-a>
+nadph_c	RDH1a	-a>
+h_c	RDH1a	-a>
+retinol_c	RDH1a	-a>
+nad_c	RDH2	-a>
+retinal_cis_9_c	RDH2	-a>
+nadh_c	RDH2	-a>
+h_c	RDH2	-a>
+retinol_9_cis_c	RDH2	-a>
+h_c	RDH2a	-a>
+nadp_c	RDH2a	-a>
+nadph_c	RDH2a	-a>
+retinal_cis_9_c	RDH2a	-a>
+retinol_9_cis_c	RDH2a	-a>
+nad_c	RDH3	-a>
+h_c	RDH3	-a>
+retinol_cis_11_c	RDH3	-a>
+nadh_c	RDH3	-a>
+retinal_11_cis_c	RDH3	-a>
+retinol_cis_11_c	RDH3a	-a>
+nadp_c	RDH3a	-a>
+nadph_c	RDH3a	-a>
+h_c	RDH3a	-a>
+retinal_11_cis_c	RDH3a	-a>
+nad_c	RDH4	-a>
+retinol_cis_13_c	RDH4	-a>
+h_c	RDH4	-a>
+retinal_cis_13_c	RDH4	-a>
+nadh_c	RDH4	-a>
+retfa_c	RETFA	-a>
+coa_c	RETFA	-a>
+Rtotalcoa_c	RETFA	-a>
+retinol_c	RETFA	-a>
+h_c	RETFA	-a>
+retfa_c	RETH	-a>
+h2o_c	RETH	-a>
+h_c	RETH	-a>
+retinol_c	RETH	-a>
+Rtotal_c	RETH	-a>
+h2o_c	RETH1	-a>
+Rtotal_c	RETH1	-a>
+9_cis_retfa_c	RETH1	-a>
+h_c	RETH1	-a>
+retinol_9_cis_c	RETH1	-a>
+h_e	RETH1e	-a>
+Rtotal_e	RETH1e	-a>
+retinol_9_cis_e	RETH1e	-a>
+h2o_e	RETH1e	-a>
+9_cis_retfa_e	RETH1e	-a>
+h_c	RETH2	-a>
+retinol_cis_11_c	RETH2	-a>
+h2o_c	RETH2	-a>
+11_cis_retfa_c	RETH2	-a>
+Rtotal_c	RETH2	-a>
+h_e	RETH2e	-a>
+11_cis_retfa_e	RETH2e	-a>
+Rtotal_e	RETH2e	-a>
+retinol_cis_11_e	RETH2e	-a>
+h2o_e	RETH2e	-a>
+h_e	RETHe	-a>
+Rtotal_e	RETHe	-a>
+retfa_e	RETHe	-a>
+retinol_e	RETHe	-a>
+h2o_e	RETHe	-a>
+retinol_cis_11_c	RETI1	-a>
+retinol_c	RETI1	-a>
+retinol_c	RETI2	-a>
+retinol_9_cis_c	RETI2	-a>
+retinol_cis_13_c	RETI3	-a>
+retinol_c	RETI3	-a>
+amp_c	RETNCOA	-a>
+coa_c	RETNCOA	-a>
+retncoa_c	RETNCOA	-a>
+atp_c	RETNCOA	-a>
+retn_c	RETNCOA	-a>
+ppi_c	RETNCOA	-a>
+retnglc_r	UGT1A5r	-a>
+udpglcur_r	UGT1A5r	-a>
+udp_r	UGT1A5r	-a>
+retn_r	UGT1A5r	-a>
+udp_r	UGT1A5r2	-a>
+13_cis_retn_r	UGT1A5r2	-a>
+h_r	UGT1A5r2	-a>
+udpglcur_r	UGT1A5r2	-a>
+13_cis_retnglc_r	UGT1A5r2	-a>
+CE1617_r	RE1901R	-a>
+h2o_r	RE1901R	-a>
+retinal_cis_9_r	RE1901R	-a>
+h_r	RE1901R	-a>
+nadh_r	RE1901R	-a>
+nad_r	RE1901R	-a>
+retinal_cis_13_r	RE1903R	-a>
+h2o_r	RE1903R	-a>
+h_r	RE1903R	-a>
+nadh_r	RE1903R	-a>
+13_cis_retn_r	RE1903R	-a>
+nad_r	RE1903R	-a>
+CE5591_c	RE1904C	-a>
+h2o_c	RE1904C	-a>
+nadp_c	RE1904C	-a>
+h_c	RE1904C	-a>
+nadph_c	RE1904C	-a>
+retinal_cis_13_c	RE1904C	-a>
+o2_c	RE1904C	-a>
+retinal_cis_13_r	RE1904R	-a>
+CE5591_r	RE1904R	-a>
+nadp_r	RE1904R	-a>
+h2o_r	RE1904R	-a>
+o2_r	RE1904R	-a>
+h_r	RE1904R	-a>
+nadph_r	RE1904R	-a>
+h2o_c	RE1905C	-a>
+nadp_c	RE1905C	-a>
+h_c	RE1905C	-a>
+retinal_11_cis_c	RE1905C	-a>
+CE5592_c	RE1905C	-a>
+nadph_c	RE1905C	-a>
+o2_c	RE1905C	-a>
+o2_r	RE1905R	-a>
+nadp_r	RE1905R	-a>
+h2o_r	RE1905R	-a>
+retinal_cis_9_r	RE1905R	-a>
+h_r	RE1905R	-a>
+CE5592_r	RE1905R	-a>
+nadph_r	RE1905R	-a>
+h2o_c	RE1906C	-a>
+nadp_c	RE1906C	-a>
+h_c	RE1906C	-a>
+retinal_cis_9_c	RE1906C	-a>
+nadph_c	RE1906C	-a>
+CE5593_c	RE1906C	-a>
+o2_c	RE1906C	-a>
+CE5593_r	RE1906R	-a>
+o2_r	RE1906R	-a>
+nadp_r	RE1906R	-a>
+h2o_r	RE1906R	-a>
+h_r	RE1906R	-a>
+retinal_r	RE1906R	-a>
+nadph_r	RE1906R	-a>
+CE5594_c	RE1907C	-a>
+CE1617_c	RE1907C	-a>
+h2o_c	RE1938C	-a>
+nadp_c	RE1938C	-a>
+h_c	RE1938C	-a>
+retinol_c	RE1938C	-a>
+nadph_c	RE1938C	-a>
+CE1761_c	RE1938C	-a>
+o2_c	RE1938C	-a>
+o2_r	RE1938R	-a>
+nadp_r	RE1938R	-a>
+h2o_r	RE1938R	-a>
+retinol_r	RE1938R	-a>
+h_r	RE1938R	-a>
+nadph_r	RE1938R	-a>
+CE1761_r	RE1938R	-a>
+h2o_c	RE1941C	-a>
+nadp_c	RE1941C	-a>
+h_c	RE1941C	-a>
+CE5653_c	RE1941C	-a>
+nadph_c	RE1941C	-a>
+CE1617_c	RE1941C	-a>
+o2_c	RE1941C	-a>
+CE1617_r	RE1941R	-a>
+o2_r	RE1941R	-a>
+nadp_r	RE1941R	-a>
+CE5653_r	RE1941R	-a>
+h_r	RE1941R	-a>
+h2o_r	RE1941R	-a>
+nadph_r	RE1941R	-a>
+h2o_c	RE1942C	-a>
+nadp_c	RE1942C	-a>
+h_c	RE1942C	-a>
+CE5654_c	RE1942C	-a>
+nadph_c	RE1942C	-a>
+13_cis_retn_c	RE1942C	-a>
+o2_c	RE1942C	-a>
+13_cis_retn_r	RE1942R	-a>
+o2_r	RE1942R	-a>
+nadp_r	RE1942R	-a>
+h2o_r	RE1942R	-a>
+h_r	RE1942R	-a>
+nadph_r	RE1942R	-a>
+CE5654_r	RE1942R	-a>
+h2o_c	RE1943C	-a>
+nadp_c	RE1943C	-a>
+h_c	RE1943C	-a>
+CE2957_c	RE1943C	-a>
+retn_c	RE1943C	-a>
+nadph_c	RE1943C	-a>
+o2_c	RE1943C	-a>
+CE2957_r	RE1943R	-a>
+o2_r	RE1943R	-a>
+nadp_r	RE1943R	-a>
+retn_r	RE1943R	-a>
+h2o_r	RE1943R	-a>
+h_r	RE1943R	-a>
+nadph_r	RE1943R	-a>
+udp_c	RE2146C	-a>
+udpglcur_c	RE2146C	-a>
+CE2958_c	RE2146C	-a>
+CE2953_c	RE2146C	-a>
+CE2953_r	RE2146R	-a>
+udpglcur_r	RE2146R	-a>
+CE2958_r	RE2146R	-a>
+udp_r	RE2146R	-a>
+13_cis_retn_c	RE2147C	-a>
+udp_c	RE2147C	-a>
+h_c	RE2147C	-a>
+13_cis_retnglc_c	RE2147C	-a>
+udpglcur_c	RE2147C	-a>
+udp_c	RE2149C	-a>
+CE2961_c	RE2149C	-a>
+CE2962_c	RE2149C	-a>
+udpglcur_c	RE2149C	-a>
+h_c	RE2149C	-a>
+CE2962_r	RE2149R	-a>
+udp_r	RE2149R	-a>
+h_r	RE2149R	-a>
+udpglcur_r	RE2149R	-a>
+CE2961_r	RE2149R	-a>
+CE5756_c	RE2150C	-a>
+udpglcur_c	RE2150C	-a>
+CE1617_c	RE2150C	-a>
+udp_c	RE2150C	-a>
+udp_r	RE2150R	-a>
+CE5756_r	RE2150R	-a>
+udpglcur_r	RE2150R	-a>
+CE1617_r	RE2150R	-a>
+udp_c	RE2151C	-a>
+CE5653_c	RE2151C	-a>
+udpglcur_c	RE2151C	-a>
+CE5757_c	RE2151C	-a>
+udpglcur_r	RE2151R	-a>
+CE5757_r	RE2151R	-a>
+udp_r	RE2151R	-a>
+CE5653_r	RE2151R	-a>
+nad_c	RE2152C	-a>
+h2o_c	RE2152C	-a>
+nadh_c	RE2152C	-a>
+CE1162_c	RE2152C	-a>
+CE2955_c	RE2152C	-a>
+h_c	RE2152C	-a>
+h2o_c	RE2248C	-a>
+nadp_c	RE2248C	-a>
+h_c	RE2248C	-a>
+13_cis_retn_c	RE2248C	-a>
+CE2963_c	RE2248C	-a>
+nadph_c	RE2248C	-a>
+o2_c	RE2248C	-a>
+h2o_c	RE2249C	-a>
+nadp_c	RE2249C	-a>
+h_c	RE2249C	-a>
+13_cis_retn_c	RE2249C	-a>
+CE2964_c	RE2249C	-a>
+nadph_c	RE2249C	-a>
+o2_c	RE2249C	-a>
+CE5932_c	RE2250C	-a>
+CE5013_c	RE2250C	-a>
+CE5014_c	RE2251C	-a>
+h2o_c	RE2251C	-a>
+retinol_c	RE2251C	-a>
+nadp_c	RE2252C	-a>
+CE5653_c	RE2252C	-a>
+nadph_c	RE2252C	-a>
+h_c	RE2252C	-a>
+CE3136_c	RE2252C	-a>
+h2o_c	RE2452C	-a>
+CE5016_c	RE2452C	-a>
+CE5932_c	RE2452C	-a>
+retinal_cis_9_r	RE2651R	-a>
+retinal_r	RE2651R	-a>
+retinal_cis_13_r	RE2655R	-a>
+retinal_r	RE2655R	-a>
+retn_c	RE2658C	-a>
+CE1617_c	RE2658C	-a>
+CE1617_r	RE2658R	-a>
+retn_r	RE2658R	-a>
+13_cis_retn_r	RE2659R	-a>
+retn_r	RE2659R	-a>
+retinal_cis_13_r	RE3050R	-a>
+retn_r	RE3050R	-a>
+h2o_r	RE3050R	-a>
+h_r	RE3050R	-a>
+nadh_r	RE3050R	-a>
+nad_r	RE3050R	-a>

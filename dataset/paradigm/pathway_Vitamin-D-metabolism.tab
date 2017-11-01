@@ -1,0 +1,248 @@
+protein	1a2425thvitd2_m
+protein	1a2425thvitd3_m
+protein	1a25dhvitd2_m
+protein	1a25dhvitd3_c
+protein	1a25dhvitd3_m
+protein	2425dhvitd2_m
+protein	2425dhvitd3_c
+protein	2425dhvitd3_m
+protein	25hvitd2_m
+protein	25hvitd3_c
+protein	25hvitd3_m
+protein	7dhchsterol_c
+protein	CE2201_c
+protein	CE2201_m
+protein	CE2202_c
+protein	CE2202_m
+protein	CE2203_c
+protein	CE2203_m
+protein	CE2204_c
+protein	CE2204_m
+protein	CE2206_c
+protein	CE2206_m
+protein	CE2207_c
+protein	CE2207_m
+protein	cca_d3_c
+protein	cca_d3_m
+protein	CE6027_c
+protein	CE6027_m
+protein	h2o2_c
+protein	h2o2_m
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	lum3_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	o2_c
+protein	o2_m
+protein	pd3_c
+protein	ts3_c
+protein	vitd2_m
+protein	vitd3_c
+protein	vitd3_m
+abstract	1a_24_25VITD2Hm
+abstract	1a_24_25VITD3Hm
+abstract	1a_25VITD2Hm
+abstract	1a_25VITD3Hm
+abstract	24_25VITD2Hm
+abstract	24_25VITD3Hm
+abstract	25VITD2Hm
+abstract	25VITD3Hm
+abstract	LS3
+abstract	PVD3
+abstract	TS3
+abstract	VD3
+abstract	VITD2Hm
+abstract	VITD3Hm
+abstract	RE1303C
+abstract	RE1308C
+abstract	RE1308M
+abstract	RE1309C
+abstract	RE1309M
+abstract	RE1310C
+abstract	RE1310M
+abstract	RE1311C
+abstract	RE1311M
+abstract	RE2240C
+abstract	RE2975C
+abstract	RE2975M
+abstract	RE3144C
+abstract	RE3144M
+abstract	25HVITD3c
+h2o_m	1a_24_25VITD2Hm	-a>
+2425dhvitd2_m	1a_24_25VITD2Hm	-a>
+1a2425thvitd2_m	1a_24_25VITD2Hm	-a>
+h_m	1a_24_25VITD2Hm	-a>
+nadph_m	1a_24_25VITD2Hm	-a>
+o2_m	1a_24_25VITD2Hm	-a>
+nadp_m	1a_24_25VITD2Hm	-a>
+h2o_m	1a_24_25VITD3Hm	-a>
+nadph_m	1a_24_25VITD3Hm	-a>
+1a2425thvitd3_m	1a_24_25VITD3Hm	-a>
+h_m	1a_24_25VITD3Hm	-a>
+2425dhvitd3_m	1a_24_25VITD3Hm	-a>
+o2_m	1a_24_25VITD3Hm	-a>
+nadp_m	1a_24_25VITD3Hm	-a>
+h2o_m	1a_25VITD2Hm	-a>
+1a2425thvitd2_m	1a_25VITD2Hm	-a>
+nadph_m	1a_25VITD2Hm	-a>
+h_m	1a_25VITD2Hm	-a>
+1a25dhvitd2_m	1a_25VITD2Hm	-a>
+o2_m	1a_25VITD2Hm	-a>
+nadp_m	1a_25VITD2Hm	-a>
+h2o_m	1a_25VITD3Hm	-a>
+nadph_m	1a_25VITD3Hm	-a>
+1a2425thvitd3_m	1a_25VITD3Hm	-a>
+1a25dhvitd3_m	1a_25VITD3Hm	-a>
+h_m	1a_25VITD3Hm	-a>
+o2_m	1a_25VITD3Hm	-a>
+nadp_m	1a_25VITD3Hm	-a>
+h2o_m	24_25VITD2Hm	-a>
+2425dhvitd2_m	24_25VITD2Hm	-a>
+nadph_m	24_25VITD2Hm	-a>
+25hvitd2_m	24_25VITD2Hm	-a>
+h_m	24_25VITD2Hm	-a>
+o2_m	24_25VITD2Hm	-a>
+nadp_m	24_25VITD2Hm	-a>
+h2o_m	24_25VITD3Hm	-a>
+nadph_m	24_25VITD3Hm	-a>
+h_m	24_25VITD3Hm	-a>
+2425dhvitd3_m	24_25VITD3Hm	-a>
+o2_m	24_25VITD3Hm	-a>
+nadp_m	24_25VITD3Hm	-a>
+25hvitd3_m	24_25VITD3Hm	-a>
+h2o_m	25VITD2Hm	-a>
+nadph_m	25VITD2Hm	-a>
+25hvitd2_m	25VITD2Hm	-a>
+h_m	25VITD2Hm	-a>
+1a25dhvitd2_m	25VITD2Hm	-a>
+o2_m	25VITD2Hm	-a>
+nadp_m	25VITD2Hm	-a>
+h2o_m	25VITD3Hm	-a>
+nadph_m	25VITD3Hm	-a>
+1a25dhvitd3_m	25VITD3Hm	-a>
+h_m	25VITD3Hm	-a>
+o2_m	25VITD3Hm	-a>
+nadp_m	25VITD3Hm	-a>
+25hvitd3_m	25VITD3Hm	-a>
+pd3_c	LS3	-a>
+lum3_c	LS3	-a>
+pd3_c	PVD3	-a>
+7dhchsterol_c	PVD3	-a>
+pd3_c	TS3	-a>
+ts3_c	TS3	-a>
+vitd3_c	VD3	-a>
+pd3_c	VD3	-a>
+h2o_m	VITD2Hm	-a>
+nadph_m	VITD2Hm	-a>
+25hvitd2_m	VITD2Hm	-a>
+nadp_m	VITD2Hm	-a>
+h_m	VITD2Hm	-a>
+o2_m	VITD2Hm	-a>
+vitd2_m	VITD2Hm	-a>
+h2o_m	VITD3Hm	-a>
+nadph_m	VITD3Hm	-a>
+h_m	VITD3Hm	-a>
+vitd3_m	VITD3Hm	-a>
+o2_m	VITD3Hm	-a>
+nadp_m	VITD3Hm	-a>
+25hvitd3_m	VITD3Hm	-a>
+vitd3_c	RE1303C	-a>
+h2o_c	RE1303C	-a>
+nadp_c	RE1303C	-a>
+h_c	RE1303C	-a>
+25hvitd3_c	RE1303C	-a>
+nadph_c	RE1303C	-a>
+o2_c	RE1303C	-a>
+h2o_c	RE1308C	-a>
+nadp_c	RE1308C	-a>
+h_c	RE1308C	-a>
+25hvitd3_c	RE1308C	-a>
+nadph_c	RE1308C	-a>
+CE2201_c	RE1308C	-a>
+o2_c	RE1308C	-a>
+CE2201_m	RE1308M	-a>
+h2o_m	RE1308M	-a>
+nadph_m	RE1308M	-a>
+h_m	RE1308M	-a>
+o2_m	RE1308M	-a>
+nadp_m	RE1308M	-a>
+25hvitd3_m	RE1308M	-a>
+nad_c	RE1309C	-a>
+h2o_c	RE1309C	-a>
+CE2202_c	RE1309C	-a>
+h_c	RE1309C	-a>
+nadh_c	RE1309C	-a>
+CE2201_c	RE1309C	-a>
+o2_c	RE1309C	-a>
+h2o_m	RE1309M	-a>
+h_m	RE1309M	-a>
+CE2202_m	RE1309M	-a>
+nadh_m	RE1309M	-a>
+2425dhvitd3_m	RE1309M	-a>
+o2_m	RE1309M	-a>
+nad_m	RE1309M	-a>
+h2o2_c	RE1310C	-a>
+CE2203_c	RE1310C	-a>
+CE2202_c	RE1310C	-a>
+o2_c	RE1310C	-a>
+h2o2_m	RE1310M	-a>
+o2_m	RE1310M	-a>
+CE2203_m	RE1310M	-a>
+CE2202_m	RE1310M	-a>
+h2o2_c	RE1311C	-a>
+CE2204_c	RE1311C	-a>
+CE2203_c	RE1311C	-a>
+o2_c	RE1311C	-a>
+h2o2_m	RE1311M	-a>
+CE2204_m	RE1311M	-a>
+CE2203_m	RE1311M	-a>
+o2_m	RE1311M	-a>
+h2o_c	RE2240C	-a>
+nadp_c	RE2240C	-a>
+2425dhvitd3_c	RE2240C	-a>
+h_c	RE2240C	-a>
+25hvitd3_c	RE2240C	-a>
+nadph_c	RE2240C	-a>
+o2_c	RE2240C	-a>
+CE2207_c	RE2975C	-a>
+h2o_c	RE2975C	-a>
+nadp_c	RE2975C	-a>
+h_c	RE2975C	-a>
+CE2206_c	RE2975C	-a>
+nadph_c	RE2975C	-a>
+o2_c	RE2975C	-a>
+h2o_m	RE2975M	-a>
+nadph_m	RE2975M	-a>
+CE2207_m	RE2975M	-a>
+h_m	RE2975M	-a>
+CE2206_m	RE2975M	-a>
+o2_m	RE2975M	-a>
+nadp_m	RE2975M	-a>
+h2o_c	RE3144C	-a>
+nadp_c	RE3144C	-a>
+cca_d3_c	RE3144C	-a>
+CE6027_c	RE3144C	-a>
+nadph_c	RE3144C	-a>
+o2_c	RE3144C	-a>
+h2o_m	RE3144M	-a>
+nadph_m	RE3144M	-a>
+cca_d3_m	RE3144M	-a>
+o2_m	RE3144M	-a>
+nadp_m	RE3144M	-a>
+CE6027_m	RE3144M	-a>
+h2o_c	25HVITD3c	-a>
+nadp_c	25HVITD3c	-a>
+h_c	25HVITD3c	-a>
+25hvitd3_c	25HVITD3c	-a>
+1a25dhvitd3_c	25HVITD3c	-a>
+nadph_c	25HVITD3c	-a>
+o2_c	25HVITD3c	-a>

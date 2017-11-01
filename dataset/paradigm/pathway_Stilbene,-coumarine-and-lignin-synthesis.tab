@@ -1,0 +1,18 @@
+protein	2coum_c
+protein	34dhcinm_c
+protein	T4hcinnm_c
+protein	bdg2hc_c
+protein	glc_D_c
+protein	h2o_c
+protein	h_c
+protein	o2_c
+abstract	BDG2HCGHD
+abstract	T4HCINNOX
+2coum_c	BDG2HCGHD	-a>
+h2o_c	BDG2HCGHD	-a>
+glc_D_c	BDG2HCGHD	-a>
+h_c	BDG2HCGHD	-a>
+bdg2hc_c	BDG2HCGHD	-a>
+34dhcinm_c	T4HCINNOX	-a>
+T4hcinnm_c	T4HCINNOX	-a>
+o2_c	T4HCINNOX	-a>

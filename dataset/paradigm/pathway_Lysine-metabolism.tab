@@ -1,0 +1,208 @@
+protein	1pipdn2c_x
+protein	2oxoadp_c
+protein	2oxoadp_m
+protein	3htmelys_c
+protein	3htmelys_m
+protein	4tmeabut_c
+protein	4tmeabut_m
+protein	4tmeabutn_c
+protein	6a2ohxnt_x
+protein	L2aadp6sa_c
+protein	L2aadp6sa_m
+protein	L2aadp_c
+protein	L2aadp_m
+protein	Lpipecol_x
+protein	Ndmelys_n
+protein	Nmelys_n
+protein	Ntmelys_n
+protein	ahcys_n
+protein	akg_c
+protein	akg_m
+protein	amet_n
+protein	co2_c
+protein	co2_m
+protein	coa_m
+protein	crn_c
+protein	glu_L_c
+protein	glu_L_m
+protein	glutcoa_m
+protein	gly_c
+protein	gly_m
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_n
+protein	h_x
+protein	lys_L_c
+protein	lys_L_m
+protein	lys_L_x
+protein	nad_c
+protein	nad_m
+protein	nad_x
+protein	nadh_c
+protein	nadh_m
+protein	nadh_x
+protein	nadp_m
+protein	nadph_m
+protein	nh4_x
+protein	o2_c
+protein	o2_x
+protein	pcollg5hlys_c
+protein	pcollglys_c
+protein	peplys_n
+protein	saccrp_L_m
+protein	succ_c
+protein	thp2c_c
+protein	thp2c_x
+protein	tmlys_c
+abstract	1PPDCRp
+abstract	2OXOADOXm
+abstract	AASAD3m
+abstract	AATAi
+abstract	BBHOX
+abstract	GHMT3
+abstract	GHMT3m
+abstract	LPCOXp
+abstract	LYSMTF1n
+abstract	LYSMTF2n
+abstract	LYSMTF3n
+abstract	LYSOXp
+abstract	PCLYSOX
+abstract	PPD2CSPp
+abstract	SACCD3m
+abstract	SACCD4m
+abstract	TMABADH
+abstract	TMLYSOX
+abstract	r0450
+abstract	r0525
+abstract	r0594
+abstract	r1386
+abstract	RE1254C
+abstract	2AMADPTm
+nadh_x	1PPDCRp	-a>
+nad_x	1PPDCRp	-a>
+h_x	1PPDCRp	-a>
+1pipdn2c_x	1PPDCRp	-a>
+Lpipecol_x	1PPDCRp	-a>
+2oxoadp_m	2OXOADOXm	-a>
+glutcoa_m	2OXOADOXm	-a>
+coa_m	2OXOADOXm	-a>
+nad_m	2OXOADOXm	-a>
+nadh_m	2OXOADOXm	-a>
+co2_m	2OXOADOXm	-a>
+h2o_m	AASAD3m	-a>
+h_m	AASAD3m	-a>
+L2aadp6sa_m	AASAD3m	-a>
+nad_m	AASAD3m	-a>
+nadh_m	AASAD3m	-a>
+L2aadp_m	AASAD3m	-a>
+glu_L_c	AATAi	-a>
+L2aadp_c	AATAi	-a>
+2oxoadp_c	AATAi	-a>
+akg_c	AATAi	-a>
+succ_c	BBHOX	-a>
+4tmeabutn_c	BBHOX	-a>
+crn_c	BBHOX	-a>
+o2_c	BBHOX	-a>
+co2_c	BBHOX	-a>
+akg_c	BBHOX	-a>
+4tmeabut_c	GHMT3	-a>
+gly_c	GHMT3	-a>
+h_c	GHMT3	-a>
+3htmelys_c	GHMT3	-a>
+3htmelys_m	GHMT3m	-a>
+h_m	GHMT3m	-a>
+4tmeabut_m	GHMT3m	-a>
+gly_m	GHMT3m	-a>
+thp2c_x	LPCOXp	-a>
+Lpipecol_x	LPCOXp	-a>
+h_x	LPCOXp	-a>
+h2o2_x	LPCOXp	-a>
+o2_x	LPCOXp	-a>
+ahcys_n	LYSMTF1n	-a>
+peplys_n	LYSMTF1n	-a>
+amet_n	LYSMTF1n	-a>
+h_n	LYSMTF1n	-a>
+Nmelys_n	LYSMTF1n	-a>
+ahcys_n	LYSMTF2n	-a>
+Ndmelys_n	LYSMTF2n	-a>
+amet_n	LYSMTF2n	-a>
+h_n	LYSMTF2n	-a>
+Nmelys_n	LYSMTF2n	-a>
+ahcys_n	LYSMTF3n	-a>
+Ntmelys_n	LYSMTF3n	-a>
+Ndmelys_n	LYSMTF3n	-a>
+amet_n	LYSMTF3n	-a>
+nh4_x	LYSOXp	-a>
+o2_x	LYSOXp	-a>
+6a2ohxnt_x	LYSOXp	-a>
+h2o_x	LYSOXp	-a>
+lys_L_x	LYSOXp	-a>
+h2o2_x	LYSOXp	-a>
+h_c	PCLYSOX	-a>
+succ_c	PCLYSOX	-a>
+pcollg5hlys_c	PCLYSOX	-a>
+co2_c	PCLYSOX	-a>
+pcollglys_c	PCLYSOX	-a>
+akg_c	PCLYSOX	-a>
+o2_c	PCLYSOX	-a>
+6a2ohxnt_x	PPD2CSPp	-a>
+h2o_x	PPD2CSPp	-a>
+1pipdn2c_x	PPD2CSPp	-a>
+h2o_m	SACCD3m	-a>
+nadph_m	SACCD3m	-a>
+lys_L_m	SACCD3m	-a>
+nadp_m	SACCD3m	-a>
+h_m	SACCD3m	-a>
+akg_m	SACCD3m	-a>
+saccrp_L_m	SACCD3m	-a>
+h2o_m	SACCD4m	-a>
+glu_L_m	SACCD4m	-a>
+nadph_m	SACCD4m	-a>
+L2aadp6sa_m	SACCD4m	-a>
+h_m	SACCD4m	-a>
+nadp_m	SACCD4m	-a>
+saccrp_L_m	SACCD4m	-a>
+nad_c	TMABADH	-a>
+4tmeabut_c	TMABADH	-a>
+h2o_c	TMABADH	-a>
+h_c	TMABADH	-a>
+4tmeabutn_c	TMABADH	-a>
+nadh_c	TMABADH	-a>
+h_c	TMLYSOX	-a>
+succ_c	TMLYSOX	-a>
+3htmelys_c	TMLYSOX	-a>
+tmlys_c	TMLYSOX	-a>
+co2_c	TMLYSOX	-a>
+akg_c	TMLYSOX	-a>
+o2_c	TMLYSOX	-a>
+2oxoadp_m	r0450	-a>
+L2aadp_m	r0450	-a>
+glu_L_m	r0450	-a>
+akg_m	r0450	-a>
+h2o_m	r0525	-a>
+glu_L_m	r0525	-a>
+L2aadp6sa_m	r0525	-a>
+h_m	r0525	-a>
+nad_m	r0525	-a>
+nadh_m	r0525	-a>
+saccrp_L_m	r0525	-a>
+nad_c	r0594	-a>
+L2aadp6sa_c	r0594	-a>
+nadh_c	r0594	-a>
+L2aadp_c	r0594	-a>
+h2o_c	r0594	-a>
+h_c	r0594	-a>
+lys_L_c	r1386	-a>
+pcollglys_c	r1386	-a>
+L2aadp6sa_c	RE1254C	-a>
+h_c	RE1254C	-a>
+thp2c_c	RE1254C	-a>
+h2o_c	RE1254C	-a>
+L2aadp_c	2AMADPTm	-a>
+L2aadp_m	2AMADPTm	-a>
+akg_c	2AMADPTm	-a>
+akg_m	2AMADPTm	-a>

@@ -1,0 +1,326 @@
+protein	Ser_Gly_Ala_X_Gly_r
+protein	ac_g
+protein	cs_a_b_e_pre1_g
+protein	cs_a_b_pre2_g
+protein	cs_a_b_pre3_g
+protein	cs_b_pre4_g
+protein	cs_b_pre5_g
+protein	cs_c_d_e_pre1_g
+protein	cs_c_pre2_g
+protein	cs_c_pre3_g
+protein	cs_d_pre2_g
+protein	cs_d_pre3_g
+protein	cs_d_pre4_g
+protein	cs_d_pre5_g
+protein	cs_e_pre2_g
+protein	cs_e_pre3_g
+protein	cs_e_pre4_g
+protein	cs_e_pre5a_g
+protein	cs_e_pre5b_g
+protein	cs_hs_linkage_g
+protein	cs_pre_g
+protein	cspg_a_g
+protein	cspg_b_g
+protein	cspg_c_g
+protein	cspg_d_g
+protein	cspg_e_g
+protein	h2o_g
+protein	h_g
+protein	h_r
+protein	hs_pre10_g
+protein	hs_pre11_g
+protein	hs_pre12_g
+protein	hs_pre13_g
+protein	hs_pre14_g
+protein	hs_pre15_g
+protein	hs_pre1_g
+protein	hs_pre2_g
+protein	hs_pre3_g
+protein	hs_pre4_g
+protein	hs_pre5_g
+protein	hs_pre6_g
+protein	hs_pre7_g
+protein	hs_pre8_g
+protein	hs_pre9_g
+protein	hspg_g
+protein	l2xser_g
+protein	lxser_g
+protein	pap_g
+protein	paps_g
+protein	uacgam_g
+protein	udp_g
+protein	udp_r
+protein	udpacgal_g
+protein	udpgal_g
+protein	udpglcur_g
+protein	udpxyl_r
+protein	xser_g
+protein	xser_r
+abstract	GALNACT1g
+abstract	GALNACT2g
+abstract	GALNACT3g
+abstract	GALNACT4g
+abstract	GALNACT5g
+abstract	GALT2g
+abstract	GALTg
+abstract	GLCAE1g
+abstract	GLCAE2g
+abstract	GLCAT2g
+abstract	GLCAT3g
+abstract	GLCAT4g
+abstract	GLCAT5g
+abstract	GLCAT6g
+abstract	GLCAT7g
+abstract	GLCAT8g
+abstract	GLCAT9g
+abstract	GLCATg
+abstract	GLCNACDASg
+abstract	GLCNACT1g
+abstract	GLCNACT2g
+abstract	GLCNACT3g
+abstract	GLCNACT4g
+abstract	GLCNACT5g
+abstract	S2T1g
+abstract	S2T2g
+abstract	S2T3g
+abstract	S2T4g
+abstract	S3T1g
+abstract	S3T2g
+abstract	S3T3g
+abstract	S4T1g
+abstract	S4T2g
+abstract	S4T3g
+abstract	S4T4g
+abstract	S4T5g
+abstract	S4T6g
+abstract	S6T19g
+abstract	S6T20g
+abstract	S6T21g
+abstract	S6T22g
+abstract	S6T23g
+abstract	S6T24g
+abstract	S6T25g
+abstract	XYLTer
+cs_pre_g	GALNACT1g	-a>
+udpacgal_g	GALNACT1g	-a>
+h_g	GALNACT1g	-a>
+udp_g	GALNACT1g	-a>
+cs_hs_linkage_g	GALNACT1g	-a>
+uacgam_g	GALNACT2g	-a>
+cs_a_b_pre3_g	GALNACT2g	-a>
+h_g	GALNACT2g	-a>
+cs_a_b_pre2_g	GALNACT2g	-a>
+udp_g	GALNACT2g	-a>
+uacgam_g	GALNACT3g	-a>
+cs_c_pre3_g	GALNACT3g	-a>
+h_g	GALNACT3g	-a>
+udp_g	GALNACT3g	-a>
+cs_c_pre2_g	GALNACT3g	-a>
+uacgam_g	GALNACT4g	-a>
+cs_d_pre4_g	GALNACT4g	-a>
+h_g	GALNACT4g	-a>
+udp_g	GALNACT4g	-a>
+cs_d_pre3_g	GALNACT4g	-a>
+uacgam_g	GALNACT5g	-a>
+cs_e_pre3_g	GALNACT5g	-a>
+cs_e_pre4_g	GALNACT5g	-a>
+h_g	GALNACT5g	-a>
+udp_g	GALNACT5g	-a>
+l2xser_g	GALT2g	-a>
+udpgal_g	GALT2g	-a>
+h_g	GALT2g	-a>
+udp_g	GALT2g	-a>
+lxser_g	GALT2g	-a>
+udp_g	GALTg	-a>
+lxser_g	GALTg	-a>
+xser_g	GALTg	-a>
+h2o_g	GALTg	-a>
+udpgal_g	GALTg	-a>
+h_g	GALTg	-a>
+cs_a_b_pre3_g	GLCAE1g	-a>
+cs_b_pre4_g	GLCAE1g	-a>
+hs_pre11_g	GLCAE2g	-a>
+hs_pre10_g	GLCAE2g	-a>
+udpglcur_g	GLCAT2g	-a>
+cs_a_b_e_pre1_g	GLCAT2g	-a>
+h_g	GLCAT2g	-a>
+cs_a_b_pre2_g	GLCAT2g	-a>
+udp_g	GLCAT2g	-a>
+udpglcur_g	GLCAT3g	-a>
+h_g	GLCAT3g	-a>
+udp_g	GLCAT3g	-a>
+cs_c_d_e_pre1_g	GLCAT3g	-a>
+cs_c_pre2_g	GLCAT3g	-a>
+udpglcur_g	GLCAT4g	-a>
+cs_d_pre2_g	GLCAT4g	-a>
+h_g	GLCAT4g	-a>
+cs_d_pre3_g	GLCAT4g	-a>
+udp_g	GLCAT4g	-a>
+cs_e_pre3_g	GLCAT5g	-a>
+h_g	GLCAT5g	-a>
+cs_e_pre2_g	GLCAT5g	-a>
+udp_g	GLCAT5g	-a>
+udpglcur_g	GLCAT5g	-a>
+udpglcur_g	GLCAT6g	-a>
+hs_pre1_g	GLCAT6g	-a>
+h_g	GLCAT6g	-a>
+hs_pre2_g	GLCAT6g	-a>
+udp_g	GLCAT6g	-a>
+udpglcur_g	GLCAT7g	-a>
+h_g	GLCAT7g	-a>
+hs_pre4_g	GLCAT7g	-a>
+udp_g	GLCAT7g	-a>
+hs_pre3_g	GLCAT7g	-a>
+hs_pre5_g	GLCAT8g	-a>
+udpglcur_g	GLCAT8g	-a>
+hs_pre6_g	GLCAT8g	-a>
+h_g	GLCAT8g	-a>
+udp_g	GLCAT8g	-a>
+udpglcur_g	GLCAT9g	-a>
+hs_pre8_g	GLCAT9g	-a>
+h_g	GLCAT9g	-a>
+udp_g	GLCAT9g	-a>
+hs_pre7_g	GLCAT9g	-a>
+udp_g	GLCATg	-a>
+h2o_g	GLCATg	-a>
+udpglcur_g	GLCATg	-a>
+l2xser_g	GLCATg	-a>
+h_g	GLCATg	-a>
+cs_hs_linkage_g	GLCATg	-a>
+paps_g	GLCNACDASg	-a>
+hs_pre10_g	GLCNACDASg	-a>
+hs_pre9_g	GLCNACDASg	-a>
+h2o_g	GLCNACDASg	-a>
+pap_g	GLCNACDASg	-a>
+h_g	GLCNACDASg	-a>
+ac_g	GLCNACDASg	-a>
+uacgam_g	GLCNACT1g	-a>
+hs_pre1_g	GLCNACT1g	-a>
+h_g	GLCNACT1g	-a>
+udp_g	GLCNACT1g	-a>
+cs_hs_linkage_g	GLCNACT1g	-a>
+uacgam_g	GLCNACT2g	-a>
+hs_pre3_g	GLCNACT2g	-a>
+h_g	GLCNACT2g	-a>
+hs_pre2_g	GLCNACT2g	-a>
+udp_g	GLCNACT2g	-a>
+hs_pre5_g	GLCNACT3g	-a>
+uacgam_g	GLCNACT3g	-a>
+h_g	GLCNACT3g	-a>
+hs_pre4_g	GLCNACT3g	-a>
+udp_g	GLCNACT3g	-a>
+uacgam_g	GLCNACT4g	-a>
+hs_pre6_g	GLCNACT4g	-a>
+h_g	GLCNACT4g	-a>
+udp_g	GLCNACT4g	-a>
+hs_pre7_g	GLCNACT4g	-a>
+uacgam_g	GLCNACT5g	-a>
+hs_pre8_g	GLCNACT5g	-a>
+h_g	GLCNACT5g	-a>
+udp_g	GLCNACT5g	-a>
+hs_pre9_g	GLCNACT5g	-a>
+h_g	S2T1g	-a>
+cs_d_pre2_g	S2T1g	-a>
+paps_g	S2T1g	-a>
+pap_g	S2T1g	-a>
+cs_c_d_e_pre1_g	S2T1g	-a>
+h_g	S2T2g	-a>
+paps_g	S2T2g	-a>
+pap_g	S2T2g	-a>
+cs_d_pre5_g	S2T2g	-a>
+cspg_d_g	S2T2g	-a>
+h_g	S2T3g	-a>
+cspg_b_g	S2T3g	-a>
+paps_g	S2T3g	-a>
+pap_g	S2T3g	-a>
+cs_b_pre5_g	S2T3g	-a>
+h_g	S2T4g	-a>
+hs_pre12_g	S2T4g	-a>
+paps_g	S2T4g	-a>
+pap_g	S2T4g	-a>
+hs_pre11_g	S2T4g	-a>
+h_g	S3T1g	-a>
+hs_pre14_g	S3T1g	-a>
+pap_g	S3T1g	-a>
+paps_g	S3T1g	-a>
+hs_pre13_g	S3T1g	-a>
+h_g	S3T2g	-a>
+hs_pre14_g	S3T2g	-a>
+pap_g	S3T2g	-a>
+paps_g	S3T2g	-a>
+hs_pre15_g	S3T2g	-a>
+h_g	S3T3g	-a>
+paps_g	S3T3g	-a>
+pap_g	S3T3g	-a>
+hspg_g	S3T3g	-a>
+hs_pre15_g	S3T3g	-a>
+h_g	S4T1g	-a>
+cs_pre_g	S4T1g	-a>
+cs_a_b_e_pre1_g	S4T1g	-a>
+paps_g	S4T1g	-a>
+pap_g	S4T1g	-a>
+h_g	S4T2g	-a>
+cs_a_b_pre3_g	S4T2g	-a>
+paps_g	S4T2g	-a>
+pap_g	S4T2g	-a>
+cspg_a_g	S4T2g	-a>
+h_g	S4T3g	-a>
+cs_e_pre4_g	S4T3g	-a>
+pap_g	S4T3g	-a>
+paps_g	S4T3g	-a>
+cs_e_pre5a_g	S4T3g	-a>
+h_g	S4T4g	-a>
+cs_e_pre2_g	S4T4g	-a>
+paps_g	S4T4g	-a>
+pap_g	S4T4g	-a>
+cs_c_d_e_pre1_g	S4T4g	-a>
+h_g	S4T5g	-a>
+cs_e_pre5b_g	S4T5g	-a>
+paps_g	S4T5g	-a>
+pap_g	S4T5g	-a>
+cspg_e_g	S4T5g	-a>
+h_g	S4T6g	-a>
+paps_g	S4T6g	-a>
+pap_g	S4T6g	-a>
+cs_b_pre5_g	S4T6g	-a>
+cs_b_pre4_g	S4T6g	-a>
+h_g	S6T19g	-a>
+cs_pre_g	S6T19g	-a>
+paps_g	S6T19g	-a>
+pap_g	S6T19g	-a>
+cs_c_d_e_pre1_g	S6T19g	-a>
+cspg_c_g	S6T20g	-a>
+h_g	S6T20g	-a>
+cs_c_pre3_g	S6T20g	-a>
+paps_g	S6T20g	-a>
+pap_g	S6T20g	-a>
+h_g	S6T21g	-a>
+paps_g	S6T21g	-a>
+pap_g	S6T21g	-a>
+cs_d_pre5_g	S6T21g	-a>
+cs_d_pre4_g	S6T21g	-a>
+h_g	S6T22g	-a>
+cs_e_pre2_g	S6T22g	-a>
+cs_a_b_e_pre1_g	S6T22g	-a>
+paps_g	S6T22g	-a>
+pap_g	S6T22g	-a>
+h_g	S6T23g	-a>
+cspg_e_g	S6T23g	-a>
+paps_g	S6T23g	-a>
+pap_g	S6T23g	-a>
+cs_e_pre5a_g	S6T23g	-a>
+h_g	S6T24g	-a>
+cs_e_pre5b_g	S6T24g	-a>
+paps_g	S6T24g	-a>
+pap_g	S6T24g	-a>
+cs_e_pre4_g	S6T24g	-a>
+h_g	S6T25g	-a>
+hs_pre12_g	S6T25g	-a>
+paps_g	S6T25g	-a>
+pap_g	S6T25g	-a>
+hs_pre13_g	S6T25g	-a>
+h_r	XYLTer	-a>
+xser_r	XYLTer	-a>
+udp_r	XYLTer	-a>
+Ser_Gly_Ala_X_Gly_r	XYLTer	-a>
+udpxyl_r	XYLTer	-a>

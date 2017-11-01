@@ -1,0 +1,125 @@
+protein	5oxpro_c
+protein	adp_c
+protein	ala_L_c
+protein	atp_c
+protein	cgly_c
+protein	cgly_e
+protein	cys_L_c
+protein	cys_L_e
+protein	glu_L_c
+protein	glu_L_e
+protein	gluala_e
+protein	glucys_c
+protein	gly_c
+protein	gly_e
+protein	gthox_c
+protein	gthox_e
+protein	gthox_m
+protein	gthrd_c
+protein	gthrd_e
+protein	gthrd_m
+protein	h2o2_c
+protein	h2o2_e
+protein	h2o2_m
+protein	h2o_c
+protein	h2o_e
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	pi_c
+abstract	AMPTASECG
+abstract	AMPTASECGe
+abstract	GLUCYS
+abstract	GTHP
+abstract	GTHPe
+abstract	GTHPm
+abstract	GTHS
+abstract	OPAHir
+abstract	r0021
+abstract	r0022
+abstract	r0129
+abstract	r0130
+abstract	r0568
+abstract	GGLUCT
+abstract	GTHRDt
+abstract	GTMLTe
+cys_L_c	AMPTASECG	-a>
+gly_c	AMPTASECG	-a>
+cgly_c	AMPTASECG	-a>
+h2o_c	AMPTASECG	-a>
+gly_e	AMPTASECGe	-a>
+cgly_e	AMPTASECGe	-a>
+h2o_e	AMPTASECGe	-a>
+cys_L_e	AMPTASECGe	-a>
+h_c	GLUCYS	-a>
+glu_L_c	GLUCYS	-a>
+pi_c	GLUCYS	-a>
+atp_c	GLUCYS	-a>
+adp_c	GLUCYS	-a>
+glucys_c	GLUCYS	-a>
+cys_L_c	GLUCYS	-a>
+gthrd_c	GTHP	-a>
+h2o2_c	GTHP	-a>
+h2o_c	GTHP	-a>
+gthox_c	GTHP	-a>
+gthox_e	GTHPe	-a>
+gthrd_e	GTHPe	-a>
+h2o_e	GTHPe	-a>
+h2o2_e	GTHPe	-a>
+h2o_m	GTHPm	-a>
+h2o2_m	GTHPm	-a>
+gthox_m	GTHPm	-a>
+gthrd_m	GTHPm	-a>
+gthrd_c	GTHS	-a>
+gly_c	GTHS	-a>
+h_c	GTHS	-a>
+pi_c	GTHS	-a>
+atp_c	GTHS	-a>
+glucys_c	GTHS	-a>
+adp_c	GTHS	-a>
+h2o_c	OPAHir	-a>
+h_c	OPAHir	-a>
+5oxpro_c	OPAHir	-a>
+glu_L_c	OPAHir	-a>
+pi_c	OPAHir	-a>
+atp_c	OPAHir	-a>
+adp_c	OPAHir	-a>
+nad_c	r0021	-a>
+gthrd_c	r0021	-a>
+gthox_c	r0021	-a>
+h_c	r0021	-a>
+nadh_c	r0021	-a>
+nadh_m	r0022	-a>
+h_m	r0022	-a>
+gthox_m	r0022	-a>
+nad_m	r0022	-a>
+gthrd_m	r0022	-a>
+glu_L_c	r0129	-a>
+gthrd_c	r0129	-a>
+h2o_c	r0129	-a>
+cgly_c	r0129	-a>
+cgly_e	r0130	-a>
+gthrd_e	r0130	-a>
+glu_L_e	r0130	-a>
+h2o_e	r0130	-a>
+cys_L_c	r0568	-a>
+glucys_c	r0568	-a>
+5oxpro_c	r0568	-a>
+gluala_e	GGLUCT	-a>
+ala_L_c	GGLUCT	-a>
+5oxpro_c	GGLUCT	-a>
+gthrd_c	GTHRDt	-a>
+h2o_c	GTHRDt	-a>
+h_c	GTHRDt	-a>
+gthrd_m	GTHRDt	-a>
+pi_c	GTHRDt	-a>
+atp_c	GTHRDt	-a>
+adp_c	GTHRDt	-a>
+cgly_e	GTMLTe	-a>
+gthrd_c	GTMLTe	-a>
+gluala_e	GTMLTe	-a>
+ala_L_c	GTMLTe	-a>

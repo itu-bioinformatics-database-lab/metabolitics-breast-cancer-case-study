@@ -1,0 +1,191 @@
+protein	C07535_c
+protein	C07535_r
+protein	C14849_c
+protein	C14849_r
+protein	C14849_x
+protein	C14851_c
+protein	C14851_r
+protein	C14851_x
+protein	CN0009_c
+protein	CN0009_r
+protein	CN0009_x
+protein	CN0010_c
+protein	CN0010_r
+protein	CN0010_x
+protein	CN0011_c
+protein	CN0011_r
+protein	CN0011_x
+protein	CN0012_c
+protein	CN0012_r
+protein	CN0012_x
+protein	CN0016_c
+protein	CN0016_r
+protein	CN0017_c
+protein	CN0017_r
+protein	CN0017_x
+protein	CN0018_c
+protein	CN0018_r
+protein	CN0018_x
+protein	CN0019_c
+protein	CN0019_r
+protein	CN0020_c
+protein	CN0020_r
+protein	CN0021_c
+protein	CN0021_r
+protein	CN0021_x
+protein	CN0022_c
+protein	CN0022_r
+protein	CN0022_x
+protein	CN0023_c
+protein	CN0023_r
+protein	h2o_c
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	o2_c
+protein	o2_r
+abstract	RN0020C
+abstract	RN0020R
+abstract	RN0021C
+abstract	RN0021R
+abstract	RN0021X
+abstract	RN0022C
+abstract	RN0022R
+abstract	RN0022X
+abstract	RN0023C
+abstract	RN0023R
+abstract	RN0023X
+abstract	RN0027C
+abstract	RN0027R
+abstract	RN0028C
+abstract	RN0028R
+abstract	RN0028X
+abstract	RN0029C
+abstract	RN0029R
+abstract	RN0030C
+abstract	RN0030R
+abstract	RN0031C
+abstract	RN0031R
+abstract	RN0031X
+abstract	RN0032C
+abstract	RN0032R
+C07535_c	RN0020C	-a>
+h2o_c	RN0020C	-a>
+nadp_c	RN0020C	-a>
+h_c	RN0020C	-a>
+nadph_c	RN0020C	-a>
+CN0012_c	RN0020C	-a>
+o2_c	RN0020C	-a>
+CN0012_r	RN0020R	-a>
+C07535_r	RN0020R	-a>
+o2_r	RN0020R	-a>
+nadp_r	RN0020R	-a>
+h2o_r	RN0020R	-a>
+h_r	RN0020R	-a>
+nadph_r	RN0020R	-a>
+h2o_c	RN0021C	-a>
+CN0012_c	RN0021C	-a>
+CN0009_c	RN0021C	-a>
+CN0012_r	RN0021R	-a>
+h2o_r	RN0021R	-a>
+CN0009_r	RN0021R	-a>
+h2o_x	RN0021X	-a>
+CN0012_x	RN0021X	-a>
+CN0009_x	RN0021X	-a>
+CN0010_c	RN0022C	-a>
+h2o_c	RN0022C	-a>
+C14851_c	RN0022C	-a>
+C14851_r	RN0022R	-a>
+CN0010_r	RN0022R	-a>
+h2o_r	RN0022R	-a>
+h2o_x	RN0022X	-a>
+C14851_x	RN0022X	-a>
+CN0010_x	RN0022X	-a>
+h2o_c	RN0023C	-a>
+CN0011_c	RN0023C	-a>
+C14849_c	RN0023C	-a>
+C14849_r	RN0023R	-a>
+CN0011_r	RN0023R	-a>
+h2o_r	RN0023R	-a>
+h2o_x	RN0023X	-a>
+C14849_x	RN0023X	-a>
+CN0011_x	RN0023X	-a>
+h2o_c	RN0027C	-a>
+nadp_c	RN0027C	-a>
+h_c	RN0027C	-a>
+CN0020_c	RN0027C	-a>
+nadph_c	RN0027C	-a>
+CN0021_c	RN0027C	-a>
+o2_c	RN0027C	-a>
+o2_r	RN0027R	-a>
+nadp_r	RN0027R	-a>
+h2o_r	RN0027R	-a>
+h_r	RN0027R	-a>
+nadph_r	RN0027R	-a>
+CN0020_r	RN0027R	-a>
+CN0021_r	RN0027R	-a>
+CN0021_c	RN0028C	-a>
+CN0022_c	RN0028C	-a>
+h2o_c	RN0028C	-a>
+CN0022_r	RN0028R	-a>
+CN0021_r	RN0028R	-a>
+h2o_r	RN0028R	-a>
+CN0021_x	RN0028X	-a>
+h2o_x	RN0028X	-a>
+CN0022_x	RN0028X	-a>
+h2o_c	RN0029C	-a>
+nadp_c	RN0029C	-a>
+h_c	RN0029C	-a>
+CN0023_c	RN0029C	-a>
+nadph_c	RN0029C	-a>
+CN0022_c	RN0029C	-a>
+o2_c	RN0029C	-a>
+CN0022_r	RN0029R	-a>
+o2_r	RN0029R	-a>
+nadp_r	RN0029R	-a>
+h2o_r	RN0029R	-a>
+CN0023_r	RN0029R	-a>
+nadph_r	RN0029R	-a>
+h_r	RN0029R	-a>
+h2o_c	RN0030C	-a>
+nadp_c	RN0030C	-a>
+h_c	RN0030C	-a>
+CN0016_c	RN0030C	-a>
+CN0017_c	RN0030C	-a>
+nadph_c	RN0030C	-a>
+o2_c	RN0030C	-a>
+CN0017_r	RN0030R	-a>
+o2_r	RN0030R	-a>
+nadp_r	RN0030R	-a>
+h2o_r	RN0030R	-a>
+h_r	RN0030R	-a>
+CN0016_r	RN0030R	-a>
+nadph_r	RN0030R	-a>
+CN0018_c	RN0031C	-a>
+h2o_c	RN0031C	-a>
+CN0017_c	RN0031C	-a>
+CN0017_r	RN0031R	-a>
+CN0018_r	RN0031R	-a>
+h2o_r	RN0031R	-a>
+CN0018_x	RN0031X	-a>
+h2o_x	RN0031X	-a>
+CN0017_x	RN0031X	-a>
+h2o_c	RN0032C	-a>
+nadp_c	RN0032C	-a>
+CN0019_c	RN0032C	-a>
+h_c	RN0032C	-a>
+CN0018_c	RN0032C	-a>
+nadph_c	RN0032C	-a>
+o2_c	RN0032C	-a>
+o2_r	RN0032R	-a>
+nadp_r	RN0032R	-a>
+CN0019_r	RN0032R	-a>
+h_r	RN0032R	-a>
+h2o_r	RN0032R	-a>
+nadph_r	RN0032R	-a>
+CN0018_r	RN0032R	-a>

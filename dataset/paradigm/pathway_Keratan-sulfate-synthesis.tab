@@ -1,0 +1,424 @@
+protein	cmp_g
+protein	cmpacna_g
+protein	core2_g
+protein	core4_g
+protein	h_g
+protein	ksi_g
+protein	ksi_pre10_g
+protein	ksi_pre11_g
+protein	ksi_pre12_g
+protein	ksi_pre13_g
+protein	ksi_pre14_g
+protein	ksi_pre15_g
+protein	ksi_pre16_g
+protein	ksi_pre17_g
+protein	ksi_pre18_g
+protein	ksi_pre19_g
+protein	ksi_pre1_g
+protein	ksi_pre20_g
+protein	ksi_pre21_g
+protein	ksi_pre22_g
+protein	ksi_pre23_g
+protein	ksi_pre24_g
+protein	ksi_pre25_g
+protein	ksi_pre26_g
+protein	ksi_pre27_g
+protein	ksi_pre28_g
+protein	ksi_pre29_g
+protein	ksi_pre2_g
+protein	ksi_pre30_g
+protein	ksi_pre31_g
+protein	ksi_pre32_g
+protein	ksi_pre33_g
+protein	ksi_pre34_g
+protein	ksi_pre35_g
+protein	ksi_pre36_g
+protein	ksi_pre3_g
+protein	ksi_pre4_g
+protein	ksi_pre5_g
+protein	ksi_pre6_g
+protein	ksi_pre7_g
+protein	ksi_pre8_g
+protein	ksi_pre9_g
+protein	ksii_core2_g
+protein	ksii_core2_pre10_g
+protein	ksii_core2_pre1_g
+protein	ksii_core2_pre2_g
+protein	ksii_core2_pre3_g
+protein	ksii_core2_pre4_g
+protein	ksii_core2_pre5_g
+protein	ksii_core2_pre6_g
+protein	ksii_core2_pre7_g
+protein	ksii_core2_pre8_g
+protein	ksii_core2_pre9_g
+protein	ksii_core4_g
+protein	ksii_core4_pre10_g
+protein	ksii_core4_pre1_g
+protein	ksii_core4_pre2_g
+protein	ksii_core4_pre3_g
+protein	ksii_core4_pre4_g
+protein	ksii_core4_pre5_g
+protein	ksii_core4_pre6_g
+protein	ksii_core4_pre7_g
+protein	ksii_core4_pre8_g
+protein	ksii_core4_pre9_g
+protein	l2fn2m2masn_g
+protein	pap_g
+protein	paps_g
+protein	uacgam_g
+protein	udp_g
+protein	udpgal_g
+abstract	AG13T10g
+abstract	AG13T11g
+abstract	AG13T12g
+abstract	AG13T13g
+abstract	AG13T14g
+abstract	AG13T15g
+abstract	AG13T16g
+abstract	AG13T17g
+abstract	AG13T18g
+abstract	AG13T1g
+abstract	AG13T2g
+abstract	AG13T3g
+abstract	AG13T4g
+abstract	AG13T5g
+abstract	AG13T6g
+abstract	AG13T7g
+abstract	AG13T8g
+abstract	AG13T9g
+abstract	G14T10g
+abstract	G14T11g
+abstract	G14T12g
+abstract	G14T13g
+abstract	G14T14g
+abstract	G14T15g
+abstract	G14T16g
+abstract	G14T17g
+abstract	G14T18g
+abstract	G14T19g
+abstract	G14T20g
+abstract	G14T21g
+abstract	G14T2g
+abstract	G14T3g
+abstract	G14T4g
+abstract	G14T5g
+abstract	G14T6g
+abstract	G14T7g
+abstract	G14T8g
+abstract	G14T9g
+abstract	S23T2g
+abstract	S23T3g
+abstract	S23T4g
+abstract	S6T10g
+abstract	S6T11g
+abstract	S6T12g
+abstract	S6T13g
+abstract	S6T14g
+abstract	S6T15g
+abstract	S6T16g
+abstract	S6T17g
+abstract	S6T18g
+abstract	S6T1g
+abstract	S6T2g
+abstract	S6T3g
+abstract	S6T4g
+abstract	S6T5g
+abstract	S6T6g
+abstract	S6T7g
+abstract	S6T8g
+abstract	S6T9g
+uacgam_g	AG13T10g	-a>
+ksi_pre18_g	AG13T10g	-a>
+h_g	AG13T10g	-a>
+udp_g	AG13T10g	-a>
+ksi_pre19_g	AG13T10g	-a>
+uacgam_g	AG13T11g	-a>
+ksi_pre21_g	AG13T11g	-a>
+h_g	AG13T11g	-a>
+udp_g	AG13T11g	-a>
+ksi_pre22_g	AG13T11g	-a>
+uacgam_g	AG13T12g	-a>
+ksi_pre24_g	AG13T12g	-a>
+h_g	AG13T12g	-a>
+udp_g	AG13T12g	-a>
+ksi_pre25_g	AG13T12g	-a>
+uacgam_g	AG13T13g	-a>
+ksi_pre28_g	AG13T13g	-a>
+h_g	AG13T13g	-a>
+ksi_pre27_g	AG13T13g	-a>
+udp_g	AG13T13g	-a>
+uacgam_g	AG13T14g	-a>
+ksi_pre30_g	AG13T14g	-a>
+h_g	AG13T14g	-a>
+udp_g	AG13T14g	-a>
+ksi_pre31_g	AG13T14g	-a>
+uacgam_g	AG13T15g	-a>
+ksi_pre34_g	AG13T15g	-a>
+h_g	AG13T15g	-a>
+udp_g	AG13T15g	-a>
+ksi_pre33_g	AG13T15g	-a>
+uacgam_g	AG13T16g	-a>
+ksii_core4_pre3_g	AG13T16g	-a>
+h_g	AG13T16g	-a>
+ksii_core4_pre2_g	AG13T16g	-a>
+udp_g	AG13T16g	-a>
+uacgam_g	AG13T17g	-a>
+h_g	AG13T17g	-a>
+ksii_core4_pre4_g	AG13T17g	-a>
+udp_g	AG13T17g	-a>
+ksii_core4_pre5_g	AG13T17g	-a>
+uacgam_g	AG13T18g	-a>
+ksii_core4_pre8_g	AG13T18g	-a>
+h_g	AG13T18g	-a>
+udp_g	AG13T18g	-a>
+ksii_core4_pre7_g	AG13T18g	-a>
+uacgam_g	AG13T1g	-a>
+ksii_core2_pre3_g	AG13T1g	-a>
+h_g	AG13T1g	-a>
+ksii_core2_pre2_g	AG13T1g	-a>
+udp_g	AG13T1g	-a>
+uacgam_g	AG13T2g	-a>
+ksii_core2_pre5_g	AG13T2g	-a>
+h_g	AG13T2g	-a>
+ksii_core2_pre4_g	AG13T2g	-a>
+udp_g	AG13T2g	-a>
+uacgam_g	AG13T3g	-a>
+ksii_core2_pre8_g	AG13T3g	-a>
+h_g	AG13T3g	-a>
+udp_g	AG13T3g	-a>
+ksii_core2_pre7_g	AG13T3g	-a>
+ksi_pre2_g	AG13T4g	-a>
+uacgam_g	AG13T4g	-a>
+h_g	AG13T4g	-a>
+udp_g	AG13T4g	-a>
+ksi_pre1_g	AG13T4g	-a>
+uacgam_g	AG13T5g	-a>
+ksi_pre3_g	AG13T5g	-a>
+h_g	AG13T5g	-a>
+udp_g	AG13T5g	-a>
+ksi_pre4_g	AG13T5g	-a>
+uacgam_g	AG13T6g	-a>
+ksi_pre7_g	AG13T6g	-a>
+h_g	AG13T6g	-a>
+udp_g	AG13T6g	-a>
+ksi_pre6_g	AG13T6g	-a>
+uacgam_g	AG13T7g	-a>
+ksi_pre9_g	AG13T7g	-a>
+h_g	AG13T7g	-a>
+udp_g	AG13T7g	-a>
+ksi_pre10_g	AG13T7g	-a>
+uacgam_g	AG13T8g	-a>
+ksi_pre13_g	AG13T8g	-a>
+h_g	AG13T8g	-a>
+ksi_pre12_g	AG13T8g	-a>
+udp_g	AG13T8g	-a>
+uacgam_g	AG13T9g	-a>
+ksi_pre15_g	AG13T9g	-a>
+ksi_pre16_g	AG13T9g	-a>
+h_g	AG13T9g	-a>
+udp_g	AG13T9g	-a>
+ksi_pre15_g	G14T10g	-a>
+h_g	G14T10g	-a>
+udpgal_g	G14T10g	-a>
+ksi_pre14_g	G14T10g	-a>
+udp_g	G14T10g	-a>
+ksi_pre18_g	G14T11g	-a>
+udpgal_g	G14T11g	-a>
+h_g	G14T11g	-a>
+udp_g	G14T11g	-a>
+ksi_pre17_g	G14T11g	-a>
+ksi_pre21_g	G14T12g	-a>
+udpgal_g	G14T12g	-a>
+h_g	G14T12g	-a>
+ksi_pre20_g	G14T12g	-a>
+udp_g	G14T12g	-a>
+h_g	G14T13g	-a>
+ksi_pre24_g	G14T13g	-a>
+udpgal_g	G14T13g	-a>
+udp_g	G14T13g	-a>
+ksi_pre23_g	G14T13g	-a>
+ksi_pre26_g	G14T14g	-a>
+udpgal_g	G14T14g	-a>
+h_g	G14T14g	-a>
+ksi_pre27_g	G14T14g	-a>
+udp_g	G14T14g	-a>
+h_g	G14T15g	-a>
+ksi_pre30_g	G14T15g	-a>
+ksi_pre29_g	G14T15g	-a>
+udp_g	G14T15g	-a>
+udpgal_g	G14T15g	-a>
+ksi_pre32_g	G14T16g	-a>
+udpgal_g	G14T16g	-a>
+h_g	G14T16g	-a>
+udp_g	G14T16g	-a>
+ksi_pre33_g	G14T16g	-a>
+ksi_pre36_g	G14T17g	-a>
+udpgal_g	G14T17g	-a>
+h_g	G14T17g	-a>
+ksi_pre35_g	G14T17g	-a>
+udp_g	G14T17g	-a>
+ksii_core4_pre1_g	G14T18g	-a>
+udpgal_g	G14T18g	-a>
+h_g	G14T18g	-a>
+core4_g	G14T18g	-a>
+udp_g	G14T18g	-a>
+ksii_core4_pre3_g	G14T19g	-a>
+h_g	G14T19g	-a>
+udpgal_g	G14T19g	-a>
+ksii_core4_pre4_g	G14T19g	-a>
+udp_g	G14T19g	-a>
+ksii_core4_pre6_g	G14T20g	-a>
+h_g	G14T20g	-a>
+udp_g	G14T20g	-a>
+ksii_core4_pre7_g	G14T20g	-a>
+udpgal_g	G14T20g	-a>
+udp_g	G14T21g	-a>
+udpgal_g	G14T21g	-a>
+h_g	G14T21g	-a>
+ksii_core4_pre9_g	G14T21g	-a>
+ksii_core4_pre10_g	G14T21g	-a>
+ksii_core2_pre1_g	G14T2g	-a>
+udpgal_g	G14T2g	-a>
+h_g	G14T2g	-a>
+ksii_core2_pre2_g	G14T2g	-a>
+udp_g	G14T2g	-a>
+ksii_core2_pre3_g	G14T3g	-a>
+udpgal_g	G14T3g	-a>
+h_g	G14T3g	-a>
+ksii_core2_pre4_g	G14T3g	-a>
+udp_g	G14T3g	-a>
+ksii_core2_pre7_g	G14T4g	-a>
+ksii_core2_pre6_g	G14T4g	-a>
+h_g	G14T4g	-a>
+udp_g	G14T4g	-a>
+udpgal_g	G14T4g	-a>
+udp_g	G14T5g	-a>
+udpgal_g	G14T5g	-a>
+h_g	G14T5g	-a>
+ksii_core2_pre9_g	G14T5g	-a>
+ksii_core2_pre10_g	G14T5g	-a>
+ksi_pre2_g	G14T6g	-a>
+ksi_pre3_g	G14T6g	-a>
+udpgal_g	G14T6g	-a>
+h_g	G14T6g	-a>
+udp_g	G14T6g	-a>
+ksi_pre5_g	G14T7g	-a>
+h_g	G14T7g	-a>
+udp_g	G14T7g	-a>
+ksi_pre6_g	G14T7g	-a>
+udpgal_g	G14T7g	-a>
+ksi_pre9_g	G14T8g	-a>
+udpgal_g	G14T8g	-a>
+h_g	G14T8g	-a>
+ksi_pre8_g	G14T8g	-a>
+udp_g	G14T8g	-a>
+ksi_pre11_g	G14T9g	-a>
+udpgal_g	G14T9g	-a>
+h_g	G14T9g	-a>
+ksi_pre12_g	G14T9g	-a>
+udp_g	G14T9g	-a>
+cmpacna_g	S23T2g	-a>
+ksii_core2_pre1_g	S23T2g	-a>
+h_g	S23T2g	-a>
+cmp_g	S23T2g	-a>
+core2_g	S23T2g	-a>
+l2fn2m2masn_g	S23T3g	-a>
+cmpacna_g	S23T3g	-a>
+h_g	S23T3g	-a>
+cmp_g	S23T3g	-a>
+ksi_pre1_g	S23T3g	-a>
+ksii_core4_pre1_g	S23T4g	-a>
+h_g	S23T4g	-a>
+cmp_g	S23T4g	-a>
+ksii_core4_pre2_g	S23T4g	-a>
+cmpacna_g	S23T4g	-a>
+ksi_pre22_g	S6T10g	-a>
+h_g	S6T10g	-a>
+paps_g	S6T10g	-a>
+pap_g	S6T10g	-a>
+ksi_pre23_g	S6T10g	-a>
+h_g	S6T11g	-a>
+ksi_pre26_g	S6T11g	-a>
+paps_g	S6T11g	-a>
+pap_g	S6T11g	-a>
+ksi_pre25_g	S6T11g	-a>
+h_g	S6T12g	-a>
+ksi_pre28_g	S6T12g	-a>
+paps_g	S6T12g	-a>
+pap_g	S6T12g	-a>
+ksi_pre29_g	S6T12g	-a>
+h_g	S6T13g	-a>
+ksi_pre32_g	S6T13g	-a>
+paps_g	S6T13g	-a>
+pap_g	S6T13g	-a>
+ksi_pre31_g	S6T13g	-a>
+h_g	S6T14g	-a>
+ksi_pre34_g	S6T14g	-a>
+paps_g	S6T14g	-a>
+pap_g	S6T14g	-a>
+ksi_pre35_g	S6T14g	-a>
+ksi_pre36_g	S6T15g	-a>
+h_g	S6T15g	-a>
+paps_g	S6T15g	-a>
+pap_g	S6T15g	-a>
+ksi_g	S6T15g	-a>
+h_g	S6T16g	-a>
+paps_g	S6T16g	-a>
+pap_g	S6T16g	-a>
+ksii_core4_pre6_g	S6T16g	-a>
+ksii_core4_pre5_g	S6T16g	-a>
+h_g	S6T17g	-a>
+ksii_core4_pre8_g	S6T17g	-a>
+paps_g	S6T17g	-a>
+pap_g	S6T17g	-a>
+ksii_core4_pre9_g	S6T17g	-a>
+h_g	S6T18g	-a>
+paps_g	S6T18g	-a>
+pap_g	S6T18g	-a>
+ksii_core4_pre10_g	S6T18g	-a>
+ksii_core4_g	S6T18g	-a>
+ksii_core2_pre5_g	S6T1g	-a>
+h_g	S6T1g	-a>
+paps_g	S6T1g	-a>
+pap_g	S6T1g	-a>
+ksii_core2_pre6_g	S6T1g	-a>
+h_g	S6T2g	-a>
+ksii_core2_pre8_g	S6T2g	-a>
+paps_g	S6T2g	-a>
+pap_g	S6T2g	-a>
+ksii_core2_pre9_g	S6T2g	-a>
+h_g	S6T3g	-a>
+paps_g	S6T3g	-a>
+pap_g	S6T3g	-a>
+ksii_core2_pre10_g	S6T3g	-a>
+ksii_core2_g	S6T3g	-a>
+h_g	S6T4g	-a>
+ksi_pre5_g	S6T4g	-a>
+pap_g	S6T4g	-a>
+paps_g	S6T4g	-a>
+ksi_pre4_g	S6T4g	-a>
+h_g	S6T5g	-a>
+ksi_pre7_g	S6T5g	-a>
+paps_g	S6T5g	-a>
+pap_g	S6T5g	-a>
+ksi_pre8_g	S6T5g	-a>
+h_g	S6T6g	-a>
+ksi_pre11_g	S6T6g	-a>
+paps_g	S6T6g	-a>
+pap_g	S6T6g	-a>
+ksi_pre10_g	S6T6g	-a>
+h_g	S6T7g	-a>
+ksi_pre14_g	S6T7g	-a>
+paps_g	S6T7g	-a>
+pap_g	S6T7g	-a>
+ksi_pre13_g	S6T7g	-a>
+h_g	S6T8g	-a>
+ksi_pre16_g	S6T8g	-a>
+pap_g	S6T8g	-a>
+paps_g	S6T8g	-a>
+ksi_pre17_g	S6T8g	-a>
+h_g	S6T9g	-a>
+paps_g	S6T9g	-a>
+pap_g	S6T9g	-a>
+ksi_pre20_g	S6T9g	-a>
+ksi_pre19_g	S6T9g	-a>

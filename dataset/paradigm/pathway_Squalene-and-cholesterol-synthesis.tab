@@ -1,0 +1,53 @@
+protein	5dpmev_c
+protein	5pmev_c
+protein	adp_c
+protein	atp_c
+protein	chsterol_r
+protein	co2_c
+protein	coa_c
+protein	dmpp_c
+protein	dsmsterol_r
+protein	h_c
+protein	h_r
+protein	hmgcoa_c
+protein	ipdp_c
+protein	mev_R_c
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	pi_c
+abstract	DPMVDc
+abstract	DSREDUCr
+abstract	HMGCOARc
+abstract	IPDDI
+abstract	MEVK1c
+abstract	PMEVKc
+5dpmev_c	DPMVDc	-a>
+pi_c	DPMVDc	-a>
+atp_c	DPMVDc	-a>
+adp_c	DPMVDc	-a>
+ipdp_c	DPMVDc	-a>
+co2_c	DPMVDc	-a>
+h_r	DSREDUCr	-a>
+dsmsterol_r	DSREDUCr	-a>
+nadph_r	DSREDUCr	-a>
+nadp_r	DSREDUCr	-a>
+chsterol_r	DSREDUCr	-a>
+coa_c	HMGCOARc	-a>
+nadp_c	HMGCOARc	-a>
+hmgcoa_c	HMGCOARc	-a>
+nadph_c	HMGCOARc	-a>
+mev_R_c	HMGCOARc	-a>
+h_c	HMGCOARc	-a>
+dmpp_c	IPDDI	-a>
+ipdp_c	IPDDI	-a>
+atp_c	MEVK1c	-a>
+adp_c	MEVK1c	-a>
+mev_R_c	MEVK1c	-a>
+5pmev_c	MEVK1c	-a>
+h_c	MEVK1c	-a>
+atp_c	PMEVKc	-a>
+5dpmev_c	PMEVKc	-a>
+5pmev_c	PMEVKc	-a>
+adp_c	PMEVKc	-a>

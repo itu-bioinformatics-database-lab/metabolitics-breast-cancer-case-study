@@ -1,0 +1,78 @@
+protein	4pyrdx_c
+protein	adp_c
+protein	atp_c
+protein	h2o2_c
+protein	h2o_c
+protein	h_c
+protein	nh4_c
+protein	o2_c
+protein	pdx5p_c
+protein	pi_c
+protein	pyam5p_c
+protein	pydam_c
+protein	pydx5p_c
+protein	pydx_c
+protein	pydxn_c
+abstract	HYPOE
+abstract	PDX5PO
+abstract	PDXPP
+abstract	PYAM5POr
+abstract	PYDAMK
+abstract	PYDXDH
+abstract	PYDXK
+abstract	PYDXNK
+abstract	PYDXPP
+abstract	r0388
+abstract	r0389
+pi_c	HYPOE	-a>
+pydam_c	HYPOE	-a>
+pyam5p_c	HYPOE	-a>
+h2o_c	HYPOE	-a>
+h2o2_c	PDX5PO	-a>
+o2_c	PDX5PO	-a>
+pdx5p_c	PDX5PO	-a>
+pydx5p_c	PDX5PO	-a>
+pi_c	PDXPP	-a>
+h2o_c	PDXPP	-a>
+pydxn_c	PDXPP	-a>
+pdx5p_c	PDXPP	-a>
+pydx5p_c	PYAM5POr	-a>
+h2o_c	PYAM5POr	-a>
+pyam5p_c	PYAM5POr	-a>
+h2o2_c	PYAM5POr	-a>
+nh4_c	PYAM5POr	-a>
+o2_c	PYAM5POr	-a>
+atp_c	PYDAMK	-a>
+pyam5p_c	PYDAMK	-a>
+pydam_c	PYDAMK	-a>
+h_c	PYDAMK	-a>
+adp_c	PYDAMK	-a>
+h2o2_c	PYDXDH	-a>
+4pyrdx_c	PYDXDH	-a>
+pydx_c	PYDXDH	-a>
+h2o_c	PYDXDH	-a>
+o2_c	PYDXDH	-a>
+pydx5p_c	PYDXK	-a>
+atp_c	PYDXK	-a>
+pydx_c	PYDXK	-a>
+adp_c	PYDXK	-a>
+h_c	PYDXK	-a>
+atp_c	PYDXNK	-a>
+pydxn_c	PYDXNK	-a>
+pdx5p_c	PYDXNK	-a>
+adp_c	PYDXNK	-a>
+h_c	PYDXNK	-a>
+pydx5p_c	PYDXPP	-a>
+h2o_c	PYDXPP	-a>
+pydx_c	PYDXPP	-a>
+pi_c	PYDXPP	-a>
+h2o_c	r0388	-a>
+h2o2_c	r0388	-a>
+pydam_c	r0388	-a>
+nh4_c	r0388	-a>
+pydx_c	r0388	-a>
+o2_c	r0388	-a>
+h2o2_c	r0389	-a>
+pydxn_c	r0389	-a>
+pydx_c	r0389	-a>
+o2_c	r0389	-a>

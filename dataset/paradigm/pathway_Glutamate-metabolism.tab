@@ -1,0 +1,137 @@
+protein	1pyr5c_m
+protein	4abut_c
+protein	4abut_m
+protein	4abutn_m
+protein	adp_c
+protein	adp_m
+protein	akg_c
+protein	akg_m
+protein	ala_L_c
+protein	atp_c
+protein	atp_m
+protein	cbp_m
+protein	co2_c
+protein	gln_L_c
+protein	gln_L_m
+protein	glu_L_c
+protein	glu_L_m
+protein	gthox_c
+protein	gthox_m
+protein	gthrd_c
+protein	gthrd_m
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	hco3_m
+protein	nad_m
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	nh4_c
+protein	nh4_m
+protein	pi_c
+protein	pi_m
+protein	pyr_c
+protein	succ_m
+protein	sucsal_m
+abstract	ABTArm
+abstract	ALATA_L
+abstract	CBPSam
+abstract	GLNS
+abstract	GLUDC
+abstract	GLUDxm
+abstract	GLUDym
+abstract	GLUNm
+abstract	GTHO
+abstract	GTHOm
+abstract	P5CDm
+abstract	r0178
+abstract	r0179
+abstract	r0464
+abstract	r0549
+4abut_m	ABTArm	-a>
+glu_L_m	ABTArm	-a>
+akg_m	ABTArm	-a>
+sucsal_m	ABTArm	-a>
+glu_L_c	ALATA_L	-a>
+pyr_c	ALATA_L	-a>
+ala_L_c	ALATA_L	-a>
+akg_c	ALATA_L	-a>
+adp_m	CBPSam	-a>
+nh4_m	CBPSam	-a>
+pi_m	CBPSam	-a>
+atp_m	CBPSam	-a>
+hco3_m	CBPSam	-a>
+cbp_m	CBPSam	-a>
+h_m	CBPSam	-a>
+h_c	GLNS	-a>
+glu_L_c	GLNS	-a>
+pi_c	GLNS	-a>
+atp_c	GLNS	-a>
+gln_L_c	GLNS	-a>
+adp_c	GLNS	-a>
+nh4_c	GLNS	-a>
+glu_L_c	GLUDC	-a>
+co2_c	GLUDC	-a>
+h_c	GLUDC	-a>
+4abut_c	GLUDC	-a>
+h2o_m	GLUDxm	-a>
+glu_L_m	GLUDxm	-a>
+nh4_m	GLUDxm	-a>
+h_m	GLUDxm	-a>
+nad_m	GLUDxm	-a>
+nadh_m	GLUDxm	-a>
+akg_m	GLUDxm	-a>
+h2o_m	GLUDym	-a>
+glu_L_m	GLUDym	-a>
+nadph_m	GLUDym	-a>
+nh4_m	GLUDym	-a>
+h_m	GLUDym	-a>
+akg_m	GLUDym	-a>
+nadp_m	GLUDym	-a>
+h2o_m	GLUNm	-a>
+glu_L_m	GLUNm	-a>
+nh4_m	GLUNm	-a>
+gln_L_m	GLUNm	-a>
+gthrd_c	GTHO	-a>
+nadp_c	GTHO	-a>
+nadph_c	GTHO	-a>
+h_c	GTHO	-a>
+gthox_c	GTHO	-a>
+nadph_m	GTHOm	-a>
+gthox_m	GTHOm	-a>
+h_m	GTHOm	-a>
+nadp_m	GTHOm	-a>
+gthrd_m	GTHOm	-a>
+h2o_m	P5CDm	-a>
+glu_L_m	P5CDm	-a>
+1pyr5c_m	P5CDm	-a>
+h_m	P5CDm	-a>
+nad_m	P5CDm	-a>
+nadh_m	P5CDm	-a>
+h2o_m	r0178	-a>
+h_m	r0178	-a>
+sucsal_m	r0178	-a>
+nad_m	r0178	-a>
+nadh_m	r0178	-a>
+succ_m	r0178	-a>
+h2o_m	r0179	-a>
+nadph_m	r0179	-a>
+sucsal_m	r0179	-a>
+h_m	r0179	-a>
+succ_m	r0179	-a>
+nadp_m	r0179	-a>
+h2o_m	r0464	-a>
+nadph_m	r0464	-a>
+h_m	r0464	-a>
+4abutn_m	r0464	-a>
+4abut_m	r0464	-a>
+nadp_m	r0464	-a>
+h2o_m	r0549	-a>
+h_m	r0549	-a>
+nadh_m	r0549	-a>
+4abutn_m	r0549	-a>
+4abut_m	r0549	-a>
+nad_m	r0549	-a>

@@ -1,0 +1,113 @@
+protein	Ser_Thr_g
+protein	T_antigen_g
+protein	Tn_antigen_g
+protein	cmp_g
+protein	cmpacna_g
+protein	core2_g
+protein	core3_g
+protein	core4_g
+protein	core5_g
+protein	core6_g
+protein	core7_g
+protein	core8_g
+protein	dsT_antigen_g
+protein	f1a_g
+protein	gncore1_g
+protein	gncore2_g
+protein	h_g
+protein	sT_antigen_g
+protein	sTn_antigen_g
+protein	uacgam_g
+protein	udp_g
+protein	udpacgal_g
+protein	udpgal_g
+abstract	A4GNT1g
+abstract	A4GNT2g
+abstract	CORE2GTg
+abstract	CORE3GTg
+abstract	CORE4GTg
+abstract	CORE5GTg
+abstract	CORE6GTg
+abstract	CORE7GTg
+abstract	CORE8GTg
+abstract	GALNTg
+abstract	N3Tg
+abstract	N4Tg
+abstract	NS26T2g
+abstract	NS26Tg
+abstract	S23Tg
+uacgam_g	A4GNT1g	-a>
+T_antigen_g	A4GNT1g	-a>
+h_g	A4GNT1g	-a>
+gncore1_g	A4GNT1g	-a>
+udp_g	A4GNT1g	-a>
+uacgam_g	A4GNT2g	-a>
+udp_g	A4GNT2g	-a>
+h_g	A4GNT2g	-a>
+gncore2_g	A4GNT2g	-a>
+core2_g	A4GNT2g	-a>
+uacgam_g	CORE2GTg	-a>
+T_antigen_g	CORE2GTg	-a>
+h_g	CORE2GTg	-a>
+udp_g	CORE2GTg	-a>
+core2_g	CORE2GTg	-a>
+uacgam_g	CORE3GTg	-a>
+core3_g	CORE3GTg	-a>
+h_g	CORE3GTg	-a>
+udp_g	CORE3GTg	-a>
+Tn_antigen_g	CORE3GTg	-a>
+uacgam_g	CORE4GTg	-a>
+core3_g	CORE4GTg	-a>
+h_g	CORE4GTg	-a>
+core4_g	CORE4GTg	-a>
+udp_g	CORE4GTg	-a>
+core5_g	CORE5GTg	-a>
+udpacgal_g	CORE5GTg	-a>
+h_g	CORE5GTg	-a>
+udp_g	CORE5GTg	-a>
+Tn_antigen_g	CORE5GTg	-a>
+uacgam_g	CORE6GTg	-a>
+h_g	CORE6GTg	-a>
+core6_g	CORE6GTg	-a>
+udp_g	CORE6GTg	-a>
+Tn_antigen_g	CORE6GTg	-a>
+udpacgal_g	CORE7GTg	-a>
+core7_g	CORE7GTg	-a>
+h_g	CORE7GTg	-a>
+udp_g	CORE7GTg	-a>
+Tn_antigen_g	CORE7GTg	-a>
+core8_g	CORE8GTg	-a>
+udpgal_g	CORE8GTg	-a>
+h_g	CORE8GTg	-a>
+udp_g	CORE8GTg	-a>
+Tn_antigen_g	CORE8GTg	-a>
+udp_g	GALNTg	-a>
+udpacgal_g	GALNTg	-a>
+h_g	GALNTg	-a>
+Ser_Thr_g	GALNTg	-a>
+Tn_antigen_g	GALNTg	-a>
+T_antigen_g	N3Tg	-a>
+udpgal_g	N3Tg	-a>
+h_g	N3Tg	-a>
+udp_g	N3Tg	-a>
+Tn_antigen_g	N3Tg	-a>
+f1a_g	N4Tg	-a>
+h_g	N4Tg	-a>
+udpgal_g	N4Tg	-a>
+core6_g	N4Tg	-a>
+udp_g	N4Tg	-a>
+dsT_antigen_g	NS26T2g	-a>
+sT_antigen_g	NS26T2g	-a>
+h_g	NS26T2g	-a>
+cmp_g	NS26T2g	-a>
+cmpacna_g	NS26T2g	-a>
+cmpacna_g	NS26Tg	-a>
+sTn_antigen_g	NS26Tg	-a>
+h_g	NS26Tg	-a>
+cmp_g	NS26Tg	-a>
+Tn_antigen_g	NS26Tg	-a>
+cmpacna_g	S23Tg	-a>
+T_antigen_g	S23Tg	-a>
+h_g	S23Tg	-a>
+cmp_g	S23Tg	-a>
+sT_antigen_g	S23Tg	-a>

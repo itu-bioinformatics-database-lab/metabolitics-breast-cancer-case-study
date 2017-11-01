@@ -1,0 +1,119 @@
+protein	C01747_c
+protein	C01747_g
+protein	C01747_l
+protein	C02744_c
+protein	C02744_g
+protein	C03405_c
+protein	C03405_g
+protein	crm_hs_c
+protein	crm_hs_e
+protein	crm_hs_g
+protein	crm_hs_n
+protein	crm_hs_r
+protein	digalside_hs_c
+protein	digalside_hs_g
+protein	gal_l
+protein	galgluside_hs_c
+protein	galgluside_hs_g
+protein	galside_hs_c
+protein	galside_hs_e
+protein	galside_hs_g
+protein	galside_hs_n
+protein	galside_hs_r
+protein	gluside_hs_c
+protein	h2o_l
+protein	h_c
+protein	h_e
+protein	h_g
+protein	h_n
+protein	h_r
+protein	pap_c
+protein	pap_g
+protein	paps_c
+protein	paps_g
+protein	sphings_l
+protein	udp_c
+protein	udp_e
+protein	udp_g
+protein	udp_n
+protein	udp_r
+protein	udpgal_c
+protein	udpgal_e
+protein	udpgal_g
+protein	udpgal_n
+protein	udpgal_r
+abstract	RE2666C
+abstract	RE2666G
+abstract	RE2677C
+abstract	RE2677E
+abstract	RE2677G
+abstract	RE2677N
+abstract	RE2677R
+abstract	RE2680C
+abstract	RE2717L
+abstract	RE2718C
+abstract	RE2718G
+abstract	RE2722C
+abstract	RE2722G
+udpgal_c	RE2666C	-a>
+h_c	RE2666C	-a>
+galside_hs_c	RE2666C	-a>
+digalside_hs_c	RE2666C	-a>
+udp_c	RE2666C	-a>
+h_g	RE2666G	-a>
+galside_hs_g	RE2666G	-a>
+digalside_hs_g	RE2666G	-a>
+udp_g	RE2666G	-a>
+udpgal_g	RE2666G	-a>
+udpgal_c	RE2677C	-a>
+galside_hs_c	RE2677C	-a>
+h_c	RE2677C	-a>
+crm_hs_c	RE2677C	-a>
+udp_c	RE2677C	-a>
+h_e	RE2677E	-a>
+crm_hs_e	RE2677E	-a>
+udp_e	RE2677E	-a>
+udpgal_e	RE2677E	-a>
+galside_hs_e	RE2677E	-a>
+galside_hs_g	RE2677G	-a>
+h_g	RE2677G	-a>
+crm_hs_g	RE2677G	-a>
+udp_g	RE2677G	-a>
+udpgal_g	RE2677G	-a>
+udp_n	RE2677N	-a>
+galside_hs_n	RE2677N	-a>
+crm_hs_n	RE2677N	-a>
+udpgal_n	RE2677N	-a>
+h_n	RE2677N	-a>
+h_r	RE2677R	-a>
+udp_r	RE2677R	-a>
+udpgal_r	RE2677R	-a>
+galside_hs_r	RE2677R	-a>
+crm_hs_r	RE2677R	-a>
+galgluside_hs_c	RE2680C	-a>
+gluside_hs_c	RE2680C	-a>
+udpgal_c	RE2680C	-a>
+h_c	RE2680C	-a>
+udp_c	RE2680C	-a>
+gal_l	RE2717L	-a>
+h2o_l	RE2717L	-a>
+sphings_l	RE2717L	-a>
+C01747_l	RE2717L	-a>
+C01747_c	RE2718C	-a>
+paps_c	RE2718C	-a>
+C02744_c	RE2718C	-a>
+h_c	RE2718C	-a>
+pap_c	RE2718C	-a>
+h_g	RE2718G	-a>
+C01747_g	RE2718G	-a>
+pap_g	RE2718G	-a>
+paps_g	RE2718G	-a>
+C02744_g	RE2718G	-a>
+paps_c	RE2722C	-a>
+C03405_c	RE2722C	-a>
+pap_c	RE2722C	-a>
+galgluside_hs_c	RE2722C	-a>
+paps_g	RE2722G	-a>
+pap_g	RE2722G	-a>
+galgluside_hs_g	RE2722G	-a>
+C03405_g	RE2722G	-a>

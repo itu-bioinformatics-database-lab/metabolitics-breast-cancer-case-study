@@ -1,0 +1,44 @@
+protein	acgam_l
+protein	glcur_l
+protein	h2o_l
+protein	h_c
+protein	h_e
+protein	h_l
+protein	ha_deg1_l
+protein	ha_e
+protein	ha_l
+protein	ha_pre1_e
+protein	ha_pre1_l
+protein	uacgam_c
+protein	udp_c
+protein	udpglcur_c
+abstract	GLCAASE8ly
+abstract	GLCAASE9ly
+abstract	NACHEX27ly
+abstract	HAS1
+abstract	HAS2
+ha_l	GLCAASE8ly	-a>
+ha_deg1_l	GLCAASE8ly	-a>
+glcur_l	GLCAASE8ly	-a>
+h2o_l	GLCAASE8ly	-a>
+h_l	GLCAASE8ly	-a>
+glcur_l	GLCAASE9ly	-a>
+ha_pre1_l	GLCAASE9ly	-a>
+h2o_l	GLCAASE9ly	-a>
+acgam_l	GLCAASE9ly	-a>
+ha_deg1_l	NACHEX27ly	-a>
+acgam_l	NACHEX27ly	-a>
+h2o_l	NACHEX27ly	-a>
+ha_pre1_l	NACHEX27ly	-a>
+udp_c	HAS1	-a>
+ha_pre1_e	HAS1	-a>
+h_c	HAS1	-a>
+uacgam_c	HAS1	-a>
+udpglcur_c	HAS1	-a>
+ha_e	HAS2	-a>
+udpglcur_c	HAS2	-a>
+h_e	HAS2	-a>
+udp_c	HAS2	-a>
+ha_pre1_e	HAS2	-a>
+uacgam_c	HAS2	-a>
+h_c	HAS2	-a>

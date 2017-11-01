@@ -1,0 +1,119 @@
+protein	2dp6mep_m
+protein	2dp6mobq_m
+protein	2dp6mobq_me_m
+protein	2dpmhobq_m
+protein	34hpl_m
+protein	34hpp_m
+protein	3dpdhb_m
+protein	3dpdhb_me_m
+protein	3dphb_m
+protein	4hbz_m
+protein	4hbzcoa_m
+protein	T4hcinnm_m
+protein	accoa_m
+protein	ahcys_m
+protein	amet_m
+protein	amp_m
+protein	atp_m
+protein	co2_m
+protein	coa_m
+protein	coucoa_m
+protein	decdp_m
+protein	h2o_m
+protein	h_m
+protein	nad_m
+protein	nadh_m
+protein	nadp_m
+protein	nadph_m
+protein	o2_m
+protein	ppi_m
+protein	q10_m
+abstract	34HPLFM
+abstract	3DPHBH1
+abstract	3DPHBH2
+abstract	4HBZCOAFm
+abstract	4HBZFm
+abstract	COQ3m
+abstract	COQ5m
+abstract	COQ6m
+abstract	COQ7m
+abstract	COUCOAFm
+abstract	DHDPBMTm
+abstract	DPHMBDCm
+abstract	HBZOPT10m
+abstract	T4HCINNMFM
+34hpl_m	34HPLFM	-a>
+34hpp_m	34HPLFM	-a>
+nadh_m	34HPLFM	-a>
+h_m	34HPLFM	-a>
+nad_m	34HPLFM	-a>
+h2o_m	3DPHBH1	-a>
+h_m	3DPHBH1	-a>
+3dphb_m	3DPHBH1	-a>
+nad_m	3DPHBH1	-a>
+nadh_m	3DPHBH1	-a>
+o2_m	3DPHBH1	-a>
+3dpdhb_m	3DPHBH1	-a>
+h2o_m	3DPHBH2	-a>
+nadph_m	3DPHBH2	-a>
+nadp_m	3DPHBH2	-a>
+h_m	3DPHBH2	-a>
+o2_m	3DPHBH2	-a>
+3dpdhb_m	3DPHBH2	-a>
+3dphb_m	3DPHBH2	-a>
+coa_m	4HBZCOAFm	-a>
+nad_m	4HBZCOAFm	-a>
+accoa_m	4HBZCOAFm	-a>
+h2o_m	4HBZCOAFm	-a>
+h_m	4HBZCOAFm	-a>
+coucoa_m	4HBZCOAFm	-a>
+nadh_m	4HBZCOAFm	-a>
+4hbzcoa_m	4HBZCOAFm	-a>
+h2o_m	4HBZFm	-a>
+4hbzcoa_m	4HBZFm	-a>
+h_m	4HBZFm	-a>
+coa_m	4HBZFm	-a>
+4hbz_m	4HBZFm	-a>
+ahcys_m	COQ3m	-a>
+amet_m	COQ3m	-a>
+h_m	COQ3m	-a>
+2dpmhobq_m	COQ3m	-a>
+q10_m	COQ3m	-a>
+2dp6mobq_me_m	COQ5m	-a>
+h_m	COQ5m	-a>
+amet_m	COQ5m	-a>
+ahcys_m	COQ5m	-a>
+2dp6mobq_m	COQ5m	-a>
+h2o_m	COQ6m	-a>
+2dp6mep_m	COQ6m	-a>
+o2_m	COQ6m	-a>
+2dp6mobq_m	COQ6m	-a>
+h2o_m	COQ7m	-a>
+nadph_m	COQ7m	-a>
+2dpmhobq_m	COQ7m	-a>
+h_m	COQ7m	-a>
+2dp6mobq_me_m	COQ7m	-a>
+o2_m	COQ7m	-a>
+nadp_m	COQ7m	-a>
+atp_m	COUCOAFm	-a>
+coa_m	COUCOAFm	-a>
+coucoa_m	COUCOAFm	-a>
+T4hcinnm_m	COUCOAFm	-a>
+ppi_m	COUCOAFm	-a>
+amp_m	COUCOAFm	-a>
+3dpdhb_me_m	DHDPBMTm	-a>
+amet_m	DHDPBMTm	-a>
+h_m	DHDPBMTm	-a>
+3dpdhb_m	DHDPBMTm	-a>
+ahcys_m	DHDPBMTm	-a>
+3dpdhb_me_m	DPHMBDCm	-a>
+2dp6mep_m	DPHMBDCm	-a>
+co2_m	DPHMBDCm	-a>
+h_m	DPHMBDCm	-a>
+ppi_m	HBZOPT10m	-a>
+4hbz_m	HBZOPT10m	-a>
+decdp_m	HBZOPT10m	-a>
+3dphb_m	HBZOPT10m	-a>
+h2o_m	T4HCINNMFM	-a>
+34hpl_m	T4HCINNMFM	-a>
+T4hcinnm_m	T4HCINNMFM	-a>

@@ -1,0 +1,330 @@
+protein	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_g
+protein	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_g
+protein	acgalfucgalacglcgal14acglcgalgluside_hs_g
+protein	acgalfucgalacglcgalgluside_hs_g
+protein	acglc13galacglcgal14acglcgalgluside_hs_g
+protein	acglcgal14acglcgalgluside_hs_g
+protein	acglcgalacglcgal14acglcgalgluside_hs_g
+protein	acglcgalgluside_hs_g
+protein	acnacngal14acglcgalgluside_hs_g
+protein	acngal14acglcgalgluside_hs_g
+protein	acngalacglcgal14acglcgalgluside_hs_g
+protein	acngalacglcgalgluside_hs_g
+protein	cmp_g
+protein	cmpacna_g
+protein	fuc12gal14acglcgalgluside_hs_g
+protein	fuc132galacglcgal14acglcgalgluside_hs_g
+protein	fuc13galacglcgal14acglcgalgluside_hs_g
+protein	fuc14galacglcgalgluside_hs_g
+protein	fucacgalfucgalacglcgalgluside_hs_g
+protein	fucacngal14acglcgalgluside_hs_g
+protein	fucacngalacglcgalgluside_hs_g
+protein	fucfuc12gal14acglcgalgluside_hs_g
+protein	fucfuc132galacglcgal14acglcgalgluside_hs_g
+protein	fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_g
+protein	fucfucfucgalacglcgal14acglcgalgluside_hs_g
+protein	fucfucgalacglc13galacglcgal14acglcgalgluside_hs_g
+protein	fucfucgalacglcgal14acglcgalgluside_hs_g
+protein	fucfucgalacglcgalacglcgal14acglcgalgluside_hs_g
+protein	fucfucgalacglcgalgluside_hs_g
+protein	fucgal14acglcgalgluside_hs_g
+protein	fucgalacgalfuc12gal14acglcgalgluside_hs_g
+protein	fucgalacgalfucgalacglcgal14acglcgalgluside_hs_g
+protein	fucgalacglc13galacglcgal14acglcgalgluside_hs_g
+protein	fucgalacglcgal14acglcgalgluside_hs_g
+protein	fucgalacglcgalgluside_hs_g
+protein	fucgalfucgalacglcgalgluside_hs_g
+protein	gal14acglcgalgluside_hs_g
+protein	galacgalfuc12gal14acglcgalgluside_hs_g
+protein	galacgalfucgalacglcgal14acglcgalgluside_hs_g
+protein	galacglc13galacglcgal14acglcgalgluside_hs_g
+protein	galacglcgal14acglcgalgluside_hs_g
+protein	galacglcgalacglcgal14acglcgalgluside_hs_g
+protein	galacglcgalgluside_hs_g
+protein	galfuc12gal14acglcgalgluside_hs_g
+protein	galfucgalacglcgal14acglcgalgluside_hs_g
+protein	galfucgalacglcgalgluside_hs_g
+protein	galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_g
+protein	galgluside_hs_g
+protein	gdp_g
+protein	gdpfuc_g
+protein	h_g
+protein	uacgam_g
+protein	udp_g
+protein	udpacgal_g
+protein	udpgal_g
+abstract	ABO1g
+abstract	ABO2g
+abstract	ABO3g
+abstract	ABO4g
+abstract	ABO5g
+abstract	ABO6g
+abstract	ABO7g
+abstract	ABO8g
+abstract	ABO9g
+abstract	B3GALTg
+abstract	B3GNT11g
+abstract	B3GNT12g
+abstract	B3GNT310g
+abstract	B3GNT311g
+abstract	B3GNT312g
+abstract	B3GNT313g
+abstract	B3GNT314g
+abstract	B3GNT315g
+abstract	B3GNT51g
+abstract	FUT12g
+abstract	FUT14g
+abstract	FUT15g
+abstract	FUT16g
+abstract	FUT17g
+abstract	FUT18g
+abstract	FUT31g
+abstract	FUT32g
+abstract	FUT33g
+abstract	FUT34g
+abstract	FUT35g
+abstract	FUT910g
+abstract	FUT911g
+abstract	FUT91g
+abstract	FUT92g
+abstract	FUT93g
+abstract	FUT94g
+abstract	FUT95g
+abstract	FUT96g
+abstract	FUT97g
+abstract	FUT98g
+abstract	FUT99g
+abstract	GCNTg
+abstract	ST3GAL31g
+abstract	ST3GAL61g
+abstract	ST3GAL62g
+abstract	ST8SIA56g
+acgalfucgalacglcgalgluside_hs_g	ABO1g	-a>
+udpacgal_g	ABO1g	-a>
+fucgalacglcgalgluside_hs_g	ABO1g	-a>
+h_g	ABO1g	-a>
+udp_g	ABO1g	-a>
+galfucgalacglcgalgluside_hs_g	ABO2g	-a>
+fucgalacglcgalgluside_hs_g	ABO2g	-a>
+h_g	ABO2g	-a>
+udp_g	ABO2g	-a>
+udpgal_g	ABO2g	-a>
+h_g	ABO3g	-a>
+fuc12gal14acglcgalgluside_hs_g	ABO3g	-a>
+udpgal_g	ABO3g	-a>
+galfuc12gal14acglcgalgluside_hs_g	ABO3g	-a>
+udp_g	ABO3g	-a>
+acgalfucgalacglcgalgluside_hs_g	ABO4g	-a>
+fuc12gal14acglcgalgluside_hs_g	ABO4g	-a>
+udpacgal_g	ABO4g	-a>
+h_g	ABO4g	-a>
+udp_g	ABO4g	-a>
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_g	ABO5g	-a>
+udpacgal_g	ABO5g	-a>
+h_g	ABO5g	-a>
+fucgalacgalfuc12gal14acglcgalgluside_hs_g	ABO5g	-a>
+udp_g	ABO5g	-a>
+udpacgal_g	ABO6g	-a>
+h_g	ABO6g	-a>
+acgalfucgalacglcgal14acglcgalgluside_hs_g	ABO6g	-a>
+udp_g	ABO6g	-a>
+fucgalacglcgal14acglcgalgluside_hs_g	ABO6g	-a>
+fucgalacgalfucgalacglcgal14acglcgalgluside_hs_g	ABO7g	-a>
+udpacgal_g	ABO7g	-a>
+h_g	ABO7g	-a>
+udp_g	ABO7g	-a>
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_g	ABO7g	-a>
+udpgal_g	ABO8g	-a>
+h_g	ABO8g	-a>
+udp_g	ABO8g	-a>
+galfucgalacglcgal14acglcgalgluside_hs_g	ABO8g	-a>
+fucgalacglcgal14acglcgalgluside_hs_g	ABO8g	-a>
+h_g	ABO9g	-a>
+udpgal_g	ABO9g	-a>
+galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_g	ABO9g	-a>
+udp_g	ABO9g	-a>
+fucfucgalacglcgalacglcgal14acglcgalgluside_hs_g	ABO9g	-a>
+galacglcgalgluside_hs_g	B3GALTg	-a>
+acglcgalgluside_hs_g	B3GALTg	-a>
+udpgal_g	B3GALTg	-a>
+h_g	B3GALTg	-a>
+udp_g	B3GALTg	-a>
+acglcgal14acglcgalgluside_hs_g	B3GNT11g	-a>
+uacgam_g	B3GNT11g	-a>
+h_g	B3GNT11g	-a>
+gal14acglcgalgluside_hs_g	B3GNT11g	-a>
+udp_g	B3GNT11g	-a>
+uacgam_g	B3GNT12g	-a>
+galacglcgal14acglcgalgluside_hs_g	B3GNT12g	-a>
+h_g	B3GNT12g	-a>
+acglc13galacglcgal14acglcgalgluside_hs_g	B3GNT12g	-a>
+udp_g	B3GNT12g	-a>
+h_g	B3GNT310g	-a>
+acglcgalgluside_hs_g	B3GNT310g	-a>
+udpgal_g	B3GNT310g	-a>
+gal14acglcgalgluside_hs_g	B3GNT310g	-a>
+udp_g	B3GNT310g	-a>
+acgalfucgalacglcgalgluside_hs_g	B3GNT311g	-a>
+h_g	B3GNT311g	-a>
+galacgalfuc12gal14acglcgalgluside_hs_g	B3GNT311g	-a>
+udp_g	B3GNT311g	-a>
+udpgal_g	B3GNT311g	-a>
+acglcgal14acglcgalgluside_hs_g	B3GNT312g	-a>
+galacglcgal14acglcgalgluside_hs_g	B3GNT312g	-a>
+udpgal_g	B3GNT312g	-a>
+h_g	B3GNT312g	-a>
+udp_g	B3GNT312g	-a>
+galacgalfucgalacglcgal14acglcgalgluside_hs_g	B3GNT313g	-a>
+udpgal_g	B3GNT313g	-a>
+h_g	B3GNT313g	-a>
+udp_g	B3GNT313g	-a>
+acgalfucgalacglcgal14acglcgalgluside_hs_g	B3GNT313g	-a>
+galacglcgalacglcgal14acglcgalgluside_hs_g	B3GNT314g	-a>
+h_g	B3GNT314g	-a>
+acglcgalacglcgal14acglcgalgluside_hs_g	B3GNT314g	-a>
+udp_g	B3GNT314g	-a>
+udpgal_g	B3GNT314g	-a>
+h_g	B3GNT315g	-a>
+udpgal_g	B3GNT315g	-a>
+galacglc13galacglcgal14acglcgalgluside_hs_g	B3GNT315g	-a>
+udp_g	B3GNT315g	-a>
+acglc13galacglcgal14acglcgalgluside_hs_g	B3GNT315g	-a>
+uacgam_g	B3GNT51g	-a>
+acglcgalgluside_hs_g	B3GNT51g	-a>
+h_g	B3GNT51g	-a>
+galgluside_hs_g	B3GNT51g	-a>
+udp_g	B3GNT51g	-a>
+gdpfuc_g	FUT12g	-a>
+galacglcgalgluside_hs_g	FUT12g	-a>
+fucgalacglcgalgluside_hs_g	FUT12g	-a>
+h_g	FUT12g	-a>
+gdp_g	FUT12g	-a>
+gdpfuc_g	FUT14g	-a>
+h_g	FUT14g	-a>
+fuc12gal14acglcgalgluside_hs_g	FUT14g	-a>
+gal14acglcgalgluside_hs_g	FUT14g	-a>
+gdp_g	FUT14g	-a>
+gdpfuc_g	FUT15g	-a>
+galacgalfuc12gal14acglcgalgluside_hs_g	FUT15g	-a>
+h_g	FUT15g	-a>
+fucgalacgalfuc12gal14acglcgalgluside_hs_g	FUT15g	-a>
+gdp_g	FUT15g	-a>
+gdpfuc_g	FUT16g	-a>
+galacglcgal14acglcgalgluside_hs_g	FUT16g	-a>
+fucgalacglcgal14acglcgalgluside_hs_g	FUT16g	-a>
+h_g	FUT16g	-a>
+gdp_g	FUT16g	-a>
+gdpfuc_g	FUT17g	-a>
+galacgalfucgalacglcgal14acglcgalgluside_hs_g	FUT17g	-a>
+h_g	FUT17g	-a>
+fucgalacgalfucgalacglcgal14acglcgalgluside_hs_g	FUT17g	-a>
+gdp_g	FUT17g	-a>
+gdpfuc_g	FUT18g	-a>
+h_g	FUT18g	-a>
+galacglcgalacglcgal14acglcgalgluside_hs_g	FUT18g	-a>
+fucfucgalacglcgalacglcgal14acglcgalgluside_hs_g	FUT18g	-a>
+gdp_g	FUT18g	-a>
+gdpfuc_g	FUT31g	-a>
+galacglcgalgluside_hs_g	FUT31g	-a>
+fuc14galacglcgalgluside_hs_g	FUT31g	-a>
+h_g	FUT31g	-a>
+gdp_g	FUT31g	-a>
+gdpfuc_g	FUT32g	-a>
+fucacngalacglcgalgluside_hs_g	FUT32g	-a>
+acngalacglcgalgluside_hs_g	FUT32g	-a>
+h_g	FUT32g	-a>
+gdp_g	FUT32g	-a>
+gdpfuc_g	FUT33g	-a>
+acgalfucgalacglcgalgluside_hs_g	FUT33g	-a>
+h_g	FUT33g	-a>
+fucacgalfucgalacglcgalgluside_hs_g	FUT33g	-a>
+gdp_g	FUT33g	-a>
+gdpfuc_g	FUT34g	-a>
+fucgalacglcgalgluside_hs_g	FUT34g	-a>
+h_g	FUT34g	-a>
+fucfucgalacglcgalgluside_hs_g	FUT34g	-a>
+gdp_g	FUT34g	-a>
+gdpfuc_g	FUT35g	-a>
+galfucgalacglcgalgluside_hs_g	FUT35g	-a>
+h_g	FUT35g	-a>
+fucgalfucgalacglcgalgluside_hs_g	FUT35g	-a>
+gdp_g	FUT35g	-a>
+gdpfuc_g	FUT910g	-a>
+h_g	FUT910g	-a>
+fucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUT910g	-a>
+fucfucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUT910g	-a>
+gdp_g	FUT910g	-a>
+gdpfuc_g	FUT911g	-a>
+fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUT911g	-a>
+h_g	FUT911g	-a>
+fucfucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUT911g	-a>
+gdp_g	FUT911g	-a>
+gdpfuc_g	FUT91g	-a>
+fucgal14acglcgalgluside_hs_g	FUT91g	-a>
+h_g	FUT91g	-a>
+gal14acglcgalgluside_hs_g	FUT91g	-a>
+gdp_g	FUT91g	-a>
+gdpfuc_g	FUT92g	-a>
+acngal14acglcgalgluside_hs_g	FUT92g	-a>
+h_g	FUT92g	-a>
+fucacngal14acglcgalgluside_hs_g	FUT92g	-a>
+gdp_g	FUT92g	-a>
+gdpfuc_g	FUT93g	-a>
+fuc12gal14acglcgalgluside_hs_g	FUT93g	-a>
+h_g	FUT93g	-a>
+fucfuc12gal14acglcgalgluside_hs_g	FUT93g	-a>
+gdp_g	FUT93g	-a>
+gdpfuc_g	FUT94g	-a>
+fucfucgalacglcgal14acglcgalgluside_hs_g	FUT94g	-a>
+fucgalacglcgal14acglcgalgluside_hs_g	FUT94g	-a>
+h_g	FUT94g	-a>
+gdp_g	FUT94g	-a>
+gdpfuc_g	FUT95g	-a>
+fucfucgalacglcgal14acglcgalgluside_hs_g	FUT95g	-a>
+fucfucfucgalacglcgal14acglcgalgluside_hs_g	FUT95g	-a>
+h_g	FUT95g	-a>
+gdp_g	FUT95g	-a>
+gdpfuc_g	FUT96g	-a>
+galacglcgal14acglcgalgluside_hs_g	FUT96g	-a>
+h_g	FUT96g	-a>
+fuc132galacglcgal14acglcgalgluside_hs_g	FUT96g	-a>
+gdp_g	FUT96g	-a>
+gdpfuc_g	FUT97g	-a>
+fucfuc132galacglcgal14acglcgalgluside_hs_g	FUT97g	-a>
+h_g	FUT97g	-a>
+fuc132galacglcgal14acglcgalgluside_hs_g	FUT97g	-a>
+gdp_g	FUT97g	-a>
+gdpfuc_g	FUT98g	-a>
+galacglcgal14acglcgalgluside_hs_g	FUT98g	-a>
+fuc13galacglcgal14acglcgalgluside_hs_g	FUT98g	-a>
+h_g	FUT98g	-a>
+gdp_g	FUT98g	-a>
+gdpfuc_g	FUT99g	-a>
+fucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUT99g	-a>
+h_g	FUT99g	-a>
+galacglc13galacglcgal14acglcgalgluside_hs_g	FUT99g	-a>
+gdp_g	FUT99g	-a>
+uacgam_g	GCNTg	-a>
+galacglcgal14acglcgalgluside_hs_g	GCNTg	-a>
+acglcgalacglcgal14acglcgalgluside_hs_g	GCNTg	-a>
+h_g	GCNTg	-a>
+udp_g	GCNTg	-a>
+galacglcgalgluside_hs_g	ST3GAL31g	-a>
+cmpacna_g	ST3GAL31g	-a>
+h_g	ST3GAL31g	-a>
+cmp_g	ST3GAL31g	-a>
+acngalacglcgalgluside_hs_g	ST3GAL31g	-a>
+gal14acglcgalgluside_hs_g	ST3GAL61g	-a>
+acngal14acglcgalgluside_hs_g	ST3GAL61g	-a>
+cmp_g	ST3GAL61g	-a>
+cmpacna_g	ST3GAL61g	-a>
+galacglcgal14acglcgalgluside_hs_g	ST3GAL62g	-a>
+cmp_g	ST3GAL62g	-a>
+cmpacna_g	ST3GAL62g	-a>
+h_g	ST3GAL62g	-a>
+acngalacglcgal14acglcgalgluside_hs_g	ST3GAL62g	-a>
+acngal14acglcgalgluside_hs_g	ST8SIA56g	-a>
+cmpacna_g	ST8SIA56g	-a>
+h_g	ST8SIA56g	-a>
+cmp_g	ST8SIA56g	-a>
+acnacngal14acglcgalgluside_hs_g	ST8SIA56g	-a>

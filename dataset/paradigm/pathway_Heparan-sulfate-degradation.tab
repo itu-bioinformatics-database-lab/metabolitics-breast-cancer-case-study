@@ -1,0 +1,190 @@
+protein	Ser_Gly_Ala_X_Gly_l
+protein	accoa_c
+protein	acgam_l
+protein	coa_c
+protein	gal_l
+protein	glcur_l
+protein	h2o_l
+protein	h_l
+protein	hs_deg10_l
+protein	hs_deg11_l
+protein	hs_deg12_l
+protein	hs_deg13_l
+protein	hs_deg14_l
+protein	hs_deg15_l
+protein	hs_deg16_l
+protein	hs_deg17_l
+protein	hs_deg18_l
+protein	hs_deg19_l
+protein	hs_deg1_l
+protein	hs_deg20_l
+protein	hs_deg21_l
+protein	hs_deg22_l
+protein	hs_deg23_l
+protein	hs_deg24_l
+protein	hs_deg25_l
+protein	hs_deg2_l
+protein	hs_deg3_l
+protein	hs_deg4_l
+protein	hs_deg5_l
+protein	hs_deg6_l
+protein	hs_deg7_l
+protein	hs_deg8_l
+protein	hs_deg9_l
+protein	hs_l
+protein	hspg_l
+protein	idour_l
+protein	so4_l
+protein	xyl_D_l
+abstract	GLCAASE1ly
+abstract	GLCNACASE1ly
+abstract	GLCNACASE2ly
+abstract	GLCNACASE3ly
+abstract	GLCNACASE4ly
+abstract	GLCNACASE5ly
+abstract	HS1ly
+abstract	HS2ly
+abstract	HS3ly
+abstract	HS4ly
+abstract	HSPASEly
+abstract	IDOAASE1ly
+abstract	IDOAASE2ly
+abstract	IDOAASE3ly
+abstract	LINKDEG1ly
+abstract	S2TASE1ly
+abstract	S2TASE2ly
+abstract	S3TASE1ly
+abstract	S3TASE2ly
+abstract	S3TASE3ly
+abstract	S6TASE1ly
+abstract	S6TASE2ly
+abstract	S6TASE3ly
+abstract	HSAT1ly
+abstract	HSAT2ly
+abstract	HSAT3ly
+abstract	HSAT4ly
+glcur_l	GLCAASE1ly	-a>
+h2o_l	GLCAASE1ly	-a>
+hs_deg9_l	GLCAASE1ly	-a>
+hs_deg10_l	GLCAASE1ly	-a>
+h2o_l	GLCNACASE1ly	-a>
+hs_deg4_l	GLCNACASE1ly	-a>
+hs_deg3_l	GLCNACASE1ly	-a>
+acgam_l	GLCNACASE1ly	-a>
+hs_deg8_l	GLCNACASE2ly	-a>
+h2o_l	GLCNACASE2ly	-a>
+hs_deg9_l	GLCNACASE2ly	-a>
+acgam_l	GLCNACASE2ly	-a>
+hs_deg14_l	GLCNACASE3ly	-a>
+hs_deg15_l	GLCNACASE3ly	-a>
+h2o_l	GLCNACASE3ly	-a>
+acgam_l	GLCNACASE3ly	-a>
+hs_deg20_l	GLCNACASE4ly	-a>
+h2o_l	GLCNACASE4ly	-a>
+hs_deg21_l	GLCNACASE4ly	-a>
+acgam_l	GLCNACASE4ly	-a>
+hs_deg25_l	GLCNACASE5ly	-a>
+h2o_l	GLCNACASE5ly	-a>
+hs_deg24_l	GLCNACASE5ly	-a>
+acgam_l	GLCNACASE5ly	-a>
+so4_l	HS1ly	-a>
+h2o_l	HS1ly	-a>
+hs_deg1_l	HS1ly	-a>
+hs_deg2_l	HS1ly	-a>
+h_l	HS1ly	-a>
+hs_deg7_l	HS2ly	-a>
+hs_deg6_l	HS2ly	-a>
+h2o_l	HS2ly	-a>
+h_l	HS2ly	-a>
+so4_l	HS2ly	-a>
+hs_deg13_l	HS3ly	-a>
+h_l	HS3ly	-a>
+h2o_l	HS3ly	-a>
+hs_deg12_l	HS3ly	-a>
+so4_l	HS3ly	-a>
+hs_deg19_l	HS4ly	-a>
+so4_l	HS4ly	-a>
+h2o_l	HS4ly	-a>
+hs_deg18_l	HS4ly	-a>
+h_l	HS4ly	-a>
+hspg_l	HSPASEly	-a>
+hs_l	HSPASEly	-a>
+h2o_l	HSPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	HSPASEly	-a>
+hs_deg5_l	IDOAASE1ly	-a>
+h2o_l	IDOAASE1ly	-a>
+idour_l	IDOAASE1ly	-a>
+hs_deg4_l	IDOAASE1ly	-a>
+hs_deg17_l	IDOAASE2ly	-a>
+idour_l	IDOAASE2ly	-a>
+h2o_l	IDOAASE2ly	-a>
+hs_deg16_l	IDOAASE2ly	-a>
+hs_deg22_l	IDOAASE3ly	-a>
+hs_deg23_l	IDOAASE3ly	-a>
+h2o_l	IDOAASE3ly	-a>
+idour_l	IDOAASE3ly	-a>
+glcur_l	LINKDEG1ly	-a>
+hs_deg25_l	LINKDEG1ly	-a>
+h2o_l	LINKDEG1ly	-a>
+gal_l	LINKDEG1ly	-a>
+xyl_D_l	LINKDEG1ly	-a>
+so4_l	S2TASE1ly	-a>
+hs_deg15_l	S2TASE1ly	-a>
+h2o_l	S2TASE1ly	-a>
+h_l	S2TASE1ly	-a>
+hs_deg16_l	S2TASE1ly	-a>
+so4_l	S2TASE2ly	-a>
+h2o_l	S2TASE2ly	-a>
+h_l	S2TASE2ly	-a>
+hs_deg21_l	S2TASE2ly	-a>
+hs_deg22_l	S2TASE2ly	-a>
+hs_deg11_l	S3TASE1ly	-a>
+h_l	S3TASE1ly	-a>
+h2o_l	S3TASE1ly	-a>
+hs_deg10_l	S3TASE1ly	-a>
+so4_l	S3TASE1ly	-a>
+hs_deg17_l	S3TASE2ly	-a>
+so4_l	S3TASE2ly	-a>
+h2o_l	S3TASE2ly	-a>
+hs_deg18_l	S3TASE2ly	-a>
+h_l	S3TASE2ly	-a>
+so4_l	S3TASE3ly	-a>
+hs_deg23_l	S3TASE3ly	-a>
+h2o_l	S3TASE3ly	-a>
+hs_deg24_l	S3TASE3ly	-a>
+h_l	S3TASE3ly	-a>
+hs_l	S6TASE1ly	-a>
+so4_l	S6TASE1ly	-a>
+h2o_l	S6TASE1ly	-a>
+hs_deg1_l	S6TASE1ly	-a>
+h_l	S6TASE1ly	-a>
+hs_deg5_l	S6TASE2ly	-a>
+hs_deg6_l	S6TASE2ly	-a>
+h2o_l	S6TASE2ly	-a>
+so4_l	S6TASE2ly	-a>
+h_l	S6TASE2ly	-a>
+hs_deg11_l	S6TASE3ly	-a>
+so4_l	S6TASE3ly	-a>
+h2o_l	S6TASE3ly	-a>
+hs_deg12_l	S6TASE3ly	-a>
+h_l	S6TASE3ly	-a>
+hs_deg3_l	HSAT1ly	-a>
+coa_c	HSAT1ly	-a>
+h_l	HSAT1ly	-a>
+hs_deg2_l	HSAT1ly	-a>
+accoa_c	HSAT1ly	-a>
+accoa_c	HSAT2ly	-a>
+coa_c	HSAT2ly	-a>
+hs_deg7_l	HSAT2ly	-a>
+hs_deg8_l	HSAT2ly	-a>
+h_l	HSAT2ly	-a>
+hs_deg14_l	HSAT3ly	-a>
+coa_c	HSAT3ly	-a>
+hs_deg13_l	HSAT3ly	-a>
+accoa_c	HSAT3ly	-a>
+h_l	HSAT3ly	-a>
+hs_deg20_l	HSAT4ly	-a>
+hs_deg19_l	HSAT4ly	-a>
+coa_c	HSAT4ly	-a>
+accoa_c	HSAT4ly	-a>
+h_l	HSAT4ly	-a>

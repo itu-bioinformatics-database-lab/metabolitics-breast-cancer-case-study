@@ -1,0 +1,81 @@
+protein	adp_m
+protein	atp_m
+protein	dhap_m
+protein	fad_m
+protein	fadh2_m
+protein	ficytC_m
+protein	focytC_m
+protein	glyc3p_m
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	nad_m
+protein	nadh_m
+protein	o2_m
+protein	pi_c
+protein	pi_m
+protein	ppi_c
+protein	ppi_m
+protein	q10_m
+protein	q10h2_m
+protein	h_i
+abstract	PPA
+abstract	PPAm
+abstract	FADH2ETC
+abstract	GLYC3PFADm
+abstract	ATPS4m
+abstract	CYOOm2
+abstract	CYOR_u10m
+abstract	NADH2_u10m
+abstract	r0205
+abstract	CYOOm3
+pi_c	PPA	-a>
+h2o_c	PPA	-a>
+ppi_c	PPA	-a>
+h_c	PPA	-a>
+ppi_m	PPAm	-a>
+h2o_m	PPAm	-a>
+h_m	PPAm	-a>
+pi_m	PPAm	-a>
+q10h2_m	FADH2ETC	-a>
+fadh2_m	FADH2ETC	-a>
+fad_m	FADH2ETC	-a>
+q10_m	FADH2ETC	-a>
+fadh2_m	GLYC3PFADm	-a>
+dhap_m	GLYC3PFADm	-a>
+fad_m	GLYC3PFADm	-a>
+glyc3p_m	GLYC3PFADm	-a>
+h2o_m	ATPS4m	-a>
+h_m	ATPS4m	-a>
+pi_m	ATPS4m	-a>
+atp_m	ATPS4m	-a>
+h_i	ATPS4m	-a>
+adp_m	ATPS4m	-a>
+h2o_m	CYOOm2	-a>
+ficytC_m	CYOOm2	-a>
+focytC_m	CYOOm2	-a>
+o2_m	CYOOm2	-a>
+h_m	CYOOm2	-a>
+q10h2_m	CYOR_u10m	-a>
+h_m	CYOR_u10m	-a>
+q10_m	CYOR_u10m	-a>
+h_i	CYOR_u10m	-a>
+ficytC_m	CYOR_u10m	-a>
+focytC_m	CYOR_u10m	-a>
+q10h2_m	NADH2_u10m	-a>
+h_m	NADH2_u10m	-a>
+q10_m	NADH2_u10m	-a>
+nad_m	NADH2_u10m	-a>
+nadh_m	NADH2_u10m	-a>
+h_i	NADH2_u10m	-a>
+q10h2_m	r0205	-a>
+dhap_m	r0205	-a>
+glyc3p_m	r0205	-a>
+q10_m	r0205	-a>
+h2o_m	CYOOm3	-a>
+h_m	CYOOm3	-a>
+h_i	CYOOm3	-a>
+ficytC_m	CYOOm3	-a>
+focytC_m	CYOOm3	-a>
+o2_m	CYOOm3	-a>

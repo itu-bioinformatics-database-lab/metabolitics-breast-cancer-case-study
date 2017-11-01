@@ -1,0 +1,518 @@
+protein	Asn_X_Ser_Thr_r
+protein	cdp_c
+protein	chito2pdol_U_c
+protein	cmp_g
+protein	cmpacna_g
+protein	ctp_c
+protein	dedol_U_c
+protein	dedoldp_U_c
+protein	dedolp_U_c
+protein	doldp_U_r
+protein	dolglcp_U_c
+protein	dolglcp_U_r
+protein	dolichol_U_c
+protein	dolichol_U_r
+protein	dolmanp_U_c
+protein	dolmanp_U_r
+protein	dolp_U_c
+protein	dolp_U_r
+protein	fn2m2masn_g
+protein	frdp_c
+protein	g1m6masnB1_g
+protein	g1m6masnB1_r
+protein	g1m7masnB_g
+protein	g1m7masnB_r
+protein	g1m7masnC_g
+protein	g1m7masnC_r
+protein	g1m8masn_g
+protein	g1m8masn_r
+protein	g1m8mpdol_L_r
+protein	g1m8mpdol_U_r
+protein	g2m8masn_g
+protein	g2m8masn_r
+protein	g2m8mpdol_L_r
+protein	g2m8mpdol_U_r
+protein	g3m8masn_g
+protein	g3m8masn_r
+protein	g3m8mpdol_L_r
+protein	g3m8mpdol_U_r
+protein	gdp_c
+protein	gdp_g
+protein	gdpfuc_g
+protein	gdpmann_c
+protein	glc1man_g
+protein	glc2man_g
+protein	glc3man_g
+protein	glc_D_r
+protein	h2o_c
+protein	h2o_g
+protein	h2o_r
+protein	h_c
+protein	h_g
+protein	h_r
+protein	ipdp_c
+protein	l2fn2m2masn_g
+protein	m1mpdol_U_c
+protein	m2mpdol_U_c
+protein	m3mpdol_U_c
+protein	m4masn_g
+protein	m4mpdol_U_c
+protein	m4mpdol_U_r
+protein	m5masnB1_g
+protein	m5masnB2_g
+protein	m5masnC_g
+protein	m5mpdol_U_r
+protein	m6masnA_g
+protein	m6masnB1_g
+protein	m6masnB2_g
+protein	m6masnC_g
+protein	m6mpdol_U_r
+protein	m7masnA_g
+protein	m7masnB_g
+protein	m7masnB_r
+protein	m7masnC_g
+protein	m7mpdol_U_r
+protein	m8masn_g
+protein	m8masn_r
+protein	m8mpdol_U_r
+protein	man_g
+protein	man_r
+protein	mpdol_U_c
+protein	n2m2masn_g
+protein	n2m2nmasn_g
+protein	n3m2masn_g
+protein	n4m2masn_g
+protein	n5m2masn_g
+protein	nadp_c
+protein	nadph_c
+protein	naglc2p_U_c
+protein	nm2masn_g
+protein	nm4masn_g
+protein	pi_c
+protein	pi_r
+protein	ppi_c
+protein	s2l2fn2m2masn_g
+protein	ttc_ggdp_c
+protein	uacgam_c
+protein	uacgam_g
+protein	udp_c
+protein	udp_g
+protein	udpg_c
+protein	udpgal_g
+protein	ump_c
+abstract	BDMT_U
+abstract	DEDOLP1_U
+abstract	DEDOLP2_U
+abstract	DEDOLR_U
+abstract	DOLASNT_Uer
+abstract	DOLDPP_Uer
+abstract	DOLGPP_Uer
+abstract	DOLK_U
+abstract	DOLPGT1_Ler
+abstract	DOLPGT1_Uer
+abstract	DOLPGT2_Ler
+abstract	DOLPGT2_Uer
+abstract	DOLPGT3_Ler
+abstract	DOLPGT3_Uer
+abstract	DOLPH_Uer
+abstract	DOLPMT_U
+abstract	DOLPMT1_Uer
+abstract	DOLPMT2_Uer
+abstract	DOLPMT3_Uer
+abstract	DOLPMT4_Uer
+abstract	ENMAN1g
+abstract	ENMAN2g
+abstract	ENMAN3g
+abstract	ENMAN4g
+abstract	ENMAN5g
+abstract	ENMAN6g
+abstract	F6Tg
+abstract	FT
+abstract	G12MT1_U
+abstract	G12MT2_U
+abstract	G13MT_U
+abstract	G14Tg
+abstract	G16MT_U
+abstract	GGT_U
+abstract	GLCNACPT_U
+abstract	GLCNACT_U
+abstract	M1316Mg
+abstract	M13N2Tg
+abstract	M13N4Tg
+abstract	M14NTg
+abstract	M16N4Tg
+abstract	M16N6Tg
+abstract	M16NTg
+abstract	MAN1_6B1er
+abstract	MAN1_7Ber
+abstract	MAN2_6B1er
+abstract	MAN2_7Cer
+abstract	MG1er
+abstract	MG2er
+abstract	MG3er
+abstract	MM5ag
+abstract	MM5bg
+abstract	MM5cg
+abstract	MM6ag
+abstract	MM6B1ag
+abstract	MM6B1bg
+abstract	MM6B2g
+abstract	MM6bg
+abstract	MM7Ag
+abstract	MM7B1g
+abstract	MM7B2g
+abstract	MM7Cag
+abstract	MM7Cbg
+abstract	MM8Ag
+abstract	MM8Ber
+abstract	MM8Cg
+abstract	S26Tg
+abstract	UDPDOLPT_U
+abstract	DOLGLCP_Lter
+abstract	DOLICHOL_Uter
+abstract	DOLMANP_Lter
+abstract	DOLP_Uter
+abstract	G1M6MASNB1terg
+abstract	G1M7MASNBterg
+abstract	G1M7MASNCterg
+abstract	G1M8MASNterg
+abstract	G2M8MASNterg
+abstract	G3M8MASNterg
+abstract	M4MPDOL_Uter
+abstract	M7MASNBterg
+abstract	M8MASNterg
+gdp_c	BDMT_U	-a>
+mpdol_U_c	BDMT_U	-a>
+gdpmann_c	BDMT_U	-a>
+h_c	BDMT_U	-a>
+chito2pdol_U_c	BDMT_U	-a>
+dedoldp_U_c	DEDOLP1_U	-a>
+pi_c	DEDOLP1_U	-a>
+h2o_c	DEDOLP1_U	-a>
+dedolp_U_c	DEDOLP1_U	-a>
+h_c	DEDOLP1_U	-a>
+pi_c	DEDOLP2_U	-a>
+h2o_c	DEDOLP2_U	-a>
+dedolp_U_c	DEDOLP2_U	-a>
+h_c	DEDOLP2_U	-a>
+dedol_U_c	DEDOLP2_U	-a>
+nadp_c	DEDOLR_U	-a>
+nadph_c	DEDOLR_U	-a>
+h_c	DEDOLR_U	-a>
+dedol_U_c	DEDOLR_U	-a>
+dolichol_U_c	DEDOLR_U	-a>
+Asn_X_Ser_Thr_r	DOLASNT_Uer	-a>
+g3m8mpdol_U_r	DOLASNT_Uer	-a>
+doldp_U_r	DOLASNT_Uer	-a>
+g3m8masn_r	DOLASNT_Uer	-a>
+dolp_U_r	DOLDPP_Uer	-a>
+h_r	DOLDPP_Uer	-a>
+doldp_U_r	DOLDPP_Uer	-a>
+pi_r	DOLDPP_Uer	-a>
+h2o_r	DOLDPP_Uer	-a>
+glc_D_r	DOLGPP_Uer	-a>
+h_r	DOLGPP_Uer	-a>
+h2o_r	DOLGPP_Uer	-a>
+dolglcp_U_r	DOLGPP_Uer	-a>
+dolp_U_r	DOLGPP_Uer	-a>
+cdp_c	DOLK_U	-a>
+ctp_c	DOLK_U	-a>
+h_c	DOLK_U	-a>
+dolp_U_c	DOLK_U	-a>
+dolichol_U_c	DOLK_U	-a>
+m8mpdol_U_r	DOLPGT1_Ler	-a>
+dolp_U_r	DOLPGT1_Ler	-a>
+h_r	DOLPGT1_Ler	-a>
+dolglcp_U_r	DOLPGT1_Ler	-a>
+g1m8mpdol_L_r	DOLPGT1_Ler	-a>
+m8mpdol_U_r	DOLPGT1_Uer	-a>
+dolp_U_r	DOLPGT1_Uer	-a>
+h_r	DOLPGT1_Uer	-a>
+dolglcp_U_r	DOLPGT1_Uer	-a>
+g1m8mpdol_U_r	DOLPGT1_Uer	-a>
+dolp_U_r	DOLPGT2_Ler	-a>
+h_r	DOLPGT2_Ler	-a>
+g2m8mpdol_L_r	DOLPGT2_Ler	-a>
+dolglcp_U_r	DOLPGT2_Ler	-a>
+g1m8mpdol_L_r	DOLPGT2_Ler	-a>
+dolp_U_r	DOLPGT2_Uer	-a>
+h_r	DOLPGT2_Uer	-a>
+dolglcp_U_r	DOLPGT2_Uer	-a>
+g2m8mpdol_U_r	DOLPGT2_Uer	-a>
+g1m8mpdol_U_r	DOLPGT2_Uer	-a>
+dolp_U_r	DOLPGT3_Ler	-a>
+h_r	DOLPGT3_Ler	-a>
+g2m8mpdol_L_r	DOLPGT3_Ler	-a>
+dolglcp_U_r	DOLPGT3_Ler	-a>
+g3m8mpdol_L_r	DOLPGT3_Ler	-a>
+dolglcp_U_r	DOLPGT3_Uer	-a>
+h_r	DOLPGT3_Uer	-a>
+g3m8mpdol_U_r	DOLPGT3_Uer	-a>
+g2m8mpdol_U_r	DOLPGT3_Uer	-a>
+dolp_U_r	DOLPGT3_Uer	-a>
+dolp_U_r	DOLPH_Uer	-a>
+dolichol_U_r	DOLPH_Uer	-a>
+pi_r	DOLPH_Uer	-a>
+h2o_r	DOLPH_Uer	-a>
+gdp_c	DOLPMT_U	-a>
+gdpmann_c	DOLPMT_U	-a>
+h_c	DOLPMT_U	-a>
+dolmanp_U_c	DOLPMT_U	-a>
+dolp_U_c	DOLPMT_U	-a>
+dolp_U_r	DOLPMT1_Uer	-a>
+dolmanp_U_r	DOLPMT1_Uer	-a>
+m5mpdol_U_r	DOLPMT1_Uer	-a>
+h_r	DOLPMT1_Uer	-a>
+m4mpdol_U_r	DOLPMT1_Uer	-a>
+dolp_U_r	DOLPMT2_Uer	-a>
+dolmanp_U_r	DOLPMT2_Uer	-a>
+m5mpdol_U_r	DOLPMT2_Uer	-a>
+m6mpdol_U_r	DOLPMT2_Uer	-a>
+h_r	DOLPMT2_Uer	-a>
+dolp_U_r	DOLPMT3_Uer	-a>
+dolmanp_U_r	DOLPMT3_Uer	-a>
+m6mpdol_U_r	DOLPMT3_Uer	-a>
+h_r	DOLPMT3_Uer	-a>
+m7mpdol_U_r	DOLPMT3_Uer	-a>
+m8mpdol_U_r	DOLPMT4_Uer	-a>
+dolp_U_r	DOLPMT4_Uer	-a>
+dolmanp_U_r	DOLPMT4_Uer	-a>
+h_r	DOLPMT4_Uer	-a>
+m7mpdol_U_r	DOLPMT4_Uer	-a>
+m7masnA_g	ENMAN1g	-a>
+h2o_g	ENMAN1g	-a>
+glc1man_g	ENMAN1g	-a>
+g1m8masn_g	ENMAN1g	-a>
+m7masnA_g	ENMAN2g	-a>
+h2o_g	ENMAN2g	-a>
+glc2man_g	ENMAN2g	-a>
+g2m8masn_g	ENMAN2g	-a>
+glc3man_g	ENMAN3g	-a>
+h2o_g	ENMAN3g	-a>
+g3m8masn_g	ENMAN3g	-a>
+m7masnA_g	ENMAN3g	-a>
+g1m7masnC_g	ENMAN4g	-a>
+h2o_g	ENMAN4g	-a>
+glc1man_g	ENMAN4g	-a>
+m6masnC_g	ENMAN4g	-a>
+h2o_g	ENMAN5g	-a>
+g1m7masnB_g	ENMAN5g	-a>
+glc1man_g	ENMAN5g	-a>
+m6masnB2_g	ENMAN5g	-a>
+m5masnB1_g	ENMAN6g	-a>
+h2o_g	ENMAN6g	-a>
+g1m6masnB1_g	ENMAN6g	-a>
+glc1man_g	ENMAN6g	-a>
+fn2m2masn_g	F6Tg	-a>
+gdp_g	F6Tg	-a>
+gdpfuc_g	F6Tg	-a>
+h2o_g	F6Tg	-a>
+h_g	F6Tg	-a>
+n2m2masn_g	F6Tg	-a>
+frdp_c	FT	-a>
+ttc_ggdp_c	FT	-a>
+ppi_c	FT	-a>
+ipdp_c	FT	-a>
+gdp_c	G12MT1_U	-a>
+m2mpdol_U_c	G12MT1_U	-a>
+m3mpdol_U_c	G12MT1_U	-a>
+gdpmann_c	G12MT1_U	-a>
+h_c	G12MT1_U	-a>
+gdp_c	G12MT2_U	-a>
+m4mpdol_U_c	G12MT2_U	-a>
+m3mpdol_U_c	G12MT2_U	-a>
+gdpmann_c	G12MT2_U	-a>
+h_c	G12MT2_U	-a>
+gdp_c	G13MT_U	-a>
+m1mpdol_U_c	G13MT_U	-a>
+gdpmann_c	G13MT_U	-a>
+mpdol_U_c	G13MT_U	-a>
+h_c	G13MT_U	-a>
+l2fn2m2masn_g	G14Tg	-a>
+fn2m2masn_g	G14Tg	-a>
+udp_g	G14Tg	-a>
+h2o_g	G14Tg	-a>
+udpgal_g	G14Tg	-a>
+h_g	G14Tg	-a>
+gdp_c	G16MT_U	-a>
+m2mpdol_U_c	G16MT_U	-a>
+m1mpdol_U_c	G16MT_U	-a>
+gdpmann_c	G16MT_U	-a>
+h_c	G16MT_U	-a>
+dedoldp_U_c	GGT_U	-a>
+ttc_ggdp_c	GGT_U	-a>
+ppi_c	GGT_U	-a>
+ipdp_c	GGT_U	-a>
+h_c	GGT_U	-a>
+naglc2p_U_c	GLCNACPT_U	-a>
+ump_c	GLCNACPT_U	-a>
+dolp_U_c	GLCNACPT_U	-a>
+h_c	GLCNACPT_U	-a>
+uacgam_c	GLCNACPT_U	-a>
+naglc2p_U_c	GLCNACT_U	-a>
+udp_c	GLCNACT_U	-a>
+h_c	GLCNACT_U	-a>
+uacgam_c	GLCNACT_U	-a>
+chito2pdol_U_c	GLCNACT_U	-a>
+h2o_g	M1316Mg	-a>
+man_g	M1316Mg	-a>
+nm4masn_g	M1316Mg	-a>
+nm2masn_g	M1316Mg	-a>
+uacgam_g	M13N2Tg	-a>
+udp_g	M13N2Tg	-a>
+h_g	M13N2Tg	-a>
+nm4masn_g	M13N2Tg	-a>
+m4masn_g	M13N2Tg	-a>
+uacgam_g	M13N4Tg	-a>
+n2m2masn_g	M13N4Tg	-a>
+h_g	M13N4Tg	-a>
+udp_g	M13N4Tg	-a>
+n3m2masn_g	M13N4Tg	-a>
+uacgam_g	M14NTg	-a>
+n2m2nmasn_g	M14NTg	-a>
+h_g	M14NTg	-a>
+udp_g	M14NTg	-a>
+n2m2masn_g	M14NTg	-a>
+uacgam_g	M16N4Tg	-a>
+n4m2masn_g	M16N4Tg	-a>
+h_g	M16N4Tg	-a>
+n5m2masn_g	M16N4Tg	-a>
+udp_g	M16N4Tg	-a>
+uacgam_g	M16N6Tg	-a>
+n4m2masn_g	M16N6Tg	-a>
+h_g	M16N6Tg	-a>
+udp_g	M16N6Tg	-a>
+n3m2masn_g	M16N6Tg	-a>
+uacgam_g	M16NTg	-a>
+nm2masn_g	M16NTg	-a>
+h_g	M16NTg	-a>
+udp_g	M16NTg	-a>
+n2m2masn_g	M16NTg	-a>
+g1m6masnB1_r	MAN1_6B1er	-a>
+g1m7masnC_r	MAN1_6B1er	-a>
+man_r	MAN1_6B1er	-a>
+h2o_r	MAN1_6B1er	-a>
+man_r	MAN1_7Ber	-a>
+g1m8masn_r	MAN1_7Ber	-a>
+g1m7masnB_r	MAN1_7Ber	-a>
+h2o_r	MAN1_7Ber	-a>
+g1m6masnB1_r	MAN2_6B1er	-a>
+man_r	MAN2_6B1er	-a>
+g1m7masnB_r	MAN2_6B1er	-a>
+h2o_r	MAN2_6B1er	-a>
+man_r	MAN2_7Cer	-a>
+g1m8masn_r	MAN2_7Cer	-a>
+g1m7masnC_r	MAN2_7Cer	-a>
+h2o_r	MAN2_7Cer	-a>
+glc_D_r	MG1er	-a>
+h2o_r	MG1er	-a>
+g3m8masn_r	MG1er	-a>
+g2m8masn_r	MG1er	-a>
+glc_D_r	MG2er	-a>
+g1m8masn_r	MG2er	-a>
+h2o_r	MG2er	-a>
+g2m8masn_r	MG2er	-a>
+glc_D_r	MG3er	-a>
+g1m8masn_r	MG3er	-a>
+m8masn_r	MG3er	-a>
+h2o_r	MG3er	-a>
+h2o_g	MM5ag	-a>
+man_g	MM5ag	-a>
+m4masn_g	MM5ag	-a>
+m5masnC_g	MM5ag	-a>
+m5masnB1_g	MM5bg	-a>
+h2o_g	MM5bg	-a>
+man_g	MM5bg	-a>
+m4masn_g	MM5bg	-a>
+h2o_g	MM5cg	-a>
+man_g	MM5cg	-a>
+m5masnB2_g	MM5cg	-a>
+m4masn_g	MM5cg	-a>
+h2o_g	MM6ag	-a>
+man_g	MM6ag	-a>
+m6masnA_g	MM6ag	-a>
+m5masnC_g	MM6ag	-a>
+m5masnB1_g	MM6B1ag	-a>
+h2o_g	MM6B1ag	-a>
+m6masnB1_g	MM6B1ag	-a>
+man_g	MM6B1ag	-a>
+m5masnB1_g	MM6B1bg	-a>
+h2o_g	MM6B1bg	-a>
+man_g	MM6B1bg	-a>
+m6masnB2_g	MM6B1bg	-a>
+h2o_g	MM6B2g	-a>
+man_g	MM6B2g	-a>
+m5masnB2_g	MM6B2g	-a>
+m6masnB2_g	MM6B2g	-a>
+h2o_g	MM6bg	-a>
+man_g	MM6bg	-a>
+m6masnC_g	MM6bg	-a>
+m5masnC_g	MM6bg	-a>
+m7masnA_g	MM7Ag	-a>
+h2o_g	MM7Ag	-a>
+man_g	MM7Ag	-a>
+m6masnA_g	MM7Ag	-a>
+h2o_g	MM7B1g	-a>
+m6masnB1_g	MM7B1g	-a>
+m7masnB_g	MM7B1g	-a>
+man_g	MM7B1g	-a>
+h2o_g	MM7B2g	-a>
+man_g	MM7B2g	-a>
+m7masnB_g	MM7B2g	-a>
+m6masnB2_g	MM7B2g	-a>
+m7masnA_g	MM7Cag	-a>
+h2o_g	MM7Cag	-a>
+man_g	MM7Cag	-a>
+m6masnC_g	MM7Cag	-a>
+h2o_g	MM7Cbg	-a>
+man_g	MM7Cbg	-a>
+m7masnC_g	MM7Cbg	-a>
+m6masnC_g	MM7Cbg	-a>
+m7masnA_g	MM8Ag	-a>
+h2o_g	MM8Ag	-a>
+man_g	MM8Ag	-a>
+m8masn_g	MM8Ag	-a>
+man_r	MM8Ber	-a>
+h2o_r	MM8Ber	-a>
+m8masn_r	MM8Ber	-a>
+m7masnB_r	MM8Ber	-a>
+h2o_g	MM8Cg	-a>
+man_g	MM8Cg	-a>
+m7masnC_g	MM8Cg	-a>
+m8masn_g	MM8Cg	-a>
+l2fn2m2masn_g	S26Tg	-a>
+cmpacna_g	S26Tg	-a>
+h_g	S26Tg	-a>
+cmp_g	S26Tg	-a>
+s2l2fn2m2masn_g	S26Tg	-a>
+dolglcp_U_c	UDPDOLPT_U	-a>
+h_c	UDPDOLPT_U	-a>
+dolp_U_c	UDPDOLPT_U	-a>
+udpg_c	UDPDOLPT_U	-a>
+udp_c	UDPDOLPT_U	-a>
+dolglcp_U_c	DOLGLCP_Lter	-a>
+dolglcp_U_r	DOLGLCP_Lter	-a>
+dolichol_U_r	DOLICHOL_Uter	-a>
+dolichol_U_c	DOLICHOL_Uter	-a>
+dolmanp_U_r	DOLMANP_Lter	-a>
+dolmanp_U_c	DOLMANP_Lter	-a>
+dolp_U_r	DOLP_Uter	-a>
+dolp_U_c	DOLP_Uter	-a>
+g1m6masnB1_r	G1M6MASNB1terg	-a>
+g1m6masnB1_g	G1M6MASNB1terg	-a>
+g1m7masnB_r	G1M7MASNBterg	-a>
+g1m7masnB_g	G1M7MASNBterg	-a>
+g1m7masnC_g	G1M7MASNCterg	-a>
+g1m7masnC_r	G1M7MASNCterg	-a>
+g1m8masn_r	G1M8MASNterg	-a>
+g1m8masn_g	G1M8MASNterg	-a>
+g2m8masn_g	G2M8MASNterg	-a>
+g2m8masn_r	G2M8MASNterg	-a>
+g3m8masn_g	G3M8MASNterg	-a>
+g3m8masn_r	G3M8MASNterg	-a>
+m4mpdol_U_c	M4MPDOL_Uter	-a>
+m4mpdol_U_r	M4MPDOL_Uter	-a>
+m7masnB_g	M7MASNBterg	-a>
+m7masnB_r	M7MASNBterg	-a>
+m8masn_g	M8MASNterg	-a>
+m8masn_r	M8MASNterg	-a>

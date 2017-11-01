@@ -33,7 +33,7 @@ def generate_unicellular_network():
         r = cb.Reaction(i.replace(' ', ''))
         model.add_reaction(r)
 
-        black_list = ['(Cell synthesis)', '(Evolution)', 'Exch. (', ')']
+        black_list = ['(Cellsynthesis', '(Evolution', 'Exch. (', ')']
         r.reaction = reduce(lambda x, y: x.replace(y, ''), black_list,
                             i.replace('->', '-->'))
 

@@ -1,0 +1,266 @@
+protein	2dr1p_c
+protein	2mop_m
+protein	3aib_D_c
+protein	3aib_D_m
+protein	3uib_c
+protein	56dthm_c
+protein	56dthm_m
+protein	56dura_c
+protein	adp_c
+protein	akg_m
+protein	ala_B_c
+protein	ala_L_m
+protein	atp_c
+protein	cala_c
+protein	cdp_e
+protein	cmp_c
+protein	cmp_e
+protein	cmp_l
+protein	co2_c
+protein	csn_c
+protein	ctp_e
+protein	cytd_c
+protein	cytd_l
+protein	dcmp_c
+protein	dcmp_l
+protein	dcyt_c
+protein	dcyt_l
+protein	dgmp_e
+protein	dgtp_e
+protein	drib_c
+protein	dtdp_e
+protein	dtmp_c
+protein	dtmp_e
+protein	dtmp_l
+protein	dttp_e
+protein	dump_c
+protein	duri_c
+protein	dutp_c
+protein	glu_L_m
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h_c
+protein	h_e
+protein	h_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadph_c
+protein	nh4_c
+protein	pi_c
+protein	pi_e
+protein	pi_l
+protein	ppi_c
+protein	ppi_e
+protein	pyr_m
+protein	r1p_c
+protein	thym_c
+protein	thym_m
+protein	thymd_c
+protein	thymd_l
+protein	ump_c
+protein	ump_e
+protein	ump_l
+protein	ura_c
+protein	uri_c
+protein	uri_l
+protein	utp_e
+abstract	2DR1PP
+abstract	BUP2
+abstract	CSND
+abstract	CYTD
+abstract	D3AIBTm
+abstract	DCMPDA
+abstract	DCYTD
+abstract	DHPM1
+abstract	DHPM2
+abstract	DURAD
+abstract	DURAD2
+abstract	NTD1
+abstract	NTD2
+abstract	NTD2l
+abstract	NTD3
+abstract	NTD3l
+abstract	NTD4
+abstract	NTD4l
+abstract	NTD5
+abstract	NTD5l
+abstract	PYNP2r
+abstract	TMDPP
+abstract	UPPN
+abstract	r0139
+abstract	r0149
+abstract	r0166
+abstract	r0236
+abstract	r0330
+abstract	r0331
+abstract	r0377
+abstract	r0410
+abstract	r0483
+abstract	r0494
+abstract	r0497
+abstract	DUTPDP
+2dr1p_c	2DR1PP	-a>
+drib_c	2DR1PP	-a>
+h2o_c	2DR1PP	-a>
+pi_c	2DR1PP	-a>
+h2o_c	BUP2	-a>
+3aib_D_c	BUP2	-a>
+h_c	BUP2	-a>
+3uib_c	BUP2	-a>
+nh4_c	BUP2	-a>
+co2_c	BUP2	-a>
+ura_c	CSND	-a>
+nh4_c	CSND	-a>
+h_c	CSND	-a>
+csn_c	CSND	-a>
+h2o_c	CSND	-a>
+h2o_c	CYTD	-a>
+uri_c	CYTD	-a>
+h_c	CYTD	-a>
+cytd_c	CYTD	-a>
+nh4_c	CYTD	-a>
+2mop_m	D3AIBTm	-a>
+pyr_m	D3AIBTm	-a>
+3aib_D_m	D3AIBTm	-a>
+ala_L_m	D3AIBTm	-a>
+h2o_c	DCMPDA	-a>
+nh4_c	DCMPDA	-a>
+dump_c	DCMPDA	-a>
+h_c	DCMPDA	-a>
+dcmp_c	DCMPDA	-a>
+h2o_c	DCYTD	-a>
+nh4_c	DCYTD	-a>
+dcyt_c	DCYTD	-a>
+h_c	DCYTD	-a>
+duri_c	DCYTD	-a>
+h2o_c	DHPM1	-a>
+h_c	DHPM1	-a>
+56dura_c	DHPM1	-a>
+cala_c	DHPM1	-a>
+h2o_c	DHPM2	-a>
+3uib_c	DHPM2	-a>
+h_c	DHPM2	-a>
+56dthm_c	DHPM2	-a>
+ura_c	DURAD	-a>
+nadp_c	DURAD	-a>
+nadph_c	DURAD	-a>
+h_c	DURAD	-a>
+56dura_c	DURAD	-a>
+nadp_c	DURAD2	-a>
+nadph_c	DURAD2	-a>
+h_c	DURAD2	-a>
+thym_c	DURAD2	-a>
+56dthm_c	DURAD2	-a>
+pi_c	NTD1	-a>
+h2o_c	NTD1	-a>
+dump_c	NTD1	-a>
+duri_c	NTD1	-a>
+pi_c	NTD2	-a>
+ump_c	NTD2	-a>
+uri_c	NTD2	-a>
+h2o_c	NTD2	-a>
+h2o_l	NTD2l	-a>
+uri_l	NTD2l	-a>
+pi_l	NTD2l	-a>
+ump_l	NTD2l	-a>
+pi_c	NTD3	-a>
+h2o_c	NTD3	-a>
+dcyt_c	NTD3	-a>
+dcmp_c	NTD3	-a>
+h2o_l	NTD3l	-a>
+dcyt_l	NTD3l	-a>
+pi_l	NTD3l	-a>
+dcmp_l	NTD3l	-a>
+pi_c	NTD4	-a>
+h2o_c	NTD4	-a>
+cmp_c	NTD4	-a>
+cytd_c	NTD4	-a>
+cmp_l	NTD4l	-a>
+h2o_l	NTD4l	-a>
+pi_l	NTD4l	-a>
+cytd_l	NTD4l	-a>
+thymd_c	NTD5	-a>
+h2o_c	NTD5	-a>
+dtmp_c	NTD5	-a>
+pi_c	NTD5	-a>
+thymd_l	NTD5l	-a>
+h2o_l	NTD5l	-a>
+dtmp_l	NTD5l	-a>
+pi_l	NTD5l	-a>
+pi_c	PYNP2r	-a>
+ura_c	PYNP2r	-a>
+uri_c	PYNP2r	-a>
+r1p_c	PYNP2r	-a>
+2dr1p_c	TMDPP	-a>
+thymd_c	TMDPP	-a>
+thym_c	TMDPP	-a>
+pi_c	TMDPP	-a>
+h2o_c	UPPN	-a>
+h_c	UPPN	-a>
+nh4_c	UPPN	-a>
+ala_B_c	UPPN	-a>
+cala_c	UPPN	-a>
+co2_c	UPPN	-a>
+h_e	r0139	-a>
+cmp_e	r0139	-a>
+h2o_e	r0139	-a>
+pi_e	r0139	-a>
+cdp_e	r0139	-a>
+h_e	r0149	-a>
+h2o_e	r0149	-a>
+cdp_e	r0149	-a>
+pi_e	r0149	-a>
+ctp_e	r0149	-a>
+h_e	r0166	-a>
+utp_e	r0166	-a>
+ppi_e	r0166	-a>
+h2o_e	r0166	-a>
+ump_e	r0166	-a>
+nad_c	r0236	-a>
+ura_c	r0236	-a>
+h_c	r0236	-a>
+56dura_c	r0236	-a>
+nadh_c	r0236	-a>
+nad_c	r0330	-a>
+h_c	r0330	-a>
+nadh_c	r0330	-a>
+thym_c	r0330	-a>
+56dthm_c	r0330	-a>
+nadh_m	r0331	-a>
+h_m	r0331	-a>
+thym_m	r0331	-a>
+56dthm_m	r0331	-a>
+nad_m	r0331	-a>
+atp_c	r0377	-a>
+adp_c	r0377	-a>
+dcyt_c	r0377	-a>
+h_c	r0377	-a>
+dcmp_c	r0377	-a>
+h_e	r0410	-a>
+dgmp_e	r0410	-a>
+ppi_e	r0410	-a>
+h2o_e	r0410	-a>
+dgtp_e	r0410	-a>
+2mop_m	r0483	-a>
+3aib_D_m	r0483	-a>
+akg_m	r0483	-a>
+glu_L_m	r0483	-a>
+h_e	r0494	-a>
+dtdp_e	r0494	-a>
+dtmp_e	r0494	-a>
+h2o_e	r0494	-a>
+pi_e	r0494	-a>
+h_e	r0497	-a>
+dtdp_e	r0497	-a>
+dttp_e	r0497	-a>
+h2o_e	r0497	-a>
+pi_e	r0497	-a>
+h2o_c	DUTPDP	-a>
+ppi_c	DUTPDP	-a>
+dump_c	DUTPDP	-a>
+h_c	DUTPDP	-a>
+dutp_c	DUTPDP	-a>

@@ -1,0 +1,109 @@
+protein	1glyc_hs_e
+protein	Rtotal_c
+protein	Rtotal_e
+protein	Rtotalcoa_c
+protein	Rtotalcoa_m
+protein	Rtotalcoa_x
+protein	adhap_hs_c
+protein	adhap_hs_x
+protein	alpa_hs_c
+protein	alpa_hs_m
+protein	coa_c
+protein	coa_m
+protein	coa_x
+protein	dag_hs_c
+protein	dag_hs_e
+protein	dhap_c
+protein	dhap_x
+protein	glyc3p_c
+protein	glyc3p_m
+protein	glyc_c
+protein	h2o_c
+protein	h2o_e
+protein	h_c
+protein	h_e
+protein	h_m
+protein	h_x
+protein	mag_hs_c
+protein	pa_hs_c
+protein	pglyc_hs_e
+protein	pi_c
+protein	tag_hs_c
+protein	tag_hs_e
+abstract	AGPAT1
+abstract	DGAT
+abstract	DHAPA
+abstract	DHAPAx
+abstract	GPAM_hs
+abstract	GPAMm_hs
+abstract	LPS
+abstract	LPS2
+abstract	LPS3
+abstract	LPS4e
+abstract	LPSe
+abstract	MOGAT
+abstract	PPAP
+alpa_hs_c	AGPAT1	-a>
+coa_c	AGPAT1	-a>
+pa_hs_c	AGPAT1	-a>
+h_c	AGPAT1	-a>
+Rtotalcoa_c	AGPAT1	-a>
+coa_c	DGAT	-a>
+tag_hs_c	DGAT	-a>
+dag_hs_c	DGAT	-a>
+h_c	DGAT	-a>
+Rtotalcoa_c	DGAT	-a>
+coa_c	DHAPA	-a>
+dhap_c	DHAPA	-a>
+Rtotalcoa_c	DHAPA	-a>
+adhap_hs_c	DHAPA	-a>
+h_c	DHAPA	-a>
+adhap_hs_x	DHAPAx	-a>
+coa_x	DHAPAx	-a>
+Rtotalcoa_x	DHAPAx	-a>
+h_x	DHAPAx	-a>
+dhap_x	DHAPAx	-a>
+h_c	GPAM_hs	-a>
+coa_c	GPAM_hs	-a>
+glyc3p_c	GPAM_hs	-a>
+alpa_hs_c	GPAM_hs	-a>
+Rtotalcoa_c	GPAM_hs	-a>
+alpa_hs_m	GPAMm_hs	-a>
+Rtotalcoa_m	GPAMm_hs	-a>
+h_m	GPAMm_hs	-a>
+coa_m	GPAMm_hs	-a>
+glyc3p_m	GPAMm_hs	-a>
+tag_hs_c	LPS	-a>
+dag_hs_c	LPS	-a>
+h2o_c	LPS	-a>
+h_c	LPS	-a>
+Rtotal_c	LPS	-a>
+h2o_c	LPS2	-a>
+Rtotal_c	LPS2	-a>
+dag_hs_c	LPS2	-a>
+mag_hs_c	LPS2	-a>
+h_c	LPS2	-a>
+h2o_c	LPS3	-a>
+glyc_c	LPS3	-a>
+h_c	LPS3	-a>
+mag_hs_c	LPS3	-a>
+Rtotal_c	LPS3	-a>
+h_e	LPS4e	-a>
+pglyc_hs_e	LPS4e	-a>
+Rtotal_e	LPS4e	-a>
+1glyc_hs_e	LPS4e	-a>
+h2o_e	LPS4e	-a>
+h_e	LPSe	-a>
+Rtotal_e	LPSe	-a>
+dag_hs_e	LPSe	-a>
+h2o_e	LPSe	-a>
+tag_hs_e	LPSe	-a>
+coa_c	MOGAT	-a>
+Rtotalcoa_c	MOGAT	-a>
+h_c	MOGAT	-a>
+mag_hs_c	MOGAT	-a>
+dag_hs_c	MOGAT	-a>
+pi_c	PPAP	-a>
+h2o_c	PPAP	-a>
+dag_hs_c	PPAP	-a>
+pa_hs_c	PPAP	-a>

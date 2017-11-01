@@ -1,0 +1,55 @@
+protein	R2coa_hs_c
+protein	R3coa_hs_c
+protein	R4coa_hs_c
+protein	R5coa_hs_c
+protein	Rtotal_c
+protein	Rtotalcoa_c
+protein	Rtotalcoa_m
+protein	arachcoa_c
+protein	coa_c
+protein	fad_m
+protein	fadh2_m
+protein	h2o_c
+protein	h_c
+protein	h_m
+protein	hdcoa_c
+protein	ttccoa_c
+protein	pmtcoa_c
+protein	pmtcoa_m
+protein	stcoa_c
+abstract	ARTCOAL3
+abstract	ARTFR207
+abstract	ARTFR31
+abstract	ARTFR51
+abstract	ARTPLM3
+abstract	ARTPLM3m
+abstract	RTOT_2
+abstract	ARTFR12
+coa_c	ARTCOAL3	-a>
+Rtotal_c	ARTCOAL3	-a>
+h2o_c	ARTCOAL3	-a>
+h_c	ARTCOAL3	-a>
+Rtotalcoa_c	ARTCOAL3	-a>
+R2coa_hs_c	ARTFR207	-a>
+h_c	ARTFR207	-a>
+arachcoa_c	ARTFR207	-a>
+stcoa_c	ARTFR31	-a>
+R3coa_hs_c	ARTFR31	-a>
+h_c	ARTFR31	-a>
+R5coa_hs_c	ARTFR51	-a>
+h_c	ARTFR51	-a>
+ttccoa_c	ARTFR51	-a>
+pmtcoa_c	ARTPLM3	-a>
+h_c	ARTPLM3	-a>
+Rtotalcoa_c	ARTPLM3	-a>
+Rtotalcoa_m	ARTPLM3m	-a>
+h_m	ARTPLM3m	-a>
+pmtcoa_m	ARTPLM3m	-a>
+R4coa_hs_c	RTOT_2	-a>
+R2coa_hs_c	RTOT_2	-a>
+Rtotalcoa_c	RTOT_2	-a>
+fadh2_m	ARTFR12	-a>
+h_m	ARTFR12	-a>
+fad_m	ARTFR12	-a>
+Rtotalcoa_c	ARTFR12	-a>
+hdcoa_c	ARTFR12	-a>

@@ -1,0 +1,1634 @@
+protein	10fthf5glu_c
+protein	10fthf5glu_m
+protein	10fthf6glu_c
+protein	10fthf6glu_m
+protein	10fthf7glu_c
+protein	10fthf7glu_m
+protein	10fthf_c
+protein	10fthf_m
+protein	11docrtsl_c
+protein	11docrtsl_m
+protein	11docrtstrn_c
+protein	11docrtstrn_m
+protein	2425dhvitd2_c
+protein	2425dhvitd2_m
+protein	2425dhvitd3_c
+protein	2425dhvitd3_m
+protein	25hvitd2_c
+protein	25hvitd2_m
+protein	25hvitd3_c
+protein	25hvitd3_m
+protein	2obut_c
+protein	2obut_m
+protein	3aib_D_c
+protein	3aib_D_m
+protein	3aib_c
+protein	3aib_m
+protein	3mob_c
+protein	3mob_m
+protein	3mop_c
+protein	3mop_m
+protein	3pg_c
+protein	3pg_m
+protein	3sala_c
+protein	3sala_m
+protein	4abut_c
+protein	4abut_m
+protein	4mop_c
+protein	4mop_m
+protein	4mptnl_c
+protein	4mptnl_m
+protein	56dthm_c
+protein	56dthm_m
+protein	5thf_c
+protein	5thf_m
+protein	6dhf_c
+protein	6dhf_m
+protein	6thf_c
+protein	6thf_m
+protein	7dhf_c
+protein	7dhf_m
+protein	7thf_c
+protein	7thf_m
+protein	HC00319_c
+protein	HC00319_m
+protein	HC00342_c
+protein	HC00342_m
+protein	c8crn_m
+protein	HC02110_r
+protein	HC10859_c
+protein	HC10859_m
+protein	L2aadp6sa_c
+protein	L2aadp6sa_m
+protein	L2aadp_c
+protein	L2aadp_m
+protein	Nacasp_c
+protein	Nacasp_m
+protein	aact_c
+protein	aact_m
+protein	ac_c
+protein	ac_m
+protein	acac_c
+protein	acac_m
+protein	acald_c
+protein	acald_m
+protein	acetone_c
+protein	acetone_e
+protein	acetone_m
+protein	acrn_c
+protein	acrn_m
+protein	adn_c
+protein	adn_m
+protein	adp_c
+protein	adp_m
+protein	ahcys_c
+protein	ahcys_m
+protein	ahcys_r
+protein	akg_c
+protein	akg_m
+protein	ala_B_c
+protein	ala_B_m
+protein	ala_L_c
+protein	ala_L_m
+protein	aldstrn_c
+protein	aldstrn_m
+protein	amet_c
+protein	amet_m
+protein	amet_r
+protein	arachdcrn_c
+protein	arachdcrn_x
+protein	arg_L_c
+protein	arg_L_m
+protein	asn_L_c
+protein	asn_L_m
+protein	asp_L_c
+protein	asp_L_m
+protein	atp_c
+protein	atp_m
+protein	bhb_c
+protein	bhb_m
+protein	btn_c
+protein	btn_m
+protein	but_c
+protein	but_m
+protein	c4crn_c
+protein	c4crn_m
+protein	c8crn_c
+protein	cbl2_c
+protein	cbl2_m
+protein	cdpdag_hs_c
+protein	cdpdag_hs_m
+protein	chol_c
+protein	chol_m
+protein	chsterol_c
+protein	chsterol_l
+protein	chsterol_m
+protein	chsterol_r
+protein	cit_c
+protein	cit_m
+protein	citr_L_c
+protein	citr_L_m
+protein	co2_c
+protein	co2_m
+protein	coa_c
+protein	coa_m
+protein	crn_c
+protein	crn_m
+protein	crn_x
+protein	crtsl_c
+protein	crtsl_m
+protein	crtstrn_c
+protein	crtstrn_m
+protein	cyan_c
+protein	cyan_m
+protein	cys_L_c
+protein	cys_L_m
+protein	cytd_c
+protein	cytd_m
+protein	dadp_c
+protein	dadp_m
+protein	datp_c
+protein	datp_m
+protein	dcdp_c
+protein	dcdp_m
+protein	dctp_c
+protein	dctp_m
+protein	decdp_c
+protein	decdp_m
+protein	dgdp_c
+protein	dgdp_m
+protein	dgmp_c
+protein	dgmp_m
+protein	dgsn_c
+protein	dgsn_m
+protein	dgtp_c
+protein	dgtp_m
+protein	dhap_c
+protein	dhap_m
+protein	dhcholoylcoa_c
+protein	dhcholoylcoa_m
+protein	dhf_c
+protein	dhf_m
+protein	dmgly_c
+protein	dmgly_m
+protein	dtdp_c
+protein	dtdp_m
+protein	dtmp_c
+protein	dtmp_m
+protein	dttp_c
+protein	dttp_m
+protein	dudp_c
+protein	dudp_m
+protein	dutp_c
+protein	dutp_m
+protein	fad_c
+protein	fad_m
+protein	fald_c
+protein	fald_m
+protein	fe2_c
+protein	fe2_m
+protein	fol_c
+protein	fol_m
+protein	for_c
+protein	for_m
+protein	fum_c
+protein	fum_m
+protein	gdp_c
+protein	gdp_m
+protein	gln_L_c
+protein	gln_L_m
+protein	glu_L_c
+protein	glu_L_m
+protein	glx_c
+protein	glx_m
+protein	gly_c
+protein	gly_m
+protein	glyb_c
+protein	glyb_m
+protein	glyc3p_c
+protein	glyc3p_m
+protein	glyc_c
+protein	glyc_m
+protein	gsn_c
+protein	gsn_m
+protein	gthrd_c
+protein	gthrd_m
+protein	gtp_c
+protein	gtp_m
+protein	h2o2_c
+protein	h2o2_m
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	h_r
+protein	hco3_c
+protein	hco3_m
+protein	hdcecrn_c
+protein	hdcecrn_m
+protein	his_L_c
+protein	his_L_m
+protein	hmgcoa_c
+protein	hmgcoa_m
+protein	icit_c
+protein	icit_m
+protein	ile_L_c
+protein	ile_L_m
+protein	ins_c
+protein	ins_m
+protein	lac_D_c
+protein	lac_D_m
+protein	lac_L_c
+protein	lac_L_m
+protein	leu_L_c
+protein	leu_L_m
+protein	lys_L_c
+protein	lys_L_m
+protein	mal_L_c
+protein	mal_L_m
+protein	met_L_c
+protein	met_L_m
+protein	nad_c
+protein	nad_m
+protein	nh4_c
+protein	nh4_m
+protein	o2_c
+protein	o2_m
+protein	o2s_c
+protein	o2s_m
+protein	occoa_c
+protein	occoa_m
+protein	orn_c
+protein	orn_m
+protein	oxa_c
+protein	oxa_m
+protein	pchol_hs_c
+protein	pchol_hs_m
+protein	pcrn_c
+protein	pcrn_m
+protein	pe_hs_c
+protein	pe_hs_m
+protein	pep_c
+protein	pep_m
+protein	phe_L_c
+protein	phe_L_m
+protein	pheme_c
+protein	pheme_m
+protein	pi_c
+protein	pi_m
+protein	ppa_c
+protein	ppa_m
+protein	ppcoa_c
+protein	ppcoa_m
+protein	ppi_c
+protein	ppi_m
+protein	prgnlone_c
+protein	prgnlone_m
+protein	pro_L_c
+protein	pro_L_m
+protein	ps_hs_c
+protein	ps_hs_m
+protein	ptrc_c
+protein	ptrc_m
+protein	ptth_c
+protein	ptth_m
+protein	pyam5p_c
+protein	pyam5p_m
+protein	pydx5p_c
+protein	pydx5p_m
+protein	pyr_c
+protein	pyr_m
+protein	q10_c
+protein	q10_m
+protein	q10h2_c
+protein	q10h2_m
+protein	sarcs_c
+protein	sarcs_m
+protein	so3_c
+protein	so3_m
+protein	so4_c
+protein	so4_m
+protein	succ_c
+protein	succ_m
+protein	tcynt_c
+protein	tcynt_m
+protein	thf_c
+protein	thf_m
+protein	thm_c
+protein	thm_m
+protein	thmmp_c
+protein	thmmp_m
+protein	thmpp_c
+protein	thmpp_m
+protein	thr_L_c
+protein	thr_L_m
+protein	thym_c
+protein	thym_m
+protein	thymd_c
+protein	thymd_m
+protein	trdrd_c
+protein	trdrd_m
+protein	tsul_c
+protein	tsul_m
+protein	tyr_L_c
+protein	tyr_L_m
+protein	uri_c
+protein	uri_m
+protein	vacccrn_c
+protein	vacccrn_m
+protein	val_L_c
+protein	val_L_m
+protein	vitd2_c
+protein	vitd2_m
+protein	vitd3_c
+protein	vitd3_m
+protein	xol27oh_m
+protein	xol27oh_r
+protein	xol7ah2_c
+protein	xol7ah2_m
+protein	xol7ah3_c
+protein	xol7ah3_m
+protein	xoltriol_c
+protein	xoltriol_m
+protein	zymst_r
+protein	h_i
+abstract	r1146
+abstract	10FTHF5GLUtm
+abstract	10FTHF6GLUtm
+abstract	10FTHF7GLUtm
+abstract	10FTHFtm
+abstract	11DOCRTSLtm
+abstract	11DOCRTSTRNtm
+abstract	24_25DHVITD2tm
+abstract	24_25DHVITD3tm
+abstract	25HVITD2tm
+abstract	25HVITD3tm
+abstract	3AIBtm
+abstract	3MOBt2im
+abstract	3MOPt2im
+abstract	3SALAASPm
+abstract	4ABUTtm
+abstract	4MOPt2im
+abstract	4MPTNLtm
+abstract	5THFtm
+abstract	6DHFtm
+abstract	6THFtm
+abstract	7DHFtm
+abstract	7THFtm
+abstract	AACTtm
+abstract	ACACt2m
+abstract	ACALDtm
+abstract	ACETONEt2m
+abstract	ACRNtm
+abstract	ACt2m
+abstract	ADNtm
+abstract	AKGMALtm
+abstract	ALDSTRNtm
+abstract	AMETt2m
+abstract	ARGtm
+abstract	ASNtm
+abstract	ASPGLUm
+abstract	ATPtm
+abstract	BALAtmr
+abstract	BHBtm
+abstract	BTNt2m
+abstract	BUTt2m
+abstract	CBL2tm
+abstract	CDPDAGtm
+abstract	CHLtm
+abstract	CHSTEROLt1
+abstract	CHSTEROLt2
+abstract	CHSTEROLt3
+abstract	CITRtm
+abstract	CITtam
+abstract	CITtbm
+abstract	CO2tm
+abstract	COAtm
+abstract	CRNtim
+abstract	CRTSLtm
+abstract	CRTSTRNtm
+abstract	CYANtm
+abstract	CYTDtm
+abstract	DECDPtm
+abstract	DGSNtm
+abstract	DHFtm
+abstract	D_LACtm
+abstract	DMGtm
+abstract	DNDPt12m
+abstract	DNDPt13m
+abstract	DNDPt18m
+abstract	DNDPt19m
+abstract	DNDPt1m
+abstract	DNDPt20m
+abstract	DNDPt21m
+abstract	DNDPt22m
+abstract	DNDPt26m
+abstract	DNDPt27m
+abstract	DNDPt29m
+abstract	DNDPt2m
+abstract	DNDPt30m
+abstract	DNDPt31m
+abstract	DNDPt32m
+abstract	DNDPt33m
+abstract	DNDPt34m
+abstract	DNDPt35m
+abstract	DNDPt36m
+abstract	DNDPt37m
+abstract	DNDPt38m
+abstract	DNDPt39m
+abstract	DNDPt3m
+abstract	DNDPt40m
+abstract	DNDPt41m
+abstract	DNDPt42m
+abstract	DNDPt43m
+abstract	DNDPt44m
+abstract	DNDPt45m
+abstract	DNDPt46m
+abstract	DNDPt47m
+abstract	DNDPt48m
+abstract	DNDPt49m
+abstract	DNDPt4m
+abstract	DNDPt50m
+abstract	DNDPt51m
+abstract	DNDPt52m
+abstract	DNDPt53m
+abstract	DNDPt54m
+abstract	DNDPt55m
+abstract	DNDPt56m
+abstract	DNDPt57m
+abstract	DNDPt58m
+abstract	DNDPt59m
+abstract	DNDPt5m
+abstract	DNDPt60m
+abstract	DNDPt61m
+abstract	DNDPt62m
+abstract	DNDPt63m
+abstract	DNDPt6m
+abstract	DNDPt7m
+abstract	DNDPt8m
+abstract	DNDPt9m
+abstract	FALDtm
+abstract	FE2tm
+abstract	FORt2m
+abstract	FUMSO3tm
+abstract	FUMSO4tm
+abstract	FUMtm
+abstract	FUMTSULtm
+abstract	GLNtm
+abstract	GLUt2m
+abstract	GLXtm
+abstract	GLYBtm
+abstract	GLYCtm
+abstract	GLYtm
+abstract	GSNtm
+abstract	H2O2tm
+abstract	H2Otm
+abstract	HMGCOAtm
+abstract	Htm
+abstract	ILEt5m
+abstract	INStm
+abstract	LEUt5m
+abstract	L_LACtcm
+abstract	L_LACtm
+abstract	LYStm
+abstract	MALSO3tm
+abstract	MALSO4tm
+abstract	MALtm
+abstract	MALTSULtm
+abstract	NACASPtm
+abstract	O2Stm
+abstract	O2tm
+abstract	OCCOAtm
+abstract	ORNt3m
+abstract	ORNt4m
+abstract	PCFLOPm
+abstract	PE_HStm
+abstract	PEFLIPm
+abstract	PHEMEtm
+abstract	PIt2m
+abstract	PPAtm
+abstract	PRGNLONEtm
+abstract	PROtm
+abstract	PSFLIPm
+abstract	PYAM5Ptm
+abstract	PYDX5Ptm
+abstract	PYRt2m
+abstract	SARCStm
+abstract	SUCCt2m
+abstract	TCYNTtm
+abstract	THFtm
+abstract	THMMPtm
+abstract	THMPPtm
+abstract	THMt2m
+abstract	THYMDtm
+abstract	Uritm
+abstract	VALt5m
+abstract	VITD2tm
+abstract	VITD3tm
+abstract	XOL27OHtm
+abstract	XOL7AH2tm
+abstract	XOLTRIOLtm
+abstract	r0801
+abstract	r0819
+abstract	r0821
+abstract	r0822
+abstract	r0829
+abstract	r0830
+abstract	r0834
+abstract	r0835
+abstract	r0836
+abstract	r0838
+abstract	r0885
+abstract	r0907
+abstract	r0911
+abstract	r0913
+abstract	r0915
+abstract	r0917
+abstract	r0921
+abstract	r0926
+abstract	r0927
+abstract	r0941
+abstract	r0947
+abstract	r0950
+abstract	r0962
+abstract	r0973
+abstract	r0975
+abstract	r1001
+abstract	r1005
+abstract	r1008
+abstract	r1020
+abstract	r1021
+abstract	r1078
+abstract	r1117
+abstract	r1155
+abstract	r1291
+abstract	r1427
+abstract	r1434
+abstract	r1436
+abstract	r1437
+abstract	r1440
+abstract	r1441
+abstract	r1454
+abstract	r1455
+abstract	r1456
+abstract	r1464
+abstract	r2371
+abstract	r2372
+abstract	r2373
+abstract	r2374
+abstract	r2375
+abstract	r2376
+abstract	r2377
+abstract	r2378
+abstract	r2379
+abstract	r2380
+abstract	r2381
+abstract	r2382
+abstract	r2384
+abstract	r2385
+abstract	r2386
+abstract	r2387
+abstract	r2388
+abstract	r2389
+abstract	r2390
+abstract	r2391
+abstract	r2392
+abstract	r2393
+abstract	r2394
+abstract	r2395
+abstract	r2396
+abstract	r2397
+abstract	r2398
+abstract	r2399
+abstract	r2400
+abstract	r2401
+abstract	r2402
+abstract	r2403
+abstract	r2404
+abstract	r2405
+abstract	r2406
+abstract	r2407
+abstract	r2408
+abstract	r2409
+abstract	r2410
+abstract	r2411
+abstract	r2413
+abstract	r2416
+abstract	r2419
+abstract	r2420
+abstract	r2425
+abstract	r2433
+abstract	r2434
+abstract	r2436
+abstract	r2437
+abstract	r2438
+abstract	r2472
+abstract	r2520
+abstract	r2539
+abstract	C4tmc
+abstract	3AIB_Dtm
+abstract	AHCYStd
+abstract	AMETtd
+abstract	DATPtm
+abstract	DCTPtm
+abstract	DGTPtm
+abstract	DHAPtc
+abstract	DTTPtm
+abstract	FADtm
+abstract	GLYC3Ptmc
+abstract	NADtm
+abstract	PPItm
+abstract	q10h2tc
+abstract	q10tm
+amet_r	r1146	-a>
+h_r	r1146	-a>
+zymst_r	r1146	-a>
+HC02110_r	r1146	-a>
+ahcys_r	r1146	-a>
+10fthf5glu_c	10FTHF5GLUtm	-a>
+10fthf5glu_m	10FTHF5GLUtm	-a>
+10fthf6glu_c	10FTHF6GLUtm	-a>
+10fthf6glu_m	10FTHF6GLUtm	-a>
+10fthf7glu_m	10FTHF7GLUtm	-a>
+10fthf7glu_c	10FTHF7GLUtm	-a>
+10fthf_c	10FTHFtm	-a>
+10fthf_m	10FTHFtm	-a>
+11docrtsl_m	11DOCRTSLtm	-a>
+11docrtsl_c	11DOCRTSLtm	-a>
+11docrtstrn_m	11DOCRTSTRNtm	-a>
+11docrtstrn_c	11DOCRTSTRNtm	-a>
+2425dhvitd2_m	24_25DHVITD2tm	-a>
+2425dhvitd2_c	24_25DHVITD2tm	-a>
+2425dhvitd3_m	24_25DHVITD3tm	-a>
+2425dhvitd3_c	24_25DHVITD3tm	-a>
+25hvitd2_c	25HVITD2tm	-a>
+25hvitd2_m	25HVITD2tm	-a>
+25hvitd3_c	25HVITD3tm	-a>
+25hvitd3_m	25HVITD3tm	-a>
+3aib_m	3AIBtm	-a>
+3aib_c	3AIBtm	-a>
+h_m	3MOBt2im	-a>
+h_c	3MOBt2im	-a>
+3mob_m	3MOBt2im	-a>
+3mob_c	3MOBt2im	-a>
+3mop_m	3MOPt2im	-a>
+3mop_c	3MOPt2im	-a>
+h_m	3MOPt2im	-a>
+h_c	3MOPt2im	-a>
+3sala_m	3SALAASPm	-a>
+asp_L_c	3SALAASPm	-a>
+asp_L_m	3SALAASPm	-a>
+3sala_c	3SALAASPm	-a>
+4abut_m	4ABUTtm	-a>
+4abut_c	4ABUTtm	-a>
+4mop_c	4MOPt2im	-a>
+h_m	4MOPt2im	-a>
+h_c	4MOPt2im	-a>
+4mop_m	4MOPt2im	-a>
+4mptnl_m	4MPTNLtm	-a>
+4mptnl_c	4MPTNLtm	-a>
+5thf_c	5THFtm	-a>
+5thf_m	5THFtm	-a>
+6dhf_c	6DHFtm	-a>
+6dhf_m	6DHFtm	-a>
+6thf_m	6THFtm	-a>
+6thf_c	6THFtm	-a>
+7dhf_c	7DHFtm	-a>
+7dhf_m	7DHFtm	-a>
+7thf_c	7THFtm	-a>
+7thf_m	7THFtm	-a>
+aact_m	AACTtm	-a>
+aact_c	AACTtm	-a>
+acac_m	ACACt2m	-a>
+acac_c	ACACt2m	-a>
+h_m	ACACt2m	-a>
+h_c	ACACt2m	-a>
+acald_m	ACALDtm	-a>
+acald_c	ACALDtm	-a>
+h_m	ACETONEt2m	-a>
+h_c	ACETONEt2m	-a>
+acetone_c	ACETONEt2m	-a>
+acetone_m	ACETONEt2m	-a>
+acrn_c	ACRNtm	-a>
+acrn_m	ACRNtm	-a>
+ac_c	ACt2m	-a>
+ac_m	ACt2m	-a>
+h_m	ACt2m	-a>
+h_c	ACt2m	-a>
+adn_c	ADNtm	-a>
+adn_m	ADNtm	-a>
+akg_m	AKGMALtm	-a>
+mal_L_m	AKGMALtm	-a>
+mal_L_c	AKGMALtm	-a>
+akg_c	AKGMALtm	-a>
+aldstrn_m	ALDSTRNtm	-a>
+aldstrn_c	ALDSTRNtm	-a>
+amet_m	AMETt2m	-a>
+amet_c	AMETt2m	-a>
+ahcys_m	AMETt2m	-a>
+ahcys_c	AMETt2m	-a>
+h_m	ARGtm	-a>
+arg_L_c	ARGtm	-a>
+h_c	ARGtm	-a>
+arg_L_m	ARGtm	-a>
+asn_L_c	ASNtm	-a>
+asn_L_m	ASNtm	-a>
+glu_L_m	ASPGLUm	-a>
+asp_L_m	ASPGLUm	-a>
+h_m	ASPGLUm	-a>
+glu_L_c	ASPGLUm	-a>
+h_i	ASPGLUm	-a>
+asp_L_c	ASPGLUm	-a>
+atp_m	ATPtm	-a>
+atp_c	ATPtm	-a>
+adp_m	ATPtm	-a>
+adp_c	ATPtm	-a>
+ala_B_m	BALAtmr	-a>
+ala_B_c	BALAtmr	-a>
+h_m	BHBtm	-a>
+h_c	BHBtm	-a>
+bhb_c	BHBtm	-a>
+bhb_m	BHBtm	-a>
+btn_m	BTNt2m	-a>
+h_m	BTNt2m	-a>
+btn_c	BTNt2m	-a>
+h_c	BTNt2m	-a>
+but_m	BUTt2m	-a>
+but_c	BUTt2m	-a>
+h_m	BUTt2m	-a>
+h_c	BUTt2m	-a>
+cbl2_c	CBL2tm	-a>
+cbl2_m	CBL2tm	-a>
+cdpdag_hs_m	CDPDAGtm	-a>
+cdpdag_hs_c	CDPDAGtm	-a>
+chol_m	CHLtm	-a>
+chol_c	CHLtm	-a>
+chsterol_m	CHSTEROLt1	-a>
+chsterol_l	CHSTEROLt1	-a>
+chsterol_m	CHSTEROLt2	-a>
+chsterol_r	CHSTEROLt2	-a>
+chsterol_m	CHSTEROLt3	-a>
+chsterol_c	CHSTEROLt3	-a>
+citr_L_m	CITRtm	-a>
+citr_L_c	CITRtm	-a>
+mal_L_m	CITtam	-a>
+mal_L_c	CITtam	-a>
+cit_m	CITtam	-a>
+cit_c	CITtam	-a>
+pep_c	CITtbm	-a>
+pep_m	CITtbm	-a>
+cit_m	CITtbm	-a>
+cit_c	CITtbm	-a>
+co2_m	CO2tm	-a>
+co2_c	CO2tm	-a>
+coa_c	COAtm	-a>
+coa_m	COAtm	-a>
+crn_m	CRNtim	-a>
+crn_c	CRNtim	-a>
+crtsl_m	CRTSLtm	-a>
+crtsl_c	CRTSLtm	-a>
+crtstrn_m	CRTSTRNtm	-a>
+crtstrn_c	CRTSTRNtm	-a>
+cyan_m	CYANtm	-a>
+cyan_c	CYANtm	-a>
+cytd_m	CYTDtm	-a>
+cytd_c	CYTDtm	-a>
+decdp_m	DECDPtm	-a>
+decdp_c	DECDPtm	-a>
+dgsn_c	DGSNtm	-a>
+dgsn_m	DGSNtm	-a>
+dhf_m	DHFtm	-a>
+dhf_c	DHFtm	-a>
+h_m	D_LACtm	-a>
+h_c	D_LACtm	-a>
+lac_D_c	D_LACtm	-a>
+lac_D_m	D_LACtm	-a>
+dmgly_c	DMGtm	-a>
+dmgly_m	DMGtm	-a>
+dadp_c	DNDPt12m	-a>
+adp_m	DNDPt12m	-a>
+adp_c	DNDPt12m	-a>
+dadp_m	DNDPt12m	-a>
+atp_m	DNDPt13m	-a>
+atp_c	DNDPt13m	-a>
+dadp_c	DNDPt13m	-a>
+dadp_m	DNDPt13m	-a>
+dudp_c	DNDPt18m	-a>
+adp_m	DNDPt18m	-a>
+adp_c	DNDPt18m	-a>
+dudp_m	DNDPt18m	-a>
+atp_m	DNDPt19m	-a>
+dudp_c	DNDPt19m	-a>
+atp_c	DNDPt19m	-a>
+dudp_m	DNDPt19m	-a>
+datp_c	DNDPt1m	-a>
+adp_m	DNDPt1m	-a>
+adp_c	DNDPt1m	-a>
+datp_m	DNDPt1m	-a>
+atp_m	DNDPt20m	-a>
+atp_c	DNDPt20m	-a>
+dtdp_m	DNDPt20m	-a>
+dtdp_c	DNDPt20m	-a>
+adp_m	DNDPt21m	-a>
+adp_c	DNDPt21m	-a>
+dtdp_c	DNDPt21m	-a>
+dtdp_m	DNDPt21m	-a>
+dudp_c	DNDPt22m	-a>
+dtdp_m	DNDPt22m	-a>
+dtdp_c	DNDPt22m	-a>
+dudp_m	DNDPt22m	-a>
+dudp_c	DNDPt26m	-a>
+dcdp_c	DNDPt26m	-a>
+dudp_m	DNDPt26m	-a>
+dcdp_m	DNDPt26m	-a>
+dcdp_c	DNDPt27m	-a>
+dtdp_m	DNDPt27m	-a>
+dtdp_c	DNDPt27m	-a>
+dcdp_m	DNDPt27m	-a>
+dadp_c	DNDPt29m	-a>
+dcdp_c	DNDPt29m	-a>
+dadp_m	DNDPt29m	-a>
+dcdp_m	DNDPt29m	-a>
+atp_m	DNDPt2m	-a>
+datp_c	DNDPt2m	-a>
+atp_c	DNDPt2m	-a>
+datp_m	DNDPt2m	-a>
+dcdp_c	DNDPt30m	-a>
+adp_c	DNDPt30m	-a>
+adp_m	DNDPt30m	-a>
+dcdp_m	DNDPt30m	-a>
+atp_m	DNDPt31m	-a>
+atp_c	DNDPt31m	-a>
+dcdp_c	DNDPt31m	-a>
+dcdp_m	DNDPt31m	-a>
+atp_m	DNDPt32m	-a>
+dgdp_m	DNDPt32m	-a>
+atp_c	DNDPt32m	-a>
+dgdp_c	DNDPt32m	-a>
+dgdp_m	DNDPt33m	-a>
+dudp_c	DNDPt33m	-a>
+dudp_m	DNDPt33m	-a>
+dgdp_c	DNDPt33m	-a>
+dgdp_m	DNDPt34m	-a>
+dtdp_m	DNDPt34m	-a>
+dtdp_c	DNDPt34m	-a>
+dgdp_c	DNDPt34m	-a>
+dgdp_m	DNDPt35m	-a>
+dadp_c	DNDPt35m	-a>
+dgdp_c	DNDPt35m	-a>
+dadp_m	DNDPt35m	-a>
+dgdp_m	DNDPt36m	-a>
+dcdp_c	DNDPt36m	-a>
+dgdp_c	DNDPt36m	-a>
+dcdp_m	DNDPt36m	-a>
+dutp_m	DNDPt37m	-a>
+dutp_c	DNDPt37m	-a>
+dtdp_c	DNDPt37m	-a>
+dtdp_m	DNDPt37m	-a>
+dutp_m	DNDPt38m	-a>
+dudp_c	DNDPt38m	-a>
+dudp_m	DNDPt38m	-a>
+dutp_c	DNDPt38m	-a>
+dutp_m	DNDPt39m	-a>
+dgdp_m	DNDPt39m	-a>
+dutp_c	DNDPt39m	-a>
+dgdp_c	DNDPt39m	-a>
+datp_c	DNDPt3m	-a>
+dcdp_c	DNDPt3m	-a>
+datp_m	DNDPt3m	-a>
+dcdp_m	DNDPt3m	-a>
+dutp_m	DNDPt40m	-a>
+dadp_c	DNDPt40m	-a>
+dutp_c	DNDPt40m	-a>
+dadp_m	DNDPt40m	-a>
+dutp_m	DNDPt41m	-a>
+dcdp_c	DNDPt41m	-a>
+dutp_c	DNDPt41m	-a>
+dcdp_m	DNDPt41m	-a>
+dutp_m	DNDPt42m	-a>
+adp_m	DNDPt42m	-a>
+adp_c	DNDPt42m	-a>
+dutp_c	DNDPt42m	-a>
+atp_m	DNDPt43m	-a>
+dutp_m	DNDPt43m	-a>
+atp_c	DNDPt43m	-a>
+dutp_c	DNDPt43m	-a>
+atp_m	DNDPt44m	-a>
+atp_c	DNDPt44m	-a>
+dttp_m	DNDPt44m	-a>
+dttp_c	DNDPt44m	-a>
+dttp_m	DNDPt45m	-a>
+dttp_c	DNDPt45m	-a>
+adp_c	DNDPt45m	-a>
+adp_m	DNDPt45m	-a>
+dudp_c	DNDPt46m	-a>
+dttp_m	DNDPt46m	-a>
+dttp_c	DNDPt46m	-a>
+dudp_m	DNDPt46m	-a>
+dttp_m	DNDPt47m	-a>
+dttp_c	DNDPt47m	-a>
+dtdp_m	DNDPt47m	-a>
+dtdp_c	DNDPt47m	-a>
+dgdp_m	DNDPt48m	-a>
+dttp_m	DNDPt48m	-a>
+dttp_c	DNDPt48m	-a>
+dgdp_c	DNDPt48m	-a>
+dadp_c	DNDPt49m	-a>
+dttp_m	DNDPt49m	-a>
+dttp_c	DNDPt49m	-a>
+dadp_m	DNDPt49m	-a>
+datp_c	DNDPt4m	-a>
+dudp_c	DNDPt4m	-a>
+datp_m	DNDPt4m	-a>
+dudp_m	DNDPt4m	-a>
+dttp_m	DNDPt50m	-a>
+dcdp_c	DNDPt50m	-a>
+dttp_c	DNDPt50m	-a>
+dcdp_m	DNDPt50m	-a>
+dctp_c	DNDPt51m	-a>
+dcdp_c	DNDPt51m	-a>
+dctp_m	DNDPt51m	-a>
+dcdp_m	DNDPt51m	-a>
+dctp_c	DNDPt52m	-a>
+dudp_c	DNDPt52m	-a>
+dudp_m	DNDPt52m	-a>
+dctp_m	DNDPt52m	-a>
+dgdp_c	DNDPt53m	-a>
+dgdp_m	DNDPt53m	-a>
+dctp_m	DNDPt53m	-a>
+dctp_c	DNDPt53m	-a>
+dctp_c	DNDPt54m	-a>
+dadp_c	DNDPt54m	-a>
+dctp_m	DNDPt54m	-a>
+dadp_m	DNDPt54m	-a>
+dctp_c	DNDPt55m	-a>
+adp_m	DNDPt55m	-a>
+adp_c	DNDPt55m	-a>
+dctp_m	DNDPt55m	-a>
+atp_m	DNDPt56m	-a>
+dctp_c	DNDPt56m	-a>
+atp_c	DNDPt56m	-a>
+dctp_m	DNDPt56m	-a>
+atp_m	DNDPt57m	-a>
+atp_c	DNDPt57m	-a>
+dgtp_m	DNDPt57m	-a>
+dgtp_c	DNDPt57m	-a>
+adp_m	DNDPt58m	-a>
+adp_c	DNDPt58m	-a>
+dgtp_m	DNDPt58m	-a>
+dgtp_c	DNDPt58m	-a>
+dadp_c	DNDPt59m	-a>
+dadp_m	DNDPt59m	-a>
+dgtp_m	DNDPt59m	-a>
+dgtp_c	DNDPt59m	-a>
+datp_c	DNDPt5m	-a>
+datp_m	DNDPt5m	-a>
+dtdp_c	DNDPt5m	-a>
+dtdp_m	DNDPt5m	-a>
+dudp_c	DNDPt60m	-a>
+dudp_m	DNDPt60m	-a>
+dgtp_m	DNDPt60m	-a>
+dgtp_c	DNDPt60m	-a>
+dgtp_m	DNDPt61m	-a>
+dtdp_m	DNDPt61m	-a>
+dtdp_c	DNDPt61m	-a>
+dgtp_c	DNDPt61m	-a>
+dgdp_m	DNDPt62m	-a>
+dgdp_c	DNDPt62m	-a>
+dgtp_m	DNDPt62m	-a>
+dgtp_c	DNDPt62m	-a>
+dcdp_m	DNDPt63m	-a>
+dcdp_c	DNDPt63m	-a>
+dgtp_m	DNDPt63m	-a>
+dgtp_c	DNDPt63m	-a>
+dgdp_m	DNDPt6m	-a>
+datp_c	DNDPt6m	-a>
+dgdp_c	DNDPt6m	-a>
+datp_m	DNDPt6m	-a>
+datp_c	DNDPt7m	-a>
+dadp_c	DNDPt7m	-a>
+datp_m	DNDPt7m	-a>
+dadp_m	DNDPt7m	-a>
+dadp_c	DNDPt8m	-a>
+dudp_c	DNDPt8m	-a>
+dadp_m	DNDPt8m	-a>
+dudp_m	DNDPt8m	-a>
+dadp_m	DNDPt9m	-a>
+dadp_c	DNDPt9m	-a>
+dtdp_m	DNDPt9m	-a>
+dtdp_c	DNDPt9m	-a>
+fald_c	FALDtm	-a>
+fald_m	FALDtm	-a>
+h_m	FE2tm	-a>
+fe2_m	FE2tm	-a>
+h_c	FE2tm	-a>
+fe2_c	FE2tm	-a>
+for_c	FORt2m	-a>
+for_m	FORt2m	-a>
+so3_m	FUMSO3tm	-a>
+fum_m	FUMSO3tm	-a>
+fum_c	FUMSO3tm	-a>
+so3_c	FUMSO3tm	-a>
+fum_m	FUMSO4tm	-a>
+fum_c	FUMSO4tm	-a>
+so4_c	FUMSO4tm	-a>
+so4_m	FUMSO4tm	-a>
+pi_c	FUMtm	-a>
+fum_m	FUMtm	-a>
+fum_c	FUMtm	-a>
+pi_m	FUMtm	-a>
+tsul_m	FUMTSULtm	-a>
+tsul_c	FUMTSULtm	-a>
+fum_m	FUMTSULtm	-a>
+fum_c	FUMTSULtm	-a>
+gln_L_c	GLNtm	-a>
+gln_L_m	GLNtm	-a>
+glu_L_c	GLUt2m	-a>
+h_m	GLUt2m	-a>
+h_c	GLUt2m	-a>
+glu_L_m	GLUt2m	-a>
+glx_m	GLXtm	-a>
+glx_c	GLXtm	-a>
+glyb_m	GLYBtm	-a>
+glyb_c	GLYBtm	-a>
+glyc_m	GLYCtm	-a>
+glyc_c	GLYCtm	-a>
+gly_c	GLYtm	-a>
+gly_m	GLYtm	-a>
+gsn_c	GSNtm	-a>
+gsn_m	GSNtm	-a>
+h2o2_c	H2O2tm	-a>
+h2o2_m	H2O2tm	-a>
+h2o_m	H2Otm	-a>
+h2o_c	H2Otm	-a>
+hmgcoa_c	HMGCOAtm	-a>
+hmgcoa_m	HMGCOAtm	-a>
+h_i	Htm	-a>
+h_m	Htm	-a>
+ile_L_m	ILEt5m	-a>
+ile_L_c	ILEt5m	-a>
+ins_c	INStm	-a>
+ins_m	INStm	-a>
+leu_L_c	LEUt5m	-a>
+leu_L_m	LEUt5m	-a>
+lac_L_c	L_LACtcm	-a>
+lac_L_m	L_LACtcm	-a>
+lac_L_c	L_LACtm	-a>
+h_m	L_LACtm	-a>
+h_c	L_LACtm	-a>
+lac_L_m	L_LACtm	-a>
+lys_L_c	LYStm	-a>
+h_m	LYStm	-a>
+lys_L_m	LYStm	-a>
+h_c	LYStm	-a>
+so3_m	MALSO3tm	-a>
+mal_L_m	MALSO3tm	-a>
+mal_L_c	MALSO3tm	-a>
+so3_c	MALSO3tm	-a>
+so4_c	MALSO4tm	-a>
+so4_m	MALSO4tm	-a>
+mal_L_m	MALSO4tm	-a>
+mal_L_c	MALSO4tm	-a>
+pi_c	MALtm	-a>
+mal_L_m	MALtm	-a>
+mal_L_c	MALtm	-a>
+pi_m	MALtm	-a>
+tsul_m	MALTSULtm	-a>
+tsul_c	MALTSULtm	-a>
+mal_L_m	MALTSULtm	-a>
+mal_L_c	MALTSULtm	-a>
+Nacasp_c	NACASPtm	-a>
+Nacasp_m	NACASPtm	-a>
+o2s_m	O2Stm	-a>
+o2s_c	O2Stm	-a>
+o2_m	O2tm	-a>
+o2_c	O2tm	-a>
+occoa_c	OCCOAtm	-a>
+occoa_m	OCCOAtm	-a>
+orn_c	ORNt3m	-a>
+h_m	ORNt3m	-a>
+h_c	ORNt3m	-a>
+orn_m	ORNt3m	-a>
+h_m	ORNt4m	-a>
+citr_L_m	ORNt4m	-a>
+h_c	ORNt4m	-a>
+orn_c	ORNt4m	-a>
+citr_L_c	ORNt4m	-a>
+orn_m	ORNt4m	-a>
+pchol_hs_m	PCFLOPm	-a>
+h2o_c	PCFLOPm	-a>
+h_c	PCFLOPm	-a>
+pchol_hs_c	PCFLOPm	-a>
+pi_c	PCFLOPm	-a>
+atp_c	PCFLOPm	-a>
+adp_c	PCFLOPm	-a>
+pe_hs_c	PE_HStm	-a>
+pe_hs_m	PE_HStm	-a>
+pe_hs_m	PEFLIPm	-a>
+h_c	PEFLIPm	-a>
+pe_hs_c	PEFLIPm	-a>
+pi_c	PEFLIPm	-a>
+atp_c	PEFLIPm	-a>
+h2o_c	PEFLIPm	-a>
+adp_c	PEFLIPm	-a>
+pheme_c	PHEMEtm	-a>
+pheme_m	PHEMEtm	-a>
+pi_c	PIt2m	-a>
+h_m	PIt2m	-a>
+h_c	PIt2m	-a>
+pi_m	PIt2m	-a>
+ppa_m	PPAtm	-a>
+ppa_c	PPAtm	-a>
+prgnlone_c	PRGNLONEtm	-a>
+prgnlone_m	PRGNLONEtm	-a>
+pro_L_m	PROtm	-a>
+pro_L_c	PROtm	-a>
+h2o_c	PSFLIPm	-a>
+h_c	PSFLIPm	-a>
+pi_c	PSFLIPm	-a>
+ps_hs_m	PSFLIPm	-a>
+atp_c	PSFLIPm	-a>
+adp_c	PSFLIPm	-a>
+ps_hs_c	PSFLIPm	-a>
+pyam5p_c	PYAM5Ptm	-a>
+pyam5p_m	PYAM5Ptm	-a>
+pydx5p_m	PYDX5Ptm	-a>
+pydx5p_c	PYDX5Ptm	-a>
+pyr_m	PYRt2m	-a>
+pyr_c	PYRt2m	-a>
+h_m	PYRt2m	-a>
+h_c	PYRt2m	-a>
+sarcs_m	SARCStm	-a>
+sarcs_c	SARCStm	-a>
+pi_c	SUCCt2m	-a>
+succ_m	SUCCt2m	-a>
+succ_c	SUCCt2m	-a>
+pi_m	SUCCt2m	-a>
+tcynt_c	TCYNTtm	-a>
+tcynt_m	TCYNTtm	-a>
+thf_m	THFtm	-a>
+thf_c	THFtm	-a>
+h2o_m	THMMPtm	-a>
+h2o_c	THMMPtm	-a>
+thmmp_m	THMMPtm	-a>
+thmmp_c	THMMPtm	-a>
+thmpp_c	THMPPtm	-a>
+h2o_m	THMPPtm	-a>
+h2o_c	THMPPtm	-a>
+thmpp_m	THMPPtm	-a>
+thm_m	THMt2m	-a>
+thm_c	THMt2m	-a>
+h_c	THMt2m	-a>
+h_m	THMt2m	-a>
+thymd_c	THYMDtm	-a>
+thymd_m	THYMDtm	-a>
+uri_c	Uritm	-a>
+uri_m	Uritm	-a>
+val_L_c	VALt5m	-a>
+val_L_m	VALt5m	-a>
+vitd2_m	VITD2tm	-a>
+vitd2_c	VITD2tm	-a>
+vitd3_m	VITD3tm	-a>
+vitd3_c	VITD3tm	-a>
+xol27oh_r	XOL27OHtm	-a>
+xol27oh_m	XOL27OHtm	-a>
+xol7ah2_m	XOL7AH2tm	-a>
+xol7ah2_c	XOL7AH2tm	-a>
+xoltriol_m	XOLTRIOLtm	-a>
+xoltriol_c	XOLTRIOLtm	-a>
+gtp_m	r0801	-a>
+gtp_c	r0801	-a>
+gdp_m	r0801	-a>
+gdp_c	r0801	-a>
+akg_m	r0819	-a>
+succ_m	r0819	-a>
+succ_c	r0819	-a>
+akg_c	r0819	-a>
+fum_m	r0821	-a>
+fum_c	r0821	-a>
+succ_m	r0821	-a>
+succ_c	r0821	-a>
+fum_m	r0822	-a>
+mal_L_m	r0822	-a>
+mal_L_c	r0822	-a>
+fum_c	r0822	-a>
+succ_m	r0829	-a>
+so4_m	r0829	-a>
+so4_c	r0829	-a>
+succ_c	r0829	-a>
+so3_m	r0830	-a>
+succ_m	r0830	-a>
+succ_c	r0830	-a>
+so3_c	r0830	-a>
+HC00319_c	r0834	-a>
+pi_c	r0834	-a>
+HC00319_m	r0834	-a>
+pi_m	r0834	-a>
+HC00319_c	r0835	-a>
+so4_c	r0835	-a>
+so4_m	r0835	-a>
+HC00319_m	r0835	-a>
+HC00319_c	r0836	-a>
+so3_m	r0836	-a>
+HC00319_m	r0836	-a>
+so3_c	r0836	-a>
+nh4_m	r0838	-a>
+nh4_c	r0838	-a>
+gthrd_c	r0885	-a>
+pi_c	r0885	-a>
+pi_m	r0885	-a>
+gthrd_m	r0885	-a>
+ptrc_m	r0907	-a>
+ptrc_c	r0907	-a>
+pro_L_m	r0911	-a>
+glu_L_c	r0911	-a>
+glu_L_m	r0911	-a>
+pro_L_c	r0911	-a>
+mal_L_c	r0913	-a>
+icit_c	r0913	-a>
+mal_L_m	r0913	-a>
+icit_m	r0913	-a>
+succ_m	r0915	-a>
+succ_c	r0915	-a>
+cit_m	r0915	-a>
+cit_c	r0915	-a>
+icit_c	r0917	-a>
+icit_m	r0917	-a>
+cit_m	r0917	-a>
+cit_c	r0917	-a>
+thym_m	r0921	-a>
+thym_c	r0921	-a>
+3pg_c	r0926	-a>
+3pg_m	r0926	-a>
+acetone_e	r0927	-a>
+acetone_m	r0927	-a>
+hco3_m	r0941	-a>
+hco3_c	r0941	-a>
+orn_c	r0947	-a>
+citr_L_m	r0947	-a>
+citr_L_c	r0947	-a>
+orn_m	r0947	-a>
+dgmp_c	r0950	-a>
+dgmp_m	r0950	-a>
+fol_m	r0962	-a>
+fol_c	r0962	-a>
+ptth_m	r0973	-a>
+ptth_c	r0973	-a>
+56dthm_m	r0975	-a>
+56dthm_c	r0975	-a>
+hdcecrn_c	r1001	-a>
+crn_m	r1001	-a>
+crn_c	r1001	-a>
+hdcecrn_m	r1001	-a>
+crn_m	r1005	-a>
+crn_c	r1005	-a>
+HC10859_c	r1005	-a>
+HC10859_m	r1005	-a>
+crn_x	r1008	-a>
+arachdcrn_c	r1008	-a>
+crn_c	r1008	-a>
+arachdcrn_x	r1008	-a>
+xol7ah3_m	r1020	-a>
+xol7ah3_c	r1020	-a>
+dhcholoylcoa_c	r1021	-a>
+dhcholoylcoa_m	r1021	-a>
+tyr_L_m	r1078	-a>
+tyr_L_c	r1078	-a>
+dtmp_c	r1117	-a>
+dtmp_m	r1117	-a>
+h_m	r1155	-a>
+2obut_c	r1155	-a>
+h_c	r1155	-a>
+2obut_m	r1155	-a>
+ppcoa_c	r1291	-a>
+ppcoa_m	r1291	-a>
+his_L_c	r1427	-a>
+his_L_m	r1427	-a>
+h_m	r1427	-a>
+h_c	r1427	-a>
+ala_L_c	r1434	-a>
+ala_L_m	r1434	-a>
+met_L_m	r1436	-a>
+met_L_c	r1436	-a>
+cys_L_c	r1437	-a>
+cys_L_m	r1437	-a>
+thr_L_c	r1440	-a>
+thr_L_m	r1440	-a>
+trdrd_c	r1441	-a>
+trdrd_m	r1441	-a>
+h_m	r1454	-a>
+2obut_c	r1454	-a>
+h_c	r1454	-a>
+2obut_m	r1454	-a>
+phe_L_c	r1455	-a>
+h_m	r1455	-a>
+h_c	r1455	-a>
+phe_L_m	r1455	-a>
+phe_L_c	r1456	-a>
+h_m	r1456	-a>
+h_c	r1456	-a>
+phe_L_m	r1456	-a>
+acac_m	r1464	-a>
+pyr_c	r1464	-a>
+pyr_m	r1464	-a>
+acac_c	r1464	-a>
+HC00342_c	r2371	-a>
+HC00342_m	r2371	-a>
+cit_m	r2371	-a>
+cit_c	r2371	-a>
+icit_c	r2372	-a>
+HC00342_m	r2372	-a>
+icit_m	r2372	-a>
+HC00342_c	r2372	-a>
+akg_m	r2373	-a>
+akg_c	r2373	-a>
+cit_m	r2373	-a>
+cit_c	r2373	-a>
+oxa_m	r2374	-a>
+oxa_c	r2374	-a>
+cit_m	r2374	-a>
+cit_c	r2374	-a>
+icit_c	r2375	-a>
+succ_m	r2375	-a>
+succ_c	r2375	-a>
+icit_m	r2375	-a>
+oxa_m	r2376	-a>
+icit_c	r2376	-a>
+oxa_c	r2376	-a>
+icit_m	r2376	-a>
+akg_m	r2377	-a>
+akg_c	r2377	-a>
+HC00342_m	r2377	-a>
+HC00342_c	r2377	-a>
+succ_m	r2378	-a>
+succ_c	r2378	-a>
+HC00342_m	r2378	-a>
+HC00342_c	r2378	-a>
+mal_L_m	r2379	-a>
+mal_L_c	r2379	-a>
+HC00342_m	r2379	-a>
+HC00342_c	r2379	-a>
+oxa_m	r2380	-a>
+oxa_c	r2380	-a>
+HC00342_m	r2380	-a>
+HC00342_c	r2380	-a>
+h_m	r2381	-a>
+h_c	r2381	-a>
+cit_m	r2381	-a>
+cit_c	r2381	-a>
+akg_m	r2381	-a>
+akg_c	r2381	-a>
+h_m	r2382	-a>
+succ_c	r2382	-a>
+cit_m	r2382	-a>
+cit_c	r2382	-a>
+succ_m	r2382	-a>
+h_c	r2382	-a>
+h_m	r2384	-a>
+h_c	r2384	-a>
+cit_m	r2384	-a>
+oxa_m	r2384	-a>
+oxa_c	r2384	-a>
+cit_c	r2384	-a>
+icit_c	r2385	-a>
+akg_c	r2385	-a>
+icit_m	r2385	-a>
+akg_m	r2385	-a>
+h_m	r2385	-a>
+h_c	r2385	-a>
+icit_c	r2386	-a>
+succ_c	r2386	-a>
+h_m	r2386	-a>
+icit_m	r2386	-a>
+succ_m	r2386	-a>
+h_c	r2386	-a>
+icit_c	r2387	-a>
+mal_L_c	r2387	-a>
+h_c	r2387	-a>
+icit_m	r2387	-a>
+mal_L_m	r2387	-a>
+h_m	r2387	-a>
+h_m	r2388	-a>
+h_c	r2388	-a>
+icit_m	r2388	-a>
+oxa_m	r2388	-a>
+oxa_c	r2388	-a>
+icit_c	r2388	-a>
+h_m	r2389	-a>
+h_c	r2389	-a>
+HC00342_m	r2389	-a>
+HC00342_c	r2389	-a>
+akg_m	r2389	-a>
+akg_c	r2389	-a>
+h_m	r2390	-a>
+succ_c	r2390	-a>
+HC00342_m	r2390	-a>
+HC00342_c	r2390	-a>
+succ_m	r2390	-a>
+h_c	r2390	-a>
+h_m	r2391	-a>
+mal_L_c	r2391	-a>
+h_c	r2391	-a>
+HC00342_m	r2391	-a>
+mal_L_m	r2391	-a>
+HC00342_c	r2391	-a>
+h_m	r2392	-a>
+h_c	r2392	-a>
+HC00342_m	r2392	-a>
+oxa_m	r2392	-a>
+oxa_c	r2392	-a>
+HC00342_c	r2392	-a>
+pep_c	r2393	-a>
+icit_c	r2393	-a>
+pep_m	r2393	-a>
+icit_m	r2393	-a>
+pep_c	r2394	-a>
+pep_m	r2394	-a>
+HC00342_m	r2394	-a>
+HC00342_c	r2394	-a>
+h_m	r2395	-a>
+lys_L_m	r2395	-a>
+h_c	r2395	-a>
+lys_L_c	r2395	-a>
+arg_L_c	r2395	-a>
+arg_L_m	r2395	-a>
+h_m	r2396	-a>
+lys_L_m	r2396	-a>
+h_c	r2396	-a>
+orn_c	r2396	-a>
+lys_L_c	r2396	-a>
+orn_m	r2396	-a>
+h_m	r2397	-a>
+lys_L_m	r2397	-a>
+his_L_m	r2397	-a>
+lys_L_c	r2397	-a>
+his_L_c	r2397	-a>
+h_c	r2397	-a>
+h_m	r2398	-a>
+lys_L_m	r2398	-a>
+h_c	r2398	-a>
+citr_L_m	r2398	-a>
+lys_L_c	r2398	-a>
+citr_L_c	r2398	-a>
+h_m	r2399	-a>
+lys_L_m	r2399	-a>
+h_c	r2399	-a>
+lys_L_c	r2399	-a>
+arg_L_c	r2399	-a>
+arg_L_m	r2399	-a>
+h_m	r2400	-a>
+h_c	r2400	-a>
+orn_c	r2400	-a>
+arg_L_m	r2400	-a>
+arg_L_c	r2400	-a>
+orn_m	r2400	-a>
+his_L_c	r2401	-a>
+h_c	r2401	-a>
+h_m	r2401	-a>
+arg_L_m	r2401	-a>
+arg_L_c	r2401	-a>
+his_L_m	r2401	-a>
+h_m	r2402	-a>
+citr_L_m	r2402	-a>
+h_c	r2402	-a>
+arg_L_c	r2402	-a>
+citr_L_c	r2402	-a>
+arg_L_m	r2402	-a>
+h_m	r2403	-a>
+lys_L_m	r2403	-a>
+h_c	r2403	-a>
+orn_c	r2403	-a>
+lys_L_c	r2403	-a>
+orn_m	r2403	-a>
+h_m	r2404	-a>
+h_c	r2404	-a>
+orn_c	r2404	-a>
+arg_L_m	r2404	-a>
+arg_L_c	r2404	-a>
+orn_m	r2404	-a>
+h_m	r2405	-a>
+his_L_m	r2405	-a>
+orn_m	r2405	-a>
+orn_c	r2405	-a>
+his_L_c	r2405	-a>
+h_c	r2405	-a>
+h_m	r2406	-a>
+lys_L_m	r2406	-a>
+his_L_m	r2406	-a>
+lys_L_c	r2406	-a>
+his_L_c	r2406	-a>
+h_c	r2406	-a>
+his_L_c	r2407	-a>
+h_c	r2407	-a>
+h_m	r2407	-a>
+arg_L_m	r2407	-a>
+arg_L_c	r2407	-a>
+his_L_m	r2407	-a>
+h_m	r2408	-a>
+his_L_m	r2408	-a>
+orn_m	r2408	-a>
+orn_c	r2408	-a>
+his_L_c	r2408	-a>
+h_c	r2408	-a>
+h_m	r2409	-a>
+citr_L_m	r2409	-a>
+his_L_m	r2409	-a>
+his_L_c	r2409	-a>
+citr_L_c	r2409	-a>
+h_c	r2409	-a>
+h_m	r2410	-a>
+lys_L_m	r2410	-a>
+h_c	r2410	-a>
+citr_L_m	r2410	-a>
+lys_L_c	r2410	-a>
+citr_L_c	r2410	-a>
+h_m	r2411	-a>
+citr_L_m	r2411	-a>
+h_c	r2411	-a>
+arg_L_c	r2411	-a>
+citr_L_c	r2411	-a>
+arg_L_m	r2411	-a>
+h_m	r2413	-a>
+citr_L_m	r2413	-a>
+his_L_m	r2413	-a>
+his_L_c	r2413	-a>
+citr_L_c	r2413	-a>
+h_c	r2413	-a>
+his_L_c	r2416	-a>
+his_L_m	r2416	-a>
+h_m	r2416	-a>
+h_c	r2416	-a>
+pi_c	r2419	-a>
+akg_m	r2419	-a>
+akg_c	r2419	-a>
+pi_m	r2419	-a>
+oxa_m	r2420	-a>
+pi_c	r2420	-a>
+oxa_c	r2420	-a>
+pi_m	r2420	-a>
+dgdp_m	r2425	-a>
+adp_m	r2425	-a>
+adp_c	r2425	-a>
+dgdp_c	r2425	-a>
+crn_m	r2433	-a>
+crn_c	r2433	-a>
+acrn_c	r2433	-a>
+acrn_m	r2433	-a>
+crn_m	r2434	-a>
+crn_c	r2434	-a>
+c8crn_c	r2434	-a>
+c8crn_m	r2434	-a>
+crn_m	r2436	-a>
+crn_c	r2436	-a>
+vacccrn_c	r2436	-a>
+vacccrn_m	r2436	-a>
+crn_m	r2437	-a>
+crn_c	r2437	-a>
+pcrn_m	r2437	-a>
+pcrn_c	r2437	-a>
+c4crn_m	r2438	-a>
+crn_m	r2438	-a>
+crn_c	r2438	-a>
+c4crn_c	r2438	-a>
+pi_c	r2472	-a>
+glyc3p_c	r2472	-a>
+glyc3p_m	r2472	-a>
+pi_m	r2472	-a>
+gthrd_c	r2520	-a>
+akg_m	r2520	-a>
+akg_c	r2520	-a>
+gthrd_m	r2520	-a>
+L2aadp_c	r2539	-a>
+L2aadp6sa_c	r2539	-a>
+L2aadp_m	r2539	-a>
+L2aadp6sa_m	r2539	-a>
+c4crn_m	C4tmc	-a>
+c4crn_c	C4tmc	-a>
+3aib_D_m	3AIB_Dtm	-a>
+3aib_D_c	3AIB_Dtm	-a>
+ahcys_m	AHCYStd	-a>
+ahcys_c	AHCYStd	-a>
+amet_m	AMETtd	-a>
+amet_c	AMETtd	-a>
+datp_c	DATPtm	-a>
+datp_m	DATPtm	-a>
+dctp_c	DCTPtm	-a>
+dctp_m	DCTPtm	-a>
+dgtp_m	DGTPtm	-a>
+dgtp_c	DGTPtm	-a>
+dhap_m	DHAPtc	-a>
+dhap_c	DHAPtc	-a>
+dttp_m	DTTPtm	-a>
+dttp_c	DTTPtm	-a>
+fad_m	FADtm	-a>
+fad_c	FADtm	-a>
+glyc3p_m	GLYC3Ptmc	-a>
+glyc3p_c	GLYC3Ptmc	-a>
+nad_c	NADtm	-a>
+nad_m	NADtm	-a>
+ppi_m	PPItm	-a>
+ppi_c	PPItm	-a>
+q10h2_m	q10h2tc	-a>
+q10h2_c	q10h2tc	-a>
+q10_m	q10tm	-a>
+q10_c	q10tm	-a>

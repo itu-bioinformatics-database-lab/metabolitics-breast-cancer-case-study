@@ -1,0 +1,59 @@
+protein	accoa_m
+protein	adp_m
+protein	atp_m
+protein	citmcoa_L_m
+protein	coa_m
+protein	gdp_m
+protein	gtp_m
+protein	h2o_m
+protein	itaccoa_m
+protein	itacon_m
+protein	mescoa_m
+protein	mescon_m
+protein	pi_m
+protein	pyr_m
+abstract	CITMCOAHm
+abstract	CITMCOALm
+abstract	ITCOAL1m
+abstract	ITCOALm
+abstract	MECOALm
+abstract	MECOAS1m
+abstract	MESCOALm
+abstract	MGACONm
+itaccoa_m	CITMCOAHm	-a>
+h2o_m	CITMCOAHm	-a>
+citmcoa_L_m	CITMCOAHm	-a>
+pyr_m	CITMCOALm	-a>
+citmcoa_L_m	CITMCOALm	-a>
+accoa_m	CITMCOALm	-a>
+itaccoa_m	ITCOAL1m	-a>
+coa_m	ITCOAL1m	-a>
+pi_m	ITCOAL1m	-a>
+gtp_m	ITCOAL1m	-a>
+gdp_m	ITCOAL1m	-a>
+itacon_m	ITCOAL1m	-a>
+atp_m	ITCOALm	-a>
+coa_m	ITCOALm	-a>
+pi_m	ITCOALm	-a>
+itaccoa_m	ITCOALm	-a>
+adp_m	ITCOALm	-a>
+itacon_m	ITCOALm	-a>
+mescoa_m	MECOALm	-a>
+mescon_m	MECOALm	-a>
+pi_m	MECOALm	-a>
+atp_m	MECOALm	-a>
+coa_m	MECOALm	-a>
+adp_m	MECOALm	-a>
+mescoa_m	MECOAS1m	-a>
+mescon_m	MECOAS1m	-a>
+pi_m	MECOAS1m	-a>
+gtp_m	MECOAS1m	-a>
+coa_m	MECOAS1m	-a>
+gdp_m	MECOAS1m	-a>
+mescoa_m	MESCOALm	-a>
+h2o_m	MESCOALm	-a>
+pyr_m	MESCOALm	-a>
+accoa_m	MESCOALm	-a>
+mescoa_m	MGACONm	-a>
+h2o_m	MGACONm	-a>
+citmcoa_L_m	MGACONm	-a>

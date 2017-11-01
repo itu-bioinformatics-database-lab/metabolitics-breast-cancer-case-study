@@ -1,0 +1,626 @@
+protein	11docrtsl_m
+protein	11docrtsl_r
+protein	11docrtstrn_m
+protein	11docrtstrn_r
+protein	17ahprgnlone_c
+protein	17ahprgnlone_g
+protein	17ahprgnlone_l
+protein	17ahprgnlone_m
+protein	17ahprgnlone_r
+protein	17ahprgstrn_c
+protein	17ahprgstrn_m
+protein	17ahprgstrn_r
+protein	4mptnl_m
+protein	5adtststerone_c
+protein	5adtststerone_r
+protein	5adtststeroneglc_r
+protein	5adtststerones_c
+protein	6htststerone_r
+protein	C05284_c
+protein	C05284_m
+protein	C05284_r
+protein	CE1352_c
+protein	CE1352_g
+protein	CE1352_l
+protein	CE1352_r
+protein	ac_c
+protein	ac_m
+protein	ac_r
+protein	acald_r
+protein	ahandrostan_r
+protein	ahandrostanglc_r
+protein	aldstrn_m
+protein	andrstandn_r
+protein	andrstndn_c
+protein	andrstndn_m
+protein	andrstndn_r
+protein	andrstrn_r
+protein	andrstrnglc_r
+protein	aprgstrn_c
+protein	bildglcur_r
+protein	bilglcur_r
+protein	bilirub_r
+protein	chsterol_c
+protein	chsterol_g
+protein	chsterol_l
+protein	chsterol_m
+protein	chsterol_r
+protein	chsterols_c
+protein	chsterols_g
+protein	chsterols_l
+protein	chsterols_r
+protein	cortsn_r
+protein	crtsl_c
+protein	crtsl_m
+protein	crtsl_r
+protein	crtstrn_m
+protein	dhea_c
+protein	dhea_m
+protein	dhea_r
+protein	dheas_c
+protein	dheas_r
+protein	eandrstrn_r
+protein	estradiol_c
+protein	estradiol_r
+protein	estradiolglc_r
+protein	estriol_r
+protein	estriolglc_r
+protein	estrone_c
+protein	estrone_r
+protein	estroneglc_r
+protein	estrones_c
+protein	estrones_r
+protein	for_r
+protein	h2o_c
+protein	h2o_g
+protein	h2o_l
+protein	h2o_m
+protein	h2o_r
+protein	h_c
+protein	h_g
+protein	h_l
+protein	h_m
+protein	h_r
+protein	hestratriol_r
+protein	nad_c
+protein	nad_r
+protein	nadh_c
+protein	nadh_r
+protein	nadp_c
+protein	nadp_m
+protein	nadp_r
+protein	nadph_c
+protein	nadph_m
+protein	nadph_r
+protein	o2_c
+protein	o2_m
+protein	o2_r
+protein	pap_c
+protein	paps_c
+protein	prgnlone_c
+protein	prgnlone_g
+protein	prgnlone_l
+protein	prgnlone_m
+protein	prgnlone_r
+protein	prgnlones_c
+protein	prgnlones_g
+protein	prgnlones_l
+protein	prgnlones_r
+protein	prgstrn_c
+protein	prgstrn_r
+protein	so4_c
+protein	so4_g
+protein	so4_l
+protein	so4_r
+protein	tststerone_c
+protein	tststerone_r
+protein	tststeroneglc_r
+protein	tststerones_c
+protein	udp_r
+protein	udpglcur_r
+protein	whtststerone_r
+abstract	5ADTSTSTERONESULT
+abstract	AKR1C1
+abstract	CHSTEROLSULT
+abstract	DHEASULT
+abstract	ESTSULT
+abstract	HSD11B1r
+abstract	HSD11B2r
+abstract	HSD17B1
+abstract	HSD17B2r
+abstract	HSD17B7r
+abstract	HSD17B8r
+abstract	HSD17B9r
+abstract	HSD3A1r
+abstract	HSD3A2r
+abstract	HSD3B11
+abstract	HSD3B11r
+abstract	HSD3B12r
+abstract	HSD3B13
+abstract	HSD3B13r
+abstract	HSD3B2r
+abstract	HSD3B3r
+abstract	P45011A1m
+abstract	P45011B11m
+abstract	P45011B12m
+abstract	P45011B21m
+abstract	P45017A1r
+abstract	P45017A2r
+abstract	P45017A3r
+abstract	P45017A4r
+abstract	P45019A1r
+abstract	P45019A2r
+abstract	P4501B1r
+abstract	P45021A1r
+abstract	P45021A2r
+abstract	P4503A43r
+abstract	P4503A7r
+abstract	PRGNLONESULT
+abstract	SR5AR2r
+abstract	SR5ARr
+abstract	STS1
+abstract	STS1r
+abstract	STS2
+abstract	STS2r
+abstract	TSTSTERONESULT
+abstract	UGT1A10r
+abstract	UGT1A1r
+abstract	UGT1A2r
+abstract	UGT1A3r
+abstract	UGT1A4r
+abstract	UGT1A6r
+abstract	UGT1A7r
+abstract	UGT1A8r
+abstract	UGT1A9r
+abstract	RE1096C
+abstract	RE1096M
+abstract	RE1096R
+abstract	RE1099C
+abstract	RE1099G
+abstract	RE1099L
+abstract	RE1099R
+abstract	RE1100C
+abstract	RE1100G
+abstract	RE1100L
+abstract	RE1100R
+abstract	RE1134C
+abstract	RE1134M
+abstract	RE1134R
+abstract	RE1135C
+abstract	RE1135G
+abstract	RE1135L
+abstract	RE1135R
+abstract	RE2766C
+abstract	RE2768C
+abstract	RE2768M
+abstract	RE2768R
+abstract	HSD17B3r
+paps_c	5ADTSTSTERONESULT	-a>
+5adtststerones_c	5ADTSTSTERONESULT	-a>
+5adtststerone_c	5ADTSTSTERONESULT	-a>
+h_c	5ADTSTSTERONESULT	-a>
+pap_c	5ADTSTSTERONESULT	-a>
+prgstrn_c	AKR1C1	-a>
+nadp_c	AKR1C1	-a>
+aprgstrn_c	AKR1C1	-a>
+nadph_c	AKR1C1	-a>
+h_c	AKR1C1	-a>
+paps_c	CHSTEROLSULT	-a>
+pap_c	CHSTEROLSULT	-a>
+chsterol_c	CHSTEROLSULT	-a>
+chsterols_c	CHSTEROLSULT	-a>
+h_c	CHSTEROLSULT	-a>
+paps_c	DHEASULT	-a>
+pap_c	DHEASULT	-a>
+dhea_c	DHEASULT	-a>
+dheas_c	DHEASULT	-a>
+h_c	DHEASULT	-a>
+paps_c	ESTSULT	-a>
+pap_c	ESTSULT	-a>
+estrone_c	ESTSULT	-a>
+h_c	ESTSULT	-a>
+estrones_c	ESTSULT	-a>
+crtsl_r	HSD11B1r	-a>
+h_r	HSD11B1r	-a>
+cortsn_r	HSD11B1r	-a>
+nadph_r	HSD11B1r	-a>
+nadp_r	HSD11B1r	-a>
+crtsl_r	HSD11B2r	-a>
+cortsn_r	HSD11B2r	-a>
+nadh_r	HSD11B2r	-a>
+h_r	HSD11B2r	-a>
+nad_r	HSD11B2r	-a>
+estrone_c	HSD17B1	-a>
+nadp_c	HSD17B1	-a>
+nadph_c	HSD17B1	-a>
+h_c	HSD17B1	-a>
+estradiol_c	HSD17B1	-a>
+tststerone_r	HSD17B2r	-a>
+h_r	HSD17B2r	-a>
+nadh_r	HSD17B2r	-a>
+nad_r	HSD17B2r	-a>
+andrstndn_r	HSD17B2r	-a>
+h_r	HSD17B7r	-a>
+estrone_r	HSD17B7r	-a>
+estradiol_r	HSD17B7r	-a>
+nadph_r	HSD17B7r	-a>
+nadp_r	HSD17B7r	-a>
+h_r	HSD17B8r	-a>
+estrone_r	HSD17B8r	-a>
+nadh_r	HSD17B8r	-a>
+estradiol_r	HSD17B8r	-a>
+nad_r	HSD17B8r	-a>
+andrstrn_r	HSD17B9r	-a>
+nadp_r	HSD17B9r	-a>
+h2o_r	HSD17B9r	-a>
+o2_r	HSD17B9r	-a>
+h_r	HSD17B9r	-a>
+eandrstrn_r	HSD17B9r	-a>
+nadph_r	HSD17B9r	-a>
+andrstrn_r	HSD3A1r	-a>
+h_r	HSD3A1r	-a>
+andrstandn_r	HSD3A1r	-a>
+nad_r	HSD3A1r	-a>
+nadh_r	HSD3A1r	-a>
+andrstrn_r	HSD3A2r	-a>
+nadph_r	HSD3A2r	-a>
+andrstandn_r	HSD3A2r	-a>
+h_r	HSD3A2r	-a>
+nadp_r	HSD3A2r	-a>
+prgstrn_c	HSD3B11	-a>
+prgnlone_c	HSD3B11	-a>
+h_c	HSD3B11	-a>
+nadh_c	HSD3B11	-a>
+nad_c	HSD3B11	-a>
+h_r	HSD3B11r	-a>
+prgstrn_r	HSD3B11r	-a>
+nadh_r	HSD3B11r	-a>
+nad_r	HSD3B11r	-a>
+prgnlone_r	HSD3B11r	-a>
+dhea_r	HSD3B12r	-a>
+h_r	HSD3B12r	-a>
+nadh_r	HSD3B12r	-a>
+nad_r	HSD3B12r	-a>
+andrstndn_r	HSD3B12r	-a>
+nad_c	HSD3B13	-a>
+17ahprgnlone_c	HSD3B13	-a>
+17ahprgstrn_c	HSD3B13	-a>
+h_c	HSD3B13	-a>
+nadh_c	HSD3B13	-a>
+17ahprgstrn_r	HSD3B13r	-a>
+h_r	HSD3B13r	-a>
+nadh_r	HSD3B13r	-a>
+nad_r	HSD3B13r	-a>
+17ahprgnlone_r	HSD3B13r	-a>
+h2o_r	HSD3B2r	-a>
+andrstandn_r	HSD3B2r	-a>
+h_r	HSD3B2r	-a>
+eandrstrn_r	HSD3B2r	-a>
+nad_r	HSD3B2r	-a>
+nadh_r	HSD3B2r	-a>
+nadp_r	HSD3B3r	-a>
+h2o_r	HSD3B3r	-a>
+eandrstrn_r	HSD3B3r	-a>
+h_r	HSD3B3r	-a>
+andrstandn_r	HSD3B3r	-a>
+nadph_r	HSD3B3r	-a>
+chsterol_m	P45011A1m	-a>
+prgnlone_m	P45011A1m	-a>
+4mptnl_m	P45011A1m	-a>
+nadph_m	P45011A1m	-a>
+nadp_m	P45011A1m	-a>
+h2o_m	P45011A1m	-a>
+h_m	P45011A1m	-a>
+o2_m	P45011A1m	-a>
+h2o_m	P45011B11m	-a>
+nadph_m	P45011B11m	-a>
+crtstrn_m	P45011B11m	-a>
+h_m	P45011B11m	-a>
+11docrtstrn_m	P45011B11m	-a>
+o2_m	P45011B11m	-a>
+nadp_m	P45011B11m	-a>
+11docrtsl_m	P45011B12m	-a>
+h2o_m	P45011B12m	-a>
+nadph_m	P45011B12m	-a>
+crtsl_m	P45011B12m	-a>
+h_m	P45011B12m	-a>
+o2_m	P45011B12m	-a>
+nadp_m	P45011B12m	-a>
+h2o_m	P45011B21m	-a>
+aldstrn_m	P45011B21m	-a>
+h_m	P45011B21m	-a>
+nadph_m	P45011B21m	-a>
+11docrtstrn_m	P45011B21m	-a>
+o2_m	P45011B21m	-a>
+nadp_m	P45011B21m	-a>
+o2_r	P45017A1r	-a>
+nadp_r	P45017A1r	-a>
+prgnlone_r	P45017A1r	-a>
+h_r	P45017A1r	-a>
+h2o_r	P45017A1r	-a>
+nadph_r	P45017A1r	-a>
+17ahprgnlone_r	P45017A1r	-a>
+dhea_r	P45017A2r	-a>
+acald_r	P45017A2r	-a>
+o2_r	P45017A2r	-a>
+nadph_r	P45017A2r	-a>
+nadp_r	P45017A2r	-a>
+h2o_r	P45017A2r	-a>
+h_r	P45017A2r	-a>
+17ahprgnlone_r	P45017A2r	-a>
+o2_r	P45017A3r	-a>
+nadp_r	P45017A3r	-a>
+h2o_r	P45017A3r	-a>
+17ahprgstrn_r	P45017A3r	-a>
+h_r	P45017A3r	-a>
+nadph_r	P45017A3r	-a>
+prgstrn_r	P45017A3r	-a>
+acald_r	P45017A4r	-a>
+o2_r	P45017A4r	-a>
+17ahprgstrn_r	P45017A4r	-a>
+nadph_r	P45017A4r	-a>
+nadp_r	P45017A4r	-a>
+andrstndn_r	P45017A4r	-a>
+h2o_r	P45017A4r	-a>
+h_r	P45017A4r	-a>
+estrone_r	P45019A1r	-a>
+o2_r	P45019A1r	-a>
+nadp_r	P45019A1r	-a>
+andrstndn_r	P45019A1r	-a>
+h2o_r	P45019A1r	-a>
+nadph_r	P45019A1r	-a>
+for_r	P45019A1r	-a>
+o2_r	P45019A2r	-a>
+nadp_r	P45019A2r	-a>
+h2o_r	P45019A2r	-a>
+tststerone_r	P45019A2r	-a>
+nadph_r	P45019A2r	-a>
+for_r	P45019A2r	-a>
+estradiol_r	P45019A2r	-a>
+o2_r	P4501B1r	-a>
+nadp_r	P4501B1r	-a>
+h2o_r	P4501B1r	-a>
+h_r	P4501B1r	-a>
+nadph_r	P4501B1r	-a>
+hestratriol_r	P4501B1r	-a>
+estradiol_r	P4501B1r	-a>
+o2_r	P45021A1r	-a>
+nadp_r	P45021A1r	-a>
+h2o_r	P45021A1r	-a>
+h_r	P45021A1r	-a>
+nadph_r	P45021A1r	-a>
+11docrtstrn_r	P45021A1r	-a>
+prgstrn_r	P45021A1r	-a>
+o2_r	P45021A2r	-a>
+nadp_r	P45021A2r	-a>
+17ahprgstrn_r	P45021A2r	-a>
+11docrtsl_r	P45021A2r	-a>
+h_r	P45021A2r	-a>
+h2o_r	P45021A2r	-a>
+nadph_r	P45021A2r	-a>
+whtststerone_r	P4503A43r	-a>
+nadp_r	P4503A43r	-a>
+h2o_r	P4503A43r	-a>
+o2_r	P4503A43r	-a>
+h_r	P4503A43r	-a>
+nadph_r	P4503A43r	-a>
+tststerone_r	P4503A43r	-a>
+o2_r	P4503A7r	-a>
+6htststerone_r	P4503A7r	-a>
+h2o_r	P4503A7r	-a>
+tststerone_r	P4503A7r	-a>
+h_r	P4503A7r	-a>
+nadph_r	P4503A7r	-a>
+nadp_r	P4503A7r	-a>
+paps_c	PRGNLONESULT	-a>
+prgnlone_c	PRGNLONESULT	-a>
+prgnlones_c	PRGNLONESULT	-a>
+h_c	PRGNLONESULT	-a>
+pap_c	PRGNLONESULT	-a>
+h_r	SR5AR2r	-a>
+andrstandn_r	SR5AR2r	-a>
+nadph_r	SR5AR2r	-a>
+andrstndn_r	SR5AR2r	-a>
+nadp_r	SR5AR2r	-a>
+5adtststerone_r	SR5ARr	-a>
+h_r	SR5ARr	-a>
+tststerone_r	SR5ARr	-a>
+nadph_r	SR5ARr	-a>
+nadp_r	SR5ARr	-a>
+h2o_c	STS1	-a>
+dheas_c	STS1	-a>
+so4_c	STS1	-a>
+h_c	STS1	-a>
+dhea_c	STS1	-a>
+dhea_r	STS1r	-a>
+h_r	STS1r	-a>
+dheas_r	STS1r	-a>
+so4_r	STS1r	-a>
+h2o_r	STS1r	-a>
+estrones_c	STS2	-a>
+h2o_c	STS2	-a>
+so4_c	STS2	-a>
+h_c	STS2	-a>
+estrone_c	STS2	-a>
+estrones_r	STS2r	-a>
+h_r	STS2r	-a>
+estrone_r	STS2r	-a>
+so4_r	STS2r	-a>
+h2o_r	STS2r	-a>
+paps_c	TSTSTERONESULT	-a>
+tststerone_c	TSTSTERONESULT	-a>
+tststerones_c	TSTSTERONESULT	-a>
+h_c	TSTSTERONESULT	-a>
+pap_c	TSTSTERONESULT	-a>
+udpglcur_r	UGT1A10r	-a>
+h_r	UGT1A10r	-a>
+udp_r	UGT1A10r	-a>
+bilglcur_r	UGT1A10r	-a>
+bilirub_r	UGT1A10r	-a>
+udp_r	UGT1A1r	-a>
+estrone_r	UGT1A1r	-a>
+udpglcur_r	UGT1A1r	-a>
+estroneglc_r	UGT1A1r	-a>
+bildglcur_r	UGT1A2r	-a>
+udp_r	UGT1A2r	-a>
+udpglcur_r	UGT1A2r	-a>
+bilirub_r	UGT1A2r	-a>
+udp_r	UGT1A3r	-a>
+udpglcur_r	UGT1A3r	-a>
+andrstrn_r	UGT1A3r	-a>
+andrstrnglc_r	UGT1A3r	-a>
+udp_r	UGT1A4r	-a>
+udpglcur_r	UGT1A4r	-a>
+tststerone_r	UGT1A4r	-a>
+tststeroneglc_r	UGT1A4r	-a>
+udpglcur_r	UGT1A6r	-a>
+udp_r	UGT1A6r	-a>
+estradiol_r	UGT1A6r	-a>
+estradiolglc_r	UGT1A6r	-a>
+udp_r	UGT1A7r	-a>
+ahandrostan_r	UGT1A7r	-a>
+ahandrostanglc_r	UGT1A7r	-a>
+udpglcur_r	UGT1A7r	-a>
+udp_r	UGT1A8r	-a>
+estriolglc_r	UGT1A8r	-a>
+udpglcur_r	UGT1A8r	-a>
+estriol_r	UGT1A8r	-a>
+udp_r	UGT1A9r	-a>
+5adtststerone_r	UGT1A9r	-a>
+udpglcur_r	UGT1A9r	-a>
+5adtststeroneglc_r	UGT1A9r	-a>
+17ahprgstrn_c	RE1096C	-a>
+nadp_c	RE1096C	-a>
+ac_c	RE1096C	-a>
+andrstndn_c	RE1096C	-a>
+nadph_c	RE1096C	-a>
+h2o_c	RE1096C	-a>
+o2_c	RE1096C	-a>
+h2o_m	RE1096M	-a>
+ac_m	RE1096M	-a>
+nadph_m	RE1096M	-a>
+17ahprgstrn_m	RE1096M	-a>
+o2_m	RE1096M	-a>
+nadp_m	RE1096M	-a>
+andrstndn_m	RE1096M	-a>
+andrstndn_r	RE1096R	-a>
+o2_r	RE1096R	-a>
+nadp_r	RE1096R	-a>
+ac_r	RE1096R	-a>
+h2o_r	RE1096R	-a>
+17ahprgstrn_r	RE1096R	-a>
+nadph_r	RE1096R	-a>
+17ahprgnlone_c	RE1099C	-a>
+h2o_c	RE1099C	-a>
+so4_c	RE1099C	-a>
+CE1352_c	RE1099C	-a>
+h_c	RE1099C	-a>
+CE1352_g	RE1099G	-a>
+h2o_g	RE1099G	-a>
+so4_g	RE1099G	-a>
+h_g	RE1099G	-a>
+17ahprgnlone_g	RE1099G	-a>
+17ahprgnlone_l	RE1099L	-a>
+h2o_l	RE1099L	-a>
+so4_l	RE1099L	-a>
+CE1352_l	RE1099L	-a>
+h_l	RE1099L	-a>
+CE1352_r	RE1099R	-a>
+h_r	RE1099R	-a>
+h2o_r	RE1099R	-a>
+so4_r	RE1099R	-a>
+17ahprgnlone_r	RE1099R	-a>
+h2o_c	RE1100C	-a>
+chsterol_c	RE1100C	-a>
+so4_c	RE1100C	-a>
+chsterols_c	RE1100C	-a>
+h_c	RE1100C	-a>
+chsterol_g	RE1100G	-a>
+so4_g	RE1100G	-a>
+h_g	RE1100G	-a>
+chsterols_g	RE1100G	-a>
+h2o_g	RE1100G	-a>
+chsterols_l	RE1100L	-a>
+h_l	RE1100L	-a>
+h2o_l	RE1100L	-a>
+chsterol_l	RE1100L	-a>
+so4_l	RE1100L	-a>
+h_r	RE1100R	-a>
+h2o_r	RE1100R	-a>
+chsterols_r	RE1100R	-a>
+so4_r	RE1100R	-a>
+chsterol_r	RE1100R	-a>
+17ahprgnlone_c	RE1134C	-a>
+h2o_c	RE1134C	-a>
+nadp_c	RE1134C	-a>
+ac_c	RE1134C	-a>
+dhea_c	RE1134C	-a>
+nadph_c	RE1134C	-a>
+o2_c	RE1134C	-a>
+h2o_m	RE1134M	-a>
+ac_m	RE1134M	-a>
+nadph_m	RE1134M	-a>
+dhea_m	RE1134M	-a>
+17ahprgnlone_m	RE1134M	-a>
+o2_m	RE1134M	-a>
+nadp_m	RE1134M	-a>
+dhea_r	RE1134R	-a>
+o2_r	RE1134R	-a>
+nadp_r	RE1134R	-a>
+ac_r	RE1134R	-a>
+h2o_r	RE1134R	-a>
+nadph_r	RE1134R	-a>
+17ahprgnlone_r	RE1134R	-a>
+prgnlone_c	RE1135C	-a>
+prgnlones_c	RE1135C	-a>
+so4_c	RE1135C	-a>
+h_c	RE1135C	-a>
+h2o_c	RE1135C	-a>
+h2o_g	RE1135G	-a>
+so4_g	RE1135G	-a>
+h_g	RE1135G	-a>
+prgnlones_g	RE1135G	-a>
+prgnlone_g	RE1135G	-a>
+prgnlone_l	RE1135L	-a>
+prgnlones_l	RE1135L	-a>
+so4_l	RE1135L	-a>
+h2o_l	RE1135L	-a>
+h_l	RE1135L	-a>
+h_r	RE1135R	-a>
+prgnlone_r	RE1135R	-a>
+prgnlones_r	RE1135R	-a>
+so4_r	RE1135R	-a>
+h2o_r	RE1135R	-a>
+tststerone_c	RE2766C	-a>
+nadp_c	RE2766C	-a>
+nadph_c	RE2766C	-a>
+h_c	RE2766C	-a>
+andrstndn_c	RE2766C	-a>
+C05284_c	RE2768C	-a>
+h2o_c	RE2768C	-a>
+nadp_c	RE2768C	-a>
+h_c	RE2768C	-a>
+o2_c	RE2768C	-a>
+ac_c	RE2768C	-a>
+nadph_c	RE2768C	-a>
+crtsl_c	RE2768C	-a>
+ac_m	RE2768M	-a>
+nadph_m	RE2768M	-a>
+C05284_m	RE2768M	-a>
+crtsl_m	RE2768M	-a>
+nadp_m	RE2768M	-a>
+h2o_m	RE2768M	-a>
+h_m	RE2768M	-a>
+o2_m	RE2768M	-a>
+acald_r	RE2768R	-a>
+nadp_r	RE2768R	-a>
+C05284_r	RE2768R	-a>
+crtsl_r	RE2768R	-a>
+h_r	RE2768R	-a>
+h2o_r	RE2768R	-a>
+nadph_r	RE2768R	-a>
+nadph_r	HSD17B3r	-a>
+tststerone_r	HSD17B3r	-a>
+h_r	HSD17B3r	-a>
+andrstndn_r	HSD17B3r	-a>
+nadp_r	HSD17B3r	-a>

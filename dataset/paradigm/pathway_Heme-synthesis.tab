@@ -1,0 +1,72 @@
+protein	5aop_c
+protein	5aop_m
+protein	ascb_L_e
+protein	co2_c
+protein	cpppg3_c
+protein	dhdascb_e
+protein	fe2_e
+protein	fe2_m
+protein	fe3_e
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_e
+protein	h_m
+protein	hmbil_c
+protein	nh4_c
+protein	o2_c
+protein	o2_m
+protein	pheme_m
+protein	ppbng_c
+protein	ppp9_m
+protein	pppg9_c
+protein	pppg9_m
+protein	uppg3_c
+abstract	CPPPGO
+abstract	FCLTm
+abstract	FE3R2e
+abstract	HMBS
+abstract	PPBNGS
+abstract	PPPGOm
+abstract	UPP3S
+abstract	UPPDC1
+abstract	5AOPtm
+abstract	PPPG9tm
+cpppg3_c	CPPPGO	-a>
+pppg9_c	CPPPGO	-a>
+h2o_c	CPPPGO	-a>
+h_c	CPPPGO	-a>
+co2_c	CPPPGO	-a>
+o2_c	CPPPGO	-a>
+h_m	FCLTm	-a>
+fe2_m	FCLTm	-a>
+ppp9_m	FCLTm	-a>
+pheme_m	FCLTm	-a>
+ascb_L_e	FE3R2e	-a>
+fe2_e	FE3R2e	-a>
+fe3_e	FE3R2e	-a>
+h_e	FE3R2e	-a>
+dhdascb_e	FE3R2e	-a>
+hmbil_c	HMBS	-a>
+h2o_c	HMBS	-a>
+ppbng_c	HMBS	-a>
+nh4_c	HMBS	-a>
+h_c	PPBNGS	-a>
+5aop_c	PPBNGS	-a>
+h2o_c	PPBNGS	-a>
+ppbng_c	PPBNGS	-a>
+h2o_m	PPPGOm	-a>
+pppg9_m	PPPGOm	-a>
+ppp9_m	PPPGOm	-a>
+o2_m	PPPGOm	-a>
+hmbil_c	UPP3S	-a>
+h2o_c	UPP3S	-a>
+uppg3_c	UPP3S	-a>
+cpppg3_c	UPPDC1	-a>
+h_c	UPPDC1	-a>
+uppg3_c	UPPDC1	-a>
+co2_c	UPPDC1	-a>
+5aop_c	5AOPtm	-a>
+5aop_m	5AOPtm	-a>
+pppg9_c	PPPG9tm	-a>
+pppg9_m	PPPG9tm	-a>

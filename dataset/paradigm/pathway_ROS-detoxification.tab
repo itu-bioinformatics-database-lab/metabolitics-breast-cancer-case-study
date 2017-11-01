@@ -1,0 +1,55 @@
+protein	h2o2_c
+protein	h2o2_e
+protein	h2o2_m
+protein	h2o2_n
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_e
+protein	h_m
+protein	h_n
+protein	h_x
+protein	o2_c
+protein	o2_e
+protein	o2_m
+protein	o2_n
+protein	o2_x
+protein	o2s_c
+protein	o2s_e
+protein	o2s_m
+protein	o2s_n
+protein	o2s_x
+abstract	CATm
+abstract	SPODM
+abstract	SPODMe
+abstract	SPODMm
+abstract	SPODMn
+abstract	SPODMx
+abstract	r0010
+h2o_m	CATm	-a>
+h2o2_m	CATm	-a>
+o2_m	CATm	-a>
+h2o2_c	SPODM	-a>
+o2s_c	SPODM	-a>
+h_c	SPODM	-a>
+o2_c	SPODM	-a>
+h_e	SPODMe	-a>
+o2_e	SPODMe	-a>
+h2o2_e	SPODMe	-a>
+o2s_e	SPODMe	-a>
+o2s_m	SPODMm	-a>
+h_m	SPODMm	-a>
+h2o2_m	SPODMm	-a>
+o2_m	SPODMm	-a>
+o2_n	SPODMn	-a>
+o2s_n	SPODMn	-a>
+h_n	SPODMn	-a>
+h2o2_n	SPODMn	-a>
+o2s_x	SPODMx	-a>
+h_x	SPODMx	-a>
+h2o2_x	SPODMx	-a>
+o2_x	SPODMx	-a>
+h2o2_c	r0010	-a>
+h2o_c	r0010	-a>
+o2_c	r0010	-a>

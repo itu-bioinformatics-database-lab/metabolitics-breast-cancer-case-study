@@ -1,0 +1,47 @@
+protein	1mpyr_c
+protein	amp_r
+protein	atp_r
+protein	bz_r
+protein	coa_r
+protein	coke_r
+protein	ecgon_r
+protein	egme_r
+protein	h2o2_c
+protein	h2o_r
+protein	h_r
+protein	meoh_r
+protein	nh4_c
+protein	nmptrc_c
+protein	o2_c
+protein	pecgon_r
+protein	pecgoncoa_r
+protein	ppi_r
+abstract	COKECBESr
+abstract	ECGISOr
+abstract	EGMESTr
+abstract	NMPTRCOX
+abstract	PECGONCOATr
+egme_r	COKECBESr	-a>
+bz_r	COKECBESr	-a>
+coke_r	COKECBESr	-a>
+h_r	COKECBESr	-a>
+h2o_r	COKECBESr	-a>
+ecgon_r	ECGISOr	-a>
+pecgon_r	ECGISOr	-a>
+egme_r	EGMESTr	-a>
+h_r	EGMESTr	-a>
+meoh_r	EGMESTr	-a>
+ecgon_r	EGMESTr	-a>
+h2o_r	EGMESTr	-a>
+1mpyr_c	NMPTRCOX	-a>
+h2o2_c	NMPTRCOX	-a>
+o2_c	NMPTRCOX	-a>
+nmptrc_c	NMPTRCOX	-a>
+nh4_c	NMPTRCOX	-a>
+amp_r	PECGONCOATr	-a>
+pecgoncoa_r	PECGONCOATr	-a>
+ppi_r	PECGONCOATr	-a>
+h_r	PECGONCOATr	-a>
+coa_r	PECGONCOATr	-a>
+pecgon_r	PECGONCOATr	-a>
+atp_r	PECGONCOATr	-a>

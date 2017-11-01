@@ -1,0 +1,23 @@
+protein	ade_c
+protein	amp_c
+protein	gmp_c
+protein	gua_c
+protein	hxan_c
+protein	imp_c
+protein	ppi_c
+protein	prpp_c
+abstract	ADPT
+abstract	GUAPRT
+abstract	HXPRT
+prpp_c	ADPT	-a>
+amp_c	ADPT	-a>
+ade_c	ADPT	-a>
+ppi_c	ADPT	-a>
+prpp_c	GUAPRT	-a>
+ppi_c	GUAPRT	-a>
+gmp_c	GUAPRT	-a>
+gua_c	GUAPRT	-a>
+prpp_c	HXPRT	-a>
+hxan_c	HXPRT	-a>
+ppi_c	HXPRT	-a>
+imp_c	HXPRT	-a>

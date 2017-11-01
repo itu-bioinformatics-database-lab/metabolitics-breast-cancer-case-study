@@ -1,0 +1,126 @@
+protein	23doguln_c
+protein	C01041_c
+protein	C02147_c
+protein	CE7122_c
+protein	ascb_L_c
+protein	avite2_c
+protein	co2_c
+protein	dhdascb_c
+protein	eryth_c
+protein	glac_c
+protein	glac_m
+protein	glac_r
+protein	glcr_c
+protein	glcr_m
+protein	glcur_r
+protein	gthox_c
+protein	gthrd_c
+protein	gullac_c
+protein	gullac_r
+protein	guln_r
+protein	h2o2_c
+protein	h2o_c
+protein	h2o_m
+protein	h2o_r
+protein	h_c
+protein	h_m
+protein	h_r
+protein	lipoate_c
+protein	lyxnt_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadph_c
+protein	o2s_c
+protein	oxa_c
+protein	thrnt_c
+protein	xylnt_c
+abstract	ASCBOX
+abstract	DASCBH
+abstract	DASCBR
+abstract	DOGULND1
+abstract	DOGULND2
+abstract	DOGULNO1
+abstract	DOGULNO2
+abstract	GLACO
+abstract	GLACOm
+abstract	GLNLASEer
+abstract	GLRASE
+abstract	GTHDH
+abstract	UROLACer
+abstract	RE2897C
+abstract	RE2898C
+abstract	RE2899C
+h2o2_c	ASCBOX	-a>
+o2s_c	ASCBOX	-a>
+ascb_L_c	ASCBOX	-a>
+dhdascb_c	ASCBOX	-a>
+h_c	ASCBOX	-a>
+h2o_c	DASCBH	-a>
+23doguln_c	DASCBH	-a>
+dhdascb_c	DASCBH	-a>
+nadph_c	DASCBR	-a>
+nadp_c	DASCBR	-a>
+ascb_L_c	DASCBR	-a>
+dhdascb_c	DASCBR	-a>
+h_c	DASCBR	-a>
+h2o_c	DOGULND1	-a>
+23doguln_c	DOGULND1	-a>
+co2_c	DOGULND1	-a>
+lyxnt_c	DOGULND1	-a>
+xylnt_c	DOGULND2	-a>
+h2o_c	DOGULND2	-a>
+23doguln_c	DOGULND2	-a>
+co2_c	DOGULND2	-a>
+h2o2_c	DOGULNO1	-a>
+thrnt_c	DOGULNO1	-a>
+h_c	DOGULNO1	-a>
+23doguln_c	DOGULNO1	-a>
+oxa_c	DOGULNO1	-a>
+h_c	DOGULNO2	-a>
+eryth_c	DOGULNO2	-a>
+23doguln_c	DOGULNO2	-a>
+oxa_c	DOGULNO2	-a>
+h2o_c	DOGULNO2	-a>
+nad_c	GLACO	-a>
+glcr_c	GLACO	-a>
+h2o_c	GLACO	-a>
+h_c	GLACO	-a>
+glac_c	GLACO	-a>
+nadh_c	GLACO	-a>
+h2o_m	GLACOm	-a>
+h_m	GLACOm	-a>
+glcr_m	GLACOm	-a>
+nad_m	GLACOm	-a>
+nadh_m	GLACOm	-a>
+glac_m	GLACOm	-a>
+h_r	GLNLASEer	-a>
+guln_r	GLNLASEer	-a>
+gullac_r	GLNLASEer	-a>
+h2o_r	GLNLASEer	-a>
+gullac_c	GLRASE	-a>
+nadp_c	GLRASE	-a>
+nadph_c	GLRASE	-a>
+h_c	GLRASE	-a>
+glac_c	GLRASE	-a>
+gthrd_c	GTHDH	-a>
+dhdascb_c	GTHDH	-a>
+ascb_L_c	GTHDH	-a>
+gthox_c	GTHDH	-a>
+h_r	UROLACer	-a>
+glcur_r	UROLACer	-a>
+glac_r	UROLACer	-a>
+h2o_r	UROLACer	-a>
+avite2_c	RE2897C	-a>
+ascb_L_c	RE2897C	-a>
+CE7122_c	RE2897C	-a>
+C01041_c	RE2897C	-a>
+dhdascb_c	RE2898C	-a>
+ascb_L_c	RE2898C	-a>
+C01041_c	RE2898C	-a>
+C02147_c	RE2899C	-a>
+dhdascb_c	RE2899C	-a>
+ascb_L_c	RE2899C	-a>
+lipoate_c	RE2899C	-a>

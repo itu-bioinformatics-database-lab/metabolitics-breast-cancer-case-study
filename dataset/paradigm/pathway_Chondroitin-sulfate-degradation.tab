@@ -1,0 +1,304 @@
+protein	Ser_Gly_Ala_X_Gly_l
+protein	acgal_l
+protein	cs_a_deg1_l
+protein	cs_a_deg2_l
+protein	cs_a_deg3_l
+protein	cs_a_deg4_l
+protein	cs_a_deg5_l
+protein	cs_a_l
+protein	cs_b_deg1_l
+protein	cs_b_deg2_l
+protein	cs_b_deg3_l
+protein	cs_b_l
+protein	cs_c_deg1_l
+protein	cs_c_deg2_l
+protein	cs_c_deg3_l
+protein	cs_c_deg4_l
+protein	cs_c_deg5_l
+protein	cs_c_l
+protein	cs_d_deg1_l
+protein	cs_d_deg2_l
+protein	cs_d_deg3_l
+protein	cs_d_deg4_l
+protein	cs_d_deg5_l
+protein	cs_d_deg6_l
+protein	cs_d_l
+protein	cs_e_deg1_l
+protein	cs_e_deg2_l
+protein	cs_e_deg3_l
+protein	cs_e_deg4_l
+protein	cs_e_deg5_l
+protein	cs_e_deg6_l
+protein	cs_e_deg7_l
+protein	cs_e_l
+protein	cspg_a_l
+protein	cspg_b_l
+protein	cspg_c_l
+protein	cspg_d_l
+protein	cspg_e_l
+protein	gal_l
+protein	glcur_l
+protein	h2o_l
+protein	h_l
+protein	idour_l
+protein	so4_l
+protein	xyl_D_l
+abstract	CSAPASEly
+abstract	CSBPASEly
+abstract	CSCPASEly
+abstract	CSDPASEly
+abstract	CSEPASEly
+abstract	GLCAASE4ly
+abstract	GLCAASE5ly
+abstract	GLCAASE6ly
+abstract	GLCAASE7ly
+abstract	IDOAASE4ly
+abstract	LINKDEG2ly
+abstract	LINKDEG3ly
+abstract	LINKDEG4ly
+abstract	NACHEX1ly
+abstract	NACHEX2ly
+abstract	NACHEX3ly
+abstract	NACHEX4ly
+abstract	NACHEX5ly
+abstract	NACHEX6ly
+abstract	NACHEX7ly
+abstract	NACHEX8ly
+abstract	NACHEX9ly
+abstract	NACHEXA1ly
+abstract	NACHEXA2ly
+abstract	NACHEXA3ly
+abstract	NACHEXA4ly
+abstract	NACHEXA5ly
+abstract	NACHEXA6ly
+abstract	NACHEXA7ly
+abstract	NACHEXA8ly
+abstract	S2TASE3ly
+abstract	S2TASE4ly
+abstract	S2TASE5ly
+abstract	S4TASE1ly
+abstract	S4TASE2ly
+abstract	S4TASE3ly
+abstract	S4TASE4ly
+abstract	S4TASE5ly
+abstract	S6TASE4ly
+abstract	S6TASE5ly
+abstract	S6TASE6ly
+abstract	S6TASE7ly
+abstract	S6TASE8ly
+abstract	S6TASE9ly
+cspg_a_l	CSAPASEly	-a>
+h2o_l	CSAPASEly	-a>
+cs_a_l	CSAPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	CSAPASEly	-a>
+h2o_l	CSBPASEly	-a>
+cs_b_l	CSBPASEly	-a>
+cspg_b_l	CSBPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	CSBPASEly	-a>
+cspg_c_l	CSCPASEly	-a>
+cs_c_l	CSCPASEly	-a>
+h2o_l	CSCPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	CSCPASEly	-a>
+cspg_d_l	CSDPASEly	-a>
+h2o_l	CSDPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	CSDPASEly	-a>
+cs_d_l	CSDPASEly	-a>
+cs_e_l	CSEPASEly	-a>
+h2o_l	CSEPASEly	-a>
+cspg_e_l	CSEPASEly	-a>
+Ser_Gly_Ala_X_Gly_l	CSEPASEly	-a>
+cs_a_deg2_l	GLCAASE4ly	-a>
+glcur_l	GLCAASE4ly	-a>
+cs_a_deg3_l	GLCAASE4ly	-a>
+h2o_l	GLCAASE4ly	-a>
+cs_c_deg3_l	GLCAASE5ly	-a>
+glcur_l	GLCAASE5ly	-a>
+h2o_l	GLCAASE5ly	-a>
+cs_c_deg2_l	GLCAASE5ly	-a>
+h2o_l	GLCAASE6ly	-a>
+glcur_l	GLCAASE6ly	-a>
+cs_d_deg4_l	GLCAASE6ly	-a>
+cs_d_deg3_l	GLCAASE6ly	-a>
+glcur_l	GLCAASE7ly	-a>
+cs_e_deg4_l	GLCAASE7ly	-a>
+h2o_l	GLCAASE7ly	-a>
+cs_e_deg3_l	GLCAASE7ly	-a>
+cs_b_deg3_l	IDOAASE4ly	-a>
+idour_l	IDOAASE4ly	-a>
+h2o_l	IDOAASE4ly	-a>
+cs_a_deg3_l	IDOAASE4ly	-a>
+glcur_l	LINKDEG2ly	-a>
+xyl_D_l	LINKDEG2ly	-a>
+gal_l	LINKDEG2ly	-a>
+h_l	LINKDEG2ly	-a>
+h2o_l	LINKDEG2ly	-a>
+cs_a_deg5_l	LINKDEG2ly	-a>
+so4_l	LINKDEG2ly	-a>
+glcur_l	LINKDEG3ly	-a>
+xyl_D_l	LINKDEG3ly	-a>
+cs_c_deg5_l	LINKDEG3ly	-a>
+gal_l	LINKDEG3ly	-a>
+h_l	LINKDEG3ly	-a>
+h2o_l	LINKDEG3ly	-a>
+so4_l	LINKDEG3ly	-a>
+glcur_l	LINKDEG4ly	-a>
+cs_e_deg7_l	LINKDEG4ly	-a>
+xyl_D_l	LINKDEG4ly	-a>
+gal_l	LINKDEG4ly	-a>
+h_l	LINKDEG4ly	-a>
+h2o_l	LINKDEG4ly	-a>
+so4_l	LINKDEG4ly	-a>
+cs_a_deg2_l	NACHEX1ly	-a>
+cs_a_deg1_l	NACHEX1ly	-a>
+acgal_l	NACHEX1ly	-a>
+h2o_l	NACHEX1ly	-a>
+h2o_l	NACHEX2ly	-a>
+cs_a_deg5_l	NACHEX2ly	-a>
+acgal_l	NACHEX2ly	-a>
+cs_a_deg4_l	NACHEX2ly	-a>
+h2o_l	NACHEX3ly	-a>
+acgal_l	NACHEX3ly	-a>
+cs_b_deg2_l	NACHEX3ly	-a>
+cs_b_deg1_l	NACHEX3ly	-a>
+h2o_l	NACHEX4ly	-a>
+cs_c_deg1_l	NACHEX4ly	-a>
+acgal_l	NACHEX4ly	-a>
+cs_c_deg2_l	NACHEX4ly	-a>
+cs_c_deg5_l	NACHEX5ly	-a>
+acgal_l	NACHEX5ly	-a>
+h2o_l	NACHEX5ly	-a>
+cs_c_deg4_l	NACHEX5ly	-a>
+cs_d_deg2_l	NACHEX6ly	-a>
+h2o_l	NACHEX6ly	-a>
+acgal_l	NACHEX6ly	-a>
+cs_d_deg1_l	NACHEX6ly	-a>
+cs_d_deg5_l	NACHEX7ly	-a>
+h2o_l	NACHEX7ly	-a>
+cs_d_deg6_l	NACHEX7ly	-a>
+acgal_l	NACHEX7ly	-a>
+acgal_l	NACHEX8ly	-a>
+h2o_l	NACHEX8ly	-a>
+cs_e_deg2_l	NACHEX8ly	-a>
+cs_e_deg3_l	NACHEX8ly	-a>
+h2o_l	NACHEX9ly	-a>
+cs_e_deg6_l	NACHEX9ly	-a>
+acgal_l	NACHEX9ly	-a>
+cs_e_deg7_l	NACHEX9ly	-a>
+cs_a_deg2_l	NACHEXA1ly	-a>
+h2o_l	NACHEXA1ly	-a>
+so4_l	NACHEXA1ly	-a>
+acgal_l	NACHEXA1ly	-a>
+cs_a_l	NACHEXA1ly	-a>
+h_l	NACHEXA1ly	-a>
+cs_b_deg2_l	NACHEXA2ly	-a>
+cs_b_l	NACHEXA2ly	-a>
+h2o_l	NACHEXA2ly	-a>
+so4_l	NACHEXA2ly	-a>
+acgal_l	NACHEXA2ly	-a>
+h_l	NACHEXA2ly	-a>
+so4_l	NACHEXA3ly	-a>
+acgal_l	NACHEXA3ly	-a>
+cs_c_l	NACHEXA3ly	-a>
+h2o_l	NACHEXA3ly	-a>
+cs_c_deg2_l	NACHEXA3ly	-a>
+h_l	NACHEXA3ly	-a>
+cs_c_deg3_l	NACHEXA4ly	-a>
+cs_c_deg5_l	NACHEXA4ly	-a>
+acgal_l	NACHEXA4ly	-a>
+so4_l	NACHEXA4ly	-a>
+h2o_l	NACHEXA4ly	-a>
+h_l	NACHEXA4ly	-a>
+h2o_l	NACHEXA5ly	-a>
+cs_d_deg2_l	NACHEXA5ly	-a>
+so4_l	NACHEXA5ly	-a>
+acgal_l	NACHEXA5ly	-a>
+h_l	NACHEXA5ly	-a>
+cs_d_l	NACHEXA5ly	-a>
+cs_d_deg4_l	NACHEXA6ly	-a>
+so4_l	NACHEXA6ly	-a>
+h2o_l	NACHEXA6ly	-a>
+cs_d_deg6_l	NACHEXA6ly	-a>
+acgal_l	NACHEXA6ly	-a>
+h_l	NACHEXA6ly	-a>
+h2o_l	NACHEXA7ly	-a>
+cs_e_deg3_l	NACHEXA7ly	-a>
+cs_e_l	NACHEXA7ly	-a>
+so4_l	NACHEXA7ly	-a>
+acgal_l	NACHEXA7ly	-a>
+h_l	NACHEXA7ly	-a>
+cs_e_deg7_l	NACHEXA8ly	-a>
+so4_l	NACHEXA8ly	-a>
+h2o_l	NACHEXA8ly	-a>
+cs_e_deg4_l	NACHEXA8ly	-a>
+acgal_l	NACHEXA8ly	-a>
+h_l	NACHEXA8ly	-a>
+cs_b_deg3_l	S2TASE3ly	-a>
+so4_l	S2TASE3ly	-a>
+h2o_l	S2TASE3ly	-a>
+cs_b_deg2_l	S2TASE3ly	-a>
+h_l	S2TASE3ly	-a>
+cs_d_deg2_l	S2TASE4ly	-a>
+so4_l	S2TASE4ly	-a>
+h2o_l	S2TASE4ly	-a>
+cs_d_deg3_l	S2TASE4ly	-a>
+h_l	S2TASE4ly	-a>
+cs_c_deg5_l	S2TASE5ly	-a>
+cs_d_deg6_l	S2TASE5ly	-a>
+h2o_l	S2TASE5ly	-a>
+so4_l	S2TASE5ly	-a>
+h_l	S2TASE5ly	-a>
+cs_a_deg1_l	S4TASE1ly	-a>
+so4_l	S4TASE1ly	-a>
+h2o_l	S4TASE1ly	-a>
+cs_a_l	S4TASE1ly	-a>
+h_l	S4TASE1ly	-a>
+so4_l	S4TASE2ly	-a>
+h_l	S4TASE2ly	-a>
+h2o_l	S4TASE2ly	-a>
+cs_a_deg3_l	S4TASE2ly	-a>
+cs_a_deg4_l	S4TASE2ly	-a>
+cs_b_deg1_l	S4TASE3ly	-a>
+h_l	S4TASE3ly	-a>
+h2o_l	S4TASE3ly	-a>
+cs_b_l	S4TASE3ly	-a>
+so4_l	S4TASE3ly	-a>
+cs_e_deg1_l	S4TASE4ly	-a>
+cs_e_l	S4TASE4ly	-a>
+so4_l	S4TASE4ly	-a>
+h2o_l	S4TASE4ly	-a>
+h_l	S4TASE4ly	-a>
+so4_l	S4TASE5ly	-a>
+cs_e_deg4_l	S4TASE5ly	-a>
+h2o_l	S4TASE5ly	-a>
+cs_e_deg5_l	S4TASE5ly	-a>
+h_l	S4TASE5ly	-a>
+so4_l	S6TASE4ly	-a>
+cs_c_deg1_l	S6TASE4ly	-a>
+cs_c_l	S6TASE4ly	-a>
+h2o_l	S6TASE4ly	-a>
+h_l	S6TASE4ly	-a>
+cs_c_deg3_l	S6TASE5ly	-a>
+so4_l	S6TASE5ly	-a>
+h2o_l	S6TASE5ly	-a>
+cs_c_deg4_l	S6TASE5ly	-a>
+h_l	S6TASE5ly	-a>
+cs_d_l	S6TASE6ly	-a>
+h_l	S6TASE6ly	-a>
+h2o_l	S6TASE6ly	-a>
+cs_d_deg1_l	S6TASE6ly	-a>
+so4_l	S6TASE6ly	-a>
+cs_d_deg5_l	S6TASE7ly	-a>
+h2o_l	S6TASE7ly	-a>
+h_l	S6TASE7ly	-a>
+cs_d_deg4_l	S6TASE7ly	-a>
+so4_l	S6TASE7ly	-a>
+cs_e_deg1_l	S6TASE8ly	-a>
+h2o_l	S6TASE8ly	-a>
+so4_l	S6TASE8ly	-a>
+cs_e_deg2_l	S6TASE8ly	-a>
+h_l	S6TASE8ly	-a>
+cs_e_deg6_l	S6TASE9ly	-a>
+so4_l	S6TASE9ly	-a>
+h2o_l	S6TASE9ly	-a>
+cs_e_deg5_l	S6TASE9ly	-a>
+h_l	S6TASE9ly	-a>

@@ -1,0 +1,677 @@
+protein	c8crn_x
+protein	lneldccrn_x
+protein	HC10859_c
+protein	HC10859_x
+protein	Rtotal_c
+protein	Rtotal_x
+protein	acac_c
+protein	acac_x
+protein	acald_c
+protein	acald_x
+protein	acrn_c
+protein	acrn_x
+protein	adhap_hs_c
+protein	adhap_hs_x
+protein	adp_c
+protein	adp_r
+protein	adp_x
+protein	adrncoa_c
+protein	adrncoa_x
+protein	akdhap_hs_c
+protein	akdhap_hs_x
+protein	akg_c
+protein	akg_m
+protein	akg_x
+protein	amp_c
+protein	amp_x
+protein	arachcoa_c
+protein	arachcoa_x
+protein	arachdcoa_c
+protein	arachdcoa_x
+protein	arachdcrn_c
+protein	arachdcrn_r
+protein	asp_D_c
+protein	asp_D_x
+protein	atp_c
+protein	atp_r
+protein	atp_x
+protein	btcoa_x
+protein	c226coa_c
+protein	c226coa_x
+protein	c4crn_c
+protein	c4crn_x
+protein	c6crn_c
+protein	c6crn_x
+protein	c8crn_c
+protein	cholcoa_c
+protein	cholcoa_x
+protein	cholcoar_r
+protein	cholcoar_x
+protein	clpndcoa_c
+protein	clpndcoa_x
+protein	co2_c
+protein	co2_x
+protein	coa_c
+protein	coa_x
+protein	crn_c
+protein	crn_r
+protein	crn_x
+protein	dcholcoa_c
+protein	dcholcoa_x
+protein	dcsptn1coa_c
+protein	dcsptn1coa_x
+protein	dgchol_c
+protein	dgchol_x
+protein	dhcholestanate_c
+protein	dhcholestanate_m
+protein	dhcholestanate_x
+protein	dhcholestancoa_r
+protein	dhcholestancoa_x
+protein	dmnoncoa_c
+protein	dmnoncoa_x
+protein	dmnoncrn_c
+protein	dmnoncrn_m
+protein	dmnoncrn_x
+protein	doco13ecoa_c
+protein	doco13ecoa_x
+protein	docoscoa_c
+protein	docoscoa_x
+protein	etoh_c
+protein	etoh_x
+protein	fad_c
+protein	fad_x
+protein	fadh2_c
+protein	fadh2_x
+protein	formcoa_c
+protein	formcoa_x
+protein	frdp_c
+protein	frdp_r
+protein	frdp_x
+protein	gchola_c
+protein	gchola_x
+protein	glx_c
+protein	glx_x
+protein	gly_c
+protein	gly_x
+protein	glyc3p_c
+protein	glyc3p_x
+protein	glyclt_c
+protein	glyclt_x
+protein	h2o2_c
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_r
+protein	h_x
+protein	hdcoa_c
+protein	hdcoa_x
+protein	hexccoa_c
+protein	hexccoa_x
+protein	hmgcoa_c
+protein	hmgcoa_x
+protein	hpyr_c
+protein	hpyr_x
+protein	hxan_c
+protein	hxan_x
+protein	hxcoa_x
+protein	icit_c
+protein	icit_m
+protein	icit_x
+protein	ipdp_c
+protein	ipdp_x
+protein	lac_L_c
+protein	lac_L_x
+protein	lanost_r
+protein	lanost_x
+protein	ttccoa_c
+protein	ttccoa_x
+protein	lneldccrn_c
+protein	lnlccoa_c
+protein	lnlccoa_x
+protein	lys_L_c
+protein	lys_L_x
+protein	mal_L_c
+protein	mal_L_x
+protein	mev_R_c
+protein	mev_R_x
+protein	na1_c
+protein	na1_x
+protein	nad_c
+protein	nad_x
+protein	nadh_c
+protein	nadh_x
+protein	nadp_c
+protein	nadp_x
+protein	nadph_c
+protein	nadph_x
+protein	nh4_c
+protein	nh4_x
+protein	nrvnccoa_c
+protein	nrvnccoa_x
+protein	o2_c
+protein	o2_x
+protein	o2s_c
+protein	o2s_x
+protein	occoa_c
+protein	occoa_x
+protein	octdececoa_c
+protein	octdececoa_x
+protein	oxa_c
+protein	oxa_x
+protein	pcrn_c
+protein	pcrn_x
+protein	phytcoa_c
+protein	phytcoa_x
+protein	pi_c
+protein	pi_r
+protein	pi_x
+protein	pmtcoa_c
+protein	pmtcoa_x
+protein	ppcoa_c
+protein	ppcoa_x
+protein	ppi_c
+protein	ppi_x
+protein	prist_c
+protein	prist_x
+protein	pristanal_c
+protein	pristanal_x
+protein	pristcoa_c
+protein	pristcoa_x
+protein	sarcs_c
+protein	sarcs_x
+protein	ser_L_c
+protein	ser_L_x
+protein	stcoa_c
+protein	stcoa_x
+protein	strdnccoa_c
+protein	strdnccoa_x
+protein	taur_c
+protein	taur_x
+protein	tchola_c
+protein	tchola_x
+protein	tdchola_c
+protein	tdchola_x
+protein	tethex3coa_c
+protein	tethex3coa_x
+protein	tetpent3coa_c
+protein	tetpent3coa_x
+protein	tetpent6coa_c
+protein	tetpent6coa_x
+protein	tettet6coa_c
+protein	tettet6coa_x
+protein	thcholstoic_c
+protein	thcholstoic_m
+protein	thcholstoic_x
+protein	thp2c_c
+protein	thp2c_x
+protein	tmndnccoa_c
+protein	tmndnccoa_x
+protein	urate_c
+protein	urate_x
+protein	xan_c
+protein	xan_x
+abstract	C4x
+abstract	C6COAt
+abstract	ACACtx
+abstract	ACALDtx
+abstract	ADHAPtx
+abstract	ADPtx
+abstract	ADRNCOAtx
+abstract	AGPex
+abstract	AKGtp
+abstract	AMPtp
+abstract	ARACHCOAtx
+abstract	ARACHDCOAtx
+abstract	ASPDxt
+abstract	ATPtx
+abstract	C226COAtx
+abstract	CLPNDCOAtx
+abstract	CO2tp
+abstract	COAtp
+abstract	CRNCAR3tp
+abstract	CRNCARtp
+abstract	CRNtx
+abstract	DCSPTN1COAtx
+abstract	DGCHOLtx
+abstract	DHCHOLESTANATEtm
+abstract	ETOHtx
+abstract	FADH2tx
+abstract	FADtx
+abstract	FORMCOAtx
+abstract	FRDPtc
+abstract	FRDPtr
+abstract	GCHOLAtx
+abstract	GLXtp
+abstract	GLYCLTtp
+abstract	GLYtp
+abstract	H2O2tp
+abstract	H2Otp
+abstract	HDD2COAtx
+abstract	HEXCCOAtx
+abstract	HMGCOAtx
+abstract	HPYRtp
+abstract	Htx
+abstract	HXANtx
+abstract	IPDPtx
+abstract	LGNCCOAtx
+abstract	LYStip
+abstract	NADHtpu
+abstract	NADPHtxu
+abstract	NADPtxu
+abstract	NAtx
+abstract	NH4tp
+abstract	NRVNCCOAtx
+abstract	O2Stx
+abstract	O2tp
+abstract	OCCOAtx
+abstract	ODECOAtx
+abstract	OXAtp
+abstract	PItx
+abstract	PPItx
+abstract	PRISTANALtx
+abstract	PRISTCOAtx
+abstract	PRISTtx
+abstract	Rtotaltp
+abstract	SARCStp
+abstract	SCP21x
+abstract	SCP22x
+abstract	SERtp
+abstract	TCHOLAtx
+abstract	TDCHOLAtx
+abstract	TETHEX3COAtx
+abstract	TETPENT3COAtx
+abstract	TETPENT6COAtx
+abstract	TETTET6COAtx
+abstract	THCHOLSTOICtm
+abstract	THP2Ctp
+abstract	TMNDNCCOAtx
+abstract	URATEtx
+abstract	XANtx
+abstract	r0934
+abstract	r0954
+abstract	r0988
+abstract	r0990
+abstract	r0997
+abstract	r1003
+abstract	r1006
+abstract	r1007
+abstract	r1012
+abstract	r1014
+abstract	r1019
+abstract	r1147
+abstract	r1148
+abstract	r1292
+abstract	r2499
+abstract	r2501
+abstract	r2502
+abstract	r2503
+abstract	r2516
+abstract	r2517
+abstract	r2518
+abstract	C16txc
+abstract	C2tcx
+abstract	C4tcx
+abstract	C6CRNtcx
+abstract	C9BRxtc
+abstract	DCSPTN1COAtxc
+abstract	DOCO13ECOAtxc
+abstract	DOCOSCOAtxc
+abstract	LGNCCOAtcx
+abstract	NRVNCCOAtxc
+abstract	PRISTCOAtcx
+abstract	SCP21cx
+abstract	STCOATxc
+abstract	STRDNCCOAtxc
+abstract	CRNrtx
+abstract	GLY3Pt
+abstract	LACLt
+abstract	MAL_Ltx
+abstract	NADtx
+crn_x	C4x	-a>
+btcoa_x	C4x	-a>
+c4crn_x	C4x	-a>
+coa_x	C4x	-a>
+crn_x	C6COAt	-a>
+coa_x	C6COAt	-a>
+c6crn_x	C6COAt	-a>
+hxcoa_x	C6COAt	-a>
+acac_c	ACACtx	-a>
+acac_x	ACACtx	-a>
+acald_x	ACALDtx	-a>
+acald_c	ACALDtx	-a>
+adhap_hs_x	ADHAPtx	-a>
+adhap_hs_c	ADHAPtx	-a>
+adp_c	ADPtx	-a>
+adp_x	ADPtx	-a>
+adrncoa_x	ADRNCOAtx	-a>
+adrncoa_c	ADRNCOAtx	-a>
+akdhap_hs_x	AGPex	-a>
+akdhap_hs_c	AGPex	-a>
+akg_x	AKGtp	-a>
+akg_c	AKGtp	-a>
+amp_c	AMPtp	-a>
+amp_x	AMPtp	-a>
+arachcoa_c	ARACHCOAtx	-a>
+arachcoa_x	ARACHCOAtx	-a>
+arachdcoa_c	ARACHDCOAtx	-a>
+arachdcoa_x	ARACHDCOAtx	-a>
+asp_D_x	ASPDxt	-a>
+asp_D_c	ASPDxt	-a>
+atp_c	ATPtx	-a>
+atp_x	ATPtx	-a>
+c226coa_x	C226COAtx	-a>
+c226coa_c	C226COAtx	-a>
+clpndcoa_c	CLPNDCOAtx	-a>
+clpndcoa_x	CLPNDCOAtx	-a>
+co2_x	CO2tp	-a>
+co2_c	CO2tp	-a>
+coa_c	COAtp	-a>
+coa_x	COAtp	-a>
+crn_x	CRNCAR3tp	-a>
+crn_c	CRNCAR3tp	-a>
+pcrn_x	CRNCAR3tp	-a>
+pcrn_c	CRNCAR3tp	-a>
+crn_x	CRNCARtp	-a>
+crn_c	CRNCARtp	-a>
+acrn_x	CRNCARtp	-a>
+acrn_c	CRNCARtp	-a>
+dmnoncrn_m	CRNtx	-a>
+dmnoncrn_x	CRNtx	-a>
+dcsptn1coa_c	DCSPTN1COAtx	-a>
+dcsptn1coa_x	DCSPTN1COAtx	-a>
+dgchol_x	DGCHOLtx	-a>
+dgchol_c	DGCHOLtx	-a>
+dhcholestanate_x	DHCHOLESTANATEtm	-a>
+dhcholestanate_m	DHCHOLESTANATEtm	-a>
+etoh_x	ETOHtx	-a>
+etoh_c	ETOHtx	-a>
+fadh2_x	FADH2tx	-a>
+fadh2_c	FADH2tx	-a>
+fad_x	FADtx	-a>
+fad_c	FADtx	-a>
+formcoa_c	FORMCOAtx	-a>
+formcoa_x	FORMCOAtx	-a>
+frdp_c	FRDPtc	-a>
+frdp_x	FRDPtc	-a>
+frdp_r	FRDPtr	-a>
+frdp_x	FRDPtr	-a>
+gchola_x	GCHOLAtx	-a>
+gchola_c	GCHOLAtx	-a>
+glx_x	GLXtp	-a>
+glx_c	GLXtp	-a>
+glyclt_x	GLYCLTtp	-a>
+glyclt_c	GLYCLTtp	-a>
+gly_x	GLYtp	-a>
+gly_c	GLYtp	-a>
+h2o2_c	H2O2tp	-a>
+h2o2_x	H2O2tp	-a>
+h2o_x	H2Otp	-a>
+h2o_c	H2Otp	-a>
+hdcoa_x	HDD2COAtx	-a>
+hdcoa_c	HDD2COAtx	-a>
+hexccoa_c	HEXCCOAtx	-a>
+hexccoa_x	HEXCCOAtx	-a>
+hmgcoa_c	HMGCOAtx	-a>
+hmgcoa_x	HMGCOAtx	-a>
+hpyr_x	HPYRtp	-a>
+hpyr_c	HPYRtp	-a>
+h_c	Htx	-a>
+h_x	Htx	-a>
+hxan_c	HXANtx	-a>
+hxan_x	HXANtx	-a>
+ipdp_x	IPDPtx	-a>
+ipdp_c	IPDPtx	-a>
+ttccoa_x	LGNCCOAtx	-a>
+ttccoa_c	LGNCCOAtx	-a>
+lys_L_c	LYStip	-a>
+lys_L_x	LYStip	-a>
+nadh_x	NADHtpu	-a>
+nadh_c	NADHtpu	-a>
+nadph_c	NADPHtxu	-a>
+nadph_x	NADPHtxu	-a>
+nadp_x	NADPtxu	-a>
+nadp_c	NADPtxu	-a>
+na1_c	NAtx	-a>
+na1_x	NAtx	-a>
+nh4_x	NH4tp	-a>
+nh4_c	NH4tp	-a>
+nrvnccoa_x	NRVNCCOAtx	-a>
+nrvnccoa_c	NRVNCCOAtx	-a>
+o2s_x	O2Stx	-a>
+o2s_c	O2Stx	-a>
+o2_x	O2tp	-a>
+o2_c	O2tp	-a>
+occoa_x	OCCOAtx	-a>
+occoa_c	OCCOAtx	-a>
+octdececoa_x	ODECOAtx	-a>
+octdececoa_c	ODECOAtx	-a>
+oxa_x	OXAtp	-a>
+oxa_c	OXAtp	-a>
+pi_c	PItx	-a>
+pi_x	PItx	-a>
+ppi_x	PPItx	-a>
+ppi_c	PPItx	-a>
+pristanal_c	PRISTANALtx	-a>
+pristanal_x	PRISTANALtx	-a>
+pristcoa_c	PRISTCOAtx	-a>
+pristcoa_x	PRISTCOAtx	-a>
+prist_c	PRISTtx	-a>
+prist_x	PRISTtx	-a>
+Rtotal_x	Rtotaltp	-a>
+Rtotal_c	Rtotaltp	-a>
+sarcs_c	SARCStp	-a>
+sarcs_x	SARCStp	-a>
+phytcoa_c	SCP21x	-a>
+phytcoa_x	SCP21x	-a>
+dmnoncoa_x	SCP22x	-a>
+dmnoncoa_c	SCP22x	-a>
+ser_L_c	SERtp	-a>
+ser_L_x	SERtp	-a>
+tchola_x	TCHOLAtx	-a>
+tchola_c	TCHOLAtx	-a>
+tdchola_x	TDCHOLAtx	-a>
+tdchola_c	TDCHOLAtx	-a>
+tethex3coa_x	TETHEX3COAtx	-a>
+tethex3coa_c	TETHEX3COAtx	-a>
+tetpent3coa_x	TETPENT3COAtx	-a>
+tetpent3coa_c	TETPENT3COAtx	-a>
+tetpent6coa_x	TETPENT6COAtx	-a>
+tetpent6coa_c	TETPENT6COAtx	-a>
+tettet6coa_x	TETTET6COAtx	-a>
+tettet6coa_c	TETTET6COAtx	-a>
+thcholstoic_m	THCHOLSTOICtm	-a>
+thcholstoic_x	THCHOLSTOICtm	-a>
+thp2c_x	THP2Ctp	-a>
+thp2c_c	THP2Ctp	-a>
+tmndnccoa_x	TMNDNCCOAtx	-a>
+tmndnccoa_c	TMNDNCCOAtx	-a>
+urate_c	URATEtx	-a>
+urate_x	URATEtx	-a>
+xan_x	XANtx	-a>
+xan_c	XANtx	-a>
+taur_x	r0934	-a>
+taur_c	r0934	-a>
+mev_R_x	r0954	-a>
+mev_R_c	r0954	-a>
+lanost_r	r0988	-a>
+lanost_x	r0988	-a>
+cholcoa_x	r0990	-a>
+cholcoa_c	r0990	-a>
+crn_x	r0997	-a>
+crn_c	r0997	-a>
+c8crn_x	r0997	-a>
+c8crn_c	r0997	-a>
+crn_x	r1003	-a>
+crn_c	r1003	-a>
+lneldccrn_x	r1003	-a>
+lneldccrn_c	r1003	-a>
+crn_x	r1006	-a>
+crn_c	r1006	-a>
+HC10859_c	r1006	-a>
+HC10859_x	r1006	-a>
+arachdcrn_r	r1007	-a>
+arachdcrn_c	r1007	-a>
+crn_c	r1007	-a>
+crn_r	r1007	-a>
+adp_r	r1012	-a>
+dhcholestancoa_x	r1012	-a>
+h2o_r	r1012	-a>
+h_r	r1012	-a>
+dhcholestancoa_r	r1012	-a>
+pi_r	r1012	-a>
+atp_r	r1012	-a>
+adp_r	r1014	-a>
+h2o_r	r1014	-a>
+cholcoar_r	r1014	-a>
+h_r	r1014	-a>
+cholcoar_x	r1014	-a>
+pi_r	r1014	-a>
+atp_r	r1014	-a>
+dcholcoa_c	r1019	-a>
+dcholcoa_x	r1019	-a>
+icit_c	r1147	-a>
+akg_m	r1147	-a>
+akg_c	r1147	-a>
+icit_m	r1147	-a>
+icit_x	r1148	-a>
+akg_x	r1148	-a>
+akg_c	r1148	-a>
+icit_c	r1148	-a>
+ppcoa_x	r1292	-a>
+ppcoa_c	r1292	-a>
+h2o_c	r2499	-a>
+h_c	r2499	-a>
+pi_c	r2499	-a>
+ppcoa_x	r2499	-a>
+atp_c	r2499	-a>
+ppcoa_c	r2499	-a>
+adp_c	r2499	-a>
+h2o_c	r2501	-a>
+h_c	r2501	-a>
+pi_c	r2501	-a>
+atp_c	r2501	-a>
+cholcoa_x	r2501	-a>
+adp_c	r2501	-a>
+cholcoa_c	r2501	-a>
+lnlccoa_x	r2502	-a>
+h2o_c	r2502	-a>
+h_c	r2502	-a>
+lnlccoa_c	r2502	-a>
+pi_c	r2502	-a>
+atp_c	r2502	-a>
+adp_c	r2502	-a>
+h2o_c	r2503	-a>
+h_c	r2503	-a>
+arachdcoa_x	r2503	-a>
+pi_c	r2503	-a>
+atp_c	r2503	-a>
+arachdcoa_c	r2503	-a>
+adp_c	r2503	-a>
+lac_L_c	r2516	-a>
+lac_L_x	r2516	-a>
+h_c	r2516	-a>
+h_x	r2516	-a>
+h2o_c	r2517	-a>
+thcholstoic_x	r2517	-a>
+h_c	r2517	-a>
+thcholstoic_c	r2517	-a>
+pi_c	r2517	-a>
+atp_c	r2517	-a>
+adp_c	r2517	-a>
+dhcholestanate_x	r2518	-a>
+h2o_c	r2518	-a>
+h_c	r2518	-a>
+dhcholestanate_c	r2518	-a>
+pi_c	r2518	-a>
+atp_c	r2518	-a>
+adp_c	r2518	-a>
+h2o_c	C16txc	-a>
+h_c	C16txc	-a>
+pmtcoa_c	C16txc	-a>
+pi_c	C16txc	-a>
+atp_c	C16txc	-a>
+adp_c	C16txc	-a>
+pmtcoa_x	C16txc	-a>
+acrn_c	C2tcx	-a>
+acrn_x	C2tcx	-a>
+c4crn_x	C4tcx	-a>
+c4crn_c	C4tcx	-a>
+c6crn_x	C6CRNtcx	-a>
+c6crn_c	C6CRNtcx	-a>
+dmnoncrn_x	C9BRxtc	-a>
+dmnoncrn_c	C9BRxtc	-a>
+h2o_c	DCSPTN1COAtxc	-a>
+h_c	DCSPTN1COAtxc	-a>
+dcsptn1coa_c	DCSPTN1COAtxc	-a>
+pi_c	DCSPTN1COAtxc	-a>
+atp_c	DCSPTN1COAtxc	-a>
+adp_c	DCSPTN1COAtxc	-a>
+dcsptn1coa_x	DCSPTN1COAtxc	-a>
+doco13ecoa_x	DOCO13ECOAtxc	-a>
+h2o_c	DOCO13ECOAtxc	-a>
+h_c	DOCO13ECOAtxc	-a>
+pi_c	DOCO13ECOAtxc	-a>
+atp_c	DOCO13ECOAtxc	-a>
+doco13ecoa_c	DOCO13ECOAtxc	-a>
+adp_c	DOCO13ECOAtxc	-a>
+docoscoa_x	DOCOSCOAtxc	-a>
+h2o_c	DOCOSCOAtxc	-a>
+h_c	DOCOSCOAtxc	-a>
+pi_c	DOCOSCOAtxc	-a>
+atp_c	DOCOSCOAtxc	-a>
+docoscoa_c	DOCOSCOAtxc	-a>
+adp_c	DOCOSCOAtxc	-a>
+h2o_c	LGNCCOAtcx	-a>
+h_c	LGNCCOAtcx	-a>
+ttccoa_x	LGNCCOAtcx	-a>
+pi_c	LGNCCOAtcx	-a>
+atp_c	LGNCCOAtcx	-a>
+adp_c	LGNCCOAtcx	-a>
+ttccoa_c	LGNCCOAtcx	-a>
+nrvnccoa_c	NRVNCCOAtxc	-a>
+h_c	NRVNCCOAtxc	-a>
+pi_c	NRVNCCOAtxc	-a>
+nrvnccoa_x	NRVNCCOAtxc	-a>
+atp_c	NRVNCCOAtxc	-a>
+h2o_c	NRVNCCOAtxc	-a>
+adp_c	NRVNCCOAtxc	-a>
+pristcoa_c	PRISTCOAtcx	-a>
+h2o_c	PRISTCOAtcx	-a>
+pristcoa_x	PRISTCOAtcx	-a>
+h_c	PRISTCOAtcx	-a>
+pi_c	PRISTCOAtcx	-a>
+atp_c	PRISTCOAtcx	-a>
+adp_c	PRISTCOAtcx	-a>
+h2o_c	SCP21cx	-a>
+h_c	SCP21cx	-a>
+phytcoa_x	SCP21cx	-a>
+pi_c	SCP21cx	-a>
+atp_c	SCP21cx	-a>
+phytcoa_c	SCP21cx	-a>
+adp_c	SCP21cx	-a>
+stcoa_x	STCOATxc	-a>
+stcoa_c	STCOATxc	-a>
+h_c	STCOATxc	-a>
+pi_c	STCOATxc	-a>
+atp_c	STCOATxc	-a>
+h2o_c	STCOATxc	-a>
+adp_c	STCOATxc	-a>
+h2o_c	STRDNCCOAtxc	-a>
+strdnccoa_x	STRDNCCOAtxc	-a>
+h_c	STRDNCCOAtxc	-a>
+pi_c	STRDNCCOAtxc	-a>
+atp_c	STRDNCCOAtxc	-a>
+strdnccoa_c	STRDNCCOAtxc	-a>
+adp_c	STRDNCCOAtxc	-a>
+crn_x	CRNrtx	-a>
+crn_c	CRNrtx	-a>
+glyc3p_x	GLY3Pt	-a>
+glyc3p_c	GLY3Pt	-a>
+lac_L_c	LACLt	-a>
+lac_L_x	LACLt	-a>
+mal_L_c	MAL_Ltx	-a>
+mal_L_x	MAL_Ltx	-a>
+nad_c	NADtx	-a>
+nad_x	NADtx	-a>

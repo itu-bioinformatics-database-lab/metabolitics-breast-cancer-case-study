@@ -1,0 +1,180 @@
+protein	C03693_c
+protein	CE1787_c
+protein	CE2846_c
+protein	CE2847_c
+protein	CE2848_c
+protein	adp_c
+protein	atp_c
+protein	dadp_c
+protein	datp_c
+protein	dhap_c
+protein	f1p_c
+protein	f26bp_c
+protein	f6p_c
+protein	fdp_c
+protein	fru_c
+protein	fuc1p_L_c
+protein	fuc_L_c
+protein	g3p_c
+protein	gdp_c
+protein	gdpddman_c
+protein	gdpfuc_c
+protein	gdpmann_c
+protein	glc_D_c
+protein	glyald_c
+protein	gtp_c
+protein	h2o_c
+protein	h_c
+protein	idp_c
+protein	itp_c
+protein	man1p_c
+protein	man6p_c
+protein	man_c
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadph_c
+protein	pi_c
+protein	ppi_c
+protein	sbt_D_c
+protein	udp_c
+protein	utp_c
+abstract	F1PGT
+abstract	FBA2
+abstract	FBP26
+abstract	FK
+abstract	GFUCS
+abstract	GMAND
+abstract	HEX4
+abstract	HEX7
+abstract	KHK
+abstract	MAN1PT2
+abstract	MAN6PI
+abstract	PFK26
+abstract	PMANM
+abstract	SBTD_D2
+abstract	SBTR
+abstract	TRIOK
+abstract	r0191
+abstract	r0208
+abstract	r0357
+abstract	r0358
+abstract	r0360
+abstract	r0361
+abstract	RE0864C
+abstract	RE0875C
+abstract	RE1508C
+gtp_c	F1PGT	-a>
+gdpfuc_c	F1PGT	-a>
+ppi_c	F1PGT	-a>
+fuc1p_L_c	F1PGT	-a>
+h_c	F1PGT	-a>
+dhap_c	FBA2	-a>
+glyald_c	FBA2	-a>
+f1p_c	FBA2	-a>
+f6p_c	FBP26	-a>
+f26bp_c	FBP26	-a>
+h2o_c	FBP26	-a>
+pi_c	FBP26	-a>
+fuc_L_c	FK	-a>
+atp_c	FK	-a>
+adp_c	FK	-a>
+fuc1p_L_c	FK	-a>
+h_c	FK	-a>
+gdpddman_c	GFUCS	-a>
+nadp_c	GFUCS	-a>
+nadph_c	GFUCS	-a>
+gdpfuc_c	GFUCS	-a>
+h_c	GFUCS	-a>
+gdpddman_c	GMAND	-a>
+h2o_c	GMAND	-a>
+gdpmann_c	GMAND	-a>
+atp_c	HEX4	-a>
+man_c	HEX4	-a>
+h_c	HEX4	-a>
+man6p_c	HEX4	-a>
+adp_c	HEX4	-a>
+f6p_c	HEX7	-a>
+atp_c	HEX7	-a>
+fru_c	HEX7	-a>
+adp_c	HEX7	-a>
+h_c	HEX7	-a>
+f1p_c	KHK	-a>
+atp_c	KHK	-a>
+fru_c	KHK	-a>
+h_c	KHK	-a>
+adp_c	KHK	-a>
+gdp_c	MAN1PT2	-a>
+man1p_c	MAN1PT2	-a>
+gdpmann_c	MAN1PT2	-a>
+h_c	MAN1PT2	-a>
+pi_c	MAN1PT2	-a>
+f6p_c	MAN6PI	-a>
+man6p_c	MAN6PI	-a>
+f6p_c	PFK26	-a>
+atp_c	PFK26	-a>
+adp_c	PFK26	-a>
+f26bp_c	PFK26	-a>
+h_c	PFK26	-a>
+man1p_c	PMANM	-a>
+man6p_c	PMANM	-a>
+nad_c	SBTD_D2	-a>
+fru_c	SBTD_D2	-a>
+h_c	SBTD_D2	-a>
+sbt_D_c	SBTD_D2	-a>
+nadh_c	SBTD_D2	-a>
+nadp_c	SBTR	-a>
+glc_D_c	SBTR	-a>
+nadph_c	SBTR	-a>
+h_c	SBTR	-a>
+sbt_D_c	SBTR	-a>
+g3p_c	TRIOK	-a>
+atp_c	TRIOK	-a>
+adp_c	TRIOK	-a>
+glyald_c	TRIOK	-a>
+h_c	TRIOK	-a>
+f6p_c	r0191	-a>
+udp_c	r0191	-a>
+h_c	r0191	-a>
+utp_c	r0191	-a>
+fdp_c	r0191	-a>
+gtp_c	r0208	-a>
+gdpmann_c	r0208	-a>
+h_c	r0208	-a>
+man1p_c	r0208	-a>
+ppi_c	r0208	-a>
+f6p_c	r0357	-a>
+fru_c	r0357	-a>
+h_c	r0357	-a>
+idp_c	r0357	-a>
+itp_c	r0357	-a>
+f6p_c	r0358	-a>
+dadp_c	r0358	-a>
+fru_c	r0358	-a>
+h_c	r0358	-a>
+datp_c	r0358	-a>
+idp_c	r0360	-a>
+man_c	r0360	-a>
+h_c	r0360	-a>
+man6p_c	r0360	-a>
+itp_c	r0360	-a>
+datp_c	r0361	-a>
+dadp_c	r0361	-a>
+man_c	r0361	-a>
+h_c	r0361	-a>
+man6p_c	r0361	-a>
+atp_c	RE0864C	-a>
+CE1787_c	RE0864C	-a>
+CE2846_c	RE0864C	-a>
+adp_c	RE0864C	-a>
+h_c	RE0864C	-a>
+CE2847_c	RE0875C	-a>
+atp_c	RE0875C	-a>
+CE2848_c	RE0875C	-a>
+adp_c	RE0875C	-a>
+h_c	RE0875C	-a>
+atp_c	RE1508C	-a>
+man1p_c	RE1508C	-a>
+adp_c	RE1508C	-a>
+C03693_c	RE1508C	-a>
+h_c	RE1508C	-a>

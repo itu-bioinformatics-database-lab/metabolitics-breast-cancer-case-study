@@ -1,0 +1,377 @@
+protein	pail5p_hs_g
+protein	pail5p_hs_m
+protein	pail35p_hs_n
+protein	ac_c
+protein	acgpail_hs_c
+protein	adp_g
+protein	adp_m
+protein	adp_n
+protein	adp_r
+protein	atp_g
+protein	atp_m
+protein	atp_n
+protein	atp_r
+protein	coa_c
+protein	dag_hs_r
+protein	dem2emgacpail_prot_hs_r
+protein	dgpi_prot_hs_r
+protein	dolmanp_U_r
+protein	dolp_U_r
+protein	em2emgacpail_hs_r
+protein	em2emgacpail_prot_hs_r
+protein	em3gacpail_hs_r
+protein	emem2gacpail_hs_r
+protein	emgacpail_hs_r
+protein	gacpail_hs_c
+protein	gacpail_hs_r
+protein	gpail_hs_c
+protein	gpi_hs_r
+protein	gpi_prot_hs_r
+protein	gpi_sig_r
+protein	h2o_c
+protein	h2o_g
+protein	h2o_m
+protein	h2o_n
+protein	h2o_r
+protein	h_c
+protein	h_g
+protein	h_m
+protein	h_n
+protein	h_r
+protein	inost_c
+protein	inost_g
+protein	inost_r
+protein	m2emgacpail_hs_r
+protein	m2gacpail_hs_r
+protein	m3emgacpail_hs_r
+protein	m3gacpail_hs_r
+protein	m_em_3gacpail_hs_r
+protein	m_em_3gacpail_prot_hs_r
+protein	m_em_3gacpail_r
+protein	mem2emgacpail_hs_r
+protein	mem2emgacpail_prot_hs_r
+protein	memgacpail_hs_r
+protein	mgacpail_hs_r
+protein	pa_hs_c
+protein	pa_hs_g
+protein	pa_hs_r
+protein	pail345p_hs_g
+protein	pail345p_hs_r
+protein	pail35p_hs_c
+protein	pail35p_hs_g
+protein	pail35p_hs_r
+protein	pail3p_hs_c
+protein	pail3p_hs_g
+protein	pail3p_hs_n
+protein	pail3p_hs_r
+protein	pail45p_hs_g
+protein	pail45p_hs_m
+protein	pail45p_hs_n
+protein	pail45p_hs_r
+protein	pail4p_hs_n
+protein	pail5p_hs_c
+protein	pail5p_hs_n
+protein	pail5p_hs_r
+protein	pail_hs_c
+protein	pail_hs_g
+protein	pail_hs_n
+protein	pail_hs_r
+protein	pe_hs_r
+protein	pi_c
+protein	pi_m
+protein	pi_n
+protein	pi_r
+protein	hdca_r
+protein	pmtcoa_c
+protein	pre_prot_r
+protein	uacgam_c
+protein	udp_c
+abstract	ACGPID
+abstract	BMTer_U
+abstract	GPIAT
+abstract	GPIDA2er
+abstract	GPIDAer
+abstract	GPIMTer_U
+abstract	H2ETer
+abstract	H2MTer_U
+abstract	H3ETer
+abstract	H3MTer_U
+abstract	H4ET3er
+abstract	H4ETer
+abstract	H5MTer_U
+abstract	H6_ET2er
+abstract	H6ET3er
+abstract	H6_ETer
+abstract	H6MTer_U
+abstract	H7ET2er
+abstract	H7_ETer
+abstract	H7MTer_U
+abstract	H7_TAer
+abstract	H8MTer_L
+abstract	H8MTer_U
+abstract	H8TAer
+abstract	M4ATAer
+abstract	M4BET2er
+abstract	M4BTAer
+abstract	M4CET3er
+abstract	PIACGT
+abstract	RE1441G
+abstract	RE1441R
+abstract	RE1447M
+abstract	RE1447N
+abstract	RE1448N
+abstract	RE1448R
+abstract	RE1957G
+abstract	RE1957R
+abstract	RE2972G
+abstract	RE2972M
+abstract	RE2972R
+abstract	RE2973G
+abstract	RE2973N
+abstract	RE2974G
+abstract	RE2974N
+abstract	RE2974R
+abstract	RE3268R
+abstract	RE3269C
+abstract	RE3270C
+abstract	RE3272N
+abstract	RE3273C
+abstract	RE3273G
+abstract	RE3273R
+ac_c	ACGPID	-a>
+acgpail_hs_c	ACGPID	-a>
+h2o_c	ACGPID	-a>
+gpail_hs_c	ACGPID	-a>
+dolp_U_r	BMTer_U	-a>
+dolmanp_U_r	BMTer_U	-a>
+memgacpail_hs_r	BMTer_U	-a>
+h_r	BMTer_U	-a>
+m2emgacpail_hs_r	BMTer_U	-a>
+coa_c	GPIAT	-a>
+gacpail_hs_c	GPIAT	-a>
+gpail_hs_c	GPIAT	-a>
+pmtcoa_c	GPIAT	-a>
+hdca_r	GPIDA2er	-a>
+h_r	GPIDA2er	-a>
+h2o_r	GPIDA2er	-a>
+em2emgacpail_prot_hs_r	GPIDA2er	-a>
+dem2emgacpail_prot_hs_r	GPIDA2er	-a>
+hdca_r	GPIDAer	-a>
+h_r	GPIDAer	-a>
+gpi_prot_hs_r	GPIDAer	-a>
+dgpi_prot_hs_r	GPIDAer	-a>
+h2o_r	GPIDAer	-a>
+gacpail_hs_r	GPIMTer_U	-a>
+dolp_U_r	GPIMTer_U	-a>
+dolmanp_U_r	GPIMTer_U	-a>
+h_r	GPIMTer_U	-a>
+mgacpail_hs_r	GPIMTer_U	-a>
+emgacpail_hs_r	H2ETer	-a>
+dag_hs_r	H2ETer	-a>
+pe_hs_r	H2ETer	-a>
+mgacpail_hs_r	H2ETer	-a>
+m2gacpail_hs_r	H2MTer_U	-a>
+dolmanp_U_r	H2MTer_U	-a>
+dolp_U_r	H2MTer_U	-a>
+h_r	H2MTer_U	-a>
+mgacpail_hs_r	H2MTer_U	-a>
+m2gacpail_hs_r	H3ETer	-a>
+memgacpail_hs_r	H3ETer	-a>
+dag_hs_r	H3ETer	-a>
+pe_hs_r	H3ETer	-a>
+m2gacpail_hs_r	H3MTer_U	-a>
+dolmanp_U_r	H3MTer_U	-a>
+m3gacpail_hs_r	H3MTer_U	-a>
+h_r	H3MTer_U	-a>
+dolp_U_r	H3MTer_U	-a>
+em3gacpail_hs_r	H4ET3er	-a>
+dag_hs_r	H4ET3er	-a>
+pe_hs_r	H4ET3er	-a>
+m3gacpail_hs_r	H4ET3er	-a>
+dag_hs_r	H4ETer	-a>
+pe_hs_r	H4ETer	-a>
+m2emgacpail_hs_r	H4ETer	-a>
+m3gacpail_hs_r	H4ETer	-a>
+dolp_U_r	H5MTer_U	-a>
+dolmanp_U_r	H5MTer_U	-a>
+memgacpail_hs_r	H5MTer_U	-a>
+h_r	H5MTer_U	-a>
+emgacpail_hs_r	H5MTer_U	-a>
+em3gacpail_hs_r	H6_ET2er	-a>
+dag_hs_r	H6_ET2er	-a>
+emem2gacpail_hs_r	H6_ET2er	-a>
+pe_hs_r	H6_ET2er	-a>
+dag_hs_r	H6ET3er	-a>
+pe_hs_r	H6ET3er	-a>
+m2emgacpail_hs_r	H6ET3er	-a>
+em2emgacpail_hs_r	H6ET3er	-a>
+em3gacpail_hs_r	H6_ETer	-a>
+dag_hs_r	H6_ETer	-a>
+em2emgacpail_hs_r	H6_ETer	-a>
+pe_hs_r	H6_ETer	-a>
+dolp_U_r	H6MTer_U	-a>
+dolmanp_U_r	H6MTer_U	-a>
+m3emgacpail_hs_r	H6MTer_U	-a>
+h_r	H6MTer_U	-a>
+m2emgacpail_hs_r	H6MTer_U	-a>
+gpi_hs_r	H7ET2er	-a>
+dag_hs_r	H7ET2er	-a>
+em2emgacpail_hs_r	H7ET2er	-a>
+pe_hs_r	H7ET2er	-a>
+emem2gacpail_hs_r	H7_ETer	-a>
+gpi_hs_r	H7_ETer	-a>
+dag_hs_r	H7_ETer	-a>
+pe_hs_r	H7_ETer	-a>
+dolp_U_r	H7MTer_U	-a>
+dolmanp_U_r	H7MTer_U	-a>
+mem2emgacpail_hs_r	H7MTer_U	-a>
+h_r	H7MTer_U	-a>
+em2emgacpail_hs_r	H7MTer_U	-a>
+gpi_sig_r	H7_TAer	-a>
+em2emgacpail_prot_hs_r	H7_TAer	-a>
+pre_prot_r	H7_TAer	-a>
+em2emgacpail_hs_r	H7_TAer	-a>
+gpi_hs_r	H8MTer_L	-a>
+dolp_U_r	H8MTer_L	-a>
+dolmanp_U_r	H8MTer_L	-a>
+m_em_3gacpail_r	H8MTer_L	-a>
+h_r	H8MTer_L	-a>
+gpi_hs_r	H8MTer_U	-a>
+dolp_U_r	H8MTer_U	-a>
+dolmanp_U_r	H8MTer_U	-a>
+m_em_3gacpail_hs_r	H8MTer_U	-a>
+h_r	H8MTer_U	-a>
+gpi_sig_r	H8TAer	-a>
+gpi_hs_r	H8TAer	-a>
+pre_prot_r	H8TAer	-a>
+gpi_prot_hs_r	H8TAer	-a>
+gpi_sig_r	M4ATAer	-a>
+m_em_3gacpail_hs_r	M4ATAer	-a>
+pre_prot_r	M4ATAer	-a>
+m_em_3gacpail_prot_hs_r	M4ATAer	-a>
+dag_hs_r	M4BET2er	-a>
+m_em_3gacpail_hs_r	M4BET2er	-a>
+pe_hs_r	M4BET2er	-a>
+mem2emgacpail_hs_r	M4BET2er	-a>
+gpi_sig_r	M4BTAer	-a>
+mem2emgacpail_hs_r	M4BTAer	-a>
+pre_prot_r	M4BTAer	-a>
+mem2emgacpail_prot_hs_r	M4BTAer	-a>
+m3emgacpail_hs_r	M4CET3er	-a>
+dag_hs_r	M4CET3er	-a>
+pe_hs_r	M4CET3er	-a>
+mem2emgacpail_hs_r	M4CET3er	-a>
+acgpail_hs_c	PIACGT	-a>
+udp_c	PIACGT	-a>
+h_c	PIACGT	-a>
+uacgam_c	PIACGT	-a>
+pail_hs_c	PIACGT	-a>
+pail_hs_g	RE1441G	-a>
+atp_g	RE1441G	-a>
+h_g	RE1441G	-a>
+adp_g	RE1441G	-a>
+pail5p_hs_g	RE1441G	-a>
+pail5p_hs_r	RE1441R	-a>
+adp_r	RE1441R	-a>
+atp_r	RE1441R	-a>
+h_r	RE1441R	-a>
+pail_hs_r	RE1441R	-a>
+h2o_m	RE1447M	-a>
+pail5p_hs_m	RE1447M	-a>
+h_m	RE1447M	-a>
+pail45p_hs_m	RE1447M	-a>
+pi_m	RE1447M	-a>
+pail45p_hs_n	RE1447N	-a>
+pail5p_hs_n	RE1447N	-a>
+pi_n	RE1447N	-a>
+h2o_n	RE1447N	-a>
+h_n	RE1447N	-a>
+pi_n	RE1448N	-a>
+pail_hs_n	RE1448N	-a>
+h2o_n	RE1448N	-a>
+pail5p_hs_n	RE1448N	-a>
+pail5p_hs_r	RE1448R	-a>
+h2o_r	RE1448R	-a>
+pi_r	RE1448R	-a>
+pail_hs_r	RE1448R	-a>
+atp_g	RE1957G	-a>
+h_g	RE1957G	-a>
+pail345p_hs_g	RE1957G	-a>
+adp_g	RE1957G	-a>
+pail35p_hs_g	RE1957G	-a>
+pail345p_hs_r	RE1957R	-a>
+adp_r	RE1957R	-a>
+h_r	RE1957R	-a>
+pail35p_hs_r	RE1957R	-a>
+atp_r	RE1957R	-a>
+atp_g	RE2972G	-a>
+pail45p_hs_g	RE2972G	-a>
+h_g	RE2972G	-a>
+adp_g	RE2972G	-a>
+pail5p_hs_g	RE2972G	-a>
+atp_m	RE2972M	-a>
+pail5p_hs_m	RE2972M	-a>
+h_m	RE2972M	-a>
+pail45p_hs_m	RE2972M	-a>
+adp_m	RE2972M	-a>
+pail5p_hs_r	RE2972R	-a>
+adp_r	RE2972R	-a>
+pail45p_hs_r	RE2972R	-a>
+h_r	RE2972R	-a>
+atp_r	RE2972R	-a>
+atp_g	RE2973G	-a>
+h_g	RE2973G	-a>
+adp_g	RE2973G	-a>
+pail35p_hs_g	RE2973G	-a>
+pail5p_hs_g	RE2973G	-a>
+pail5p_hs_n	RE2973N	-a>
+atp_n	RE2973N	-a>
+pail35p_hs_n	RE2973N	-a>
+h_n	RE2973N	-a>
+adp_n	RE2973N	-a>
+pail3p_hs_g	RE2974G	-a>
+atp_g	RE2974G	-a>
+h_g	RE2974G	-a>
+adp_g	RE2974G	-a>
+pail35p_hs_g	RE2974G	-a>
+pail3p_hs_n	RE2974N	-a>
+atp_n	RE2974N	-a>
+h_n	RE2974N	-a>
+pail35p_hs_n	RE2974N	-a>
+adp_n	RE2974N	-a>
+h_r	RE2974R	-a>
+pail3p_hs_r	RE2974R	-a>
+adp_r	RE2974R	-a>
+pail35p_hs_r	RE2974R	-a>
+atp_r	RE2974R	-a>
+pail345p_hs_r	RE3268R	-a>
+pail35p_hs_r	RE3268R	-a>
+pi_r	RE3268R	-a>
+h2o_r	RE3268R	-a>
+pi_c	RE3269C	-a>
+pail5p_hs_c	RE3269C	-a>
+h2o_c	RE3269C	-a>
+pail35p_hs_c	RE3269C	-a>
+pail3p_hs_c	RE3270C	-a>
+pi_c	RE3270C	-a>
+h2o_c	RE3270C	-a>
+pail_hs_c	RE3270C	-a>
+pi_n	RE3272N	-a>
+pail4p_hs_n	RE3272N	-a>
+pail_hs_n	RE3272N	-a>
+h2o_n	RE3272N	-a>
+h2o_c	RE3273C	-a>
+pa_hs_c	RE3273C	-a>
+pail_hs_c	RE3273C	-a>
+inost_c	RE3273C	-a>
+h_c	RE3273C	-a>
+pail_hs_g	RE3273G	-a>
+h2o_g	RE3273G	-a>
+pa_hs_g	RE3273G	-a>
+h_g	RE3273G	-a>
+inost_g	RE3273G	-a>
+inost_r	RE3273R	-a>
+h_r	RE3273R	-a>
+h2o_r	RE3273R	-a>
+pa_hs_r	RE3273R	-a>
+pail_hs_r	RE3273R	-a>

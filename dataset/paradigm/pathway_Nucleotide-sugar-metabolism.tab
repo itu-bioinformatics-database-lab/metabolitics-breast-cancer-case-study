@@ -1,0 +1,39 @@
+protein	co2_g
+protein	dtdp4d6dg_c
+protein	dtdp4d6dm_c
+protein	dtdpglu_c
+protein	dtdprmn_c
+protein	dttp_c
+protein	g1p_c
+protein	h2o_c
+protein	h_c
+protein	h_g
+protein	nadp_c
+protein	nadph_c
+protein	ppi_c
+protein	udpglcur_g
+protein	udpxyl_g
+abstract	G1PTT
+abstract	TDPDRE
+abstract	TDPDRR
+abstract	TDPGDH
+abstract	UDPGLDCg
+dttp_c	G1PTT	-a>
+ppi_c	G1PTT	-a>
+dtdpglu_c	G1PTT	-a>
+h_c	G1PTT	-a>
+g1p_c	G1PTT	-a>
+dtdp4d6dm_c	TDPDRE	-a>
+dtdp4d6dg_c	TDPDRE	-a>
+dtdprmn_c	TDPDRR	-a>
+nadp_c	TDPDRR	-a>
+dtdp4d6dm_c	TDPDRR	-a>
+nadph_c	TDPDRR	-a>
+h_c	TDPDRR	-a>
+h2o_c	TDPGDH	-a>
+dtdpglu_c	TDPGDH	-a>
+dtdp4d6dg_c	TDPGDH	-a>
+udpglcur_g	UDPGLDCg	-a>
+udpxyl_g	UDPGLDCg	-a>
+h_g	UDPGLDCg	-a>
+co2_g	UDPGLDCg	-a>

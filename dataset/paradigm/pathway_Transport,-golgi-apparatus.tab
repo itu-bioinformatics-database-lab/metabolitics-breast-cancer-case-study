@@ -1,0 +1,419 @@
+protein	Ser_Thr_g
+protein	Ser_Thr_l
+protein	ac_c
+protein	ac_g
+protein	acgagbside_hs_c
+protein	acgagbside_hs_g
+protein	acgal_c
+protein	acgal_g
+protein	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c
+protein	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_g
+protein	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c
+protein	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_g
+protein	acgbgbside_hs_c
+protein	acgbgbside_hs_g
+protein	acn13acngalgbside_hs_c
+protein	acn13acngalgbside_hs_g
+protein	acn23acngalgbside_hs_c
+protein	acn23acngalgbside_hs_g
+protein	acnacngal14acglcgalgluside_hs_c
+protein	acnacngal14acglcgalgluside_hs_g
+protein	acnacngalgbside_hs_c
+protein	acnacngalgbside_hs_g
+protein	acngalacglcgal14acglcgalgluside_hs_c
+protein	acngalacglcgal14acglcgalgluside_hs_g
+protein	adp_c
+protein	atp_c
+protein	chol_c
+protein	chol_g
+protein	cholp_c
+protein	cholp_g
+protein	chsterol_c
+protein	chsterol_g
+protein	cmp_c
+protein	cmp_g
+protein	cmpacna_c
+protein	cmpacna_g
+protein	co2_c
+protein	co2_g
+protein	coa_c
+protein	coa_g
+protein	crm_hs_c
+protein	crm_hs_g
+protein	digalsgalside_hs_c
+protein	digalsgalside_hs_g
+protein	digalside_hs_c
+protein	digalside_hs_g
+protein	f1a_g
+protein	f1a_l
+protein	fuc13galacglcgal14acglcgalgluside_hs_c
+protein	fuc13galacglcgal14acglcgalgluside_hs_g
+protein	fuc14galacglcgalgluside_hs_c
+protein	fuc14galacglcgalgluside_hs_g
+protein	fucacgalfucgalacglcgalgluside_hs_c
+protein	fucacgalfucgalacglcgalgluside_hs_g
+protein	fucacngal14acglcgalgluside_hs_c
+protein	fucacngal14acglcgalgluside_hs_g
+protein	fucacngalacglcgalgluside_hs_c
+protein	fucacngalacglcgalgluside_hs_g
+protein	fucfuc12gal14acglcgalgluside_hs_c
+protein	fucfuc12gal14acglcgalgluside_hs_g
+protein	fucfuc132galacglcgal14acglcgalgluside_hs_c
+protein	fucfuc132galacglcgal14acglcgalgluside_hs_g
+protein	fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_c
+protein	fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_g
+protein	fucfucfucgalacglcgal14acglcgalgluside_hs_c
+protein	fucfucfucgalacglcgal14acglcgalgluside_hs_g
+protein	fucfucgalacglcgalgluside_hs_c
+protein	fucfucgalacglcgalgluside_hs_g
+protein	fucgal14acglcgalgluside_hs_c
+protein	fucgal14acglcgalgluside_hs_g
+protein	fucgalfucgalacglcgalgluside_hs_c
+protein	fucgalfucgalacglcgalgluside_hs_g
+protein	fucgalgbside_hs_c
+protein	fucgalgbside_hs_g
+protein	galacglcgalgbside_hs_c
+protein	galacglcgalgbside_hs_g
+protein	galfuc12gal14acglcgalgluside_hs_c
+protein	galfuc12gal14acglcgalgluside_hs_g
+protein	galfucgalacglcgal14acglcgalgluside_hs_c
+protein	galfucgalacglcgal14acglcgalgluside_hs_g
+protein	galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_c
+protein	galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_g
+protein	galgalgalthcrm_hs_c
+protein	galgalgalthcrm_hs_g
+protein	galgluside_hs_c
+protein	galgluside_hs_g
+protein	galside_hs_c
+protein	galside_hs_g
+protein	gd1b2_hs_c
+protein	gd1b2_hs_g
+protein	gd1c_hs_c
+protein	gd1c_hs_g
+protein	gdp_c
+protein	gdp_g
+protein	gdpfuc_c
+protein	gdpfuc_g
+protein	glc_D_c
+protein	glc_D_g
+protein	gluside_hs_c
+protein	gluside_hs_g
+protein	gmp_c
+protein	gmp_g
+protein	gp1c_hs_c
+protein	gp1c_hs_g
+protein	gp1calpha_hs_c
+protein	gp1calpha_hs_g
+protein	gq1b_hs_c
+protein	gq1b_hs_g
+protein	gq1balpha_hs_c
+protein	gq1balpha_hs_g
+protein	gt1a_hs_c
+protein	gt1a_hs_g
+protein	h2o_c
+protein	h2o_g
+protein	h_c
+protein	h_g
+protein	k_c
+protein	k_g
+protein	man_c
+protein	man_g
+protein	na1_c
+protein	na1_g
+protein	oagd3_hs_c
+protein	oagd3_hs_g
+protein	oagt3_hs_c
+protein	oagt3_hs_g
+protein	pa_hs_c
+protein	pa_hs_g
+protein	pap_c
+protein	pap_g
+protein	paps_c
+protein	paps_g
+protein	pchol_hs_c
+protein	pchol_hs_g
+protein	pe_hs_c
+protein	pe_hs_g
+protein	pi_c
+protein	pi_g
+protein	ps_hs_c
+protein	ps_hs_g
+protein	sgalside_hs_c
+protein	sgalside_hs_g
+protein	sphmyln_hs_c
+protein	sphmyln_hs_g
+protein	uacgam_c
+protein	uacgam_g
+protein	udpacgal_c
+protein	udpacgal_g
+protein	udpg_c
+protein	udpg_g
+protein	udpgal_c
+protein	udpgal_g
+protein	udpglcur_c
+protein	udpglcur_g
+protein	udpxyl_c
+protein	udpxyl_g
+protein	ump_c
+protein	ump_g
+protein	xser_g
+protein	xser_r
+abstract	ACGAGBSIDEtg
+abstract	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEtg
+abstract	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	ACGALtlg
+abstract	ACGBGBSIDEtg
+abstract	ACN13ACNGALGBSIDEtg
+abstract	ACN23ACNGALGBSIDEtg
+abstract	ACNACNGAL14ACGLCGALGLUSIDEtg
+abstract	ACNACNGALGBSIDEtg
+abstract	ACNGALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	ACtg
+abstract	CERT1gt
+abstract	CERT2gt
+abstract	CHOLPtg
+abstract	CHOLtg
+abstract	CHSTEROLtg
+abstract	CMPACNAtg
+abstract	CO2tg
+abstract	COAtg
+abstract	DIGALSGALSIDEtg
+abstract	DIGALSIDEtg
+abstract	F1Atg
+abstract	FUC13GALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	FUC14GALACGLCGALGLUSIDEtg
+abstract	FUCACGALFUCGALACGLCGALGLUSIDEtg
+abstract	FUCACNGAL14ACGLCGALGLUSIDEtg
+abstract	FUCACNGALACGLCGALGLUSIDEtg
+abstract	FUCFUC12GAL14ACGLCGALGLUSIDEtg
+abstract	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	FUCFUCGALACGLCGALGLUSIDEtg
+abstract	FUCGAL14ACGLCGALGLUSIDEtg
+abstract	FUCGALFUCGALACGLCGALGLUSIDEtg
+abstract	FUCGALGBSIDEtg
+abstract	GALACGLCGALGBSIDEtg
+abstract	GALFUC12GAL14ACGLCGALGLUSIDEtg
+abstract	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEtg
+abstract	GALGALGALTHCRMtg
+abstract	GALGLUSIDEtg
+abstract	GALSIDEtg
+abstract	GD1B2tg
+abstract	GD1Ctg
+abstract	GDPFUCtg
+abstract	GDPtg
+abstract	GLCtg
+abstract	GMPtg
+abstract	GP1CALPHAtg
+abstract	GP1Ctg
+abstract	GQ1BALPHAtg
+abstract	GQ1Btg
+abstract	GT1Atg
+abstract	H2Otg
+abstract	Htg
+abstract	Kt3g
+abstract	MANtg
+abstract	NAt3_1g
+abstract	OAGD3tg
+abstract	OAGT3tg
+abstract	PA_HStg
+abstract	PAPStg
+abstract	PAPtg
+abstract	PCHOL_HStg
+abstract	PE_HStg
+abstract	PItg
+abstract	PS_HStg
+abstract	Ser_Thrtg
+abstract	SGALSIDEtg
+abstract	SPHMYLNtg
+abstract	UDPGALt2g
+abstract	UDPGALtg
+abstract	UDPGLCAtg
+abstract	UDPGLCtg
+abstract	UDPXYLtg
+abstract	UGALNACtg
+abstract	UGLCNACtg
+abstract	XSERtg
+acgagbside_hs_c	ACGAGBSIDEtg	-a>
+acgagbside_hs_g	ACGAGBSIDEtg	-a>
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_g	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_g	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+acgal_g	ACGALtlg	-a>
+acgal_c	ACGALtlg	-a>
+acgbgbside_hs_c	ACGBGBSIDEtg	-a>
+acgbgbside_hs_g	ACGBGBSIDEtg	-a>
+acn13acngalgbside_hs_g	ACN13ACNGALGBSIDEtg	-a>
+acn13acngalgbside_hs_c	ACN13ACNGALGBSIDEtg	-a>
+acn23acngalgbside_hs_c	ACN23ACNGALGBSIDEtg	-a>
+acn23acngalgbside_hs_g	ACN23ACNGALGBSIDEtg	-a>
+acnacngal14acglcgalgluside_hs_g	ACNACNGAL14ACGLCGALGLUSIDEtg	-a>
+acnacngal14acglcgalgluside_hs_c	ACNACNGAL14ACGLCGALGLUSIDEtg	-a>
+acnacngalgbside_hs_g	ACNACNGALGBSIDEtg	-a>
+acnacngalgbside_hs_c	ACNACNGALGBSIDEtg	-a>
+acngalacglcgal14acglcgalgluside_hs_g	ACNGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+acngalacglcgal14acglcgalgluside_hs_c	ACNGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+ac_c	ACtg	-a>
+ac_g	ACtg	-a>
+crm_hs_g	CERT1gt	-a>
+crm_hs_c	CERT1gt	-a>
+gluside_hs_c	CERT2gt	-a>
+gluside_hs_g	CERT2gt	-a>
+cholp_g	CHOLPtg	-a>
+cholp_c	CHOLPtg	-a>
+chol_g	CHOLtg	-a>
+chol_c	CHOLtg	-a>
+h2o_c	CHSTEROLtg	-a>
+h_c	CHSTEROLtg	-a>
+pi_c	CHSTEROLtg	-a>
+chsterol_g	CHSTEROLtg	-a>
+atp_c	CHSTEROLtg	-a>
+chsterol_c	CHSTEROLtg	-a>
+adp_c	CHSTEROLtg	-a>
+cmpacna_g	CMPACNAtg	-a>
+cmp_g	CMPACNAtg	-a>
+cmp_c	CMPACNAtg	-a>
+cmpacna_c	CMPACNAtg	-a>
+co2_g	CO2tg	-a>
+co2_c	CO2tg	-a>
+coa_g	COAtg	-a>
+coa_c	COAtg	-a>
+digalsgalside_hs_g	DIGALSGALSIDEtg	-a>
+digalsgalside_hs_c	DIGALSGALSIDEtg	-a>
+digalside_hs_g	DIGALSIDEtg	-a>
+digalside_hs_c	DIGALSIDEtg	-a>
+f1a_g	F1Atg	-a>
+f1a_l	F1Atg	-a>
+fuc13galacglcgal14acglcgalgluside_hs_g	FUC13GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fuc13galacglcgal14acglcgalgluside_hs_c	FUC13GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fuc14galacglcgalgluside_hs_g	FUC14GALACGLCGALGLUSIDEtg	-a>
+fuc14galacglcgalgluside_hs_c	FUC14GALACGLCGALGLUSIDEtg	-a>
+fucacgalfucgalacglcgalgluside_hs_g	FUCACGALFUCGALACGLCGALGLUSIDEtg	-a>
+fucacgalfucgalacglcgalgluside_hs_c	FUCACGALFUCGALACGLCGALGLUSIDEtg	-a>
+fucacngal14acglcgalgluside_hs_g	FUCACNGAL14ACGLCGALGLUSIDEtg	-a>
+fucacngal14acglcgalgluside_hs_c	FUCACNGAL14ACGLCGALGLUSIDEtg	-a>
+fucacngalacglcgalgluside_hs_g	FUCACNGALACGLCGALGLUSIDEtg	-a>
+fucacngalacglcgalgluside_hs_c	FUCACNGALACGLCGALGLUSIDEtg	-a>
+fucfuc12gal14acglcgalgluside_hs_g	FUCFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+fucfuc12gal14acglcgalgluside_hs_c	FUCFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+fucfuc132galacglcgal14acglcgalgluside_hs_g	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfuc132galacglcgal14acglcgalgluside_hs_c	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_c	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_g	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfucfucgalacglcgal14acglcgalgluside_hs_g	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfucfucgalacglcgal14acglcgalgluside_hs_c	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+fucfucgalacglcgalgluside_hs_c	FUCFUCGALACGLCGALGLUSIDEtg	-a>
+fucfucgalacglcgalgluside_hs_g	FUCFUCGALACGLCGALGLUSIDEtg	-a>
+fucgal14acglcgalgluside_hs_g	FUCGAL14ACGLCGALGLUSIDEtg	-a>
+fucgal14acglcgalgluside_hs_c	FUCGAL14ACGLCGALGLUSIDEtg	-a>
+fucgalfucgalacglcgalgluside_hs_g	FUCGALFUCGALACGLCGALGLUSIDEtg	-a>
+fucgalfucgalacglcgalgluside_hs_c	FUCGALFUCGALACGLCGALGLUSIDEtg	-a>
+fucgalgbside_hs_g	FUCGALGBSIDEtg	-a>
+fucgalgbside_hs_c	FUCGALGBSIDEtg	-a>
+galacglcgalgbside_hs_g	GALACGLCGALGBSIDEtg	-a>
+galacglcgalgbside_hs_c	GALACGLCGALGBSIDEtg	-a>
+galfuc12gal14acglcgalgluside_hs_g	GALFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+galfuc12gal14acglcgalgluside_hs_c	GALFUC12GAL14ACGLCGALGLUSIDEtg	-a>
+galfucgalacglcgal14acglcgalgluside_hs_g	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+galfucgalacglcgal14acglcgalgluside_hs_c	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_g	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_c	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEtg	-a>
+galgalgalthcrm_hs_c	GALGALGALTHCRMtg	-a>
+galgalgalthcrm_hs_g	GALGALGALTHCRMtg	-a>
+galgluside_hs_c	GALGLUSIDEtg	-a>
+galgluside_hs_g	GALGLUSIDEtg	-a>
+galside_hs_g	GALSIDEtg	-a>
+galside_hs_c	GALSIDEtg	-a>
+gd1b2_hs_g	GD1B2tg	-a>
+gd1b2_hs_c	GD1B2tg	-a>
+gd1c_hs_g	GD1Ctg	-a>
+gd1c_hs_c	GD1Ctg	-a>
+gdpfuc_g	GDPFUCtg	-a>
+gmp_g	GDPFUCtg	-a>
+gdpfuc_c	GDPFUCtg	-a>
+gmp_c	GDPFUCtg	-a>
+gdp_c	GDPtg	-a>
+gdp_g	GDPtg	-a>
+glc_D_g	GLCtg	-a>
+glc_D_c	GLCtg	-a>
+gmp_g	GMPtg	-a>
+gmp_c	GMPtg	-a>
+gp1calpha_hs_g	GP1CALPHAtg	-a>
+gp1calpha_hs_c	GP1CALPHAtg	-a>
+gp1c_hs_g	GP1Ctg	-a>
+gp1c_hs_c	GP1Ctg	-a>
+gq1balpha_hs_g	GQ1BALPHAtg	-a>
+gq1balpha_hs_c	GQ1BALPHAtg	-a>
+gq1b_hs_g	GQ1Btg	-a>
+gq1b_hs_c	GQ1Btg	-a>
+gt1a_hs_g	GT1Atg	-a>
+gt1a_hs_c	GT1Atg	-a>
+h2o_g	H2Otg	-a>
+h2o_c	H2Otg	-a>
+h_g	Htg	-a>
+h_c	Htg	-a>
+k_g	Kt3g	-a>
+k_c	Kt3g	-a>
+h_g	Kt3g	-a>
+h_c	Kt3g	-a>
+man_g	MANtg	-a>
+man_c	MANtg	-a>
+na1_c	NAt3_1g	-a>
+h_g	NAt3_1g	-a>
+h_c	NAt3_1g	-a>
+na1_g	NAt3_1g	-a>
+oagd3_hs_g	OAGD3tg	-a>
+oagd3_hs_c	OAGD3tg	-a>
+oagt3_hs_g	OAGT3tg	-a>
+oagt3_hs_c	OAGT3tg	-a>
+pa_hs_g	PA_HStg	-a>
+pa_hs_c	PA_HStg	-a>
+paps_c	PAPStg	-a>
+paps_g	PAPStg	-a>
+pap_c	PAPtg	-a>
+pap_g	PAPtg	-a>
+pchol_hs_g	PCHOL_HStg	-a>
+pchol_hs_c	PCHOL_HStg	-a>
+pe_hs_c	PE_HStg	-a>
+pe_hs_g	PE_HStg	-a>
+pi_g	PItg	-a>
+pi_c	PItg	-a>
+ps_hs_g	PS_HStg	-a>
+ps_hs_c	PS_HStg	-a>
+Ser_Thr_l	Ser_Thrtg	-a>
+Ser_Thr_g	Ser_Thrtg	-a>
+sgalside_hs_c	SGALSIDEtg	-a>
+sgalside_hs_g	SGALSIDEtg	-a>
+sphmyln_hs_g	SPHMYLNtg	-a>
+sphmyln_hs_c	SPHMYLNtg	-a>
+udpgal_g	UDPGALt2g	-a>
+udpgal_c	UDPGALt2g	-a>
+ump_g	UDPGALtg	-a>
+ump_c	UDPGALtg	-a>
+udpgal_g	UDPGALtg	-a>
+udpgal_c	UDPGALtg	-a>
+udpglcur_g	UDPGLCAtg	-a>
+ump_c	UDPGLCAtg	-a>
+udpglcur_c	UDPGLCAtg	-a>
+ump_g	UDPGLCAtg	-a>
+ump_g	UDPGLCtg	-a>
+ump_c	UDPGLCtg	-a>
+udpg_g	UDPGLCtg	-a>
+udpg_c	UDPGLCtg	-a>
+udpxyl_c	UDPXYLtg	-a>
+ump_g	UDPXYLtg	-a>
+ump_c	UDPXYLtg	-a>
+udpxyl_g	UDPXYLtg	-a>
+udpacgal_c	UGALNACtg	-a>
+ump_g	UGALNACtg	-a>
+ump_c	UGALNACtg	-a>
+udpacgal_g	UGALNACtg	-a>
+uacgam_g	UGLCNACtg	-a>
+ump_g	UGLCNACtg	-a>
+ump_c	UGLCNACtg	-a>
+uacgam_c	UGLCNACtg	-a>
+xser_g	XSERtg	-a>
+xser_r	XSERtg	-a>

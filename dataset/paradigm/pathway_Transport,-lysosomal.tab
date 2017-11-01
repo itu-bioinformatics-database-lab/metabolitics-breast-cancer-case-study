@@ -1,0 +1,548 @@
+protein	10fthf5glu_c
+protein	10fthf5glu_l
+protein	10fthf6glu_c
+protein	10fthf6glu_l
+protein	10fthf7glu_c
+protein	10fthf7glu_l
+protein	10fthf_c
+protein	10fthf_l
+protein	4abut_c
+protein	4abut_l
+protein	5dhf_c
+protein	5dhf_l
+protein	5thf_c
+protein	5thf_l
+protein	6dhf_c
+protein	6dhf_l
+protein	6thf_c
+protein	6thf_l
+protein	7dhf_c
+protein	7dhf_l
+protein	7thf_c
+protein	7thf_l
+protein	dlnlcg_r
+protein	dlnlcg_l
+protein	Rtotal_c
+protein	Rtotal_l
+protein	acgagbside_hs_c
+protein	acgagbside_hs_l
+protein	acgal_c
+protein	acgal_l
+protein	acgam_c
+protein	acgam_l
+protein	acgbgbside_hs_c
+protein	acgbgbside_hs_l
+protein	acnam_c
+protein	acnam_l
+protein	ade_c
+protein	ade_l
+protein	adn_c
+protein	adn_l
+protein	adp_c
+protein	ala_D_c
+protein	ala_D_l
+protein	ala_L_c
+protein	ala_L_l
+protein	arachd_c
+protein	arachd_l
+protein	arg_L_c
+protein	arg_L_l
+protein	asn_L_c
+protein	asn_L_l
+protein	asp_L_c
+protein	asp_L_l
+protein	atp_c
+protein	carn_c
+protein	carn_l
+protein	cholp_c
+protein	cholp_l
+protein	chsterol_c
+protein	chsterol_l
+protein	coa_c
+protein	coa_l
+protein	cspg_a_e
+protein	cspg_a_l
+protein	cspg_b_e
+protein	cspg_b_l
+protein	cspg_c_e
+protein	cspg_c_l
+protein	cspg_d_e
+protein	cspg_d_l
+protein	cspg_e_e
+protein	cspg_e_l
+protein	cys_L_c
+protein	cys_L_l
+protein	cytd_c
+protein	cytd_l
+protein	dhf_c
+protein	dhf_l
+protein	digalside_hs_c
+protein	digalside_hs_l
+protein	dlnlcg_c
+protein	dpcoa_c
+protein	dpcoa_l
+protein	fald_c
+protein	fald_l
+protein	fuc_L_c
+protein	fuc_L_l
+protein	gal_c
+protein	gal_l
+protein	galgluside_hs_c
+protein	galgluside_hs_l
+protein	galside_hs_c
+protein	galside_hs_l
+protein	gbside_hs_c
+protein	gbside_hs_l
+protein	glc_D_c
+protein	glc_D_l
+protein	glcur_c
+protein	glcur_l
+protein	gln_L_c
+protein	gln_L_l
+protein	glu_L_c
+protein	glu_L_l
+protein	gly_c
+protein	gly_l
+protein	gsn_c
+protein	gsn_l
+protein	h2o2_c
+protein	h2o2_l
+protein	h2o_c
+protein	h2o_l
+protein	h_c
+protein	h_l
+protein	ha_e
+protein	ha_l
+protein	hdcea_c
+protein	hdcea_l
+protein	his_L_c
+protein	his_L_l
+protein	hspg_e
+protein	hspg_l
+protein	hxan_c
+protein	hxan_l
+protein	idour_c
+protein	idour_l
+protein	ile_L_c
+protein	ile_L_l
+protein	ins_c
+protein	ins_l
+protein	ksi_e
+protein	ksi_l
+protein	ksii_core2_e
+protein	ksii_core2_l
+protein	ksii_core4_e
+protein	ksii_core4_l
+protein	lcts_c
+protein	lcts_l
+protein	leu_L_c
+protein	leu_L_l
+protein	lnlc_c
+protein	lnlc_l
+protein	lnlc_r
+protein	lnlnca_c
+protein	lnlnca_l
+protein	lnlnca_r
+protein	lnlncg_c
+protein	lnlncg_l
+protein	lnlncg_r
+protein	lys_L_c
+protein	lys_L_l
+protein	man_c
+protein	man_l
+protein	meoh_c
+protein	meoh_l
+protein	met_L_c
+protein	met_L_l
+protein	n2m2nmasn_e
+protein	n2m2nmasn_l
+protein	ocdcea_c
+protein	ocdcea_l
+protein	ocdcea_r
+protein	phe_L_c
+protein	phe_L_l
+protein	pi_c
+protein	pi_l
+protein	hdca_c
+protein	hdca_l
+protein	pro_D_c
+protein	pro_D_l
+protein	pro_L_c
+protein	pro_L_l
+protein	s2l2fn2m2masn_e
+protein	s2l2fn2m2masn_l
+protein	s2l2n2m2masn_e
+protein	s2l2n2m2masn_l
+protein	ser_L_c
+protein	ser_L_l
+protein	sgalside_hs_c
+protein	sgalside_hs_l
+protein	so4_c
+protein	so4_l
+protein	sphings_c
+protein	sphings_l
+protein	sphmyln_hs_c
+protein	sphmyln_hs_l
+protein	ocdca_c
+protein	thf_c
+protein	thf_l
+protein	thr_L_c
+protein	thr_L_l
+protein	thymd_c
+protein	thymd_l
+protein	trp_L_c
+protein	trp_L_l
+protein	tyr_L_c
+protein	tyr_L_l
+protein	udp_c
+protein	udp_l
+protein	udpacgal_c
+protein	udpacgal_l
+protein	uri_c
+protein	uri_l
+protein	val_L_c
+protein	val_L_l
+protein	xyl_D_c
+protein	xyl_D_l
+protein	ocdca_l
+abstract	10FTHF5GLUtl
+abstract	10FTHF6GLUtl
+abstract	10FTHF7GLUtl
+abstract	10FTHFtl
+abstract	5DHFtl
+abstract	5THFtl
+abstract	6DHFtl
+abstract	6THFtl
+abstract	7DHFtl
+abstract	7THFtl
+abstract	ABUTt2rL
+abstract	ACGAGBSIDEtl
+abstract	ACGALtly
+abstract	ACGAMtly
+abstract	ACGBGBSIDEtl
+abstract	ACNAMlt
+abstract	ADEtl
+abstract	ADNtl
+abstract	ALAt2rL
+abstract	ATPasel
+abstract	CHOLPtl
+abstract	COAtl
+abstract	CSPG_Atly
+abstract	CSPG_Btly
+abstract	CSPG_Ctly
+abstract	CSPG_Dtly
+abstract	CSPG_Etly
+abstract	CYTDtl
+abstract	DALAt2rL
+abstract	DHFtl
+abstract	DIGALSIDEtl
+abstract	DPCOAtl
+abstract	FALDtly
+abstract	FUCtly
+abstract	GALGLUSIDEtl
+abstract	GALSIDEtl
+abstract	GALtly
+abstract	GBSIDEtl
+abstract	GLCtly
+abstract	GLCURtly
+abstract	GLUt7l
+abstract	GLYt2rL
+abstract	GSNtl
+abstract	H2O2tly
+abstract	H2Otly
+abstract	HAtly
+abstract	HSPGtly
+abstract	HXANtl
+abstract	IDOURtly
+abstract	INStl
+abstract	KSII_CORE2tly
+abstract	KSII_CORE4tly
+abstract	KSItly
+abstract	LCTStl
+abstract	MANtly
+abstract	MEOHtly
+abstract	N2M2NMASNtly
+abstract	PRODt2rL
+abstract	PROt2rL
+abstract	Rtotaltl
+abstract	S2L2FN2M2MASNtly
+abstract	S2L2N2M2MASNtly
+abstract	SGALSIDEtl
+abstract	SO4tl
+abstract	SPHINGStl
+abstract	SPHMYLNtl
+abstract	THFtl
+abstract	THYMDtl
+abstract	UDPACGALtl
+abstract	UDPtl
+abstract	Uritl
+abstract	XYLtly
+abstract	r0825
+abstract	r0925
+abstract	r0932
+abstract	r0937
+abstract	r0984
+abstract	r0986
+abstract	r0987
+abstract	r1052
+abstract	r1059
+abstract	r1061
+abstract	r1062
+abstract	r1063
+abstract	r1064
+abstract	r1067
+abstract	r1068
+abstract	r1071
+abstract	r1073
+abstract	r1074
+abstract	r1076
+abstract	r1077
+abstract	r1080
+abstract	r1140
+abstract	r1150
+abstract	r1298
+abstract	r1299
+abstract	r1301
+abstract	r1302
+abstract	r1304
+abstract	r1364
+abstract	r1365
+abstract	r1367
+abstract	r1368
+abstract	CARhPTtc
+abstract	HIShPTtc
+10fthf5glu_l	10FTHF5GLUtl	-a>
+10fthf5glu_c	10FTHF5GLUtl	-a>
+10fthf6glu_c	10FTHF6GLUtl	-a>
+10fthf6glu_l	10FTHF6GLUtl	-a>
+10fthf7glu_l	10FTHF7GLUtl	-a>
+10fthf7glu_c	10FTHF7GLUtl	-a>
+10fthf_c	10FTHFtl	-a>
+10fthf_l	10FTHFtl	-a>
+5dhf_l	5DHFtl	-a>
+5dhf_c	5DHFtl	-a>
+5thf_l	5THFtl	-a>
+5thf_c	5THFtl	-a>
+6dhf_l	6DHFtl	-a>
+6dhf_c	6DHFtl	-a>
+6thf_l	6THFtl	-a>
+6thf_c	6THFtl	-a>
+7dhf_l	7DHFtl	-a>
+7dhf_c	7DHFtl	-a>
+7thf_l	7THFtl	-a>
+7thf_c	7THFtl	-a>
+h_l	ABUTt2rL	-a>
+h_c	ABUTt2rL	-a>
+4abut_l	ABUTt2rL	-a>
+4abut_c	ABUTt2rL	-a>
+acgagbside_hs_l	ACGAGBSIDEtl	-a>
+acgagbside_hs_c	ACGAGBSIDEtl	-a>
+acgal_l	ACGALtly	-a>
+acgal_c	ACGALtly	-a>
+acgam_c	ACGAMtly	-a>
+acgam_l	ACGAMtly	-a>
+acgbgbside_hs_l	ACGBGBSIDEtl	-a>
+acgbgbside_hs_c	ACGBGBSIDEtl	-a>
+acnam_l	ACNAMlt	-a>
+acnam_c	ACNAMlt	-a>
+h_c	ACNAMlt	-a>
+h_l	ACNAMlt	-a>
+ade_l	ADEtl	-a>
+ade_c	ADEtl	-a>
+adn_l	ADNtl	-a>
+adn_c	ADNtl	-a>
+ala_L_l	ALAt2rL	-a>
+ala_L_c	ALAt2rL	-a>
+h_c	ALAt2rL	-a>
+h_l	ALAt2rL	-a>
+pi_c	ATPasel	-a>
+atp_c	ATPasel	-a>
+adp_c	ATPasel	-a>
+h2o_c	ATPasel	-a>
+h_l	ATPasel	-a>
+cholp_l	CHOLPtl	-a>
+cholp_c	CHOLPtl	-a>
+coa_c	COAtl	-a>
+coa_l	COAtl	-a>
+cspg_a_l	CSPG_Atly	-a>
+cspg_a_e	CSPG_Atly	-a>
+cspg_b_l	CSPG_Btly	-a>
+cspg_b_e	CSPG_Btly	-a>
+cspg_c_l	CSPG_Ctly	-a>
+cspg_c_e	CSPG_Ctly	-a>
+cspg_d_l	CSPG_Dtly	-a>
+cspg_d_e	CSPG_Dtly	-a>
+cspg_e_l	CSPG_Etly	-a>
+cspg_e_e	CSPG_Etly	-a>
+cytd_l	CYTDtl	-a>
+cytd_c	CYTDtl	-a>
+ala_D_l	DALAt2rL	-a>
+h_c	DALAt2rL	-a>
+ala_D_c	DALAt2rL	-a>
+h_l	DALAt2rL	-a>
+dhf_l	DHFtl	-a>
+dhf_c	DHFtl	-a>
+digalside_hs_l	DIGALSIDEtl	-a>
+digalside_hs_c	DIGALSIDEtl	-a>
+dpcoa_l	DPCOAtl	-a>
+dpcoa_c	DPCOAtl	-a>
+fald_l	FALDtly	-a>
+fald_c	FALDtly	-a>
+fuc_L_l	FUCtly	-a>
+fuc_L_c	FUCtly	-a>
+galgluside_hs_l	GALGLUSIDEtl	-a>
+galgluside_hs_c	GALGLUSIDEtl	-a>
+galside_hs_c	GALSIDEtl	-a>
+galside_hs_l	GALSIDEtl	-a>
+gal_l	GALtly	-a>
+gal_c	GALtly	-a>
+gbside_hs_l	GBSIDEtl	-a>
+gbside_hs_c	GBSIDEtl	-a>
+glc_D_c	GLCtly	-a>
+glc_D_l	GLCtly	-a>
+glcur_l	GLCURtly	-a>
+glcur_c	GLCURtly	-a>
+h_c	GLCURtly	-a>
+h_l	GLCURtly	-a>
+glu_L_c	GLUt7l	-a>
+glu_L_l	GLUt7l	-a>
+gly_l	GLYt2rL	-a>
+gly_c	GLYt2rL	-a>
+h_c	GLYt2rL	-a>
+h_l	GLYt2rL	-a>
+gsn_c	GSNtl	-a>
+gsn_l	GSNtl	-a>
+h2o2_l	H2O2tly	-a>
+h2o2_c	H2O2tly	-a>
+h2o_c	H2Otly	-a>
+h2o_l	H2Otly	-a>
+ha_l	HAtly	-a>
+ha_e	HAtly	-a>
+hspg_l	HSPGtly	-a>
+hspg_e	HSPGtly	-a>
+hxan_l	HXANtl	-a>
+hxan_c	HXANtl	-a>
+idour_l	IDOURtly	-a>
+idour_c	IDOURtly	-a>
+h_c	IDOURtly	-a>
+h_l	IDOURtly	-a>
+ins_l	INStl	-a>
+ins_c	INStl	-a>
+ksii_core2_l	KSII_CORE2tly	-a>
+ksii_core2_e	KSII_CORE2tly	-a>
+ksii_core4_l	KSII_CORE4tly	-a>
+ksii_core4_e	KSII_CORE4tly	-a>
+ksi_l	KSItly	-a>
+ksi_e	KSItly	-a>
+lcts_l	LCTStl	-a>
+lcts_c	LCTStl	-a>
+man_c	MANtly	-a>
+man_l	MANtly	-a>
+meoh_l	MEOHtly	-a>
+meoh_c	MEOHtly	-a>
+n2m2nmasn_l	N2M2NMASNtly	-a>
+n2m2nmasn_e	N2M2NMASNtly	-a>
+pro_D_c	PRODt2rL	-a>
+pro_D_l	PRODt2rL	-a>
+h_c	PRODt2rL	-a>
+h_l	PRODt2rL	-a>
+h_c	PROt2rL	-a>
+pro_L_l	PROt2rL	-a>
+pro_L_c	PROt2rL	-a>
+h_l	PROt2rL	-a>
+Rtotal_l	Rtotaltl	-a>
+Rtotal_c	Rtotaltl	-a>
+s2l2fn2m2masn_l	S2L2FN2M2MASNtly	-a>
+s2l2fn2m2masn_e	S2L2FN2M2MASNtly	-a>
+s2l2n2m2masn_l	S2L2N2M2MASNtly	-a>
+s2l2n2m2masn_e	S2L2N2M2MASNtly	-a>
+sgalside_hs_l	SGALSIDEtl	-a>
+sgalside_hs_c	SGALSIDEtl	-a>
+so4_c	SO4tl	-a>
+so4_l	SO4tl	-a>
+sphings_c	SPHINGStl	-a>
+sphings_l	SPHINGStl	-a>
+sphmyln_hs_l	SPHMYLNtl	-a>
+sphmyln_hs_c	SPHMYLNtl	-a>
+thf_l	THFtl	-a>
+thf_c	THFtl	-a>
+thymd_l	THYMDtl	-a>
+thymd_c	THYMDtl	-a>
+udpacgal_c	UDPACGALtl	-a>
+udpacgal_l	UDPACGALtl	-a>
+udp_l	UDPtl	-a>
+udp_c	UDPtl	-a>
+uri_l	Uritl	-a>
+uri_c	Uritl	-a>
+xyl_D_l	XYLtly	-a>
+xyl_D_c	XYLtly	-a>
+ile_L_l	r0825	-a>
+ile_L_c	r0825	-a>
+thr_L_l	r0925	-a>
+thr_L_c	r0925	-a>
+arachd_l	r0932	-a>
+arachd_c	r0932	-a>
+hdca_l	r0937	-a>
+hdca_c	r0937	-a>
+ocdca_c	r0984	-a>
+ocdca_l	r0984	-a>
+lnlc_l	r0986	-a>
+lnlc_r	r0986	-a>
+lnlc_l	r0987	-a>
+lnlc_c	r0987	-a>
+chsterol_c	r1052	-a>
+chsterol_l	r1052	-a>
+arg_L_l	r1059	-a>
+arg_L_c	r1059	-a>
+asn_L_l	r1061	-a>
+asn_L_c	r1061	-a>
+asp_L_l	r1062	-a>
+asp_L_c	r1062	-a>
+cys_L_l	r1063	-a>
+cys_L_c	r1063	-a>
+gln_L_l	r1064	-a>
+gln_L_c	r1064	-a>
+his_L_l	r1067	-a>
+his_L_c	r1067	-a>
+leu_L_l	r1068	-a>
+leu_L_c	r1068	-a>
+lys_L_l	r1071	-a>
+lys_L_c	r1071	-a>
+met_L_l	r1073	-a>
+met_L_c	r1073	-a>
+phe_L_l	r1074	-a>
+phe_L_c	r1074	-a>
+ser_L_c	r1076	-a>
+ser_L_l	r1076	-a>
+trp_L_c	r1077	-a>
+trp_L_l	r1077	-a>
+tyr_L_l	r1080	-a>
+tyr_L_c	r1080	-a>
+val_L_l	r1140	-a>
+val_L_c	r1140	-a>
+pi_c	r1150	-a>
+pi_l	r1150	-a>
+lnlncg_l	r1298	-a>
+lnlncg_r	r1298	-a>
+lnlncg_l	r1299	-a>
+lnlncg_c	r1299	-a>
+ocdcea_l	r1301	-a>
+ocdcea_r	r1301	-a>
+ocdcea_l	r1302	-a>
+ocdcea_c	r1302	-a>
+hdcea_l	r1304	-a>
+hdcea_c	r1304	-a>
+lnlnca_l	r1364	-a>
+lnlnca_r	r1364	-a>
+lnlnca_l	r1365	-a>
+lnlnca_c	r1365	-a>
+dlnlcg_r	r1367	-a>
+dlnlcg_l	r1367	-a>
+dlnlcg_l	r1368	-a>
+dlnlcg_c	r1368	-a>
+carn_l	CARhPTtc	-a>
+carn_c	CARhPTtc	-a>
+his_L_l	HIShPTtc	-a>
+his_L_c	HIShPTtc	-a>
+h_c	HIShPTtc	-a>
+h_l	HIShPTtc	-a>

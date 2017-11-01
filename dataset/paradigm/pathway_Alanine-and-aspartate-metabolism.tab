@@ -1,0 +1,139 @@
+protein	CE0469_c
+protein	CE1554_c
+protein	CE1554_m
+protein	Nacasp_c
+protein	Nacasp_m
+protein	ac_c
+protein	accoa_m
+protein	akg_c
+protein	akg_m
+protein	ala_D_c
+protein	ala_L_c
+protein	ala_L_m
+protein	ala_L_x
+protein	amp_c
+protein	arg_L_c
+protein	argsuc_c
+protein	asn_L_c
+protein	asn_L_m
+protein	asp_D_x
+protein	asp_L_c
+protein	asp_L_m
+protein	atp_c
+protein	cgly_c
+protein	citr_L_c
+protein	coa_m
+protein	fum_c
+protein	gln_L_c
+protein	glu_L_c
+protein	glu_L_m
+protein	glx_m
+protein	glx_x
+protein	gly_m
+protein	gly_x
+protein	gthrd_c
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	nh4_c
+protein	nh4_m
+protein	nh4_x
+protein	o2_x
+protein	oaa_c
+protein	oaa_m
+protein	oaa_x
+protein	ppi_c
+protein	pyr_m
+protein	pyr_x
+abstract	AGTim
+abstract	AGTix
+abstract	ALAR
+abstract	ARGSL
+abstract	ARGSS
+abstract	ASNNm
+abstract	ASNS1
+abstract	ASPNATm
+abstract	ASPTA
+abstract	ASPTAm
+abstract	DASPO1p
+abstract	NACASPAH
+abstract	r0127
+abstract	RE1473C
+abstract	RE2031M
+abstract	RE2642C
+pyr_m	AGTim	-a>
+glx_m	AGTim	-a>
+ala_L_m	AGTim	-a>
+gly_m	AGTim	-a>
+ala_L_x	AGTix	-a>
+gly_x	AGTix	-a>
+pyr_x	AGTix	-a>
+glx_x	AGTix	-a>
+ala_L_c	ALAR	-a>
+ala_D_c	ALAR	-a>
+argsuc_c	ARGSL	-a>
+fum_c	ARGSL	-a>
+arg_L_c	ARGSL	-a>
+amp_c	ARGSS	-a>
+h_c	ARGSS	-a>
+argsuc_c	ARGSS	-a>
+atp_c	ARGSS	-a>
+asp_L_c	ARGSS	-a>
+ppi_c	ARGSS	-a>
+citr_L_c	ARGSS	-a>
+h2o_m	ASNNm	-a>
+asp_L_m	ASNNm	-a>
+nh4_m	ASNNm	-a>
+asn_L_m	ASNNm	-a>
+h2o_c	ASNS1	-a>
+h_c	ASNS1	-a>
+glu_L_c	ASNS1	-a>
+gln_L_c	ASNS1	-a>
+asp_L_c	ASNS1	-a>
+amp_c	ASNS1	-a>
+asn_L_c	ASNS1	-a>
+atp_c	ASNS1	-a>
+ppi_c	ASNS1	-a>
+Nacasp_m	ASPNATm	-a>
+h_m	ASPNATm	-a>
+coa_m	ASPNATm	-a>
+asp_L_m	ASPNATm	-a>
+accoa_m	ASPNATm	-a>
+glu_L_c	ASPTA	-a>
+asp_L_c	ASPTA	-a>
+oaa_c	ASPTA	-a>
+akg_c	ASPTA	-a>
+oaa_m	ASPTAm	-a>
+glu_L_m	ASPTAm	-a>
+akg_m	ASPTAm	-a>
+asp_L_m	ASPTAm	-a>
+nh4_x	DASPO1p	-a>
+oaa_x	DASPO1p	-a>
+o2_x	DASPO1p	-a>
+asp_D_x	DASPO1p	-a>
+h2o_x	DASPO1p	-a>
+h2o2_x	DASPO1p	-a>
+ac_c	NACASPAH	-a>
+Nacasp_c	NACASPAH	-a>
+h2o_c	NACASPAH	-a>
+asp_L_c	NACASPAH	-a>
+h2o_c	r0127	-a>
+asn_L_c	r0127	-a>
+asp_L_c	r0127	-a>
+nh4_c	r0127	-a>
+gthrd_c	RE1473C	-a>
+ala_L_c	RE1473C	-a>
+cgly_c	RE1473C	-a>
+CE0469_c	RE1473C	-a>
+ala_L_m	RE2031M	-a>
+h_m	RE2031M	-a>
+coa_m	RE2031M	-a>
+CE1554_m	RE2031M	-a>
+accoa_m	RE2031M	-a>
+ac_c	RE2642C	-a>
+CE1554_c	RE2642C	-a>
+ala_L_c	RE2642C	-a>
+h2o_c	RE2642C	-a>

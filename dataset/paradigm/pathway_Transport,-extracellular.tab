@@ -1,0 +1,8959 @@
+protein	11_cis_retfa_c
+protein	11_cis_retfa_e
+protein	1mncam_c
+protein	1mncam_e
+protein	1pyr5c_c
+protein	2425dhvitd2_c
+protein	2425dhvitd2_e
+protein	2425dhvitd3_c
+protein	2425dhvitd3_e
+protein	24nph_c
+protein	24nph_e
+protein	25hvitd2_c
+protein	25hvitd2_e
+protein	25hvitd3_c
+protein	25hvitd3_e
+protein	2hb_c
+protein	2hb_e
+protein	2mcit_c
+protein	2mcit_e
+protein	34dhoxpeg_c
+protein	34dhoxpeg_e
+protein	34dhphe_c
+protein	34dhphe_e
+protein	34hpp_c
+protein	34hpp_e
+protein	35cgmp_c
+protein	35cgmp_e
+protein	3aib_D_c
+protein	3aib_D_e
+protein	3aib_c
+protein	3aib_e
+protein	3mlda_c
+protein	3mlda_e
+protein	3mob_c
+protein	3mob_e
+protein	3mop_c
+protein	3mop_e
+protein	4abut_c
+protein	4abut_e
+protein	4hdebrisoquine_c
+protein	4hdebrisoquine_e
+protein	4hphac_c
+protein	4hphac_e
+protein	4hpro_LT_c
+protein	4hpro_LT_e
+protein	4hpro_LT_m
+protein	4mop_c
+protein	4mop_e
+protein	4mptnl_c
+protein	4mptnl_e
+protein	4mtolbutamide_c
+protein	4mtolbutamide_e
+protein	4nph_c
+protein	4nph_e
+protein	4nphsf_c
+protein	4nphsf_e
+protein	4pyrdx_c
+protein	4pyrdx_e
+protein	5adtststerone_c
+protein	5adtststerone_e
+protein	5adtststeroneglc_c
+protein	5adtststeroneglc_e
+protein	5adtststerones_c
+protein	5adtststerones_e
+protein	5fthf_c
+protein	5fthf_e
+protein	5homeprazole_c
+protein	5homeprazole_e
+protein	5htrp_c
+protein	5htrp_e
+protein	5mta_c
+protein	5mta_e
+protein	5mthf_c
+protein	5mthf_e
+protein	5oxpro_c
+protein	5oxpro_e
+protein	6htststerone_c
+protein	6htststerone_e
+protein	9_cis_retfa_c
+protein	9_cis_retfa_e
+protein	C02470_c
+protein	C02470_e
+protein	C02528_c
+protein	C02528_e
+protein	HC00250_c
+protein	HC00250_e
+protein	HC00342_c
+protein	HC00342_e
+protein	HC01787_c
+protein	HC01787_e
+protein	HC02154_c
+protein	HC02154_e
+protein	HC02172_c
+protein	HC02172_e
+protein	ddca_e
+protein	wharachd_c
+protein	wharachd_e
+protein	HC02180_c
+protein	HC02180_e
+protein	HC02187_c
+protein	HC02187_e
+protein	HC02191_c
+protein	HC02191_e
+protein	HC02192_c
+protein	HC02192_e
+protein	CE5560_c
+protein	CE5560_e
+protein	HC02194_c
+protein	HC02194_e
+protein	HC02195_c
+protein	HC02195_e
+protein	HC02196_c
+protein	HC02196_e
+protein	HC02197_c
+protein	HC02197_e
+protein	HC02198_c
+protein	HC02198_e
+protein	HC02199_c
+protein	HC02199_e
+protein	HC02200_c
+protein	HC02200_e
+protein	HC02201_c
+protein	HC02201_e
+protein	HC02202_c
+protein	HC02202_e
+protein	HC02203_c
+protein	HC02203_e
+protein	HC02204_c
+protein	HC02204_e
+protein	HC02205_c
+protein	HC02205_e
+protein	HC02206_c
+protein	HC02206_e
+protein	HC02207_c
+protein	HC02207_e
+protein	HC02208_c
+protein	HC02208_e
+protein	HC02210_c
+protein	HC02210_e
+protein	HC02213_c
+protein	HC02213_e
+protein	HC02214_c
+protein	HC02214_e
+protein	HC02216_c
+protein	HC02216_e
+protein	HC02217_c
+protein	HC02217_e
+protein	HC02220_c
+protein	HC02220_e
+protein	Lcystin_c
+protein	Lcystin_e
+protein	Rtotal_c
+protein	Rtotal_e
+protein	Rtotalcoa_c
+protein	abt_c
+protein	abt_e
+protein	ac_c
+protein	ac_e
+protein	acac_c
+protein	acac_e
+protein	acald_c
+protein	acald_e
+protein	accoa_c
+protein	accoa_g
+protein	acetone_c
+protein	acetone_e
+protein	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c
+protein	acgalfucgalacgalfuc12gal14acglcgalgluside_hs_e
+protein	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c
+protein	acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_e
+protein	ach_c
+protein	ach_e
+protein	acn13acngalgbside_hs_c
+protein	acn13acngalgbside_hs_e
+protein	acn23acngalgbside_hs_c
+protein	acn23acngalgbside_hs_e
+protein	acnacngal14acglcgalgluside_hs_c
+protein	acnacngal14acglcgalgluside_hs_e
+protein	acnacngalgbside_hs_c
+protein	acnacngalgbside_hs_e
+protein	acngalacglcgal14acglcgalgluside_hs_c
+protein	acngalacglcgal14acglcgalgluside_hs_e
+protein	ade_c
+protein	ade_e
+protein	adn_c
+protein	adn_e
+protein	adocbl_c
+protein	adocbl_e
+protein	adp_c
+protein	adp_r
+protein	adp_x
+protein	adprib_c
+protein	adprib_e
+protein	adrn_c
+protein	adrn_e
+protein	adrnl_c
+protein	adrnl_e
+protein	aflatoxin_c
+protein	aflatoxin_e
+protein	ahandrostanglc_c
+protein	ahandrostanglc_e
+protein	ahcys_c
+protein	ahcys_e
+protein	aicar_c
+protein	aicar_e
+protein	ak2lgchol_hs_c
+protein	ak2lgchol_hs_e
+protein	akg_c
+protein	akg_e
+protein	ala_B_c
+protein	ala_B_e
+protein	ala_D_c
+protein	ala_D_e
+protein	ala_L_c
+protein	ala_L_e
+protein	alaala_c
+protein	alaala_e
+protein	aldstrn_c
+protein	aldstrn_e
+protein	amp_c
+protein	andrstrn_c
+protein	andrstrn_e
+protein	andrstrnglc_c
+protein	andrstrnglc_e
+protein	anth_c
+protein	anth_e
+protein	antipyrene_c
+protein	antipyrene_e
+protein	apnnox_c
+protein	apnnox_e
+protein	appnn_c
+protein	appnn_e
+protein	aprgstrn_c
+protein	aprgstrn_e
+protein	aqcobal_c
+protein	aqcobal_e
+protein	arab_L_c
+protein	arab_L_e
+protein	arach_c
+protein	arach_e
+protein	arachd_c
+protein	arachd_e
+protein	arg_L_c
+protein	arg_L_e
+protein	ascb_L_c
+protein	ascb_L_e
+protein	asn_L_c
+protein	asn_L_e
+protein	asp_D_c
+protein	asp_D_e
+protein	asp_L_c
+protein	asp_L_e
+protein	atp_c
+protein	atp_e
+protein	atp_r
+protein	atp_x
+protein	avite1_c
+protein	avite1_e
+protein	avite2_c
+protein	avite2_e
+protein	bhb_c
+protein	bhb_e
+protein	bildglcur_c
+protein	bildglcur_e
+protein	bildglcur_r
+protein	bilglcur_c
+protein	bilglcur_e
+protein	bilirub_c
+protein	bilirub_e
+protein	btn_c
+protein	btn_e
+protein	but_c
+protein	but_e
+protein	bvite_c
+protein	bvite_e
+protein	bz_c
+protein	bz_e
+protein	ca2_c
+protein	ca2_e
+protein	camp_c
+protein	camp_e
+protein	carn_c
+protein	carn_e
+protein	caro_c
+protein	caro_e
+protein	carveol_c
+protein	carveol_e
+protein	cbasp_c
+protein	cbasp_e
+protein	cgly_c
+protein	cgly_e
+protein	chol_c
+protein	chol_e
+protein	cholate_c
+protein	cholate_e
+protein	chsterol_c
+protein	chsterol_e
+protein	chsterol_r
+protein	cit_c
+protein	cit_e
+protein	citr_L_c
+protein	citr_L_e
+protein	cl_c
+protein	cl_e
+protein	clpnd_c
+protein	clpnd_e
+protein	co2_c
+protein	co2_e
+protein	co_c
+protein	co_e
+protein	coa_c
+protein	coumarin_c
+protein	coumarin_e
+protein	creat_c
+protein	creat_e
+protein	crmp_hs_c
+protein	crmp_hs_e
+protein	crn_c
+protein	crn_e
+protein	crtsl_c
+protein	crtsl_e
+protein	crtstrn_c
+protein	crtstrn_e
+protein	crvnc_c
+protein	crvnc_e
+protein	csn_c
+protein	csn_e
+protein	cspg_a_e
+protein	cspg_a_g
+protein	cspg_b_e
+protein	cspg_b_g
+protein	cspg_c_e
+protein	cspg_c_g
+protein	cspg_d_e
+protein	cspg_d_g
+protein	cspg_e_e
+protein	cspg_e_g
+protein	cyan_c
+protein	cyan_e
+protein	cys_L_c
+protein	cys_L_e
+protein	cysam_e
+protein	cytd_c
+protein	cytd_e
+protein	dad_2_c
+protein	dad_2_e
+protein	dag_hs_c
+protein	dag_hs_e
+protein	dca_c
+protein	dca_e
+protein	dcsptn1_c
+protein	dcsptn1_e
+protein	dcyt_c
+protein	dcyt_e
+protein	ddca_c
+protein	debrisoquine_c
+protein	debrisoquine_e
+protein	dgchol_c
+protein	dgchol_e
+protein	dgsn_c
+protein	dgsn_e
+protein	dhdascb_c
+protein	dhdascb_e
+protein	dheas_c
+protein	dheas_e
+protein	dheas_r
+protein	digalsgalside_hs_c
+protein	digalsgalside_hs_e
+protein	din_c
+protein	din_e
+protein	dlnlcg_c
+protein	dlnlcg_e
+protein	dmantipyrine_c
+protein	dmantipyrine_e
+protein	dmhptcrn_c
+protein	dmhptcrn_e
+protein	dopa_c
+protein	dopa_e
+protein	dopasf_c
+protein	dopasf_e
+protein	dpcoa_e
+protein	drib_c
+protein	drib_e
+protein	duri_c
+protein	duri_e
+protein	eaflatoxin_c
+protein	eaflatoxin_e
+protein	ebastine_c
+protein	ebastine_e
+protein	ebastineoh_c
+protein	ebastineoh_e
+protein	eicostet_c
+protein	eicostet_e
+protein	elaid_c
+protein	elaid_e
+protein	estradiol_c
+protein	estradiol_e
+protein	estradiolglc_c
+protein	estradiolglc_e
+protein	estriolglc_c
+protein	estriolglc_e
+protein	estroneglc_c
+protein	estroneglc_e
+protein	estrones_c
+protein	estrones_e
+protein	etoh_c
+protein	etoh_e
+protein	fad_c
+protein	fad_e
+protein	fald_c
+protein	fald_e
+protein	fe2_c
+protein	fe2_e
+protein	fe3_c
+protein	fe3_e
+protein	fmn_e
+protein	fol_c
+protein	fol_e
+protein	for_c
+protein	for_e
+protein	fru_c
+protein	fru_e
+protein	fuc13galacglcgal14acglcgalgluside_hs_c
+protein	fuc13galacglcgal14acglcgalgluside_hs_e
+protein	fuc14galacglcgalgluside_hs_c
+protein	fuc14galacglcgalgluside_hs_e
+protein	fucacgalfucgalacglcgalgluside_hs_c
+protein	fucacgalfucgalacglcgalgluside_hs_e
+protein	fucacngal14acglcgalgluside_hs_c
+protein	fucacngal14acglcgalgluside_hs_e
+protein	fucacngalacglcgalgluside_hs_c
+protein	fucacngalacglcgalgluside_hs_e
+protein	fucfuc12gal14acglcgalgluside_hs_c
+protein	fucfuc12gal14acglcgalgluside_hs_e
+protein	fucfuc132galacglcgal14acglcgalgluside_hs_c
+protein	fucfuc132galacglcgal14acglcgalgluside_hs_e
+protein	fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_c
+protein	fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_e
+protein	fucfucfucgalacglcgal14acglcgalgluside_hs_c
+protein	fucfucfucgalacglcgal14acglcgalgluside_hs_e
+protein	fucfucgalacglcgalgluside_hs_c
+protein	fucfucgalacglcgalgluside_hs_e
+protein	fucgal14acglcgalgluside_hs_c
+protein	fucgal14acglcgalgluside_hs_e
+protein	fucgalfucgalacglcgalgluside_hs_c
+protein	fucgalfucgalacglcgalgluside_hs_e
+protein	fucgalgbside_hs_c
+protein	fucgalgbside_hs_e
+protein	gal_c
+protein	gal_e
+protein	galacglcgalgbside_hs_c
+protein	galacglcgalgbside_hs_e
+protein	galfuc12gal14acglcgalgluside_hs_c
+protein	galfuc12gal14acglcgalgluside_hs_e
+protein	galfucgalacglcgal14acglcgalgluside_hs_c
+protein	galfucgalacglcgal14acglcgalgluside_hs_e
+protein	galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_c
+protein	galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_e
+protein	galgalgalthcrm_hs_c
+protein	galgalgalthcrm_hs_e
+protein	gam_c
+protein	gam_e
+protein	gbside_hs_c
+protein	gbside_hs_e
+protein	gchola_c
+protein	gchola_e
+protein	gd1b2_hs_c
+protein	gd1b2_hs_e
+protein	gd1c_hs_c
+protein	gd1c_hs_e
+protein	glc_D_c
+protein	glc_D_e
+protein	glc_D_r
+protein	gln_L_c
+protein	gln_L_e
+protein	glu_L_c
+protein	glu_L_e
+protein	gly_c
+protein	gly_e
+protein	glyb_c
+protein	glyb_e
+protein	glyc3p_c
+protein	glyc3p_e
+protein	glyc_S_c
+protein	glyc_S_e
+protein	glyc_c
+protein	glyc_e
+protein	glygly_c
+protein	glygly_e
+protein	glyleu_c
+protein	glyleu_e
+protein	glyphe_c
+protein	glyphe_e
+protein	glypro_c
+protein	glypro_e
+protein	glysar_c
+protein	glysar_e
+protein	gp1c_hs_c
+protein	gp1c_hs_e
+protein	gp1calpha_hs_c
+protein	gp1calpha_hs_e
+protein	gq1b_hs_c
+protein	gq1b_hs_e
+protein	gq1balpha_hs_c
+protein	gq1balpha_hs_e
+protein	gsn_c
+protein	gsn_e
+protein	gt1a_hs_c
+protein	gt1a_hs_e
+protein	gthrd_c
+protein	gthrd_e
+protein	gua_c
+protein	gua_e
+protein	h2o2_c
+protein	h2o2_e
+protein	h2o_c
+protein	h2o_e
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_e
+protein	h_r
+protein	h_x
+protein	hco3_c
+protein	hco3_e
+protein	hcoumarin_c
+protein	hcoumarin_e
+protein	hdcea_c
+protein	hdcea_e
+protein	hestratriol_c
+protein	hestratriol_e
+protein	hexc_c
+protein	hexc_e
+protein	his_L_c
+protein	his_L_e
+protein	hista_c
+protein	hista_e
+protein	hom_L_c
+protein	hom_L_e
+protein	hpdca_c
+protein	hpdca_e
+protein	hspg_e
+protein	hspg_g
+protein	htaxol_c
+protein	htaxol_e
+protein	hxan_c
+protein	hxan_e
+protein	hyptaur_e
+protein	i_c
+protein	i_e
+protein	idour_c
+protein	idour_e
+protein	ile_L_c
+protein	ile_L_e
+protein	inost_c
+protein	inost_e
+protein	ins_c
+protein	ins_e
+protein	k_c
+protein	k_e
+protein	ksi_e
+protein	ksi_g
+protein	ksii_core2_e
+protein	ksii_core2_g
+protein	ksii_core4_e
+protein	ksii_core4_g
+protein	lac_D_c
+protein	lac_D_e
+protein	lac_L_c
+protein	lac_L_e
+protein	lcts_e
+protein	lcts_g
+protein	leu_L_c
+protein	leu_L_e
+protein	leugly_c
+protein	leugly_e
+protein	leuktrA4_c
+protein	leuktrA4_e
+protein	leuktrB4_c
+protein	leuktrB4_e
+protein	leuktrC4_c
+protein	leuktrC4_e
+protein	leuktrD4_c
+protein	leuktrD4_e
+protein	leuktrE4_c
+protein	leuktrE4_e
+protein	leuktrF4_c
+protein	leuktrF4_e
+protein	leuleu_c
+protein	leuleu_e
+protein	lgnc_c
+protein	lgnc_e
+protein	limnen_c
+protein	limnen_e
+protein	lipoate_c
+protein	lipoate_e
+protein	lneldc_c
+protein	lneldc_e
+protein	lnlc_c
+protein	lnlc_e
+protein	lnlccoa_c
+protein	lnlnca_c
+protein	lnlnca_e
+protein	lnlncg_c
+protein	lnlncg_e
+protein	lpchol_hs_c
+protein	lpchol_hs_e
+protein	lys_L_c
+protein	lys_L_e
+protein	mag_hs_c
+protein	mag_hs_e
+protein	mal_L_c
+protein	mal_L_e
+protein	malt_c
+protein	malt_e
+protein	man_c
+protein	man_e
+protein	meoh_c
+protein	meoh_e
+protein	mepi_c
+protein	mepi_e
+protein	mercplaccys_c
+protein	mercplaccys_e
+protein	met_L_c
+protein	met_L_e
+protein	mthgxl_c
+protein	mthgxl_e
+protein	n2m2nmasn_e
+protein	n2m2nmasn_g
+protein	na1_c
+protein	na1_e
+protein	nac_c
+protein	nac_e
+protein	nad_c
+protein	nadh_c
+protein	ncam_c
+protein	ncam_e
+protein	nh4_c
+protein	nh4_e
+protein	no_c
+protein	no_e
+protein	npthl_c
+protein	npthl_e
+protein	nrpphr_c
+protein	nrpphr_e
+protein	nrpphrsf_c
+protein	nrpphrsf_e
+protein	nrvnc_c
+protein	nrvnc_e
+protein	o2_c
+protein	o2_e
+protein	o2s_c
+protein	o2s_e
+protein	oagd3_hs_c
+protein	oagd3_hs_e
+protein	oagt3_hs_c
+protein	oagt3_hs_e
+protein	ocdcea_c
+protein	ocdcea_e
+protein	octa_c
+protein	octa_e
+protein	oh1_c
+protein	oh1_e
+protein	omeprazole_c
+protein	omeprazole_e
+protein	onpthl_c
+protein	onpthl_e
+protein	orn_c
+protein	orn_e
+protein	orot_c
+protein	orot_e
+protein	oxa_c
+protein	oxa_e
+protein	paf_hs_c
+protein	paf_hs_e
+protein	pan4p_e
+protein	pchol_hs_c
+protein	pchol_hs_e
+protein	pe_hs_c
+protein	pe_hs_e
+protein	perillyl_c
+protein	perillyl_e
+protein	pglyc_hs_c
+protein	pglyc_hs_e
+protein	phe_L_c
+protein	phe_L_e
+protein	pheacgln_c
+protein	pheacgln_e
+protein	pheme_c
+protein	pheme_e
+protein	phyQ_c
+protein	phyQ_e
+protein	phyt_c
+protein	phyt_e
+protein	pi_c
+protein	pi_e
+protein	pi_r
+protein	pi_x
+protein	hdca_c
+protein	hdca_e
+protein	pnto_R_c
+protein	pnto_R_e
+protein	ppa_c
+protein	ppa_e
+protein	ppi_c
+protein	ppi_e
+protein	prgstrn_c
+protein	prgstrn_e
+protein	pro_D_c
+protein	pro_D_e
+protein	pro_L_c
+protein	pro_L_e
+protein	progly_c
+protein	progly_e
+protein	prostgd2_c
+protein	prostgd2_e
+protein	prostge1_c
+protein	prostge1_e
+protein	prostge2_c
+protein	prostge2_e
+protein	prostgf2_c
+protein	prostgf2_e
+protein	prostgh2_c
+protein	prostgh2_e
+protein	prostgi2_c
+protein	prostgi2_e
+protein	ps_hs_c
+protein	ps_hs_e
+protein	ptdca_c
+protein	ptdca_e
+protein	ptrc_c
+protein	ptrc_e
+protein	ptth_e
+protein	pydam_c
+protein	pydam_e
+protein	pydx5p_c
+protein	pydx5p_e
+protein	pydx_c
+protein	pydx_e
+protein	pydxn_c
+protein	pydxn_e
+protein	pyr_c
+protein	pyr_e
+protein	q10_c
+protein	q10_e
+protein	q10h2_c
+protein	q10h2_e
+protein	rbt_c
+protein	rbt_e
+protein	retfa_c
+protein	retfa_e
+protein	retinol_c
+protein	retinol_e
+protein	retn_c
+protein	retn_e
+protein	retnglc_c
+protein	retnglc_e
+protein	rib_D_c
+protein	rib_D_e
+protein	ribflv_c
+protein	ribflv_e
+protein	s2l2fn2m2masn_e
+protein	s2l2fn2m2masn_g
+protein	sarcs_c
+protein	sarcs_e
+protein	sbt_D_c
+protein	sbt_D_e
+protein	sel_c
+protein	sel_e
+protein	ser_D_c
+protein	ser_D_e
+protein	ser_L_c
+protein	ser_L_e
+protein	slfcys_c
+protein	slfcys_e
+protein	so4_c
+protein	so4_e
+protein	spc_hs_c
+protein	spc_hs_e
+protein	sph1p_c
+protein	sph1p_e
+protein	sphs1p_c
+protein	sphs1p_e
+protein	spmd_c
+protein	spmd_e
+protein	sprm_c
+protein	sprm_e
+protein	srtn_c
+protein	srtn_e
+protein	ocdca_c
+protein	ocdca_e
+protein	strdnc_c
+protein	strdnc_e
+protein	succ_c
+protein	succ_e
+protein	tag_hs_c
+protein	tag_hs_e
+protein	tagat_D_c
+protein	tagat_D_e
+protein	taur_c
+protein	taur_e
+protein	taxol_c
+protein	taxol_e
+protein	tchola_c
+protein	tchola_e
+protein	tchola_x
+protein	tcynt_c
+protein	tcynt_e
+protein	ttdca_c
+protein	ttdca_e
+protein	tdchola_c
+protein	tdchola_e
+protein	tdchola_x
+protein	tethex3_c
+protein	tethex3_e
+protein	tetpent3_c
+protein	tetpent3_e
+protein	tetpent6_c
+protein	tetpent6_e
+protein	tettet6_c
+protein	tettet6_e
+protein	thf_c
+protein	thf_e
+protein	thm_c
+protein	thm_e
+protein	thmmp_c
+protein	thmmp_e
+protein	thmtp_c
+protein	thmtp_e
+protein	thr_L_c
+protein	thr_L_e
+protein	thym_c
+protein	thym_e
+protein	thymd_c
+protein	thymd_e
+protein	thyox_L_c
+protein	thyox_L_e
+protein	tmndnc_c
+protein	tmndnc_e
+protein	tolbutamide_c
+protein	tolbutamide_e
+protein	triodthy_c
+protein	triodthy_e
+protein	triodthysuf_c
+protein	triodthysuf_e
+protein	trp_L_c
+protein	trp_L_e
+protein	tststerone_c
+protein	tststerone_e
+protein	tststeroneglc_c
+protein	tststeroneglc_e
+protein	tststerones_c
+protein	tststerones_e
+protein	tsul_c
+protein	tsul_e
+protein	txa2_c
+protein	txa2_e
+protein	tymsf_c
+protein	tymsf_e
+protein	tyr_L_c
+protein	tyr_L_e
+protein	ura_c
+protein	ura_e
+protein	urate_c
+protein	urate_e
+protein	urea_c
+protein	urea_e
+protein	uri_c
+protein	uri_e
+protein	utp_c
+protein	utp_e
+protein	vacc_c
+protein	vacc_e
+protein	val_L_c
+protein	val_L_e
+protein	vitd2_c
+protein	vitd2_e
+protein	vitd3_c
+protein	vitd3_e
+protein	whddca_c
+protein	whddca_e
+protein	whhdca_c
+protein	whhdca_e
+protein	whtststerone_c
+protein	whtststerone_e
+protein	whttdca_c
+protein	whttdca_e
+protein	xolest2_hs_c
+protein	xolest2_hs_e
+protein	xoltri24_c
+protein	xoltri24_e
+protein	xoltri25_c
+protein	xoltri25_e
+protein	xoltri27_c
+protein	xoltri27_e
+protein	xyl_D_c
+protein	xyl_D_e
+protein	xylt_c
+protein	xylt_e
+protein	yvite_c
+protein	yvite_e
+abstract	ALAALACNc
+abstract	GLYGLYCNc
+abstract	GLYLEUHYDROc
+abstract	GLYPROPRO1c
+abstract	GLYSARCNc
+abstract	LEULEULAPc
+abstract	PROGLYPRO1c
+abstract	CHOLESTle
+abstract	CYSAMOe
+abstract	FMNALKPle
+abstract	LEUGLYHYc
+abstract	PNTEHe
+abstract	PRO1x
+abstract	PTPATe
+abstract	1MNCAMti
+abstract	24_25DHVITD2t
+abstract	24_25DHVITD3t
+abstract	24NPHte
+abstract	25HVITD2tin
+abstract	25HVITD3tin
+abstract	2HBt2
+abstract	2HCO3_NAt
+abstract	2MCITt
+abstract	34DHOXPEGt
+abstract	34DHPHEt
+abstract	3AIBt
+abstract	3MLDAt
+abstract	4HDEBRISOQUINEte
+abstract	4MPTNLte
+abstract	4MTOLBUTAMIDEte
+abstract	4NPHSFte
+abstract	4NPHte
+abstract	4PYRDX
+abstract	5ADTSTSTERONEGLCte
+abstract	5ADTSTSTERONESte
+abstract	5ADTSTSTERONEte
+abstract	5FTHFt2
+abstract	5HOMEPRAZOLEte
+abstract	5HTRPVESSEC
+abstract	5MTHFt2
+abstract	6HTSTSTERONEte
+abstract	ABTti
+abstract	ABUTt2r
+abstract	ABUTt4_2_r
+abstract	ACACt2
+abstract	ACALDt
+abstract	ACCOAgt
+abstract	ACETONEt2
+abstract	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEte
+abstract	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	ACHVESSEC
+abstract	ACN13ACNGALGBSIDEte
+abstract	ACN23ACNGALGBSIDEte
+abstract	ACNACNGAL14ACGLCGALGLUSIDEte
+abstract	ACNACNGALGBSIDEte
+abstract	ACNGALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	ACt2r
+abstract	ADEt
+abstract	ADNt
+abstract	ADNt4
+abstract	ADPRIBt
+abstract	ADRNLPVESSEC
+abstract	ADRNt
+abstract	AFLATOXINte
+abstract	AHANDROSTANGLCte
+abstract	AK2LGCHOLt
+abstract	AKGt4_3
+abstract	ALAASNNaEx
+abstract	ALACYSNaEx
+abstract	ALADGLNexR
+abstract	ALADGLYexR
+abstract	ALAGLNexR
+abstract	ALAGLNNaEx
+abstract	ALAGLYexR
+abstract	ALASERNaEx
+abstract	ALAt2r
+abstract	ALAt4
+abstract	ALATHRNaEx
+abstract	ALAtN1
+abstract	ALDSTRNte
+abstract	ANDRSTRNGLCte
+abstract	ANDRSTRNte
+abstract	ANTIPYRENEte
+abstract	APNNOXte
+abstract	APPNNte
+abstract	APRGSTRNte
+abstract	AQCOBALt
+abstract	ARAB_Lt
+abstract	ARACHDt2
+abstract	ARACHt
+abstract	ARGLYSex
+abstract	ARGt4
+abstract	ARGtiDF
+abstract	ASCBt
+abstract	ASCBt4
+abstract	ASNALANaEx
+abstract	ASNCYSNaEx
+abstract	ASNGLNNaEx
+abstract	ASNSERNaEx
+abstract	ASNt4
+abstract	ASNTHRNaEx
+abstract	ASNtN1
+abstract	ASPDt6
+abstract	ASPt6
+abstract	AVITE1t
+abstract	AVITE2t
+abstract	BALAVECSEC
+abstract	BHBt
+abstract	BILDGLCURt
+abstract	BILDGLCURte
+abstract	BILGLCURt
+abstract	BILGLCURte
+abstract	BILIRUBt2
+abstract	BTNt2
+abstract	BTNt3i
+abstract	BTNt4i
+abstract	BUTt2r
+abstract	BVITEt
+abstract	BZt
+abstract	CAATPS
+abstract	CAMPt
+abstract	CAROtr
+abstract	CARVEOLte
+abstract	CAt7r
+abstract	CGLYt3_2_
+abstract	CGMPt
+abstract	CHOLATEt
+abstract	CHOLATEt2
+abstract	CHOLATEt3
+abstract	CHOLt4
+abstract	CHOLtu
+abstract	CHSTEROLt
+abstract	CITt4_2
+abstract	CLFORtex
+abstract	CLHCO3tex2
+abstract	CLI2tex
+abstract	CLOHtex2
+abstract	CLOXAtex2
+abstract	CLPNDt
+abstract	CO2t
+abstract	COt
+abstract	COUMARINte
+abstract	CREATt4_2_r
+abstract	CRMPte
+abstract	CRNt
+abstract	CRNtHa
+abstract	CRNtuNa
+abstract	CRTSLt
+abstract	CRTSTRNt
+abstract	CRVNCtr
+abstract	CSNt
+abstract	CSPG_At
+abstract	CSPG_Bt
+abstract	CSPG_Ct
+abstract	CSPG_Dt
+abstract	CSPG_Et
+abstract	CYANt
+abstract	CYSALANaEx
+abstract	CYSASNNaEx
+abstract	CYSGLNNaEx
+abstract	CYSGLUexR
+abstract	CYSGLYexR
+abstract	CYSSERNaEx
+abstract	CYStec
+abstract	CYSTGLUex
+abstract	CYSTHRNaEx
+abstract	CYSTSERex
+abstract	CYTDt
+abstract	CYTDt4
+abstract	D_3AIBt
+abstract	DADNt4
+abstract	DAGt
+abstract	DALAt2r
+abstract	DCSPTN1t
+abstract	DCYTt
+abstract	DEBRISOQUINEt
+abstract	DGCHOLte
+abstract	DGSNt
+abstract	DHAAt1r
+abstract	DHEASt
+abstract	DHEAStr
+abstract	DIGALSGALSIDEte
+abstract	DINt
+abstract	D_LACt2
+abstract	DLNLCGt
+abstract	DMANTIPYRINEte
+abstract	DMHPTCRNte
+abstract	DOPASFt
+abstract	DOPAt4_2_r
+abstract	DOPAtu
+abstract	DOPAVESSEC
+abstract	DRIBt
+abstract	DURIt
+abstract	EAFLATOXINte
+abstract	EBASTINEOHte
+abstract	EBASTINEte
+abstract	EICOSTETt
+abstract	ELAIDt
+abstract	ESTRADIOLGLCt
+abstract	ESTRADIOLt
+abstract	ESTRIOLGLCte
+abstract	ESTRONEGLCt
+abstract	ESTRONESt
+abstract	ESTRONESt2
+abstract	ETOHt
+abstract	FATP1t
+abstract	FATP2t
+abstract	FATP3t
+abstract	FATP4t
+abstract	FATP5t
+abstract	FATP6t
+abstract	FATP7t
+abstract	FATP8t
+abstract	FATP9t
+abstract	FE2t
+abstract	FOLt2
+abstract	FRUt1r
+abstract	FRUt4
+abstract	FUC13GALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	FUC14GALACGLCGALGLUSIDEte
+abstract	FUCACGALFUCGALACGLCGALGLUSIDEte
+abstract	FUCACNGAL14ACGLCGALGLUSIDEte
+abstract	FUCACNGALACGLCGALGLUSIDEte
+abstract	FUCFUC12GAL14ACGLCGALGLUSIDEte
+abstract	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	FUCFUCGALACGLCGALGLUSIDEte
+abstract	FUCGAL14ACGLCGALGLUSIDEte
+abstract	FUCGALFUCGALACGLCGALGLUSIDEte
+abstract	FUCGALGBSIDEte
+abstract	GABAVESSEC
+abstract	GALACGLCGALGBSIDEte
+abstract	GALFUC12GAL14ACGLCGALGLUSIDEte
+abstract	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEte
+abstract	GALGALGALTHCRMte
+abstract	GALt1r
+abstract	GALt2_2
+abstract	GALt4
+abstract	GAMt1r
+abstract	GBSIDEte
+abstract	GCHOLAt
+abstract	GCHOLAt2
+abstract	GCHOLAt3
+abstract	GCHOLAte
+abstract	GD1B2te
+abstract	GD1Cte
+abstract	GLCMter
+abstract	GLCt2_2
+abstract	GLCt4
+abstract	GLNALANaEx
+abstract	GLNASNNaEx
+abstract	GLNCYSNaEx
+abstract	GLNSERNaEx
+abstract	GLNt4
+abstract	GLNTHRNaEx
+abstract	GLNtN1
+abstract	GLUt6
+abstract	GLUVESSEC
+abstract	GLYBt4_2_r
+abstract	GLYC_St
+abstract	GLYt2r
+abstract	GLYt4
+abstract	GLYt7_211_r
+abstract	GLYVESSEC
+abstract	GP1CALPHAte
+abstract	GP1Cte
+abstract	GQ1BALPHAte
+abstract	GQ1Bte
+abstract	GSNt
+abstract	GT1Ate
+abstract	GUAt
+abstract	H2O2t
+abstract	H2Ot
+abstract	HCO3_CLt
+abstract	HCOUMARINte
+abstract	HDCEAtr
+abstract	HESTRATRIOLte
+abstract	HEXCt
+abstract	HISt4
+abstract	HISTAtu
+abstract	HISTAVESSEC
+abstract	HIStiDF
+abstract	HIStN1
+abstract	HKt
+abstract	HOMt4
+abstract	HPACtr
+abstract	HPDCAt
+abstract	HSPGt
+abstract	HTAXOLte
+abstract	HYXNt
+abstract	ILEtec
+abstract	INSt
+abstract	INSTt2r
+abstract	INSTt4
+abstract	It
+abstract	KCC2t
+abstract	KCCt
+abstract	KSII_CORE2t
+abstract	KSII_CORE4t
+abstract	KSIt
+abstract	LCTStg
+abstract	LEUKTRA4t
+abstract	LEUKTRB4t
+abstract	LEUKTRC4t
+abstract	LEUKTRD4t
+abstract	LEUKTRE4t
+abstract	LEUKTRF4t
+abstract	LEUtec
+abstract	LIMNENte
+abstract	LIPOti
+abstract	L_LACt2r
+abstract	L_LACt4r
+abstract	LNELDCt
+abstract	LNLCt
+abstract	LNLNCAt
+abstract	LNLNCGt
+abstract	LPCHOLt
+abstract	LYSt4
+abstract	LYStiDF
+abstract	MAGt
+abstract	MALTt1r
+abstract	MANt1r
+abstract	MANt4
+abstract	MEOHt2
+abstract	MEPIVESSte
+abstract	MERCPLACCYSt
+abstract	METLEUex
+abstract	METtec
+abstract	MTHGXLt
+abstract	N2M2NMASNt
+abstract	NAHCO3_HCLt
+abstract	NAIt
+abstract	NaKt
+abstract	NAt
+abstract	NAt3_1
+abstract	NAt5
+abstract	NCCt
+abstract	NCKt
+abstract	NCNt
+abstract	NH4t3r
+abstract	NKCC2t
+abstract	NKCCt
+abstract	NPTHLte
+abstract	NRPPHRSFt
+abstract	NRPPHRt4_2_r
+abstract	NRPPHRtu
+abstract	NRPPHRVESSEC
+abstract	NRVNCt
+abstract	O2St
+abstract	O2t
+abstract	OAGD3te
+abstract	OAGT3te
+abstract	OCDCEAtr
+abstract	OCTAt
+abstract	OMEPRAZOLEte
+abstract	ONPTHLte
+abstract	ORNtiDF
+abstract	OXAHCOtex
+abstract	PAFt
+abstract	PEFLIP
+abstract	PERILLYLte
+abstract	PEt
+abstract	PGLYCt
+abstract	PHEACGLNt
+abstract	PHEt4
+abstract	PHEtec
+abstract	PHYQt
+abstract	PHYTt
+abstract	PIt7
+abstract	PNTOt5
+abstract	PPAt
+abstract	PRGSTRNt
+abstract	PRODt2r
+abstract	PROSTGD2t
+abstract	PROSTGE1t
+abstract	PROSTGE1t3
+abstract	PROSTGE2t
+abstract	PROSTGE2t2
+abstract	PROSTGE2t3
+abstract	PROSTGF2t
+abstract	PROSTGH2t
+abstract	PROSTGI2t
+abstract	PROt2r
+abstract	PSFLIP
+abstract	PSt3
+abstract	PTDCAt
+abstract	PYDAMtr
+abstract	PYDXNtr
+abstract	PYDXtr
+abstract	PYRt2r
+abstract	RBTt
+abstract	RETFAt
+abstract	RETFAt1
+abstract	RETFAt2
+abstract	RETNGLCt
+abstract	RETNt
+abstract	RETt
+abstract	RIBFLVt3
+abstract	RIBt
+abstract	RIBt2
+abstract	RTOTALt
+abstract	S2L2FN2M2MASNt
+abstract	SARCStex
+abstract	SELt4_3
+abstract	SERALANaEx
+abstract	SERASNNaEx
+abstract	SERCYSNaEx
+abstract	SERDGLNexR
+abstract	SERDGLYexR
+abstract	SERGLNexR
+abstract	SERGLNNaEx
+abstract	SERGLYexR
+abstract	SERLYSNaex
+abstract	SERt4
+abstract	SERTHRNaEx
+abstract	SERtN1
+abstract	SO4CLtex2
+abstract	SO4HCOtex
+abstract	SO4OXAtex2
+abstract	SO4t4_2
+abstract	SPC_HSt
+abstract	SPH1Pte
+abstract	SPHS1Pte
+abstract	SRTNt6_2_r
+abstract	SRTNtu
+abstract	STRDNCt
+abstract	SUCCt4_2
+abstract	TAGAT_Dt
+abstract	TAURt4_2_r
+abstract	TAXOLte
+abstract	TCHOLAt
+abstract	TCHOLAt2
+abstract	TCHOLAt3
+abstract	TCHOLAte
+abstract	TCYNTt
+abstract	TDCHOLAte
+abstract	TETHEX3t
+abstract	TETPENT3t
+abstract	TETPENT6t
+abstract	TETTET6t
+abstract	THFt2
+abstract	THMDt4
+abstract	THMMPt4
+abstract	THMt3
+abstract	THMTPt
+abstract	THRALANaEx
+abstract	THRASNNaEx
+abstract	THRCYSNaEx
+abstract	THRGLNexR
+abstract	THRGLNNaEx
+abstract	THRGLYexR
+abstract	THRSERNaEx
+abstract	THRt4
+abstract	THYMDt1
+abstract	THYMt
+abstract	THYOXt
+abstract	THYOXt2
+abstract	TMNDNCt
+abstract	TOLBUTAMIDEte
+abstract	TRIODTHYSUFt
+abstract	TRIODTHYt
+abstract	TRIODTHYt2
+abstract	TRPt
+abstract	TRPt4
+abstract	TSTSTERONEGLCte
+abstract	TSTSTERONESte
+abstract	TSTSTERONEt
+abstract	TSULt4_3
+abstract	TTDCAtr
+abstract	TXA2te
+abstract	TYMSFt
+abstract	TYRt
+abstract	TYRt4
+abstract	URAt
+abstract	URATEt
+abstract	UREAt
+abstract	UREAt5
+abstract	URIt
+abstract	URIt4
+abstract	VACCt
+abstract	VALtec
+abstract	VITD2t
+abstract	VITD3t
+abstract	WHDDCAte
+abstract	WHHDCAte
+abstract	WHTSTSTERONEte
+abstract	WHTTDCAte
+abstract	XOLTRI24te
+abstract	XOLTRI25te
+abstract	XOLTRI27te
+abstract	XYLt
+abstract	XYLTt
+abstract	YVITEt
+abstract	r0813
+abstract	r0817
+abstract	r0839
+abstract	r0870
+abstract	r0871
+abstract	r0879
+abstract	r0892
+abstract	r0899
+abstract	r0924
+abstract	r0940
+abstract	r0942
+abstract	r0946
+abstract	r0961
+abstract	r0963
+abstract	r0974
+abstract	r0992
+abstract	r0993
+abstract	r1017
+abstract	r1026
+abstract	r1027
+abstract	r1028
+abstract	r1029
+abstract	r1030
+abstract	r1043
+abstract	r1044
+abstract	r1045
+abstract	r1088
+abstract	r1106
+abstract	r1116
+abstract	r1143
+abstract	r1144
+abstract	r1162
+abstract	r1421
+abstract	r1423
+abstract	r1492
+abstract	r1493
+abstract	r1495
+abstract	r1497
+abstract	r1498
+abstract	r1499
+abstract	r1500
+abstract	r1501
+abstract	r1502
+abstract	r1503
+abstract	r1512
+abstract	r1514
+abstract	r1515
+abstract	r1516
+abstract	r1517
+abstract	r1518
+abstract	r1519
+abstract	r1520
+abstract	r1521
+abstract	r1522
+abstract	r1523
+abstract	r1525
+abstract	r1526
+abstract	r1527
+abstract	r1528
+abstract	r1529
+abstract	r1530
+abstract	r1531
+abstract	r1532
+abstract	r1533
+abstract	r1536
+abstract	r1538
+abstract	r1544
+abstract	r1546
+abstract	r1547
+abstract	r1548
+abstract	r1549
+abstract	r1551
+abstract	r1552
+abstract	r1553
+abstract	r1554
+abstract	r1556
+abstract	r1557
+abstract	r1559
+abstract	r1560
+abstract	r1561
+abstract	r1562
+abstract	r1563
+abstract	r1564
+abstract	r1565
+abstract	r1566
+abstract	r1567
+abstract	r1568
+abstract	r1569
+abstract	r1570
+abstract	r1571
+abstract	r1573
+abstract	r1574
+abstract	r1575
+abstract	r1576
+abstract	r1578
+abstract	r1579
+abstract	r1580
+abstract	r1581
+abstract	r1583
+abstract	r1584
+abstract	r1585
+abstract	r1586
+abstract	r1587
+abstract	r1588
+abstract	r1589
+abstract	r1590
+abstract	r1591
+abstract	r1592
+abstract	r1593
+abstract	r1594
+abstract	r1595
+abstract	r1596
+abstract	r1597
+abstract	r1598
+abstract	r1599
+abstract	r1600
+abstract	r1602
+abstract	r1603
+abstract	r1604
+abstract	r1605
+abstract	r1606
+abstract	r1607
+abstract	r1608
+abstract	r1609
+abstract	r1610
+abstract	r1611
+abstract	r1612
+abstract	r1613
+abstract	r1614
+abstract	r1615
+abstract	r1616
+abstract	r1617
+abstract	r1621
+abstract	r1625
+abstract	r1627
+abstract	r1628
+abstract	r1629
+abstract	r1630
+abstract	r1631
+abstract	r1632
+abstract	r1633
+abstract	r1634
+abstract	r1635
+abstract	r1636
+abstract	r1637
+abstract	r1638
+abstract	r1639
+abstract	r1640
+abstract	r1641
+abstract	r1642
+abstract	r1643
+abstract	r1645
+abstract	r1646
+abstract	r1648
+abstract	r1649
+abstract	r1650
+abstract	r1651
+abstract	r1652
+abstract	r1653
+abstract	r1654
+abstract	r1655
+abstract	r1656
+abstract	r1657
+abstract	r1658
+abstract	r1659
+abstract	r1660
+abstract	r1661
+abstract	r1662
+abstract	r1664
+abstract	r1665
+abstract	r1666
+abstract	r1667
+abstract	r1668
+abstract	r1669
+abstract	r1670
+abstract	r1671
+abstract	r1672
+abstract	r1673
+abstract	r1674
+abstract	r1675
+abstract	r1676
+abstract	r1677
+abstract	r1678
+abstract	r1679
+abstract	r1680
+abstract	r1681
+abstract	r1682
+abstract	r1683
+abstract	r1684
+abstract	r1685
+abstract	r1686
+abstract	r1687
+abstract	r1690
+abstract	r1691
+abstract	r1692
+abstract	r1693
+abstract	r1695
+abstract	r1696
+abstract	r1698
+abstract	r1700
+abstract	r1701
+abstract	r1702
+abstract	r1705
+abstract	r1706
+abstract	r1707
+abstract	r1708
+abstract	r1710
+abstract	r1711
+abstract	r1713
+abstract	r1715
+abstract	r1716
+abstract	r1717
+abstract	r1720
+abstract	r1721
+abstract	r1722
+abstract	r1723
+abstract	r1725
+abstract	r1726
+abstract	r1728
+abstract	r1730
+abstract	r1731
+abstract	r1732
+abstract	r1733
+abstract	r1734
+abstract	r1735
+abstract	r1736
+abstract	r1737
+abstract	r1738
+abstract	r1739
+abstract	r1740
+abstract	r1741
+abstract	r1742
+abstract	r1743
+abstract	r1744
+abstract	r1745
+abstract	r1746
+abstract	r1747
+abstract	r1748
+abstract	r1749
+abstract	r1750
+abstract	r1751
+abstract	r1752
+abstract	r1753
+abstract	r1754
+abstract	r1755
+abstract	r1756
+abstract	r1757
+abstract	r1758
+abstract	r1759
+abstract	r1760
+abstract	r1761
+abstract	r1762
+abstract	r1763
+abstract	r1764
+abstract	r1765
+abstract	r1766
+abstract	r1767
+abstract	r1768
+abstract	r1769
+abstract	r1770
+abstract	r1771
+abstract	r1772
+abstract	r1773
+abstract	r1774
+abstract	r1775
+abstract	r1776
+abstract	r1777
+abstract	r1778
+abstract	r1779
+abstract	r1780
+abstract	r1781
+abstract	r1782
+abstract	r1783
+abstract	r1784
+abstract	r1785
+abstract	r1786
+abstract	r1787
+abstract	r1788
+abstract	r1789
+abstract	r1790
+abstract	r1791
+abstract	r1792
+abstract	r1796
+abstract	r1797
+abstract	r1798
+abstract	r1799
+abstract	r1800
+abstract	r1801
+abstract	r1803
+abstract	r1805
+abstract	r1806
+abstract	r1807
+abstract	r1808
+abstract	r1809
+abstract	r1810
+abstract	r1811
+abstract	r1812
+abstract	r1813
+abstract	r1814
+abstract	r1815
+abstract	r1816
+abstract	r1817
+abstract	r1818
+abstract	r1819
+abstract	r1820
+abstract	r1821
+abstract	r1822
+abstract	r1823
+abstract	r1824
+abstract	r1825
+abstract	r1826
+abstract	r1827
+abstract	r1828
+abstract	r1829
+abstract	r1830
+abstract	r1831
+abstract	r1832
+abstract	r1833
+abstract	r1834
+abstract	r1835
+abstract	r1836
+abstract	r1837
+abstract	r1841
+abstract	r1842
+abstract	r1843
+abstract	r1844
+abstract	r1846
+abstract	r1847
+abstract	r1848
+abstract	r1850
+abstract	r1851
+abstract	r1852
+abstract	r1853
+abstract	r1854
+abstract	r1855
+abstract	r1856
+abstract	r1857
+abstract	r1858
+abstract	r1859
+abstract	r1860
+abstract	r1861
+abstract	r1862
+abstract	r1863
+abstract	r1864
+abstract	r1865
+abstract	r1866
+abstract	r1867
+abstract	r1871
+abstract	r1872
+abstract	r1873
+abstract	r1874
+abstract	r1876
+abstract	r1877
+abstract	r1879
+abstract	r1880
+abstract	r1881
+abstract	r1882
+abstract	r1883
+abstract	r1884
+abstract	r1885
+abstract	r1886
+abstract	r1887
+abstract	r1888
+abstract	r1889
+abstract	r1890
+abstract	r1891
+abstract	r1892
+abstract	r1893
+abstract	r1894
+abstract	r1895
+abstract	r1896
+abstract	r1897
+abstract	r1898
+abstract	r1899
+abstract	r1900
+abstract	r1901
+abstract	r1902
+abstract	r1903
+abstract	r1904
+abstract	r1905
+abstract	r1906
+abstract	r1907
+abstract	r1908
+abstract	r1909
+abstract	r1910
+abstract	r1911
+abstract	r1912
+abstract	r1913
+abstract	r1914
+abstract	r1915
+abstract	r1916
+abstract	r1917
+abstract	r1918
+abstract	r1919
+abstract	r1920
+abstract	r1921
+abstract	r1922
+abstract	r1923
+abstract	r1924
+abstract	r1925
+abstract	r1926
+abstract	r1928
+abstract	r1929
+abstract	r1930
+abstract	r1931
+abstract	r1932
+abstract	r1933
+abstract	r1934
+abstract	r1935
+abstract	r1936
+abstract	r1937
+abstract	r1938
+abstract	r1939
+abstract	r1940
+abstract	r1941
+abstract	r1942
+abstract	r1943
+abstract	r1944
+abstract	r1945
+abstract	r1946
+abstract	r1947
+abstract	r1948
+abstract	r1949
+abstract	r1950
+abstract	r1951
+abstract	r1952
+abstract	r1953
+abstract	r1954
+abstract	r1955
+abstract	r1956
+abstract	r1957
+abstract	r1958
+abstract	r1959
+abstract	r1960
+abstract	r1961
+abstract	r1962
+abstract	r1963
+abstract	r1964
+abstract	r1965
+abstract	r1966
+abstract	r1967
+abstract	r1968
+abstract	r1969
+abstract	r1970
+abstract	r1971
+abstract	r1972
+abstract	r1973
+abstract	r1974
+abstract	r1975
+abstract	r1976
+abstract	r1977
+abstract	r1978
+abstract	r1979
+abstract	r1980
+abstract	r1981
+abstract	r1982
+abstract	r1983
+abstract	r1984
+abstract	r1985
+abstract	r1986
+abstract	r1987
+abstract	r1988
+abstract	r1989
+abstract	r1990
+abstract	r1991
+abstract	r1992
+abstract	r1993
+abstract	r1994
+abstract	r1995
+abstract	r1996
+abstract	r1997
+abstract	r1998
+abstract	r1999
+abstract	r2000
+abstract	r2001
+abstract	r2002
+abstract	r2003
+abstract	r2004
+abstract	r2005
+abstract	r2006
+abstract	r2007
+abstract	r2008
+abstract	r2009
+abstract	r2010
+abstract	r2011
+abstract	r2012
+abstract	r2013
+abstract	r2014
+abstract	r2015
+abstract	r2016
+abstract	r2017
+abstract	r2018
+abstract	r2019
+abstract	r2020
+abstract	r2021
+abstract	r2022
+abstract	r2023
+abstract	r2024
+abstract	r2026
+abstract	r2027
+abstract	r2028
+abstract	r2029
+abstract	r2030
+abstract	r2031
+abstract	r2032
+abstract	r2034
+abstract	r2035
+abstract	r2036
+abstract	r2037
+abstract	r2038
+abstract	r2039
+abstract	r2040
+abstract	r2041
+abstract	r2042
+abstract	r2043
+abstract	r2044
+abstract	r2045
+abstract	r2046
+abstract	r2047
+abstract	r2048
+abstract	r2049
+abstract	r2050
+abstract	r2051
+abstract	r2052
+abstract	r2053
+abstract	r2054
+abstract	r2055
+abstract	r2056
+abstract	r2057
+abstract	r2058
+abstract	r2059
+abstract	r2060
+abstract	r2061
+abstract	r2062
+abstract	r2063
+abstract	r2064
+abstract	r2065
+abstract	r2066
+abstract	r2067
+abstract	r2068
+abstract	r2069
+abstract	r2070
+abstract	r2071
+abstract	r2073
+abstract	r2079
+abstract	r2080
+abstract	r2081
+abstract	r2082
+abstract	r2083
+abstract	r2084
+abstract	r2085
+abstract	r2086
+abstract	r2087
+abstract	r2088
+abstract	r2089
+abstract	r2090
+abstract	r2091
+abstract	r2092
+abstract	r2093
+abstract	r2094
+abstract	r2095
+abstract	r2096
+abstract	r2097
+abstract	r2098
+abstract	r2099
+abstract	r2100
+abstract	r2101
+abstract	r2102
+abstract	r2103
+abstract	r2104
+abstract	r2105
+abstract	r2106
+abstract	r2107
+abstract	r2108
+abstract	r2109
+abstract	r2110
+abstract	r2111
+abstract	r2112
+abstract	r2113
+abstract	r2114
+abstract	r2115
+abstract	r2116
+abstract	r2117
+abstract	r2118
+abstract	r2119
+abstract	r2120
+abstract	r2121
+abstract	r2122
+abstract	r2123
+abstract	r2124
+abstract	r2125
+abstract	r2126
+abstract	r2127
+abstract	r2128
+abstract	r2129
+abstract	r2130
+abstract	r2131
+abstract	r2132
+abstract	r2133
+abstract	r2136
+abstract	r2139
+abstract	r2140
+abstract	r2141
+abstract	r2142
+abstract	r2143
+abstract	r2144
+abstract	r2145
+abstract	r2146
+abstract	r2147
+abstract	r2148
+abstract	r2149
+abstract	r2150
+abstract	r2151
+abstract	r2152
+abstract	r2153
+abstract	r2154
+abstract	r2155
+abstract	r2156
+abstract	r2157
+abstract	r2158
+abstract	r2159
+abstract	r2160
+abstract	r2161
+abstract	r2162
+abstract	r2163
+abstract	r2164
+abstract	r2165
+abstract	r2166
+abstract	r2167
+abstract	r2168
+abstract	r2169
+abstract	r2170
+abstract	r2171
+abstract	r2172
+abstract	r2173
+abstract	r2174
+abstract	r2175
+abstract	r2176
+abstract	r2177
+abstract	r2178
+abstract	r2179
+abstract	r2180
+abstract	r2181
+abstract	r2182
+abstract	r2183
+abstract	r2184
+abstract	r2185
+abstract	r2186
+abstract	r2187
+abstract	r2188
+abstract	r2189
+abstract	r2190
+abstract	r2191
+abstract	r2192
+abstract	r2193
+abstract	r2194
+abstract	r2195
+abstract	r2196
+abstract	r2197
+abstract	r2198
+abstract	r2199
+abstract	r2200
+abstract	r2201
+abstract	r2202
+abstract	r2203
+abstract	r2204
+abstract	r2205
+abstract	r2206
+abstract	r2207
+abstract	r2208
+abstract	r2209
+abstract	r2210
+abstract	r2211
+abstract	r2212
+abstract	r2213
+abstract	r2214
+abstract	r2215
+abstract	r2216
+abstract	r2217
+abstract	r2218
+abstract	r2219
+abstract	r2220
+abstract	r2221
+abstract	r2222
+abstract	r2223
+abstract	r2224
+abstract	r2225
+abstract	r2226
+abstract	r2227
+abstract	r2228
+abstract	r2229
+abstract	r2230
+abstract	r2231
+abstract	r2232
+abstract	r2233
+abstract	r2234
+abstract	r2235
+abstract	r2236
+abstract	r2237
+abstract	r2238
+abstract	r2239
+abstract	r2240
+abstract	r2241
+abstract	r2242
+abstract	r2243
+abstract	r2244
+abstract	r2245
+abstract	r2246
+abstract	r2247
+abstract	r2248
+abstract	r2249
+abstract	r2250
+abstract	r2251
+abstract	r2252
+abstract	r2253
+abstract	r2254
+abstract	r2255
+abstract	r2256
+abstract	r2257
+abstract	r2258
+abstract	r2259
+abstract	r2260
+abstract	r2261
+abstract	r2262
+abstract	r2263
+abstract	r2264
+abstract	r2265
+abstract	r2266
+abstract	r2267
+abstract	r2268
+abstract	r2269
+abstract	r2270
+abstract	r2271
+abstract	r2272
+abstract	r2273
+abstract	r2274
+abstract	r2275
+abstract	r2276
+abstract	r2277
+abstract	r2278
+abstract	r2279
+abstract	r2280
+abstract	r2281
+abstract	r2282
+abstract	r2283
+abstract	r2284
+abstract	r2285
+abstract	r2286
+abstract	r2287
+abstract	r2288
+abstract	r2289
+abstract	r2290
+abstract	r2291
+abstract	r2292
+abstract	r2293
+abstract	r2294
+abstract	r2295
+abstract	r2296
+abstract	r2297
+abstract	r2298
+abstract	r2299
+abstract	r2300
+abstract	r2301
+abstract	r2302
+abstract	r2303
+abstract	r2304
+abstract	r2305
+abstract	r2306
+abstract	r2307
+abstract	r2308
+abstract	r2309
+abstract	r2310
+abstract	r2311
+abstract	r2312
+abstract	r2313
+abstract	r2314
+abstract	r2315
+abstract	r2316
+abstract	r2317
+abstract	r2318
+abstract	r2319
+abstract	r2320
+abstract	r2321
+abstract	r2322
+abstract	r2323
+abstract	r2324
+abstract	r2325
+abstract	r2326
+abstract	r2327
+abstract	r2328
+abstract	r2329
+abstract	r2330
+abstract	r2331
+abstract	r2332
+abstract	r2333
+abstract	r2334
+abstract	r2335
+abstract	r2338
+abstract	r2341
+abstract	r2342
+abstract	r2343
+abstract	r2344
+abstract	r2346
+abstract	r2347
+abstract	r2352
+abstract	r2353
+abstract	r2354
+abstract	r2355
+abstract	r2356
+abstract	r2357
+abstract	r2358
+abstract	r2359
+abstract	r2360
+abstract	r2361
+abstract	r2362
+abstract	r2363
+abstract	r2364
+abstract	r2365
+abstract	r2366
+abstract	r2367
+abstract	r2368
+abstract	r2369
+abstract	r2370
+abstract	r2444
+abstract	r2447
+abstract	r2449
+abstract	r2465
+abstract	r2471
+abstract	r2482
+abstract	r2483
+abstract	r2484
+abstract	r2485
+abstract	r2486
+abstract	r2487
+abstract	r2488
+abstract	r2489
+abstract	r2490
+abstract	r2491
+abstract	r2492
+abstract	r2493
+abstract	r2494
+abstract	r2495
+abstract	r2496
+abstract	r2525
+abstract	r2526
+abstract	r2532
+abstract	r2534
+abstract	r2535
+abstract	CITt4_4
+abstract	GLYt7_311_r
+abstract	HCO3_NAt
+abstract	INSTt4_2
+abstract	PIt8
+abstract	PIt9
+abstract	PROt4_2_r
+abstract	34DHPHELAT1tc
+abstract	4OHPROIMINOtc
+abstract	ALAALAPEPT1tc
+abstract	ALAATB0tc
+abstract	ALAyLATthc
+abstract	ARGATB0tc
+abstract	ASCBSVCTtc
+abstract	ASNATB0tc
+abstract	ASNPHELAT2tc
+abstract	BALABETAtc
+abstract	BALAPAT1tc
+abstract	BTNTe
+abstract	CARPEPT1tc
+abstract	CBLtle
+abstract	CHOLESTTDe
+abstract	CYSATB0tc
+abstract	CYSPHELAT2tc
+abstract	CYSSNAT5tc
+abstract	CYSTALArBATtc
+abstract	CYSTLEUrBATtc
+abstract	FOLTle
+abstract	GALSGLT1le
+abstract	GLCSGLT1le
+abstract	GLNATB0tc
+abstract	GLNyLATthc
+abstract	GLYGLYPEPT1tc
+abstract	GLYLEUPEPT1tc
+abstract	GLYPHEPEPT1tc
+abstract	GLYPROPEPT1tc
+abstract	GLYSARPEPT1tc
+abstract	GLYSNAT5tc
+abstract	HISyLATtc
+abstract	HISyLATthc
+abstract	ILEATB0tc
+abstract	ILELAT1tc
+abstract	ILEPHELAT2tc
+abstract	LEUATB0tc
+abstract	LEUGLYPEPT1tc
+abstract	LEULEUPEPT1tc
+abstract	LEUPHELAT2tc
+abstract	LEUyLAThtc
+abstract	LINOFATPtc
+abstract	LYSATB0tc
+abstract	METATB0tc
+abstract	METyLATthc
+abstract	MTHFTe
+abstract	NACDe
+abstract	NACHORCTL3le
+abstract	NCAMDe
+abstract	ORNALArBATtc
+abstract	ORNLEUrBATtc
+abstract	PCHOLHSTDe
+abstract	PHEATB0tc
+abstract	PHEyLATthc
+abstract	PNTORDe
+abstract	PROGLYPEPT1tc
+abstract	PROIMINOtc
+abstract	RIBFLVte
+abstract	SBTle
+abstract	SERATB0tc
+abstract	TAGHSTDe
+abstract	TAUBETAtc
+abstract	TAUPAT1c
+abstract	THMATPe
+abstract	THRATB0tc
+abstract	THRPHELAT2tc
+abstract	TRPATB0tc
+abstract	TYRATB0tc
+abstract	TYRPHELAT2tc
+abstract	VALATB0tc
+abstract	VALLAT1tc
+abstract	VALPHELAT2tc
+abstract	VITEtl
+abstract	VITKtl
+abstract	XOLEST2HSTDle
+abstract	3HCO3_NAt
+abstract	4HPROLTASCT1
+abstract	5MTHFt2le
+abstract	ADNt5le
+abstract	ALA_DASH_DTDe
+abstract	ASPDTDe
+abstract	ASPPROASCT1
+abstract	ASPte
+abstract	CYTDt5le
+abstract	Coqe
+abstract	FE2DMT1
+abstract	FE3MTP1
+abstract	FOLt2le
+abstract	GLCGLUT2
+abstract	GLUPROASCT1
+abstract	GLYCTDle
+abstract	GSNt5le
+abstract	INSt5le
+abstract	KHte
+abstract	NODe
+abstract	PHEMEe
+abstract	PRO_Dtde
+abstract	PTCRTD
+abstract	Q10H2e
+abstract	RTOTALFATPc
+abstract	SFCYSe
+abstract	SPMTDe
+abstract	SPRMTDe
+abstract	TAURCHAe
+abstract	THMDt5le
+abstract	URIt5le
+abstract	34HPPte
+abstract	3MOBte
+abstract	3MOPte
+abstract	4HPRO_LTte
+abstract	4MOPte
+abstract	5MTAte
+abstract	5OXPROt
+abstract	AHCYSte
+abstract	AICARte
+abstract	ANTHte
+abstract	CBASPte
+abstract	MAL_Lte
+abstract	OROTGLUt
+abstract	IDOURte
+abstract	HC00342te
+abstract	glyc3pte
+h2o_c	ALAALACNc	-a>
+ala_L_c	ALAALACNc	-a>
+alaala_c	ALAALACNc	-a>
+glygly_c	GLYGLYCNc	-a>
+h2o_c	GLYGLYCNc	-a>
+gly_c	GLYGLYCNc	-a>
+gly_c	GLYLEUHYDROc	-a>
+h2o_c	GLYLEUHYDROc	-a>
+glyleu_c	GLYLEUHYDROc	-a>
+leu_L_c	GLYLEUHYDROc	-a>
+glypro_c	GLYPROPRO1c	-a>
+gly_c	GLYPROPRO1c	-a>
+h2o_c	GLYPROPRO1c	-a>
+pro_L_c	GLYPROPRO1c	-a>
+sarcs_c	GLYSARCNc	-a>
+h2o_c	GLYSARCNc	-a>
+gly_c	GLYSARCNc	-a>
+glysar_c	GLYSARCNc	-a>
+h2o_c	LEULEULAPc	-a>
+leu_L_c	LEULEULAPc	-a>
+leuleu_c	LEULEULAPc	-a>
+h2o_c	PROGLYPRO1c	-a>
+gly_c	PROGLYPRO1c	-a>
+pro_L_c	PROGLYPRO1c	-a>
+progly_c	PROGLYPRO1c	-a>
+h_e	CHOLESTle	-a>
+Rtotal_e	CHOLESTle	-a>
+chsterol_e	CHOLESTle	-a>
+xolest2_hs_e	CHOLESTle	-a>
+h2o_e	CHOLESTle	-a>
+h_e	CYSAMOe	-a>
+o2_e	CYSAMOe	-a>
+cysam_e	CYSAMOe	-a>
+hyptaur_e	CYSAMOe	-a>
+fmn_e	FMNALKPle	-a>
+pi_e	FMNALKPle	-a>
+ribflv_e	FMNALKPle	-a>
+h2o_e	FMNALKPle	-a>
+h2o_c	LEUGLYHYc	-a>
+leugly_c	LEUGLYHYc	-a>
+gly_c	LEUGLYHYc	-a>
+leu_L_c	LEUGLYHYc	-a>
+ptth_e	PNTEHe	-a>
+pnto_R_e	PNTEHe	-a>
+cysam_e	PNTEHe	-a>
+h2o_e	PNTEHe	-a>
+nad_c	PRO1x	-a>
+1pyr5c_c	PRO1x	-a>
+h_c	PRO1x	-a>
+pro_L_c	PRO1x	-a>
+nadh_c	PRO1x	-a>
+dpcoa_e	PTPATe	-a>
+h_e	PTPATe	-a>
+pan4p_e	PTPATe	-a>
+ppi_e	PTPATe	-a>
+atp_e	PTPATe	-a>
+h2o_c	1MNCAMti	-a>
+h_c	1MNCAMti	-a>
+pi_c	1MNCAMti	-a>
+1mncam_c	1MNCAMti	-a>
+atp_c	1MNCAMti	-a>
+1mncam_e	1MNCAMti	-a>
+adp_c	1MNCAMti	-a>
+2425dhvitd2_c	24_25DHVITD2t	-a>
+2425dhvitd2_e	24_25DHVITD2t	-a>
+2425dhvitd3_e	24_25DHVITD3t	-a>
+2425dhvitd3_c	24_25DHVITD3t	-a>
+24nph_e	24NPHte	-a>
+24nph_c	24NPHte	-a>
+25hvitd2_c	25HVITD2tin	-a>
+25hvitd2_e	25HVITD2tin	-a>
+25hvitd3_c	25HVITD3tin	-a>
+25hvitd3_e	25HVITD3tin	-a>
+h_e	2HBt2	-a>
+2hb_c	2HBt2	-a>
+2hb_e	2HBt2	-a>
+h_c	2HBt2	-a>
+na1_c	2HCO3_NAt	-a>
+hco3_c	2HCO3_NAt	-a>
+na1_e	2HCO3_NAt	-a>
+hco3_e	2HCO3_NAt	-a>
+2mcit_e	2MCITt	-a>
+2mcit_c	2MCITt	-a>
+34dhoxpeg_c	34DHOXPEGt	-a>
+34dhoxpeg_e	34DHOXPEGt	-a>
+34dhphe_c	34DHPHEt	-a>
+34dhphe_e	34DHPHEt	-a>
+3aib_e	3AIBt	-a>
+3aib_c	3AIBt	-a>
+3mlda_e	3MLDAt	-a>
+3mlda_c	3MLDAt	-a>
+4hdebrisoquine_c	4HDEBRISOQUINEte	-a>
+4hdebrisoquine_e	4HDEBRISOQUINEte	-a>
+4mptnl_c	4MPTNLte	-a>
+4mptnl_e	4MPTNLte	-a>
+4mtolbutamide_c	4MTOLBUTAMIDEte	-a>
+4mtolbutamide_e	4MTOLBUTAMIDEte	-a>
+4nphsf_e	4NPHSFte	-a>
+4nphsf_c	4NPHSFte	-a>
+4nph_e	4NPHte	-a>
+4nph_c	4NPHte	-a>
+h2o_c	4PYRDX	-a>
+h_c	4PYRDX	-a>
+pi_c	4PYRDX	-a>
+atp_c	4PYRDX	-a>
+4pyrdx_c	4PYRDX	-a>
+4pyrdx_e	4PYRDX	-a>
+adp_c	4PYRDX	-a>
+h2o_c	5ADTSTSTERONEGLCte	-a>
+h_c	5ADTSTSTERONEGLCte	-a>
+5adtststeroneglc_c	5ADTSTSTERONEGLCte	-a>
+5adtststeroneglc_e	5ADTSTSTERONEGLCte	-a>
+pi_c	5ADTSTSTERONEGLCte	-a>
+atp_c	5ADTSTSTERONEGLCte	-a>
+adp_c	5ADTSTSTERONEGLCte	-a>
+5adtststerones_e	5ADTSTSTERONESte	-a>
+5adtststerones_c	5ADTSTSTERONESte	-a>
+5adtststerone_e	5ADTSTSTERONEte	-a>
+5adtststerone_c	5ADTSTSTERONEte	-a>
+h2o_c	5FTHFt2	-a>
+5fthf_c	5FTHFt2	-a>
+5fthf_e	5FTHFt2	-a>
+h2o_e	5FTHFt2	-a>
+5homeprazole_c	5HOMEPRAZOLEte	-a>
+5homeprazole_e	5HOMEPRAZOLEte	-a>
+h2o_c	5HTRPVESSEC	-a>
+h_c	5HTRPVESSEC	-a>
+5htrp_c	5HTRPVESSEC	-a>
+pi_c	5HTRPVESSEC	-a>
+atp_c	5HTRPVESSEC	-a>
+5htrp_e	5HTRPVESSEC	-a>
+adp_c	5HTRPVESSEC	-a>
+5mthf_c	5MTHFt2	-a>
+h2o_c	5MTHFt2	-a>
+5mthf_e	5MTHFt2	-a>
+h2o_e	5MTHFt2	-a>
+6htststerone_e	6HTSTSTERONEte	-a>
+6htststerone_c	6HTSTSTERONEte	-a>
+abt_e	ABTti	-a>
+abt_c	ABTti	-a>
+h_e	ABUTt2r	-a>
+4abut_e	ABUTt2r	-a>
+h_c	ABUTt2r	-a>
+4abut_c	ABUTt2r	-a>
+na1_c	ABUTt4_2_r	-a>
+4abut_e	ABUTt4_2_r	-a>
+na1_e	ABUTt4_2_r	-a>
+4abut_c	ABUTt4_2_r	-a>
+h_e	ACACt2	-a>
+acac_c	ACACt2	-a>
+h_c	ACACt2	-a>
+acac_e	ACACt2	-a>
+acald_e	ACALDt	-a>
+acald_c	ACALDt	-a>
+accoa_g	ACCOAgt	-a>
+accoa_c	ACCOAgt	-a>
+h_e	ACETONEt2	-a>
+acetone_e	ACETONEt2	-a>
+h_c	ACETONEt2	-a>
+acetone_c	ACETONEt2	-a>
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_c	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEte	-a>
+acgalfucgalacgalfuc12gal14acglcgalgluside_hs_e	ACGALFUCGALACGALFUC12GAL14ACGLCGALGLUSIDEte	-a>
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_e	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+acgalfucgalacgalfucgalacglcgal14acglcgalgluside_hs_c	ACGALFUCGALACGALFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+h2o_c	ACHVESSEC	-a>
+h_c	ACHVESSEC	-a>
+ach_e	ACHVESSEC	-a>
+pi_c	ACHVESSEC	-a>
+atp_c	ACHVESSEC	-a>
+adp_c	ACHVESSEC	-a>
+ach_c	ACHVESSEC	-a>
+acn13acngalgbside_hs_e	ACN13ACNGALGBSIDEte	-a>
+acn13acngalgbside_hs_c	ACN13ACNGALGBSIDEte	-a>
+acn23acngalgbside_hs_c	ACN23ACNGALGBSIDEte	-a>
+acn23acngalgbside_hs_e	ACN23ACNGALGBSIDEte	-a>
+acnacngal14acglcgalgluside_hs_c	ACNACNGAL14ACGLCGALGLUSIDEte	-a>
+acnacngal14acglcgalgluside_hs_e	ACNACNGAL14ACGLCGALGLUSIDEte	-a>
+acnacngalgbside_hs_e	ACNACNGALGBSIDEte	-a>
+acnacngalgbside_hs_c	ACNACNGALGBSIDEte	-a>
+acngalacglcgal14acglcgalgluside_hs_e	ACNGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+acngalacglcgal14acglcgalgluside_hs_c	ACNGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+h_e	ACt2r	-a>
+ac_c	ACt2r	-a>
+ac_e	ACt2r	-a>
+h_c	ACt2r	-a>
+ade_c	ADEt	-a>
+ade_e	ADEt	-a>
+adn_e	ADNt	-a>
+adn_c	ADNt	-a>
+adn_e	ADNt4	-a>
+na1_c	ADNt4	-a>
+na1_e	ADNt4	-a>
+adn_c	ADNt4	-a>
+adprib_e	ADPRIBt	-a>
+adprib_c	ADPRIBt	-a>
+h2o_c	ADRNLPVESSEC	-a>
+h_c	ADRNLPVESSEC	-a>
+pi_c	ADRNLPVESSEC	-a>
+atp_c	ADRNLPVESSEC	-a>
+adrnl_c	ADRNLPVESSEC	-a>
+adp_c	ADRNLPVESSEC	-a>
+adrnl_e	ADRNLPVESSEC	-a>
+adrn_c	ADRNt	-a>
+adrn_e	ADRNt	-a>
+aflatoxin_e	AFLATOXINte	-a>
+aflatoxin_c	AFLATOXINte	-a>
+h2o_c	AHANDROSTANGLCte	-a>
+ahandrostanglc_c	AHANDROSTANGLCte	-a>
+h_c	AHANDROSTANGLCte	-a>
+ahandrostanglc_e	AHANDROSTANGLCte	-a>
+pi_c	AHANDROSTANGLCte	-a>
+atp_c	AHANDROSTANGLCte	-a>
+adp_c	AHANDROSTANGLCte	-a>
+ak2lgchol_hs_e	AK2LGCHOLt	-a>
+ak2lgchol_hs_c	AK2LGCHOLt	-a>
+na1_c	AKGt4_3	-a>
+akg_e	AKGt4_3	-a>
+na1_e	AKGt4_3	-a>
+akg_c	AKGt4_3	-a>
+ala_L_c	ALAASNNaEx	-a>
+ala_L_e	ALAASNNaEx	-a>
+asn_L_e	ALAASNNaEx	-a>
+na1_c	ALAASNNaEx	-a>
+na1_e	ALAASNNaEx	-a>
+asn_L_c	ALAASNNaEx	-a>
+ala_L_c	ALACYSNaEx	-a>
+ala_L_e	ALACYSNaEx	-a>
+na1_c	ALACYSNaEx	-a>
+cys_L_c	ALACYSNaEx	-a>
+na1_e	ALACYSNaEx	-a>
+cys_L_e	ALACYSNaEx	-a>
+ala_D_e	ALADGLNexR	-a>
+gln_L_e	ALADGLNexR	-a>
+gln_L_c	ALADGLNexR	-a>
+ala_D_c	ALADGLNexR	-a>
+ala_D_e	ALADGLYexR	-a>
+gly_e	ALADGLYexR	-a>
+gly_c	ALADGLYexR	-a>
+ala_D_c	ALADGLYexR	-a>
+gln_L_e	ALAGLNexR	-a>
+ala_L_c	ALAGLNexR	-a>
+gln_L_c	ALAGLNexR	-a>
+ala_L_e	ALAGLNexR	-a>
+gln_L_e	ALAGLNNaEx	-a>
+ala_L_c	ALAGLNNaEx	-a>
+ala_L_e	ALAGLNNaEx	-a>
+na1_c	ALAGLNNaEx	-a>
+na1_e	ALAGLNNaEx	-a>
+gln_L_c	ALAGLNNaEx	-a>
+gly_e	ALAGLYexR	-a>
+ala_L_c	ALAGLYexR	-a>
+gly_c	ALAGLYexR	-a>
+ala_L_e	ALAGLYexR	-a>
+ala_L_c	ALASERNaEx	-a>
+ala_L_e	ALASERNaEx	-a>
+na1_c	ALASERNaEx	-a>
+ser_L_c	ALASERNaEx	-a>
+na1_e	ALASERNaEx	-a>
+ser_L_e	ALASERNaEx	-a>
+h_e	ALAt2r	-a>
+ala_L_c	ALAt2r	-a>
+h_c	ALAt2r	-a>
+ala_L_e	ALAt2r	-a>
+na1_c	ALAt4	-a>
+na1_e	ALAt4	-a>
+ala_L_c	ALAt4	-a>
+ala_L_e	ALAt4	-a>
+thr_L_e	ALATHRNaEx	-a>
+ala_L_c	ALATHRNaEx	-a>
+thr_L_c	ALATHRNaEx	-a>
+ala_L_e	ALATHRNaEx	-a>
+na1_c	ALATHRNaEx	-a>
+na1_e	ALATHRNaEx	-a>
+h_e	ALAtN1	-a>
+ala_L_c	ALAtN1	-a>
+h_c	ALAtN1	-a>
+ala_L_e	ALAtN1	-a>
+na1_c	ALAtN1	-a>
+na1_e	ALAtN1	-a>
+aldstrn_c	ALDSTRNte	-a>
+aldstrn_e	ALDSTRNte	-a>
+h2o_c	ANDRSTRNGLCte	-a>
+h_c	ANDRSTRNGLCte	-a>
+andrstrnglc_c	ANDRSTRNGLCte	-a>
+pi_c	ANDRSTRNGLCte	-a>
+atp_c	ANDRSTRNGLCte	-a>
+andrstrnglc_e	ANDRSTRNGLCte	-a>
+adp_c	ANDRSTRNGLCte	-a>
+andrstrn_c	ANDRSTRNte	-a>
+andrstrn_e	ANDRSTRNte	-a>
+antipyrene_c	ANTIPYRENEte	-a>
+antipyrene_e	ANTIPYRENEte	-a>
+apnnox_c	APNNOXte	-a>
+apnnox_e	APNNOXte	-a>
+appnn_c	APPNNte	-a>
+appnn_e	APPNNte	-a>
+aprgstrn_c	APRGSTRNte	-a>
+aprgstrn_e	APRGSTRNte	-a>
+aqcobal_c	AQCOBALt	-a>
+aqcobal_e	AQCOBALt	-a>
+arab_L_c	ARAB_Lt	-a>
+arab_L_e	ARAB_Lt	-a>
+arachd_c	ARACHDt2	-a>
+arachd_e	ARACHDt2	-a>
+arach_e	ARACHt	-a>
+arach_c	ARACHt	-a>
+lys_L_c	ARGLYSex	-a>
+arg_L_c	ARGLYSex	-a>
+lys_L_e	ARGLYSex	-a>
+arg_L_e	ARGLYSex	-a>
+na1_c	ARGt4	-a>
+na1_e	ARGt4	-a>
+arg_L_c	ARGt4	-a>
+arg_L_e	ARGt4	-a>
+arg_L_c	ARGtiDF	-a>
+arg_L_e	ARGtiDF	-a>
+ascb_L_e	ASCBt	-a>
+ascb_L_c	ASCBt	-a>
+ascb_L_e	ASCBt4	-a>
+na1_c	ASCBt4	-a>
+na1_e	ASCBt4	-a>
+ascb_L_c	ASCBt4	-a>
+ala_L_c	ASNALANaEx	-a>
+ala_L_e	ASNALANaEx	-a>
+asn_L_e	ASNALANaEx	-a>
+na1_c	ASNALANaEx	-a>
+na1_e	ASNALANaEx	-a>
+asn_L_c	ASNALANaEx	-a>
+asn_L_c	ASNCYSNaEx	-a>
+asn_L_e	ASNCYSNaEx	-a>
+na1_c	ASNCYSNaEx	-a>
+cys_L_c	ASNCYSNaEx	-a>
+na1_e	ASNCYSNaEx	-a>
+cys_L_e	ASNCYSNaEx	-a>
+gln_L_e	ASNGLNNaEx	-a>
+asn_L_c	ASNGLNNaEx	-a>
+asn_L_e	ASNGLNNaEx	-a>
+na1_c	ASNGLNNaEx	-a>
+na1_e	ASNGLNNaEx	-a>
+gln_L_c	ASNGLNNaEx	-a>
+asn_L_c	ASNSERNaEx	-a>
+asn_L_e	ASNSERNaEx	-a>
+na1_c	ASNSERNaEx	-a>
+ser_L_c	ASNSERNaEx	-a>
+na1_e	ASNSERNaEx	-a>
+ser_L_e	ASNSERNaEx	-a>
+na1_c	ASNt4	-a>
+na1_e	ASNt4	-a>
+asn_L_c	ASNt4	-a>
+asn_L_e	ASNt4	-a>
+thr_L_e	ASNTHRNaEx	-a>
+asn_L_c	ASNTHRNaEx	-a>
+thr_L_c	ASNTHRNaEx	-a>
+asn_L_e	ASNTHRNaEx	-a>
+na1_c	ASNTHRNaEx	-a>
+na1_e	ASNTHRNaEx	-a>
+h_e	ASNtN1	-a>
+asn_L_c	ASNtN1	-a>
+h_c	ASNtN1	-a>
+asn_L_e	ASNtN1	-a>
+na1_c	ASNtN1	-a>
+na1_e	ASNtN1	-a>
+asp_D_c	ASPDt6	-a>
+h_c	ASPDt6	-a>
+na1_c	ASPDt6	-a>
+asp_D_e	ASPDt6	-a>
+na1_e	ASPDt6	-a>
+h_e	ASPDt6	-a>
+k_c	ASPDt6	-a>
+k_e	ASPDt6	-a>
+h_c	ASPt6	-a>
+na1_c	ASPt6	-a>
+na1_e	ASPt6	-a>
+asp_L_c	ASPt6	-a>
+asp_L_e	ASPt6	-a>
+h_e	ASPt6	-a>
+k_c	ASPt6	-a>
+k_e	ASPt6	-a>
+avite1_e	AVITE1t	-a>
+avite1_c	AVITE1t	-a>
+avite2_e	AVITE2t	-a>
+avite2_c	AVITE2t	-a>
+h2o_c	BALAVECSEC	-a>
+h_c	BALAVECSEC	-a>
+pi_c	BALAVECSEC	-a>
+atp_c	BALAVECSEC	-a>
+ala_B_c	BALAVECSEC	-a>
+ala_B_e	BALAVECSEC	-a>
+adp_c	BALAVECSEC	-a>
+h_e	BHBt	-a>
+bhb_e	BHBt	-a>
+h_c	BHBt	-a>
+bhb_c	BHBt	-a>
+bildglcur_c	BILDGLCURt	-a>
+hco3_c	BILDGLCURt	-a>
+bildglcur_e	BILDGLCURt	-a>
+hco3_e	BILDGLCURt	-a>
+h2o_c	BILDGLCURte	-a>
+h_c	BILDGLCURte	-a>
+pi_c	BILDGLCURte	-a>
+bildglcur_c	BILDGLCURte	-a>
+atp_c	BILDGLCURte	-a>
+bildglcur_e	BILDGLCURte	-a>
+adp_c	BILDGLCURte	-a>
+hco3_c	BILGLCURt	-a>
+bilglcur_c	BILGLCURt	-a>
+hco3_e	BILGLCURt	-a>
+bilglcur_e	BILGLCURt	-a>
+h2o_c	BILGLCURte	-a>
+bilglcur_c	BILGLCURte	-a>
+h_c	BILGLCURte	-a>
+bilglcur_e	BILGLCURte	-a>
+pi_c	BILGLCURte	-a>
+atp_c	BILGLCURte	-a>
+adp_c	BILGLCURte	-a>
+bilirub_e	BILIRUBt2	-a>
+hco3_c	BILIRUBt2	-a>
+hco3_e	BILIRUBt2	-a>
+bilirub_c	BILIRUBt2	-a>
+h_e	BTNt2	-a>
+btn_c	BTNt2	-a>
+h_c	BTNt2	-a>
+btn_e	BTNt2	-a>
+h2o_c	BTNt3i	-a>
+h_c	BTNt3i	-a>
+na1_c	BTNt3i	-a>
+pi_c	BTNt3i	-a>
+na1_e	BTNt3i	-a>
+adp_c	BTNt3i	-a>
+atp_c	BTNt3i	-a>
+btn_c	BTNt3i	-a>
+btn_e	BTNt3i	-a>
+h_e	BTNt4i	-a>
+btn_c	BTNt4i	-a>
+h_c	BTNt4i	-a>
+btn_e	BTNt4i	-a>
+h_e	BUTt2r	-a>
+but_c	BUTt2r	-a>
+but_e	BUTt2r	-a>
+h_c	BUTt2r	-a>
+bvite_c	BVITEt	-a>
+bvite_e	BVITEt	-a>
+bz_c	BZt	-a>
+bz_e	BZt	-a>
+h_e	CAATPS	-a>
+h2o_c	CAATPS	-a>
+ca2_c	CAATPS	-a>
+pi_c	CAATPS	-a>
+atp_c	CAATPS	-a>
+ca2_e	CAATPS	-a>
+adp_c	CAATPS	-a>
+h2o_c	CAMPt	-a>
+camp_c	CAMPt	-a>
+h_c	CAMPt	-a>
+camp_e	CAMPt	-a>
+pi_c	CAMPt	-a>
+atp_c	CAMPt	-a>
+adp_c	CAMPt	-a>
+caro_c	CAROtr	-a>
+caro_e	CAROtr	-a>
+carveol_e	CARVEOLte	-a>
+carveol_c	CARVEOLte	-a>
+na1_c	CAt7r	-a>
+ca2_c	CAt7r	-a>
+na1_e	CAt7r	-a>
+ca2_e	CAt7r	-a>
+h_e	CGLYt3_2_	-a>
+cgly_e	CGLYt3_2_	-a>
+h_c	CGLYt3_2_	-a>
+cgly_c	CGLYt3_2_	-a>
+35cgmp_e	CGMPt	-a>
+h_c	CGMPt	-a>
+pi_c	CGMPt	-a>
+atp_c	CGMPt	-a>
+adp_c	CGMPt	-a>
+h2o_c	CGMPt	-a>
+35cgmp_c	CGMPt	-a>
+hco3_c	CHOLATEt	-a>
+cholate_c	CHOLATEt	-a>
+hco3_e	CHOLATEt	-a>
+cholate_e	CHOLATEt	-a>
+na1_c	CHOLATEt2	-a>
+cholate_c	CHOLATEt2	-a>
+na1_e	CHOLATEt2	-a>
+cholate_e	CHOLATEt2	-a>
+h2o_c	CHOLATEt3	-a>
+h_c	CHOLATEt3	-a>
+pi_c	CHOLATEt3	-a>
+atp_c	CHOLATEt3	-a>
+cholate_c	CHOLATEt3	-a>
+adp_c	CHOLATEt3	-a>
+cholate_e	CHOLATEt3	-a>
+na1_c	CHOLt4	-a>
+chol_e	CHOLt4	-a>
+na1_e	CHOLt4	-a>
+chol_c	CHOLt4	-a>
+chol_e	CHOLtu	-a>
+chol_c	CHOLtu	-a>
+h2o_c	CHSTEROLt	-a>
+chsterol_c	CHSTEROLt	-a>
+chsterol_e	CHSTEROLt	-a>
+pi_c	CHSTEROLt	-a>
+atp_c	CHSTEROLt	-a>
+adp_c	CHSTEROLt	-a>
+h_c	CHSTEROLt	-a>
+na1_c	CITt4_2	-a>
+na1_e	CITt4_2	-a>
+cit_e	CITt4_2	-a>
+cit_c	CITt4_2	-a>
+cl_c	CLFORtex	-a>
+for_c	CLFORtex	-a>
+cl_e	CLFORtex	-a>
+for_e	CLFORtex	-a>
+cl_c	CLHCO3tex2	-a>
+hco3_c	CLHCO3tex2	-a>
+cl_e	CLHCO3tex2	-a>
+hco3_e	CLHCO3tex2	-a>
+i_c	CLI2tex	-a>
+cl_c	CLI2tex	-a>
+cl_e	CLI2tex	-a>
+i_e	CLI2tex	-a>
+cl_c	CLOHtex2	-a>
+h2o_c	CLOHtex2	-a>
+cl_e	CLOHtex2	-a>
+h2o_e	CLOHtex2	-a>
+cl_c	CLOXAtex2	-a>
+cl_e	CLOXAtex2	-a>
+oxa_e	CLOXAtex2	-a>
+oxa_c	CLOXAtex2	-a>
+clpnd_c	CLPNDt	-a>
+clpnd_e	CLPNDt	-a>
+co2_e	CO2t	-a>
+co2_c	CO2t	-a>
+co_c	COt	-a>
+co_e	COt	-a>
+coumarin_c	COUMARINte	-a>
+coumarin_e	COUMARINte	-a>
+na1_c	CREATt4_2_r	-a>
+creat_c	CREATt4_2_r	-a>
+na1_e	CREATt4_2_r	-a>
+creat_e	CREATt4_2_r	-a>
+crmp_hs_c	CRMPte	-a>
+crmp_hs_e	CRMPte	-a>
+crn_c	CRNt	-a>
+crn_e	CRNt	-a>
+h_e	CRNtHa	-a>
+crn_c	CRNtHa	-a>
+h_c	CRNtHa	-a>
+crn_e	CRNtHa	-a>
+na1_c	CRNtuNa	-a>
+crn_c	CRNtuNa	-a>
+na1_e	CRNtuNa	-a>
+crn_e	CRNtuNa	-a>
+crtsl_e	CRTSLt	-a>
+crtsl_c	CRTSLt	-a>
+crtstrn_e	CRTSTRNt	-a>
+crtstrn_c	CRTSTRNt	-a>
+crvnc_c	CRVNCtr	-a>
+crvnc_e	CRVNCtr	-a>
+csn_e	CSNt	-a>
+csn_c	CSNt	-a>
+cspg_a_e	CSPG_At	-a>
+cspg_a_g	CSPG_At	-a>
+cspg_b_g	CSPG_Bt	-a>
+cspg_b_e	CSPG_Bt	-a>
+cspg_c_e	CSPG_Ct	-a>
+cspg_c_g	CSPG_Ct	-a>
+cspg_d_e	CSPG_Dt	-a>
+cspg_d_g	CSPG_Dt	-a>
+cspg_e_g	CSPG_Et	-a>
+cspg_e_e	CSPG_Et	-a>
+cyan_c	CYANt	-a>
+cyan_e	CYANt	-a>
+ala_L_c	CYSALANaEx	-a>
+ala_L_e	CYSALANaEx	-a>
+na1_c	CYSALANaEx	-a>
+cys_L_c	CYSALANaEx	-a>
+na1_e	CYSALANaEx	-a>
+cys_L_e	CYSALANaEx	-a>
+asn_L_c	CYSASNNaEx	-a>
+asn_L_e	CYSASNNaEx	-a>
+na1_c	CYSASNNaEx	-a>
+cys_L_c	CYSASNNaEx	-a>
+na1_e	CYSASNNaEx	-a>
+cys_L_e	CYSASNNaEx	-a>
+gln_L_e	CYSGLNNaEx	-a>
+na1_c	CYSGLNNaEx	-a>
+cys_L_c	CYSGLNNaEx	-a>
+na1_e	CYSGLNNaEx	-a>
+gln_L_c	CYSGLNNaEx	-a>
+cys_L_e	CYSGLNNaEx	-a>
+gln_L_e	CYSGLUexR	-a>
+cys_L_c	CYSGLUexR	-a>
+gln_L_c	CYSGLUexR	-a>
+cys_L_e	CYSGLUexR	-a>
+gly_e	CYSGLYexR	-a>
+cys_L_c	CYSGLYexR	-a>
+gly_c	CYSGLYexR	-a>
+cys_L_e	CYSGLYexR	-a>
+cys_L_e	CYSSERNaEx	-a>
+na1_c	CYSSERNaEx	-a>
+ser_L_c	CYSSERNaEx	-a>
+na1_e	CYSSERNaEx	-a>
+cys_L_c	CYSSERNaEx	-a>
+ser_L_e	CYSSERNaEx	-a>
+cys_L_c	CYStec	-a>
+cys_L_e	CYStec	-a>
+glu_L_c	CYSTGLUex	-a>
+Lcystin_e	CYSTGLUex	-a>
+glu_L_e	CYSTGLUex	-a>
+Lcystin_c	CYSTGLUex	-a>
+thr_L_e	CYSTHRNaEx	-a>
+thr_L_c	CYSTHRNaEx	-a>
+na1_c	CYSTHRNaEx	-a>
+cys_L_c	CYSTHRNaEx	-a>
+na1_e	CYSTHRNaEx	-a>
+cys_L_e	CYSTHRNaEx	-a>
+Lcystin_e	CYSTSERex	-a>
+ser_L_c	CYSTSERex	-a>
+ser_L_e	CYSTSERex	-a>
+Lcystin_c	CYSTSERex	-a>
+cytd_e	CYTDt	-a>
+cytd_c	CYTDt	-a>
+na1_c	CYTDt4	-a>
+cytd_e	CYTDt4	-a>
+na1_e	CYTDt4	-a>
+cytd_c	CYTDt4	-a>
+3aib_D_e	D_3AIBt	-a>
+3aib_D_c	D_3AIBt	-a>
+dad_2_c	DADNt4	-a>
+dad_2_e	DADNt4	-a>
+dag_hs_e	DAGt	-a>
+dag_hs_c	DAGt	-a>
+ala_D_e	DALAt2r	-a>
+h_e	DALAt2r	-a>
+ala_D_c	DALAt2r	-a>
+h_c	DALAt2r	-a>
+dcsptn1_c	DCSPTN1t	-a>
+dcsptn1_e	DCSPTN1t	-a>
+dcyt_c	DCYTt	-a>
+dcyt_e	DCYTt	-a>
+debrisoquine_e	DEBRISOQUINEt	-a>
+debrisoquine_c	DEBRISOQUINEt	-a>
+dgchol_c	DGCHOLte	-a>
+dgchol_e	DGCHOLte	-a>
+dgsn_c	DGSNt	-a>
+dgsn_e	DGSNt	-a>
+dhdascb_c	DHAAt1r	-a>
+dhdascb_e	DHAAt1r	-a>
+dheas_e	DHEASt	-a>
+hco3_c	DHEASt	-a>
+dheas_c	DHEASt	-a>
+hco3_e	DHEASt	-a>
+dheas_r	DHEAStr	-a>
+dheas_c	DHEAStr	-a>
+digalsgalside_hs_c	DIGALSGALSIDEte	-a>
+digalsgalside_hs_e	DIGALSGALSIDEte	-a>
+din_e	DINt	-a>
+din_c	DINt	-a>
+h_e	D_LACt2	-a>
+lac_D_e	D_LACt2	-a>
+h_c	D_LACt2	-a>
+lac_D_c	D_LACt2	-a>
+dlnlcg_c	DLNLCGt	-a>
+dlnlcg_e	DLNLCGt	-a>
+dmantipyrine_e	DMANTIPYRINEte	-a>
+dmantipyrine_c	DMANTIPYRINEte	-a>
+dmhptcrn_c	DMHPTCRNte	-a>
+dmhptcrn_e	DMHPTCRNte	-a>
+dopasf_c	DOPASFt	-a>
+dopasf_e	DOPASFt	-a>
+na1_c	DOPAt4_2_r	-a>
+dopa_e	DOPAt4_2_r	-a>
+na1_e	DOPAt4_2_r	-a>
+dopa_c	DOPAt4_2_r	-a>
+dopa_e	DOPAtu	-a>
+dopa_c	DOPAtu	-a>
+h2o_c	DOPAVESSEC	-a>
+dopa_c	DOPAVESSEC	-a>
+h_c	DOPAVESSEC	-a>
+dopa_e	DOPAVESSEC	-a>
+pi_c	DOPAVESSEC	-a>
+atp_c	DOPAVESSEC	-a>
+adp_c	DOPAVESSEC	-a>
+drib_c	DRIBt	-a>
+drib_e	DRIBt	-a>
+duri_e	DURIt	-a>
+duri_c	DURIt	-a>
+eaflatoxin_e	EAFLATOXINte	-a>
+eaflatoxin_c	EAFLATOXINte	-a>
+ebastineoh_c	EBASTINEOHte	-a>
+ebastineoh_e	EBASTINEOHte	-a>
+ebastine_c	EBASTINEte	-a>
+ebastine_e	EBASTINEte	-a>
+eicostet_e	EICOSTETt	-a>
+eicostet_c	EICOSTETt	-a>
+elaid_e	ELAIDt	-a>
+elaid_c	ELAIDt	-a>
+estradiolglc_c	ESTRADIOLGLCt	-a>
+hco3_c	ESTRADIOLGLCt	-a>
+estradiolglc_e	ESTRADIOLGLCt	-a>
+hco3_e	ESTRADIOLGLCt	-a>
+estradiol_e	ESTRADIOLt	-a>
+estradiol_c	ESTRADIOLt	-a>
+estriolglc_c	ESTRIOLGLCte	-a>
+estriolglc_e	ESTRIOLGLCte	-a>
+h_c	ESTRIOLGLCte	-a>
+pi_c	ESTRIOLGLCte	-a>
+atp_c	ESTRIOLGLCte	-a>
+h2o_c	ESTRIOLGLCte	-a>
+adp_c	ESTRIOLGLCte	-a>
+h2o_c	ESTRONEGLCt	-a>
+h_c	ESTRONEGLCt	-a>
+estroneglc_c	ESTRONEGLCt	-a>
+pi_c	ESTRONEGLCt	-a>
+atp_c	ESTRONEGLCt	-a>
+estroneglc_e	ESTRONEGLCt	-a>
+adp_c	ESTRONEGLCt	-a>
+estrones_c	ESTRONESt	-a>
+hco3_c	ESTRONESt	-a>
+estrones_e	ESTRONESt	-a>
+hco3_e	ESTRONESt	-a>
+na1_c	ESTRONESt2	-a>
+estrones_c	ESTRONESt2	-a>
+na1_e	ESTRONESt2	-a>
+estrones_e	ESTRONESt2	-a>
+etoh_e	ETOHt	-a>
+etoh_c	ETOHt	-a>
+na1_c	FATP1t	-a>
+hdca_e	FATP1t	-a>
+na1_e	FATP1t	-a>
+hdca_c	FATP1t	-a>
+na1_c	FATP2t	-a>
+ocdcea_c	FATP2t	-a>
+na1_e	FATP2t	-a>
+ocdcea_e	FATP2t	-a>
+na1_c	FATP3t	-a>
+ocdca_e	FATP3t	-a>
+na1_e	FATP3t	-a>
+ocdca_c	FATP3t	-a>
+na1_c	FATP4t	-a>
+arach_e	FATP4t	-a>
+na1_e	FATP4t	-a>
+arach_c	FATP4t	-a>
+na1_c	FATP5t	-a>
+arachd_c	FATP5t	-a>
+na1_e	FATP5t	-a>
+arachd_e	FATP5t	-a>
+na1_c	FATP6t	-a>
+adrn_c	FATP6t	-a>
+na1_e	FATP6t	-a>
+adrn_e	FATP6t	-a>
+na1_c	FATP7t	-a>
+na1_e	FATP7t	-a>
+crvnc_c	FATP7t	-a>
+crvnc_e	FATP7t	-a>
+na1_c	FATP8t	-a>
+na1_e	FATP8t	-a>
+lgnc_e	FATP8t	-a>
+lgnc_c	FATP8t	-a>
+na1_c	FATP9t	-a>
+na1_e	FATP9t	-a>
+nrvnc_c	FATP9t	-a>
+nrvnc_e	FATP9t	-a>
+fe2_e	FE2t	-a>
+fe2_c	FE2t	-a>
+h2o_e	FOLt2	-a>
+fol_e	FOLt2	-a>
+h2o_c	FOLt2	-a>
+fol_c	FOLt2	-a>
+fru_c	FRUt1r	-a>
+fru_e	FRUt1r	-a>
+na1_c	FRUt4	-a>
+na1_e	FRUt4	-a>
+fru_c	FRUt4	-a>
+fru_e	FRUt4	-a>
+fuc13galacglcgal14acglcgalgluside_hs_c	FUC13GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fuc13galacglcgal14acglcgalgluside_hs_e	FUC13GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fuc14galacglcgalgluside_hs_c	FUC14GALACGLCGALGLUSIDEte	-a>
+fuc14galacglcgalgluside_hs_e	FUC14GALACGLCGALGLUSIDEte	-a>
+fucacgalfucgalacglcgalgluside_hs_c	FUCACGALFUCGALACGLCGALGLUSIDEte	-a>
+fucacgalfucgalacglcgalgluside_hs_e	FUCACGALFUCGALACGLCGALGLUSIDEte	-a>
+fucacngal14acglcgalgluside_hs_e	FUCACNGAL14ACGLCGALGLUSIDEte	-a>
+fucacngal14acglcgalgluside_hs_c	FUCACNGAL14ACGLCGALGLUSIDEte	-a>
+fucacngalacglcgalgluside_hs_c	FUCACNGALACGLCGALGLUSIDEte	-a>
+fucacngalacglcgalgluside_hs_e	FUCACNGALACGLCGALGLUSIDEte	-a>
+fucfuc12gal14acglcgalgluside_hs_c	FUCFUC12GAL14ACGLCGALGLUSIDEte	-a>
+fucfuc12gal14acglcgalgluside_hs_e	FUCFUC12GAL14ACGLCGALGLUSIDEte	-a>
+fucfuc132galacglcgal14acglcgalgluside_hs_e	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfuc132galacglcgal14acglcgalgluside_hs_c	FUCFUC132GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_c	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfucfucgalacglc13galacglcgal14acglcgalgluside_hs_e	FUCFUCFUCGALACGLC13GALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfucfucgalacglcgal14acglcgalgluside_hs_c	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfucfucgalacglcgal14acglcgalgluside_hs_e	FUCFUCFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+fucfucgalacglcgalgluside_hs_c	FUCFUCGALACGLCGALGLUSIDEte	-a>
+fucfucgalacglcgalgluside_hs_e	FUCFUCGALACGLCGALGLUSIDEte	-a>
+fucgal14acglcgalgluside_hs_c	FUCGAL14ACGLCGALGLUSIDEte	-a>
+fucgal14acglcgalgluside_hs_e	FUCGAL14ACGLCGALGLUSIDEte	-a>
+fucgalfucgalacglcgalgluside_hs_e	FUCGALFUCGALACGLCGALGLUSIDEte	-a>
+fucgalfucgalacglcgalgluside_hs_c	FUCGALFUCGALACGLCGALGLUSIDEte	-a>
+fucgalgbside_hs_c	FUCGALGBSIDEte	-a>
+fucgalgbside_hs_e	FUCGALGBSIDEte	-a>
+4abut_e	GABAVESSEC	-a>
+h_c	GABAVESSEC	-a>
+pi_c	GABAVESSEC	-a>
+atp_c	GABAVESSEC	-a>
+4abut_c	GABAVESSEC	-a>
+h2o_c	GABAVESSEC	-a>
+adp_c	GABAVESSEC	-a>
+galacglcgalgbside_hs_e	GALACGLCGALGBSIDEte	-a>
+galacglcgalgbside_hs_c	GALACGLCGALGBSIDEte	-a>
+galfuc12gal14acglcgalgluside_hs_e	GALFUC12GAL14ACGLCGALGLUSIDEte	-a>
+galfuc12gal14acglcgalgluside_hs_c	GALFUC12GAL14ACGLCGALGLUSIDEte	-a>
+galfucgalacglcgal14acglcgalgluside_hs_e	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+galfucgalacglcgal14acglcgalgluside_hs_c	GALFUCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_e	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+galgalfucfucgalacglcgalacglcgal14acglcgalgluside_hs_c	GALGALFUCFUCGALACGLCGALACGLCGAL14ACGLCGALGLUSIDEte	-a>
+galgalgalthcrm_hs_c	GALGALGALTHCRMte	-a>
+galgalgalthcrm_hs_e	GALGALGALTHCRMte	-a>
+gal_c	GALt1r	-a>
+gal_e	GALt1r	-a>
+h_e	GALt2_2	-a>
+gal_c	GALt2_2	-a>
+h_c	GALt2_2	-a>
+gal_e	GALt2_2	-a>
+na1_c	GALt4	-a>
+na1_e	GALt4	-a>
+gal_c	GALt4	-a>
+gal_e	GALt4	-a>
+gam_c	GAMt1r	-a>
+gam_e	GAMt1r	-a>
+gbside_hs_e	GBSIDEte	-a>
+gbside_hs_c	GBSIDEte	-a>
+gchola_e	GCHOLAt	-a>
+hco3_c	GCHOLAt	-a>
+hco3_e	GCHOLAt	-a>
+gchola_c	GCHOLAt	-a>
+na1_c	GCHOLAt2	-a>
+gchola_e	GCHOLAt2	-a>
+na1_e	GCHOLAt2	-a>
+gchola_c	GCHOLAt2	-a>
+h2o_c	GCHOLAt3	-a>
+h_c	GCHOLAt3	-a>
+pi_c	GCHOLAt3	-a>
+atp_c	GCHOLAt3	-a>
+adp_c	GCHOLAt3	-a>
+gchola_e	GCHOLAt3	-a>
+gchola_c	GCHOLAt3	-a>
+gchola_e	GCHOLAte	-a>
+gchola_c	GCHOLAte	-a>
+gd1b2_hs_e	GD1B2te	-a>
+gd1b2_hs_c	GD1B2te	-a>
+gd1c_hs_c	GD1Cte	-a>
+gd1c_hs_e	GD1Cte	-a>
+glc_D_r	GLCMter	-a>
+glc_D_e	GLCMter	-a>
+h_e	GLCt2_2	-a>
+glc_D_c	GLCt2_2	-a>
+h_c	GLCt2_2	-a>
+glc_D_e	GLCt2_2	-a>
+na1_c	GLCt4	-a>
+na1_e	GLCt4	-a>
+glc_D_c	GLCt4	-a>
+glc_D_e	GLCt4	-a>
+gln_L_e	GLNALANaEx	-a>
+ala_L_c	GLNALANaEx	-a>
+ala_L_e	GLNALANaEx	-a>
+na1_c	GLNALANaEx	-a>
+na1_e	GLNALANaEx	-a>
+gln_L_c	GLNALANaEx	-a>
+gln_L_e	GLNASNNaEx	-a>
+asn_L_c	GLNASNNaEx	-a>
+asn_L_e	GLNASNNaEx	-a>
+na1_c	GLNASNNaEx	-a>
+na1_e	GLNASNNaEx	-a>
+gln_L_c	GLNASNNaEx	-a>
+gln_L_e	GLNCYSNaEx	-a>
+na1_c	GLNCYSNaEx	-a>
+cys_L_c	GLNCYSNaEx	-a>
+na1_e	GLNCYSNaEx	-a>
+gln_L_c	GLNCYSNaEx	-a>
+cys_L_e	GLNCYSNaEx	-a>
+gln_L_e	GLNSERNaEx	-a>
+na1_c	GLNSERNaEx	-a>
+ser_L_c	GLNSERNaEx	-a>
+na1_e	GLNSERNaEx	-a>
+gln_L_c	GLNSERNaEx	-a>
+ser_L_e	GLNSERNaEx	-a>
+na1_c	GLNt4	-a>
+gln_L_e	GLNt4	-a>
+na1_e	GLNt4	-a>
+gln_L_c	GLNt4	-a>
+gln_L_e	GLNTHRNaEx	-a>
+thr_L_e	GLNTHRNaEx	-a>
+thr_L_c	GLNTHRNaEx	-a>
+na1_c	GLNTHRNaEx	-a>
+na1_e	GLNTHRNaEx	-a>
+gln_L_c	GLNTHRNaEx	-a>
+gln_L_e	GLNtN1	-a>
+h_e	GLNtN1	-a>
+h_c	GLNtN1	-a>
+na1_c	GLNtN1	-a>
+na1_e	GLNtN1	-a>
+gln_L_c	GLNtN1	-a>
+h_c	GLUt6	-a>
+glu_L_c	GLUt6	-a>
+glu_L_e	GLUt6	-a>
+na1_e	GLUt6	-a>
+h_e	GLUt6	-a>
+na1_c	GLUt6	-a>
+k_c	GLUt6	-a>
+k_e	GLUt6	-a>
+h2o_c	GLUVESSEC	-a>
+h_c	GLUVESSEC	-a>
+glu_L_c	GLUVESSEC	-a>
+pi_c	GLUVESSEC	-a>
+atp_c	GLUVESSEC	-a>
+glu_L_e	GLUVESSEC	-a>
+adp_c	GLUVESSEC	-a>
+glyb_e	GLYBt4_2_r	-a>
+na1_c	GLYBt4_2_r	-a>
+na1_e	GLYBt4_2_r	-a>
+glyb_c	GLYBt4_2_r	-a>
+glyc_S_e	GLYC_St	-a>
+glyc_S_c	GLYC_St	-a>
+h_e	GLYt2r	-a>
+gly_e	GLYt2r	-a>
+gly_c	GLYt2r	-a>
+h_c	GLYt2r	-a>
+na1_c	GLYt4	-a>
+gly_e	GLYt4	-a>
+na1_e	GLYt4	-a>
+gly_c	GLYt4	-a>
+gly_e	GLYt7_211_r	-a>
+na1_e	GLYt7_211_r	-a>
+gly_c	GLYt7_211_r	-a>
+na1_c	GLYt7_211_r	-a>
+cl_c	GLYt7_211_r	-a>
+cl_e	GLYt7_211_r	-a>
+h2o_c	GLYVESSEC	-a>
+gly_c	GLYVESSEC	-a>
+h_c	GLYVESSEC	-a>
+gly_e	GLYVESSEC	-a>
+pi_c	GLYVESSEC	-a>
+atp_c	GLYVESSEC	-a>
+adp_c	GLYVESSEC	-a>
+gp1calpha_hs_c	GP1CALPHAte	-a>
+gp1calpha_hs_e	GP1CALPHAte	-a>
+gp1c_hs_c	GP1Cte	-a>
+gp1c_hs_e	GP1Cte	-a>
+gq1balpha_hs_e	GQ1BALPHAte	-a>
+gq1balpha_hs_c	GQ1BALPHAte	-a>
+gq1b_hs_e	GQ1Bte	-a>
+gq1b_hs_c	GQ1Bte	-a>
+gsn_c	GSNt	-a>
+gsn_e	GSNt	-a>
+gt1a_hs_e	GT1Ate	-a>
+gt1a_hs_c	GT1Ate	-a>
+gua_e	GUAt	-a>
+gua_c	GUAt	-a>
+h2o2_c	H2O2t	-a>
+h2o2_e	H2O2t	-a>
+h2o_c	H2Ot	-a>
+h2o_e	H2Ot	-a>
+cl_c	HCO3_CLt	-a>
+hco3_c	HCO3_CLt	-a>
+cl_e	HCO3_CLt	-a>
+hco3_e	HCO3_CLt	-a>
+hcoumarin_e	HCOUMARINte	-a>
+hcoumarin_c	HCOUMARINte	-a>
+hdcea_c	HDCEAtr	-a>
+hdcea_e	HDCEAtr	-a>
+hestratriol_e	HESTRATRIOLte	-a>
+hestratriol_c	HESTRATRIOLte	-a>
+hexc_c	HEXCt	-a>
+hexc_e	HEXCt	-a>
+na1_c	HISt4	-a>
+na1_e	HISt4	-a>
+his_L_c	HISt4	-a>
+his_L_e	HISt4	-a>
+hista_c	HISTAtu	-a>
+hista_e	HISTAtu	-a>
+h2o_c	HISTAVESSEC	-a>
+h_c	HISTAVESSEC	-a>
+pi_c	HISTAVESSEC	-a>
+hista_c	HISTAVESSEC	-a>
+atp_c	HISTAVESSEC	-a>
+hista_e	HISTAVESSEC	-a>
+adp_c	HISTAVESSEC	-a>
+his_L_c	HIStiDF	-a>
+his_L_e	HIStiDF	-a>
+h_e	HIStN1	-a>
+na1_e	HIStN1	-a>
+h_c	HIStN1	-a>
+na1_c	HIStN1	-a>
+his_L_c	HIStN1	-a>
+his_L_e	HIStN1	-a>
+h2o_c	HKt	-a>
+h_e	HKt	-a>
+pi_c	HKt	-a>
+atp_c	HKt	-a>
+k_c	HKt	-a>
+adp_c	HKt	-a>
+k_e	HKt	-a>
+na1_c	HOMt4	-a>
+hom_L_c	HOMt4	-a>
+na1_e	HOMt4	-a>
+hom_L_e	HOMt4	-a>
+4hphac_c	HPACtr	-a>
+4hphac_e	HPACtr	-a>
+hpdca_e	HPDCAt	-a>
+hpdca_c	HPDCAt	-a>
+hspg_e	HSPGt	-a>
+hspg_g	HSPGt	-a>
+htaxol_c	HTAXOLte	-a>
+htaxol_e	HTAXOLte	-a>
+hxan_c	HYXNt	-a>
+hxan_e	HYXNt	-a>
+ile_L_e	ILEtec	-a>
+ile_L_c	ILEtec	-a>
+ins_e	INSt	-a>
+ins_c	INSt	-a>
+h_e	INSTt2r	-a>
+inost_e	INSTt2r	-a>
+h_c	INSTt2r	-a>
+inost_c	INSTt2r	-a>
+na1_c	INSTt4	-a>
+inost_e	INSTt4	-a>
+na1_e	INSTt4	-a>
+inost_c	INSTt4	-a>
+i_c	It	-a>
+i_e	It	-a>
+cl_c	KCC2t	-a>
+nh4_e	KCC2t	-a>
+cl_e	KCC2t	-a>
+nh4_c	KCC2t	-a>
+cl_c	KCCt	-a>
+cl_e	KCCt	-a>
+k_c	KCCt	-a>
+k_e	KCCt	-a>
+ksii_core2_e	KSII_CORE2t	-a>
+ksii_core2_g	KSII_CORE2t	-a>
+ksii_core4_e	KSII_CORE4t	-a>
+ksii_core4_g	KSII_CORE4t	-a>
+ksi_e	KSIt	-a>
+ksi_g	KSIt	-a>
+lcts_e	LCTStg	-a>
+lcts_g	LCTStg	-a>
+leuktrA4_c	LEUKTRA4t	-a>
+leuktrA4_e	LEUKTRA4t	-a>
+leuktrB4_c	LEUKTRB4t	-a>
+leuktrB4_e	LEUKTRB4t	-a>
+hco3_c	LEUKTRC4t	-a>
+leuktrC4_c	LEUKTRC4t	-a>
+hco3_e	LEUKTRC4t	-a>
+leuktrC4_e	LEUKTRC4t	-a>
+leuktrD4_e	LEUKTRD4t	-a>
+leuktrD4_c	LEUKTRD4t	-a>
+leuktrE4_c	LEUKTRE4t	-a>
+leuktrE4_e	LEUKTRE4t	-a>
+leuktrF4_e	LEUKTRF4t	-a>
+leuktrF4_c	LEUKTRF4t	-a>
+leu_L_e	LEUtec	-a>
+leu_L_c	LEUtec	-a>
+limnen_e	LIMNENte	-a>
+limnen_c	LIMNENte	-a>
+h2o_c	LIPOti	-a>
+h_c	LIPOti	-a>
+na1_c	LIPOti	-a>
+pi_c	LIPOti	-a>
+na1_e	LIPOti	-a>
+adp_c	LIPOti	-a>
+lipoate_c	LIPOti	-a>
+lipoate_e	LIPOti	-a>
+atp_c	LIPOti	-a>
+h_e	L_LACt2r	-a>
+lac_L_c	L_LACt2r	-a>
+lac_L_e	L_LACt2r	-a>
+h_c	L_LACt2r	-a>
+na1_c	L_LACt4r	-a>
+lac_L_c	L_LACt4r	-a>
+na1_e	L_LACt4r	-a>
+lac_L_e	L_LACt4r	-a>
+lneldc_c	LNELDCt	-a>
+lneldc_e	LNELDCt	-a>
+lnlc_c	LNLCt	-a>
+lnlc_e	LNLCt	-a>
+lnlnca_c	LNLNCAt	-a>
+lnlnca_e	LNLNCAt	-a>
+lnlncg_c	LNLNCGt	-a>
+lnlncg_e	LNLNCGt	-a>
+lpchol_hs_c	LPCHOLt	-a>
+lpchol_hs_e	LPCHOLt	-a>
+na1_c	LYSt4	-a>
+lys_L_c	LYSt4	-a>
+na1_e	LYSt4	-a>
+lys_L_e	LYSt4	-a>
+lys_L_c	LYStiDF	-a>
+lys_L_e	LYStiDF	-a>
+mag_hs_e	MAGt	-a>
+mag_hs_c	MAGt	-a>
+malt_c	MALTt1r	-a>
+malt_e	MALTt1r	-a>
+man_c	MANt1r	-a>
+man_e	MANt1r	-a>
+na1_c	MANt4	-a>
+man_c	MANt4	-a>
+na1_e	MANt4	-a>
+man_e	MANt4	-a>
+meoh_e	MEOHt2	-a>
+meoh_c	MEOHt2	-a>
+h2o_c	MEPIVESSte	-a>
+h_c	MEPIVESSte	-a>
+mepi_c	MEPIVESSte	-a>
+pi_c	MEPIVESSte	-a>
+atp_c	MEPIVESSte	-a>
+mepi_e	MEPIVESSte	-a>
+adp_c	MEPIVESSte	-a>
+mercplaccys_c	MERCPLACCYSt	-a>
+mercplaccys_e	MERCPLACCYSt	-a>
+leu_L_e	METLEUex	-a>
+met_L_e	METLEUex	-a>
+leu_L_c	METLEUex	-a>
+met_L_c	METLEUex	-a>
+met_L_e	METtec	-a>
+met_L_c	METtec	-a>
+mthgxl_e	MTHGXLt	-a>
+mthgxl_c	MTHGXLt	-a>
+n2m2nmasn_g	N2M2NMASNt	-a>
+n2m2nmasn_e	N2M2NMASNt	-a>
+h_c	NAHCO3_HCLt	-a>
+na1_c	NAHCO3_HCLt	-a>
+na1_e	NAHCO3_HCLt	-a>
+h_e	NAHCO3_HCLt	-a>
+hco3_c	NAHCO3_HCLt	-a>
+hco3_e	NAHCO3_HCLt	-a>
+cl_c	NAHCO3_HCLt	-a>
+cl_e	NAHCO3_HCLt	-a>
+i_c	NAIt	-a>
+na1_c	NAIt	-a>
+na1_e	NAIt	-a>
+i_e	NAIt	-a>
+h2o_c	NaKt	-a>
+h_c	NaKt	-a>
+na1_c	NaKt	-a>
+pi_c	NaKt	-a>
+na1_e	NaKt	-a>
+adp_c	NaKt	-a>
+atp_c	NaKt	-a>
+k_c	NaKt	-a>
+k_e	NaKt	-a>
+na1_c	NAt	-a>
+na1_e	NAt	-a>
+na1_c	NAt3_1	-a>
+h_e	NAt3_1	-a>
+na1_e	NAt3_1	-a>
+h_c	NAt3_1	-a>
+na1_c	NAt5	-a>
+nh4_e	NAt5	-a>
+na1_e	NAt5	-a>
+nh4_c	NAt5	-a>
+na1_c	NCCt	-a>
+cl_c	NCCt	-a>
+cl_e	NCCt	-a>
+na1_e	NCCt	-a>
+ca2_c	NCKt	-a>
+na1_e	NCKt	-a>
+na1_c	NCKt	-a>
+k_c	NCKt	-a>
+ca2_e	NCKt	-a>
+k_e	NCKt	-a>
+ca2_c	NCNt	-a>
+nh4_e	NCNt	-a>
+na1_c	NCNt	-a>
+na1_e	NCNt	-a>
+ca2_e	NCNt	-a>
+nh4_c	NCNt	-a>
+h_e	NH4t3r	-a>
+nh4_e	NH4t3r	-a>
+h_c	NH4t3r	-a>
+nh4_c	NH4t3r	-a>
+cl_c	NKCC2t	-a>
+nh4_e	NKCC2t	-a>
+na1_e	NKCC2t	-a>
+na1_c	NKCC2t	-a>
+cl_e	NKCC2t	-a>
+nh4_c	NKCC2t	-a>
+cl_c	NKCCt	-a>
+na1_e	NKCCt	-a>
+na1_c	NKCCt	-a>
+cl_e	NKCCt	-a>
+k_c	NKCCt	-a>
+k_e	NKCCt	-a>
+npthl_e	NPTHLte	-a>
+npthl_c	NPTHLte	-a>
+nrpphrsf_e	NRPPHRSFt	-a>
+nrpphrsf_c	NRPPHRSFt	-a>
+na1_c	NRPPHRt4_2_r	-a>
+nrpphr_e	NRPPHRt4_2_r	-a>
+na1_e	NRPPHRt4_2_r	-a>
+nrpphr_c	NRPPHRt4_2_r	-a>
+nrpphr_e	NRPPHRtu	-a>
+nrpphr_c	NRPPHRtu	-a>
+nrpphr_e	NRPPHRVESSEC	-a>
+h2o_c	NRPPHRVESSEC	-a>
+h_c	NRPPHRVESSEC	-a>
+pi_c	NRPPHRVESSEC	-a>
+atp_c	NRPPHRVESSEC	-a>
+nrpphr_c	NRPPHRVESSEC	-a>
+adp_c	NRPPHRVESSEC	-a>
+nrvnc_c	NRVNCt	-a>
+nrvnc_e	NRVNCt	-a>
+o2s_c	O2St	-a>
+o2s_e	O2St	-a>
+o2_e	O2t	-a>
+o2_c	O2t	-a>
+oagd3_hs_e	OAGD3te	-a>
+oagd3_hs_c	OAGD3te	-a>
+oagt3_hs_c	OAGT3te	-a>
+oagt3_hs_e	OAGT3te	-a>
+ocdcea_c	OCDCEAtr	-a>
+ocdcea_e	OCDCEAtr	-a>
+octa_e	OCTAt	-a>
+octa_c	OCTAt	-a>
+omeprazole_e	OMEPRAZOLEte	-a>
+omeprazole_c	OMEPRAZOLEte	-a>
+onpthl_e	ONPTHLte	-a>
+onpthl_c	ONPTHLte	-a>
+orn_c	ORNtiDF	-a>
+orn_e	ORNtiDF	-a>
+hco3_c	OXAHCOtex	-a>
+oxa_e	OXAHCOtex	-a>
+oxa_c	OXAHCOtex	-a>
+hco3_e	OXAHCOtex	-a>
+paf_hs_e	PAFt	-a>
+paf_hs_c	PAFt	-a>
+h2o_c	PEFLIP	-a>
+h_c	PEFLIP	-a>
+pe_hs_c	PEFLIP	-a>
+pi_c	PEFLIP	-a>
+atp_c	PEFLIP	-a>
+pe_hs_e	PEFLIP	-a>
+adp_c	PEFLIP	-a>
+perillyl_e	PERILLYLte	-a>
+perillyl_c	PERILLYLte	-a>
+pe_hs_c	PEt	-a>
+pe_hs_e	PEt	-a>
+pglyc_hs_e	PGLYCt	-a>
+pglyc_hs_c	PGLYCt	-a>
+pheacgln_c	PHEACGLNt	-a>
+pheacgln_e	PHEACGLNt	-a>
+na1_c	PHEt4	-a>
+na1_e	PHEt4	-a>
+phe_L_c	PHEt4	-a>
+phe_L_e	PHEt4	-a>
+phe_L_c	PHEtec	-a>
+phe_L_e	PHEtec	-a>
+phyQ_e	PHYQt	-a>
+h2o_c	PHYQt	-a>
+h_c	PHYQt	-a>
+pi_c	PHYQt	-a>
+atp_c	PHYQt	-a>
+adp_c	PHYQt	-a>
+phyQ_c	PHYQt	-a>
+phyt_c	PHYTt	-a>
+phyt_e	PHYTt	-a>
+na1_c	PIt7	-a>
+pi_c	PIt7	-a>
+na1_e	PIt7	-a>
+pi_e	PIt7	-a>
+h2o_c	PNTOt5	-a>
+h_c	PNTOt5	-a>
+na1_c	PNTOt5	-a>
+pi_c	PNTOt5	-a>
+na1_e	PNTOt5	-a>
+adp_c	PNTOt5	-a>
+pnto_R_c	PNTOt5	-a>
+atp_c	PNTOt5	-a>
+pnto_R_e	PNTOt5	-a>
+ppa_c	PPAt	-a>
+ppa_e	PPAt	-a>
+prgstrn_c	PRGSTRNt	-a>
+prgstrn_e	PRGSTRNt	-a>
+h_e	PRODt2r	-a>
+pro_D_c	PRODt2r	-a>
+pro_D_e	PRODt2r	-a>
+h_c	PRODt2r	-a>
+hco3_c	PROSTGD2t	-a>
+prostgd2_c	PROSTGD2t	-a>
+hco3_e	PROSTGD2t	-a>
+prostgd2_e	PROSTGD2t	-a>
+prostge1_e	PROSTGE1t	-a>
+hco3_c	PROSTGE1t	-a>
+prostge1_c	PROSTGE1t	-a>
+hco3_e	PROSTGE1t	-a>
+prostge1_e	PROSTGE1t3	-a>
+h2o_c	PROSTGE1t3	-a>
+h_c	PROSTGE1t3	-a>
+pi_c	PROSTGE1t3	-a>
+atp_c	PROSTGE1t3	-a>
+prostge1_c	PROSTGE1t3	-a>
+adp_c	PROSTGE1t3	-a>
+prostge2_e	PROSTGE2t	-a>
+hco3_c	PROSTGE2t	-a>
+hco3_e	PROSTGE2t	-a>
+prostge2_c	PROSTGE2t	-a>
+prostge2_e	PROSTGE2t2	-a>
+prostge2_c	PROSTGE2t2	-a>
+h2o_c	PROSTGE2t3	-a>
+h_c	PROSTGE2t3	-a>
+prostge2_c	PROSTGE2t3	-a>
+pi_c	PROSTGE2t3	-a>
+atp_c	PROSTGE2t3	-a>
+prostge2_e	PROSTGE2t3	-a>
+adp_c	PROSTGE2t3	-a>
+prostgf2_e	PROSTGF2t	-a>
+prostgf2_c	PROSTGF2t	-a>
+hco3_c	PROSTGH2t	-a>
+prostgh2_c	PROSTGH2t	-a>
+hco3_e	PROSTGH2t	-a>
+prostgh2_e	PROSTGH2t	-a>
+hco3_e	PROSTGI2t	-a>
+hco3_c	PROSTGI2t	-a>
+prostgi2_e	PROSTGI2t	-a>
+prostgi2_c	PROSTGI2t	-a>
+h_e	PROt2r	-a>
+pro_L_e	PROt2r	-a>
+h_c	PROt2r	-a>
+pro_L_c	PROt2r	-a>
+h2o_c	PSFLIP	-a>
+h_c	PSFLIP	-a>
+pi_c	PSFLIP	-a>
+atp_c	PSFLIP	-a>
+adp_c	PSFLIP	-a>
+ps_hs_e	PSFLIP	-a>
+ps_hs_c	PSFLIP	-a>
+ps_hs_e	PSt3	-a>
+ps_hs_c	PSt3	-a>
+ptdca_e	PTDCAt	-a>
+ptdca_c	PTDCAt	-a>
+pydam_c	PYDAMtr	-a>
+pydam_e	PYDAMtr	-a>
+pydxn_c	PYDXNtr	-a>
+pydxn_e	PYDXNtr	-a>
+pydx_c	PYDXtr	-a>
+pydx_e	PYDXtr	-a>
+h_e	PYRt2r	-a>
+pyr_c	PYRt2r	-a>
+pyr_e	PYRt2r	-a>
+h_c	PYRt2r	-a>
+rbt_c	RBTt	-a>
+rbt_e	RBTt	-a>
+retfa_c	RETFAt	-a>
+retfa_e	RETFAt	-a>
+9_cis_retfa_c	RETFAt1	-a>
+9_cis_retfa_e	RETFAt1	-a>
+11_cis_retfa_e	RETFAt2	-a>
+11_cis_retfa_c	RETFAt2	-a>
+retnglc_e	RETNGLCt	-a>
+retnglc_c	RETNGLCt	-a>
+retn_c	RETNt	-a>
+retn_e	RETNt	-a>
+retinol_e	RETt	-a>
+retinol_c	RETt	-a>
+ribflv_c	RIBFLVt3	-a>
+h_c	RIBFLVt3	-a>
+ribflv_e	RIBFLVt3	-a>
+pi_c	RIBFLVt3	-a>
+atp_c	RIBFLVt3	-a>
+h2o_c	RIBFLVt3	-a>
+adp_c	RIBFLVt3	-a>
+rib_D_c	RIBt	-a>
+rib_D_e	RIBt	-a>
+h_e	RIBt2	-a>
+rib_D_c	RIBt2	-a>
+h_c	RIBt2	-a>
+rib_D_e	RIBt2	-a>
+Rtotal_e	RTOTALt	-a>
+Rtotal_c	RTOTALt	-a>
+s2l2fn2m2masn_e	S2L2FN2M2MASNt	-a>
+s2l2fn2m2masn_g	S2L2FN2M2MASNt	-a>
+sarcs_c	SARCStex	-a>
+sarcs_e	SARCStex	-a>
+na1_c	SELt4_3	-a>
+sel_c	SELt4_3	-a>
+na1_e	SELt4_3	-a>
+sel_e	SELt4_3	-a>
+ala_L_c	SERALANaEx	-a>
+ala_L_e	SERALANaEx	-a>
+na1_c	SERALANaEx	-a>
+ser_L_c	SERALANaEx	-a>
+na1_e	SERALANaEx	-a>
+ser_L_e	SERALANaEx	-a>
+asn_L_c	SERASNNaEx	-a>
+asn_L_e	SERASNNaEx	-a>
+na1_c	SERASNNaEx	-a>
+ser_L_c	SERASNNaEx	-a>
+na1_e	SERASNNaEx	-a>
+ser_L_e	SERASNNaEx	-a>
+cys_L_e	SERCYSNaEx	-a>
+na1_c	SERCYSNaEx	-a>
+ser_L_c	SERCYSNaEx	-a>
+na1_e	SERCYSNaEx	-a>
+cys_L_c	SERCYSNaEx	-a>
+ser_L_e	SERCYSNaEx	-a>
+gln_L_e	SERDGLNexR	-a>
+ser_D_c	SERDGLNexR	-a>
+gln_L_c	SERDGLNexR	-a>
+ser_D_e	SERDGLNexR	-a>
+gly_e	SERDGLYexR	-a>
+ser_D_c	SERDGLYexR	-a>
+gly_c	SERDGLYexR	-a>
+ser_D_e	SERDGLYexR	-a>
+gln_L_e	SERGLNexR	-a>
+ser_L_c	SERGLNexR	-a>
+gln_L_c	SERGLNexR	-a>
+ser_L_e	SERGLNexR	-a>
+gln_L_e	SERGLNNaEx	-a>
+na1_c	SERGLNNaEx	-a>
+ser_L_c	SERGLNNaEx	-a>
+na1_e	SERGLNNaEx	-a>
+gln_L_c	SERGLNNaEx	-a>
+ser_L_e	SERGLNNaEx	-a>
+gly_e	SERGLYexR	-a>
+ser_L_c	SERGLYexR	-a>
+gly_c	SERGLYexR	-a>
+ser_L_e	SERGLYexR	-a>
+na1_c	SERLYSNaex	-a>
+lys_L_c	SERLYSNaex	-a>
+na1_e	SERLYSNaex	-a>
+ser_L_c	SERLYSNaex	-a>
+ser_L_e	SERLYSNaex	-a>
+lys_L_e	SERLYSNaex	-a>
+na1_c	SERt4	-a>
+ser_L_c	SERt4	-a>
+na1_e	SERt4	-a>
+ser_L_e	SERt4	-a>
+thr_L_e	SERTHRNaEx	-a>
+thr_L_c	SERTHRNaEx	-a>
+na1_c	SERTHRNaEx	-a>
+ser_L_c	SERTHRNaEx	-a>
+na1_e	SERTHRNaEx	-a>
+ser_L_e	SERTHRNaEx	-a>
+h_e	SERtN1	-a>
+h_c	SERtN1	-a>
+na1_c	SERtN1	-a>
+ser_L_c	SERtN1	-a>
+na1_e	SERtN1	-a>
+ser_L_e	SERtN1	-a>
+so4_e	SO4CLtex2	-a>
+cl_c	SO4CLtex2	-a>
+cl_e	SO4CLtex2	-a>
+so4_c	SO4CLtex2	-a>
+so4_e	SO4HCOtex	-a>
+hco3_c	SO4HCOtex	-a>
+so4_c	SO4HCOtex	-a>
+hco3_e	SO4HCOtex	-a>
+so4_e	SO4OXAtex2	-a>
+so4_c	SO4OXAtex2	-a>
+oxa_e	SO4OXAtex2	-a>
+oxa_c	SO4OXAtex2	-a>
+na1_c	SO4t4_2	-a>
+so4_e	SO4t4_2	-a>
+na1_e	SO4t4_2	-a>
+so4_c	SO4t4_2	-a>
+spc_hs_c	SPC_HSt	-a>
+spc_hs_e	SPC_HSt	-a>
+sph1p_c	SPH1Pte	-a>
+sph1p_e	SPH1Pte	-a>
+sphs1p_e	SPHS1Pte	-a>
+sphs1p_c	SPHS1Pte	-a>
+srtn_e	SRTNt6_2_r	-a>
+na1_e	SRTNt6_2_r	-a>
+na1_c	SRTNt6_2_r	-a>
+k_c	SRTNt6_2_r	-a>
+srtn_c	SRTNt6_2_r	-a>
+k_e	SRTNt6_2_r	-a>
+srtn_e	SRTNtu	-a>
+srtn_c	SRTNtu	-a>
+strdnc_c	STRDNCt	-a>
+strdnc_e	STRDNCt	-a>
+na1_c	SUCCt4_2	-a>
+succ_e	SUCCt4_2	-a>
+na1_e	SUCCt4_2	-a>
+succ_c	SUCCt4_2	-a>
+tagat_D_c	TAGAT_Dt	-a>
+tagat_D_e	TAGAT_Dt	-a>
+na1_c	TAURt4_2_r	-a>
+taur_e	TAURt4_2_r	-a>
+na1_e	TAURt4_2_r	-a>
+taur_c	TAURt4_2_r	-a>
+taxol_e	TAXOLte	-a>
+taxol_c	TAXOLte	-a>
+tchola_e	TCHOLAt	-a>
+hco3_c	TCHOLAt	-a>
+tchola_c	TCHOLAt	-a>
+hco3_e	TCHOLAt	-a>
+na1_c	TCHOLAt2	-a>
+tchola_e	TCHOLAt2	-a>
+na1_e	TCHOLAt2	-a>
+tchola_c	TCHOLAt2	-a>
+h2o_c	TCHOLAt3	-a>
+h_c	TCHOLAt3	-a>
+tchola_c	TCHOLAt3	-a>
+pi_c	TCHOLAt3	-a>
+tchola_e	TCHOLAt3	-a>
+atp_c	TCHOLAt3	-a>
+adp_c	TCHOLAt3	-a>
+tchola_e	TCHOLAte	-a>
+tchola_c	TCHOLAte	-a>
+tcynt_c	TCYNTt	-a>
+tcynt_e	TCYNTt	-a>
+tdchola_c	TDCHOLAte	-a>
+tdchola_e	TDCHOLAte	-a>
+tethex3_e	TETHEX3t	-a>
+tethex3_c	TETHEX3t	-a>
+tetpent3_c	TETPENT3t	-a>
+tetpent3_e	TETPENT3t	-a>
+tetpent6_e	TETPENT6t	-a>
+tetpent6_c	TETPENT6t	-a>
+tettet6_e	TETTET6t	-a>
+tettet6_c	TETTET6t	-a>
+thf_e	THFt2	-a>
+h2o_c	THFt2	-a>
+h2o_e	THFt2	-a>
+thf_c	THFt2	-a>
+na1_c	THMDt4	-a>
+thymd_c	THMDt4	-a>
+na1_e	THMDt4	-a>
+thymd_e	THMDt4	-a>
+thmmp_e	THMMPt4	-a>
+h2o_c	THMMPt4	-a>
+h2o_e	THMMPt4	-a>
+thmmp_c	THMMPt4	-a>
+h_e	THMt3	-a>
+thm_c	THMt3	-a>
+h_c	THMt3	-a>
+thm_e	THMt3	-a>
+h2o_e	THMTPt	-a>
+h2o_c	THMTPt	-a>
+thmtp_e	THMTPt	-a>
+thmtp_c	THMTPt	-a>
+thr_L_e	THRALANaEx	-a>
+ala_L_c	THRALANaEx	-a>
+thr_L_c	THRALANaEx	-a>
+ala_L_e	THRALANaEx	-a>
+na1_c	THRALANaEx	-a>
+na1_e	THRALANaEx	-a>
+thr_L_e	THRASNNaEx	-a>
+asn_L_c	THRASNNaEx	-a>
+thr_L_c	THRASNNaEx	-a>
+asn_L_e	THRASNNaEx	-a>
+na1_c	THRASNNaEx	-a>
+na1_e	THRASNNaEx	-a>
+thr_L_e	THRCYSNaEx	-a>
+thr_L_c	THRCYSNaEx	-a>
+na1_c	THRCYSNaEx	-a>
+cys_L_c	THRCYSNaEx	-a>
+na1_e	THRCYSNaEx	-a>
+cys_L_e	THRCYSNaEx	-a>
+thr_L_e	THRGLNexR	-a>
+gln_L_e	THRGLNexR	-a>
+gln_L_c	THRGLNexR	-a>
+thr_L_c	THRGLNexR	-a>
+gln_L_e	THRGLNNaEx	-a>
+thr_L_e	THRGLNNaEx	-a>
+thr_L_c	THRGLNNaEx	-a>
+na1_c	THRGLNNaEx	-a>
+na1_e	THRGLNNaEx	-a>
+gln_L_c	THRGLNNaEx	-a>
+thr_L_e	THRGLYexR	-a>
+gly_e	THRGLYexR	-a>
+gly_c	THRGLYexR	-a>
+thr_L_c	THRGLYexR	-a>
+thr_L_e	THRSERNaEx	-a>
+thr_L_c	THRSERNaEx	-a>
+na1_c	THRSERNaEx	-a>
+ser_L_c	THRSERNaEx	-a>
+na1_e	THRSERNaEx	-a>
+ser_L_e	THRSERNaEx	-a>
+na1_c	THRt4	-a>
+thr_L_e	THRt4	-a>
+na1_e	THRt4	-a>
+thr_L_c	THRt4	-a>
+thymd_c	THYMDt1	-a>
+thymd_e	THYMDt1	-a>
+thym_e	THYMt	-a>
+thym_c	THYMt	-a>
+thyox_L_e	THYOXt	-a>
+hco3_c	THYOXt	-a>
+hco3_e	THYOXt	-a>
+thyox_L_c	THYOXt	-a>
+thyox_L_e	THYOXt2	-a>
+thyox_L_c	THYOXt2	-a>
+tmndnc_c	TMNDNCt	-a>
+tmndnc_e	TMNDNCt	-a>
+tolbutamide_c	TOLBUTAMIDEte	-a>
+tolbutamide_e	TOLBUTAMIDEte	-a>
+triodthysuf_c	TRIODTHYSUFt	-a>
+triodthysuf_e	TRIODTHYSUFt	-a>
+hco3_e	TRIODTHYt	-a>
+triodthy_e	TRIODTHYt	-a>
+hco3_c	TRIODTHYt	-a>
+triodthy_c	TRIODTHYt	-a>
+triodthy_e	TRIODTHYt2	-a>
+triodthy_c	TRIODTHYt2	-a>
+trp_L_c	TRPt	-a>
+trp_L_e	TRPt	-a>
+na1_c	TRPt4	-a>
+trp_L_c	TRPt4	-a>
+na1_e	TRPt4	-a>
+trp_L_e	TRPt4	-a>
+h2o_c	TSTSTERONEGLCte	-a>
+h_c	TSTSTERONEGLCte	-a>
+tststeroneglc_c	TSTSTERONEGLCte	-a>
+pi_c	TSTSTERONEGLCte	-a>
+atp_c	TSTSTERONEGLCte	-a>
+tststeroneglc_e	TSTSTERONEGLCte	-a>
+adp_c	TSTSTERONEGLCte	-a>
+tststerones_c	TSTSTERONESte	-a>
+tststerones_e	TSTSTERONESte	-a>
+tststerone_c	TSTSTERONEt	-a>
+tststerone_e	TSTSTERONEt	-a>
+na1_c	TSULt4_3	-a>
+tsul_c	TSULt4_3	-a>
+na1_e	TSULt4_3	-a>
+tsul_e	TSULt4_3	-a>
+ttdca_c	TTDCAtr	-a>
+ttdca_e	TTDCAtr	-a>
+txa2_c	TXA2te	-a>
+txa2_e	TXA2te	-a>
+tymsf_c	TYMSFt	-a>
+tymsf_e	TYMSFt	-a>
+tyr_L_e	TYRt	-a>
+tyr_L_c	TYRt	-a>
+na1_c	TYRt4	-a>
+tyr_L_e	TYRt4	-a>
+na1_e	TYRt4	-a>
+tyr_L_c	TYRt4	-a>
+ura_c	URAt	-a>
+ura_e	URAt	-a>
+urate_c	URATEt	-a>
+urate_e	URATEt	-a>
+urea_c	UREAt	-a>
+urea_e	UREAt	-a>
+urea_c	UREAt5	-a>
+h2o_e	UREAt5	-a>
+urea_e	UREAt5	-a>
+h2o_c	UREAt5	-a>
+uri_e	URIt	-a>
+uri_c	URIt	-a>
+na1_c	URIt4	-a>
+uri_e	URIt4	-a>
+na1_e	URIt4	-a>
+uri_c	URIt4	-a>
+vacc_c	VACCt	-a>
+vacc_e	VACCt	-a>
+val_L_c	VALtec	-a>
+val_L_e	VALtec	-a>
+vitd2_e	VITD2t	-a>
+vitd2_c	VITD2t	-a>
+vitd3_c	VITD3t	-a>
+vitd3_e	VITD3t	-a>
+whddca_e	WHDDCAte	-a>
+whddca_c	WHDDCAte	-a>
+whhdca_e	WHHDCAte	-a>
+whhdca_c	WHHDCAte	-a>
+whtststerone_e	WHTSTSTERONEte	-a>
+whtststerone_c	WHTSTSTERONEte	-a>
+whttdca_c	WHTTDCAte	-a>
+whttdca_e	WHTTDCAte	-a>
+xoltri24_c	XOLTRI24te	-a>
+xoltri24_e	XOLTRI24te	-a>
+xoltri25_e	XOLTRI25te	-a>
+xoltri25_c	XOLTRI25te	-a>
+xoltri27_e	XOLTRI27te	-a>
+xoltri27_c	XOLTRI27te	-a>
+xyl_D_e	XYLt	-a>
+xyl_D_c	XYLt	-a>
+xylt_e	XYLTt	-a>
+xylt_c	XYLTt	-a>
+yvite_c	YVITEt	-a>
+yvite_e	YVITEt	-a>
+bildglcur_r	r0813	-a>
+adp_r	r0813	-a>
+h2o_r	r0813	-a>
+h_r	r0813	-a>
+bildglcur_e	r0813	-a>
+pi_r	r0813	-a>
+atp_r	r0813	-a>
+citr_L_e	r0817	-a>
+citr_L_c	r0817	-a>
+orot_e	r0839	-a>
+orot_c	r0839	-a>
+fad_e	r0870	-a>
+fad_c	r0870	-a>
+pydx5p_c	r0871	-a>
+pydx5p_e	r0871	-a>
+na1_c	r0879	-a>
+akg_e	r0879	-a>
+na1_e	r0879	-a>
+akg_c	r0879	-a>
+utp_e	r0892	-a>
+utp_c	r0892	-a>
+ala_B_c	r0899	-a>
+ala_B_e	r0899	-a>
+adp_r	r0924	-a>
+chsterol_e	r0924	-a>
+h2o_r	r0924	-a>
+h_r	r0924	-a>
+chsterol_r	r0924	-a>
+pi_r	r0924	-a>
+atp_r	r0924	-a>
+HC00250_c	r0940	-a>
+HC00250_e	r0940	-a>
+creat_c	r0942	-a>
+creat_e	r0942	-a>
+orn_c	r0946	-a>
+citr_L_e	r0946	-a>
+orn_e	r0946	-a>
+citr_L_c	r0946	-a>
+na1_c	r0961	-a>
+bilirub_e	r0961	-a>
+na1_e	r0961	-a>
+bilirub_c	r0961	-a>
+fol_e	r0963	-a>
+fol_c	r0963	-a>
+na1_c	r0974	-a>
+pnto_R_e	r0974	-a>
+na1_e	r0974	-a>
+pnto_R_c	r0974	-a>
+HC01787_e	r0992	-a>
+gchola_e	r0992	-a>
+HC01787_c	r0992	-a>
+gchola_c	r0992	-a>
+h2o_c	r0993	-a>
+h_c	r0993	-a>
+C02528_c	r0993	-a>
+pi_c	r0993	-a>
+atp_c	r0993	-a>
+C02528_e	r0993	-a>
+adp_c	r0993	-a>
+atp_x	r1017	-a>
+adp_x	r1017	-a>
+pi_x	r1017	-a>
+tchola_e	r1017	-a>
+h2o_x	r1017	-a>
+tchola_x	r1017	-a>
+h_x	r1017	-a>
+h2o_c	r1026	-a>
+h_c	r1026	-a>
+pi_c	r1026	-a>
+atp_c	r1026	-a>
+dgchol_c	r1026	-a>
+adp_c	r1026	-a>
+dgchol_e	r1026	-a>
+HC01787_e	r1027	-a>
+dgchol_c	r1027	-a>
+HC01787_c	r1027	-a>
+dgchol_e	r1027	-a>
+h2o_c	r1028	-a>
+h_c	r1028	-a>
+pi_c	r1028	-a>
+tdchola_c	r1028	-a>
+atp_c	r1028	-a>
+tdchola_e	r1028	-a>
+adp_c	r1028	-a>
+tdchola_x	r1029	-a>
+atp_x	r1029	-a>
+adp_x	r1029	-a>
+h2o_x	r1029	-a>
+tdchola_e	r1029	-a>
+pi_x	r1029	-a>
+h_x	r1029	-a>
+C02470_c	r1030	-a>
+C02470_e	r1030	-a>
+na1_c	r1043	-a>
+dad_2_c	r1043	-a>
+na1_e	r1043	-a>
+dad_2_e	r1043	-a>
+na1_c	r1044	-a>
+na1_e	r1044	-a>
+dcyt_c	r1044	-a>
+dcyt_e	r1044	-a>
+na1_c	r1045	-a>
+dgsn_c	r1045	-a>
+na1_e	r1045	-a>
+dgsn_e	r1045	-a>
+h_e	r1088	-a>
+cit_e	r1088	-a>
+h_c	r1088	-a>
+cit_c	r1088	-a>
+ribflv_c	r1106	-a>
+ribflv_e	r1106	-a>
+atp_c	r1116	-a>
+atp_e	r1116	-a>
+na1_c	r1143	-a>
+na1_e	r1143	-a>
+asp_L_c	r1143	-a>
+asp_L_e	r1143	-a>
+na1_c	r1144	-a>
+glu_L_c	r1144	-a>
+na1_e	r1144	-a>
+glu_L_e	r1144	-a>
+h2o_c	r1162	-a>
+so4_c	r1162	-a>
+h_c	r1162	-a>
+so4_e	r1162	-a>
+pi_c	r1162	-a>
+atp_c	r1162	-a>
+adp_c	r1162	-a>
+fald_e	r1421	-a>
+fald_c	r1421	-a>
+pi_c	r1423	-a>
+pi_e	r1423	-a>
+k_c	r1492	-a>
+k_e	r1492	-a>
+gthrd_c	r1493	-a>
+gthrd_e	r1493	-a>
+na1_c	r1495	-a>
+C02528_e	r1495	-a>
+na1_e	r1495	-a>
+C02528_c	r1495	-a>
+na1_c	r1497	-a>
+tdchola_c	r1497	-a>
+na1_e	r1497	-a>
+tdchola_e	r1497	-a>
+na1_c	r1498	-a>
+na1_e	r1498	-a>
+dgchol_c	r1498	-a>
+dgchol_e	r1498	-a>
+na1_c	r1499	-a>
+na1_e	r1499	-a>
+HC02192_c	r1499	-a>
+HC02192_e	r1499	-a>
+na1_c	r1500	-a>
+na1_e	r1500	-a>
+CE5560_e	r1500	-a>
+CE5560_c	r1500	-a>
+na1_c	r1501	-a>
+HC02195_c	r1501	-a>
+na1_e	r1501	-a>
+HC02195_e	r1501	-a>
+na1_c	r1502	-a>
+HC02196_c	r1502	-a>
+HC02196_e	r1502	-a>
+na1_e	r1502	-a>
+na1_c	r1503	-a>
+HC02220_c	r1503	-a>
+na1_e	r1503	-a>
+HC02220_e	r1503	-a>
+bilirub_e	r1512	-a>
+bilirub_c	r1512	-a>
+h2o_c	r1514	-a>
+arachd_c	r1514	-a>
+h_c	r1514	-a>
+pi_c	r1514	-a>
+atp_c	r1514	-a>
+adp_c	r1514	-a>
+arachd_e	r1514	-a>
+h2o_c	r1515	-a>
+h_c	r1515	-a>
+pi_c	r1515	-a>
+hdca_e	r1515	-a>
+atp_c	r1515	-a>
+adp_c	r1515	-a>
+hdca_c	r1515	-a>
+h2o_c	r1516	-a>
+ocdcea_c	r1516	-a>
+h_c	r1516	-a>
+pi_c	r1516	-a>
+atp_c	r1516	-a>
+ocdcea_e	r1516	-a>
+adp_c	r1516	-a>
+strdnc_c	r1517	-a>
+strdnc_e	r1517	-a>
+pi_c	r1517	-a>
+atp_c	r1517	-a>
+adp_c	r1517	-a>
+h2o_c	r1517	-a>
+h_c	r1517	-a>
+lnlc_c	r1518	-a>
+h2o_c	r1518	-a>
+h_c	r1518	-a>
+pi_c	r1518	-a>
+atp_c	r1518	-a>
+adp_c	r1518	-a>
+lnlc_e	r1518	-a>
+elaid_e	r1519	-a>
+h_c	r1519	-a>
+pi_c	r1519	-a>
+atp_c	r1519	-a>
+adp_c	r1519	-a>
+h2o_c	r1519	-a>
+elaid_c	r1519	-a>
+h2o_c	r1520	-a>
+h_c	r1520	-a>
+pi_c	r1520	-a>
+atp_c	r1520	-a>
+lnlncg_c	r1520	-a>
+adp_c	r1520	-a>
+lnlncg_e	r1520	-a>
+h2o_c	r1521	-a>
+h_c	r1521	-a>
+pi_c	r1521	-a>
+atp_c	r1521	-a>
+lnlnca_c	r1521	-a>
+adp_c	r1521	-a>
+lnlnca_e	r1521	-a>
+h2o_c	r1522	-a>
+lgnc_e	r1522	-a>
+h_c	r1522	-a>
+pi_c	r1522	-a>
+atp_c	r1522	-a>
+lgnc_c	r1522	-a>
+adp_c	r1522	-a>
+h2o_c	r1523	-a>
+h_c	r1523	-a>
+pi_c	r1523	-a>
+atp_c	r1523	-a>
+hdcea_c	r1523	-a>
+adp_c	r1523	-a>
+hdcea_e	r1523	-a>
+h2o_c	r1525	-a>
+dlnlcg_c	r1525	-a>
+h_c	r1525	-a>
+dlnlcg_e	r1525	-a>
+pi_c	r1525	-a>
+atp_c	r1525	-a>
+adp_c	r1525	-a>
+h2o_c	r1526	-a>
+h_c	r1526	-a>
+HC02154_c	r1526	-a>
+pi_c	r1526	-a>
+atp_c	r1526	-a>
+HC02154_e	r1526	-a>
+adp_c	r1526	-a>
+h2o_c	r1527	-a>
+h_c	r1527	-a>
+pi_c	r1527	-a>
+atp_c	r1527	-a>
+dca_c	r1527	-a>
+adp_c	r1527	-a>
+dca_e	r1527	-a>
+h2o_c	r1528	-a>
+h_c	r1528	-a>
+pi_c	r1528	-a>
+atp_c	r1528	-a>
+ddca_e	r1528	-a>
+adp_c	r1528	-a>
+ddca_c	r1528	-a>
+h2o_c	r1529	-a>
+h_c	r1529	-a>
+pi_c	r1529	-a>
+atp_c	r1529	-a>
+adp_c	r1529	-a>
+ttdca_c	r1529	-a>
+ttdca_e	r1529	-a>
+gthrd_c	r1530	-a>
+h2o_c	r1530	-a>
+gthrd_e	r1530	-a>
+h_c	r1530	-a>
+pi_c	r1530	-a>
+atp_c	r1530	-a>
+adp_c	r1530	-a>
+h2o_c	r1531	-a>
+HC02199_e	r1531	-a>
+h_c	r1531	-a>
+pi_c	r1531	-a>
+atp_c	r1531	-a>
+adp_c	r1531	-a>
+HC02199_c	r1531	-a>
+h2o_c	r1532	-a>
+h_c	r1532	-a>
+HC02200_c	r1532	-a>
+pi_c	r1532	-a>
+atp_c	r1532	-a>
+HC02200_e	r1532	-a>
+adp_c	r1532	-a>
+HC02201_e	r1533	-a>
+h_c	r1533	-a>
+h2o_c	r1533	-a>
+pi_c	r1533	-a>
+atp_c	r1533	-a>
+adp_c	r1533	-a>
+HC02201_c	r1533	-a>
+urate_c	r1536	-a>
+h2o_c	r1536	-a>
+urate_e	r1536	-a>
+h_c	r1536	-a>
+pi_c	r1536	-a>
+atp_c	r1536	-a>
+adp_c	r1536	-a>
+na1_c	r1538	-a>
+hco3_c	r1538	-a>
+na1_e	r1538	-a>
+hco3_e	r1538	-a>
+gly_e	r1544	-a>
+gln_L_e	r1544	-a>
+gln_L_c	r1544	-a>
+gly_c	r1544	-a>
+gly_e	r1546	-a>
+met_L_e	r1546	-a>
+gly_c	r1546	-a>
+met_L_c	r1546	-a>
+gly_e	r1547	-a>
+trp_L_c	r1547	-a>
+trp_L_e	r1547	-a>
+gly_c	r1547	-a>
+gly_e	r1548	-a>
+phe_L_c	r1548	-a>
+gly_c	r1548	-a>
+phe_L_e	r1548	-a>
+gly_e	r1549	-a>
+tyr_L_e	r1549	-a>
+gly_c	r1549	-a>
+tyr_L_c	r1549	-a>
+leu_L_e	r1551	-a>
+gly_e	r1551	-a>
+gly_c	r1551	-a>
+leu_L_c	r1551	-a>
+gly_e	r1552	-a>
+pro_L_e	r1552	-a>
+gly_c	r1552	-a>
+pro_L_c	r1552	-a>
+gly_e	r1553	-a>
+asn_L_c	r1553	-a>
+gly_c	r1553	-a>
+asn_L_e	r1553	-a>
+gly_e	r1554	-a>
+gly_c	r1554	-a>
+val_L_e	r1554	-a>
+val_L_c	r1554	-a>
+gly_e	r1556	-a>
+hom_L_c	r1556	-a>
+gly_c	r1556	-a>
+hom_L_e	r1556	-a>
+gly_e	r1557	-a>
+gly_c	r1557	-a>
+ile_L_e	r1557	-a>
+ile_L_c	r1557	-a>
+ser_L_c	r1559	-a>
+ala_L_c	r1559	-a>
+ser_L_e	r1559	-a>
+ala_L_e	r1559	-a>
+ala_L_c	r1560	-a>
+met_L_e	r1560	-a>
+ala_L_e	r1560	-a>
+met_L_c	r1560	-a>
+trp_L_c	r1561	-a>
+ala_L_c	r1561	-a>
+ala_L_e	r1561	-a>
+trp_L_e	r1561	-a>
+phe_L_c	r1562	-a>
+ala_L_c	r1562	-a>
+ala_L_e	r1562	-a>
+phe_L_e	r1562	-a>
+tyr_L_e	r1563	-a>
+ala_L_c	r1563	-a>
+ala_L_e	r1563	-a>
+tyr_L_c	r1563	-a>
+cys_L_c	r1564	-a>
+ala_L_c	r1564	-a>
+cys_L_e	r1564	-a>
+ala_L_e	r1564	-a>
+leu_L_e	r1565	-a>
+ala_L_c	r1565	-a>
+leu_L_c	r1565	-a>
+ala_L_e	r1565	-a>
+pro_L_e	r1566	-a>
+ala_L_c	r1566	-a>
+pro_L_c	r1566	-a>
+ala_L_e	r1566	-a>
+ala_L_c	r1567	-a>
+asn_L_c	r1567	-a>
+ala_L_e	r1567	-a>
+asn_L_e	r1567	-a>
+val_L_c	r1568	-a>
+ala_L_c	r1568	-a>
+val_L_e	r1568	-a>
+ala_L_e	r1568	-a>
+thr_L_e	r1569	-a>
+ala_L_c	r1569	-a>
+thr_L_c	r1569	-a>
+ala_L_e	r1569	-a>
+hom_L_c	r1570	-a>
+ala_L_c	r1570	-a>
+hom_L_e	r1570	-a>
+ala_L_e	r1570	-a>
+ala_L_c	r1571	-a>
+ile_L_e	r1571	-a>
+ile_L_c	r1571	-a>
+ala_L_e	r1571	-a>
+gln_L_e	r1573	-a>
+met_L_e	r1573	-a>
+gln_L_c	r1573	-a>
+met_L_c	r1573	-a>
+gln_L_e	r1574	-a>
+trp_L_c	r1574	-a>
+trp_L_e	r1574	-a>
+gln_L_c	r1574	-a>
+gln_L_e	r1575	-a>
+phe_L_c	r1575	-a>
+gln_L_c	r1575	-a>
+phe_L_e	r1575	-a>
+gln_L_e	r1576	-a>
+tyr_L_e	r1576	-a>
+gln_L_c	r1576	-a>
+tyr_L_c	r1576	-a>
+leu_L_e	r1578	-a>
+gln_L_e	r1578	-a>
+gln_L_c	r1578	-a>
+leu_L_c	r1578	-a>
+gln_L_e	r1579	-a>
+pro_L_e	r1579	-a>
+gln_L_c	r1579	-a>
+pro_L_c	r1579	-a>
+gln_L_e	r1580	-a>
+asn_L_c	r1580	-a>
+gln_L_c	r1580	-a>
+asn_L_e	r1580	-a>
+gln_L_e	r1581	-a>
+gln_L_c	r1581	-a>
+val_L_e	r1581	-a>
+val_L_c	r1581	-a>
+gln_L_e	r1583	-a>
+hom_L_c	r1583	-a>
+gln_L_c	r1583	-a>
+hom_L_e	r1583	-a>
+gln_L_e	r1584	-a>
+gln_L_c	r1584	-a>
+ile_L_e	r1584	-a>
+ile_L_c	r1584	-a>
+ser_L_c	r1585	-a>
+met_L_e	r1585	-a>
+ser_L_e	r1585	-a>
+met_L_c	r1585	-a>
+trp_L_c	r1586	-a>
+ser_L_c	r1586	-a>
+trp_L_e	r1586	-a>
+ser_L_e	r1586	-a>
+ser_L_c	r1587	-a>
+phe_L_c	r1587	-a>
+ser_L_e	r1587	-a>
+phe_L_e	r1587	-a>
+tyr_L_e	r1588	-a>
+ser_L_c	r1588	-a>
+ser_L_e	r1588	-a>
+tyr_L_c	r1588	-a>
+ser_L_c	r1589	-a>
+cys_L_c	r1589	-a>
+ser_L_e	r1589	-a>
+cys_L_e	r1589	-a>
+leu_L_e	r1590	-a>
+ser_L_c	r1590	-a>
+leu_L_c	r1590	-a>
+ser_L_e	r1590	-a>
+pro_L_e	r1591	-a>
+ser_L_c	r1591	-a>
+ser_L_e	r1591	-a>
+pro_L_c	r1591	-a>
+ser_L_c	r1592	-a>
+asn_L_c	r1592	-a>
+ser_L_e	r1592	-a>
+asn_L_e	r1592	-a>
+val_L_c	r1593	-a>
+ser_L_c	r1593	-a>
+val_L_e	r1593	-a>
+ser_L_e	r1593	-a>
+thr_L_e	r1594	-a>
+ser_L_c	r1594	-a>
+thr_L_c	r1594	-a>
+ser_L_e	r1594	-a>
+hom_L_c	r1595	-a>
+ser_L_c	r1595	-a>
+hom_L_e	r1595	-a>
+ser_L_e	r1595	-a>
+ser_L_c	r1596	-a>
+ile_L_e	r1596	-a>
+ile_L_c	r1596	-a>
+ser_L_e	r1596	-a>
+trp_L_c	r1597	-a>
+met_L_e	r1597	-a>
+trp_L_e	r1597	-a>
+met_L_c	r1597	-a>
+met_L_c	r1598	-a>
+phe_L_c	r1598	-a>
+met_L_e	r1598	-a>
+phe_L_e	r1598	-a>
+met_L_c	r1599	-a>
+tyr_L_e	r1599	-a>
+met_L_e	r1599	-a>
+tyr_L_c	r1599	-a>
+cys_L_c	r1600	-a>
+met_L_e	r1600	-a>
+cys_L_e	r1600	-a>
+met_L_c	r1600	-a>
+pro_L_e	r1602	-a>
+met_L_e	r1602	-a>
+pro_L_c	r1602	-a>
+met_L_c	r1602	-a>
+met_L_e	r1603	-a>
+asn_L_e	r1603	-a>
+asn_L_c	r1603	-a>
+met_L_c	r1603	-a>
+val_L_c	r1604	-a>
+met_L_e	r1604	-a>
+val_L_e	r1604	-a>
+met_L_c	r1604	-a>
+thr_L_e	r1605	-a>
+met_L_e	r1605	-a>
+thr_L_c	r1605	-a>
+met_L_c	r1605	-a>
+hom_L_c	r1606	-a>
+met_L_e	r1606	-a>
+hom_L_e	r1606	-a>
+met_L_c	r1606	-a>
+met_L_e	r1607	-a>
+ile_L_e	r1607	-a>
+ile_L_c	r1607	-a>
+met_L_c	r1607	-a>
+trp_L_c	r1608	-a>
+phe_L_c	r1608	-a>
+trp_L_e	r1608	-a>
+phe_L_e	r1608	-a>
+trp_L_c	r1609	-a>
+tyr_L_e	r1609	-a>
+trp_L_e	r1609	-a>
+tyr_L_c	r1609	-a>
+trp_L_c	r1610	-a>
+cys_L_c	r1610	-a>
+trp_L_e	r1610	-a>
+cys_L_e	r1610	-a>
+leu_L_e	r1611	-a>
+trp_L_c	r1611	-a>
+trp_L_e	r1611	-a>
+leu_L_c	r1611	-a>
+trp_L_c	r1612	-a>
+pro_L_e	r1612	-a>
+trp_L_e	r1612	-a>
+pro_L_c	r1612	-a>
+trp_L_c	r1613	-a>
+trp_L_e	r1613	-a>
+asn_L_c	r1613	-a>
+asn_L_e	r1613	-a>
+trp_L_c	r1614	-a>
+val_L_c	r1614	-a>
+trp_L_e	r1614	-a>
+val_L_e	r1614	-a>
+thr_L_e	r1615	-a>
+trp_L_c	r1615	-a>
+trp_L_e	r1615	-a>
+thr_L_c	r1615	-a>
+trp_L_c	r1616	-a>
+hom_L_c	r1616	-a>
+trp_L_e	r1616	-a>
+hom_L_e	r1616	-a>
+trp_L_c	r1617	-a>
+trp_L_e	r1617	-a>
+ile_L_e	r1617	-a>
+ile_L_c	r1617	-a>
+pro_L_e	r1621	-a>
+phe_L_c	r1621	-a>
+pro_L_c	r1621	-a>
+phe_L_e	r1621	-a>
+hom_L_c	r1625	-a>
+phe_L_c	r1625	-a>
+hom_L_e	r1625	-a>
+phe_L_e	r1625	-a>
+tyr_L_e	r1627	-a>
+cys_L_c	r1627	-a>
+cys_L_e	r1627	-a>
+tyr_L_c	r1627	-a>
+leu_L_e	r1628	-a>
+tyr_L_e	r1628	-a>
+leu_L_c	r1628	-a>
+tyr_L_c	r1628	-a>
+pro_L_e	r1629	-a>
+tyr_L_e	r1629	-a>
+pro_L_c	r1629	-a>
+tyr_L_c	r1629	-a>
+tyr_L_e	r1630	-a>
+asn_L_c	r1630	-a>
+asn_L_e	r1630	-a>
+tyr_L_c	r1630	-a>
+val_L_c	r1631	-a>
+tyr_L_e	r1631	-a>
+val_L_e	r1631	-a>
+tyr_L_c	r1631	-a>
+thr_L_e	r1632	-a>
+tyr_L_e	r1632	-a>
+thr_L_c	r1632	-a>
+tyr_L_c	r1632	-a>
+hom_L_c	r1633	-a>
+tyr_L_e	r1633	-a>
+hom_L_e	r1633	-a>
+tyr_L_c	r1633	-a>
+tyr_L_e	r1634	-a>
+ile_L_e	r1634	-a>
+ile_L_c	r1634	-a>
+tyr_L_c	r1634	-a>
+leu_L_e	r1635	-a>
+cys_L_c	r1635	-a>
+leu_L_c	r1635	-a>
+cys_L_e	r1635	-a>
+pro_L_e	r1636	-a>
+cys_L_c	r1636	-a>
+cys_L_e	r1636	-a>
+pro_L_c	r1636	-a>
+cys_L_c	r1637	-a>
+asn_L_c	r1637	-a>
+cys_L_e	r1637	-a>
+asn_L_e	r1637	-a>
+val_L_c	r1638	-a>
+cys_L_c	r1638	-a>
+val_L_e	r1638	-a>
+cys_L_e	r1638	-a>
+thr_L_e	r1639	-a>
+cys_L_c	r1639	-a>
+thr_L_c	r1639	-a>
+cys_L_e	r1639	-a>
+hom_L_c	r1640	-a>
+cys_L_c	r1640	-a>
+hom_L_e	r1640	-a>
+cys_L_e	r1640	-a>
+cys_L_c	r1641	-a>
+ile_L_e	r1641	-a>
+ile_L_c	r1641	-a>
+cys_L_e	r1641	-a>
+leu_L_e	r1642	-a>
+pro_L_e	r1642	-a>
+leu_L_c	r1642	-a>
+pro_L_c	r1642	-a>
+leu_L_e	r1643	-a>
+asn_L_c	r1643	-a>
+leu_L_c	r1643	-a>
+asn_L_e	r1643	-a>
+leu_L_e	r1645	-a>
+thr_L_e	r1645	-a>
+thr_L_c	r1645	-a>
+leu_L_c	r1645	-a>
+leu_L_e	r1646	-a>
+hom_L_c	r1646	-a>
+leu_L_c	r1646	-a>
+hom_L_e	r1646	-a>
+pro_L_e	r1648	-a>
+asn_L_c	r1648	-a>
+pro_L_c	r1648	-a>
+asn_L_e	r1648	-a>
+val_L_c	r1649	-a>
+val_L_e	r1649	-a>
+pro_L_c	r1649	-a>
+pro_L_e	r1649	-a>
+thr_L_e	r1650	-a>
+pro_L_e	r1650	-a>
+thr_L_c	r1650	-a>
+pro_L_c	r1650	-a>
+hom_L_c	r1651	-a>
+hom_L_e	r1651	-a>
+pro_L_c	r1651	-a>
+pro_L_e	r1651	-a>
+pro_L_e	r1652	-a>
+ile_L_e	r1652	-a>
+ile_L_c	r1652	-a>
+pro_L_c	r1652	-a>
+val_L_c	r1653	-a>
+asn_L_c	r1653	-a>
+val_L_e	r1653	-a>
+asn_L_e	r1653	-a>
+thr_L_e	r1654	-a>
+asn_L_c	r1654	-a>
+thr_L_c	r1654	-a>
+asn_L_e	r1654	-a>
+hom_L_c	r1655	-a>
+asn_L_c	r1655	-a>
+hom_L_e	r1655	-a>
+asn_L_e	r1655	-a>
+asn_L_c	r1656	-a>
+ile_L_e	r1656	-a>
+ile_L_c	r1656	-a>
+asn_L_e	r1656	-a>
+thr_L_e	r1657	-a>
+val_L_c	r1657	-a>
+val_L_e	r1657	-a>
+thr_L_c	r1657	-a>
+hom_L_c	r1658	-a>
+val_L_e	r1658	-a>
+hom_L_e	r1658	-a>
+val_L_c	r1658	-a>
+val_L_c	r1659	-a>
+ile_L_e	r1659	-a>
+ile_L_c	r1659	-a>
+val_L_e	r1659	-a>
+thr_L_e	r1660	-a>
+hom_L_c	r1660	-a>
+thr_L_c	r1660	-a>
+hom_L_e	r1660	-a>
+thr_L_e	r1661	-a>
+ile_L_e	r1661	-a>
+thr_L_c	r1661	-a>
+ile_L_c	r1661	-a>
+hom_L_c	r1662	-a>
+ile_L_e	r1662	-a>
+ile_L_c	r1662	-a>
+hom_L_e	r1662	-a>
+orn_c	r1664	-a>
+lys_L_c	r1664	-a>
+orn_e	r1664	-a>
+lys_L_e	r1664	-a>
+lys_L_c	r1665	-a>
+his_L_c	r1665	-a>
+lys_L_e	r1665	-a>
+his_L_e	r1665	-a>
+citr_L_e	r1666	-a>
+lys_L_c	r1666	-a>
+lys_L_e	r1666	-a>
+citr_L_c	r1666	-a>
+orn_c	r1667	-a>
+arg_L_c	r1667	-a>
+arg_L_e	r1667	-a>
+orn_e	r1667	-a>
+his_L_c	r1668	-a>
+arg_L_c	r1668	-a>
+arg_L_e	r1668	-a>
+his_L_e	r1668	-a>
+citr_L_e	r1669	-a>
+arg_L_c	r1669	-a>
+citr_L_c	r1669	-a>
+arg_L_e	r1669	-a>
+orn_c	r1670	-a>
+his_L_c	r1670	-a>
+his_L_e	r1670	-a>
+orn_e	r1670	-a>
+citr_L_e	r1671	-a>
+his_L_c	r1671	-a>
+citr_L_c	r1671	-a>
+his_L_e	r1671	-a>
+gly_e	r1672	-a>
+ala_L_c	r1672	-a>
+gly_c	r1672	-a>
+ala_L_e	r1672	-a>
+na1_c	r1672	-a>
+na1_e	r1672	-a>
+gln_L_e	r1673	-a>
+gly_e	r1673	-a>
+gly_c	r1673	-a>
+na1_c	r1673	-a>
+na1_e	r1673	-a>
+gln_L_c	r1673	-a>
+gly_e	r1674	-a>
+gly_c	r1674	-a>
+na1_c	r1674	-a>
+ser_L_c	r1674	-a>
+na1_e	r1674	-a>
+ser_L_e	r1674	-a>
+gly_e	r1675	-a>
+na1_e	r1675	-a>
+gly_c	r1675	-a>
+met_L_c	r1675	-a>
+na1_c	r1675	-a>
+met_L_e	r1675	-a>
+na1_c	r1676	-a>
+na1_e	r1676	-a>
+gly_c	r1676	-a>
+trp_L_c	r1676	-a>
+trp_L_e	r1676	-a>
+gly_e	r1676	-a>
+gly_e	r1677	-a>
+phe_L_c	r1677	-a>
+gly_c	r1677	-a>
+phe_L_e	r1677	-a>
+na1_c	r1677	-a>
+na1_e	r1677	-a>
+gly_e	r1678	-a>
+gly_c	r1678	-a>
+tyr_L_c	r1678	-a>
+na1_c	r1678	-a>
+tyr_L_e	r1678	-a>
+na1_e	r1678	-a>
+gly_e	r1679	-a>
+gly_c	r1679	-a>
+na1_c	r1679	-a>
+cys_L_c	r1679	-a>
+na1_e	r1679	-a>
+cys_L_e	r1679	-a>
+leu_L_e	r1680	-a>
+gly_e	r1680	-a>
+gly_c	r1680	-a>
+na1_c	r1680	-a>
+na1_e	r1680	-a>
+leu_L_c	r1680	-a>
+gly_e	r1681	-a>
+gly_c	r1681	-a>
+pro_L_c	r1681	-a>
+na1_c	r1681	-a>
+pro_L_e	r1681	-a>
+na1_e	r1681	-a>
+gly_e	r1682	-a>
+asn_L_c	r1682	-a>
+gly_c	r1682	-a>
+asn_L_e	r1682	-a>
+na1_c	r1682	-a>
+na1_e	r1682	-a>
+gly_e	r1683	-a>
+gly_c	r1683	-a>
+na1_c	r1683	-a>
+val_L_c	r1683	-a>
+na1_e	r1683	-a>
+val_L_e	r1683	-a>
+thr_L_e	r1684	-a>
+gly_c	r1684	-a>
+thr_L_c	r1684	-a>
+na1_c	r1684	-a>
+na1_e	r1684	-a>
+gly_e	r1684	-a>
+hom_L_c	r1685	-a>
+gly_c	r1685	-a>
+hom_L_e	r1685	-a>
+na1_c	r1685	-a>
+na1_e	r1685	-a>
+gly_e	r1685	-a>
+gly_e	r1686	-a>
+gly_c	r1686	-a>
+na1_c	r1686	-a>
+ile_L_e	r1686	-a>
+na1_e	r1686	-a>
+ile_L_c	r1686	-a>
+gly_e	r1687	-a>
+ala_L_c	r1687	-a>
+gly_c	r1687	-a>
+ala_L_e	r1687	-a>
+na1_c	r1687	-a>
+na1_e	r1687	-a>
+na1_e	r1690	-a>
+ala_L_c	r1690	-a>
+ala_L_e	r1690	-a>
+met_L_c	r1690	-a>
+na1_c	r1690	-a>
+met_L_e	r1690	-a>
+trp_L_c	r1691	-a>
+ala_L_c	r1691	-a>
+ala_L_e	r1691	-a>
+na1_c	r1691	-a>
+na1_e	r1691	-a>
+trp_L_e	r1691	-a>
+ala_L_c	r1692	-a>
+phe_L_c	r1692	-a>
+ala_L_e	r1692	-a>
+phe_L_e	r1692	-a>
+na1_c	r1692	-a>
+na1_e	r1692	-a>
+ala_L_c	r1693	-a>
+ala_L_e	r1693	-a>
+tyr_L_c	r1693	-a>
+na1_c	r1693	-a>
+tyr_L_e	r1693	-a>
+na1_e	r1693	-a>
+leu_L_e	r1695	-a>
+ala_L_c	r1695	-a>
+ala_L_e	r1695	-a>
+na1_c	r1695	-a>
+na1_e	r1695	-a>
+leu_L_c	r1695	-a>
+ala_L_c	r1696	-a>
+ala_L_e	r1696	-a>
+pro_L_c	r1696	-a>
+na1_c	r1696	-a>
+pro_L_e	r1696	-a>
+na1_e	r1696	-a>
+ala_L_c	r1698	-a>
+ala_L_e	r1698	-a>
+na1_c	r1698	-a>
+val_L_c	r1698	-a>
+na1_e	r1698	-a>
+val_L_e	r1698	-a>
+hom_L_c	r1700	-a>
+ala_L_c	r1700	-a>
+hom_L_e	r1700	-a>
+ala_L_e	r1700	-a>
+na1_c	r1700	-a>
+na1_e	r1700	-a>
+ala_L_c	r1701	-a>
+ile_L_e	r1701	-a>
+ala_L_e	r1701	-a>
+na1_c	r1701	-a>
+na1_e	r1701	-a>
+ile_L_c	r1701	-a>
+gln_L_e	r1702	-a>
+gly_e	r1702	-a>
+gly_c	r1702	-a>
+na1_c	r1702	-a>
+na1_e	r1702	-a>
+gln_L_c	r1702	-a>
+gln_L_e	r1705	-a>
+met_L_e	r1705	-a>
+met_L_c	r1705	-a>
+na1_c	r1705	-a>
+na1_e	r1705	-a>
+gln_L_c	r1705	-a>
+gln_L_e	r1706	-a>
+trp_L_c	r1706	-a>
+na1_e	r1706	-a>
+na1_c	r1706	-a>
+trp_L_e	r1706	-a>
+gln_L_c	r1706	-a>
+gln_L_e	r1707	-a>
+phe_L_c	r1707	-a>
+phe_L_e	r1707	-a>
+na1_c	r1707	-a>
+na1_e	r1707	-a>
+gln_L_c	r1707	-a>
+gln_L_e	r1708	-a>
+tyr_L_c	r1708	-a>
+na1_c	r1708	-a>
+tyr_L_e	r1708	-a>
+na1_e	r1708	-a>
+gln_L_c	r1708	-a>
+leu_L_e	r1710	-a>
+gln_L_e	r1710	-a>
+na1_c	r1710	-a>
+na1_e	r1710	-a>
+gln_L_c	r1710	-a>
+leu_L_c	r1710	-a>
+gln_L_e	r1711	-a>
+pro_L_c	r1711	-a>
+na1_c	r1711	-a>
+pro_L_e	r1711	-a>
+na1_e	r1711	-a>
+gln_L_c	r1711	-a>
+gln_L_e	r1713	-a>
+na1_c	r1713	-a>
+val_L_c	r1713	-a>
+na1_e	r1713	-a>
+gln_L_c	r1713	-a>
+val_L_e	r1713	-a>
+gln_L_e	r1715	-a>
+hom_L_c	r1715	-a>
+hom_L_e	r1715	-a>
+na1_c	r1715	-a>
+na1_e	r1715	-a>
+gln_L_c	r1715	-a>
+gln_L_e	r1716	-a>
+ile_L_e	r1716	-a>
+na1_c	r1716	-a>
+na1_e	r1716	-a>
+gln_L_c	r1716	-a>
+ile_L_c	r1716	-a>
+gly_e	r1717	-a>
+gly_c	r1717	-a>
+na1_c	r1717	-a>
+ser_L_c	r1717	-a>
+na1_e	r1717	-a>
+ser_L_e	r1717	-a>
+na1_e	r1720	-a>
+met_L_c	r1720	-a>
+na1_c	r1720	-a>
+ser_L_c	r1720	-a>
+met_L_e	r1720	-a>
+ser_L_e	r1720	-a>
+trp_L_c	r1721	-a>
+trp_L_e	r1721	-a>
+na1_c	r1721	-a>
+ser_L_c	r1721	-a>
+na1_e	r1721	-a>
+ser_L_e	r1721	-a>
+phe_L_c	r1722	-a>
+phe_L_e	r1722	-a>
+na1_c	r1722	-a>
+ser_L_c	r1722	-a>
+na1_e	r1722	-a>
+ser_L_e	r1722	-a>
+tyr_L_c	r1723	-a>
+na1_c	r1723	-a>
+ser_L_c	r1723	-a>
+na1_e	r1723	-a>
+tyr_L_e	r1723	-a>
+ser_L_e	r1723	-a>
+leu_L_e	r1725	-a>
+na1_c	r1725	-a>
+ser_L_c	r1725	-a>
+na1_e	r1725	-a>
+leu_L_c	r1725	-a>
+ser_L_e	r1725	-a>
+pro_L_c	r1726	-a>
+na1_c	r1726	-a>
+pro_L_e	r1726	-a>
+ser_L_c	r1726	-a>
+na1_e	r1726	-a>
+ser_L_e	r1726	-a>
+na1_c	r1728	-a>
+val_L_c	r1728	-a>
+ser_L_c	r1728	-a>
+na1_e	r1728	-a>
+val_L_e	r1728	-a>
+ser_L_e	r1728	-a>
+hom_L_c	r1730	-a>
+hom_L_e	r1730	-a>
+na1_c	r1730	-a>
+ser_L_c	r1730	-a>
+na1_e	r1730	-a>
+ser_L_e	r1730	-a>
+ile_L_e	r1731	-a>
+na1_c	r1731	-a>
+ser_L_c	r1731	-a>
+na1_e	r1731	-a>
+ile_L_c	r1731	-a>
+ser_L_e	r1731	-a>
+gly_e	r1732	-a>
+na1_e	r1732	-a>
+gly_c	r1732	-a>
+met_L_c	r1732	-a>
+na1_c	r1732	-a>
+met_L_e	r1732	-a>
+na1_e	r1733	-a>
+ala_L_c	r1733	-a>
+ala_L_e	r1733	-a>
+met_L_c	r1733	-a>
+na1_c	r1733	-a>
+met_L_e	r1733	-a>
+gln_L_e	r1734	-a>
+met_L_e	r1734	-a>
+met_L_c	r1734	-a>
+na1_c	r1734	-a>
+na1_e	r1734	-a>
+gln_L_c	r1734	-a>
+na1_e	r1735	-a>
+met_L_c	r1735	-a>
+na1_c	r1735	-a>
+ser_L_c	r1735	-a>
+met_L_e	r1735	-a>
+ser_L_e	r1735	-a>
+trp_L_c	r1736	-a>
+na1_e	r1736	-a>
+met_L_c	r1736	-a>
+na1_c	r1736	-a>
+met_L_e	r1736	-a>
+trp_L_e	r1736	-a>
+na1_e	r1737	-a>
+phe_L_c	r1737	-a>
+phe_L_e	r1737	-a>
+na1_c	r1737	-a>
+met_L_c	r1737	-a>
+met_L_e	r1737	-a>
+na1_e	r1738	-a>
+tyr_L_c	r1738	-a>
+met_L_c	r1738	-a>
+na1_c	r1738	-a>
+tyr_L_e	r1738	-a>
+met_L_e	r1738	-a>
+met_L_e	r1739	-a>
+met_L_c	r1739	-a>
+na1_c	r1739	-a>
+cys_L_c	r1739	-a>
+na1_e	r1739	-a>
+cys_L_e	r1739	-a>
+leu_L_e	r1740	-a>
+na1_e	r1740	-a>
+met_L_c	r1740	-a>
+na1_c	r1740	-a>
+met_L_e	r1740	-a>
+leu_L_c	r1740	-a>
+na1_e	r1741	-a>
+pro_L_c	r1741	-a>
+met_L_c	r1741	-a>
+na1_c	r1741	-a>
+pro_L_e	r1741	-a>
+met_L_e	r1741	-a>
+met_L_e	r1742	-a>
+asn_L_c	r1742	-a>
+asn_L_e	r1742	-a>
+met_L_c	r1742	-a>
+na1_c	r1742	-a>
+na1_e	r1742	-a>
+na1_e	r1743	-a>
+met_L_c	r1743	-a>
+na1_c	r1743	-a>
+val_L_c	r1743	-a>
+met_L_e	r1743	-a>
+val_L_e	r1743	-a>
+thr_L_e	r1744	-a>
+na1_e	r1744	-a>
+thr_L_c	r1744	-a>
+met_L_c	r1744	-a>
+na1_c	r1744	-a>
+met_L_e	r1744	-a>
+hom_L_c	r1745	-a>
+na1_e	r1745	-a>
+hom_L_e	r1745	-a>
+met_L_c	r1745	-a>
+na1_c	r1745	-a>
+met_L_e	r1745	-a>
+met_L_e	r1746	-a>
+ile_L_e	r1746	-a>
+met_L_c	r1746	-a>
+na1_c	r1746	-a>
+na1_e	r1746	-a>
+ile_L_c	r1746	-a>
+na1_c	r1747	-a>
+na1_e	r1747	-a>
+gly_c	r1747	-a>
+trp_L_c	r1747	-a>
+trp_L_e	r1747	-a>
+gly_e	r1747	-a>
+trp_L_c	r1748	-a>
+ala_L_c	r1748	-a>
+ala_L_e	r1748	-a>
+na1_c	r1748	-a>
+na1_e	r1748	-a>
+trp_L_e	r1748	-a>
+gln_L_e	r1749	-a>
+trp_L_c	r1749	-a>
+na1_e	r1749	-a>
+na1_c	r1749	-a>
+trp_L_e	r1749	-a>
+gln_L_c	r1749	-a>
+trp_L_c	r1750	-a>
+trp_L_e	r1750	-a>
+na1_c	r1750	-a>
+ser_L_c	r1750	-a>
+na1_e	r1750	-a>
+ser_L_e	r1750	-a>
+trp_L_c	r1751	-a>
+na1_e	r1751	-a>
+met_L_c	r1751	-a>
+na1_c	r1751	-a>
+met_L_e	r1751	-a>
+trp_L_e	r1751	-a>
+trp_L_c	r1752	-a>
+phe_L_c	r1752	-a>
+phe_L_e	r1752	-a>
+na1_c	r1752	-a>
+na1_e	r1752	-a>
+trp_L_e	r1752	-a>
+trp_L_c	r1753	-a>
+trp_L_e	r1753	-a>
+tyr_L_c	r1753	-a>
+na1_c	r1753	-a>
+tyr_L_e	r1753	-a>
+na1_e	r1753	-a>
+trp_L_c	r1754	-a>
+trp_L_e	r1754	-a>
+na1_c	r1754	-a>
+cys_L_c	r1754	-a>
+na1_e	r1754	-a>
+cys_L_e	r1754	-a>
+leu_L_e	r1755	-a>
+trp_L_c	r1755	-a>
+na1_e	r1755	-a>
+na1_c	r1755	-a>
+trp_L_e	r1755	-a>
+leu_L_c	r1755	-a>
+trp_L_c	r1756	-a>
+na1_e	r1756	-a>
+pro_L_c	r1756	-a>
+na1_c	r1756	-a>
+pro_L_e	r1756	-a>
+trp_L_e	r1756	-a>
+trp_L_c	r1757	-a>
+asn_L_c	r1757	-a>
+asn_L_e	r1757	-a>
+na1_c	r1757	-a>
+na1_e	r1757	-a>
+trp_L_e	r1757	-a>
+trp_L_c	r1758	-a>
+na1_e	r1758	-a>
+na1_c	r1758	-a>
+val_L_c	r1758	-a>
+trp_L_e	r1758	-a>
+val_L_e	r1758	-a>
+thr_L_e	r1759	-a>
+trp_L_c	r1759	-a>
+na1_e	r1759	-a>
+thr_L_c	r1759	-a>
+na1_c	r1759	-a>
+trp_L_e	r1759	-a>
+hom_L_c	r1760	-a>
+na1_e	r1760	-a>
+hom_L_e	r1760	-a>
+na1_c	r1760	-a>
+trp_L_c	r1760	-a>
+trp_L_e	r1760	-a>
+trp_L_c	r1761	-a>
+trp_L_e	r1761	-a>
+ile_L_e	r1761	-a>
+na1_c	r1761	-a>
+na1_e	r1761	-a>
+ile_L_c	r1761	-a>
+gly_e	r1762	-a>
+phe_L_c	r1762	-a>
+gly_c	r1762	-a>
+phe_L_e	r1762	-a>
+na1_c	r1762	-a>
+na1_e	r1762	-a>
+ala_L_c	r1763	-a>
+phe_L_c	r1763	-a>
+ala_L_e	r1763	-a>
+phe_L_e	r1763	-a>
+na1_c	r1763	-a>
+na1_e	r1763	-a>
+gln_L_e	r1764	-a>
+phe_L_c	r1764	-a>
+phe_L_e	r1764	-a>
+na1_c	r1764	-a>
+na1_e	r1764	-a>
+gln_L_c	r1764	-a>
+phe_L_c	r1765	-a>
+phe_L_e	r1765	-a>
+na1_c	r1765	-a>
+ser_L_c	r1765	-a>
+na1_e	r1765	-a>
+ser_L_e	r1765	-a>
+na1_e	r1766	-a>
+phe_L_c	r1766	-a>
+phe_L_e	r1766	-a>
+na1_c	r1766	-a>
+met_L_c	r1766	-a>
+met_L_e	r1766	-a>
+trp_L_c	r1767	-a>
+phe_L_c	r1767	-a>
+phe_L_e	r1767	-a>
+na1_c	r1767	-a>
+na1_e	r1767	-a>
+trp_L_e	r1767	-a>
+na1_e	r1768	-a>
+phe_L_c	r1768	-a>
+phe_L_e	r1768	-a>
+na1_c	r1768	-a>
+tyr_L_e	r1768	-a>
+tyr_L_c	r1768	-a>
+phe_L_c	r1769	-a>
+phe_L_e	r1769	-a>
+na1_c	r1769	-a>
+cys_L_c	r1769	-a>
+na1_e	r1769	-a>
+cys_L_e	r1769	-a>
+leu_L_e	r1770	-a>
+phe_L_c	r1770	-a>
+phe_L_e	r1770	-a>
+na1_c	r1770	-a>
+na1_e	r1770	-a>
+leu_L_c	r1770	-a>
+phe_L_c	r1771	-a>
+pro_L_c	r1771	-a>
+phe_L_e	r1771	-a>
+na1_c	r1771	-a>
+pro_L_e	r1771	-a>
+na1_e	r1771	-a>
+phe_L_c	r1772	-a>
+asn_L_e	r1772	-a>
+phe_L_e	r1772	-a>
+na1_c	r1772	-a>
+na1_e	r1772	-a>
+asn_L_c	r1772	-a>
+phe_L_c	r1773	-a>
+phe_L_e	r1773	-a>
+na1_c	r1773	-a>
+val_L_c	r1773	-a>
+na1_e	r1773	-a>
+val_L_e	r1773	-a>
+thr_L_e	r1774	-a>
+phe_L_c	r1774	-a>
+thr_L_c	r1774	-a>
+phe_L_e	r1774	-a>
+na1_c	r1774	-a>
+na1_e	r1774	-a>
+hom_L_c	r1775	-a>
+phe_L_c	r1775	-a>
+hom_L_e	r1775	-a>
+phe_L_e	r1775	-a>
+na1_c	r1775	-a>
+na1_e	r1775	-a>
+phe_L_c	r1776	-a>
+ile_L_e	r1776	-a>
+phe_L_e	r1776	-a>
+na1_c	r1776	-a>
+na1_e	r1776	-a>
+ile_L_c	r1776	-a>
+gly_e	r1777	-a>
+gly_c	r1777	-a>
+tyr_L_c	r1777	-a>
+na1_c	r1777	-a>
+tyr_L_e	r1777	-a>
+na1_e	r1777	-a>
+ala_L_c	r1778	-a>
+ala_L_e	r1778	-a>
+tyr_L_c	r1778	-a>
+na1_c	r1778	-a>
+tyr_L_e	r1778	-a>
+na1_e	r1778	-a>
+gln_L_e	r1779	-a>
+tyr_L_c	r1779	-a>
+na1_c	r1779	-a>
+tyr_L_e	r1779	-a>
+na1_e	r1779	-a>
+gln_L_c	r1779	-a>
+tyr_L_c	r1780	-a>
+na1_c	r1780	-a>
+ser_L_c	r1780	-a>
+na1_e	r1780	-a>
+tyr_L_e	r1780	-a>
+ser_L_e	r1780	-a>
+na1_e	r1781	-a>
+tyr_L_c	r1781	-a>
+met_L_c	r1781	-a>
+na1_c	r1781	-a>
+tyr_L_e	r1781	-a>
+met_L_e	r1781	-a>
+trp_L_c	r1782	-a>
+trp_L_e	r1782	-a>
+tyr_L_c	r1782	-a>
+na1_c	r1782	-a>
+tyr_L_e	r1782	-a>
+na1_e	r1782	-a>
+na1_e	r1783	-a>
+phe_L_c	r1783	-a>
+phe_L_e	r1783	-a>
+na1_c	r1783	-a>
+tyr_L_e	r1783	-a>
+tyr_L_c	r1783	-a>
+tyr_L_c	r1784	-a>
+na1_c	r1784	-a>
+cys_L_c	r1784	-a>
+na1_e	r1784	-a>
+tyr_L_e	r1784	-a>
+cys_L_e	r1784	-a>
+leu_L_e	r1785	-a>
+tyr_L_c	r1785	-a>
+na1_c	r1785	-a>
+tyr_L_e	r1785	-a>
+na1_e	r1785	-a>
+leu_L_c	r1785	-a>
+pro_L_c	r1786	-a>
+tyr_L_c	r1786	-a>
+na1_c	r1786	-a>
+pro_L_e	r1786	-a>
+tyr_L_e	r1786	-a>
+na1_e	r1786	-a>
+na1_e	r1787	-a>
+asn_L_c	r1787	-a>
+asn_L_e	r1787	-a>
+na1_c	r1787	-a>
+tyr_L_e	r1787	-a>
+tyr_L_c	r1787	-a>
+tyr_L_c	r1788	-a>
+na1_c	r1788	-a>
+val_L_c	r1788	-a>
+tyr_L_e	r1788	-a>
+na1_e	r1788	-a>
+val_L_e	r1788	-a>
+thr_L_e	r1789	-a>
+thr_L_c	r1789	-a>
+tyr_L_c	r1789	-a>
+na1_c	r1789	-a>
+tyr_L_e	r1789	-a>
+na1_e	r1789	-a>
+hom_L_c	r1790	-a>
+hom_L_e	r1790	-a>
+tyr_L_c	r1790	-a>
+na1_c	r1790	-a>
+tyr_L_e	r1790	-a>
+na1_e	r1790	-a>
+ile_L_e	r1791	-a>
+tyr_L_c	r1791	-a>
+na1_c	r1791	-a>
+tyr_L_e	r1791	-a>
+na1_e	r1791	-a>
+ile_L_c	r1791	-a>
+gly_e	r1792	-a>
+gly_c	r1792	-a>
+na1_c	r1792	-a>
+cys_L_c	r1792	-a>
+na1_e	r1792	-a>
+cys_L_e	r1792	-a>
+met_L_e	r1796	-a>
+met_L_c	r1796	-a>
+na1_c	r1796	-a>
+cys_L_c	r1796	-a>
+na1_e	r1796	-a>
+cys_L_e	r1796	-a>
+trp_L_c	r1797	-a>
+trp_L_e	r1797	-a>
+na1_c	r1797	-a>
+cys_L_c	r1797	-a>
+na1_e	r1797	-a>
+cys_L_e	r1797	-a>
+phe_L_c	r1798	-a>
+phe_L_e	r1798	-a>
+na1_c	r1798	-a>
+cys_L_c	r1798	-a>
+na1_e	r1798	-a>
+cys_L_e	r1798	-a>
+tyr_L_c	r1799	-a>
+na1_c	r1799	-a>
+cys_L_c	r1799	-a>
+na1_e	r1799	-a>
+tyr_L_e	r1799	-a>
+cys_L_e	r1799	-a>
+leu_L_e	r1800	-a>
+na1_c	r1800	-a>
+cys_L_c	r1800	-a>
+na1_e	r1800	-a>
+leu_L_c	r1800	-a>
+cys_L_e	r1800	-a>
+pro_L_c	r1801	-a>
+na1_c	r1801	-a>
+pro_L_e	r1801	-a>
+cys_L_c	r1801	-a>
+na1_e	r1801	-a>
+cys_L_e	r1801	-a>
+na1_c	r1803	-a>
+val_L_c	r1803	-a>
+cys_L_c	r1803	-a>
+na1_e	r1803	-a>
+val_L_e	r1803	-a>
+cys_L_e	r1803	-a>
+hom_L_c	r1805	-a>
+hom_L_e	r1805	-a>
+na1_c	r1805	-a>
+cys_L_c	r1805	-a>
+na1_e	r1805	-a>
+cys_L_e	r1805	-a>
+ile_L_e	r1806	-a>
+na1_c	r1806	-a>
+cys_L_c	r1806	-a>
+na1_e	r1806	-a>
+ile_L_c	r1806	-a>
+cys_L_e	r1806	-a>
+leu_L_e	r1807	-a>
+gly_e	r1807	-a>
+gly_c	r1807	-a>
+na1_c	r1807	-a>
+na1_e	r1807	-a>
+leu_L_c	r1807	-a>
+leu_L_e	r1808	-a>
+ala_L_c	r1808	-a>
+ala_L_e	r1808	-a>
+na1_c	r1808	-a>
+na1_e	r1808	-a>
+leu_L_c	r1808	-a>
+leu_L_e	r1809	-a>
+gln_L_e	r1809	-a>
+na1_c	r1809	-a>
+na1_e	r1809	-a>
+gln_L_c	r1809	-a>
+leu_L_c	r1809	-a>
+leu_L_e	r1810	-a>
+na1_c	r1810	-a>
+ser_L_c	r1810	-a>
+na1_e	r1810	-a>
+leu_L_c	r1810	-a>
+ser_L_e	r1810	-a>
+leu_L_e	r1811	-a>
+na1_e	r1811	-a>
+met_L_c	r1811	-a>
+na1_c	r1811	-a>
+met_L_e	r1811	-a>
+leu_L_c	r1811	-a>
+leu_L_e	r1812	-a>
+trp_L_c	r1812	-a>
+na1_e	r1812	-a>
+na1_c	r1812	-a>
+trp_L_e	r1812	-a>
+leu_L_c	r1812	-a>
+leu_L_e	r1813	-a>
+phe_L_c	r1813	-a>
+phe_L_e	r1813	-a>
+na1_c	r1813	-a>
+na1_e	r1813	-a>
+leu_L_c	r1813	-a>
+leu_L_e	r1814	-a>
+tyr_L_c	r1814	-a>
+na1_c	r1814	-a>
+tyr_L_e	r1814	-a>
+na1_e	r1814	-a>
+leu_L_c	r1814	-a>
+leu_L_e	r1815	-a>
+na1_c	r1815	-a>
+cys_L_c	r1815	-a>
+na1_e	r1815	-a>
+leu_L_c	r1815	-a>
+cys_L_e	r1815	-a>
+leu_L_e	r1816	-a>
+pro_L_c	r1816	-a>
+na1_c	r1816	-a>
+pro_L_e	r1816	-a>
+na1_e	r1816	-a>
+leu_L_c	r1816	-a>
+leu_L_e	r1817	-a>
+asn_L_c	r1817	-a>
+asn_L_e	r1817	-a>
+na1_c	r1817	-a>
+na1_e	r1817	-a>
+leu_L_c	r1817	-a>
+leu_L_e	r1818	-a>
+na1_c	r1818	-a>
+val_L_c	r1818	-a>
+na1_e	r1818	-a>
+val_L_e	r1818	-a>
+leu_L_c	r1818	-a>
+leu_L_e	r1819	-a>
+thr_L_e	r1819	-a>
+thr_L_c	r1819	-a>
+na1_c	r1819	-a>
+na1_e	r1819	-a>
+leu_L_c	r1819	-a>
+leu_L_e	r1820	-a>
+hom_L_c	r1820	-a>
+hom_L_e	r1820	-a>
+na1_c	r1820	-a>
+na1_e	r1820	-a>
+leu_L_c	r1820	-a>
+leu_L_e	r1821	-a>
+ile_L_e	r1821	-a>
+na1_c	r1821	-a>
+na1_e	r1821	-a>
+ile_L_c	r1821	-a>
+leu_L_c	r1821	-a>
+gly_e	r1822	-a>
+gly_c	r1822	-a>
+pro_L_c	r1822	-a>
+na1_c	r1822	-a>
+pro_L_e	r1822	-a>
+na1_e	r1822	-a>
+ala_L_c	r1823	-a>
+ala_L_e	r1823	-a>
+pro_L_c	r1823	-a>
+na1_c	r1823	-a>
+pro_L_e	r1823	-a>
+na1_e	r1823	-a>
+gln_L_e	r1824	-a>
+pro_L_c	r1824	-a>
+na1_c	r1824	-a>
+pro_L_e	r1824	-a>
+na1_e	r1824	-a>
+gln_L_c	r1824	-a>
+pro_L_c	r1825	-a>
+na1_c	r1825	-a>
+pro_L_e	r1825	-a>
+ser_L_c	r1825	-a>
+na1_e	r1825	-a>
+ser_L_e	r1825	-a>
+na1_e	r1826	-a>
+pro_L_c	r1826	-a>
+met_L_c	r1826	-a>
+na1_c	r1826	-a>
+pro_L_e	r1826	-a>
+met_L_e	r1826	-a>
+trp_L_c	r1827	-a>
+na1_e	r1827	-a>
+pro_L_c	r1827	-a>
+na1_c	r1827	-a>
+pro_L_e	r1827	-a>
+trp_L_e	r1827	-a>
+phe_L_c	r1828	-a>
+pro_L_c	r1828	-a>
+phe_L_e	r1828	-a>
+na1_c	r1828	-a>
+pro_L_e	r1828	-a>
+na1_e	r1828	-a>
+pro_L_c	r1829	-a>
+tyr_L_c	r1829	-a>
+na1_c	r1829	-a>
+pro_L_e	r1829	-a>
+tyr_L_e	r1829	-a>
+na1_e	r1829	-a>
+pro_L_c	r1830	-a>
+na1_c	r1830	-a>
+pro_L_e	r1830	-a>
+cys_L_c	r1830	-a>
+na1_e	r1830	-a>
+cys_L_e	r1830	-a>
+leu_L_e	r1831	-a>
+pro_L_c	r1831	-a>
+na1_c	r1831	-a>
+pro_L_e	r1831	-a>
+na1_e	r1831	-a>
+leu_L_c	r1831	-a>
+asn_L_c	r1832	-a>
+pro_L_c	r1832	-a>
+asn_L_e	r1832	-a>
+na1_c	r1832	-a>
+pro_L_e	r1832	-a>
+na1_e	r1832	-a>
+pro_L_c	r1833	-a>
+val_L_c	r1833	-a>
+na1_c	r1833	-a>
+pro_L_e	r1833	-a>
+na1_e	r1833	-a>
+val_L_e	r1833	-a>
+thr_L_e	r1834	-a>
+thr_L_c	r1834	-a>
+pro_L_c	r1834	-a>
+na1_c	r1834	-a>
+pro_L_e	r1834	-a>
+na1_e	r1834	-a>
+hom_L_c	r1835	-a>
+hom_L_e	r1835	-a>
+pro_L_c	r1835	-a>
+na1_c	r1835	-a>
+pro_L_e	r1835	-a>
+na1_e	r1835	-a>
+ile_L_e	r1836	-a>
+pro_L_c	r1836	-a>
+na1_c	r1836	-a>
+pro_L_e	r1836	-a>
+na1_e	r1836	-a>
+ile_L_c	r1836	-a>
+gly_e	r1837	-a>
+asn_L_c	r1837	-a>
+gly_c	r1837	-a>
+asn_L_e	r1837	-a>
+na1_c	r1837	-a>
+na1_e	r1837	-a>
+met_L_e	r1841	-a>
+asn_L_c	r1841	-a>
+asn_L_e	r1841	-a>
+met_L_c	r1841	-a>
+na1_c	r1841	-a>
+na1_e	r1841	-a>
+trp_L_c	r1842	-a>
+asn_L_c	r1842	-a>
+asn_L_e	r1842	-a>
+na1_c	r1842	-a>
+na1_e	r1842	-a>
+trp_L_e	r1842	-a>
+phe_L_c	r1843	-a>
+asn_L_e	r1843	-a>
+phe_L_e	r1843	-a>
+na1_c	r1843	-a>
+na1_e	r1843	-a>
+asn_L_c	r1843	-a>
+na1_e	r1844	-a>
+asn_L_c	r1844	-a>
+asn_L_e	r1844	-a>
+na1_c	r1844	-a>
+tyr_L_e	r1844	-a>
+tyr_L_c	r1844	-a>
+leu_L_e	r1846	-a>
+asn_L_c	r1846	-a>
+asn_L_e	r1846	-a>
+na1_c	r1846	-a>
+na1_e	r1846	-a>
+leu_L_c	r1846	-a>
+asn_L_c	r1847	-a>
+pro_L_c	r1847	-a>
+asn_L_e	r1847	-a>
+na1_c	r1847	-a>
+pro_L_e	r1847	-a>
+na1_e	r1847	-a>
+asn_L_c	r1848	-a>
+asn_L_e	r1848	-a>
+na1_c	r1848	-a>
+val_L_c	r1848	-a>
+na1_e	r1848	-a>
+val_L_e	r1848	-a>
+hom_L_c	r1850	-a>
+asn_L_c	r1850	-a>
+hom_L_e	r1850	-a>
+asn_L_e	r1850	-a>
+na1_c	r1850	-a>
+na1_e	r1850	-a>
+asn_L_c	r1851	-a>
+ile_L_e	r1851	-a>
+asn_L_e	r1851	-a>
+na1_c	r1851	-a>
+na1_e	r1851	-a>
+ile_L_c	r1851	-a>
+gly_e	r1852	-a>
+gly_c	r1852	-a>
+na1_c	r1852	-a>
+val_L_c	r1852	-a>
+na1_e	r1852	-a>
+val_L_e	r1852	-a>
+ala_L_c	r1853	-a>
+ala_L_e	r1853	-a>
+na1_c	r1853	-a>
+val_L_c	r1853	-a>
+na1_e	r1853	-a>
+val_L_e	r1853	-a>
+gln_L_e	r1854	-a>
+na1_c	r1854	-a>
+val_L_c	r1854	-a>
+na1_e	r1854	-a>
+gln_L_c	r1854	-a>
+val_L_e	r1854	-a>
+na1_c	r1855	-a>
+val_L_c	r1855	-a>
+ser_L_c	r1855	-a>
+na1_e	r1855	-a>
+val_L_e	r1855	-a>
+ser_L_e	r1855	-a>
+na1_e	r1856	-a>
+met_L_c	r1856	-a>
+na1_c	r1856	-a>
+val_L_c	r1856	-a>
+met_L_e	r1856	-a>
+val_L_e	r1856	-a>
+trp_L_c	r1857	-a>
+na1_e	r1857	-a>
+na1_c	r1857	-a>
+val_L_c	r1857	-a>
+trp_L_e	r1857	-a>
+val_L_e	r1857	-a>
+phe_L_c	r1858	-a>
+phe_L_e	r1858	-a>
+na1_c	r1858	-a>
+val_L_c	r1858	-a>
+na1_e	r1858	-a>
+val_L_e	r1858	-a>
+tyr_L_c	r1859	-a>
+na1_c	r1859	-a>
+val_L_c	r1859	-a>
+tyr_L_e	r1859	-a>
+na1_e	r1859	-a>
+val_L_e	r1859	-a>
+na1_c	r1860	-a>
+val_L_c	r1860	-a>
+cys_L_c	r1860	-a>
+na1_e	r1860	-a>
+val_L_e	r1860	-a>
+cys_L_e	r1860	-a>
+leu_L_e	r1861	-a>
+na1_c	r1861	-a>
+val_L_c	r1861	-a>
+na1_e	r1861	-a>
+val_L_e	r1861	-a>
+leu_L_c	r1861	-a>
+pro_L_c	r1862	-a>
+val_L_c	r1862	-a>
+na1_c	r1862	-a>
+pro_L_e	r1862	-a>
+na1_e	r1862	-a>
+val_L_e	r1862	-a>
+asn_L_c	r1863	-a>
+asn_L_e	r1863	-a>
+na1_c	r1863	-a>
+val_L_c	r1863	-a>
+na1_e	r1863	-a>
+val_L_e	r1863	-a>
+thr_L_e	r1864	-a>
+thr_L_c	r1864	-a>
+na1_c	r1864	-a>
+val_L_c	r1864	-a>
+na1_e	r1864	-a>
+val_L_e	r1864	-a>
+hom_L_c	r1865	-a>
+hom_L_e	r1865	-a>
+na1_c	r1865	-a>
+val_L_c	r1865	-a>
+na1_e	r1865	-a>
+val_L_e	r1865	-a>
+ile_L_e	r1866	-a>
+na1_c	r1866	-a>
+val_L_c	r1866	-a>
+na1_e	r1866	-a>
+val_L_e	r1866	-a>
+ile_L_c	r1866	-a>
+thr_L_e	r1867	-a>
+gly_c	r1867	-a>
+thr_L_c	r1867	-a>
+na1_c	r1867	-a>
+na1_e	r1867	-a>
+gly_e	r1867	-a>
+thr_L_e	r1871	-a>
+na1_e	r1871	-a>
+thr_L_c	r1871	-a>
+met_L_c	r1871	-a>
+na1_c	r1871	-a>
+met_L_e	r1871	-a>
+thr_L_e	r1872	-a>
+trp_L_c	r1872	-a>
+na1_e	r1872	-a>
+thr_L_c	r1872	-a>
+na1_c	r1872	-a>
+trp_L_e	r1872	-a>
+thr_L_e	r1873	-a>
+phe_L_c	r1873	-a>
+thr_L_c	r1873	-a>
+phe_L_e	r1873	-a>
+na1_c	r1873	-a>
+na1_e	r1873	-a>
+thr_L_e	r1874	-a>
+thr_L_c	r1874	-a>
+tyr_L_c	r1874	-a>
+na1_c	r1874	-a>
+tyr_L_e	r1874	-a>
+na1_e	r1874	-a>
+leu_L_e	r1876	-a>
+thr_L_e	r1876	-a>
+thr_L_c	r1876	-a>
+na1_c	r1876	-a>
+na1_e	r1876	-a>
+leu_L_c	r1876	-a>
+thr_L_e	r1877	-a>
+thr_L_c	r1877	-a>
+pro_L_c	r1877	-a>
+na1_c	r1877	-a>
+pro_L_e	r1877	-a>
+na1_e	r1877	-a>
+thr_L_e	r1879	-a>
+thr_L_c	r1879	-a>
+na1_c	r1879	-a>
+val_L_c	r1879	-a>
+na1_e	r1879	-a>
+val_L_e	r1879	-a>
+thr_L_e	r1880	-a>
+hom_L_c	r1880	-a>
+hom_L_e	r1880	-a>
+na1_c	r1880	-a>
+na1_e	r1880	-a>
+thr_L_c	r1880	-a>
+thr_L_e	r1881	-a>
+ile_L_e	r1881	-a>
+thr_L_c	r1881	-a>
+na1_c	r1881	-a>
+na1_e	r1881	-a>
+ile_L_c	r1881	-a>
+hom_L_c	r1882	-a>
+gly_c	r1882	-a>
+hom_L_e	r1882	-a>
+na1_c	r1882	-a>
+na1_e	r1882	-a>
+gly_e	r1882	-a>
+hom_L_c	r1883	-a>
+ala_L_c	r1883	-a>
+hom_L_e	r1883	-a>
+ala_L_e	r1883	-a>
+na1_c	r1883	-a>
+na1_e	r1883	-a>
+gln_L_e	r1884	-a>
+hom_L_c	r1884	-a>
+hom_L_e	r1884	-a>
+na1_c	r1884	-a>
+na1_e	r1884	-a>
+gln_L_c	r1884	-a>
+hom_L_c	r1885	-a>
+hom_L_e	r1885	-a>
+na1_c	r1885	-a>
+ser_L_c	r1885	-a>
+na1_e	r1885	-a>
+ser_L_e	r1885	-a>
+hom_L_c	r1886	-a>
+na1_e	r1886	-a>
+hom_L_e	r1886	-a>
+met_L_c	r1886	-a>
+na1_c	r1886	-a>
+met_L_e	r1886	-a>
+hom_L_c	r1887	-a>
+na1_e	r1887	-a>
+hom_L_e	r1887	-a>
+na1_c	r1887	-a>
+trp_L_c	r1887	-a>
+trp_L_e	r1887	-a>
+hom_L_c	r1888	-a>
+phe_L_c	r1888	-a>
+hom_L_e	r1888	-a>
+phe_L_e	r1888	-a>
+na1_c	r1888	-a>
+na1_e	r1888	-a>
+hom_L_c	r1889	-a>
+hom_L_e	r1889	-a>
+tyr_L_c	r1889	-a>
+na1_c	r1889	-a>
+tyr_L_e	r1889	-a>
+na1_e	r1889	-a>
+hom_L_c	r1890	-a>
+hom_L_e	r1890	-a>
+na1_c	r1890	-a>
+cys_L_c	r1890	-a>
+na1_e	r1890	-a>
+cys_L_e	r1890	-a>
+leu_L_e	r1891	-a>
+hom_L_c	r1891	-a>
+hom_L_e	r1891	-a>
+na1_c	r1891	-a>
+na1_e	r1891	-a>
+leu_L_c	r1891	-a>
+hom_L_c	r1892	-a>
+hom_L_e	r1892	-a>
+pro_L_c	r1892	-a>
+na1_c	r1892	-a>
+pro_L_e	r1892	-a>
+na1_e	r1892	-a>
+hom_L_c	r1893	-a>
+asn_L_c	r1893	-a>
+hom_L_e	r1893	-a>
+asn_L_e	r1893	-a>
+na1_c	r1893	-a>
+na1_e	r1893	-a>
+hom_L_c	r1894	-a>
+hom_L_e	r1894	-a>
+na1_c	r1894	-a>
+val_L_c	r1894	-a>
+na1_e	r1894	-a>
+val_L_e	r1894	-a>
+thr_L_e	r1895	-a>
+hom_L_c	r1895	-a>
+hom_L_e	r1895	-a>
+na1_c	r1895	-a>
+na1_e	r1895	-a>
+thr_L_c	r1895	-a>
+hom_L_c	r1896	-a>
+ile_L_e	r1896	-a>
+hom_L_e	r1896	-a>
+na1_c	r1896	-a>
+na1_e	r1896	-a>
+ile_L_c	r1896	-a>
+gly_e	r1897	-a>
+gly_c	r1897	-a>
+na1_c	r1897	-a>
+ile_L_e	r1897	-a>
+na1_e	r1897	-a>
+ile_L_c	r1897	-a>
+ala_L_c	r1898	-a>
+ile_L_e	r1898	-a>
+ala_L_e	r1898	-a>
+na1_c	r1898	-a>
+na1_e	r1898	-a>
+ile_L_c	r1898	-a>
+gln_L_e	r1899	-a>
+ile_L_e	r1899	-a>
+na1_c	r1899	-a>
+na1_e	r1899	-a>
+gln_L_c	r1899	-a>
+ile_L_c	r1899	-a>
+ile_L_e	r1900	-a>
+na1_c	r1900	-a>
+ser_L_c	r1900	-a>
+na1_e	r1900	-a>
+ile_L_c	r1900	-a>
+ser_L_e	r1900	-a>
+met_L_e	r1901	-a>
+ile_L_e	r1901	-a>
+met_L_c	r1901	-a>
+na1_c	r1901	-a>
+na1_e	r1901	-a>
+ile_L_c	r1901	-a>
+trp_L_c	r1902	-a>
+trp_L_e	r1902	-a>
+ile_L_e	r1902	-a>
+na1_c	r1902	-a>
+na1_e	r1902	-a>
+ile_L_c	r1902	-a>
+phe_L_c	r1903	-a>
+ile_L_e	r1903	-a>
+phe_L_e	r1903	-a>
+na1_c	r1903	-a>
+na1_e	r1903	-a>
+ile_L_c	r1903	-a>
+ile_L_e	r1904	-a>
+tyr_L_c	r1904	-a>
+na1_c	r1904	-a>
+tyr_L_e	r1904	-a>
+na1_e	r1904	-a>
+ile_L_c	r1904	-a>
+ile_L_e	r1905	-a>
+na1_c	r1905	-a>
+cys_L_c	r1905	-a>
+na1_e	r1905	-a>
+ile_L_c	r1905	-a>
+cys_L_e	r1905	-a>
+leu_L_e	r1906	-a>
+ile_L_e	r1906	-a>
+na1_c	r1906	-a>
+na1_e	r1906	-a>
+ile_L_c	r1906	-a>
+leu_L_c	r1906	-a>
+ile_L_e	r1907	-a>
+pro_L_c	r1907	-a>
+na1_c	r1907	-a>
+pro_L_e	r1907	-a>
+na1_e	r1907	-a>
+ile_L_c	r1907	-a>
+asn_L_c	r1908	-a>
+ile_L_e	r1908	-a>
+asn_L_e	r1908	-a>
+na1_c	r1908	-a>
+na1_e	r1908	-a>
+ile_L_c	r1908	-a>
+ile_L_e	r1909	-a>
+na1_c	r1909	-a>
+val_L_c	r1909	-a>
+na1_e	r1909	-a>
+val_L_e	r1909	-a>
+ile_L_c	r1909	-a>
+thr_L_e	r1910	-a>
+ile_L_e	r1910	-a>
+thr_L_c	r1910	-a>
+na1_c	r1910	-a>
+na1_e	r1910	-a>
+ile_L_c	r1910	-a>
+hom_L_c	r1911	-a>
+ile_L_e	r1911	-a>
+hom_L_e	r1911	-a>
+na1_c	r1911	-a>
+na1_e	r1911	-a>
+ile_L_c	r1911	-a>
+gly_e	r1912	-a>
+gly_c	r1912	-a>
+na1_c	r1912	-a>
+lys_L_c	r1912	-a>
+na1_e	r1912	-a>
+lys_L_e	r1912	-a>
+gly_e	r1913	-a>
+arg_L_c	r1913	-a>
+gly_c	r1913	-a>
+na1_c	r1913	-a>
+na1_e	r1913	-a>
+arg_L_e	r1913	-a>
+na1_c	r1914	-a>
+na1_e	r1914	-a>
+gly_c	r1914	-a>
+orn_c	r1914	-a>
+orn_e	r1914	-a>
+gly_e	r1914	-a>
+gly_e	r1915	-a>
+na1_e	r1915	-a>
+gly_c	r1915	-a>
+na1_c	r1915	-a>
+his_L_c	r1915	-a>
+his_L_e	r1915	-a>
+citr_L_e	r1916	-a>
+gly_c	r1916	-a>
+na1_c	r1916	-a>
+na1_e	r1916	-a>
+citr_L_c	r1916	-a>
+gly_e	r1916	-a>
+ala_L_c	r1917	-a>
+ala_L_e	r1917	-a>
+na1_c	r1917	-a>
+lys_L_c	r1917	-a>
+na1_e	r1917	-a>
+lys_L_e	r1917	-a>
+ala_L_c	r1918	-a>
+ala_L_e	r1918	-a>
+na1_c	r1918	-a>
+na1_e	r1918	-a>
+arg_L_c	r1918	-a>
+arg_L_e	r1918	-a>
+na1_c	r1919	-a>
+ala_L_c	r1919	-a>
+ala_L_e	r1919	-a>
+orn_c	r1919	-a>
+na1_e	r1919	-a>
+orn_e	r1919	-a>
+ala_L_c	r1920	-a>
+his_L_c	r1920	-a>
+ala_L_e	r1920	-a>
+na1_c	r1920	-a>
+na1_e	r1920	-a>
+his_L_e	r1920	-a>
+citr_L_e	r1921	-a>
+ala_L_c	r1921	-a>
+ala_L_e	r1921	-a>
+na1_c	r1921	-a>
+na1_e	r1921	-a>
+citr_L_c	r1921	-a>
+gln_L_e	r1922	-a>
+na1_c	r1922	-a>
+lys_L_c	r1922	-a>
+na1_e	r1922	-a>
+gln_L_c	r1922	-a>
+lys_L_e	r1922	-a>
+gln_L_e	r1923	-a>
+arg_L_c	r1923	-a>
+na1_c	r1923	-a>
+na1_e	r1923	-a>
+gln_L_c	r1923	-a>
+arg_L_e	r1923	-a>
+gln_L_e	r1924	-a>
+na1_c	r1924	-a>
+na1_e	r1924	-a>
+orn_c	r1924	-a>
+orn_e	r1924	-a>
+gln_L_c	r1924	-a>
+gln_L_e	r1925	-a>
+na1_e	r1925	-a>
+na1_c	r1925	-a>
+his_L_c	r1925	-a>
+gln_L_c	r1925	-a>
+his_L_e	r1925	-a>
+gln_L_e	r1926	-a>
+citr_L_e	r1926	-a>
+na1_c	r1926	-a>
+na1_e	r1926	-a>
+gln_L_c	r1926	-a>
+citr_L_c	r1926	-a>
+arg_L_c	r1928	-a>
+arg_L_e	r1928	-a>
+na1_c	r1928	-a>
+ser_L_c	r1928	-a>
+na1_e	r1928	-a>
+ser_L_e	r1928	-a>
+na1_c	r1929	-a>
+na1_e	r1929	-a>
+orn_c	r1929	-a>
+ser_L_c	r1929	-a>
+orn_e	r1929	-a>
+ser_L_e	r1929	-a>
+his_L_c	r1930	-a>
+ser_L_e	r1930	-a>
+na1_c	r1930	-a>
+ser_L_c	r1930	-a>
+na1_e	r1930	-a>
+his_L_e	r1930	-a>
+citr_L_e	r1931	-a>
+na1_c	r1931	-a>
+ser_L_c	r1931	-a>
+na1_e	r1931	-a>
+citr_L_c	r1931	-a>
+ser_L_e	r1931	-a>
+na1_e	r1932	-a>
+met_L_c	r1932	-a>
+na1_c	r1932	-a>
+lys_L_c	r1932	-a>
+met_L_e	r1932	-a>
+lys_L_e	r1932	-a>
+na1_e	r1933	-a>
+met_L_c	r1933	-a>
+na1_c	r1933	-a>
+met_L_e	r1933	-a>
+arg_L_c	r1933	-a>
+arg_L_e	r1933	-a>
+na1_e	r1934	-a>
+na1_c	r1934	-a>
+orn_e	r1934	-a>
+met_L_c	r1934	-a>
+orn_c	r1934	-a>
+met_L_e	r1934	-a>
+met_L_e	r1935	-a>
+his_L_c	r1935	-a>
+met_L_c	r1935	-a>
+na1_c	r1935	-a>
+na1_e	r1935	-a>
+his_L_e	r1935	-a>
+citr_L_e	r1936	-a>
+na1_e	r1936	-a>
+met_L_c	r1936	-a>
+na1_c	r1936	-a>
+met_L_e	r1936	-a>
+citr_L_c	r1936	-a>
+trp_L_c	r1937	-a>
+na1_e	r1937	-a>
+na1_c	r1937	-a>
+lys_L_c	r1937	-a>
+trp_L_e	r1937	-a>
+lys_L_e	r1937	-a>
+trp_L_c	r1938	-a>
+arg_L_c	r1938	-a>
+na1_c	r1938	-a>
+na1_e	r1938	-a>
+arg_L_e	r1938	-a>
+trp_L_e	r1938	-a>
+orn_c	r1939	-a>
+na1_e	r1939	-a>
+na1_c	r1939	-a>
+trp_L_c	r1939	-a>
+orn_e	r1939	-a>
+trp_L_e	r1939	-a>
+trp_L_c	r1940	-a>
+his_L_c	r1940	-a>
+na1_c	r1940	-a>
+na1_e	r1940	-a>
+his_L_e	r1940	-a>
+trp_L_e	r1940	-a>
+citr_L_e	r1941	-a>
+na1_e	r1941	-a>
+trp_L_c	r1941	-a>
+na1_c	r1941	-a>
+trp_L_e	r1941	-a>
+citr_L_c	r1941	-a>
+phe_L_c	r1942	-a>
+phe_L_e	r1942	-a>
+na1_c	r1942	-a>
+lys_L_c	r1942	-a>
+na1_e	r1942	-a>
+lys_L_e	r1942	-a>
+phe_L_c	r1943	-a>
+phe_L_e	r1943	-a>
+na1_c	r1943	-a>
+na1_e	r1943	-a>
+arg_L_c	r1943	-a>
+arg_L_e	r1943	-a>
+na1_c	r1944	-a>
+phe_L_c	r1944	-a>
+phe_L_e	r1944	-a>
+orn_c	r1944	-a>
+na1_e	r1944	-a>
+orn_e	r1944	-a>
+phe_L_c	r1945	-a>
+his_L_c	r1945	-a>
+phe_L_e	r1945	-a>
+na1_c	r1945	-a>
+na1_e	r1945	-a>
+his_L_e	r1945	-a>
+citr_L_e	r1946	-a>
+phe_L_c	r1946	-a>
+phe_L_e	r1946	-a>
+na1_c	r1946	-a>
+na1_e	r1946	-a>
+citr_L_c	r1946	-a>
+tyr_L_c	r1947	-a>
+na1_c	r1947	-a>
+lys_L_c	r1947	-a>
+na1_e	r1947	-a>
+tyr_L_e	r1947	-a>
+lys_L_e	r1947	-a>
+arg_L_c	r1948	-a>
+tyr_L_c	r1948	-a>
+na1_c	r1948	-a>
+tyr_L_e	r1948	-a>
+na1_e	r1948	-a>
+arg_L_e	r1948	-a>
+na1_c	r1949	-a>
+na1_e	r1949	-a>
+tyr_L_c	r1949	-a>
+orn_c	r1949	-a>
+tyr_L_e	r1949	-a>
+orn_e	r1949	-a>
+his_L_c	r1950	-a>
+tyr_L_c	r1950	-a>
+na1_c	r1950	-a>
+tyr_L_e	r1950	-a>
+na1_e	r1950	-a>
+his_L_e	r1950	-a>
+citr_L_e	r1951	-a>
+tyr_L_c	r1951	-a>
+na1_c	r1951	-a>
+tyr_L_e	r1951	-a>
+na1_e	r1951	-a>
+citr_L_c	r1951	-a>
+na1_c	r1952	-a>
+lys_L_c	r1952	-a>
+na1_e	r1952	-a>
+cys_L_c	r1952	-a>
+cys_L_e	r1952	-a>
+lys_L_e	r1952	-a>
+arg_L_c	r1953	-a>
+cys_L_e	r1953	-a>
+na1_c	r1953	-a>
+cys_L_c	r1953	-a>
+na1_e	r1953	-a>
+arg_L_e	r1953	-a>
+na1_c	r1954	-a>
+na1_e	r1954	-a>
+orn_c	r1954	-a>
+cys_L_c	r1954	-a>
+orn_e	r1954	-a>
+cys_L_e	r1954	-a>
+his_L_c	r1955	-a>
+cys_L_e	r1955	-a>
+na1_c	r1955	-a>
+cys_L_c	r1955	-a>
+na1_e	r1955	-a>
+his_L_e	r1955	-a>
+citr_L_e	r1956	-a>
+na1_c	r1956	-a>
+cys_L_c	r1956	-a>
+na1_e	r1956	-a>
+citr_L_c	r1956	-a>
+cys_L_e	r1956	-a>
+leu_L_e	r1957	-a>
+na1_c	r1957	-a>
+lys_L_c	r1957	-a>
+na1_e	r1957	-a>
+leu_L_c	r1957	-a>
+lys_L_e	r1957	-a>
+leu_L_e	r1958	-a>
+arg_L_c	r1958	-a>
+na1_c	r1958	-a>
+na1_e	r1958	-a>
+leu_L_c	r1958	-a>
+arg_L_e	r1958	-a>
+leu_L_e	r1959	-a>
+na1_c	r1959	-a>
+na1_e	r1959	-a>
+orn_c	r1959	-a>
+orn_e	r1959	-a>
+leu_L_c	r1959	-a>
+leu_L_e	r1960	-a>
+na1_e	r1960	-a>
+na1_c	r1960	-a>
+his_L_c	r1960	-a>
+leu_L_c	r1960	-a>
+his_L_e	r1960	-a>
+leu_L_e	r1961	-a>
+citr_L_e	r1961	-a>
+na1_c	r1961	-a>
+na1_e	r1961	-a>
+leu_L_c	r1961	-a>
+citr_L_c	r1961	-a>
+pro_L_c	r1962	-a>
+na1_c	r1962	-a>
+pro_L_e	r1962	-a>
+lys_L_c	r1962	-a>
+na1_e	r1962	-a>
+lys_L_e	r1962	-a>
+arg_L_c	r1963	-a>
+pro_L_c	r1963	-a>
+na1_c	r1963	-a>
+pro_L_e	r1963	-a>
+na1_e	r1963	-a>
+arg_L_e	r1963	-a>
+na1_c	r1964	-a>
+na1_e	r1964	-a>
+pro_L_c	r1964	-a>
+orn_c	r1964	-a>
+pro_L_e	r1964	-a>
+orn_e	r1964	-a>
+na1_e	r1965	-a>
+pro_L_c	r1965	-a>
+na1_c	r1965	-a>
+pro_L_e	r1965	-a>
+his_L_c	r1965	-a>
+his_L_e	r1965	-a>
+citr_L_e	r1966	-a>
+pro_L_c	r1966	-a>
+na1_c	r1966	-a>
+pro_L_e	r1966	-a>
+na1_e	r1966	-a>
+citr_L_c	r1966	-a>
+asn_L_c	r1967	-a>
+asn_L_e	r1967	-a>
+na1_c	r1967	-a>
+lys_L_c	r1967	-a>
+na1_e	r1967	-a>
+lys_L_e	r1967	-a>
+asn_L_c	r1968	-a>
+asn_L_e	r1968	-a>
+na1_c	r1968	-a>
+na1_e	r1968	-a>
+arg_L_c	r1968	-a>
+arg_L_e	r1968	-a>
+na1_c	r1969	-a>
+asn_L_c	r1969	-a>
+asn_L_e	r1969	-a>
+orn_c	r1969	-a>
+na1_e	r1969	-a>
+orn_e	r1969	-a>
+his_L_c	r1970	-a>
+asn_L_e	r1970	-a>
+na1_c	r1970	-a>
+na1_e	r1970	-a>
+asn_L_c	r1970	-a>
+his_L_e	r1970	-a>
+citr_L_e	r1971	-a>
+asn_L_c	r1971	-a>
+asn_L_e	r1971	-a>
+na1_c	r1971	-a>
+na1_e	r1971	-a>
+citr_L_c	r1971	-a>
+na1_c	r1972	-a>
+val_L_c	r1972	-a>
+lys_L_c	r1972	-a>
+na1_e	r1972	-a>
+val_L_e	r1972	-a>
+lys_L_e	r1972	-a>
+arg_L_c	r1973	-a>
+na1_c	r1973	-a>
+val_L_c	r1973	-a>
+na1_e	r1973	-a>
+val_L_e	r1973	-a>
+arg_L_e	r1973	-a>
+orn_c	r1974	-a>
+na1_e	r1974	-a>
+na1_c	r1974	-a>
+val_L_c	r1974	-a>
+orn_e	r1974	-a>
+val_L_e	r1974	-a>
+his_L_c	r1975	-a>
+na1_c	r1975	-a>
+val_L_c	r1975	-a>
+na1_e	r1975	-a>
+val_L_e	r1975	-a>
+his_L_e	r1975	-a>
+citr_L_e	r1976	-a>
+na1_c	r1976	-a>
+val_L_c	r1976	-a>
+na1_e	r1976	-a>
+val_L_e	r1976	-a>
+citr_L_c	r1976	-a>
+thr_L_e	r1977	-a>
+thr_L_c	r1977	-a>
+na1_c	r1977	-a>
+lys_L_c	r1977	-a>
+na1_e	r1977	-a>
+lys_L_e	r1977	-a>
+thr_L_e	r1978	-a>
+arg_L_c	r1978	-a>
+thr_L_c	r1978	-a>
+na1_c	r1978	-a>
+na1_e	r1978	-a>
+arg_L_e	r1978	-a>
+thr_L_e	r1979	-a>
+orn_c	r1979	-a>
+na1_e	r1979	-a>
+thr_L_c	r1979	-a>
+na1_c	r1979	-a>
+orn_e	r1979	-a>
+thr_L_e	r1980	-a>
+na1_e	r1980	-a>
+thr_L_c	r1980	-a>
+na1_c	r1980	-a>
+his_L_c	r1980	-a>
+his_L_e	r1980	-a>
+thr_L_e	r1981	-a>
+citr_L_e	r1981	-a>
+thr_L_c	r1981	-a>
+na1_c	r1981	-a>
+na1_e	r1981	-a>
+citr_L_c	r1981	-a>
+hom_L_c	r1982	-a>
+hom_L_e	r1982	-a>
+na1_c	r1982	-a>
+lys_L_c	r1982	-a>
+na1_e	r1982	-a>
+lys_L_e	r1982	-a>
+hom_L_c	r1983	-a>
+arg_L_c	r1983	-a>
+hom_L_e	r1983	-a>
+na1_c	r1983	-a>
+na1_e	r1983	-a>
+arg_L_e	r1983	-a>
+hom_L_c	r1984	-a>
+na1_e	r1984	-a>
+hom_L_e	r1984	-a>
+na1_c	r1984	-a>
+orn_c	r1984	-a>
+orn_e	r1984	-a>
+hom_L_c	r1985	-a>
+na1_e	r1985	-a>
+hom_L_e	r1985	-a>
+na1_c	r1985	-a>
+his_L_c	r1985	-a>
+his_L_e	r1985	-a>
+hom_L_c	r1986	-a>
+hom_L_e	r1986	-a>
+citr_L_e	r1986	-a>
+na1_c	r1986	-a>
+na1_e	r1986	-a>
+citr_L_c	r1986	-a>
+ile_L_e	r1987	-a>
+na1_c	r1987	-a>
+lys_L_c	r1987	-a>
+na1_e	r1987	-a>
+ile_L_c	r1987	-a>
+lys_L_e	r1987	-a>
+arg_L_c	r1988	-a>
+ile_L_e	r1988	-a>
+na1_c	r1988	-a>
+na1_e	r1988	-a>
+ile_L_c	r1988	-a>
+arg_L_e	r1988	-a>
+orn_c	r1989	-a>
+na1_e	r1989	-a>
+ile_L_e	r1989	-a>
+na1_c	r1989	-a>
+orn_e	r1989	-a>
+ile_L_c	r1989	-a>
+his_L_c	r1990	-a>
+ile_L_e	r1990	-a>
+na1_c	r1990	-a>
+na1_e	r1990	-a>
+ile_L_c	r1990	-a>
+his_L_e	r1990	-a>
+citr_L_e	r1991	-a>
+ile_L_e	r1991	-a>
+na1_c	r1991	-a>
+na1_e	r1991	-a>
+ile_L_c	r1991	-a>
+citr_L_c	r1991	-a>
+gly_e	r1992	-a>
+lys_L_c	r1992	-a>
+gly_c	r1992	-a>
+lys_L_e	r1992	-a>
+lys_L_c	r1993	-a>
+ala_L_c	r1993	-a>
+lys_L_e	r1993	-a>
+ala_L_e	r1993	-a>
+gln_L_e	r1994	-a>
+lys_L_c	r1994	-a>
+gln_L_c	r1994	-a>
+lys_L_e	r1994	-a>
+lys_L_c	r1995	-a>
+ser_L_c	r1995	-a>
+ser_L_e	r1995	-a>
+lys_L_e	r1995	-a>
+lys_L_c	r1996	-a>
+met_L_e	r1996	-a>
+lys_L_e	r1996	-a>
+met_L_c	r1996	-a>
+trp_L_c	r1997	-a>
+lys_L_c	r1997	-a>
+trp_L_e	r1997	-a>
+lys_L_e	r1997	-a>
+lys_L_c	r1998	-a>
+phe_L_c	r1998	-a>
+lys_L_e	r1998	-a>
+phe_L_e	r1998	-a>
+lys_L_c	r1999	-a>
+tyr_L_c	r1999	-a>
+tyr_L_e	r1999	-a>
+lys_L_e	r1999	-a>
+lys_L_c	r2000	-a>
+cys_L_c	r2000	-a>
+cys_L_e	r2000	-a>
+lys_L_e	r2000	-a>
+leu_L_e	r2001	-a>
+lys_L_c	r2001	-a>
+leu_L_c	r2001	-a>
+lys_L_e	r2001	-a>
+pro_L_e	r2002	-a>
+lys_L_c	r2002	-a>
+lys_L_e	r2002	-a>
+pro_L_c	r2002	-a>
+lys_L_c	r2003	-a>
+asn_L_c	r2003	-a>
+lys_L_e	r2003	-a>
+asn_L_e	r2003	-a>
+val_L_c	r2004	-a>
+lys_L_c	r2004	-a>
+val_L_e	r2004	-a>
+lys_L_e	r2004	-a>
+thr_L_e	r2005	-a>
+lys_L_c	r2005	-a>
+thr_L_c	r2005	-a>
+lys_L_e	r2005	-a>
+hom_L_c	r2006	-a>
+lys_L_c	r2006	-a>
+hom_L_e	r2006	-a>
+lys_L_e	r2006	-a>
+lys_L_c	r2007	-a>
+ile_L_e	r2007	-a>
+ile_L_c	r2007	-a>
+lys_L_e	r2007	-a>
+gly_e	r2008	-a>
+arg_L_c	r2008	-a>
+gly_c	r2008	-a>
+arg_L_e	r2008	-a>
+ala_L_c	r2009	-a>
+arg_L_c	r2009	-a>
+arg_L_e	r2009	-a>
+ala_L_e	r2009	-a>
+gln_L_e	r2010	-a>
+arg_L_c	r2010	-a>
+gln_L_c	r2010	-a>
+arg_L_e	r2010	-a>
+ser_L_c	r2011	-a>
+arg_L_c	r2011	-a>
+ser_L_e	r2011	-a>
+arg_L_e	r2011	-a>
+met_L_e	r2012	-a>
+arg_L_c	r2012	-a>
+arg_L_e	r2012	-a>
+met_L_c	r2012	-a>
+trp_L_c	r2013	-a>
+trp_L_e	r2013	-a>
+arg_L_c	r2013	-a>
+arg_L_e	r2013	-a>
+phe_L_c	r2014	-a>
+arg_L_c	r2014	-a>
+arg_L_e	r2014	-a>
+phe_L_e	r2014	-a>
+tyr_L_e	r2015	-a>
+arg_L_c	r2015	-a>
+arg_L_e	r2015	-a>
+tyr_L_c	r2015	-a>
+cys_L_c	r2016	-a>
+arg_L_c	r2016	-a>
+arg_L_e	r2016	-a>
+cys_L_e	r2016	-a>
+leu_L_e	r2017	-a>
+arg_L_c	r2017	-a>
+leu_L_c	r2017	-a>
+arg_L_e	r2017	-a>
+pro_L_e	r2018	-a>
+arg_L_c	r2018	-a>
+arg_L_e	r2018	-a>
+pro_L_c	r2018	-a>
+asn_L_c	r2019	-a>
+arg_L_c	r2019	-a>
+arg_L_e	r2019	-a>
+asn_L_e	r2019	-a>
+val_L_c	r2020	-a>
+arg_L_c	r2020	-a>
+val_L_e	r2020	-a>
+arg_L_e	r2020	-a>
+thr_L_e	r2021	-a>
+arg_L_c	r2021	-a>
+thr_L_c	r2021	-a>
+arg_L_e	r2021	-a>
+hom_L_c	r2022	-a>
+arg_L_c	r2022	-a>
+hom_L_e	r2022	-a>
+arg_L_e	r2022	-a>
+arg_L_c	r2023	-a>
+ile_L_e	r2023	-a>
+ile_L_c	r2023	-a>
+arg_L_e	r2023	-a>
+orn_c	r2024	-a>
+gly_e	r2024	-a>
+orn_e	r2024	-a>
+gly_c	r2024	-a>
+orn_c	r2026	-a>
+gln_L_e	r2026	-a>
+orn_e	r2026	-a>
+gln_L_c	r2026	-a>
+orn_c	r2027	-a>
+ser_L_c	r2027	-a>
+orn_e	r2027	-a>
+ser_L_e	r2027	-a>
+orn_c	r2028	-a>
+met_L_e	r2028	-a>
+orn_e	r2028	-a>
+met_L_c	r2028	-a>
+orn_c	r2029	-a>
+trp_L_c	r2029	-a>
+trp_L_e	r2029	-a>
+orn_e	r2029	-a>
+orn_c	r2030	-a>
+phe_L_c	r2030	-a>
+orn_e	r2030	-a>
+phe_L_e	r2030	-a>
+orn_c	r2031	-a>
+tyr_L_e	r2031	-a>
+orn_e	r2031	-a>
+tyr_L_c	r2031	-a>
+orn_c	r2032	-a>
+cys_L_c	r2032	-a>
+orn_e	r2032	-a>
+cys_L_e	r2032	-a>
+orn_c	r2034	-a>
+pro_L_e	r2034	-a>
+orn_e	r2034	-a>
+pro_L_c	r2034	-a>
+orn_c	r2035	-a>
+asn_L_c	r2035	-a>
+asn_L_e	r2035	-a>
+orn_e	r2035	-a>
+orn_c	r2036	-a>
+val_L_c	r2036	-a>
+orn_e	r2036	-a>
+val_L_e	r2036	-a>
+orn_c	r2037	-a>
+thr_L_e	r2037	-a>
+orn_e	r2037	-a>
+thr_L_c	r2037	-a>
+orn_c	r2038	-a>
+hom_L_c	r2038	-a>
+orn_e	r2038	-a>
+hom_L_e	r2038	-a>
+orn_c	r2039	-a>
+orn_e	r2039	-a>
+ile_L_e	r2039	-a>
+ile_L_c	r2039	-a>
+gly_e	r2040	-a>
+his_L_c	r2040	-a>
+gly_c	r2040	-a>
+his_L_e	r2040	-a>
+ala_L_c	r2041	-a>
+his_L_c	r2041	-a>
+his_L_e	r2041	-a>
+ala_L_e	r2041	-a>
+gln_L_e	r2042	-a>
+his_L_c	r2042	-a>
+gln_L_c	r2042	-a>
+his_L_e	r2042	-a>
+ser_L_c	r2043	-a>
+his_L_c	r2043	-a>
+ser_L_e	r2043	-a>
+his_L_e	r2043	-a>
+met_L_e	r2044	-a>
+his_L_c	r2044	-a>
+his_L_e	r2044	-a>
+met_L_c	r2044	-a>
+trp_L_c	r2045	-a>
+his_L_c	r2045	-a>
+his_L_e	r2045	-a>
+trp_L_e	r2045	-a>
+phe_L_c	r2046	-a>
+his_L_c	r2046	-a>
+his_L_e	r2046	-a>
+phe_L_e	r2046	-a>
+tyr_L_e	r2047	-a>
+his_L_c	r2047	-a>
+his_L_e	r2047	-a>
+tyr_L_c	r2047	-a>
+cys_L_c	r2048	-a>
+his_L_c	r2048	-a>
+cys_L_e	r2048	-a>
+his_L_e	r2048	-a>
+leu_L_e	r2049	-a>
+his_L_c	r2049	-a>
+leu_L_c	r2049	-a>
+his_L_e	r2049	-a>
+pro_L_e	r2050	-a>
+his_L_c	r2050	-a>
+pro_L_c	r2050	-a>
+his_L_e	r2050	-a>
+his_L_c	r2051	-a>
+asn_L_c	r2051	-a>
+his_L_e	r2051	-a>
+asn_L_e	r2051	-a>
+val_L_c	r2052	-a>
+his_L_c	r2052	-a>
+val_L_e	r2052	-a>
+his_L_e	r2052	-a>
+thr_L_e	r2053	-a>
+his_L_c	r2053	-a>
+thr_L_c	r2053	-a>
+his_L_e	r2053	-a>
+hom_L_c	r2054	-a>
+his_L_c	r2054	-a>
+hom_L_e	r2054	-a>
+his_L_e	r2054	-a>
+his_L_c	r2055	-a>
+ile_L_e	r2055	-a>
+ile_L_c	r2055	-a>
+his_L_e	r2055	-a>
+gly_e	r2056	-a>
+citr_L_e	r2056	-a>
+gly_c	r2056	-a>
+citr_L_c	r2056	-a>
+citr_L_e	r2057	-a>
+ala_L_c	r2057	-a>
+citr_L_c	r2057	-a>
+ala_L_e	r2057	-a>
+gln_L_e	r2058	-a>
+citr_L_e	r2058	-a>
+gln_L_c	r2058	-a>
+citr_L_c	r2058	-a>
+citr_L_e	r2059	-a>
+ser_L_c	r2059	-a>
+citr_L_c	r2059	-a>
+ser_L_e	r2059	-a>
+citr_L_e	r2060	-a>
+met_L_e	r2060	-a>
+citr_L_c	r2060	-a>
+met_L_c	r2060	-a>
+trp_L_c	r2061	-a>
+citr_L_e	r2061	-a>
+trp_L_e	r2061	-a>
+citr_L_c	r2061	-a>
+citr_L_e	r2062	-a>
+phe_L_c	r2062	-a>
+citr_L_c	r2062	-a>
+phe_L_e	r2062	-a>
+citr_L_e	r2063	-a>
+tyr_L_e	r2063	-a>
+citr_L_c	r2063	-a>
+tyr_L_c	r2063	-a>
+citr_L_e	r2064	-a>
+cys_L_c	r2064	-a>
+citr_L_c	r2064	-a>
+cys_L_e	r2064	-a>
+leu_L_e	r2065	-a>
+citr_L_e	r2065	-a>
+leu_L_c	r2065	-a>
+citr_L_c	r2065	-a>
+citr_L_e	r2066	-a>
+citr_L_c	r2066	-a>
+pro_L_c	r2066	-a>
+pro_L_e	r2066	-a>
+citr_L_e	r2067	-a>
+asn_L_c	r2067	-a>
+citr_L_c	r2067	-a>
+asn_L_e	r2067	-a>
+val_L_c	r2068	-a>
+val_L_e	r2068	-a>
+citr_L_c	r2068	-a>
+citr_L_e	r2068	-a>
+thr_L_e	r2069	-a>
+citr_L_e	r2069	-a>
+thr_L_c	r2069	-a>
+citr_L_c	r2069	-a>
+hom_L_c	r2070	-a>
+hom_L_e	r2070	-a>
+citr_L_c	r2070	-a>
+citr_L_e	r2070	-a>
+citr_L_e	r2071	-a>
+ile_L_e	r2071	-a>
+ile_L_c	r2071	-a>
+citr_L_c	r2071	-a>
+h_e	r2073	-a>
+HC02172_e	r2073	-a>
+HC02172_c	r2073	-a>
+h_c	r2073	-a>
+pyr_c	r2079	-a>
+pyr_e	r2079	-a>
+acac_e	r2079	-a>
+acac_c	r2079	-a>
+ac_c	r2080	-a>
+acac_c	r2080	-a>
+ac_e	r2080	-a>
+acac_e	r2080	-a>
+acac_c	r2081	-a>
+for_c	r2081	-a>
+acac_e	r2081	-a>
+for_e	r2081	-a>
+ppa_c	r2082	-a>
+ppa_e	r2082	-a>
+acac_e	r2082	-a>
+acac_c	r2082	-a>
+lac_L_c	r2083	-a>
+acac_c	r2083	-a>
+lac_L_e	r2083	-a>
+acac_e	r2083	-a>
+acac_c	r2084	-a>
+retn_c	r2084	-a>
+acac_e	r2084	-a>
+retn_e	r2084	-a>
+2hb_c	r2085	-a>
+acac_c	r2085	-a>
+2hb_e	r2085	-a>
+acac_e	r2085	-a>
+2hb_c	r2086	-a>
+pyr_c	r2086	-a>
+2hb_e	r2086	-a>
+pyr_e	r2086	-a>
+ac_c	r2087	-a>
+2hb_c	r2087	-a>
+ac_e	r2087	-a>
+2hb_e	r2087	-a>
+2hb_c	r2088	-a>
+for_c	r2088	-a>
+2hb_e	r2088	-a>
+for_e	r2088	-a>
+2hb_c	r2089	-a>
+2hb_e	r2089	-a>
+ppa_e	r2089	-a>
+ppa_c	r2089	-a>
+lac_L_c	r2090	-a>
+2hb_c	r2090	-a>
+2hb_e	r2090	-a>
+lac_L_e	r2090	-a>
+2hb_c	r2091	-a>
+but_c	r2091	-a>
+2hb_e	r2091	-a>
+but_e	r2091	-a>
+2hb_c	r2092	-a>
+retn_c	r2092	-a>
+2hb_e	r2092	-a>
+retn_e	r2092	-a>
+pyr_c	r2093	-a>
+pyr_e	r2093	-a>
+akg_c	r2093	-a>
+akg_e	r2093	-a>
+ac_c	r2094	-a>
+pyr_c	r2094	-a>
+ac_e	r2094	-a>
+pyr_e	r2094	-a>
+pyr_c	r2095	-a>
+pyr_e	r2095	-a>
+for_e	r2095	-a>
+for_c	r2095	-a>
+pyr_c	r2096	-a>
+pyr_e	r2096	-a>
+ppa_e	r2096	-a>
+ppa_c	r2096	-a>
+lac_L_c	r2097	-a>
+pyr_c	r2097	-a>
+lac_L_e	r2097	-a>
+pyr_e	r2097	-a>
+pyr_c	r2098	-a>
+pyr_e	r2098	-a>
+but_e	r2098	-a>
+but_c	r2098	-a>
+pyr_c	r2099	-a>
+retn_c	r2099	-a>
+pyr_e	r2099	-a>
+retn_e	r2099	-a>
+pyr_c	r2100	-a>
+bhb_e	r2100	-a>
+pyr_e	r2100	-a>
+bhb_c	r2100	-a>
+ac_c	r2101	-a>
+akg_e	r2101	-a>
+ac_e	r2101	-a>
+akg_c	r2101	-a>
+for_c	r2102	-a>
+for_e	r2102	-a>
+akg_c	r2102	-a>
+akg_e	r2102	-a>
+ppa_c	r2103	-a>
+ppa_e	r2103	-a>
+akg_c	r2103	-a>
+akg_e	r2103	-a>
+acac_e	r2104	-a>
+acac_c	r2104	-a>
+akg_c	r2104	-a>
+akg_e	r2104	-a>
+lac_L_c	r2105	-a>
+akg_e	r2105	-a>
+lac_L_e	r2105	-a>
+akg_c	r2105	-a>
+but_e	r2106	-a>
+but_c	r2106	-a>
+akg_c	r2106	-a>
+akg_e	r2106	-a>
+akg_e	r2107	-a>
+retn_c	r2107	-a>
+akg_c	r2107	-a>
+retn_e	r2107	-a>
+akg_e	r2108	-a>
+bhb_e	r2108	-a>
+akg_c	r2108	-a>
+bhb_c	r2108	-a>
+2hb_c	r2109	-a>
+akg_e	r2109	-a>
+2hb_e	r2109	-a>
+akg_c	r2109	-a>
+ac_c	r2110	-a>
+for_c	r2110	-a>
+ac_e	r2110	-a>
+for_e	r2110	-a>
+ac_c	r2111	-a>
+ppa_c	r2111	-a>
+ac_e	r2111	-a>
+ppa_e	r2111	-a>
+ac_c	r2112	-a>
+lac_L_c	r2112	-a>
+ac_e	r2112	-a>
+lac_L_e	r2112	-a>
+ac_c	r2113	-a>
+but_c	r2113	-a>
+ac_e	r2113	-a>
+but_e	r2113	-a>
+ac_c	r2114	-a>
+ac_e	r2114	-a>
+retn_e	r2114	-a>
+retn_c	r2114	-a>
+ac_c	r2115	-a>
+bhb_e	r2115	-a>
+ac_e	r2115	-a>
+bhb_c	r2115	-a>
+ppa_c	r2116	-a>
+ppa_e	r2116	-a>
+for_e	r2116	-a>
+for_c	r2116	-a>
+lac_L_c	r2117	-a>
+for_c	r2117	-a>
+lac_L_e	r2117	-a>
+for_e	r2117	-a>
+but_c	r2118	-a>
+for_c	r2118	-a>
+but_e	r2118	-a>
+for_e	r2118	-a>
+for_c	r2119	-a>
+retn_c	r2119	-a>
+for_e	r2119	-a>
+retn_e	r2119	-a>
+for_c	r2120	-a>
+bhb_e	r2120	-a>
+for_e	r2120	-a>
+bhb_c	r2120	-a>
+lac_L_c	r2121	-a>
+ppa_c	r2121	-a>
+ppa_e	r2121	-a>
+lac_L_e	r2121	-a>
+but_c	r2122	-a>
+ppa_e	r2122	-a>
+but_e	r2122	-a>
+ppa_c	r2122	-a>
+ppa_c	r2123	-a>
+retn_c	r2123	-a>
+ppa_e	r2123	-a>
+retn_e	r2123	-a>
+ppa_c	r2124	-a>
+bhb_e	r2124	-a>
+ppa_e	r2124	-a>
+bhb_c	r2124	-a>
+but_e	r2125	-a>
+acac_c	r2125	-a>
+acac_e	r2125	-a>
+but_c	r2125	-a>
+acac_c	r2126	-a>
+bhb_e	r2126	-a>
+acac_e	r2126	-a>
+bhb_c	r2126	-a>
+lac_L_c	r2127	-a>
+but_c	r2127	-a>
+lac_L_e	r2127	-a>
+but_e	r2127	-a>
+lac_L_c	r2128	-a>
+retn_c	r2128	-a>
+lac_L_e	r2128	-a>
+retn_e	r2128	-a>
+lac_L_c	r2129	-a>
+bhb_e	r2129	-a>
+lac_L_e	r2129	-a>
+bhb_c	r2129	-a>
+but_c	r2130	-a>
+retn_c	r2130	-a>
+but_e	r2130	-a>
+retn_e	r2130	-a>
+but_c	r2131	-a>
+bhb_e	r2131	-a>
+but_e	r2131	-a>
+bhb_c	r2131	-a>
+bhb_e	r2132	-a>
+retn_c	r2132	-a>
+bhb_c	r2132	-a>
+retn_e	r2132	-a>
+2hb_c	r2133	-a>
+bhb_e	r2133	-a>
+2hb_e	r2133	-a>
+bhb_c	r2133	-a>
+na1_c	r2136	-a>
+pi_c	r2136	-a>
+na1_e	r2136	-a>
+pi_e	r2136	-a>
+gthrd_c	r2139	-a>
+hco3_c	r2139	-a>
+gthrd_e	r2139	-a>
+hco3_e	r2139	-a>
+cholate_c	r2139	-a>
+cholate_e	r2139	-a>
+gthrd_c	r2140	-a>
+hco3_c	r2140	-a>
+gthrd_e	r2140	-a>
+hco3_e	r2140	-a>
+gchola_e	r2140	-a>
+gchola_c	r2140	-a>
+gthrd_c	r2141	-a>
+hco3_c	r2141	-a>
+gthrd_e	r2141	-a>
+tchola_c	r2141	-a>
+hco3_e	r2141	-a>
+tchola_e	r2141	-a>
+gthrd_c	r2142	-a>
+hco3_c	r2142	-a>
+gthrd_e	r2142	-a>
+hco3_e	r2142	-a>
+tdchola_c	r2142	-a>
+tdchola_e	r2142	-a>
+gthrd_c	r2143	-a>
+hco3_c	r2143	-a>
+gthrd_e	r2143	-a>
+HC02191_c	r2143	-a>
+hco3_e	r2143	-a>
+HC02191_e	r2143	-a>
+gthrd_c	r2144	-a>
+hco3_c	r2144	-a>
+gthrd_e	r2144	-a>
+hco3_e	r2144	-a>
+HC02192_c	r2144	-a>
+HC02192_e	r2144	-a>
+gthrd_c	r2145	-a>
+hco3_c	r2145	-a>
+CE5560_c	r2145	-a>
+CE5560_e	r2145	-a>
+hco3_e	r2145	-a>
+gthrd_e	r2145	-a>
+gthrd_c	r2146	-a>
+hco3_c	r2146	-a>
+gthrd_e	r2146	-a>
+hco3_e	r2146	-a>
+HC02194_c	r2146	-a>
+HC02194_e	r2146	-a>
+gthrd_c	r2147	-a>
+HC02195_c	r2147	-a>
+hco3_c	r2147	-a>
+gthrd_e	r2147	-a>
+HC02195_e	r2147	-a>
+hco3_e	r2147	-a>
+gthrd_c	r2148	-a>
+hco3_c	r2148	-a>
+gthrd_e	r2148	-a>
+hco3_e	r2148	-a>
+HC02196_c	r2148	-a>
+HC02196_e	r2148	-a>
+gthrd_c	r2149	-a>
+HC02197_e	r2149	-a>
+gthrd_e	r2149	-a>
+hco3_e	r2149	-a>
+hco3_c	r2149	-a>
+HC02197_c	r2149	-a>
+gthrd_c	r2150	-a>
+hco3_c	r2150	-a>
+gthrd_e	r2150	-a>
+HC02198_c	r2150	-a>
+hco3_e	r2150	-a>
+HC02198_e	r2150	-a>
+hco3_c	r2151	-a>
+HC02199_e	r2151	-a>
+hco3_e	r2151	-a>
+cholate_c	r2151	-a>
+HC02199_c	r2151	-a>
+cholate_e	r2151	-a>
+hco3_c	r2152	-a>
+cholate_c	r2152	-a>
+hco3_e	r2152	-a>
+HC02200_c	r2152	-a>
+HC02200_e	r2152	-a>
+cholate_e	r2152	-a>
+hco3_c	r2153	-a>
+hco3_e	r2153	-a>
+HC02201_c	r2153	-a>
+cholate_c	r2153	-a>
+HC02201_e	r2153	-a>
+cholate_e	r2153	-a>
+hco3_c	r2154	-a>
+HC02199_c	r2154	-a>
+HC02199_e	r2154	-a>
+hco3_e	r2154	-a>
+gchola_e	r2154	-a>
+gchola_c	r2154	-a>
+hco3_c	r2155	-a>
+hco3_e	r2155	-a>
+HC02200_c	r2155	-a>
+HC02200_e	r2155	-a>
+gchola_e	r2155	-a>
+gchola_c	r2155	-a>
+hco3_c	r2156	-a>
+hco3_e	r2156	-a>
+gchola_e	r2156	-a>
+HC02201_c	r2156	-a>
+HC02201_e	r2156	-a>
+gchola_c	r2156	-a>
+hco3_c	r2157	-a>
+HC02199_e	r2157	-a>
+C02528_c	r2157	-a>
+hco3_e	r2157	-a>
+C02528_e	r2157	-a>
+HC02199_c	r2157	-a>
+hco3_c	r2158	-a>
+C02528_c	r2158	-a>
+hco3_e	r2158	-a>
+HC02200_c	r2158	-a>
+C02528_e	r2158	-a>
+HC02200_e	r2158	-a>
+hco3_c	r2159	-a>
+hco3_e	r2159	-a>
+C02528_c	r2159	-a>
+C02528_e	r2159	-a>
+HC02201_e	r2159	-a>
+HC02201_c	r2159	-a>
+hco3_c	r2160	-a>
+HC02199_e	r2160	-a>
+hco3_e	r2160	-a>
+tchola_c	r2160	-a>
+tchola_e	r2160	-a>
+HC02199_c	r2160	-a>
+hco3_c	r2161	-a>
+hco3_e	r2161	-a>
+tchola_c	r2161	-a>
+HC02200_c	r2161	-a>
+tchola_e	r2161	-a>
+HC02200_e	r2161	-a>
+hco3_c	r2162	-a>
+hco3_e	r2162	-a>
+tchola_c	r2162	-a>
+tchola_e	r2162	-a>
+HC02201_e	r2162	-a>
+HC02201_c	r2162	-a>
+hco3_c	r2163	-a>
+HC02199_e	r2163	-a>
+hco3_e	r2163	-a>
+tdchola_c	r2163	-a>
+tdchola_e	r2163	-a>
+HC02199_c	r2163	-a>
+hco3_c	r2164	-a>
+hco3_e	r2164	-a>
+HC02200_c	r2164	-a>
+tdchola_c	r2164	-a>
+HC02200_e	r2164	-a>
+tdchola_e	r2164	-a>
+hco3_c	r2165	-a>
+hco3_e	r2165	-a>
+tdchola_c	r2165	-a>
+tdchola_e	r2165	-a>
+HC02201_e	r2165	-a>
+HC02201_c	r2165	-a>
+hco3_c	r2166	-a>
+HC02199_e	r2166	-a>
+HC02191_c	r2166	-a>
+hco3_e	r2166	-a>
+HC02191_e	r2166	-a>
+HC02199_c	r2166	-a>
+HC02200_c	r2167	-a>
+hco3_c	r2167	-a>
+HC02191_c	r2167	-a>
+hco3_e	r2167	-a>
+HC02191_e	r2167	-a>
+HC02200_e	r2167	-a>
+hco3_c	r2168	-a>
+HC02191_c	r2168	-a>
+hco3_e	r2168	-a>
+HC02191_e	r2168	-a>
+HC02201_e	r2168	-a>
+HC02201_c	r2168	-a>
+hco3_c	r2169	-a>
+HC02199_e	r2169	-a>
+hco3_e	r2169	-a>
+HC02192_c	r2169	-a>
+HC02199_c	r2169	-a>
+HC02192_e	r2169	-a>
+hco3_c	r2170	-a>
+hco3_e	r2170	-a>
+HC02200_c	r2170	-a>
+HC02200_e	r2170	-a>
+HC02192_c	r2170	-a>
+HC02192_e	r2170	-a>
+hco3_c	r2171	-a>
+hco3_e	r2171	-a>
+HC02201_c	r2171	-a>
+HC02192_c	r2171	-a>
+HC02201_e	r2171	-a>
+HC02192_e	r2171	-a>
+hco3_c	r2172	-a>
+CE5560_c	r2172	-a>
+HC02199_e	r2172	-a>
+hco3_e	r2172	-a>
+CE5560_e	r2172	-a>
+HC02199_c	r2172	-a>
+hco3_c	r2173	-a>
+CE5560_c	r2173	-a>
+hco3_e	r2173	-a>
+CE5560_e	r2173	-a>
+HC02200_c	r2173	-a>
+HC02200_e	r2173	-a>
+hco3_c	r2174	-a>
+CE5560_c	r2174	-a>
+CE5560_e	r2174	-a>
+hco3_e	r2174	-a>
+HC02201_e	r2174	-a>
+HC02201_c	r2174	-a>
+hco3_c	r2175	-a>
+HC02199_e	r2175	-a>
+hco3_e	r2175	-a>
+HC02194_c	r2175	-a>
+HC02199_c	r2175	-a>
+HC02194_e	r2175	-a>
+hco3_c	r2176	-a>
+hco3_e	r2176	-a>
+HC02200_c	r2176	-a>
+HC02194_c	r2176	-a>
+HC02200_e	r2176	-a>
+HC02194_e	r2176	-a>
+hco3_c	r2177	-a>
+hco3_e	r2177	-a>
+HC02194_c	r2177	-a>
+HC02201_c	r2177	-a>
+HC02201_e	r2177	-a>
+HC02194_e	r2177	-a>
+HC02195_c	r2178	-a>
+hco3_c	r2178	-a>
+HC02199_e	r2178	-a>
+hco3_e	r2178	-a>
+HC02195_e	r2178	-a>
+HC02199_c	r2178	-a>
+HC02195_c	r2179	-a>
+hco3_c	r2179	-a>
+HC02195_e	r2179	-a>
+hco3_e	r2179	-a>
+HC02200_c	r2179	-a>
+HC02200_e	r2179	-a>
+HC02195_c	r2180	-a>
+hco3_c	r2180	-a>
+HC02195_e	r2180	-a>
+hco3_e	r2180	-a>
+HC02201_e	r2180	-a>
+HC02201_c	r2180	-a>
+hco3_c	r2181	-a>
+HC02199_e	r2181	-a>
+hco3_e	r2181	-a>
+HC02196_c	r2181	-a>
+HC02196_e	r2181	-a>
+HC02199_c	r2181	-a>
+HC02196_c	r2182	-a>
+hco3_c	r2182	-a>
+HC02196_e	r2182	-a>
+hco3_e	r2182	-a>
+HC02200_c	r2182	-a>
+HC02200_e	r2182	-a>
+hco3_c	r2183	-a>
+hco3_e	r2183	-a>
+HC02196_c	r2183	-a>
+HC02196_e	r2183	-a>
+HC02201_e	r2183	-a>
+HC02201_c	r2183	-a>
+HC02197_e	r2184	-a>
+HC02199_c	r2184	-a>
+HC02199_e	r2184	-a>
+hco3_e	r2184	-a>
+hco3_c	r2184	-a>
+HC02197_c	r2184	-a>
+HC02197_e	r2185	-a>
+hco3_e	r2185	-a>
+HC02200_c	r2185	-a>
+HC02200_e	r2185	-a>
+hco3_c	r2185	-a>
+HC02197_c	r2185	-a>
+HC02197_e	r2186	-a>
+hco3_e	r2186	-a>
+hco3_c	r2186	-a>
+HC02197_c	r2186	-a>
+HC02201_e	r2186	-a>
+HC02201_c	r2186	-a>
+hco3_c	r2187	-a>
+HC02199_e	r2187	-a>
+hco3_e	r2187	-a>
+HC02198_c	r2187	-a>
+HC02198_e	r2187	-a>
+HC02199_c	r2187	-a>
+hco3_c	r2188	-a>
+hco3_e	r2188	-a>
+HC02198_c	r2188	-a>
+HC02200_c	r2188	-a>
+HC02198_e	r2188	-a>
+HC02200_e	r2188	-a>
+hco3_c	r2189	-a>
+hco3_e	r2189	-a>
+HC02198_c	r2189	-a>
+HC02198_e	r2189	-a>
+HC02201_e	r2189	-a>
+HC02201_c	r2189	-a>
+hco3_c	r2190	-a>
+HC02199_e	r2190	-a>
+hco3_e	r2190	-a>
+HC02220_c	r2190	-a>
+HC02220_e	r2190	-a>
+HC02199_c	r2190	-a>
+hco3_c	r2191	-a>
+hco3_e	r2191	-a>
+HC02200_c	r2191	-a>
+HC02220_c	r2191	-a>
+HC02200_e	r2191	-a>
+HC02220_e	r2191	-a>
+HC02201_e	r2192	-a>
+hco3_e	r2192	-a>
+HC02220_c	r2192	-a>
+HC02201_c	r2192	-a>
+hco3_c	r2192	-a>
+HC02220_e	r2192	-a>
+gthrd_c	r2193	-a>
+bilirub_e	r2193	-a>
+hco3_c	r2193	-a>
+gthrd_e	r2193	-a>
+hco3_e	r2193	-a>
+bilirub_c	r2193	-a>
+gthrd_c	r2194	-a>
+thyox_L_e	r2194	-a>
+gthrd_e	r2194	-a>
+hco3_e	r2194	-a>
+hco3_c	r2194	-a>
+thyox_L_c	r2194	-a>
+gthrd_c	r2195	-a>
+hco3_c	r2195	-a>
+gthrd_e	r2195	-a>
+hco3_e	r2195	-a>
+triodthy_c	r2195	-a>
+triodthy_e	r2195	-a>
+gthrd_c	r2196	-a>
+HC02187_e	r2196	-a>
+hco3_c	r2196	-a>
+gthrd_e	r2196	-a>
+hco3_e	r2196	-a>
+HC02187_c	r2196	-a>
+gthrd_c	r2197	-a>
+hco3_c	r2197	-a>
+gthrd_e	r2197	-a>
+hco3_e	r2197	-a>
+prostge2_c	r2197	-a>
+prostge2_e	r2197	-a>
+gthrd_c	r2198	-a>
+hco3_c	r2198	-a>
+gthrd_e	r2198	-a>
+hco3_e	r2198	-a>
+leuktrC4_c	r2198	-a>
+leuktrC4_e	r2198	-a>
+gthrd_c	r2199	-a>
+hco3_c	r2199	-a>
+gthrd_e	r2199	-a>
+hco3_e	r2199	-a>
+bildglcur_c	r2199	-a>
+bildglcur_e	r2199	-a>
+gthrd_c	r2200	-a>
+hco3_c	r2200	-a>
+gthrd_e	r2200	-a>
+hco3_e	r2200	-a>
+HC02180_c	r2200	-a>
+HC02180_e	r2200	-a>
+gthrd_c	r2201	-a>
+leuktrE4_c	r2201	-a>
+hco3_c	r2201	-a>
+gthrd_e	r2201	-a>
+leuktrE4_e	r2201	-a>
+hco3_e	r2201	-a>
+gthrd_c	r2202	-a>
+hco3_c	r2202	-a>
+gthrd_e	r2202	-a>
+hco3_e	r2202	-a>
+bilglcur_e	r2202	-a>
+bilglcur_c	r2202	-a>
+bilirub_e	r2203	-a>
+hco3_c	r2203	-a>
+HC02199_e	r2203	-a>
+hco3_e	r2203	-a>
+HC02199_c	r2203	-a>
+bilirub_c	r2203	-a>
+bilirub_e	r2204	-a>
+hco3_c	r2204	-a>
+hco3_e	r2204	-a>
+HC02200_c	r2204	-a>
+HC02200_e	r2204	-a>
+bilirub_c	r2204	-a>
+bilirub_e	r2205	-a>
+hco3_c	r2205	-a>
+hco3_e	r2205	-a>
+HC02201_e	r2205	-a>
+bilirub_c	r2205	-a>
+HC02201_c	r2205	-a>
+hco3_c	r2206	-a>
+HC02199_e	r2206	-a>
+hco3_e	r2206	-a>
+thyox_L_c	r2206	-a>
+thyox_L_e	r2206	-a>
+HC02199_c	r2206	-a>
+thyox_L_e	r2207	-a>
+hco3_e	r2207	-a>
+HC02200_c	r2207	-a>
+HC02200_e	r2207	-a>
+hco3_c	r2207	-a>
+thyox_L_c	r2207	-a>
+thyox_L_e	r2208	-a>
+hco3_e	r2208	-a>
+hco3_c	r2208	-a>
+thyox_L_c	r2208	-a>
+HC02201_e	r2208	-a>
+HC02201_c	r2208	-a>
+hco3_c	r2209	-a>
+HC02199_e	r2209	-a>
+triodthy_c	r2209	-a>
+hco3_e	r2209	-a>
+triodthy_e	r2209	-a>
+HC02199_c	r2209	-a>
+hco3_c	r2210	-a>
+triodthy_c	r2210	-a>
+hco3_e	r2210	-a>
+HC02200_c	r2210	-a>
+triodthy_e	r2210	-a>
+HC02200_e	r2210	-a>
+hco3_c	r2211	-a>
+hco3_e	r2211	-a>
+triodthy_c	r2211	-a>
+triodthy_e	r2211	-a>
+HC02201_e	r2211	-a>
+HC02201_c	r2211	-a>
+HC02187_e	r2212	-a>
+hco3_c	r2212	-a>
+HC02199_e	r2212	-a>
+hco3_e	r2212	-a>
+HC02199_c	r2212	-a>
+HC02187_c	r2212	-a>
+HC02187_e	r2213	-a>
+hco3_c	r2213	-a>
+hco3_e	r2213	-a>
+HC02200_c	r2213	-a>
+HC02200_e	r2213	-a>
+HC02187_c	r2213	-a>
+HC02187_e	r2214	-a>
+hco3_c	r2214	-a>
+hco3_e	r2214	-a>
+HC02201_e	r2214	-a>
+HC02187_c	r2214	-a>
+HC02201_c	r2214	-a>
+hco3_c	r2215	-a>
+HC02199_e	r2215	-a>
+hco3_e	r2215	-a>
+prostge2_c	r2215	-a>
+prostge2_e	r2215	-a>
+HC02199_c	r2215	-a>
+hco3_c	r2216	-a>
+hco3_e	r2216	-a>
+prostge2_c	r2216	-a>
+HC02200_c	r2216	-a>
+prostge2_e	r2216	-a>
+HC02200_e	r2216	-a>
+hco3_c	r2217	-a>
+hco3_e	r2217	-a>
+prostge2_c	r2217	-a>
+prostge2_e	r2217	-a>
+HC02201_e	r2217	-a>
+HC02201_c	r2217	-a>
+hco3_c	r2218	-a>
+HC02199_e	r2218	-a>
+hco3_e	r2218	-a>
+arachd_c	r2218	-a>
+HC02199_c	r2218	-a>
+arachd_e	r2218	-a>
+hco3_c	r2219	-a>
+hco3_e	r2219	-a>
+HC02200_c	r2219	-a>
+arachd_c	r2219	-a>
+HC02200_e	r2219	-a>
+arachd_e	r2219	-a>
+HC02201_e	r2220	-a>
+hco3_e	r2220	-a>
+arachd_c	r2220	-a>
+HC02201_c	r2220	-a>
+hco3_c	r2220	-a>
+arachd_e	r2220	-a>
+hco3_c	r2221	-a>
+HC02199_e	r2221	-a>
+hco3_e	r2221	-a>
+leuktrC4_c	r2221	-a>
+HC02199_c	r2221	-a>
+leuktrC4_e	r2221	-a>
+hco3_c	r2222	-a>
+hco3_e	r2222	-a>
+HC02200_c	r2222	-a>
+HC02200_e	r2222	-a>
+leuktrC4_c	r2222	-a>
+leuktrC4_e	r2222	-a>
+hco3_c	r2223	-a>
+hco3_e	r2223	-a>
+HC02201_c	r2223	-a>
+leuktrC4_c	r2223	-a>
+HC02201_e	r2223	-a>
+leuktrC4_e	r2223	-a>
+estrones_c	r2224	-a>
+hco3_c	r2224	-a>
+HC02199_e	r2224	-a>
+estrones_e	r2224	-a>
+hco3_e	r2224	-a>
+HC02199_c	r2224	-a>
+estrones_c	r2225	-a>
+hco3_c	r2225	-a>
+estrones_e	r2225	-a>
+hco3_e	r2225	-a>
+HC02200_c	r2225	-a>
+HC02200_e	r2225	-a>
+estrones_c	r2226	-a>
+hco3_c	r2226	-a>
+estrones_e	r2226	-a>
+hco3_e	r2226	-a>
+HC02201_e	r2226	-a>
+HC02201_c	r2226	-a>
+hco3_c	r2227	-a>
+HC02199_e	r2227	-a>
+dheas_c	r2227	-a>
+hco3_e	r2227	-a>
+dheas_e	r2227	-a>
+HC02199_c	r2227	-a>
+dheas_e	r2228	-a>
+hco3_c	r2228	-a>
+dheas_c	r2228	-a>
+hco3_e	r2228	-a>
+HC02200_c	r2228	-a>
+HC02200_e	r2228	-a>
+hco3_c	r2229	-a>
+dheas_c	r2229	-a>
+hco3_e	r2229	-a>
+dheas_e	r2229	-a>
+HC02201_e	r2229	-a>
+HC02201_c	r2229	-a>
+hco3_c	r2230	-a>
+HC02199_e	r2230	-a>
+hco3_e	r2230	-a>
+bildglcur_c	r2230	-a>
+bildglcur_e	r2230	-a>
+HC02199_c	r2230	-a>
+hco3_c	r2231	-a>
+hco3_e	r2231	-a>
+HC02200_c	r2231	-a>
+bildglcur_c	r2231	-a>
+HC02200_e	r2231	-a>
+bildglcur_e	r2231	-a>
+hco3_c	r2232	-a>
+hco3_e	r2232	-a>
+bildglcur_c	r2232	-a>
+bildglcur_e	r2232	-a>
+HC02201_e	r2232	-a>
+HC02201_c	r2232	-a>
+hco3_c	r2233	-a>
+HC02199_e	r2233	-a>
+leuktrD4_c	r2233	-a>
+hco3_e	r2233	-a>
+leuktrD4_e	r2233	-a>
+HC02199_c	r2233	-a>
+hco3_c	r2234	-a>
+leuktrD4_c	r2234	-a>
+hco3_e	r2234	-a>
+HC02200_c	r2234	-a>
+leuktrD4_e	r2234	-a>
+HC02200_e	r2234	-a>
+hco3_c	r2235	-a>
+hco3_e	r2235	-a>
+leuktrD4_c	r2235	-a>
+leuktrD4_e	r2235	-a>
+HC02201_e	r2235	-a>
+HC02201_c	r2235	-a>
+wharachd_c	r2236	-a>
+hco3_c	r2236	-a>
+wharachd_e	r2236	-a>
+HC02199_e	r2236	-a>
+hco3_e	r2236	-a>
+HC02199_c	r2236	-a>
+wharachd_c	r2237	-a>
+hco3_c	r2237	-a>
+wharachd_e	r2237	-a>
+hco3_e	r2237	-a>
+HC02200_c	r2237	-a>
+HC02200_e	r2237	-a>
+wharachd_c	r2238	-a>
+hco3_c	r2238	-a>
+wharachd_e	r2238	-a>
+hco3_e	r2238	-a>
+HC02201_e	r2238	-a>
+HC02201_c	r2238	-a>
+hco3_c	r2239	-a>
+HC02199_e	r2239	-a>
+hco3_e	r2239	-a>
+HC02180_c	r2239	-a>
+HC02180_e	r2239	-a>
+HC02199_c	r2239	-a>
+hco3_c	r2240	-a>
+hco3_e	r2240	-a>
+HC02180_c	r2240	-a>
+HC02200_c	r2240	-a>
+HC02180_e	r2240	-a>
+HC02200_e	r2240	-a>
+hco3_c	r2241	-a>
+hco3_e	r2241	-a>
+HC02180_c	r2241	-a>
+HC02180_e	r2241	-a>
+HC02201_e	r2241	-a>
+HC02201_c	r2241	-a>
+hco3_c	r2242	-a>
+HC02199_e	r2242	-a>
+leuktrA4_e	r2242	-a>
+hco3_e	r2242	-a>
+leuktrA4_c	r2242	-a>
+HC02199_c	r2242	-a>
+hco3_c	r2243	-a>
+leuktrA4_e	r2243	-a>
+hco3_e	r2243	-a>
+HC02200_c	r2243	-a>
+HC02200_e	r2243	-a>
+leuktrA4_c	r2243	-a>
+hco3_c	r2244	-a>
+leuktrA4_e	r2244	-a>
+hco3_e	r2244	-a>
+HC02201_c	r2244	-a>
+HC02201_e	r2244	-a>
+leuktrA4_c	r2244	-a>
+leuktrB4_c	r2245	-a>
+hco3_c	r2245	-a>
+leuktrB4_e	r2245	-a>
+HC02199_e	r2245	-a>
+hco3_e	r2245	-a>
+HC02199_c	r2245	-a>
+leuktrB4_c	r2246	-a>
+hco3_c	r2246	-a>
+leuktrB4_e	r2246	-a>
+hco3_e	r2246	-a>
+HC02200_c	r2246	-a>
+HC02200_e	r2246	-a>
+leuktrB4_c	r2247	-a>
+hco3_c	r2247	-a>
+leuktrB4_e	r2247	-a>
+hco3_e	r2247	-a>
+HC02201_e	r2247	-a>
+HC02201_c	r2247	-a>
+leuktrE4_c	r2248	-a>
+hco3_c	r2248	-a>
+HC02199_e	r2248	-a>
+hco3_e	r2248	-a>
+leuktrE4_e	r2248	-a>
+HC02199_c	r2248	-a>
+leuktrE4_c	r2249	-a>
+hco3_c	r2249	-a>
+leuktrE4_e	r2249	-a>
+hco3_e	r2249	-a>
+HC02200_c	r2249	-a>
+HC02200_e	r2249	-a>
+leuktrE4_c	r2250	-a>
+hco3_c	r2250	-a>
+leuktrE4_e	r2250	-a>
+hco3_e	r2250	-a>
+HC02201_e	r2250	-a>
+HC02201_c	r2250	-a>
+leuktrF4_e	r2251	-a>
+HC02199_c	r2251	-a>
+HC02199_e	r2251	-a>
+hco3_e	r2251	-a>
+hco3_c	r2251	-a>
+leuktrF4_c	r2251	-a>
+hco3_c	r2252	-a>
+hco3_e	r2252	-a>
+HC02200_c	r2252	-a>
+HC02200_e	r2252	-a>
+leuktrF4_e	r2252	-a>
+leuktrF4_c	r2252	-a>
+leuktrF4_e	r2253	-a>
+hco3_e	r2253	-a>
+hco3_c	r2253	-a>
+leuktrF4_c	r2253	-a>
+HC02201_e	r2253	-a>
+HC02201_c	r2253	-a>
+hco3_c	r2254	-a>
+bilglcur_c	r2254	-a>
+HC02199_e	r2254	-a>
+hco3_e	r2254	-a>
+bilglcur_e	r2254	-a>
+HC02199_c	r2254	-a>
+hco3_c	r2255	-a>
+bilglcur_c	r2255	-a>
+hco3_e	r2255	-a>
+bilglcur_e	r2255	-a>
+HC02200_c	r2255	-a>
+HC02200_e	r2255	-a>
+hco3_c	r2256	-a>
+bilglcur_c	r2256	-a>
+hco3_e	r2256	-a>
+bilglcur_e	r2256	-a>
+HC02201_e	r2256	-a>
+HC02201_c	r2256	-a>
+hco3_c	r2257	-a>
+HC02199_e	r2257	-a>
+hco3_e	r2257	-a>
+HC02202_c	r2257	-a>
+HC02202_e	r2257	-a>
+HC02199_c	r2257	-a>
+hco3_c	r2258	-a>
+hco3_e	r2258	-a>
+HC02202_c	r2258	-a>
+HC02200_c	r2258	-a>
+HC02202_e	r2258	-a>
+HC02200_e	r2258	-a>
+hco3_c	r2259	-a>
+hco3_e	r2259	-a>
+HC02202_c	r2259	-a>
+HC02202_e	r2259	-a>
+HC02201_e	r2259	-a>
+HC02201_c	r2259	-a>
+HC02203_e	r2260	-a>
+hco3_c	r2260	-a>
+HC02199_e	r2260	-a>
+hco3_e	r2260	-a>
+HC02199_c	r2260	-a>
+HC02203_c	r2260	-a>
+HC02203_e	r2261	-a>
+hco3_c	r2261	-a>
+hco3_e	r2261	-a>
+HC02200_c	r2261	-a>
+HC02200_e	r2261	-a>
+HC02203_c	r2261	-a>
+HC02203_e	r2262	-a>
+hco3_c	r2262	-a>
+hco3_e	r2262	-a>
+HC02203_c	r2262	-a>
+HC02201_e	r2262	-a>
+HC02201_c	r2262	-a>
+hco3_c	r2263	-a>
+HC02204_c	r2263	-a>
+hco3_e	r2263	-a>
+HC02204_e	r2263	-a>
+HC02199_e	r2263	-a>
+HC02199_c	r2263	-a>
+hco3_c	r2264	-a>
+HC02204_c	r2264	-a>
+hco3_e	r2264	-a>
+HC02204_e	r2264	-a>
+HC02200_c	r2264	-a>
+HC02200_e	r2264	-a>
+hco3_c	r2265	-a>
+HC02204_c	r2265	-a>
+hco3_e	r2265	-a>
+HC02204_e	r2265	-a>
+HC02201_e	r2265	-a>
+HC02201_c	r2265	-a>
+hco3_c	r2266	-a>
+HC02199_e	r2266	-a>
+hco3_e	r2266	-a>
+HC02205_c	r2266	-a>
+HC02199_c	r2266	-a>
+HC02205_e	r2266	-a>
+hco3_c	r2267	-a>
+HC02200_e	r2267	-a>
+hco3_e	r2267	-a>
+HC02200_c	r2267	-a>
+HC02205_c	r2267	-a>
+HC02205_e	r2267	-a>
+hco3_c	r2268	-a>
+hco3_e	r2268	-a>
+HC02205_c	r2268	-a>
+HC02201_e	r2268	-a>
+HC02205_e	r2268	-a>
+HC02201_c	r2268	-a>
+hco3_c	r2269	-a>
+HC02199_e	r2269	-a>
+HC02206_e	r2269	-a>
+hco3_e	r2269	-a>
+HC02206_c	r2269	-a>
+HC02199_c	r2269	-a>
+hco3_c	r2270	-a>
+HC02206_e	r2270	-a>
+hco3_e	r2270	-a>
+HC02200_c	r2270	-a>
+HC02200_e	r2270	-a>
+HC02206_c	r2270	-a>
+hco3_c	r2271	-a>
+HC02201_e	r2271	-a>
+hco3_e	r2271	-a>
+HC02201_c	r2271	-a>
+HC02206_c	r2271	-a>
+HC02206_e	r2271	-a>
+hco3_c	r2272	-a>
+HC02199_e	r2272	-a>
+hco3_e	r2272	-a>
+HC02207_c	r2272	-a>
+HC02207_e	r2272	-a>
+HC02199_c	r2272	-a>
+hco3_c	r2273	-a>
+hco3_e	r2273	-a>
+HC02200_c	r2273	-a>
+HC02207_c	r2273	-a>
+HC02200_e	r2273	-a>
+HC02207_e	r2273	-a>
+hco3_c	r2274	-a>
+hco3_e	r2274	-a>
+HC02207_c	r2274	-a>
+HC02207_e	r2274	-a>
+HC02201_e	r2274	-a>
+HC02201_c	r2274	-a>
+HC02208_c	r2275	-a>
+hco3_c	r2275	-a>
+HC02208_e	r2275	-a>
+HC02199_e	r2275	-a>
+hco3_e	r2275	-a>
+HC02199_c	r2275	-a>
+HC02208_c	r2276	-a>
+hco3_c	r2276	-a>
+HC02208_e	r2276	-a>
+hco3_e	r2276	-a>
+HC02200_c	r2276	-a>
+HC02200_e	r2276	-a>
+HC02208_c	r2277	-a>
+hco3_c	r2277	-a>
+HC02208_e	r2277	-a>
+hco3_e	r2277	-a>
+HC02201_e	r2277	-a>
+HC02201_c	r2277	-a>
+hco3_c	r2278	-a>
+HC02199_e	r2278	-a>
+prostgd2_e	r2278	-a>
+hco3_e	r2278	-a>
+prostgd2_c	r2278	-a>
+HC02199_c	r2278	-a>
+prostgd2_c	r2279	-a>
+prostgd2_e	r2279	-a>
+hco3_e	r2279	-a>
+HC02200_c	r2279	-a>
+HC02200_e	r2279	-a>
+hco3_c	r2279	-a>
+hco3_c	r2280	-a>
+prostgd2_e	r2280	-a>
+hco3_e	r2280	-a>
+prostgd2_c	r2280	-a>
+HC02201_e	r2280	-a>
+HC02201_c	r2280	-a>
+hco3_c	r2281	-a>
+HC02199_e	r2281	-a>
+hco3_e	r2281	-a>
+HC02210_c	r2281	-a>
+HC02210_e	r2281	-a>
+HC02199_c	r2281	-a>
+hco3_c	r2282	-a>
+hco3_e	r2282	-a>
+HC02210_c	r2282	-a>
+HC02200_c	r2282	-a>
+HC02210_e	r2282	-a>
+HC02200_e	r2282	-a>
+hco3_c	r2283	-a>
+hco3_e	r2283	-a>
+HC02210_c	r2283	-a>
+HC02210_e	r2283	-a>
+HC02201_e	r2283	-a>
+HC02201_c	r2283	-a>
+prostge1_e	r2284	-a>
+hco3_c	r2284	-a>
+HC02199_e	r2284	-a>
+hco3_e	r2284	-a>
+prostge1_c	r2284	-a>
+HC02199_c	r2284	-a>
+prostge1_e	r2285	-a>
+hco3_c	r2285	-a>
+hco3_e	r2285	-a>
+HC02200_c	r2285	-a>
+HC02200_e	r2285	-a>
+prostge1_c	r2285	-a>
+prostge1_e	r2286	-a>
+hco3_c	r2286	-a>
+hco3_e	r2286	-a>
+prostge1_c	r2286	-a>
+HC02201_e	r2286	-a>
+HC02201_c	r2286	-a>
+HC02213_e	r2287	-a>
+hco3_c	r2287	-a>
+HC02199_e	r2287	-a>
+hco3_e	r2287	-a>
+HC02199_c	r2287	-a>
+HC02213_c	r2287	-a>
+HC02213_e	r2288	-a>
+hco3_c	r2288	-a>
+hco3_e	r2288	-a>
+HC02200_c	r2288	-a>
+HC02200_e	r2288	-a>
+HC02213_c	r2288	-a>
+HC02213_e	r2289	-a>
+hco3_c	r2289	-a>
+hco3_e	r2289	-a>
+HC02201_e	r2289	-a>
+HC02213_c	r2289	-a>
+HC02201_c	r2289	-a>
+hco3_c	r2290	-a>
+HC02199_e	r2290	-a>
+HC02214_c	r2290	-a>
+hco3_e	r2290	-a>
+HC02214_e	r2290	-a>
+HC02199_c	r2290	-a>
+HC02214_e	r2291	-a>
+hco3_c	r2291	-a>
+HC02214_c	r2291	-a>
+hco3_e	r2291	-a>
+HC02200_c	r2291	-a>
+HC02200_e	r2291	-a>
+hco3_c	r2292	-a>
+HC02214_c	r2292	-a>
+hco3_e	r2292	-a>
+HC02214_e	r2292	-a>
+HC02201_e	r2292	-a>
+HC02201_c	r2292	-a>
+hco3_c	r2293	-a>
+HC02199_e	r2293	-a>
+prostgf2_c	r2293	-a>
+hco3_e	r2293	-a>
+prostgf2_e	r2293	-a>
+HC02199_c	r2293	-a>
+prostgf2_e	r2294	-a>
+hco3_c	r2294	-a>
+prostgf2_c	r2294	-a>
+hco3_e	r2294	-a>
+HC02200_c	r2294	-a>
+HC02200_e	r2294	-a>
+hco3_c	r2295	-a>
+prostgf2_c	r2295	-a>
+hco3_e	r2295	-a>
+prostgf2_e	r2295	-a>
+HC02201_e	r2295	-a>
+HC02201_c	r2295	-a>
+hco3_c	r2296	-a>
+HC02199_e	r2296	-a>
+hco3_e	r2296	-a>
+HC02216_c	r2296	-a>
+HC02199_c	r2296	-a>
+HC02216_e	r2296	-a>
+hco3_c	r2297	-a>
+hco3_e	r2297	-a>
+HC02200_c	r2297	-a>
+HC02200_e	r2297	-a>
+HC02216_c	r2297	-a>
+HC02216_e	r2297	-a>
+hco3_c	r2298	-a>
+hco3_e	r2298	-a>
+HC02216_e	r2298	-a>
+HC02216_c	r2298	-a>
+HC02201_e	r2298	-a>
+HC02201_c	r2298	-a>
+hco3_c	r2299	-a>
+HC02217_c	r2299	-a>
+HC02199_e	r2299	-a>
+hco3_e	r2299	-a>
+HC02217_e	r2299	-a>
+HC02199_c	r2299	-a>
+hco3_c	r2300	-a>
+HC02217_c	r2300	-a>
+hco3_e	r2300	-a>
+HC02217_e	r2300	-a>
+HC02200_c	r2300	-a>
+HC02200_e	r2300	-a>
+hco3_c	r2301	-a>
+HC02217_c	r2301	-a>
+hco3_e	r2301	-a>
+HC02217_e	r2301	-a>
+HC02201_e	r2301	-a>
+HC02201_c	r2301	-a>
+hco3_c	r2302	-a>
+HC02199_e	r2302	-a>
+hco3_e	r2302	-a>
+prostgh2_c	r2302	-a>
+HC02199_c	r2302	-a>
+prostgh2_e	r2302	-a>
+hco3_c	r2303	-a>
+hco3_e	r2303	-a>
+HC02200_c	r2303	-a>
+HC02200_e	r2303	-a>
+prostgh2_c	r2303	-a>
+prostgh2_e	r2303	-a>
+hco3_c	r2304	-a>
+hco3_e	r2304	-a>
+HC02201_c	r2304	-a>
+prostgh2_c	r2304	-a>
+HC02201_e	r2304	-a>
+prostgh2_e	r2304	-a>
+hco3_c	r2305	-a>
+HC02199_e	r2305	-a>
+hco3_e	r2305	-a>
+prostgi2_c	r2305	-a>
+prostgi2_e	r2305	-a>
+HC02199_c	r2305	-a>
+hco3_c	r2306	-a>
+hco3_e	r2306	-a>
+prostgi2_c	r2306	-a>
+HC02200_c	r2306	-a>
+prostgi2_e	r2306	-a>
+HC02200_e	r2306	-a>
+hco3_c	r2307	-a>
+hco3_e	r2307	-a>
+prostgi2_c	r2307	-a>
+prostgi2_e	r2307	-a>
+HC02201_e	r2307	-a>
+HC02201_c	r2307	-a>
+gthrd_c	r2308	-a>
+hco3_c	r2308	-a>
+gthrd_e	r2308	-a>
+hco3_e	r2308	-a>
+hista_c	r2308	-a>
+hista_e	r2308	-a>
+gthrd_c	r2309	-a>
+nrpphr_e	r2309	-a>
+hco3_c	r2309	-a>
+gthrd_e	r2309	-a>
+hco3_e	r2309	-a>
+nrpphr_c	r2309	-a>
+gthrd_c	r2310	-a>
+srtn_e	r2310	-a>
+hco3_c	r2310	-a>
+gthrd_e	r2310	-a>
+hco3_e	r2310	-a>
+srtn_c	r2310	-a>
+gthrd_c	r2311	-a>
+hco3_c	r2311	-a>
+gthrd_e	r2311	-a>
+ach_c	r2311	-a>
+hco3_e	r2311	-a>
+ach_e	r2311	-a>
+gthrd_c	r2312	-a>
+hco3_c	r2312	-a>
+gthrd_e	r2312	-a>
+dopa_c	r2312	-a>
+hco3_e	r2312	-a>
+dopa_e	r2312	-a>
+gthrd_c	r2313	-a>
+hco3_c	r2313	-a>
+gthrd_e	r2313	-a>
+hco3_e	r2313	-a>
+arachd_c	r2313	-a>
+arachd_e	r2313	-a>
+gthrd_c	r2314	-a>
+hco3_c	r2314	-a>
+gthrd_e	r2314	-a>
+leuktrD4_c	r2314	-a>
+hco3_e	r2314	-a>
+leuktrD4_e	r2314	-a>
+wharachd_c	r2315	-a>
+gthrd_c	r2315	-a>
+hco3_c	r2315	-a>
+gthrd_e	r2315	-a>
+wharachd_e	r2315	-a>
+hco3_e	r2315	-a>
+gthrd_c	r2316	-a>
+hco3_c	r2316	-a>
+gthrd_e	r2316	-a>
+leuktrA4_e	r2316	-a>
+hco3_e	r2316	-a>
+leuktrA4_c	r2316	-a>
+leuktrB4_c	r2317	-a>
+gthrd_c	r2317	-a>
+hco3_c	r2317	-a>
+gthrd_e	r2317	-a>
+hco3_e	r2317	-a>
+leuktrB4_e	r2317	-a>
+gthrd_c	r2318	-a>
+leuktrF4_e	r2318	-a>
+gthrd_e	r2318	-a>
+hco3_e	r2318	-a>
+hco3_c	r2318	-a>
+leuktrF4_c	r2318	-a>
+gthrd_c	r2319	-a>
+hco3_c	r2319	-a>
+gthrd_e	r2319	-a>
+HC02202_c	r2319	-a>
+hco3_e	r2319	-a>
+HC02202_e	r2319	-a>
+HC02203_e	r2320	-a>
+gthrd_c	r2320	-a>
+hco3_c	r2320	-a>
+gthrd_e	r2320	-a>
+hco3_e	r2320	-a>
+HC02203_c	r2320	-a>
+gthrd_c	r2321	-a>
+hco3_c	r2321	-a>
+gthrd_e	r2321	-a>
+HC02204_c	r2321	-a>
+hco3_e	r2321	-a>
+HC02204_e	r2321	-a>
+gthrd_c	r2322	-a>
+hco3_c	r2322	-a>
+gthrd_e	r2322	-a>
+hco3_e	r2322	-a>
+HC02205_c	r2322	-a>
+HC02205_e	r2322	-a>
+gthrd_c	r2323	-a>
+hco3_c	r2323	-a>
+gthrd_e	r2323	-a>
+HC02206_e	r2323	-a>
+hco3_e	r2323	-a>
+HC02206_c	r2323	-a>
+gthrd_c	r2324	-a>
+hco3_c	r2324	-a>
+gthrd_e	r2324	-a>
+hco3_e	r2324	-a>
+HC02207_c	r2324	-a>
+HC02207_e	r2324	-a>
+HC02208_c	r2325	-a>
+gthrd_c	r2325	-a>
+hco3_c	r2325	-a>
+gthrd_e	r2325	-a>
+HC02208_e	r2325	-a>
+hco3_e	r2325	-a>
+gthrd_c	r2326	-a>
+hco3_c	r2326	-a>
+gthrd_e	r2326	-a>
+prostgd2_e	r2326	-a>
+hco3_e	r2326	-a>
+prostgd2_c	r2326	-a>
+gthrd_c	r2327	-a>
+hco3_c	r2327	-a>
+gthrd_e	r2327	-a>
+hco3_e	r2327	-a>
+HC02210_c	r2327	-a>
+HC02210_e	r2327	-a>
+prostge1_e	r2328	-a>
+gthrd_c	r2328	-a>
+hco3_c	r2328	-a>
+gthrd_e	r2328	-a>
+hco3_e	r2328	-a>
+prostge1_c	r2328	-a>
+gthrd_c	r2329	-a>
+HC02213_e	r2329	-a>
+hco3_c	r2329	-a>
+gthrd_e	r2329	-a>
+hco3_e	r2329	-a>
+HC02213_c	r2329	-a>
+gthrd_c	r2330	-a>
+hco3_c	r2330	-a>
+gthrd_e	r2330	-a>
+HC02214_c	r2330	-a>
+hco3_e	r2330	-a>
+HC02214_e	r2330	-a>
+gthrd_c	r2331	-a>
+hco3_c	r2331	-a>
+gthrd_e	r2331	-a>
+prostgf2_c	r2331	-a>
+hco3_e	r2331	-a>
+prostgf2_e	r2331	-a>
+gthrd_c	r2332	-a>
+hco3_c	r2332	-a>
+gthrd_e	r2332	-a>
+hco3_e	r2332	-a>
+HC02216_c	r2332	-a>
+HC02216_e	r2332	-a>
+gthrd_c	r2333	-a>
+hco3_c	r2333	-a>
+HC02217_c	r2333	-a>
+HC02217_e	r2333	-a>
+hco3_e	r2333	-a>
+gthrd_e	r2333	-a>
+gthrd_c	r2334	-a>
+hco3_c	r2334	-a>
+gthrd_e	r2334	-a>
+hco3_e	r2334	-a>
+prostgh2_c	r2334	-a>
+prostgh2_e	r2334	-a>
+gthrd_c	r2335	-a>
+hco3_c	r2335	-a>
+gthrd_e	r2335	-a>
+prostgi2_c	r2335	-a>
+hco3_e	r2335	-a>
+prostgi2_e	r2335	-a>
+ach_e	r2338	-a>
+ach_c	r2338	-a>
+leuktrC4_c	r2341	-a>
+leuktrC4_e	r2341	-a>
+estrones_c	r2342	-a>
+estrones_e	r2342	-a>
+dheas_e	r2343	-a>
+dheas_c	r2343	-a>
+bildglcur_c	r2344	-a>
+bildglcur_e	r2344	-a>
+wharachd_c	r2346	-a>
+wharachd_e	r2346	-a>
+HC02180_e	r2347	-a>
+HC02180_c	r2347	-a>
+HC02187_e	r2352	-a>
+HC02187_c	r2352	-a>
+bilglcur_c	r2353	-a>
+bilglcur_e	r2353	-a>
+HC02202_e	r2354	-a>
+HC02202_c	r2354	-a>
+HC02203_e	r2355	-a>
+HC02203_c	r2355	-a>
+HC02204_c	r2356	-a>
+HC02204_e	r2356	-a>
+HC02205_c	r2357	-a>
+HC02205_e	r2357	-a>
+HC02206_c	r2358	-a>
+HC02206_e	r2358	-a>
+HC02207_c	r2359	-a>
+HC02207_e	r2359	-a>
+HC02208_c	r2360	-a>
+HC02208_e	r2360	-a>
+prostgd2_c	r2361	-a>
+prostgd2_e	r2361	-a>
+HC02210_e	r2362	-a>
+HC02210_c	r2362	-a>
+prostge1_e	r2363	-a>
+prostge1_c	r2363	-a>
+HC02213_e	r2364	-a>
+HC02213_c	r2364	-a>
+HC02214_e	r2365	-a>
+HC02214_c	r2365	-a>
+HC02216_c	r2366	-a>
+HC02216_e	r2366	-a>
+HC02217_c	r2367	-a>
+HC02217_e	r2367	-a>
+prostgh2_c	r2368	-a>
+prostgh2_e	r2368	-a>
+prostgi2_e	r2369	-a>
+prostgi2_c	r2369	-a>
+ascb_L_e	r2370	-a>
+na1_c	r2370	-a>
+na1_e	r2370	-a>
+ascb_L_c	r2370	-a>
+ddca_e	r2444	-a>
+ddca_c	r2444	-a>
+na1_c	r2447	-a>
+duri_e	r2447	-a>
+na1_e	r2447	-a>
+duri_c	r2447	-a>
+na1_c	r2449	-a>
+din_e	r2449	-a>
+na1_e	r2449	-a>
+din_c	r2449	-a>
+HC02172_e	r2465	-a>
+HC02172_c	r2465	-a>
+h_e	r2471	-a>
+ser_L_c	r2471	-a>
+h_c	r2471	-a>
+ser_L_e	r2471	-a>
+hco3_c	r2482	-a>
+HC02199_e	r2482	-a>
+hco3_e	r2482	-a>
+hista_c	r2482	-a>
+hista_e	r2482	-a>
+HC02199_c	r2482	-a>
+hco3_c	r2483	-a>
+hco3_e	r2483	-a>
+HC02200_c	r2483	-a>
+hista_c	r2483	-a>
+HC02200_e	r2483	-a>
+hista_e	r2483	-a>
+hco3_c	r2484	-a>
+hco3_e	r2484	-a>
+hista_c	r2484	-a>
+hista_e	r2484	-a>
+HC02201_e	r2484	-a>
+HC02201_c	r2484	-a>
+nrpphr_e	r2485	-a>
+hco3_c	r2485	-a>
+HC02199_e	r2485	-a>
+hco3_e	r2485	-a>
+HC02199_c	r2485	-a>
+nrpphr_c	r2485	-a>
+nrpphr_e	r2486	-a>
+hco3_c	r2486	-a>
+hco3_e	r2486	-a>
+HC02200_c	r2486	-a>
+HC02200_e	r2486	-a>
+nrpphr_c	r2486	-a>
+nrpphr_e	r2487	-a>
+hco3_c	r2487	-a>
+hco3_e	r2487	-a>
+HC02201_c	r2487	-a>
+HC02201_e	r2487	-a>
+nrpphr_c	r2487	-a>
+srtn_e	r2488	-a>
+hco3_c	r2488	-a>
+HC02199_e	r2488	-a>
+hco3_e	r2488	-a>
+srtn_c	r2488	-a>
+HC02199_c	r2488	-a>
+srtn_e	r2489	-a>
+hco3_c	r2489	-a>
+hco3_e	r2489	-a>
+HC02200_c	r2489	-a>
+HC02200_e	r2489	-a>
+srtn_c	r2489	-a>
+srtn_e	r2490	-a>
+hco3_c	r2490	-a>
+hco3_e	r2490	-a>
+HC02201_c	r2490	-a>
+HC02201_e	r2490	-a>
+srtn_c	r2490	-a>
+hco3_c	r2491	-a>
+HC02199_e	r2491	-a>
+ach_c	r2491	-a>
+hco3_e	r2491	-a>
+ach_e	r2491	-a>
+HC02199_c	r2491	-a>
+ach_e	r2492	-a>
+hco3_c	r2492	-a>
+ach_c	r2492	-a>
+hco3_e	r2492	-a>
+HC02200_c	r2492	-a>
+HC02200_e	r2492	-a>
+hco3_c	r2493	-a>
+ach_c	r2493	-a>
+hco3_e	r2493	-a>
+ach_e	r2493	-a>
+HC02201_e	r2493	-a>
+HC02201_c	r2493	-a>
+hco3_c	r2494	-a>
+dopa_c	r2494	-a>
+hco3_e	r2494	-a>
+dopa_e	r2494	-a>
+HC02199_e	r2494	-a>
+HC02199_c	r2494	-a>
+dopa_e	r2495	-a>
+hco3_c	r2495	-a>
+dopa_c	r2495	-a>
+hco3_e	r2495	-a>
+HC02200_c	r2495	-a>
+HC02200_e	r2495	-a>
+hco3_c	r2496	-a>
+dopa_c	r2496	-a>
+hco3_e	r2496	-a>
+dopa_e	r2496	-a>
+HC02201_e	r2496	-a>
+HC02201_c	r2496	-a>
+gln_L_e	r2525	-a>
+gln_L_c	r2525	-a>
+ser_L_c	r2526	-a>
+ser_L_e	r2526	-a>
+asn_L_c	r2532	-a>
+asn_L_e	r2532	-a>
+thr_L_e	r2534	-a>
+thr_L_c	r2534	-a>
+hom_L_c	r2535	-a>
+hom_L_e	r2535	-a>
+na1_c	CITt4_4	-a>
+na1_e	CITt4_4	-a>
+cit_e	CITt4_4	-a>
+cit_c	CITt4_4	-a>
+gly_e	GLYt7_311_r	-a>
+na1_e	GLYt7_311_r	-a>
+gly_c	GLYt7_311_r	-a>
+na1_c	GLYt7_311_r	-a>
+cl_c	GLYt7_311_r	-a>
+cl_e	GLYt7_311_r	-a>
+na1_c	HCO3_NAt	-a>
+hco3_c	HCO3_NAt	-a>
+na1_e	HCO3_NAt	-a>
+hco3_e	HCO3_NAt	-a>
+na1_c	INSTt4_2	-a>
+inost_e	INSTt4_2	-a>
+na1_e	INSTt4_2	-a>
+inost_c	INSTt4_2	-a>
+na1_c	PIt8	-a>
+pi_c	PIt8	-a>
+na1_e	PIt8	-a>
+pi_e	PIt8	-a>
+na1_c	PIt9	-a>
+pi_c	PIt9	-a>
+na1_e	PIt9	-a>
+pi_e	PIt9	-a>
+na1_c	PROt4_2_r	-a>
+pro_L_e	PROt4_2_r	-a>
+na1_e	PROt4_2_r	-a>
+pro_L_c	PROt4_2_r	-a>
+leu_L_e	34DHPHELAT1tc	-a>
+34dhphe_c	34DHPHELAT1tc	-a>
+leu_L_c	34DHPHELAT1tc	-a>
+34dhphe_e	34DHPHELAT1tc	-a>
+na1_e	4OHPROIMINOtc	-a>
+cl_c	4OHPROIMINOtc	-a>
+4hpro_LT_c	4OHPROIMINOtc	-a>
+4hpro_LT_e	4OHPROIMINOtc	-a>
+na1_c	4OHPROIMINOtc	-a>
+cl_e	4OHPROIMINOtc	-a>
+h_e	ALAALAPEPT1tc	-a>
+alaala_e	ALAALAPEPT1tc	-a>
+alaala_c	ALAALAPEPT1tc	-a>
+h_c	ALAALAPEPT1tc	-a>
+na1_e	ALAATB0tc	-a>
+cl_c	ALAATB0tc	-a>
+ala_L_c	ALAATB0tc	-a>
+ala_L_e	ALAATB0tc	-a>
+na1_c	ALAATB0tc	-a>
+cl_e	ALAATB0tc	-a>
+ala_L_c	ALAyLATthc	-a>
+h_c	ALAyLATthc	-a>
+ala_L_e	ALAyLATthc	-a>
+h_e	ALAyLATthc	-a>
+arg_L_c	ALAyLATthc	-a>
+arg_L_e	ALAyLATthc	-a>
+cl_c	ARGATB0tc	-a>
+na1_e	ARGATB0tc	-a>
+na1_c	ARGATB0tc	-a>
+cl_e	ARGATB0tc	-a>
+arg_L_c	ARGATB0tc	-a>
+arg_L_e	ARGATB0tc	-a>
+h2o_c	ASCBSVCTtc	-a>
+h_c	ASCBSVCTtc	-a>
+na1_c	ASCBSVCTtc	-a>
+pi_c	ASCBSVCTtc	-a>
+na1_e	ASCBSVCTtc	-a>
+ascb_L_c	ASCBSVCTtc	-a>
+adp_c	ASCBSVCTtc	-a>
+ascb_L_e	ASCBSVCTtc	-a>
+atp_c	ASCBSVCTtc	-a>
+na1_e	ASNATB0tc	-a>
+cl_c	ASNATB0tc	-a>
+asn_L_c	ASNATB0tc	-a>
+asn_L_e	ASNATB0tc	-a>
+na1_c	ASNATB0tc	-a>
+cl_e	ASNATB0tc	-a>
+phe_L_c	ASNPHELAT2tc	-a>
+asn_L_e	ASNPHELAT2tc	-a>
+asn_L_c	ASNPHELAT2tc	-a>
+phe_L_e	ASNPHELAT2tc	-a>
+cl_c	BALABETAtc	-a>
+na1_e	BALABETAtc	-a>
+na1_c	BALABETAtc	-a>
+ala_B_c	BALABETAtc	-a>
+cl_e	BALABETAtc	-a>
+ala_B_e	BALABETAtc	-a>
+h_e	BALAPAT1tc	-a>
+ala_B_c	BALAPAT1tc	-a>
+h_c	BALAPAT1tc	-a>
+ala_B_e	BALAPAT1tc	-a>
+btn_c	BTNTe	-a>
+btn_e	BTNTe	-a>
+h_e	CARPEPT1tc	-a>
+carn_e	CARPEPT1tc	-a>
+carn_c	CARPEPT1tc	-a>
+h_c	CARPEPT1tc	-a>
+adocbl_c	CBLtle	-a>
+adocbl_e	CBLtle	-a>
+chsterol_c	CHOLESTTDe	-a>
+chsterol_e	CHOLESTTDe	-a>
+cl_c	CYSATB0tc	-a>
+na1_e	CYSATB0tc	-a>
+na1_c	CYSATB0tc	-a>
+cys_L_c	CYSATB0tc	-a>
+cl_e	CYSATB0tc	-a>
+cys_L_e	CYSATB0tc	-a>
+cys_L_c	CYSPHELAT2tc	-a>
+phe_L_c	CYSPHELAT2tc	-a>
+cys_L_e	CYSPHELAT2tc	-a>
+phe_L_e	CYSPHELAT2tc	-a>
+h_e	CYSSNAT5tc	-a>
+h_c	CYSSNAT5tc	-a>
+na1_c	CYSSNAT5tc	-a>
+cys_L_c	CYSSNAT5tc	-a>
+na1_e	CYSSNAT5tc	-a>
+cys_L_e	CYSSNAT5tc	-a>
+Lcystin_e	CYSTALArBATtc	-a>
+ala_L_c	CYSTALArBATtc	-a>
+Lcystin_c	CYSTALArBATtc	-a>
+ala_L_e	CYSTALArBATtc	-a>
+leu_L_e	CYSTLEUrBATtc	-a>
+Lcystin_e	CYSTLEUrBATtc	-a>
+leu_L_c	CYSTLEUrBATtc	-a>
+Lcystin_c	CYSTLEUrBATtc	-a>
+h_e	FOLTle	-a>
+fol_e	FOLTle	-a>
+h_c	FOLTle	-a>
+fol_c	FOLTle	-a>
+h2o_c	GALSGLT1le	-a>
+gal_c	GALSGLT1le	-a>
+h_c	GALSGLT1le	-a>
+gal_e	GALSGLT1le	-a>
+na1_c	GALSGLT1le	-a>
+pi_c	GALSGLT1le	-a>
+na1_e	GALSGLT1le	-a>
+adp_c	GALSGLT1le	-a>
+atp_c	GALSGLT1le	-a>
+h2o_c	GLCSGLT1le	-a>
+h_c	GLCSGLT1le	-a>
+na1_c	GLCSGLT1le	-a>
+pi_c	GLCSGLT1le	-a>
+na1_e	GLCSGLT1le	-a>
+adp_c	GLCSGLT1le	-a>
+atp_c	GLCSGLT1le	-a>
+glc_D_c	GLCSGLT1le	-a>
+glc_D_e	GLCSGLT1le	-a>
+gln_L_e	GLNATB0tc	-a>
+cl_c	GLNATB0tc	-a>
+na1_e	GLNATB0tc	-a>
+na1_c	GLNATB0tc	-a>
+cl_e	GLNATB0tc	-a>
+gln_L_c	GLNATB0tc	-a>
+gln_L_e	GLNyLATthc	-a>
+h_c	GLNyLATthc	-a>
+h_e	GLNyLATthc	-a>
+arg_L_c	GLNyLATthc	-a>
+gln_L_c	GLNyLATthc	-a>
+arg_L_e	GLNyLATthc	-a>
+glygly_c	GLYGLYPEPT1tc	-a>
+glygly_e	GLYGLYPEPT1tc	-a>
+glyleu_e	GLYLEUPEPT1tc	-a>
+h_e	GLYLEUPEPT1tc	-a>
+glyleu_c	GLYLEUPEPT1tc	-a>
+h_c	GLYLEUPEPT1tc	-a>
+h_e	GLYPHEPEPT1tc	-a>
+glyphe_c	GLYPHEPEPT1tc	-a>
+h_c	GLYPHEPEPT1tc	-a>
+glyphe_e	GLYPHEPEPT1tc	-a>
+h_e	GLYPROPEPT1tc	-a>
+glypro_c	GLYPROPEPT1tc	-a>
+h_c	GLYPROPEPT1tc	-a>
+glypro_e	GLYPROPEPT1tc	-a>
+h_e	GLYSARPEPT1tc	-a>
+glysar_c	GLYSARPEPT1tc	-a>
+h_c	GLYSARPEPT1tc	-a>
+glysar_e	GLYSARPEPT1tc	-a>
+gly_e	GLYSNAT5tc	-a>
+gly_c	GLYSNAT5tc	-a>
+h_c	GLYSNAT5tc	-a>
+na1_c	GLYSNAT5tc	-a>
+na1_e	GLYSNAT5tc	-a>
+h_e	GLYSNAT5tc	-a>
+arg_L_c	HISyLATtc	-a>
+his_L_c	HISyLATtc	-a>
+arg_L_e	HISyLATtc	-a>
+na1_c	HISyLATtc	-a>
+na1_e	HISyLATtc	-a>
+his_L_e	HISyLATtc	-a>
+arg_L_c	HISyLATthc	-a>
+arg_L_e	HISyLATthc	-a>
+h_e	HISyLATthc	-a>
+his_L_c	HISyLATthc	-a>
+his_L_e	HISyLATthc	-a>
+h_c	HISyLATthc	-a>
+cl_c	ILEATB0tc	-a>
+na1_e	ILEATB0tc	-a>
+ile_L_e	ILEATB0tc	-a>
+na1_c	ILEATB0tc	-a>
+cl_e	ILEATB0tc	-a>
+ile_L_c	ILEATB0tc	-a>
+leu_L_e	ILELAT1tc	-a>
+ile_L_e	ILELAT1tc	-a>
+ile_L_c	ILELAT1tc	-a>
+leu_L_c	ILELAT1tc	-a>
+phe_L_c	ILEPHELAT2tc	-a>
+ile_L_e	ILEPHELAT2tc	-a>
+ile_L_c	ILEPHELAT2tc	-a>
+phe_L_e	ILEPHELAT2tc	-a>
+leu_L_e	LEUATB0tc	-a>
+cl_c	LEUATB0tc	-a>
+na1_e	LEUATB0tc	-a>
+na1_c	LEUATB0tc	-a>
+cl_e	LEUATB0tc	-a>
+leu_L_c	LEUATB0tc	-a>
+h_e	LEUGLYPEPT1tc	-a>
+leugly_c	LEUGLYPEPT1tc	-a>
+h_c	LEUGLYPEPT1tc	-a>
+leugly_e	LEUGLYPEPT1tc	-a>
+h_e	LEULEUPEPT1tc	-a>
+leuleu_e	LEULEUPEPT1tc	-a>
+h_c	LEULEUPEPT1tc	-a>
+leuleu_c	LEULEUPEPT1tc	-a>
+leu_L_e	LEUPHELAT2tc	-a>
+phe_L_c	LEUPHELAT2tc	-a>
+leu_L_c	LEUPHELAT2tc	-a>
+phe_L_e	LEUPHELAT2tc	-a>
+leu_L_e	LEUyLAThtc	-a>
+h_c	LEUyLAThtc	-a>
+h_e	LEUyLAThtc	-a>
+arg_L_c	LEUyLAThtc	-a>
+leu_L_c	LEUyLAThtc	-a>
+arg_L_e	LEUyLAThtc	-a>
+amp_c	LINOFATPtc	-a>
+coa_c	LINOFATPtc	-a>
+lnlc_e	LINOFATPtc	-a>
+lnlccoa_c	LINOFATPtc	-a>
+atp_c	LINOFATPtc	-a>
+ppi_c	LINOFATPtc	-a>
+cl_c	LYSATB0tc	-a>
+na1_e	LYSATB0tc	-a>
+na1_c	LYSATB0tc	-a>
+lys_L_c	LYSATB0tc	-a>
+cl_e	LYSATB0tc	-a>
+lys_L_e	LYSATB0tc	-a>
+cl_c	METATB0tc	-a>
+cl_e	METATB0tc	-a>
+met_L_e	METATB0tc	-a>
+met_L_c	METATB0tc	-a>
+na1_c	METATB0tc	-a>
+na1_e	METATB0tc	-a>
+arg_L_c	METyLATthc	-a>
+h_c	METyLATthc	-a>
+met_L_c	METyLATthc	-a>
+h_e	METyLATthc	-a>
+met_L_e	METyLATthc	-a>
+arg_L_e	METyLATthc	-a>
+5mthf_c	MTHFTe	-a>
+5mthf_e	MTHFTe	-a>
+nac_c	NACDe	-a>
+nac_e	NACDe	-a>
+h_e	NACHORCTL3le	-a>
+nac_c	NACHORCTL3le	-a>
+h_c	NACHORCTL3le	-a>
+nac_e	NACHORCTL3le	-a>
+ncam_e	NCAMDe	-a>
+ncam_c	NCAMDe	-a>
+orn_c	ORNALArBATtc	-a>
+orn_e	ORNALArBATtc	-a>
+ala_L_c	ORNALArBATtc	-a>
+ala_L_e	ORNALArBATtc	-a>
+leu_L_e	ORNLEUrBATtc	-a>
+orn_c	ORNLEUrBATtc	-a>
+orn_e	ORNLEUrBATtc	-a>
+leu_L_c	ORNLEUrBATtc	-a>
+pchol_hs_e	PCHOLHSTDe	-a>
+pchol_hs_c	PCHOLHSTDe	-a>
+na1_e	PHEATB0tc	-a>
+cl_c	PHEATB0tc	-a>
+phe_L_c	PHEATB0tc	-a>
+phe_L_e	PHEATB0tc	-a>
+na1_c	PHEATB0tc	-a>
+cl_e	PHEATB0tc	-a>
+phe_L_c	PHEyLATthc	-a>
+h_c	PHEyLATthc	-a>
+phe_L_e	PHEyLATthc	-a>
+h_e	PHEyLATthc	-a>
+arg_L_c	PHEyLATthc	-a>
+arg_L_e	PHEyLATthc	-a>
+pnto_R_e	PNTORDe	-a>
+pnto_R_c	PNTORDe	-a>
+h_e	PROGLYPEPT1tc	-a>
+progly_e	PROGLYPEPT1tc	-a>
+h_c	PROGLYPEPT1tc	-a>
+progly_c	PROGLYPEPT1tc	-a>
+cl_c	PROIMINOtc	-a>
+na1_e	PROIMINOtc	-a>
+pro_L_c	PROIMINOtc	-a>
+na1_c	PROIMINOtc	-a>
+pro_L_e	PROIMINOtc	-a>
+cl_e	PROIMINOtc	-a>
+ribflv_c	RIBFLVte	-a>
+h_c	RIBFLVte	-a>
+ribflv_e	RIBFLVte	-a>
+pi_c	RIBFLVte	-a>
+atp_c	RIBFLVte	-a>
+h2o_c	RIBFLVte	-a>
+adp_c	RIBFLVte	-a>
+sbt_D_e	SBTle	-a>
+sbt_D_c	SBTle	-a>
+cl_c	SERATB0tc	-a>
+na1_e	SERATB0tc	-a>
+na1_c	SERATB0tc	-a>
+ser_L_c	SERATB0tc	-a>
+cl_e	SERATB0tc	-a>
+ser_L_e	SERATB0tc	-a>
+tag_hs_c	TAGHSTDe	-a>
+tag_hs_e	TAGHSTDe	-a>
+taur_e	TAUBETAtc	-a>
+na1_e	TAUBETAtc	-a>
+taur_c	TAUBETAtc	-a>
+na1_c	TAUBETAtc	-a>
+cl_c	TAUBETAtc	-a>
+cl_e	TAUBETAtc	-a>
+h_e	TAUPAT1c	-a>
+taur_e	TAUPAT1c	-a>
+taur_c	TAUPAT1c	-a>
+h_c	TAUPAT1c	-a>
+h2o_c	THMATPe	-a>
+h_c	THMATPe	-a>
+pi_c	THMATPe	-a>
+atp_c	THMATPe	-a>
+thm_c	THMATPe	-a>
+adp_c	THMATPe	-a>
+thm_e	THMATPe	-a>
+thr_L_e	THRATB0tc	-a>
+na1_e	THRATB0tc	-a>
+thr_L_c	THRATB0tc	-a>
+na1_c	THRATB0tc	-a>
+cl_c	THRATB0tc	-a>
+cl_e	THRATB0tc	-a>
+thr_L_e	THRPHELAT2tc	-a>
+phe_L_c	THRPHELAT2tc	-a>
+thr_L_c	THRPHELAT2tc	-a>
+phe_L_e	THRPHELAT2tc	-a>
+na1_e	TRPATB0tc	-a>
+na1_c	TRPATB0tc	-a>
+trp_L_e	TRPATB0tc	-a>
+trp_L_c	TRPATB0tc	-a>
+cl_c	TRPATB0tc	-a>
+cl_e	TRPATB0tc	-a>
+cl_c	TYRATB0tc	-a>
+na1_e	TYRATB0tc	-a>
+tyr_L_c	TYRATB0tc	-a>
+na1_c	TYRATB0tc	-a>
+tyr_L_e	TYRATB0tc	-a>
+cl_e	TYRATB0tc	-a>
+tyr_L_e	TYRPHELAT2tc	-a>
+phe_L_c	TYRPHELAT2tc	-a>
+tyr_L_c	TYRPHELAT2tc	-a>
+phe_L_e	TYRPHELAT2tc	-a>
+cl_c	VALATB0tc	-a>
+na1_e	VALATB0tc	-a>
+na1_c	VALATB0tc	-a>
+val_L_c	VALATB0tc	-a>
+cl_e	VALATB0tc	-a>
+val_L_e	VALATB0tc	-a>
+leu_L_e	VALLAT1tc	-a>
+val_L_c	VALLAT1tc	-a>
+val_L_e	VALLAT1tc	-a>
+leu_L_c	VALLAT1tc	-a>
+val_L_c	VALPHELAT2tc	-a>
+phe_L_c	VALPHELAT2tc	-a>
+val_L_e	VALPHELAT2tc	-a>
+phe_L_e	VALPHELAT2tc	-a>
+h2o_c	VITEtl	-a>
+h_c	VITEtl	-a>
+avite1_c	VITEtl	-a>
+pi_c	VITEtl	-a>
+avite1_e	VITEtl	-a>
+atp_c	VITEtl	-a>
+adp_c	VITEtl	-a>
+phyQ_e	VITKtl	-a>
+phyQ_c	VITKtl	-a>
+xolest2_hs_c	XOLEST2HSTDle	-a>
+xolest2_hs_e	XOLEST2HSTDle	-a>
+na1_c	3HCO3_NAt	-a>
+hco3_c	3HCO3_NAt	-a>
+na1_e	3HCO3_NAt	-a>
+hco3_e	3HCO3_NAt	-a>
+ala_L_c	4HPROLTASCT1	-a>
+ala_L_e	4HPROLTASCT1	-a>
+4hpro_LT_e	4HPROLTASCT1	-a>
+na1_c	4HPROLTASCT1	-a>
+na1_e	4HPROLTASCT1	-a>
+4hpro_LT_c	4HPROLTASCT1	-a>
+5mthf_c	5MTHFt2le	-a>
+oh1_e	5MTHFt2le	-a>
+5mthf_e	5MTHFt2le	-a>
+oh1_c	5MTHFt2le	-a>
+adn_e	ADNt5le	-a>
+na1_c	ADNt5le	-a>
+na1_e	ADNt5le	-a>
+adn_c	ADNt5le	-a>
+ala_D_e	ALA_DASH_DTDe	-a>
+ala_D_c	ALA_DASH_DTDe	-a>
+asp_D_c	ASPDTDe	-a>
+asp_D_e	ASPDTDe	-a>
+pro_L_c	ASPPROASCT1	-a>
+na1_c	ASPPROASCT1	-a>
+pro_L_e	ASPPROASCT1	-a>
+na1_e	ASPPROASCT1	-a>
+asp_L_c	ASPPROASCT1	-a>
+asp_L_e	ASPPROASCT1	-a>
+asp_L_c	ASPte	-a>
+asp_L_e	ASPte	-a>
+na1_c	CYTDt5le	-a>
+cytd_e	CYTDt5le	-a>
+na1_e	CYTDt5le	-a>
+cytd_c	CYTDt5le	-a>
+q10_e	Coqe	-a>
+q10_c	Coqe	-a>
+fe2_e	FE2DMT1	-a>
+h_e	FE2DMT1	-a>
+h_c	FE2DMT1	-a>
+fe2_c	FE2DMT1	-a>
+fe3_e	FE3MTP1	-a>
+fe3_c	FE3MTP1	-a>
+oh1_e	FOLt2le	-a>
+oh1_c	FOLt2le	-a>
+fol_e	FOLt2le	-a>
+fol_c	FOLt2le	-a>
+glc_D_c	GLCGLUT2	-a>
+glc_D_e	GLCGLUT2	-a>
+glu_L_c	GLUPROASCT1	-a>
+pro_L_c	GLUPROASCT1	-a>
+na1_c	GLUPROASCT1	-a>
+pro_L_e	GLUPROASCT1	-a>
+na1_e	GLUPROASCT1	-a>
+glu_L_e	GLUPROASCT1	-a>
+glyc_c	GLYCTDle	-a>
+glyc_e	GLYCTDle	-a>
+gsn_c	GSNt5le	-a>
+na1_c	GSNt5le	-a>
+na1_e	GSNt5le	-a>
+gsn_e	GSNt5le	-a>
+na1_c	INSt5le	-a>
+ins_e	INSt5le	-a>
+na1_e	INSt5le	-a>
+ins_c	INSt5le	-a>
+h_e	KHte	-a>
+k_c	KHte	-a>
+h_c	KHte	-a>
+k_e	KHte	-a>
+no_c	NODe	-a>
+no_e	NODe	-a>
+pheme_c	PHEMEe	-a>
+pheme_e	PHEMEe	-a>
+pro_D_c	PRO_Dtde	-a>
+pro_D_e	PRO_Dtde	-a>
+ptrc_c	PTCRTD	-a>
+ptrc_e	PTCRTD	-a>
+q10h2_c	Q10H2e	-a>
+q10h2_e	Q10H2e	-a>
+amp_c	RTOTALFATPc	-a>
+coa_c	RTOTALFATPc	-a>
+Rtotalcoa_c	RTOTALFATPc	-a>
+h_c	RTOTALFATPc	-a>
+atp_c	RTOTALFATPc	-a>
+ppi_c	RTOTALFATPc	-a>
+Rtotal_e	RTOTALFATPc	-a>
+slfcys_c	SFCYSe	-a>
+slfcys_e	SFCYSe	-a>
+spmd_c	SPMTDe	-a>
+spmd_e	SPMTDe	-a>
+sprm_c	SPRMTDe	-a>
+sprm_e	SPRMTDe	-a>
+taur_e	TAURCHAe	-a>
+taur_c	TAURCHAe	-a>
+na1_c	THMDt5le	-a>
+thymd_c	THMDt5le	-a>
+na1_e	THMDt5le	-a>
+thymd_e	THMDt5le	-a>
+na1_c	URIt5le	-a>
+uri_e	URIt5le	-a>
+na1_e	URIt5le	-a>
+uri_c	URIt5le	-a>
+34hpp_e	34HPPte	-a>
+34hpp_c	34HPPte	-a>
+3mob_e	3MOBte	-a>
+3mob_c	3MOBte	-a>
+3mop_c	3MOPte	-a>
+3mop_e	3MOPte	-a>
+4hpro_LT_m	4HPRO_LTte	-a>
+4hpro_LT_e	4HPRO_LTte	-a>
+4mop_c	4MOPte	-a>
+4mop_e	4MOPte	-a>
+5mta_c	5MTAte	-a>
+5mta_e	5MTAte	-a>
+na1_c	5OXPROt	-a>
+5oxpro_e	5OXPROt	-a>
+na1_e	5OXPROt	-a>
+5oxpro_c	5OXPROt	-a>
+ahcys_e	AHCYSte	-a>
+ahcys_c	AHCYSte	-a>
+aicar_e	AICARte	-a>
+aicar_c	AICARte	-a>
+anth_c	ANTHte	-a>
+anth_e	ANTHte	-a>
+cbasp_e	CBASPte	-a>
+cbasp_c	CBASPte	-a>
+mal_L_e	MAL_Lte	-a>
+mal_L_c	MAL_Lte	-a>
+glu_L_c	OROTGLUt	-a>
+orot_e	OROTGLUt	-a>
+glu_L_e	OROTGLUt	-a>
+orot_c	OROTGLUt	-a>
+idour_e	IDOURte	-a>
+idour_c	IDOURte	-a>
+HC00342_e	HC00342te	-a>
+HC00342_c	HC00342te	-a>
+glyc3p_e	glyc3pte	-a>
+glyc3p_c	glyc3pte	-a>

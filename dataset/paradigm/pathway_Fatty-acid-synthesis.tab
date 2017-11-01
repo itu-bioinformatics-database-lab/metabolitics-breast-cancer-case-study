@@ -1,0 +1,939 @@
+protein	3ohodcoa_c
+protein	3ohodcoa_l
+protein	3ohodcoa_r
+protein	ACP_c
+protein	docosac_m
+protein	docosac_x
+protein	CE2242_c
+protein	CE2242_n
+protein	CE2243_c
+protein	CE2245_c
+protein	CE2246_c
+protein	CE2247_c
+protein	CE2248_c
+protein	CE2248_n
+protein	CE2248_r
+protein	CE2249_c
+protein	CE2250_c
+protein	CE2250_e
+protein	CE2251_c
+protein	CE2253_c
+protein	CE2253_n
+protein	docoscoa_m
+protein	docoscoa_n
+protein	CE2510_c
+protein	doco13ac_c
+protein	CE5144_c
+protein	CE5144_r
+protein	CE5148_c
+protein	CE5148_r
+protein	CE5150_c
+protein	CE5150_r
+protein	CE5151_c
+protein	CE5151_r
+protein	CE5152_c
+protein	CE5152_r
+protein	CE5153_c
+protein	CE5153_r
+protein	CE5154_c
+protein	CE5154_r
+protein	CE5155_c
+protein	CE5155_r
+protein	CE5156_c
+protein	CE5156_r
+protein	CE5157_c
+protein	CE5157_r
+protein	CE5158_c
+protein	CE5158_r
+protein	nrvnccoa_r
+protein	CE5160_c
+protein	CE5160_r
+protein	CE5161_c
+protein	CE5161_r
+protein	CE5162_c
+protein	CE5162_r
+protein	HC01255_c
+protein	HC01321_c
+protein	HC01322_c
+protein	HC01323_c
+protein	HC01326_c
+protein	HC01587_c
+protein	HC01588_c
+protein	HC01589_c
+protein	HC01590_c
+protein	HC01591_c
+protein	HC01592_c
+protein	HC01593_c
+protein	HC01594_c
+protein	HC01595_c
+protein	HC01596_c
+protein	HC01597_c
+protein	HC01598_c
+protein	HC01599_c
+protein	HC01600_c
+protein	HC01601_c
+protein	HC01602_c
+protein	HC01605_c
+protein	HC02097_c
+protein	HC02098_c
+protein	HC02099_c
+protein	CE0852_c
+protein	CE0852_r
+protein	acACP_c
+protein	accoa_c
+protein	adrncoa_c
+protein	adrncoa_x
+protein	arach_m
+protein	arach_x
+protein	arachcoa_c
+protein	arachcoa_e
+protein	arachcoa_m
+protein	arachcoa_x
+protein	arachdcoa_c
+protein	c226coa_x
+protein	clpndcoa_c
+protein	clpndcoa_x
+protein	co2_c
+protein	co2_e
+protein	co2_l
+protein	co2_n
+protein	co2_r
+protein	coa_c
+protein	coa_e
+protein	coa_l
+protein	coa_m
+protein	coa_n
+protein	coa_r
+protein	coa_x
+protein	dcacoa_c
+protein	dcsptn1coa_x
+protein	ddcaACP_c
+protein	ddcacoa_c
+protein	dlnlcgcoa_c
+protein	docosac_c
+protein	docoscoa_c
+protein	docoscoa_x
+protein	eicostetcoa_c
+protein	h2o_c
+protein	h2o_m
+protein	h2o_n
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_e
+protein	h_l
+protein	h_m
+protein	h_n
+protein	h_r
+protein	h_x
+protein	hdcoa_c
+protein	hdeACP_c
+protein	lgnc_c
+protein	lgnc_m
+protein	lgnc_x
+protein	ttccoa_c
+protein	ttccoa_m
+protein	ttccoa_x
+protein	lneldccoa_c
+protein	lnlccoa_c
+protein	lnlncacoa_c
+protein	lnlncgcoa_c
+protein	malACP_c
+protein	malcoa_c
+protein	malcoa_e
+protein	malcoa_l
+protein	malcoa_n
+protein	malcoa_r
+protein	myrsACP_c
+protein	nad_c
+protein	nad_x
+protein	nadh_c
+protein	nadh_x
+protein	nadp_c
+protein	nadp_n
+protein	nadp_r
+protein	nadph_c
+protein	nadph_n
+protein	nadph_r
+protein	nrvnc_c
+protein	nrvnccoa_c
+protein	o2_c
+protein	o2_x
+protein	occoa_c
+protein	ocdcaACP_c
+protein	ocdcea_c
+protein	octdececoa_c
+protein	od2coa_c
+protein	od2coa_n
+protein	octdececoa_r
+protein	palmACP_c
+protein	pmtcoa_c
+protein	pmtcoa_l
+protein	pmtcoa_r
+protein	ocdca_m
+protein	ocdca_x
+protein	stcoa_c
+protein	stcoa_m
+protein	stcoa_n
+protein	stcoa_x
+protein	strdnccoa_c
+protein	tdcoa_c
+protein	tethex3coa_c
+protein	tetpent3coa_c
+protein	tmndnccoa_c
+protein	octd11ecoa_c
+abstract	DESAT16_2
+abstract	DESAT18_10
+abstract	DESAT18_3
+abstract	DESAT18_4
+abstract	DESAT18_5
+abstract	DESAT18_6
+abstract	DESAT18_7
+abstract	DESAT18_8
+abstract	DESAT18_9
+abstract	DESAT20_1
+abstract	DESAT20_2
+abstract	DESAT22_1p
+abstract	DESAT22_2p
+abstract	DESAT24_1
+abstract	FAEL183
+abstract	FAEL184
+abstract	FAEL204
+abstract	FAEL205
+abstract	FAS100COA
+abstract	FAS120COA
+abstract	FAS140COA
+abstract	FAS160COA
+abstract	FAS180COA
+abstract	FAS80COA_L
+abstract	r0678
+abstract	r0681
+abstract	r0682
+abstract	r0691
+abstract	r0692
+abstract	r0693
+abstract	r0694
+abstract	r0695
+abstract	r0696
+abstract	r0697
+abstract	r0712
+abstract	r0713
+abstract	r0760
+abstract	r0761
+abstract	r0762
+abstract	r0763
+abstract	r0764
+abstract	r0765
+abstract	r0766
+abstract	r0767
+abstract	r0768
+abstract	r0769
+abstract	r0770
+abstract	r0772
+abstract	r0773
+abstract	r1313
+abstract	r1315
+abstract	r1316
+abstract	RE0344M
+abstract	RE0344X
+abstract	RE0565C
+abstract	RE0566C
+abstract	RE0567C
+abstract	RE0568C
+abstract	RE0569C
+abstract	RE0569E
+abstract	RE0570C
+abstract	RE0571C
+abstract	RE0572N
+abstract	RE0573N
+abstract	RE0574C
+abstract	RE0575C
+abstract	RE0576C
+abstract	RE0577M
+abstract	RE0577X
+abstract	RE0578C
+abstract	RE0578M
+abstract	RE0578X
+abstract	RE0579C
+abstract	RE0579M
+abstract	RE0579X
+abstract	RE0580L
+abstract	RE0580R
+abstract	RE0581C
+abstract	RE0581R
+abstract	RE0582N
+abstract	RE0583C
+abstract	RE0583N
+abstract	RE3224C
+abstract	RE3224R
+abstract	RE3225C
+abstract	RE3225R
+abstract	RE3226C
+abstract	RE3226R
+abstract	RE3227C
+abstract	RE3227R
+abstract	RE3228C
+abstract	RE3228R
+abstract	RE3229C
+abstract	RE3229R
+abstract	RE3230C
+abstract	RE3230R
+abstract	RE3231C
+abstract	RE3231R
+abstract	RE3232C
+abstract	RE3232R
+abstract	RE3234C
+abstract	RE3234R
+abstract	RE3235C
+abstract	RE3235R
+abstract	RE3236C
+abstract	RE3236R
+abstract	RE3237C
+abstract	RE3238C
+abstract	RE3239C
+abstract	RE3241C
+abstract	RE3241R
+abstract	RE3242C
+abstract	RE3242R
+abstract	RE3243C
+abstract	RE3243R
+abstract	RE3244C
+abstract	RE3244R
+abstract	RE3245C
+nad_c	DESAT16_2	-a>
+h2o_c	DESAT16_2	-a>
+h_c	DESAT16_2	-a>
+hdcoa_c	DESAT16_2	-a>
+pmtcoa_c	DESAT16_2	-a>
+nadh_c	DESAT16_2	-a>
+o2_c	DESAT16_2	-a>
+nad_c	DESAT18_10	-a>
+h2o_c	DESAT18_10	-a>
+h_c	DESAT18_10	-a>
+lnlncacoa_c	DESAT18_10	-a>
+strdnccoa_c	DESAT18_10	-a>
+nadh_c	DESAT18_10	-a>
+o2_c	DESAT18_10	-a>
+nad_c	DESAT18_3	-a>
+h2o_c	DESAT18_3	-a>
+nadh_c	DESAT18_3	-a>
+octdececoa_c	DESAT18_3	-a>
+h_c	DESAT18_3	-a>
+stcoa_c	DESAT18_3	-a>
+o2_c	DESAT18_3	-a>
+nad_c	DESAT18_4	-a>
+h2o_c	DESAT18_4	-a>
+nadh_c	DESAT18_4	-a>
+h_c	DESAT18_4	-a>
+octd11ecoa_c	DESAT18_4	-a>
+stcoa_c	DESAT18_4	-a>
+o2_c	DESAT18_4	-a>
+nad_c	DESAT18_5	-a>
+h2o_c	DESAT18_5	-a>
+od2coa_c	DESAT18_5	-a>
+h_c	DESAT18_5	-a>
+o2_c	DESAT18_5	-a>
+stcoa_c	DESAT18_5	-a>
+nadh_c	DESAT18_5	-a>
+nad_c	DESAT18_6	-a>
+lneldccoa_c	DESAT18_6	-a>
+h2o_c	DESAT18_6	-a>
+nadh_c	DESAT18_6	-a>
+h_c	DESAT18_6	-a>
+octdececoa_c	DESAT18_6	-a>
+o2_c	DESAT18_6	-a>
+nad_c	DESAT18_7	-a>
+lneldccoa_c	DESAT18_7	-a>
+h2o_c	DESAT18_7	-a>
+h_c	DESAT18_7	-a>
+octd11ecoa_c	DESAT18_7	-a>
+nadh_c	DESAT18_7	-a>
+o2_c	DESAT18_7	-a>
+nad_c	DESAT18_8	-a>
+lneldccoa_c	DESAT18_8	-a>
+h2o_c	DESAT18_8	-a>
+h_c	DESAT18_8	-a>
+o2_c	DESAT18_8	-a>
+nadh_c	DESAT18_8	-a>
+od2coa_c	DESAT18_8	-a>
+nad_c	DESAT18_9	-a>
+h2o_c	DESAT18_9	-a>
+h_c	DESAT18_9	-a>
+lnlccoa_c	DESAT18_9	-a>
+lnlncgcoa_c	DESAT18_9	-a>
+nadh_c	DESAT18_9	-a>
+o2_c	DESAT18_9	-a>
+nad_c	DESAT20_1	-a>
+h2o_c	DESAT20_1	-a>
+dlnlcgcoa_c	DESAT20_1	-a>
+h_c	DESAT20_1	-a>
+arachdcoa_c	DESAT20_1	-a>
+nadh_c	DESAT20_1	-a>
+o2_c	DESAT20_1	-a>
+nad_c	DESAT20_2	-a>
+h2o_c	DESAT20_2	-a>
+h_c	DESAT20_2	-a>
+eicostetcoa_c	DESAT20_2	-a>
+tmndnccoa_c	DESAT20_2	-a>
+nadh_c	DESAT20_2	-a>
+o2_c	DESAT20_2	-a>
+nadh_x	DESAT22_1p	-a>
+adrncoa_x	DESAT22_1p	-a>
+nad_x	DESAT22_1p	-a>
+o2_x	DESAT22_1p	-a>
+h2o_x	DESAT22_1p	-a>
+h_x	DESAT22_1p	-a>
+dcsptn1coa_x	DESAT22_1p	-a>
+nadh_x	DESAT22_2p	-a>
+nad_x	DESAT22_2p	-a>
+c226coa_x	DESAT22_2p	-a>
+clpndcoa_x	DESAT22_2p	-a>
+h2o_x	DESAT22_2p	-a>
+o2_x	DESAT22_2p	-a>
+h_x	DESAT22_2p	-a>
+nad_c	DESAT24_1	-a>
+h2o_c	DESAT24_1	-a>
+nadh_c	DESAT24_1	-a>
+h_c	DESAT24_1	-a>
+tetpent3coa_c	DESAT24_1	-a>
+tethex3coa_c	DESAT24_1	-a>
+o2_c	DESAT24_1	-a>
+malcoa_c	FAEL183	-a>
+nadp_c	FAEL183	-a>
+h_c	FAEL183	-a>
+lnlncgcoa_c	FAEL183	-a>
+dlnlcgcoa_c	FAEL183	-a>
+h2o_c	FAEL183	-a>
+o2_c	FAEL183	-a>
+coa_c	FAEL183	-a>
+co2_c	FAEL183	-a>
+nadph_c	FAEL183	-a>
+h2o_c	FAEL184	-a>
+nadp_c	FAEL184	-a>
+h_c	FAEL184	-a>
+strdnccoa_c	FAEL184	-a>
+malcoa_c	FAEL184	-a>
+o2_c	FAEL184	-a>
+coa_c	FAEL184	-a>
+eicostetcoa_c	FAEL184	-a>
+co2_c	FAEL184	-a>
+nadph_c	FAEL184	-a>
+h2o_c	FAEL204	-a>
+nadp_c	FAEL204	-a>
+h_c	FAEL204	-a>
+malcoa_c	FAEL204	-a>
+co2_c	FAEL204	-a>
+o2_c	FAEL204	-a>
+coa_c	FAEL204	-a>
+adrncoa_c	FAEL204	-a>
+arachdcoa_c	FAEL204	-a>
+nadph_c	FAEL204	-a>
+h2o_c	FAEL205	-a>
+nadp_c	FAEL205	-a>
+h_c	FAEL205	-a>
+malcoa_c	FAEL205	-a>
+o2_c	FAEL205	-a>
+clpndcoa_c	FAEL205	-a>
+coa_c	FAEL205	-a>
+tmndnccoa_c	FAEL205	-a>
+co2_c	FAEL205	-a>
+nadph_c	FAEL205	-a>
+h2o_c	FAS100COA	-a>
+nadp_c	FAS100COA	-a>
+h_c	FAS100COA	-a>
+nadph_c	FAS100COA	-a>
+malcoa_c	FAS100COA	-a>
+co2_c	FAS100COA	-a>
+coa_c	FAS100COA	-a>
+dcacoa_c	FAS100COA	-a>
+occoa_c	FAS100COA	-a>
+ddcacoa_c	FAS120COA	-a>
+h2o_c	FAS120COA	-a>
+nadp_c	FAS120COA	-a>
+h_c	FAS120COA	-a>
+malcoa_c	FAS120COA	-a>
+co2_c	FAS120COA	-a>
+coa_c	FAS120COA	-a>
+dcacoa_c	FAS120COA	-a>
+nadph_c	FAS120COA	-a>
+ddcacoa_c	FAS140COA	-a>
+h2o_c	FAS140COA	-a>
+tdcoa_c	FAS140COA	-a>
+h_c	FAS140COA	-a>
+malcoa_c	FAS140COA	-a>
+co2_c	FAS140COA	-a>
+coa_c	FAS140COA	-a>
+nadp_c	FAS140COA	-a>
+nadph_c	FAS140COA	-a>
+h2o_c	FAS160COA	-a>
+nadp_c	FAS160COA	-a>
+h_c	FAS160COA	-a>
+malcoa_c	FAS160COA	-a>
+co2_c	FAS160COA	-a>
+coa_c	FAS160COA	-a>
+tdcoa_c	FAS160COA	-a>
+pmtcoa_c	FAS160COA	-a>
+nadph_c	FAS160COA	-a>
+stcoa_c	FAS180COA	-a>
+nadp_c	FAS180COA	-a>
+h_c	FAS180COA	-a>
+h2o_c	FAS180COA	-a>
+malcoa_c	FAS180COA	-a>
+co2_c	FAS180COA	-a>
+coa_c	FAS180COA	-a>
+pmtcoa_c	FAS180COA	-a>
+nadph_c	FAS180COA	-a>
+h2o_c	FAS80COA_L	-a>
+nadp_c	FAS80COA_L	-a>
+accoa_c	FAS80COA_L	-a>
+nadph_c	FAS80COA_L	-a>
+malcoa_c	FAS80COA_L	-a>
+co2_c	FAS80COA_L	-a>
+coa_c	FAS80COA_L	-a>
+occoa_c	FAS80COA_L	-a>
+h_c	FAS80COA_L	-a>
+HC01587_c	r0678	-a>
+ACP_c	r0678	-a>
+acACP_c	r0678	-a>
+malACP_c	r0678	-a>
+co2_c	r0678	-a>
+HC01255_c	r0681	-a>
+h2o_c	r0681	-a>
+HC01321_c	r0681	-a>
+HC01255_c	r0682	-a>
+nadp_c	r0682	-a>
+nadph_c	r0682	-a>
+HC01588_c	r0682	-a>
+h_c	r0682	-a>
+HC01587_c	r0691	-a>
+nadp_c	r0691	-a>
+HC01321_c	r0691	-a>
+nadph_c	r0691	-a>
+h_c	r0691	-a>
+HC01322_c	r0692	-a>
+nadp_c	r0692	-a>
+nadph_c	r0692	-a>
+h_c	r0692	-a>
+HC01596_c	r0692	-a>
+h2o_c	r0693	-a>
+HC01597_c	r0693	-a>
+HC01322_c	r0693	-a>
+HC01323_c	r0694	-a>
+nadp_c	r0694	-a>
+nadph_c	r0694	-a>
+h_c	r0694	-a>
+HC01593_c	r0694	-a>
+HC01594_c	r0695	-a>
+HC01323_c	r0695	-a>
+h2o_c	r0695	-a>
+HC01605_c	r0696	-a>
+nadp_c	r0696	-a>
+nadph_c	r0696	-a>
+h_c	r0696	-a>
+HC01326_c	r0696	-a>
+h2o_c	r0697	-a>
+hdeACP_c	r0697	-a>
+HC01326_c	r0697	-a>
+HC01601_c	r0712	-a>
+ddcaACP_c	r0712	-a>
+nadp_c	r0712	-a>
+nadph_c	r0712	-a>
+h_c	r0712	-a>
+ACP_c	r0713	-a>
+ddcaACP_c	r0713	-a>
+HC01602_c	r0713	-a>
+malACP_c	r0713	-a>
+co2_c	r0713	-a>
+ACP_c	r0760	-a>
+HC01588_c	r0760	-a>
+malACP_c	r0760	-a>
+co2_c	r0760	-a>
+HC01589_c	r0760	-a>
+HC01590_c	r0761	-a>
+nadp_c	r0761	-a>
+nadph_c	r0761	-a>
+h_c	r0761	-a>
+HC01589_c	r0761	-a>
+HC01590_c	r0762	-a>
+h2o_c	r0762	-a>
+HC01591_c	r0762	-a>
+HC01592_c	r0763	-a>
+nadp_c	r0763	-a>
+nadph_c	r0763	-a>
+h_c	r0763	-a>
+HC01591_c	r0763	-a>
+HC01592_c	r0764	-a>
+HC01593_c	r0764	-a>
+co2_c	r0764	-a>
+malACP_c	r0764	-a>
+ACP_c	r0764	-a>
+HC01594_c	r0765	-a>
+HC01595_c	r0765	-a>
+nadp_c	r0765	-a>
+nadph_c	r0765	-a>
+h_c	r0765	-a>
+ACP_c	r0766	-a>
+co2_c	r0766	-a>
+HC01595_c	r0766	-a>
+malACP_c	r0766	-a>
+HC01596_c	r0766	-a>
+HC01597_c	r0767	-a>
+nadp_c	r0767	-a>
+nadph_c	r0767	-a>
+h_c	r0767	-a>
+HC01598_c	r0767	-a>
+ACP_c	r0768	-a>
+HC01599_c	r0768	-a>
+malACP_c	r0768	-a>
+HC01598_c	r0768	-a>
+co2_c	r0768	-a>
+HC01599_c	r0769	-a>
+nadp_c	r0769	-a>
+nadph_c	r0769	-a>
+h_c	r0769	-a>
+HC01600_c	r0769	-a>
+HC01601_c	r0770	-a>
+h2o_c	r0770	-a>
+HC01600_c	r0770	-a>
+HC01605_c	r0772	-a>
+ACP_c	r0772	-a>
+myrsACP_c	r0772	-a>
+malACP_c	r0772	-a>
+co2_c	r0772	-a>
+nadph_c	r0773	-a>
+nadp_c	r0773	-a>
+palmACP_c	r0773	-a>
+hdeACP_c	r0773	-a>
+h_c	r0773	-a>
+HC02097_c	r1313	-a>
+ACP_c	r1313	-a>
+palmACP_c	r1313	-a>
+malACP_c	r1313	-a>
+co2_c	r1313	-a>
+h2o_c	r1315	-a>
+HC02098_c	r1315	-a>
+HC02099_c	r1315	-a>
+nadp_c	r1316	-a>
+nadph_c	r1316	-a>
+h_c	r1316	-a>
+ocdcaACP_c	r1316	-a>
+HC02099_c	r1316	-a>
+h2o_m	RE0344M	-a>
+h_m	RE0344M	-a>
+coa_m	RE0344M	-a>
+ocdca_m	RE0344M	-a>
+stcoa_m	RE0344M	-a>
+stcoa_x	RE0344X	-a>
+h2o_x	RE0344X	-a>
+coa_x	RE0344X	-a>
+h_x	RE0344X	-a>
+ocdca_x	RE0344X	-a>
+coa_c	RE0565C	-a>
+h_c	RE0565C	-a>
+stcoa_c	RE0565C	-a>
+CE2251_c	RE0565C	-a>
+malcoa_c	RE0565C	-a>
+co2_c	RE0565C	-a>
+nadp_c	RE0566C	-a>
+nadph_c	RE0566C	-a>
+h_c	RE0566C	-a>
+CE2247_c	RE0566C	-a>
+CE2251_c	RE0566C	-a>
+CE2243_c	RE0567C	-a>
+h2o_c	RE0567C	-a>
+CE2247_c	RE0567C	-a>
+CE2243_c	RE0568C	-a>
+nadp_c	RE0568C	-a>
+nadph_c	RE0568C	-a>
+h_c	RE0568C	-a>
+arachcoa_c	RE0568C	-a>
+coa_c	RE0569C	-a>
+CE2250_c	RE0569C	-a>
+h_c	RE0569C	-a>
+co2_c	RE0569C	-a>
+malcoa_c	RE0569C	-a>
+arachcoa_c	RE0569C	-a>
+arachcoa_e	RE0569E	-a>
+co2_e	RE0569E	-a>
+malcoa_e	RE0569E	-a>
+coa_e	RE0569E	-a>
+CE2250_e	RE0569E	-a>
+h_e	RE0569E	-a>
+nadph_c	RE0570C	-a>
+nadp_c	RE0570C	-a>
+CE2250_c	RE0570C	-a>
+h_c	RE0570C	-a>
+CE2246_c	RE0570C	-a>
+CE2242_c	RE0571C	-a>
+h2o_c	RE0571C	-a>
+CE2246_c	RE0571C	-a>
+h_n	RE0572N	-a>
+docoscoa_n	RE0572N	-a>
+CE2242_n	RE0572N	-a>
+nadph_n	RE0572N	-a>
+nadp_n	RE0572N	-a>
+malcoa_n	RE0573N	-a>
+co2_n	RE0573N	-a>
+CE2253_n	RE0573N	-a>
+h_n	RE0573N	-a>
+coa_n	RE0573N	-a>
+docoscoa_n	RE0573N	-a>
+CE2249_c	RE0574C	-a>
+nadp_c	RE0574C	-a>
+nadph_c	RE0574C	-a>
+h_c	RE0574C	-a>
+CE2253_c	RE0574C	-a>
+CE2249_c	RE0575C	-a>
+h2o_c	RE0575C	-a>
+CE2245_c	RE0575C	-a>
+nadph_c	RE0576C	-a>
+nadp_c	RE0576C	-a>
+CE2245_c	RE0576C	-a>
+h_c	RE0576C	-a>
+ttccoa_c	RE0576C	-a>
+h2o_m	RE0577M	-a>
+arachcoa_m	RE0577M	-a>
+h_m	RE0577M	-a>
+coa_m	RE0577M	-a>
+arach_m	RE0577M	-a>
+arach_x	RE0577X	-a>
+h2o_x	RE0577X	-a>
+coa_x	RE0577X	-a>
+h_x	RE0577X	-a>
+arachcoa_x	RE0577X	-a>
+coa_c	RE0578C	-a>
+docoscoa_c	RE0578C	-a>
+h_c	RE0578C	-a>
+docosac_c	RE0578C	-a>
+h2o_c	RE0578C	-a>
+h2o_m	RE0578M	-a>
+h_m	RE0578M	-a>
+coa_m	RE0578M	-a>
+docosac_m	RE0578M	-a>
+docoscoa_m	RE0578M	-a>
+docoscoa_x	RE0578X	-a>
+docosac_x	RE0578X	-a>
+h2o_x	RE0578X	-a>
+h_x	RE0578X	-a>
+coa_x	RE0578X	-a>
+coa_c	RE0579C	-a>
+lgnc_c	RE0579C	-a>
+h2o_c	RE0579C	-a>
+h_c	RE0579C	-a>
+ttccoa_c	RE0579C	-a>
+h2o_m	RE0579M	-a>
+lgnc_m	RE0579M	-a>
+ttccoa_m	RE0579M	-a>
+h_m	RE0579M	-a>
+coa_m	RE0579M	-a>
+h2o_x	RE0579X	-a>
+lgnc_x	RE0579X	-a>
+h_x	RE0579X	-a>
+ttccoa_x	RE0579X	-a>
+coa_x	RE0579X	-a>
+coa_l	RE0580L	-a>
+malcoa_l	RE0580L	-a>
+pmtcoa_l	RE0580L	-a>
+3ohodcoa_l	RE0580L	-a>
+co2_l	RE0580L	-a>
+h_l	RE0580L	-a>
+pmtcoa_r	RE0580R	-a>
+malcoa_r	RE0580R	-a>
+co2_r	RE0580R	-a>
+h_r	RE0580R	-a>
+coa_r	RE0580R	-a>
+3ohodcoa_r	RE0580R	-a>
+3ohodcoa_c	RE0581C	-a>
+nadp_c	RE0581C	-a>
+nadph_c	RE0581C	-a>
+h_c	RE0581C	-a>
+CE2248_c	RE0581C	-a>
+h_r	RE0581R	-a>
+CE2248_r	RE0581R	-a>
+nadph_r	RE0581R	-a>
+nadp_r	RE0581R	-a>
+3ohodcoa_r	RE0581R	-a>
+CE2248_n	RE0582N	-a>
+h2o_n	RE0582N	-a>
+od2coa_n	RE0582N	-a>
+stcoa_c	RE0583C	-a>
+nadp_c	RE0583C	-a>
+nadph_c	RE0583C	-a>
+h_c	RE0583C	-a>
+od2coa_c	RE0583C	-a>
+nadp_n	RE0583N	-a>
+od2coa_n	RE0583N	-a>
+h_n	RE0583N	-a>
+nadph_n	RE0583N	-a>
+stcoa_n	RE0583N	-a>
+coa_c	RE3224C	-a>
+h_c	RE3224C	-a>
+CE5144_c	RE3224C	-a>
+co2_c	RE3224C	-a>
+malcoa_c	RE3224C	-a>
+octdececoa_c	RE3224C	-a>
+octdececoa_r	RE3224R	-a>
+malcoa_r	RE3224R	-a>
+co2_r	RE3224R	-a>
+h_r	RE3224R	-a>
+coa_r	RE3224R	-a>
+CE5144_r	RE3224R	-a>
+coa_c	RE3225C	-a>
+h_c	RE3225C	-a>
+CE5152_c	RE3225C	-a>
+co2_c	RE3225C	-a>
+malcoa_c	RE3225C	-a>
+CE5151_c	RE3225C	-a>
+CE5151_r	RE3225R	-a>
+co2_r	RE3225R	-a>
+CE5152_r	RE3225R	-a>
+h_r	RE3225R	-a>
+coa_r	RE3225R	-a>
+malcoa_r	RE3225R	-a>
+coa_c	RE3226C	-a>
+h_c	RE3226C	-a>
+CE5156_c	RE3226C	-a>
+CE5155_c	RE3226C	-a>
+malcoa_c	RE3226C	-a>
+co2_c	RE3226C	-a>
+malcoa_r	RE3226R	-a>
+CE5156_r	RE3226R	-a>
+co2_r	RE3226R	-a>
+h_r	RE3226R	-a>
+coa_r	RE3226R	-a>
+CE5155_r	RE3226R	-a>
+CE5148_c	RE3227C	-a>
+CE5144_c	RE3227C	-a>
+nadp_c	RE3227C	-a>
+nadph_c	RE3227C	-a>
+h_c	RE3227C	-a>
+h_r	RE3227R	-a>
+CE5148_r	RE3227R	-a>
+nadph_r	RE3227R	-a>
+CE5144_r	RE3227R	-a>
+nadp_r	RE3227R	-a>
+CE5150_c	RE3228C	-a>
+CE5148_c	RE3228C	-a>
+h2o_c	RE3228C	-a>
+CE5150_r	RE3228R	-a>
+CE5148_r	RE3228R	-a>
+h2o_r	RE3228R	-a>
+CE5150_c	RE3229C	-a>
+nadp_c	RE3229C	-a>
+nadph_c	RE3229C	-a>
+h_c	RE3229C	-a>
+CE5151_c	RE3229C	-a>
+h_r	RE3229R	-a>
+CE5150_r	RE3229R	-a>
+nadph_r	RE3229R	-a>
+CE5151_r	RE3229R	-a>
+nadp_r	RE3229R	-a>
+nadp_c	RE3230C	-a>
+nadph_c	RE3230C	-a>
+h_c	RE3230C	-a>
+CE5152_c	RE3230C	-a>
+CE5153_c	RE3230C	-a>
+CE5153_r	RE3230R	-a>
+CE5152_r	RE3230R	-a>
+nadph_r	RE3230R	-a>
+nadp_r	RE3230R	-a>
+h_r	RE3230R	-a>
+h2o_c	RE3231C	-a>
+CE5154_c	RE3231C	-a>
+CE5153_c	RE3231C	-a>
+CE5153_r	RE3231R	-a>
+CE5154_r	RE3231R	-a>
+h2o_r	RE3231R	-a>
+nadph_c	RE3232C	-a>
+nadp_c	RE3232C	-a>
+CE5155_c	RE3232C	-a>
+CE5154_c	RE3232C	-a>
+h_c	RE3232C	-a>
+h_r	RE3232R	-a>
+nadp_r	RE3232R	-a>
+nadph_r	RE3232R	-a>
+CE5155_r	RE3232R	-a>
+CE5154_r	RE3232R	-a>
+CE5157_c	RE3234C	-a>
+CE5156_c	RE3234C	-a>
+nadp_c	RE3234C	-a>
+nadph_c	RE3234C	-a>
+h_c	RE3234C	-a>
+CE5156_r	RE3234R	-a>
+nadph_r	RE3234R	-a>
+CE5157_r	RE3234R	-a>
+h_r	RE3234R	-a>
+nadp_r	RE3234R	-a>
+CE5158_c	RE3235C	-a>
+CE5157_c	RE3235C	-a>
+h2o_c	RE3235C	-a>
+CE5158_r	RE3235R	-a>
+CE5157_r	RE3235R	-a>
+h2o_r	RE3235R	-a>
+CE5158_c	RE3236C	-a>
+nrvnccoa_c	RE3236C	-a>
+nadp_c	RE3236C	-a>
+nadph_c	RE3236C	-a>
+h_c	RE3236C	-a>
+h_r	RE3236R	-a>
+CE5158_r	RE3236R	-a>
+nadph_r	RE3236R	-a>
+nadp_r	RE3236R	-a>
+nrvnccoa_r	RE3236R	-a>
+h_c	RE3237C	-a>
+coa_c	RE3237C	-a>
+nrvnc_c	RE3237C	-a>
+nrvnccoa_c	RE3237C	-a>
+h2o_c	RE3237C	-a>
+CE2510_c	RE3238C	-a>
+coa_c	RE3238C	-a>
+h2o_c	RE3238C	-a>
+h_c	RE3238C	-a>
+CE5151_c	RE3238C	-a>
+coa_c	RE3239C	-a>
+CE5155_c	RE3239C	-a>
+doco13ac_c	RE3239C	-a>
+h2o_c	RE3239C	-a>
+coa_c	RE3241C	-a>
+CE0852_c	RE3241C	-a>
+h_c	RE3241C	-a>
+CE5160_c	RE3241C	-a>
+malcoa_c	RE3241C	-a>
+co2_c	RE3241C	-a>
+CE0852_r	RE3241R	-a>
+malcoa_r	RE3241R	-a>
+co2_r	RE3241R	-a>
+h_r	RE3241R	-a>
+coa_r	RE3241R	-a>
+CE5160_r	RE3241R	-a>
+CE5161_c	RE3242C	-a>
+CE5160_c	RE3242C	-a>
+nadp_c	RE3242C	-a>
+nadph_c	RE3242C	-a>
+h_c	RE3242C	-a>
+h_r	RE3242R	-a>
+nadph_r	RE3242R	-a>
+nadp_r	RE3242R	-a>
+CE5160_r	RE3242R	-a>
+CE5161_r	RE3242R	-a>
+CE5162_c	RE3243C	-a>
+CE5161_c	RE3243C	-a>
+h2o_c	RE3243C	-a>
+CE5162_r	RE3243R	-a>
+CE5161_r	RE3243R	-a>
+h2o_r	RE3243R	-a>
+CE5162_c	RE3244C	-a>
+nadp_c	RE3244C	-a>
+nadph_c	RE3244C	-a>
+h_c	RE3244C	-a>
+octdececoa_c	RE3244C	-a>
+octdececoa_r	RE3244R	-a>
+nadph_r	RE3244R	-a>
+CE5162_r	RE3244R	-a>
+nadp_r	RE3244R	-a>
+h_r	RE3244R	-a>
+octdececoa_c	RE3245C	-a>
+h_c	RE3245C	-a>
+coa_c	RE3245C	-a>
+ocdcea_c	RE3245C	-a>
+h2o_c	RE3245C	-a>

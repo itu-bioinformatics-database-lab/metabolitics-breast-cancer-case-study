@@ -1,0 +1,56 @@
+protein	4ppcys_c
+protein	4ppcys_m
+protein	HC01231_c
+protein	HC01231_m
+protein	adp_c
+protein	adp_m
+protein	atp_c
+protein	atp_m
+protein	coa_e
+protein	coa_l
+protein	cysam_c
+protein	dpcoa_e
+protein	dpcoa_l
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h_c
+protein	h_m
+protein	pan4p_c
+protein	pi_c
+protein	pi_e
+protein	pi_l
+protein	pnto_R_c
+protein	ptth_c
+abstract	LAPCOAl
+abstract	PAN4PP
+abstract	PNTEH
+abstract	r0679
+abstract	r0680
+abstract	LAPCOAe
+h2o_l	LAPCOAl	-a>
+dpcoa_l	LAPCOAl	-a>
+pi_l	LAPCOAl	-a>
+coa_l	LAPCOAl	-a>
+ptth_c	PAN4PP	-a>
+h2o_c	PAN4PP	-a>
+pan4p_c	PAN4PP	-a>
+pi_c	PAN4PP	-a>
+cysam_c	PNTEH	-a>
+ptth_c	PNTEH	-a>
+h2o_c	PNTEH	-a>
+pnto_R_c	PNTEH	-a>
+atp_c	r0679	-a>
+4ppcys_c	r0679	-a>
+adp_c	r0679	-a>
+h_c	r0679	-a>
+HC01231_c	r0679	-a>
+atp_m	r0680	-a>
+HC01231_m	r0680	-a>
+h_m	r0680	-a>
+adp_m	r0680	-a>
+4ppcys_m	r0680	-a>
+dpcoa_e	LAPCOAe	-a>
+pi_e	LAPCOAe	-a>
+coa_e	LAPCOAe	-a>
+h2o_e	LAPCOAe	-a>

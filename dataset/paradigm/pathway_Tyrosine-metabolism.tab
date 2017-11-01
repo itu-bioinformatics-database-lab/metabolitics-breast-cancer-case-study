@@ -1,0 +1,849 @@
+protein	2amac_c
+protein	2c23dh56dhoxin_c
+protein	34dhmald_c
+protein	34dhoxmand_c
+protein	34dhoxpeg_c
+protein	34dhpac_c
+protein	34dhpha_c
+protein	34dhphe_c
+protein	34hpp_c
+protein	34hpp_m
+protein	35diotyr_c
+protein	3ityr_L_c
+protein	3m4hpga_c
+protein	3mox4hoxm_c
+protein	3mox4hpac_c
+protein	3moxtyr_c
+protein	4fumacac_c
+protein	4hoxpacd_c
+protein	4hphac_c
+protein	4mlacac_c
+protein	56dihindlcrbxlt_c
+protein	C02442_c
+protein	C06199_c
+protein	C06199_g
+protein	C06199_l
+protein	C06350_c
+protein	C09640_c
+protein	C09642_c
+protein	CE1261_c
+protein	CE1262_c
+protein	CE1562_c
+protein	CE2172_c
+protein	CE2173_c
+protein	CE2174_c
+protein	CE2176_c
+protein	CE2196_c
+protein	CE2754_c
+protein	CE2754_r
+protein	CE2866_c
+protein	CE2866_g
+protein	CE2866_r
+protein	CE2870_c
+protein	CE2870_g
+protein	CE2870_r
+protein	CE2872_c
+protein	CE2872_g
+protein	CE2872_r
+protein	CE2873_c
+protein	CE2873_g
+protein	CE2873_r
+protein	CE2874_c
+protein	CE2874_g
+protein	CE2874_r
+protein	CE2875_c
+protein	CE2875_g
+protein	CE2875_r
+protein	CE2876_c
+protein	CE2876_r
+protein	CE2877_c
+protein	CE2877_r
+protein	CE2878_c
+protein	CE2878_r
+protein	CE2879_c
+protein	CE2879_r
+protein	CE2880_c
+protein	CE2880_r
+protein	CE2881_c
+protein	CE2881_r
+protein	CE2882_c
+protein	CE2882_r
+protein	CE2883_c
+protein	CE2883_r
+protein	CE2884_c
+protein	CE2884_r
+protein	CE2885_c
+protein	CE2885_r
+protein	CE2886_c
+protein	CE2886_r
+protein	CE2887_c
+protein	CE2887_r
+protein	CE2888_c
+protein	CE2888_r
+protein	CE4888_c
+protein	CE4888_x
+protein	CE4890_c
+protein	CE5025_c
+protein	CE5025_x
+protein	CE5026_c
+protein	CE5026_x
+protein	CE5276_c
+protein	CE5276_l
+protein	CE5276_x
+protein	CE5277_c
+protein	CE5278_c
+protein	CE5536_c
+protein	CE5536_x
+protein	CE5538_c
+protein	CE5538_x
+protein	CE5541_c
+protein	CE5542_c
+protein	CE5544_c
+protein	CE5544_x
+protein	CE5545_c
+protein	CE5545_x
+protein	CE5546_c
+protein	CE5546_x
+protein	CE5547_c
+protein	CE5547_x
+protein	CE5626_c
+protein	CE5627_c
+protein	CE6316_c
+protein	CE6316_g
+protein	CE6316_l
+protein	L_dpchrm_c
+protein	L_dpchrm_x
+protein	Sfglutth_c
+protein	acac_c
+protein	acald_c
+protein	adrnl_c
+protein	ahcys_c
+protein	akg_c
+protein	akg_m
+protein	amet_c
+protein	ascb_L_c
+protein	co2_c
+protein	cys_L_c
+protein	dhdascb_c
+protein	dopa_c
+protein	dopa_l
+protein	dopa_x
+protein	dopaqn_c
+protein	dopaqn_x
+protein	dopasf_c
+protein	fald_c
+protein	for_c
+protein	fum_c
+protein	glu_L_c
+protein	glu_L_m
+protein	gthrd_c
+protein	gthrd_x
+protein	h2o2_c
+protein	h2o2_l
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_g
+protein	h2o_l
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_g
+protein	h_r
+protein	hgentis_c
+protein	homoval_c
+protein	i_c
+protein	iodine_c
+protein	melanin_c
+protein	mepi_c
+protein	mma_c
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadph_c
+protein	nh4_c
+protein	normete_L_c
+protein	nrpphr_c
+protein	nrpphrsf_c
+protein	o2_c
+protein	o2_g
+protein	o2_l
+protein	pap_c
+protein	paps_c
+protein	pyr_c
+protein	so4_c
+protein	so4_g
+protein	so4_r
+protein	thbpt4acam_c
+protein	thbpt_c
+protein	thyox_L_c
+protein	thyox_L_r
+protein	triodthy_c
+protein	triodthy_r
+protein	triodthysuf_c
+protein	tym_c
+protein	tymsf_c
+protein	tyr_L_c
+protein	tyr_L_m
+protein	udp_c
+protein	udp_r
+protein	udpglcur_c
+protein	udpglcur_r
+abstract	34DHOXPEGOX
+abstract	34DHPHAMT
+abstract	34DHPLACOX
+abstract	34DHPLACOX_NADP_
+abstract	34DHXMANDACOX
+abstract	34DHXMANDACOX_NADP_
+abstract	34HPPOR
+abstract	3HLYTCL
+abstract	3M4HDXPAC
+abstract	3MOX4HOXPGALDOX
+abstract	3MOX4HOXPGALDOX_NADP_
+abstract	3MOXTYROX
+abstract	41R1H2MAE12BOOX
+abstract	41R2A1H12BOOX
+abstract	42A12BOOX
+abstract	4HOXPACDOX_NADP_
+abstract	DCT
+abstract	DOPABMO
+abstract	DOPACHRMISO
+abstract	DOPAMT
+abstract	DOPAQNISO1
+abstract	DOPASULT
+abstract	FALDH
+abstract	FUMAC
+abstract	H2O2syn
+abstract	HGNTOR
+abstract	IDHPOXOX2b
+abstract	IDHPOXOX3
+abstract	IDHPOXOX4
+abstract	IDHPOXOXb
+abstract	MACACI
+abstract	MAOLNOR
+abstract	MAOX
+abstract	NORANMT
+abstract	NRPPHRSULT
+abstract	SALMCOM
+abstract	SALMCOM2
+abstract	SFGTH
+abstract	THYPX
+abstract	TRIODTHYSULT
+abstract	TYMSULT
+abstract	TYR3MO2
+abstract	TYRASE
+abstract	TYRCBOX
+abstract	TYRDOPO
+abstract	TYRDOPO3
+abstract	TYROXDAc
+abstract	TYRTA
+abstract	TYRTAm
+abstract	RE0908C
+abstract	RE0908G
+abstract	RE0908R
+abstract	RE0912C
+abstract	RE0916C
+abstract	RE0916G
+abstract	RE0916R
+abstract	RE0918C
+abstract	RE0918G
+abstract	RE0918R
+abstract	RE0919C
+abstract	RE0919R
+abstract	RE0920C
+abstract	RE0920R
+abstract	RE0921C
+abstract	RE0921R
+abstract	RE0922C
+abstract	RE0922R
+abstract	RE0923C
+abstract	RE0923R
+abstract	RE0924C
+abstract	RE0924R
+abstract	RE0925C
+abstract	RE0925R
+abstract	RE0927C
+abstract	RE0927R
+abstract	RE0928C
+abstract	RE0928R
+abstract	RE1651C
+abstract	RE1653C
+abstract	RE1915C
+abstract	RE1916C
+abstract	RE1916X
+abstract	RE1917C
+abstract	RE1918C
+abstract	RE1919C
+abstract	RE1920C
+abstract	RE1922C
+abstract	RE1923C
+abstract	RE1925C
+abstract	RE1927C
+abstract	RE2122C
+abstract	RE2124C
+abstract	RE2130C
+abstract	RE2131C
+abstract	RE2132C
+abstract	RE2296C
+abstract	RE2296X
+abstract	RE2384C
+abstract	RE2520C
+abstract	RE2521C
+abstract	RE2522C
+abstract	RE2522X
+abstract	RE2523C
+abstract	RE2523X
+abstract	RE2524C
+abstract	RE2524X
+abstract	RE2525C
+abstract	RE2525X
+abstract	RE3095C
+abstract	RE3095L
+abstract	RE3095X
+abstract	RE3198C
+abstract	RE3201C
+abstract	RE3233C
+abstract	RE3233G
+abstract	RE3233L
+abstract	RN0013C
+nad_c	34DHOXPEGOX	-a>
+34dhoxpeg_c	34DHOXPEGOX	-a>
+h_c	34DHOXPEGOX	-a>
+34dhmald_c	34DHOXPEGOX	-a>
+nadh_c	34DHOXPEGOX	-a>
+homoval_c	34DHPHAMT	-a>
+amet_c	34DHPHAMT	-a>
+h_c	34DHPHAMT	-a>
+34dhpha_c	34DHPHAMT	-a>
+ahcys_c	34DHPHAMT	-a>
+nad_c	34DHPLACOX	-a>
+h2o_c	34DHPLACOX	-a>
+34dhpac_c	34DHPLACOX	-a>
+h_c	34DHPLACOX	-a>
+34dhpha_c	34DHPLACOX	-a>
+nadh_c	34DHPLACOX	-a>
+h2o_c	34DHPLACOX_NADP_	-a>
+nadp_c	34DHPLACOX_NADP_	-a>
+h_c	34DHPLACOX_NADP_	-a>
+34dhpha_c	34DHPLACOX_NADP_	-a>
+nadph_c	34DHPLACOX_NADP_	-a>
+34dhpac_c	34DHPLACOX_NADP_	-a>
+nad_c	34DHXMANDACOX	-a>
+h2o_c	34DHXMANDACOX	-a>
+h_c	34DHXMANDACOX	-a>
+nadh_c	34DHXMANDACOX	-a>
+34dhmald_c	34DHXMANDACOX	-a>
+34dhoxmand_c	34DHXMANDACOX	-a>
+h2o_c	34DHXMANDACOX_NADP_	-a>
+nadp_c	34DHXMANDACOX_NADP_	-a>
+34dhoxmand_c	34DHXMANDACOX_NADP_	-a>
+nadph_c	34DHXMANDACOX_NADP_	-a>
+34dhmald_c	34DHXMANDACOX_NADP_	-a>
+h_c	34DHXMANDACOX_NADP_	-a>
+o2_c	34HPPOR	-a>
+hgentis_c	34HPPOR	-a>
+34hpp_c	34HPPOR	-a>
+co2_c	34HPPOR	-a>
+34dhphe_c	3HLYTCL	-a>
+dopa_c	3HLYTCL	-a>
+h_c	3HLYTCL	-a>
+co2_c	3HLYTCL	-a>
+nad_c	3M4HDXPAC	-a>
+h2o_c	3M4HDXPAC	-a>
+h_c	3M4HDXPAC	-a>
+homoval_c	3M4HDXPAC	-a>
+3mox4hpac_c	3M4HDXPAC	-a>
+nadh_c	3M4HDXPAC	-a>
+nad_c	3MOX4HOXPGALDOX	-a>
+3m4hpga_c	3MOX4HOXPGALDOX	-a>
+3mox4hoxm_c	3MOX4HOXPGALDOX	-a>
+h_c	3MOX4HOXPGALDOX	-a>
+h2o_c	3MOX4HOXPGALDOX	-a>
+nadh_c	3MOX4HOXPGALDOX	-a>
+3m4hpga_c	3MOX4HOXPGALDOX_NADP_	-a>
+nadp_c	3MOX4HOXPGALDOX_NADP_	-a>
+3mox4hoxm_c	3MOX4HOXPGALDOX_NADP_	-a>
+h_c	3MOX4HOXPGALDOX_NADP_	-a>
+nadph_c	3MOX4HOXPGALDOX_NADP_	-a>
+h2o_c	3MOX4HOXPGALDOX_NADP_	-a>
+h2o_c	3MOXTYROX	-a>
+nh4_c	3MOXTYROX	-a>
+h2o2_c	3MOXTYROX	-a>
+3mox4hpac_c	3MOXTYROX	-a>
+3moxtyr_c	3MOXTYROX	-a>
+o2_c	3MOXTYROX	-a>
+mma_c	41R1H2MAE12BOOX	-a>
+h2o2_c	41R1H2MAE12BOOX	-a>
+adrnl_c	41R1H2MAE12BOOX	-a>
+h2o_c	41R1H2MAE12BOOX	-a>
+34dhmald_c	41R1H2MAE12BOOX	-a>
+o2_c	41R1H2MAE12BOOX	-a>
+h2o_c	41R2A1H12BOOX	-a>
+h2o2_c	41R2A1H12BOOX	-a>
+nh4_c	41R2A1H12BOOX	-a>
+nrpphr_c	41R2A1H12BOOX	-a>
+34dhmald_c	41R2A1H12BOOX	-a>
+o2_c	41R2A1H12BOOX	-a>
+h2o_c	42A12BOOX	-a>
+34dhpac_c	42A12BOOX	-a>
+dopa_c	42A12BOOX	-a>
+h2o2_c	42A12BOOX	-a>
+nh4_c	42A12BOOX	-a>
+o2_c	42A12BOOX	-a>
+h2o_c	4HOXPACDOX_NADP_	-a>
+nadp_c	4HOXPACDOX_NADP_	-a>
+h_c	4HOXPACDOX_NADP_	-a>
+4hoxpacd_c	4HOXPACDOX_NADP_	-a>
+4hphac_c	4HOXPACDOX_NADP_	-a>
+nadph_c	4HOXPACDOX_NADP_	-a>
+L_dpchrm_c	DCT	-a>
+56dihindlcrbxlt_c	DCT	-a>
+h2o_c	DOPABMO	-a>
+dhdascb_c	DOPABMO	-a>
+dopa_c	DOPABMO	-a>
+ascb_L_c	DOPABMO	-a>
+nrpphr_c	DOPABMO	-a>
+o2_c	DOPABMO	-a>
+L_dpchrm_c	DOPACHRMISO	-a>
+h2o_c	DOPACHRMISO	-a>
+2c23dh56dhoxin_c	DOPACHRMISO	-a>
+o2_c	DOPACHRMISO	-a>
+3moxtyr_c	DOPAMT	-a>
+dopa_c	DOPAMT	-a>
+h_c	DOPAMT	-a>
+amet_c	DOPAMT	-a>
+ahcys_c	DOPAMT	-a>
+dopaqn_c	DOPAQNISO1	-a>
+2c23dh56dhoxin_c	DOPAQNISO1	-a>
+h_c	DOPAQNISO1	-a>
+paps_c	DOPASULT	-a>
+dopasf_c	DOPASULT	-a>
+dopa_c	DOPASULT	-a>
+h_c	DOPASULT	-a>
+pap_c	DOPASULT	-a>
+nad_c	FALDH	-a>
+gthrd_c	FALDH	-a>
+h_c	FALDH	-a>
+Sfglutth_c	FALDH	-a>
+fald_c	FALDH	-a>
+nadh_c	FALDH	-a>
+acac_c	FUMAC	-a>
+h2o_c	FUMAC	-a>
+fum_c	FUMAC	-a>
+h_c	FUMAC	-a>
+4fumacac_c	FUMAC	-a>
+h2o2_c	H2O2syn	-a>
+nadp_c	H2O2syn	-a>
+nadph_c	H2O2syn	-a>
+h_c	H2O2syn	-a>
+o2_c	H2O2syn	-a>
+o2_c	HGNTOR	-a>
+4mlacac_c	HGNTOR	-a>
+h_c	HGNTOR	-a>
+hgentis_c	HGNTOR	-a>
+i_c	IDHPOXOX2b	-a>
+3ityr_L_c	IDHPOXOX2b	-a>
+iodine_c	IDHPOXOX2b	-a>
+h_c	IDHPOXOX2b	-a>
+35diotyr_c	IDHPOXOX2b	-a>
+3ityr_L_c	IDHPOXOX3	-a>
+2amac_c	IDHPOXOX3	-a>
+triodthy_c	IDHPOXOX3	-a>
+h2o2_c	IDHPOXOX3	-a>
+h2o_c	IDHPOXOX3	-a>
+35diotyr_c	IDHPOXOX3	-a>
+h2o2_c	IDHPOXOX4	-a>
+2amac_c	IDHPOXOX4	-a>
+35diotyr_c	IDHPOXOX4	-a>
+h2o_c	IDHPOXOX4	-a>
+thyox_L_c	IDHPOXOX4	-a>
+i_c	IDHPOXOXb	-a>
+3ityr_L_c	IDHPOXOXb	-a>
+iodine_c	IDHPOXOXb	-a>
+h_c	IDHPOXOXb	-a>
+tyr_L_c	IDHPOXOXb	-a>
+4mlacac_c	MACACI	-a>
+4fumacac_c	MACACI	-a>
+h2o_c	MAOLNOR	-a>
+normete_L_c	MAOLNOR	-a>
+h2o2_c	MAOLNOR	-a>
+nh4_c	MAOLNOR	-a>
+3m4hpga_c	MAOLNOR	-a>
+o2_c	MAOLNOR	-a>
+mma_c	MAOX	-a>
+h2o2_c	MAOX	-a>
+o2_c	MAOX	-a>
+fald_c	MAOX	-a>
+h2o_c	MAOX	-a>
+nh4_c	MAOX	-a>
+h_c	NORANMT	-a>
+adrnl_c	NORANMT	-a>
+nrpphr_c	NORANMT	-a>
+amet_c	NORANMT	-a>
+ahcys_c	NORANMT	-a>
+paps_c	NRPPHRSULT	-a>
+pap_c	NRPPHRSULT	-a>
+nrpphrsf_c	NRPPHRSULT	-a>
+h_c	NRPPHRSULT	-a>
+nrpphr_c	NRPPHRSULT	-a>
+h_c	SALMCOM	-a>
+normete_L_c	SALMCOM	-a>
+nrpphr_c	SALMCOM	-a>
+amet_c	SALMCOM	-a>
+ahcys_c	SALMCOM	-a>
+mepi_c	SALMCOM2	-a>
+adrnl_c	SALMCOM2	-a>
+h_c	SALMCOM2	-a>
+amet_c	SALMCOM2	-a>
+ahcys_c	SALMCOM2	-a>
+gthrd_c	SFGTH	-a>
+for_c	SFGTH	-a>
+h2o_c	SFGTH	-a>
+Sfglutth_c	SFGTH	-a>
+h_c	SFGTH	-a>
+i_c	THYPX	-a>
+h2o2_c	THYPX	-a>
+iodine_c	THYPX	-a>
+h_c	THYPX	-a>
+h2o_c	THYPX	-a>
+paps_c	TRIODTHYSULT	-a>
+triodthysuf_c	TRIODTHYSULT	-a>
+h_c	TRIODTHYSULT	-a>
+triodthy_c	TRIODTHYSULT	-a>
+pap_c	TRIODTHYSULT	-a>
+tymsf_c	TYMSULT	-a>
+paps_c	TYMSULT	-a>
+tym_c	TYMSULT	-a>
+h_c	TYMSULT	-a>
+pap_c	TYMSULT	-a>
+34dhphe_c	TYR3MO2	-a>
+o2_c	TYR3MO2	-a>
+thbpt_c	TYR3MO2	-a>
+thbpt4acam_c	TYR3MO2	-a>
+tyr_L_c	TYR3MO2	-a>
+56dihindlcrbxlt_c	TYRASE	-a>
+melanin_c	TYRASE	-a>
+co2_c	TYRCBOX	-a>
+tym_c	TYRCBOX	-a>
+h_c	TYRCBOX	-a>
+tyr_L_c	TYRCBOX	-a>
+34dhphe_c	TYRDOPO	-a>
+o2_c	TYRDOPO	-a>
+tyr_L_c	TYRDOPO	-a>
+34dhphe_c	TYRDOPO3	-a>
+o2_c	TYRDOPO3	-a>
+dopaqn_c	TYRDOPO3	-a>
+h2o_c	TYRDOPO3	-a>
+h2o_c	TYROXDAc	-a>
+4hoxpacd_c	TYROXDAc	-a>
+h2o2_c	TYROXDAc	-a>
+o2_c	TYROXDAc	-a>
+tym_c	TYROXDAc	-a>
+nh4_c	TYROXDAc	-a>
+glu_L_c	TYRTA	-a>
+34hpp_c	TYRTA	-a>
+akg_c	TYRTA	-a>
+tyr_L_c	TYRTA	-a>
+tyr_L_m	TYRTAm	-a>
+34hpp_m	TYRTAm	-a>
+akg_m	TYRTAm	-a>
+glu_L_m	TYRTAm	-a>
+CE2866_c	RE0908C	-a>
+h2o_c	RE0908C	-a>
+CE2870_c	RE0908C	-a>
+so4_c	RE0908C	-a>
+h_c	RE0908C	-a>
+h2o_g	RE0908G	-a>
+CE2866_g	RE0908G	-a>
+so4_g	RE0908G	-a>
+h_g	RE0908G	-a>
+CE2870_g	RE0908G	-a>
+CE2870_r	RE0908R	-a>
+h2o_r	RE0908R	-a>
+h_r	RE0908R	-a>
+so4_r	RE0908R	-a>
+CE2866_r	RE0908R	-a>
+CE2866_c	RE0912C	-a>
+pap_c	RE0912C	-a>
+CE2870_c	RE0912C	-a>
+paps_c	RE0912C	-a>
+h_c	RE0912C	-a>
+CE2873_c	RE0916C	-a>
+h2o_c	RE0916C	-a>
+so4_c	RE0916C	-a>
+h_c	RE0916C	-a>
+CE2872_c	RE0916C	-a>
+h2o_g	RE0916G	-a>
+so4_g	RE0916G	-a>
+h_g	RE0916G	-a>
+CE2873_g	RE0916G	-a>
+CE2872_g	RE0916G	-a>
+h_r	RE0916R	-a>
+CE2873_r	RE0916R	-a>
+CE2872_r	RE0916R	-a>
+so4_r	RE0916R	-a>
+h2o_r	RE0916R	-a>
+h_c	RE0918C	-a>
+h2o_c	RE0918C	-a>
+so4_c	RE0918C	-a>
+CE2875_c	RE0918C	-a>
+CE2874_c	RE0918C	-a>
+CE2875_g	RE0918G	-a>
+h2o_g	RE0918G	-a>
+so4_g	RE0918G	-a>
+h_g	RE0918G	-a>
+CE2874_g	RE0918G	-a>
+CE2874_r	RE0918R	-a>
+h_r	RE0918R	-a>
+CE2875_r	RE0918R	-a>
+so4_r	RE0918R	-a>
+h2o_r	RE0918R	-a>
+h_c	RE0919C	-a>
+udp_c	RE0919C	-a>
+udpglcur_c	RE0919C	-a>
+CE2876_c	RE0919C	-a>
+CE2872_c	RE0919C	-a>
+udp_r	RE0919R	-a>
+h_r	RE0919R	-a>
+CE2876_r	RE0919R	-a>
+udpglcur_r	RE0919R	-a>
+CE2872_r	RE0919R	-a>
+h_c	RE0920C	-a>
+udp_c	RE0920C	-a>
+udpglcur_c	RE0920C	-a>
+CE2877_c	RE0920C	-a>
+thyox_L_c	RE0920C	-a>
+udp_r	RE0920R	-a>
+CE2877_r	RE0920R	-a>
+udpglcur_r	RE0920R	-a>
+h_r	RE0920R	-a>
+thyox_L_r	RE0920R	-a>
+CE2754_c	RE0921C	-a>
+CE2878_c	RE0921C	-a>
+udp_c	RE0921C	-a>
+udpglcur_c	RE0921C	-a>
+h_c	RE0921C	-a>
+udp_r	RE0921R	-a>
+h_r	RE0921R	-a>
+CE2754_r	RE0921R	-a>
+udpglcur_r	RE0921R	-a>
+CE2878_r	RE0921R	-a>
+udp_c	RE0922C	-a>
+CE2879_c	RE0922C	-a>
+udpglcur_c	RE0922C	-a>
+triodthy_c	RE0922C	-a>
+h_c	RE0922C	-a>
+CE2879_r	RE0922R	-a>
+udp_r	RE0922R	-a>
+h_r	RE0922R	-a>
+udpglcur_r	RE0922R	-a>
+triodthy_r	RE0922R	-a>
+CE2866_c	RE0923C	-a>
+udp_c	RE0923C	-a>
+CE2880_c	RE0923C	-a>
+h_c	RE0923C	-a>
+udpglcur_c	RE0923C	-a>
+udp_r	RE0923R	-a>
+h_r	RE0923R	-a>
+CE2880_r	RE0923R	-a>
+udpglcur_r	RE0923R	-a>
+CE2866_r	RE0923R	-a>
+CE2881_c	RE0924C	-a>
+udp_c	RE0924C	-a>
+udpglcur_c	RE0924C	-a>
+CE2885_c	RE0924C	-a>
+h_c	RE0924C	-a>
+udp_r	RE0924R	-a>
+h_r	RE0924R	-a>
+udpglcur_r	RE0924R	-a>
+CE2885_r	RE0924R	-a>
+CE2881_r	RE0924R	-a>
+udpglcur_c	RE0925C	-a>
+CE2882_c	RE0925C	-a>
+udp_c	RE0925C	-a>
+h_c	RE0925C	-a>
+CE2886_c	RE0925C	-a>
+udp_r	RE0925R	-a>
+h_r	RE0925R	-a>
+udpglcur_r	RE0925R	-a>
+CE2886_r	RE0925R	-a>
+CE2882_r	RE0925R	-a>
+CE2887_c	RE0927C	-a>
+udp_c	RE0927C	-a>
+CE2883_c	RE0927C	-a>
+udpglcur_c	RE0927C	-a>
+h_c	RE0927C	-a>
+CE2883_r	RE0927R	-a>
+udp_r	RE0927R	-a>
+h_r	RE0927R	-a>
+udpglcur_r	RE0927R	-a>
+CE2887_r	RE0927R	-a>
+CE2884_c	RE0928C	-a>
+udpglcur_c	RE0928C	-a>
+udp_c	RE0928C	-a>
+h_c	RE0928C	-a>
+CE2888_c	RE0928C	-a>
+udp_r	RE0928R	-a>
+h_r	RE0928R	-a>
+CE2888_r	RE0928R	-a>
+udpglcur_r	RE0928R	-a>
+CE2884_r	RE0928R	-a>
+nadph_c	RE1651C	-a>
+CE4888_c	RE1651C	-a>
+nadp_c	RE1651C	-a>
+CE5277_c	RE1651C	-a>
+h_c	RE1651C	-a>
+L_dpchrm_c	RE1653C	-a>
+CE5278_c	RE1653C	-a>
+nadp_c	RE1653C	-a>
+nadph_c	RE1653C	-a>
+h_c	RE1653C	-a>
+CE1261_c	RE1915C	-a>
+dopaqn_c	RE1915C	-a>
+cys_L_c	RE1915C	-a>
+gthrd_c	RE1916C	-a>
+dopaqn_c	RE1916C	-a>
+CE5026_c	RE1916C	-a>
+CE5026_x	RE1916X	-a>
+dopaqn_x	RE1916X	-a>
+gthrd_x	RE1916X	-a>
+CE1261_c	RE1917C	-a>
+34dhphe_c	RE1917C	-a>
+dopaqn_c	RE1917C	-a>
+CE1262_c	RE1917C	-a>
+C09642_c	RE1918C	-a>
+h2o_c	RE1918C	-a>
+dopa_c	RE1918C	-a>
+acald_c	RE1918C	-a>
+CE5626_c	RE1919C	-a>
+h2o_c	RE1919C	-a>
+dopa_c	RE1919C	-a>
+pyr_c	RE1919C	-a>
+CE5626_c	RE1920C	-a>
+CE5627_c	RE1920C	-a>
+h_c	RE1920C	-a>
+amet_c	RE1920C	-a>
+ahcys_c	RE1920C	-a>
+C09640_c	RE1922C	-a>
+C09642_c	RE1922C	-a>
+h_c	RE1922C	-a>
+amet_c	RE1922C	-a>
+ahcys_c	RE1922C	-a>
+CE4890_c	RE1923C	-a>
+C09642_c	RE1923C	-a>
+h_c	RE1923C	-a>
+amet_c	RE1923C	-a>
+ahcys_c	RE1923C	-a>
+CE4890_c	RE1925C	-a>
+3moxtyr_c	RE1925C	-a>
+h2o_c	RE1925C	-a>
+acald_c	RE1925C	-a>
+h2o_c	RE1927C	-a>
+34dhpac_c	RE1927C	-a>
+dopa_c	RE1927C	-a>
+C06350_c	RE1927C	-a>
+34dhphe_c	RE2122C	-a>
+ahcys_c	RE2122C	-a>
+h_c	RE2122C	-a>
+CE2176_c	RE2122C	-a>
+amet_c	RE2122C	-a>
+C02442_c	RE2124C	-a>
+tym_c	RE2124C	-a>
+h_c	RE2124C	-a>
+amet_c	RE2124C	-a>
+ahcys_c	RE2124C	-a>
+CE2172_c	RE2130C	-a>
+h2o_c	RE2130C	-a>
+fald_c	RE2130C	-a>
+dopa_c	RE2130C	-a>
+fald_c	RE2131C	-a>
+h2o_c	RE2131C	-a>
+adrnl_c	RE2131C	-a>
+h_c	RE2131C	-a>
+CE2173_c	RE2131C	-a>
+h2o_c	RE2132C	-a>
+CE2174_c	RE2132C	-a>
+fald_c	RE2132C	-a>
+nrpphr_c	RE2132C	-a>
+gthrd_c	RE2296C	-a>
+CE5025_c	RE2296C	-a>
+CE5276_c	RE2296C	-a>
+CE5276_x	RE2296X	-a>
+CE5025_x	RE2296X	-a>
+gthrd_x	RE2296X	-a>
+CE2196_c	RE2384C	-a>
+C09642_c	RE2384C	-a>
+h_c	RE2384C	-a>
+amet_c	RE2384C	-a>
+ahcys_c	RE2384C	-a>
+h_c	RE2520C	-a>
+nadp_c	RE2520C	-a>
+nadph_c	RE2520C	-a>
+CE5536_c	RE2520C	-a>
+CE5541_c	RE2520C	-a>
+CE5538_c	RE2521C	-a>
+CE5542_c	RE2521C	-a>
+nadp_c	RE2521C	-a>
+nadph_c	RE2521C	-a>
+h_c	RE2521C	-a>
+CE5546_c	RE2522C	-a>
+gthrd_c	RE2522C	-a>
+CE5536_c	RE2522C	-a>
+CE5536_x	RE2522X	-a>
+CE5546_x	RE2522X	-a>
+gthrd_x	RE2522X	-a>
+CE5538_c	RE2523C	-a>
+gthrd_c	RE2523C	-a>
+CE5547_c	RE2523C	-a>
+CE5547_x	RE2523X	-a>
+CE5538_x	RE2523X	-a>
+gthrd_x	RE2523X	-a>
+L_dpchrm_c	RE2524C	-a>
+gthrd_c	RE2524C	-a>
+CE5544_c	RE2524C	-a>
+CE5544_x	RE2524X	-a>
+L_dpchrm_x	RE2524X	-a>
+gthrd_x	RE2524X	-a>
+gthrd_c	RE2525C	-a>
+CE4888_c	RE2525C	-a>
+CE5545_c	RE2525C	-a>
+CE5545_x	RE2525X	-a>
+CE4888_x	RE2525X	-a>
+gthrd_x	RE2525X	-a>
+h2o2_c	RE3095C	-a>
+CE5276_c	RE3095C	-a>
+dopa_c	RE3095C	-a>
+h2o_c	RE3095C	-a>
+h2o2_l	RE3095L	-a>
+dopa_l	RE3095L	-a>
+h2o_l	RE3095L	-a>
+CE5276_l	RE3095L	-a>
+CE5276_x	RE3095X	-a>
+h2o_x	RE3095X	-a>
+h2o2_x	RE3095X	-a>
+dopa_x	RE3095X	-a>
+L_dpchrm_c	RE3198C	-a>
+nad_c	RE3198C	-a>
+2c23dh56dhoxin_c	RE3198C	-a>
+h_c	RE3198C	-a>
+nadh_c	RE3198C	-a>
+CE1562_c	RE3201C	-a>
+h2o2_c	RE3201C	-a>
+56dihindlcrbxlt_c	RE3201C	-a>
+o2_c	RE3201C	-a>
+CE6316_c	RE3233C	-a>
+h2o_c	RE3233C	-a>
+C06199_c	RE3233C	-a>
+o2_c	RE3233C	-a>
+C06199_g	RE3233G	-a>
+h2o_g	RE3233G	-a>
+CE6316_g	RE3233G	-a>
+o2_g	RE3233G	-a>
+o2_l	RE3233L	-a>
+C06199_l	RE3233L	-a>
+h2o_l	RE3233L	-a>
+CE6316_l	RE3233L	-a>
+h2o_c	RN0013C	-a>
+o2_c	RN0013C	-a>
+adrnl_c	RN0013C	-a>
+CE5536_c	RN0013C	-a>
+h_c	RN0013C	-a>

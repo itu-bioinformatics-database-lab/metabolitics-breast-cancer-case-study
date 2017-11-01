@@ -1,0 +1,62 @@
+protein	adp_c
+protein	amp_c
+protein	amp_e
+protein	atp_c
+protein	fad_c
+protein	fad_e
+protein	fadh2_c
+protein	fe2_c
+protein	fe3_c
+protein	fmn_c
+protein	fmn_e
+protein	h2o_c
+protein	h2o_e
+protein	h_c
+protein	h_e
+protein	nad_c
+protein	nadh_c
+protein	o2_c
+protein	pi_c
+protein	ppi_c
+protein	ribflv_c
+abstract	ACP1_FMN_
+abstract	FADDP
+abstract	FMNAT
+abstract	RBFK
+abstract	RE3347C
+abstract	FADDPle
+abstract	FERO
+pi_c	ACP1_FMN_	-a>
+ribflv_c	ACP1_FMN_	-a>
+fmn_c	ACP1_FMN_	-a>
+h2o_c	ACP1_FMN_	-a>
+amp_c	FADDP	-a>
+h_c	FADDP	-a>
+h2o_c	FADDP	-a>
+fmn_c	FADDP	-a>
+fad_c	FADDP	-a>
+fmn_c	FMNAT	-a>
+atp_c	FMNAT	-a>
+ppi_c	FMNAT	-a>
+fad_c	FMNAT	-a>
+h_c	FMNAT	-a>
+atp_c	RBFK	-a>
+adp_c	RBFK	-a>
+fmn_c	RBFK	-a>
+ribflv_c	RBFK	-a>
+h_c	RBFK	-a>
+nad_c	RE3347C	-a>
+h_c	RE3347C	-a>
+fad_c	RE3347C	-a>
+fadh2_c	RE3347C	-a>
+nadh_c	RE3347C	-a>
+fad_e	FADDPle	-a>
+h_e	FADDPle	-a>
+amp_e	FADDPle	-a>
+h2o_e	FADDPle	-a>
+fmn_e	FADDPle	-a>
+fe2_c	FERO	-a>
+h2o_c	FERO	-a>
+o2_c	FERO	-a>
+h_c	FERO	-a>
+fe3_c	FERO	-a>

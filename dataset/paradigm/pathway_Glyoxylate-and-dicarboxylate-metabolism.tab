@@ -1,0 +1,128 @@
+protein	2pg_c
+protein	2pglyc_c
+protein	adp_c
+protein	atp_c
+protein	co2_c
+protein	co2_m
+protein	dhap_c
+protein	gcald_c
+protein	gcald_m
+protein	glx_c
+protein	glx_m
+protein	glx_x
+protein	glyc_R_c
+protein	glyc_S_c
+protein	glyclt_c
+protein	glyclt_m
+protein	glyclt_x
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_x
+protein	hpyr_c
+protein	hpyr_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	o2_x
+protein	oxa_c
+protein	oxa_x
+protein	pi_c
+protein	xu1p_D_c
+protein	xylu_D_c
+abstract	FBA4
+abstract	GCALDD
+abstract	GCALDDm
+abstract	GLXO1
+abstract	GLXO2p
+abstract	GLYCK2
+abstract	GLYCLTDy
+abstract	GLYCLTDym
+abstract	GLYCTO1p
+abstract	HPYRDC
+abstract	HPYRDCm
+abstract	HPYRR2x
+abstract	HPYRRy
+abstract	KHK2
+abstract	PGLYCP
+gcald_c	FBA4	-a>
+dhap_c	FBA4	-a>
+xu1p_D_c	FBA4	-a>
+nad_c	GCALDD	-a>
+h2o_c	GCALDD	-a>
+h_c	GCALDD	-a>
+gcald_c	GCALDD	-a>
+glyclt_c	GCALDD	-a>
+nadh_c	GCALDD	-a>
+h2o_m	GCALDDm	-a>
+glyclt_m	GCALDDm	-a>
+h_m	GCALDDm	-a>
+nad_m	GCALDDm	-a>
+nadh_m	GCALDDm	-a>
+gcald_m	GCALDDm	-a>
+nad_c	GLXO1	-a>
+h2o_c	GLXO1	-a>
+nadh_c	GLXO1	-a>
+glx_c	GLXO1	-a>
+oxa_c	GLXO1	-a>
+h_c	GLXO1	-a>
+o2_x	GLXO2p	-a>
+h2o_x	GLXO2p	-a>
+oxa_x	GLXO2p	-a>
+glx_x	GLXO2p	-a>
+h2o2_x	GLXO2p	-a>
+h_x	GLXO2p	-a>
+atp_c	GLYCK2	-a>
+2pg_c	GLYCK2	-a>
+h_c	GLYCK2	-a>
+glyc_R_c	GLYCK2	-a>
+adp_c	GLYCK2	-a>
+nadp_c	GLYCLTDy	-a>
+nadph_c	GLYCLTDy	-a>
+glyclt_c	GLYCLTDy	-a>
+glx_c	GLYCLTDy	-a>
+h_c	GLYCLTDy	-a>
+glyclt_m	GLYCLTDym	-a>
+nadph_m	GLYCLTDym	-a>
+h_m	GLYCLTDym	-a>
+nadp_m	GLYCLTDym	-a>
+glx_m	GLYCLTDym	-a>
+o2_x	GLYCTO1p	-a>
+glx_x	GLYCTO1p	-a>
+h2o2_x	GLYCTO1p	-a>
+glyclt_x	GLYCTO1p	-a>
+gcald_c	HPYRDC	-a>
+hpyr_c	HPYRDC	-a>
+h_c	HPYRDC	-a>
+co2_c	HPYRDC	-a>
+hpyr_m	HPYRDCm	-a>
+gcald_m	HPYRDCm	-a>
+co2_m	HPYRDCm	-a>
+h_m	HPYRDCm	-a>
+nad_c	HPYRR2x	-a>
+hpyr_c	HPYRR2x	-a>
+glyc_S_c	HPYRR2x	-a>
+h_c	HPYRR2x	-a>
+nadh_c	HPYRR2x	-a>
+hpyr_c	HPYRRy	-a>
+nadp_c	HPYRRy	-a>
+nadph_c	HPYRRy	-a>
+h_c	HPYRRy	-a>
+glyc_R_c	HPYRRy	-a>
+atp_c	KHK2	-a>
+xylu_D_c	KHK2	-a>
+adp_c	KHK2	-a>
+h_c	KHK2	-a>
+xu1p_D_c	KHK2	-a>
+pi_c	PGLYCP	-a>
+h2o_c	PGLYCP	-a>
+glyclt_c	PGLYCP	-a>
+2pglyc_c	PGLYCP	-a>

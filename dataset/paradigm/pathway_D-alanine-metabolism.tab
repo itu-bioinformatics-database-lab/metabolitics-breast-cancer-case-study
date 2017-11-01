@@ -1,0 +1,25 @@
+protein	ala_D_c
+protein	ala_D_x
+protein	h2o2_x
+protein	h2o_x
+protein	h_c
+protein	h_x
+protein	nh4_x
+protein	o2_x
+protein	pyr_c
+protein	pyr_x
+abstract	DALAOXx
+abstract	DALAxt
+abstract	PYRt2p
+nh4_x	DALAOXx	-a>
+o2_x	DALAOXx	-a>
+h2o_x	DALAOXx	-a>
+pyr_x	DALAOXx	-a>
+h2o2_x	DALAOXx	-a>
+ala_D_x	DALAOXx	-a>
+ala_D_c	DALAxt	-a>
+ala_D_x	DALAxt	-a>
+pyr_c	PYRt2p	-a>
+pyr_x	PYRt2p	-a>
+h_c	PYRt2p	-a>
+h_x	PYRt2p	-a>

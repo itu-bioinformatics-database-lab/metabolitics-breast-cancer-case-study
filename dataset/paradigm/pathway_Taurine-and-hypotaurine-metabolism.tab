@@ -1,0 +1,56 @@
+protein	3sala_c
+protein	Lcyst_c
+protein	co2_c
+protein	cys_L_c
+protein	cysam_c
+protein	h2o_c
+protein	h_c
+protein	hyptaur_c
+protein	na1_c
+protein	na1_x
+protein	nad_c
+protein	nadh_c
+protein	o2_c
+protein	taur_c
+protein	taur_x
+abstract	3SALACBOXL
+abstract	3SALAOX
+abstract	CYSO
+abstract	HYPTROX
+abstract	LCYSTCBOXL
+abstract	r0381
+abstract	r0539
+abstract	TAURtcx
+hyptaur_c	3SALACBOXL	-a>
+h_c	3SALACBOXL	-a>
+3sala_c	3SALACBOXL	-a>
+co2_c	3SALACBOXL	-a>
+o2_c	3SALAOX	-a>
+h_c	3SALAOX	-a>
+3sala_c	3SALAOX	-a>
+Lcyst_c	3SALAOX	-a>
+cys_L_c	CYSO	-a>
+h_c	CYSO	-a>
+3sala_c	CYSO	-a>
+o2_c	CYSO	-a>
+hyptaur_c	HYPTROX	-a>
+taur_c	HYPTROX	-a>
+o2_c	HYPTROX	-a>
+co2_c	LCYSTCBOXL	-a>
+taur_c	LCYSTCBOXL	-a>
+h_c	LCYSTCBOXL	-a>
+Lcyst_c	LCYSTCBOXL	-a>
+nad_c	r0381	-a>
+hyptaur_c	r0381	-a>
+h2o_c	r0381	-a>
+taur_c	r0381	-a>
+h_c	r0381	-a>
+nadh_c	r0381	-a>
+cysam_c	r0539	-a>
+hyptaur_c	r0539	-a>
+h_c	r0539	-a>
+o2_c	r0539	-a>
+na1_c	TAURtcx	-a>
+taur_x	TAURtcx	-a>
+taur_c	TAURtcx	-a>
+na1_x	TAURtcx	-a>

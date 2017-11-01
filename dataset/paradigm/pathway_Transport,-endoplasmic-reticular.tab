@@ -1,0 +1,809 @@
+protein	11docrtsl_c
+protein	11docrtsl_r
+protein	11docrtstrn_c
+protein	11docrtstrn_r
+protein	13_cis_retn_c
+protein	13_cis_retn_r
+protein	13_cis_retnglc_c
+protein	13_cis_retnglc_e
+protein	13_cis_retnglc_r
+protein	4mptnl_c
+protein	4mptnl_r
+protein	5HPET_c
+protein	5HPET_r
+protein	5adtststerone_c
+protein	5adtststerone_r
+protein	5adtststeroneglc_c
+protein	5adtststeroneglc_r
+protein	6htststerone_c
+protein	6htststerone_r
+protein	7dhchsterol_c
+protein	7dhchsterol_r
+protein	Asn_X_Ser_Thr_l
+protein	Asn_X_Ser_Thr_r
+protein	C02528_c
+protein	C02528_r
+protein	dlnlcg_r
+protein	HC01231_c
+protein	HC01231_m
+protein	HC02198_c
+protein	HC02198_e
+protein	hdcecrn_r
+protein	lneldccrn_r
+protein	HC10859_c
+protein	HC10859_r
+protein	acald_c
+protein	acald_r
+protein	accoa_c
+protein	accoa_r
+protein	acgam_c
+protein	acgam_l
+protein	acgam_r
+protein	acmana_e
+protein	acmana_r
+protein	acrn_c
+protein	acrn_r
+protein	adp_c
+protein	adp_r
+protein	ahandrostanglc_c
+protein	ahandrostanglc_r
+protein	ahcys_c
+protein	ahcys_r
+protein	amet_c
+protein	amet_r
+protein	amp_c
+protein	amp_r
+protein	andrstrn_c
+protein	andrstrn_r
+protein	andrstrnglc_c
+protein	andrstrnglc_r
+protein	arachd_c
+protein	arachd_l
+protein	arachd_r
+protein	atp_c
+protein	atp_r
+protein	bildglcur_c
+protein	bildglcur_r
+protein	bilglcur_c
+protein	bilglcur_r
+protein	bilirub_c
+protein	bilirub_r
+protein	bz_c
+protein	bz_r
+protein	cbp_c
+protein	cbp_r
+protein	cdpchol_c
+protein	cdpchol_r
+protein	chol_c
+protein	chol_r
+protein	cholate_c
+protein	cholate_r
+protein	cholcoa_c
+protein	cholcoa_r
+protein	chsterol_c
+protein	chsterol_l
+protein	chsterol_r
+protein	cmp_c
+protein	cmp_r
+protein	co2_c
+protein	co2_r
+protein	coa_c
+protein	coa_r
+protein	crm_hs_c
+protein	crm_hs_r
+protein	crn_c
+protein	crn_r
+protein	crtsl_c
+protein	crtsl_r
+protein	crtstrn_c
+protein	crtstrn_r
+protein	dag_hs_c
+protein	dag_hs_r
+protein	dcholcoa_c
+protein	dcholcoa_r
+protein	dhcholestanate_c
+protein	dhcholestanate_r
+protein	dhea_c
+protein	dhea_r
+protein	dlnlcg_c
+protein	dlnlcgcoa_c
+protein	dlnlcgcoa_r
+protein	ebastine_c
+protein	ebastine_r
+protein	ebastineoh_c
+protein	ebastineoh_r
+protein	estradiol_c
+protein	estradiol_r
+protein	estradiolglc_c
+protein	estradiolglc_r
+protein	estriol_c
+protein	estriol_r
+protein	estriolglc_c
+protein	estriolglc_r
+protein	estrone_c
+protein	estrone_r
+protein	estroneglc_c
+protein	estroneglc_r
+protein	fad_c
+protein	fad_r
+protein	fadh2_c
+protein	fadh2_r
+protein	for_c
+protein	for_r
+protein	frdp_c
+protein	frdp_r
+protein	g6p_c
+protein	g6p_r
+protein	gacpail_hs_c
+protein	gacpail_hs_r
+protein	glac_c
+protein	glac_r
+protein	glc_D_c
+protein	glc_D_r
+protein	glcur_c
+protein	glcur_r
+protein	glu_L_c
+protein	glu_L_r
+protein	gluside_hs_c
+protein	gluside_hs_r
+protein	gthrd_c
+protein	gthrd_r
+protein	gullac_c
+protein	gullac_r
+protein	guln_c
+protein	guln_r
+protein	h2o_c
+protein	h2o_r
+protein	h_c
+protein	h_r
+protein	hdcea_c
+protein	hdcea_l
+protein	hdcea_r
+protein	hdcecrn_c
+protein	hestratriol_c
+protein	hestratriol_r
+protein	inost_c
+protein	inost_r
+protein	ipdp_c
+protein	ipdp_r
+protein	leuktrA4_c
+protein	leuktrA4_r
+protein	leuktrB4_c
+protein	leuktrB4_r
+protein	leuktrD4_c
+protein	leuktrD4_r
+protein	lneldccrn_c
+protein	lnlc_c
+protein	lnlc_r
+protein	lnlccoa_c
+protein	lnlccoa_r
+protein	lnlnca_c
+protein	lnlnca_r
+protein	lnlncg_c
+protein	lnlncg_r
+protein	lnlncgcoa_c
+protein	lnlncgcoa_r
+protein	man_c
+protein	man_r
+protein	meoh_c
+protein	meoh_r
+protein	na1_c
+protein	na1_r
+protein	nad_c
+protein	nad_r
+protein	nadh_c
+protein	nadh_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	o2_c
+protein	o2_r
+protein	ocdcea_c
+protein	ocdcea_r
+protein	pa_hs_c
+protein	pa_hs_r
+protein	pchol_hs_c
+protein	pchol_hs_r
+protein	pe_hs_c
+protein	pe_hs_r
+protein	pi_c
+protein	pi_r
+protein	hdca_c
+protein	hdca_l
+protein	hdca_r
+protein	pmtcoa_c
+protein	pmtcoa_r
+protein	pmtcrn_c
+protein	pmtcrn_r
+protein	ppi_c
+protein	ppi_r
+protein	prgnlone_c
+protein	prgnlone_r
+protein	prostgi2_c
+protein	prostgi2_r
+protein	ps_hs_c
+protein	ps_hs_r
+protein	r5p_c
+protein	r5p_r
+protein	retn_c
+protein	retn_r
+protein	retnglc_c
+protein	retnglc_r
+protein	ru5p_D_c
+protein	ru5p_D_r
+protein	sph1p_c
+protein	sph1p_r
+protein	sphgn_c
+protein	sphgn_r
+protein	sphings_c
+protein	sphings_r
+protein	sphs1p_c
+protein	sphs1p_r
+protein	strdnc_c
+protein	strdnc_r
+protein	thcholstoic_c
+protein	thcholstoic_r
+protein	tmlys_c
+protein	tmlys_r
+protein	tststerone_c
+protein	tststerone_r
+protein	tststeroneglc_c
+protein	tststeroneglc_r
+protein	txa2_c
+protein	txa2_r
+protein	uacgam_c
+protein	uacgam_r
+protein	udpacgal_c
+protein	udpacgal_r
+protein	udpg_c
+protein	udpg_r
+protein	udpglcur_c
+protein	udpglcur_r
+protein	udpxyl_c
+protein	udpxyl_r
+protein	ump_c
+protein	ump_r
+protein	xol7ah2_c
+protein	xol7ah2_r
+protein	xol7aone_c
+protein	xol7aone_r
+protein	xoldiolone_c
+protein	xoldiolone_m
+protein	xoldiolone_r
+protein	xoltri24_c
+protein	xoltri24_r
+protein	xoltri25_c
+protein	xoltri25_r
+protein	xoltri27_c
+protein	xoltri27_r
+protein	xoltriol_c
+protein	xoltriol_r
+protein	ocdca_l
+protein	ocdca_r
+abstract	11DOCRTSLtr
+abstract	11DOCRTSTRNtr
+abstract	4MPTNLtr
+abstract	5ADTSTSTERONEGLCtr
+abstract	5ADTSTSTERONEtr
+abstract	6HTSTSTERONEtr
+abstract	7DHCHSTEROLtr
+abstract	ACALDtr
+abstract	ACCOAtr
+abstract	AHANDROSTANGLCtr
+abstract	AHCYStr
+abstract	AMETr
+abstract	AMPtr
+abstract	ANDRSTRNGLCtr
+abstract	ANDRSTRNtr
+abstract	ARACHDtr
+abstract	Asn_X_Ser_Thrtr
+abstract	ATP1ter
+abstract	ATP2ter
+abstract	BILDGLCURtr
+abstract	BILGLCURtr
+abstract	BILIRUBtr
+abstract	BZtr
+abstract	CBPter
+abstract	CERT1rt
+abstract	CERT2rt
+abstract	CHOLtr
+abstract	CO2ter
+abstract	COAtr
+abstract	CRTSLtr
+abstract	CRTSTRNtr
+abstract	DAG_HSter
+abstract	DHEAtr
+abstract	EBASTINEOHtr
+abstract	EBASTINEtr
+abstract	ESTRADIOLGLCtr
+abstract	ESTRADIOLtr
+abstract	ESTRIOLGLCtr
+abstract	ESTRIOLtr
+abstract	ESTRONEGLCtr
+abstract	ESTRONEtr
+abstract	FADH2tru
+abstract	FADtru
+abstract	FORtr
+abstract	G6Pter
+abstract	GACPAILter
+abstract	GLACter
+abstract	GLCter
+abstract	GLCURter
+abstract	GLUtr
+abstract	GTHRDtr
+abstract	GULLACter
+abstract	GULNter
+abstract	H2Oter
+abstract	HDCAter
+abstract	HESTRATRIOLtr
+abstract	Htr
+abstract	IPDPtr
+abstract	LEUKTRA4tr
+abstract	LEUKTRB4tr
+abstract	LEUKTRD4tr
+abstract	MANter
+abstract	MEOHtr
+abstract	NADHtru
+abstract	NADPHtru
+abstract	NADPtru
+abstract	NADtru
+abstract	O2ter
+abstract	PA_HSter
+abstract	PCHOL_HSter
+abstract	PE_HSter
+abstract	PIter
+abstract	PPItr
+abstract	PRGNLONEtr
+abstract	PROSTGI2tr
+abstract	PS_HSter
+abstract	RETNGLCt2
+abstract	RETNGLCt2r
+abstract	RETNGLCtr
+abstract	RETNtr
+abstract	RETNtr2
+abstract	SPH1Ptr
+abstract	SPHGNtr
+abstract	SPHINGStr
+abstract	SPHS1Ptr
+abstract	TMLYSter
+abstract	TSTSTERONEGLCtr
+abstract	TSTSTERONEtr
+abstract	TXA2tr
+abstract	UDPGLCAter
+abstract	UDPGLCter
+abstract	UDPXYLter
+abstract	UGALNACter
+abstract	UMPtr
+abstract	XOL7AH2tr
+abstract	XOL7AONEtr
+abstract	XOLDIOLONEt
+abstract	XOLDIOLONEtm
+abstract	XOLTRI24tc
+abstract	XOLTRI25tc
+abstract	XOLTRI27tc
+abstract	XOLTRIOLtr
+abstract	r0002
+abstract	r0826
+abstract	r0840
+abstract	r0841
+abstract	r0842
+abstract	r0845
+abstract	r0886
+abstract	r0908
+abstract	r0909
+abstract	r0931
+abstract	r0936
+abstract	r0960
+abstract	r0968
+abstract	r0970
+abstract	r0983
+abstract	r0989
+abstract	r0994
+abstract	r0995
+abstract	r0998
+abstract	r1000
+abstract	r1002
+abstract	r1004
+abstract	r1010
+abstract	r1011
+abstract	r1013
+abstract	r1018
+abstract	r1024
+abstract	r1051
+abstract	r1159
+abstract	r1303
+abstract	r1318
+abstract	r2473
+abstract	r2505
+abstract	r2506
+abstract	r2507
+abstract	r2508
+abstract	r2509
+abstract	r2510
+abstract	r2511
+abstract	r2512
+abstract	r2513
+abstract	r2514
+abstract	r2515
+abstract	r2519
+abstract	r2521
+abstract	r2537
+abstract	r2538
+abstract	HPETFABP1tc
+abstract	OCDEAFABP1tc
+abstract	PMTCOAFABP1tc
+abstract	CHSTEROLtrc
+abstract	FRDPtcr
+11docrtsl_r	11DOCRTSLtr	-a>
+11docrtsl_c	11DOCRTSLtr	-a>
+11docrtstrn_r	11DOCRTSTRNtr	-a>
+11docrtstrn_c	11DOCRTSTRNtr	-a>
+4mptnl_c	4MPTNLtr	-a>
+4mptnl_r	4MPTNLtr	-a>
+5adtststeroneglc_r	5ADTSTSTERONEGLCtr	-a>
+5adtststeroneglc_c	5ADTSTSTERONEGLCtr	-a>
+5adtststerone_r	5ADTSTSTERONEtr	-a>
+5adtststerone_c	5ADTSTSTERONEtr	-a>
+6htststerone_r	6HTSTSTERONEtr	-a>
+6htststerone_c	6HTSTSTERONEtr	-a>
+7dhchsterol_c	7DHCHSTEROLtr	-a>
+7dhchsterol_r	7DHCHSTEROLtr	-a>
+acald_r	ACALDtr	-a>
+acald_c	ACALDtr	-a>
+accoa_r	ACCOAtr	-a>
+accoa_c	ACCOAtr	-a>
+ahandrostanglc_r	AHANDROSTANGLCtr	-a>
+ahandrostanglc_c	AHANDROSTANGLCtr	-a>
+ahcys_r	AHCYStr	-a>
+ahcys_c	AHCYStr	-a>
+amet_r	AMETr	-a>
+amet_c	AMETr	-a>
+amp_c	AMPtr	-a>
+amp_r	AMPtr	-a>
+andrstrnglc_c	ANDRSTRNGLCtr	-a>
+andrstrnglc_r	ANDRSTRNGLCtr	-a>
+andrstrn_c	ANDRSTRNtr	-a>
+andrstrn_r	ANDRSTRNtr	-a>
+arachd_c	ARACHDtr	-a>
+arachd_r	ARACHDtr	-a>
+Asn_X_Ser_Thr_l	Asn_X_Ser_Thrtr	-a>
+Asn_X_Ser_Thr_r	Asn_X_Ser_Thrtr	-a>
+atp_c	ATP1ter	-a>
+adp_c	ATP1ter	-a>
+adp_r	ATP1ter	-a>
+atp_r	ATP1ter	-a>
+amp_c	ATP2ter	-a>
+amp_r	ATP2ter	-a>
+atp_c	ATP2ter	-a>
+atp_r	ATP2ter	-a>
+bildglcur_r	BILDGLCURtr	-a>
+bildglcur_c	BILDGLCURtr	-a>
+bilglcur_r	BILGLCURtr	-a>
+bilglcur_c	BILGLCURtr	-a>
+bilirub_r	BILIRUBtr	-a>
+bilirub_c	BILIRUBtr	-a>
+bz_r	BZtr	-a>
+bz_c	BZtr	-a>
+pi_r	CBPter	-a>
+cbp_c	CBPter	-a>
+pi_c	CBPter	-a>
+ppi_c	CBPter	-a>
+cbp_r	CBPter	-a>
+ppi_r	CBPter	-a>
+crm_hs_c	CERT1rt	-a>
+crm_hs_r	CERT1rt	-a>
+gluside_hs_c	CERT2rt	-a>
+gluside_hs_r	CERT2rt	-a>
+chol_r	CHOLtr	-a>
+chol_c	CHOLtr	-a>
+co2_r	CO2ter	-a>
+co2_c	CO2ter	-a>
+coa_c	COAtr	-a>
+coa_r	COAtr	-a>
+crtsl_r	CRTSLtr	-a>
+crtsl_c	CRTSLtr	-a>
+crtstrn_c	CRTSTRNtr	-a>
+crtstrn_r	CRTSTRNtr	-a>
+dag_hs_r	DAG_HSter	-a>
+dag_hs_c	DAG_HSter	-a>
+dhea_r	DHEAtr	-a>
+dhea_c	DHEAtr	-a>
+ebastineoh_r	EBASTINEOHtr	-a>
+ebastineoh_c	EBASTINEOHtr	-a>
+ebastine_c	EBASTINEtr	-a>
+ebastine_r	EBASTINEtr	-a>
+estradiolglc_c	ESTRADIOLGLCtr	-a>
+estradiolglc_r	ESTRADIOLGLCtr	-a>
+estradiol_r	ESTRADIOLtr	-a>
+estradiol_c	ESTRADIOLtr	-a>
+estriolglc_r	ESTRIOLGLCtr	-a>
+estriolglc_c	ESTRIOLGLCtr	-a>
+estriol_c	ESTRIOLtr	-a>
+estriol_r	ESTRIOLtr	-a>
+estroneglc_r	ESTRONEGLCtr	-a>
+estroneglc_c	ESTRONEGLCtr	-a>
+estrone_r	ESTRONEtr	-a>
+estrone_c	ESTRONEtr	-a>
+fadh2_r	FADH2tru	-a>
+fadh2_c	FADH2tru	-a>
+fad_c	FADtru	-a>
+fad_r	FADtru	-a>
+for_c	FORtr	-a>
+for_r	FORtr	-a>
+g6p_r	G6Pter	-a>
+g6p_c	G6Pter	-a>
+gacpail_hs_r	GACPAILter	-a>
+gacpail_hs_c	GACPAILter	-a>
+glac_r	GLACter	-a>
+glac_c	GLACter	-a>
+glc_D_r	GLCter	-a>
+glc_D_c	GLCter	-a>
+glcur_c	GLCURter	-a>
+glcur_r	GLCURter	-a>
+glu_L_c	GLUtr	-a>
+glu_L_r	GLUtr	-a>
+gthrd_c	GTHRDtr	-a>
+gthrd_r	GTHRDtr	-a>
+gullac_c	GULLACter	-a>
+gullac_r	GULLACter	-a>
+guln_c	GULNter	-a>
+guln_r	GULNter	-a>
+h2o_c	H2Oter	-a>
+h2o_r	H2Oter	-a>
+hdca_r	HDCAter	-a>
+hdca_c	HDCAter	-a>
+hestratriol_r	HESTRATRIOLtr	-a>
+hestratriol_c	HESTRATRIOLtr	-a>
+h_r	Htr	-a>
+h_c	Htr	-a>
+ipdp_r	IPDPtr	-a>
+ipdp_c	IPDPtr	-a>
+leuktrA4_c	LEUKTRA4tr	-a>
+leuktrA4_r	LEUKTRA4tr	-a>
+leuktrB4_c	LEUKTRB4tr	-a>
+leuktrB4_r	LEUKTRB4tr	-a>
+leuktrD4_r	LEUKTRD4tr	-a>
+leuktrD4_c	LEUKTRD4tr	-a>
+man_r	MANter	-a>
+man_c	MANter	-a>
+meoh_r	MEOHtr	-a>
+meoh_c	MEOHtr	-a>
+nadh_r	NADHtru	-a>
+nadh_c	NADHtru	-a>
+nadph_r	NADPHtru	-a>
+nadph_c	NADPHtru	-a>
+nadp_c	NADPtru	-a>
+nadp_r	NADPtru	-a>
+nad_c	NADtru	-a>
+nad_r	NADtru	-a>
+o2_r	O2ter	-a>
+o2_c	O2ter	-a>
+pa_hs_r	PA_HSter	-a>
+pa_hs_c	PA_HSter	-a>
+pchol_hs_r	PCHOL_HSter	-a>
+pchol_hs_c	PCHOL_HSter	-a>
+pe_hs_c	PE_HSter	-a>
+pe_hs_r	PE_HSter	-a>
+pi_c	PIter	-a>
+pi_r	PIter	-a>
+ppi_c	PPItr	-a>
+ppi_r	PPItr	-a>
+prgnlone_c	PRGNLONEtr	-a>
+prgnlone_r	PRGNLONEtr	-a>
+prostgi2_r	PROSTGI2tr	-a>
+prostgi2_c	PROSTGI2tr	-a>
+ps_hs_r	PS_HSter	-a>
+ps_hs_c	PS_HSter	-a>
+13_cis_retnglc_e	RETNGLCt2	-a>
+13_cis_retnglc_c	RETNGLCt2	-a>
+13_cis_retnglc_r	RETNGLCt2r	-a>
+13_cis_retnglc_c	RETNGLCt2r	-a>
+retnglc_r	RETNGLCtr	-a>
+retnglc_c	RETNGLCtr	-a>
+retn_c	RETNtr	-a>
+retn_r	RETNtr	-a>
+13_cis_retn_r	RETNtr2	-a>
+13_cis_retn_c	RETNtr2	-a>
+sph1p_c	SPH1Ptr	-a>
+sph1p_r	SPH1Ptr	-a>
+sphgn_c	SPHGNtr	-a>
+sphgn_r	SPHGNtr	-a>
+sphings_r	SPHINGStr	-a>
+sphings_c	SPHINGStr	-a>
+sphs1p_r	SPHS1Ptr	-a>
+sphs1p_c	SPHS1Ptr	-a>
+tmlys_c	TMLYSter	-a>
+tmlys_r	TMLYSter	-a>
+tststeroneglc_c	TSTSTERONEGLCtr	-a>
+tststeroneglc_r	TSTSTERONEGLCtr	-a>
+tststerone_c	TSTSTERONEtr	-a>
+tststerone_r	TSTSTERONEtr	-a>
+txa2_r	TXA2tr	-a>
+txa2_c	TXA2tr	-a>
+ump_c	UDPGLCAter	-a>
+udpglcur_r	UDPGLCAter	-a>
+udpglcur_c	UDPGLCAter	-a>
+ump_r	UDPGLCAter	-a>
+udpg_r	UDPGLCter	-a>
+ump_c	UDPGLCter	-a>
+udpg_c	UDPGLCter	-a>
+ump_r	UDPGLCter	-a>
+udpxyl_c	UDPXYLter	-a>
+ump_c	UDPXYLter	-a>
+ump_r	UDPXYLter	-a>
+udpxyl_r	UDPXYLter	-a>
+udpacgal_c	UGALNACter	-a>
+udpacgal_r	UGALNACter	-a>
+ump_c	UGALNACter	-a>
+ump_r	UGALNACter	-a>
+ump_c	UMPtr	-a>
+ump_r	UMPtr	-a>
+xol7ah2_r	XOL7AH2tr	-a>
+xol7ah2_c	XOL7AH2tr	-a>
+xol7aone_r	XOL7AONEtr	-a>
+xol7aone_c	XOL7AONEtr	-a>
+xoldiolone_r	XOLDIOLONEt	-a>
+xoldiolone_c	XOLDIOLONEt	-a>
+xoldiolone_r	XOLDIOLONEtm	-a>
+xoldiolone_m	XOLDIOLONEtm	-a>
+xoltri24_r	XOLTRI24tc	-a>
+xoltri24_c	XOLTRI24tc	-a>
+xoltri25_r	XOLTRI25tc	-a>
+xoltri25_c	XOLTRI25tc	-a>
+xoltri27_r	XOLTRI27tc	-a>
+xoltri27_c	XOLTRI27tc	-a>
+xoltriol_r	XOLTRIOLtr	-a>
+xoltriol_c	XOLTRIOLtr	-a>
+crn_c	r0002	-a>
+crn_r	r0002	-a>
+inost_r	r0826	-a>
+inost_c	r0826	-a>
+r5p_r	r0840	-a>
+r5p_c	r0840	-a>
+ru5p_D_r	r0841	-a>
+ru5p_D_c	r0841	-a>
+udpg_r	r0842	-a>
+udpg_c	r0842	-a>
+ump_c	r0845	-a>
+uacgam_r	r0845	-a>
+uacgam_c	r0845	-a>
+ump_r	r0845	-a>
+cmp_r	r0886	-a>
+cmp_c	r0886	-a>
+acgam_r	r0908	-a>
+acgam_c	r0908	-a>
+acgam_r	r0909	-a>
+acgam_l	r0909	-a>
+arachd_l	r0931	-a>
+arachd_r	r0931	-a>
+hdca_r	r0936	-a>
+hdca_l	r0936	-a>
+na1_c	r0960	-a>
+na1_r	r0960	-a>
+bilirub_r	r0960	-a>
+bilirub_c	r0960	-a>
+acmana_e	r0968	-a>
+acmana_r	r0968	-a>
+cholate_c	r0970	-a>
+cholate_r	r0970	-a>
+ocdca_r	r0983	-a>
+ocdca_l	r0983	-a>
+cholcoa_r	r0989	-a>
+cholcoa_c	r0989	-a>
+C02528_r	r0994	-a>
+C02528_c	r0994	-a>
+acrn_r	r0995	-a>
+crn_c	r0995	-a>
+crn_r	r0995	-a>
+acrn_c	r0995	-a>
+pmtcrn_c	r0998	-a>
+crn_c	r0998	-a>
+crn_r	r0998	-a>
+pmtcrn_r	r0998	-a>
+hdcecrn_c	r1000	-a>
+crn_c	r1000	-a>
+crn_r	r1000	-a>
+hdcecrn_r	r1000	-a>
+lneldccrn_r	r1002	-a>
+crn_r	r1002	-a>
+crn_c	r1002	-a>
+lneldccrn_c	r1002	-a>
+crn_r	r1004	-a>
+crn_c	r1004	-a>
+HC10859_r	r1004	-a>
+HC10859_c	r1004	-a>
+HC01231_m	r1010	-a>
+HC01231_c	r1010	-a>
+dhcholestanate_r	r1011	-a>
+dhcholestanate_c	r1011	-a>
+thcholstoic_r	r1013	-a>
+thcholstoic_c	r1013	-a>
+dcholcoa_r	r1018	-a>
+dcholcoa_c	r1018	-a>
+xol7aone_c	r1024	-a>
+adp_r	r1024	-a>
+h2o_r	r1024	-a>
+xol7aone_r	r1024	-a>
+h_r	r1024	-a>
+pi_r	r1024	-a>
+atp_r	r1024	-a>
+chsterol_l	r1051	-a>
+chsterol_r	r1051	-a>
+cdpchol_c	r1159	-a>
+cdpchol_r	r1159	-a>
+hdcea_r	r1303	-a>
+hdcea_l	r1303	-a>
+lnlccoa_r	r1318	-a>
+lnlccoa_c	r1318	-a>
+pi_c	r2473	-a>
+g6p_r	r2473	-a>
+pi_r	r2473	-a>
+g6p_c	r2473	-a>
+h2o_c	r2505	-a>
+h_c	r2505	-a>
+HC02198_c	r2505	-a>
+pi_c	r2505	-a>
+HC02198_e	r2505	-a>
+atp_c	r2505	-a>
+adp_c	r2505	-a>
+na1_c	r2506	-a>
+pi_c	r2506	-a>
+na1_r	r2506	-a>
+pi_r	r2506	-a>
+crn_r	r2507	-a>
+crn_c	r2507	-a>
+arachd_r	r2507	-a>
+arachd_c	r2507	-a>
+hdca_r	r2508	-a>
+crn_c	r2508	-a>
+crn_r	r2508	-a>
+hdca_c	r2508	-a>
+crn_r	r2509	-a>
+crn_c	r2509	-a>
+ocdcea_r	r2509	-a>
+ocdcea_c	r2509	-a>
+strdnc_r	r2510	-a>
+crn_c	r2510	-a>
+crn_r	r2510	-a>
+strdnc_c	r2510	-a>
+lnlc_c	r2511	-a>
+crn_c	r2511	-a>
+crn_r	r2511	-a>
+lnlc_r	r2511	-a>
+crn_c	r2512	-a>
+lnlncg_c	r2512	-a>
+crn_r	r2512	-a>
+lnlncg_r	r2512	-a>
+crn_c	r2513	-a>
+lnlnca_c	r2513	-a>
+crn_r	r2513	-a>
+lnlnca_r	r2513	-a>
+hdcea_r	r2514	-a>
+crn_c	r2514	-a>
+hdcea_c	r2514	-a>
+crn_r	r2514	-a>
+dlnlcg_r	r2515	-a>
+dlnlcg_c	r2515	-a>
+crn_c	r2515	-a>
+crn_r	r2515	-a>
+udpglcur_r	r2519	-a>
+udpglcur_c	r2519	-a>
+pi_c	r2521	-a>
+ppi_c	r2521	-a>
+pi_r	r2521	-a>
+ppi_r	r2521	-a>
+lnlncgcoa_r	r2537	-a>
+lnlncgcoa_c	r2537	-a>
+dlnlcgcoa_r	r2538	-a>
+dlnlcgcoa_c	r2538	-a>
+5HPET_c	HPETFABP1tc	-a>
+5HPET_r	HPETFABP1tc	-a>
+ocdcea_c	OCDEAFABP1tc	-a>
+ocdcea_r	OCDEAFABP1tc	-a>
+pmtcoa_r	PMTCOAFABP1tc	-a>
+pmtcoa_c	PMTCOAFABP1tc	-a>
+chsterol_c	CHSTEROLtrc	-a>
+chsterol_r	CHSTEROLtrc	-a>
+frdp_c	FRDPtcr	-a>
+frdp_r	FRDPtcr	-a>

@@ -1,0 +1,98 @@
+protein	amp_c
+protein	amp_m
+protein	apoC_Lys_btn_c
+protein	apoC_Lys_btn_m
+protein	apoC_Lys_c
+protein	apoC_Lys_m
+protein	apoC_c
+protein	apoC_m
+protein	atp_c
+protein	atp_m
+protein	biocyt_c
+protein	biocyt_e
+protein	biocyt_m
+protein	biocyt_n
+protein	btamp_c
+protein	btamp_m
+protein	btn_c
+protein	btn_e
+protein	btn_m
+protein	btn_n
+protein	h2o_c
+protein	h2o_e
+protein	h2o_m
+protein	h2o_n
+protein	h_c
+protein	h_m
+protein	lys_L_c
+protein	lys_L_e
+protein	lys_L_m
+protein	lys_L_n
+protein	ppi_c
+protein	ppi_m
+abstract	APOCF
+abstract	APOCFm
+abstract	APOC_LYS_BTNP
+abstract	APOC_LYS_BTNPm
+abstract	BACCL
+abstract	BACCLm
+abstract	BTND1
+abstract	BTND1n
+abstract	BTNDe
+abstract	BTNDm
+abstract	BTNPL
+abstract	BTNPLm
+h_c	APOCF	-a>
+lys_L_c	APOCF	-a>
+apoC_c	APOCF	-a>
+apoC_Lys_c	APOCF	-a>
+h2o_c	APOCF	-a>
+h2o_m	APOCFm	-a>
+apoC_Lys_m	APOCFm	-a>
+h_m	APOCFm	-a>
+lys_L_m	APOCFm	-a>
+apoC_m	APOCFm	-a>
+h2o_c	APOC_LYS_BTNP	-a>
+biocyt_c	APOC_LYS_BTNP	-a>
+apoC_c	APOC_LYS_BTNP	-a>
+apoC_Lys_btn_c	APOC_LYS_BTNP	-a>
+h2o_m	APOC_LYS_BTNPm	-a>
+apoC_m	APOC_LYS_BTNPm	-a>
+apoC_Lys_btn_m	APOC_LYS_BTNPm	-a>
+biocyt_m	APOC_LYS_BTNPm	-a>
+h_c	BACCL	-a>
+atp_c	BACCL	-a>
+btn_c	BACCL	-a>
+btamp_c	BACCL	-a>
+ppi_c	BACCL	-a>
+atp_m	BACCLm	-a>
+ppi_m	BACCLm	-a>
+btn_m	BACCLm	-a>
+h_m	BACCLm	-a>
+btamp_m	BACCLm	-a>
+lys_L_c	BTND1	-a>
+btn_c	BTND1	-a>
+biocyt_c	BTND1	-a>
+h2o_c	BTND1	-a>
+lys_L_n	BTND1n	-a>
+h2o_n	BTND1n	-a>
+btn_n	BTND1n	-a>
+biocyt_n	BTND1n	-a>
+lys_L_e	BTNDe	-a>
+biocyt_e	BTNDe	-a>
+h2o_e	BTNDe	-a>
+btn_e	BTNDe	-a>
+h2o_m	BTNDm	-a>
+btn_m	BTNDm	-a>
+biocyt_m	BTNDm	-a>
+lys_L_m	BTNDm	-a>
+amp_c	BTNPL	-a>
+btamp_c	BTNPL	-a>
+h_c	BTNPL	-a>
+apoC_Lys_c	BTNPL	-a>
+apoC_Lys_btn_c	BTNPL	-a>
+apoC_Lys_m	BTNPLm	-a>
+apoC_Lys_btn_m	BTNPLm	-a>
+h_m	BTNPLm	-a>
+btamp_m	BTNPLm	-a>
+amp_m	BTNPLm	-a>

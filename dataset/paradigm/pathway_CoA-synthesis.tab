@@ -1,0 +1,142 @@
+protein	3hpcoa_m
+protein	3hpp_m
+protein	4ppan_c
+protein	4ppan_m
+protein	4ppcys_c
+protein	4ppcys_m
+protein	HC01231_c
+protein	adp_c
+protein	adp_m
+protein	amp_c
+protein	amp_e
+protein	atp_c
+protein	atp_m
+protein	cmp_c
+protein	co2_c
+protein	co2_m
+protein	coa_c
+protein	coa_m
+protein	ctp_c
+protein	cys_L_c
+protein	dpcoa_c
+protein	dpcoa_e
+protein	dpcoa_m
+protein	h2o_c
+protein	h2o_e
+protein	h2o_m
+protein	h_c
+protein	h_e
+protein	h_m
+protein	pan4p_c
+protein	pan4p_e
+protein	pan4p_m
+protein	pi_e
+protein	pnto_R_c
+protein	pnto_R_m
+protein	ppi_c
+protein	ppi_m
+protein	ptth_c
+protein	ptth_e
+protein	ptth_m
+abstract	DPCOAK
+abstract	PNTK
+abstract	PNTKm
+abstract	PPCDC
+abstract	PPNCL3
+abstract	PTPAT
+abstract	r0033
+abstract	r0578
+abstract	r0579
+abstract	r0580
+abstract	r0590
+abstract	r0591
+abstract	r0596
+abstract	r0614
+abstract	r0671
+abstract	DPCOAPPe
+abstract	PAN4PPe
+coa_c	DPCOAK	-a>
+atp_c	DPCOAK	-a>
+dpcoa_c	DPCOAK	-a>
+h_c	DPCOAK	-a>
+adp_c	DPCOAK	-a>
+atp_c	PNTK	-a>
+4ppan_c	PNTK	-a>
+adp_c	PNTK	-a>
+pnto_R_c	PNTK	-a>
+h_c	PNTK	-a>
+atp_m	PNTKm	-a>
+4ppan_m	PNTKm	-a>
+h_m	PNTKm	-a>
+pnto_R_m	PNTKm	-a>
+adp_m	PNTKm	-a>
+4ppcys_c	PPCDC	-a>
+h_c	PPCDC	-a>
+pan4p_c	PPCDC	-a>
+co2_c	PPCDC	-a>
+amp_c	PPNCL3	-a>
+4ppcys_c	PPNCL3	-a>
+h_c	PPNCL3	-a>
+cys_L_c	PPNCL3	-a>
+4ppan_c	PPNCL3	-a>
+ppi_c	PPNCL3	-a>
+atp_c	PPNCL3	-a>
+atp_c	PTPAT	-a>
+dpcoa_c	PTPAT	-a>
+h_c	PTPAT	-a>
+pan4p_c	PTPAT	-a>
+ppi_c	PTPAT	-a>
+atp_m	r0033	-a>
+h_m	r0033	-a>
+coa_m	r0033	-a>
+adp_m	r0033	-a>
+dpcoa_m	r0033	-a>
+ptth_c	r0578	-a>
+atp_c	r0578	-a>
+adp_c	r0578	-a>
+pan4p_c	r0578	-a>
+h_c	r0578	-a>
+atp_m	r0579	-a>
+ptth_m	r0579	-a>
+h_m	r0579	-a>
+pan4p_m	r0579	-a>
+adp_m	r0579	-a>
+ptth_c	r0580	-a>
+co2_c	r0580	-a>
+HC01231_c	r0580	-a>
+h_c	r0580	-a>
+atp_m	r0590	-a>
+ppi_m	r0590	-a>
+h_m	r0590	-a>
+pan4p_m	r0590	-a>
+dpcoa_m	r0590	-a>
+amp_c	r0591	-a>
+h2o_c	r0591	-a>
+dpcoa_c	r0591	-a>
+h_c	r0591	-a>
+pan4p_c	r0591	-a>
+h2o_m	r0596	-a>
+3hpcoa_m	r0596	-a>
+h_m	r0596	-a>
+coa_m	r0596	-a>
+3hpp_m	r0596	-a>
+4ppcys_m	r0614	-a>
+h_m	r0614	-a>
+pan4p_m	r0614	-a>
+co2_m	r0614	-a>
+4ppcys_c	r0671	-a>
+ctp_c	r0671	-a>
+h_c	r0671	-a>
+cys_L_c	r0671	-a>
+4ppan_c	r0671	-a>
+ppi_c	r0671	-a>
+cmp_c	r0671	-a>
+dpcoa_e	DPCOAPPe	-a>
+h_e	DPCOAPPe	-a>
+pan4p_e	DPCOAPPe	-a>
+amp_e	DPCOAPPe	-a>
+h2o_e	DPCOAPPe	-a>
+pan4p_e	PAN4PPe	-a>
+ptth_e	PAN4PPe	-a>
+pi_e	PAN4PPe	-a>
+h2o_e	PAN4PPe	-a>

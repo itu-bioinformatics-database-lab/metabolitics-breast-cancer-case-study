@@ -1,0 +1,81 @@
+protein	3h26dm5coa_m
+protein	3h26dm5coa_x
+protein	apnnox_c
+protein	appnn_c
+protein	c2m26dcoa_m
+protein	c2m26dcoa_x
+protein	carveol_c
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	limnen_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadph_c
+protein	o2_c
+protein	peracd_c
+protein	peracd_m
+protein	perillyl_c
+protein	pylald_c
+protein	pylald_m
+protein	t2m26dcoa_m
+protein	t2m26dcoa_x
+abstract	C2M26DCOAHLm
+abstract	C2M26DCOAHLx
+abstract	P4502C92
+abstract	P4502C93
+abstract	P4502C94
+abstract	PYLALDOX
+abstract	PYLALDOXm
+abstract	T2M26DCOAHLm
+abstract	T2M26DCOAHLx
+h2o_m	C2M26DCOAHLm	-a>
+3h26dm5coa_m	C2M26DCOAHLm	-a>
+c2m26dcoa_m	C2M26DCOAHLm	-a>
+h2o_x	C2M26DCOAHLx	-a>
+c2m26dcoa_x	C2M26DCOAHLx	-a>
+3h26dm5coa_x	C2M26DCOAHLx	-a>
+h2o_c	P4502C92	-a>
+nadp_c	P4502C92	-a>
+h_c	P4502C92	-a>
+limnen_c	P4502C92	-a>
+carveol_c	P4502C92	-a>
+nadph_c	P4502C92	-a>
+o2_c	P4502C92	-a>
+h2o_c	P4502C93	-a>
+nadp_c	P4502C93	-a>
+h_c	P4502C93	-a>
+limnen_c	P4502C93	-a>
+nadph_c	P4502C93	-a>
+perillyl_c	P4502C93	-a>
+o2_c	P4502C93	-a>
+h2o_c	P4502C94	-a>
+nadp_c	P4502C94	-a>
+appnn_c	P4502C94	-a>
+h_c	P4502C94	-a>
+apnnox_c	P4502C94	-a>
+nadph_c	P4502C94	-a>
+o2_c	P4502C94	-a>
+nad_c	PYLALDOX	-a>
+h2o_c	PYLALDOX	-a>
+h_c	PYLALDOX	-a>
+peracd_c	PYLALDOX	-a>
+pylald_c	PYLALDOX	-a>
+nadh_c	PYLALDOX	-a>
+h2o_m	PYLALDOXm	-a>
+h_m	PYLALDOXm	-a>
+nad_m	PYLALDOXm	-a>
+nadh_m	PYLALDOXm	-a>
+peracd_m	PYLALDOXm	-a>
+pylald_m	PYLALDOXm	-a>
+t2m26dcoa_m	T2M26DCOAHLm	-a>
+h2o_m	T2M26DCOAHLm	-a>
+3h26dm5coa_m	T2M26DCOAHLm	-a>
+h2o_x	T2M26DCOAHLx	-a>
+t2m26dcoa_x	T2M26DCOAHLx	-a>
+3h26dm5coa_x	T2M26DCOAHLx	-a>

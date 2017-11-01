@@ -1,0 +1,455 @@
+protein	20ahchsterol_m
+protein	44mctr_c
+protein	44mctr_r
+protein	44mzym_r
+protein	4mzym_int1_r
+protein	4mzym_int2_r
+protein	5dpmev_x
+protein	5pmev_x
+protein	7dhchsterol_c
+protein	7dhchsterol_r
+protein	C05109_c
+protein	CE1293_c
+protein	CE2313_c
+protein	CE2313_r
+protein	CE2314_c
+protein	CE2314_r
+protein	zymstnl_c
+protein	ddsmsterol_c
+protein	ddsmsterol_n
+protein	CE5956_c
+protein	HC01118_r
+protein	R2coa_hs_r
+protein	Rtotalcoa_c
+protein	Ssq23epx_r
+protein	aacoa_c
+protein	aacoa_m
+protein	aacoa_x
+protein	acac_m
+protein	acac_x
+protein	accoa_c
+protein	accoa_m
+protein	accoa_x
+protein	adp_x
+protein	amp_m
+protein	atp_m
+protein	atp_x
+protein	chlstol_r
+protein	chsterol_c
+protein	chsterol_m
+protein	chsterol_n
+protein	chsterol_r
+protein	co2_r
+protein	co2_x
+protein	coa_c
+protein	coa_m
+protein	coa_r
+protein	coa_x
+protein	ddsmsterol_r
+protein	dmpp_c
+protein	dmpp_x
+protein	dsmsterol_c
+protein	dsmsterol_n
+protein	dsmsterol_r
+protein	fad_r
+protein	fadh2_r
+protein	for_c
+protein	for_r
+protein	frdp_c
+protein	frdp_r
+protein	frdp_x
+protein	ggdp_c
+protein	grdp_c
+protein	grdp_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_n
+protein	h_r
+protein	h_x
+protein	hmgcoa_c
+protein	hmgcoa_m
+protein	hmgcoa_r
+protein	hmgcoa_x
+protein	ipdp_c
+protein	ipdp_x
+protein	lanost_c
+protein	lanost_r
+protein	lthstrl_c
+protein	lthstrl_r
+protein	mev_R_r
+protein	mev_R_x
+protein	nad_c
+protein	nad_r
+protein	nadh_c
+protein	nadh_r
+protein	nadp_c
+protein	nadp_m
+protein	nadp_n
+protein	nadp_r
+protein	nadph_c
+protein	nadph_m
+protein	nadph_n
+protein	nadph_r
+protein	o2_c
+protein	o2_m
+protein	o2_r
+protein	pi_x
+protein	pmtcoa_c
+protein	ppi_c
+protein	ppi_m
+protein	ppi_r
+protein	ppi_x
+protein	sql_r
+protein	xolest2_hs_c
+protein	xolest2_hs_r
+protein	zym_int2_r
+protein	zymst_r
+protein	zymstnl_r
+abstract	ACACT1x
+abstract	C14STRr
+abstract	C3STDH1Pr
+abstract	C3STDH1r
+abstract	C3STKR2r
+abstract	C4STMO1r
+abstract	C4STMO2Pr
+abstract	C4STMO2r
+abstract	DHCR241r
+abstract	DHCR242r
+abstract	DHCR243r
+abstract	DHCR71r
+abstract	DHCR72r
+abstract	DMATT
+abstract	DMATTx
+abstract	DPMVDx
+abstract	EBP1r
+abstract	EBP2r
+abstract	FRTT
+abstract	GRTT
+abstract	GRTTx
+abstract	HMGCOARr
+abstract	HMGCOASi
+abstract	HMGCOASim
+abstract	HMGLm
+abstract	HMGLx
+abstract	IPDDIx
+abstract	LNS14DM
+abstract	LNSTLSr
+abstract	LSTO1r
+abstract	LSTO2r
+abstract	MEVK1x
+abstract	P450SCC1m
+abstract	PMEVKx
+abstract	SOAT12
+abstract	SOAT12r
+abstract	SQLEr
+abstract	SQLSr
+abstract	r0170
+abstract	r0321
+abstract	r0463
+abstract	r0575
+abstract	r0781
+abstract	r0783
+abstract	r1380
+abstract	RE2220C
+abstract	RE2407C
+abstract	RE2410C
+abstract	RE2410N
+abstract	RE3129N
+abstract	RE3134C
+abstract	RE3134R
+abstract	RE3136C
+abstract	RE3180C
+abstract	RE3181C
+abstract	RE3372C
+abstract	CHOLESACATc
+aacoa_x	ACACT1x	-a>
+accoa_x	ACACT1x	-a>
+coa_x	ACACT1x	-a>
+44mzym_r	C14STRr	-a>
+h_r	C14STRr	-a>
+nadph_r	C14STRr	-a>
+44mctr_r	C14STRr	-a>
+nadp_r	C14STRr	-a>
+co2_r	C3STDH1Pr	-a>
+nadp_r	C3STDH1Pr	-a>
+4mzym_int1_r	C3STDH1Pr	-a>
+h_r	C3STDH1Pr	-a>
+4mzym_int2_r	C3STDH1Pr	-a>
+nadph_r	C3STDH1Pr	-a>
+co2_r	C3STDH1r	-a>
+4mzym_int1_r	C3STDH1r	-a>
+h_r	C3STDH1r	-a>
+4mzym_int2_r	C3STDH1r	-a>
+nadh_r	C3STDH1r	-a>
+nad_r	C3STDH1r	-a>
+zym_int2_r	C3STKR2r	-a>
+h_r	C3STKR2r	-a>
+nadph_r	C3STKR2r	-a>
+zymst_r	C3STKR2r	-a>
+nadp_r	C3STKR2r	-a>
+o2_r	C4STMO1r	-a>
+nadp_r	C4STMO1r	-a>
+4mzym_int1_r	C4STMO1r	-a>
+44mzym_r	C4STMO1r	-a>
+h_r	C4STMO1r	-a>
+h2o_r	C4STMO1r	-a>
+nadph_r	C4STMO1r	-a>
+zym_int2_r	C4STMO2Pr	-a>
+co2_r	C4STMO2Pr	-a>
+nadp_r	C4STMO2Pr	-a>
+o2_r	C4STMO2Pr	-a>
+h_r	C4STMO2Pr	-a>
+4mzym_int2_r	C4STMO2Pr	-a>
+nadph_r	C4STMO2Pr	-a>
+zym_int2_r	C4STMO2r	-a>
+o2_r	C4STMO2r	-a>
+co2_r	C4STMO2r	-a>
+h_r	C4STMO2r	-a>
+4mzym_int2_r	C4STMO2r	-a>
+nadh_r	C4STMO2r	-a>
+nad_r	C4STMO2r	-a>
+zymstnl_r	DHCR241r	-a>
+fadh2_r	DHCR241r	-a>
+zymst_r	DHCR241r	-a>
+fad_r	DHCR241r	-a>
+chlstol_r	DHCR242r	-a>
+fadh2_r	DHCR242r	-a>
+lthstrl_r	DHCR242r	-a>
+fad_r	DHCR242r	-a>
+fad_r	DHCR243r	-a>
+dsmsterol_r	DHCR243r	-a>
+fadh2_r	DHCR243r	-a>
+chsterol_r	DHCR243r	-a>
+nadph_r	DHCR71r	-a>
+ddsmsterol_r	DHCR71r	-a>
+dsmsterol_r	DHCR71r	-a>
+h_r	DHCR71r	-a>
+nadp_r	DHCR71r	-a>
+h_r	DHCR72r	-a>
+7dhchsterol_r	DHCR72r	-a>
+nadph_r	DHCR72r	-a>
+nadp_r	DHCR72r	-a>
+chsterol_r	DHCR72r	-a>
+dmpp_c	DMATT	-a>
+ppi_c	DMATT	-a>
+ipdp_c	DMATT	-a>
+grdp_c	DMATT	-a>
+grdp_x	DMATTx	-a>
+ppi_x	DMATTx	-a>
+dmpp_x	DMATTx	-a>
+ipdp_x	DMATTx	-a>
+atp_x	DPMVDx	-a>
+ipdp_x	DPMVDx	-a>
+adp_x	DPMVDx	-a>
+co2_x	DPMVDx	-a>
+5dpmev_x	DPMVDx	-a>
+pi_x	DPMVDx	-a>
+chlstol_r	EBP1r	-a>
+zymst_r	EBP1r	-a>
+zymstnl_r	EBP2r	-a>
+lthstrl_r	EBP2r	-a>
+frdp_c	FRTT	-a>
+ppi_c	FRTT	-a>
+ipdp_c	FRTT	-a>
+ggdp_c	FRTT	-a>
+frdp_c	GRTT	-a>
+grdp_c	GRTT	-a>
+ipdp_c	GRTT	-a>
+ppi_c	GRTT	-a>
+ppi_x	GRTTx	-a>
+grdp_x	GRTTx	-a>
+ipdp_x	GRTTx	-a>
+frdp_x	GRTTx	-a>
+mev_R_r	HMGCOARr	-a>
+nadp_r	HMGCOARr	-a>
+h_r	HMGCOARr	-a>
+coa_r	HMGCOARr	-a>
+nadph_r	HMGCOARr	-a>
+hmgcoa_r	HMGCOARr	-a>
+coa_c	HMGCOASi	-a>
+hmgcoa_c	HMGCOASi	-a>
+accoa_c	HMGCOASi	-a>
+aacoa_c	HMGCOASi	-a>
+h2o_c	HMGCOASi	-a>
+h_c	HMGCOASi	-a>
+h2o_m	HMGCOASim	-a>
+h_m	HMGCOASim	-a>
+coa_m	HMGCOASim	-a>
+hmgcoa_m	HMGCOASim	-a>
+accoa_m	HMGCOASim	-a>
+aacoa_m	HMGCOASim	-a>
+acac_m	HMGLm	-a>
+accoa_m	HMGLm	-a>
+hmgcoa_m	HMGLm	-a>
+acac_x	HMGLx	-a>
+accoa_x	HMGLx	-a>
+hmgcoa_x	HMGLx	-a>
+dmpp_x	IPDDIx	-a>
+ipdp_x	IPDDIx	-a>
+h2o_c	LNS14DM	-a>
+nadp_c	LNS14DM	-a>
+h_c	LNS14DM	-a>
+o2_c	LNS14DM	-a>
+44mctr_c	LNS14DM	-a>
+lanost_c	LNS14DM	-a>
+for_c	LNS14DM	-a>
+nadph_c	LNS14DM	-a>
+lanost_r	LNSTLSr	-a>
+Ssq23epx_r	LNSTLSr	-a>
+chlstol_r	LSTO1r	-a>
+o2_r	LSTO1r	-a>
+nadp_r	LSTO1r	-a>
+h2o_r	LSTO1r	-a>
+h_r	LSTO1r	-a>
+ddsmsterol_r	LSTO1r	-a>
+nadph_r	LSTO1r	-a>
+o2_r	LSTO2r	-a>
+nadp_r	LSTO2r	-a>
+h2o_r	LSTO2r	-a>
+h_r	LSTO2r	-a>
+lthstrl_r	LSTO2r	-a>
+nadph_r	LSTO2r	-a>
+7dhchsterol_r	LSTO2r	-a>
+5pmev_x	MEVK1x	-a>
+atp_x	MEVK1x	-a>
+mev_R_x	MEVK1x	-a>
+h_x	MEVK1x	-a>
+adp_x	MEVK1x	-a>
+chsterol_m	P450SCC1m	-a>
+h2o_m	P450SCC1m	-a>
+nadph_m	P450SCC1m	-a>
+h_m	P450SCC1m	-a>
+20ahchsterol_m	P450SCC1m	-a>
+o2_m	P450SCC1m	-a>
+nadp_m	P450SCC1m	-a>
+5pmev_x	PMEVKx	-a>
+atp_x	PMEVKx	-a>
+5dpmev_x	PMEVKx	-a>
+adp_x	PMEVKx	-a>
+coa_c	SOAT12	-a>
+chsterol_c	SOAT12	-a>
+xolest2_hs_c	SOAT12	-a>
+pmtcoa_c	SOAT12	-a>
+xolest2_hs_r	SOAT12r	-a>
+h_r	SOAT12r	-a>
+coa_r	SOAT12r	-a>
+R2coa_hs_r	SOAT12r	-a>
+chsterol_r	SOAT12r	-a>
+Ssq23epx_r	SQLEr	-a>
+o2_r	SQLEr	-a>
+nadp_r	SQLEr	-a>
+sql_r	SQLEr	-a>
+h2o_r	SQLEr	-a>
+h_r	SQLEr	-a>
+nadph_r	SQLEr	-a>
+frdp_r	SQLSr	-a>
+nadp_r	SQLSr	-a>
+sql_r	SQLSr	-a>
+h_r	SQLSr	-a>
+nadph_r	SQLSr	-a>
+ppi_r	SQLSr	-a>
+HC01118_r	r0170	-a>
+frdp_r	r0170	-a>
+ppi_r	r0170	-a>
+acac_m	r0321	-a>
+atp_m	r0321	-a>
+coa_m	r0321	-a>
+ppi_m	r0321	-a>
+amp_m	r0321	-a>
+aacoa_m	r0321	-a>
+accoa_x	r0463	-a>
+aacoa_x	r0463	-a>
+h2o_x	r0463	-a>
+h_x	r0463	-a>
+hmgcoa_x	r0463	-a>
+coa_x	r0463	-a>
+nadp_r	r0575	-a>
+sql_r	r0575	-a>
+HC01118_r	r0575	-a>
+h_r	r0575	-a>
+nadph_r	r0575	-a>
+ppi_r	r0575	-a>
+o2_r	r0781	-a>
+nadph_r	r0781	-a>
+for_r	r0781	-a>
+nadp_r	r0781	-a>
+44mctr_r	r0781	-a>
+h2o_r	r0781	-a>
+lanost_r	r0781	-a>
+h_r	r0781	-a>
+h_r	r0783	-a>
+chlstol_r	r0783	-a>
+nadph_r	r0783	-a>
+nadp_r	r0783	-a>
+lthstrl_r	r0783	-a>
+zymstnl_r	r1380	-a>
+nadph_r	r1380	-a>
+h_r	r1380	-a>
+nadp_r	r1380	-a>
+zymst_r	r1380	-a>
+nad_c	RE2220C	-a>
+h2o_c	RE2220C	-a>
+nadh_c	RE2220C	-a>
+h_c	RE2220C	-a>
+7dhchsterol_c	RE2220C	-a>
+CE1293_c	RE2220C	-a>
+o2_c	RE2220C	-a>
+nadph_c	RE2407C	-a>
+C05109_c	RE2407C	-a>
+nadp_c	RE2407C	-a>
+lanost_c	RE2407C	-a>
+h_c	RE2407C	-a>
+nadp_c	RE2410C	-a>
+nadph_c	RE2410C	-a>
+h_c	RE2410C	-a>
+ddsmsterol_c	RE2410C	-a>
+dsmsterol_c	RE2410C	-a>
+dsmsterol_n	RE2410N	-a>
+nadp_n	RE2410N	-a>
+ddsmsterol_n	RE2410N	-a>
+h_n	RE2410N	-a>
+nadph_n	RE2410N	-a>
+dsmsterol_n	RE3129N	-a>
+nadp_n	RE3129N	-a>
+chsterol_n	RE3129N	-a>
+h_n	RE3129N	-a>
+nadph_n	RE3129N	-a>
+CE2314_c	RE3134C	-a>
+nadp_c	RE3134C	-a>
+nadph_c	RE3134C	-a>
+h_c	RE3134C	-a>
+CE2313_c	RE3134C	-a>
+CE2313_r	RE3134R	-a>
+nadph_r	RE3134R	-a>
+h_r	RE3134R	-a>
+nadp_r	RE3134R	-a>
+CE2314_r	RE3134R	-a>
+zymstnl_c	RE3136C	-a>
+lthstrl_c	RE3136C	-a>
+C05109_c	RE3180C	-a>
+nadp_c	RE3180C	-a>
+CE2313_c	RE3180C	-a>
+for_c	RE3180C	-a>
+nadph_c	RE3180C	-a>
+h2o_c	RE3180C	-a>
+o2_c	RE3180C	-a>
+44mctr_c	RE3181C	-a>
+nadp_c	RE3181C	-a>
+lanost_c	RE3181C	-a>
+for_c	RE3181C	-a>
+nadph_c	RE3181C	-a>
+h2o_c	RE3181C	-a>
+o2_c	RE3181C	-a>
+frdp_c	RE3372C	-a>
+dmpp_c	RE3372C	-a>
+CE5956_c	RE3372C	-a>
+ppi_c	RE3372C	-a>
+coa_c	CHOLESACATc	-a>
+xolest2_hs_c	CHOLESACATc	-a>
+chsterol_c	CHOLESACATc	-a>
+h_c	CHOLESACATc	-a>
+Rtotalcoa_c	CHOLESACATc	-a>

@@ -1,0 +1,130 @@
+protein	3mlda_c
+protein	3mldz_c
+protein	4izp_c
+protein	5forthf_c
+protein	CE2065_c
+protein	CE2088_c
+protein	CE2089_c
+protein	CE7218_c
+protein	CE7220_c
+protein	ac_c
+protein	accoa_c
+protein	ahcys_c
+protein	amet_c
+protein	carn_c
+protein	co2_c
+protein	coa_c
+protein	forglu_c
+protein	glu_L_c
+protein	gthrd_c
+protein	h2o2_c
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	his_L_c
+protein	hista_c
+protein	im4ac_c
+protein	im4ac_m
+protein	im4act_c
+protein	im4act_m
+protein	mhista_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nh4_c
+protein	o2_c
+protein	thf_c
+protein	urcan_c
+abstract	GluForTx
+abstract	HISD
+abstract	HISDC
+abstract	HISTASE
+abstract	IMACTD
+abstract	IMACTD_m
+abstract	IZPN
+abstract	MACOXO
+abstract	MHISOR
+abstract	SAMHISTA
+abstract	URCN
+abstract	RE2081C
+abstract	RE3629C
+abstract	RE3630C
+abstract	RE3631C
+abstract	RE3633C
+glu_L_c	GluForTx	-a>
+5forthf_c	GluForTx	-a>
+h_c	GluForTx	-a>
+thf_c	GluForTx	-a>
+forglu_c	GluForTx	-a>
+his_L_c	HISD	-a>
+urcan_c	HISD	-a>
+nh4_c	HISD	-a>
+hista_c	HISDC	-a>
+his_L_c	HISDC	-a>
+h_c	HISDC	-a>
+co2_c	HISDC	-a>
+h2o_c	HISTASE	-a>
+im4act_c	HISTASE	-a>
+hista_c	HISTASE	-a>
+h2o2_c	HISTASE	-a>
+o2_c	HISTASE	-a>
+nh4_c	HISTASE	-a>
+nad_c	IMACTD	-a>
+h2o_c	IMACTD	-a>
+h_c	IMACTD	-a>
+im4act_c	IMACTD	-a>
+nadh_c	IMACTD	-a>
+im4ac_c	IMACTD	-a>
+h2o_m	IMACTD_m	-a>
+im4ac_m	IMACTD_m	-a>
+h_m	IMACTD_m	-a>
+im4act_m	IMACTD_m	-a>
+nadh_m	IMACTD_m	-a>
+nad_m	IMACTD_m	-a>
+4izp_c	IZPN	-a>
+h2o_c	IZPN	-a>
+h_c	IZPN	-a>
+forglu_c	IZPN	-a>
+nad_c	MACOXO	-a>
+h2o_c	MACOXO	-a>
+3mlda_c	MACOXO	-a>
+h_c	MACOXO	-a>
+3mldz_c	MACOXO	-a>
+nadh_c	MACOXO	-a>
+o2_c	MHISOR	-a>
+h2o_c	MHISOR	-a>
+h2o2_c	MHISOR	-a>
+mhista_c	MHISOR	-a>
+3mldz_c	MHISOR	-a>
+nh4_c	MHISOR	-a>
+hista_c	SAMHISTA	-a>
+mhista_c	SAMHISTA	-a>
+h_c	SAMHISTA	-a>
+amet_c	SAMHISTA	-a>
+ahcys_c	SAMHISTA	-a>
+4izp_c	URCN	-a>
+h2o_c	URCN	-a>
+urcan_c	URCN	-a>
+h_c	RE2081C	-a>
+coa_c	RE2081C	-a>
+carn_c	RE2081C	-a>
+CE2065_c	RE2081C	-a>
+accoa_c	RE2081C	-a>
+CE2088_c	RE3629C	-a>
+coa_c	RE3629C	-a>
+CE2089_c	RE3629C	-a>
+h_c	RE3629C	-a>
+accoa_c	RE3629C	-a>
+CE2088_c	RE3630C	-a>
+ac_c	RE3630C	-a>
+h2o_c	RE3630C	-a>
+CE2089_c	RE3630C	-a>
+gthrd_c	RE3631C	-a>
+CE7220_c	RE3631C	-a>
+urcan_c	RE3631C	-a>
+nh4_c	RE3633C	-a>
+h2o_c	RE3633C	-a>
+CE2089_c	RE3633C	-a>
+CE7218_c	RE3633C	-a>

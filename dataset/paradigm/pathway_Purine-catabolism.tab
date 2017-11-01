@@ -1,0 +1,282 @@
+protein	2dr1p_c
+protein	3amp_l
+protein	C01041_c
+protein	C11821_c
+protein	CE0074_c
+protein	CE0074_e
+protein	CE0074_n
+protein	CE6252_c
+protein	ade_c
+protein	ade_e
+protein	adn_c
+protein	adn_e
+protein	adn_l
+protein	adn_m
+protein	adp_c
+protein	adp_l
+protein	adp_x
+protein	alltn_c
+protein	alltt_c
+protein	amp_c
+protein	amp_e
+protein	amp_l
+protein	amp_m
+protein	amp_x
+protein	ascb_L_c
+protein	atp_c
+protein	atp_l
+protein	atp_m
+protein	atp_x
+protein	co2_c
+protein	dad_2_c
+protein	dad_2_l
+protein	damp_l
+protein	dgmp_l
+protein	dgsn_c
+protein	dgsn_l
+protein	din_c
+protein	gmp_c
+protein	gmp_l
+protein	gsn_c
+protein	gsn_l
+protein	gtp_c
+protein	gua_c
+protein	h2o2_c
+protein	h2o2_e
+protein	h2o2_n
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_e
+protein	h_x
+protein	hxan_c
+protein	hxan_x
+protein	idp_e
+protein	imp_c
+protein	ins_c
+protein	ins_e
+protein	itp_e
+protein	nad_c
+protein	nad_x
+protein	nadh_c
+protein	nadh_x
+protein	nh4_c
+protein	nh4_e
+protein	o2_c
+protein	o2_x
+protein	pi_c
+protein	pi_e
+protein	pi_l
+protein	pi_m
+protein	pi_x
+protein	ppi_c
+protein	ppi_e
+protein	ppi_x
+protein	prpp_e
+protein	r1p_c
+protein	urate_c
+protein	urate_e
+protein	urate_n
+protein	urate_x
+protein	urea_c
+protein	urea_e
+protein	urea_n
+protein	xan_c
+protein	xan_x
+abstract	3NTD7l
+abstract	ADA
+abstract	ADAe
+abstract	GUAD
+abstract	NTD11
+abstract	NTD6l
+abstract	NTD7l
+abstract	NTD8l
+abstract	NTD9l
+abstract	PUNP2
+abstract	PUNP3
+abstract	PUNP4
+abstract	PUNP5
+abstract	PUNP6
+abstract	XANDp
+abstract	XAO2x
+abstract	XAOx
+abstract	r0009
+abstract	r0028
+abstract	r0047
+abstract	r0051
+abstract	r0119
+abstract	r0181
+abstract	r0502
+abstract	r0504
+abstract	RE2605C
+abstract	RE2813C
+abstract	RE2888C
+abstract	RE2888E
+abstract	RE2888N
+abstract	RE3352C
+abstract	r0809
+abstract	r0812
+abstract	r0853
+abstract	r0859
+abstract	r0860
+adn_l	3NTD7l	-a>
+3amp_l	3NTD7l	-a>
+h2o_l	3NTD7l	-a>
+pi_l	3NTD7l	-a>
+h2o_c	ADA	-a>
+ins_c	ADA	-a>
+h_c	ADA	-a>
+adn_c	ADA	-a>
+nh4_c	ADA	-a>
+adn_e	ADAe	-a>
+ins_e	ADAe	-a>
+nh4_e	ADAe	-a>
+h_e	ADAe	-a>
+h2o_e	ADAe	-a>
+nh4_c	GUAD	-a>
+h2o_c	GUAD	-a>
+xan_c	GUAD	-a>
+h_c	GUAD	-a>
+gua_c	GUAD	-a>
+pi_c	NTD11	-a>
+h2o_c	NTD11	-a>
+ins_c	NTD11	-a>
+imp_c	NTD11	-a>
+h2o_l	NTD6l	-a>
+pi_l	NTD6l	-a>
+damp_l	NTD6l	-a>
+dad_2_l	NTD6l	-a>
+adn_l	NTD7l	-a>
+h2o_l	NTD7l	-a>
+amp_l	NTD7l	-a>
+pi_l	NTD7l	-a>
+dgsn_l	NTD8l	-a>
+h2o_l	NTD8l	-a>
+pi_l	NTD8l	-a>
+dgmp_l	NTD8l	-a>
+gmp_l	NTD9l	-a>
+h2o_l	NTD9l	-a>
+pi_l	NTD9l	-a>
+gsn_l	NTD9l	-a>
+dad_2_c	PUNP2	-a>
+2dr1p_c	PUNP2	-a>
+ade_c	PUNP2	-a>
+pi_c	PUNP2	-a>
+gsn_c	PUNP3	-a>
+pi_c	PUNP3	-a>
+r1p_c	PUNP3	-a>
+gua_c	PUNP3	-a>
+dgsn_c	PUNP4	-a>
+pi_c	PUNP4	-a>
+2dr1p_c	PUNP4	-a>
+gua_c	PUNP4	-a>
+pi_c	PUNP5	-a>
+hxan_c	PUNP5	-a>
+ins_c	PUNP5	-a>
+r1p_c	PUNP5	-a>
+pi_c	PUNP6	-a>
+hxan_c	PUNP6	-a>
+2dr1p_c	PUNP6	-a>
+din_c	PUNP6	-a>
+nadh_x	XANDp	-a>
+nad_x	XANDp	-a>
+h2o_x	XANDp	-a>
+urate_x	XANDp	-a>
+xan_x	XANDp	-a>
+h_x	XANDp	-a>
+xan_x	XAO2x	-a>
+hxan_x	XAO2x	-a>
+h2o_x	XAO2x	-a>
+h2o2_x	XAO2x	-a>
+o2_x	XAO2x	-a>
+xan_x	XAOx	-a>
+urate_x	XAOx	-a>
+h2o_x	XAOx	-a>
+h2o2_x	XAOx	-a>
+o2_x	XAOx	-a>
+pi_x	r0009	-a>
+h2o_x	r0009	-a>
+ppi_x	r0009	-a>
+h_x	r0009	-a>
+amp_c	r0028	-a>
+pi_c	r0028	-a>
+h2o_c	r0028	-a>
+adp_c	r0028	-a>
+h_c	r0028	-a>
+h2o_m	r0047	-a>
+adn_m	r0047	-a>
+amp_m	r0047	-a>
+pi_m	r0047	-a>
+prpp_e	r0051	-a>
+ppi_e	r0051	-a>
+amp_e	r0051	-a>
+ade_e	r0051	-a>
+gtp_c	r0119	-a>
+h2o_c	r0119	-a>
+ppi_c	r0119	-a>
+gmp_c	r0119	-a>
+h_c	r0119	-a>
+h_e	r0181	-a>
+idp_e	r0181	-a>
+itp_e	r0181	-a>
+h2o_e	r0181	-a>
+pi_e	r0181	-a>
+nad_c	r0502	-a>
+urate_c	r0502	-a>
+h2o_c	r0502	-a>
+h_c	r0502	-a>
+nadh_c	r0502	-a>
+xan_c	r0502	-a>
+urate_c	r0504	-a>
+h2o2_c	r0504	-a>
+h2o_c	r0504	-a>
+xan_c	r0504	-a>
+o2_c	r0504	-a>
+urate_c	RE2605C	-a>
+ascb_L_c	RE2605C	-a>
+CE6252_c	RE2605C	-a>
+C01041_c	RE2605C	-a>
+alltt_c	RE2813C	-a>
+h2o_c	RE2813C	-a>
+h_c	RE2813C	-a>
+alltn_c	RE2813C	-a>
+urate_c	RE2888C	-a>
+urea_c	RE2888C	-a>
+CE0074_c	RE2888C	-a>
+h2o2_c	RE2888C	-a>
+urate_e	RE2888E	-a>
+CE0074_e	RE2888E	-a>
+urea_e	RE2888E	-a>
+h2o2_e	RE2888E	-a>
+urate_n	RE2888N	-a>
+CE0074_n	RE2888N	-a>
+urea_n	RE2888N	-a>
+h2o2_n	RE2888N	-a>
+C11821_c	RE3352C	-a>
+h2o_c	RE3352C	-a>
+alltn_c	RE3352C	-a>
+co2_c	RE3352C	-a>
+adn_e	r0809	-a>
+ins_e	r0809	-a>
+ins_c	r0809	-a>
+adn_c	r0809	-a>
+amp_c	r0812	-a>
+atp_x	r0812	-a>
+atp_c	r0812	-a>
+amp_x	r0812	-a>
+atp_m	r0853	-a>
+pi_c	r0853	-a>
+atp_c	r0853	-a>
+pi_m	r0853	-a>
+adp_l	r0859	-a>
+atp_c	r0859	-a>
+atp_l	r0859	-a>
+adp_c	r0859	-a>
+atp_x	r0860	-a>
+atp_c	r0860	-a>
+adp_x	r0860	-a>
+adp_c	r0860	-a>

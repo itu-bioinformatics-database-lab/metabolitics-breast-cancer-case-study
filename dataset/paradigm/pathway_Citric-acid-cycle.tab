@@ -1,0 +1,162 @@
+protein	ac_c
+protein	accoa_c
+protein	accoa_m
+protein	adp_c
+protein	adp_m
+protein	akg_c
+protein	akg_m
+protein	akg_x
+protein	ala_L_m
+protein	atp_c
+protein	atp_m
+protein	cit_c
+protein	cit_m
+protein	co2_c
+protein	co2_m
+protein	co2_x
+protein	coa_c
+protein	coa_m
+protein	fad_m
+protein	fadh2_m
+protein	fum_c
+protein	fum_m
+protein	gdp_m
+protein	glu_L_m
+protein	gtp_m
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	h_x
+protein	icit_c
+protein	icit_m
+protein	icit_x
+protein	mal_L_c
+protein	mal_L_m
+protein	mal_L_x
+protein	nad_c
+protein	nad_m
+protein	nad_x
+protein	nadh_c
+protein	nadh_m
+protein	nadh_x
+protein	nadp_c
+protein	nadp_m
+protein	nadp_x
+protein	nadph_c
+protein	nadph_m
+protein	nadph_x
+protein	oaa_c
+protein	oaa_m
+protein	oaa_x
+protein	pi_c
+protein	pi_m
+protein	pyr_m
+protein	succ_m
+protein	succoa_m
+abstract	ACITL
+abstract	ACONT
+abstract	ACONTm
+abstract	AKGDm
+abstract	CITL
+abstract	CSm
+abstract	FUM
+abstract	FUMm
+abstract	ICDHxm
+abstract	ICDHy
+abstract	ICDHyp
+abstract	ICDHyrm
+abstract	MDH
+abstract	MDHm
+abstract	SUCD1m
+abstract	SUCOAS1m
+abstract	SUCOASm
+abstract	r0081
+abstract	MDHx
+coa_c	ACITL	-a>
+accoa_c	ACITL	-a>
+pi_c	ACITL	-a>
+atp_c	ACITL	-a>
+oaa_c	ACITL	-a>
+adp_c	ACITL	-a>
+cit_c	ACITL	-a>
+icit_c	ACONT	-a>
+cit_c	ACONT	-a>
+icit_m	ACONTm	-a>
+cit_m	ACONTm	-a>
+coa_m	AKGDm	-a>
+nad_m	AKGDm	-a>
+nadh_m	AKGDm	-a>
+succoa_m	AKGDm	-a>
+akg_m	AKGDm	-a>
+co2_m	AKGDm	-a>
+ac_c	CITL	-a>
+oaa_c	CITL	-a>
+cit_c	CITL	-a>
+oaa_m	CSm	-a>
+h2o_m	CSm	-a>
+h_m	CSm	-a>
+coa_m	CSm	-a>
+cit_m	CSm	-a>
+accoa_m	CSm	-a>
+h2o_c	FUM	-a>
+fum_c	FUM	-a>
+mal_L_c	FUM	-a>
+h2o_m	FUMm	-a>
+fum_m	FUMm	-a>
+mal_L_m	FUMm	-a>
+nadh_m	ICDHxm	-a>
+akg_m	ICDHxm	-a>
+co2_m	ICDHxm	-a>
+icit_m	ICDHxm	-a>
+nad_m	ICDHxm	-a>
+nadp_c	ICDHy	-a>
+nadph_c	ICDHy	-a>
+akg_c	ICDHy	-a>
+icit_c	ICDHy	-a>
+co2_c	ICDHy	-a>
+nadp_x	ICDHyp	-a>
+co2_x	ICDHyp	-a>
+icit_x	ICDHyp	-a>
+akg_x	ICDHyp	-a>
+nadph_x	ICDHyp	-a>
+icit_m	ICDHyrm	-a>
+nadph_m	ICDHyrm	-a>
+akg_m	ICDHyrm	-a>
+co2_m	ICDHyrm	-a>
+nadp_m	ICDHyrm	-a>
+nad_c	MDH	-a>
+oaa_c	MDH	-a>
+mal_L_c	MDH	-a>
+h_c	MDH	-a>
+nadh_c	MDH	-a>
+oaa_m	MDHm	-a>
+nadh_m	MDHm	-a>
+mal_L_m	MDHm	-a>
+h_m	MDHm	-a>
+nad_m	MDHm	-a>
+succ_m	SUCD1m	-a>
+fadh2_m	SUCD1m	-a>
+fad_m	SUCD1m	-a>
+fum_m	SUCD1m	-a>
+coa_m	SUCOAS1m	-a>
+pi_m	SUCOAS1m	-a>
+gtp_m	SUCOAS1m	-a>
+gdp_m	SUCOAS1m	-a>
+succ_m	SUCOAS1m	-a>
+succoa_m	SUCOAS1m	-a>
+coa_m	SUCOASm	-a>
+pi_m	SUCOASm	-a>
+atp_m	SUCOASm	-a>
+succoa_m	SUCOASm	-a>
+adp_m	SUCOASm	-a>
+succ_m	SUCOASm	-a>
+pyr_m	r0081	-a>
+glu_L_m	r0081	-a>
+akg_m	r0081	-a>
+ala_L_m	r0081	-a>
+nadh_x	MDHx	-a>
+nad_x	MDHx	-a>
+oaa_x	MDHx	-a>
+h_x	MDHx	-a>
+mal_L_x	MDHx	-a>

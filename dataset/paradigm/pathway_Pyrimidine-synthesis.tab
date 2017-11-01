@@ -1,0 +1,172 @@
+protein	adp_c
+protein	adp_m
+protein	asp_L_c
+protein	atp_c
+protein	atp_m
+protein	cbasp_c
+protein	cbp_c
+protein	co2_c
+protein	ctp_c
+protein	dadp_c
+protein	dadp_m
+protein	dadp_n
+protein	datp_c
+protein	datp_m
+protein	datp_n
+protein	dgdp_c
+protein	dgdp_m
+protein	dgtp_c
+protein	dgtp_m
+protein	dhor_S_c
+protein	dtdp_c
+protein	dtdp_m
+protein	dtdp_n
+protein	dtmp_m
+protein	dtmp_n
+protein	dttp_c
+protein	dttp_m
+protein	dttp_n
+protein	dump_c
+protein	dump_m
+protein	duri_c
+protein	duri_m
+protein	dutp_m
+protein	dutp_n
+protein	gln_L_c
+protein	glu_L_c
+protein	h2o_c
+protein	h2o_m
+protein	h2o_n
+protein	h_c
+protein	h_m
+protein	hco3_c
+protein	orot5p_c
+protein	orot_c
+protein	pep_c
+protein	pi_c
+protein	ppi_c
+protein	prpp_c
+protein	pyr_c
+protein	q10_m
+protein	q10h2_m
+protein	trdox_m
+protein	trdox_n
+protein	trdrd_m
+protein	trdrd_n
+protein	ump_c
+protein	uri_c
+protein	utp_c
+protein	utp_m
+protein	utp_n
+abstract	ASPCTr
+abstract	CBPS
+abstract	CTPS2
+abstract	DHORTS
+abstract	OMPDC
+abstract	ORPT
+abstract	URIK1
+abstract	RE0452M
+abstract	RE0452N
+abstract	RE0453C
+abstract	RE0453M
+abstract	RE0453N
+abstract	RE0456M
+abstract	RE0456N
+abstract	RE1530C
+abstract	RE1530M
+abstract	RE2954C
+abstract	DTMPKm
+abstract	DHORD9
+pi_c	ASPCTr	-a>
+asp_L_c	ASPCTr	-a>
+h_c	ASPCTr	-a>
+cbasp_c	ASPCTr	-a>
+cbp_c	ASPCTr	-a>
+h2o_c	CBPS	-a>
+h_c	CBPS	-a>
+glu_L_c	CBPS	-a>
+pi_c	CBPS	-a>
+gln_L_c	CBPS	-a>
+adp_c	CBPS	-a>
+hco3_c	CBPS	-a>
+cbp_c	CBPS	-a>
+atp_c	CBPS	-a>
+h2o_c	CTPS2	-a>
+h_c	CTPS2	-a>
+glu_L_c	CTPS2	-a>
+pi_c	CTPS2	-a>
+gln_L_c	CTPS2	-a>
+adp_c	CTPS2	-a>
+ctp_c	CTPS2	-a>
+utp_c	CTPS2	-a>
+atp_c	CTPS2	-a>
+h2o_c	DHORTS	-a>
+dhor_S_c	DHORTS	-a>
+h_c	DHORTS	-a>
+cbasp_c	DHORTS	-a>
+orot5p_c	OMPDC	-a>
+h_c	OMPDC	-a>
+ump_c	OMPDC	-a>
+co2_c	OMPDC	-a>
+prpp_c	ORPT	-a>
+orot5p_c	ORPT	-a>
+ppi_c	ORPT	-a>
+orot_c	ORPT	-a>
+atp_c	URIK1	-a>
+uri_c	URIK1	-a>
+h_c	URIK1	-a>
+ump_c	URIK1	-a>
+adp_c	URIK1	-a>
+dadp_m	RE0452M	-a>
+datp_m	RE0452M	-a>
+dtmp_m	RE0452M	-a>
+dtdp_m	RE0452M	-a>
+datp_n	RE0452N	-a>
+dtmp_n	RE0452N	-a>
+dadp_n	RE0452N	-a>
+dtdp_n	RE0452N	-a>
+datp_c	RE0453C	-a>
+dadp_c	RE0453C	-a>
+dttp_c	RE0453C	-a>
+dtdp_c	RE0453C	-a>
+dttp_m	RE0453M	-a>
+datp_m	RE0453M	-a>
+dadp_m	RE0453M	-a>
+dtdp_m	RE0453M	-a>
+datp_n	RE0453N	-a>
+dadp_n	RE0453N	-a>
+dttp_n	RE0453N	-a>
+dtdp_n	RE0453N	-a>
+h2o_m	RE0456M	-a>
+dutp_m	RE0456M	-a>
+trdox_m	RE0456M	-a>
+trdrd_m	RE0456M	-a>
+utp_m	RE0456M	-a>
+trdrd_n	RE0456N	-a>
+utp_n	RE0456N	-a>
+h2o_n	RE0456N	-a>
+dutp_n	RE0456N	-a>
+trdox_n	RE0456N	-a>
+dgdp_c	RE1530C	-a>
+duri_c	RE1530C	-a>
+dump_c	RE1530C	-a>
+h_c	RE1530C	-a>
+dgtp_c	RE1530C	-a>
+dump_m	RE1530M	-a>
+dgdp_m	RE1530M	-a>
+h_m	RE1530M	-a>
+duri_m	RE1530M	-a>
+dgtp_m	RE1530M	-a>
+pyr_c	RE2954C	-a>
+dttp_c	RE2954C	-a>
+h_c	RE2954C	-a>
+dtdp_c	RE2954C	-a>
+pep_c	RE2954C	-a>
+atp_m	DTMPKm	-a>
+adp_m	DTMPKm	-a>
+dtdp_m	DTMPKm	-a>
+dtmp_m	DTMPKm	-a>
+q10h2_m	DHORD9	-a>
+dhor_S_c	DHORD9	-a>
+orot_c	DHORD9	-a>
+q10_m	DHORD9	-a>

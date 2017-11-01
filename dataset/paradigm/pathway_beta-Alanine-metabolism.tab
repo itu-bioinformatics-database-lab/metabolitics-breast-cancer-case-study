@@ -1,0 +1,109 @@
+protein	13dampp_c
+protein	3hpcoa_c
+protein	3hpcoa_m
+protein	3hpcoa_x
+protein	3hpp_c
+protein	4abut_c
+protein	4abutn_c
+protein	akg_m
+protein	ala_B_c
+protein	ala_B_m
+protein	amp_c
+protein	asp_L_c
+protein	atp_c
+protein	bamppald_c
+protein	bamppald_m
+protein	carn_c
+protein	co2_c
+protein	coa_c
+protein	glu_L_m
+protein	h2o2_c
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	his_L_c
+protein	msa_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nh4_c
+protein	o2_c
+protein	ppi_c
+protein	prpncoa_m
+protein	prpncoa_x
+protein	spmd_c
+abstract	13DAMPPOX
+abstract	3HPCOAHYD
+abstract	ABUTD
+abstract	APAT2rm
+abstract	ASP1DC
+abstract	BAMPPALDOX
+abstract	BAMPPALDOXm
+abstract	NBAHH_ir
+abstract	PRPNCOAHYDm
+abstract	PRPNCOAHYDx
+abstract	SPMDOX
+abstract	r0283
+o2_c	13DAMPPOX	-a>
+h2o_c	13DAMPPOX	-a>
+bamppald_c	13DAMPPOX	-a>
+h2o2_c	13DAMPPOX	-a>
+13dampp_c	13DAMPPOX	-a>
+nh4_c	13DAMPPOX	-a>
+3hpp_c	3HPCOAHYD	-a>
+coa_c	3HPCOAHYD	-a>
+h_c	3HPCOAHYD	-a>
+3hpcoa_c	3HPCOAHYD	-a>
+h2o_c	3HPCOAHYD	-a>
+nad_c	ABUTD	-a>
+4abutn_c	ABUTD	-a>
+h2o_c	ABUTD	-a>
+h_c	ABUTD	-a>
+nadh_c	ABUTD	-a>
+4abut_c	ABUTD	-a>
+msa_m	APAT2rm	-a>
+glu_L_m	APAT2rm	-a>
+akg_m	APAT2rm	-a>
+ala_B_m	APAT2rm	-a>
+ala_B_c	ASP1DC	-a>
+asp_L_c	ASP1DC	-a>
+h_c	ASP1DC	-a>
+co2_c	ASP1DC	-a>
+nad_c	BAMPPALDOX	-a>
+h2o_c	BAMPPALDOX	-a>
+h_c	BAMPPALDOX	-a>
+bamppald_c	BAMPPALDOX	-a>
+ala_B_c	BAMPPALDOX	-a>
+nadh_c	BAMPPALDOX	-a>
+h2o_m	BAMPPALDOXm	-a>
+ala_B_m	BAMPPALDOXm	-a>
+h_m	BAMPPALDOXm	-a>
+bamppald_m	BAMPPALDOXm	-a>
+nadh_m	BAMPPALDOXm	-a>
+nad_m	BAMPPALDOXm	-a>
+ala_B_c	NBAHH_ir	-a>
+his_L_c	NBAHH_ir	-a>
+carn_c	NBAHH_ir	-a>
+h2o_c	NBAHH_ir	-a>
+h2o_m	PRPNCOAHYDm	-a>
+prpncoa_m	PRPNCOAHYDm	-a>
+3hpcoa_m	PRPNCOAHYDm	-a>
+h2o_x	PRPNCOAHYDx	-a>
+prpncoa_x	PRPNCOAHYDx	-a>
+3hpcoa_x	PRPNCOAHYDx	-a>
+4abutn_c	SPMDOX	-a>
+spmd_c	SPMDOX	-a>
+h2o_c	SPMDOX	-a>
+h2o2_c	SPMDOX	-a>
+13dampp_c	SPMDOX	-a>
+o2_c	SPMDOX	-a>
+amp_c	r0283	-a>
+ala_B_c	r0283	-a>
+h_c	r0283	-a>
+atp_c	r0283	-a>
+his_L_c	r0283	-a>
+carn_c	r0283	-a>
+ppi_c	r0283	-a>

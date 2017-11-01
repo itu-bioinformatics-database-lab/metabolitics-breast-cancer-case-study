@@ -1,0 +1,425 @@
+protein	adp_c
+protein	adp_n
+protein	adp_r
+protein	atp_c
+protein	atp_n
+protein	atp_r
+protein	dag_hs_c
+protein	dag_hs_n
+protein	g6p_c
+protein	glcur_c
+protein	h2o_c
+protein	h2o_n
+protein	h_c
+protein	h_n
+protein	h_r
+protein	inost_c
+protein	mi13456p_c
+protein	mi13456p_n
+protein	mi1345p_c
+protein	mi1345p_n
+protein	mi1346p_c
+protein	mi1346p_n
+protein	mi134p_c
+protein	mi13p_c
+protein	mi1456p_n
+protein	mi145p_c
+protein	mi145p_n
+protein	mi14p_c
+protein	mi14p_n
+protein	mi1p_D_c
+protein	mi1p_D_n
+protein	mi3456p_c
+protein	mi34p_c
+protein	mi3p_D_c
+protein	mi4p_D_c
+protein	minohp_c
+protein	minohp_n
+protein	o2_c
+protein	pail345p_hs_c
+protein	pail345p_hs_n
+protein	pail34p_hs_c
+protein	pail34p_hs_n
+protein	pail34p_hs_r
+protein	pail35p_hs_c
+protein	pail35p_hs_r
+protein	pail3p_hs_c
+protein	pail3p_hs_n
+protein	pail3p_hs_r
+protein	pail45p_hs_c
+protein	pail45p_hs_n
+protein	pail4p_hs_c
+protein	pail4p_hs_n
+protein	pail4p_hs_r
+protein	pail5p_hs_c
+protein	pail5p_hs_n
+protein	pail5p_hs_r
+protein	pail_hs_c
+protein	pail_hs_n
+protein	pail_hs_r
+protein	pi_c
+protein	pi_n
+protein	ppmi12346p_c
+protein	ppmi12346p_n
+abstract	INOSTO
+abstract	MI13456PK
+abstract	MI1345PKn
+abstract	MI1345PP
+abstract	MI1346PKn
+abstract	MI134P4P
+abstract	MI134PK
+abstract	MI134PP
+abstract	MI13PP
+abstract	MI1456PKn
+abstract	MI145P6Kn
+abstract	MI145PK
+abstract	MI145PKn
+abstract	MI145PP
+abstract	MI14P4P
+abstract	MI14PP
+abstract	MI1PP
+abstract	MI1PS
+abstract	MI3456PK
+abstract	MI34PP
+abstract	MI3PP
+abstract	MI4PP
+abstract	PI345P3P
+abstract	PI345P3Pn
+abstract	PI345P5P
+abstract	PI345P5Pn
+abstract	PI34P3Pn
+abstract	PI34P4Pn
+abstract	PI34P5K
+abstract	PI34P5Kn
+abstract	PI3P3Pn
+abstract	PI3P4K
+abstract	PI3P4Kn
+abstract	PI3P5K
+abstract	PI45P3K
+abstract	PI45P3Kn
+abstract	PI45P4P
+abstract	PI45P5P
+abstract	PI45P5Pn
+abstract	PI45PLC
+abstract	PI45PLCn
+abstract	PI4P3K
+abstract	PI4P3Ker
+abstract	PI4P3Kn
+abstract	PI4P5Kn
+abstract	PI4PLC
+abstract	PI4PLCn
+abstract	PI4PP
+abstract	PI5P3K
+abstract	PI5P3Ker
+abstract	PI5P4K
+abstract	PI5P4Kn
+abstract	PIK3
+abstract	PIK3er
+abstract	PIK3n
+abstract	PIK4n
+abstract	PIK5
+abstract	PIK5n
+abstract	PIPLC
+abstract	PIPLCn
+abstract	PMI12346PH
+abstract	PMI12346PHn
+abstract	PMI1346PH
+abstract	PMI1346PHn
+h2o_c	INOSTO	-a>
+glcur_c	INOSTO	-a>
+h_c	INOSTO	-a>
+inost_c	INOSTO	-a>
+o2_c	INOSTO	-a>
+atp_c	MI13456PK	-a>
+minohp_c	MI13456PK	-a>
+adp_c	MI13456PK	-a>
+mi13456p_c	MI13456PK	-a>
+h_c	MI13456PK	-a>
+mi1345p_n	MI1345PKn	-a>
+mi13456p_n	MI1345PKn	-a>
+atp_n	MI1345PKn	-a>
+h_n	MI1345PKn	-a>
+adp_n	MI1345PKn	-a>
+pi_c	MI1345PP	-a>
+h2o_c	MI1345PP	-a>
+mi134p_c	MI1345PP	-a>
+mi1345p_c	MI1345PP	-a>
+mi13456p_n	MI1346PKn	-a>
+mi1346p_n	MI1346PKn	-a>
+atp_n	MI1346PKn	-a>
+h_n	MI1346PKn	-a>
+adp_n	MI1346PKn	-a>
+pi_c	MI134P4P	-a>
+h2o_c	MI134P4P	-a>
+mi134p_c	MI134P4P	-a>
+mi13p_c	MI134P4P	-a>
+atp_c	MI134PK	-a>
+mi134p_c	MI134PK	-a>
+mi1346p_c	MI134PK	-a>
+adp_c	MI134PK	-a>
+h_c	MI134PK	-a>
+pi_c	MI134PP	-a>
+h2o_c	MI134PP	-a>
+mi134p_c	MI134PP	-a>
+mi34p_c	MI134PP	-a>
+pi_c	MI13PP	-a>
+h2o_c	MI13PP	-a>
+mi1p_D_c	MI13PP	-a>
+mi13p_c	MI13PP	-a>
+mi13456p_n	MI1456PKn	-a>
+mi1456p_n	MI1456PKn	-a>
+atp_n	MI1456PKn	-a>
+h_n	MI1456PKn	-a>
+adp_n	MI1456PKn	-a>
+mi145p_n	MI145P6Kn	-a>
+mi1456p_n	MI145P6Kn	-a>
+atp_n	MI145P6Kn	-a>
+h_n	MI145P6Kn	-a>
+adp_n	MI145P6Kn	-a>
+atp_c	MI145PK	-a>
+adp_c	MI145PK	-a>
+h_c	MI145PK	-a>
+mi1345p_c	MI145PK	-a>
+mi145p_c	MI145PK	-a>
+mi1345p_n	MI145PKn	-a>
+mi145p_n	MI145PKn	-a>
+atp_n	MI145PKn	-a>
+h_n	MI145PKn	-a>
+adp_n	MI145PKn	-a>
+pi_c	MI145PP	-a>
+h2o_c	MI145PP	-a>
+mi14p_c	MI145PP	-a>
+mi145p_c	MI145PP	-a>
+pi_c	MI14P4P	-a>
+h2o_c	MI14P4P	-a>
+mi1p_D_c	MI14P4P	-a>
+mi14p_c	MI14P4P	-a>
+pi_c	MI14PP	-a>
+h2o_c	MI14PP	-a>
+mi14p_c	MI14PP	-a>
+mi4p_D_c	MI14PP	-a>
+pi_c	MI1PP	-a>
+h2o_c	MI1PP	-a>
+mi1p_D_c	MI1PP	-a>
+inost_c	MI1PP	-a>
+mi1p_D_c	MI1PS	-a>
+g6p_c	MI1PS	-a>
+atp_c	MI3456PK	-a>
+mi13456p_c	MI3456PK	-a>
+h_c	MI3456PK	-a>
+mi3456p_c	MI3456PK	-a>
+adp_c	MI3456PK	-a>
+mi3p_D_c	MI34PP	-a>
+h2o_c	MI34PP	-a>
+mi34p_c	MI34PP	-a>
+pi_c	MI34PP	-a>
+mi3p_D_c	MI3PP	-a>
+h2o_c	MI3PP	-a>
+inost_c	MI3PP	-a>
+pi_c	MI3PP	-a>
+pi_c	MI4PP	-a>
+h2o_c	MI4PP	-a>
+mi4p_D_c	MI4PP	-a>
+inost_c	MI4PP	-a>
+pi_c	PI345P3P	-a>
+h2o_c	PI345P3P	-a>
+pail345p_hs_c	PI345P3P	-a>
+pail45p_hs_c	PI345P3P	-a>
+h_c	PI345P3P	-a>
+pail45p_hs_n	PI345P3Pn	-a>
+pi_n	PI345P3Pn	-a>
+pail345p_hs_n	PI345P3Pn	-a>
+h2o_n	PI345P3Pn	-a>
+h_n	PI345P3Pn	-a>
+pi_c	PI345P5P	-a>
+h2o_c	PI345P5P	-a>
+pail34p_hs_c	PI345P5P	-a>
+pail345p_hs_c	PI345P5P	-a>
+pi_n	PI345P5Pn	-a>
+pail345p_hs_n	PI345P5Pn	-a>
+h2o_n	PI345P5Pn	-a>
+pail34p_hs_n	PI345P5Pn	-a>
+pail4p_hs_n	PI34P3Pn	-a>
+pi_n	PI34P3Pn	-a>
+h2o_n	PI34P3Pn	-a>
+pail34p_hs_n	PI34P3Pn	-a>
+pail3p_hs_n	PI34P4Pn	-a>
+pi_n	PI34P4Pn	-a>
+h2o_n	PI34P4Pn	-a>
+pail34p_hs_n	PI34P4Pn	-a>
+atp_c	PI34P5K	-a>
+pail34p_hs_c	PI34P5K	-a>
+adp_c	PI34P5K	-a>
+h_c	PI34P5K	-a>
+pail345p_hs_c	PI34P5K	-a>
+adp_n	PI34P5Kn	-a>
+atp_n	PI34P5Kn	-a>
+pail345p_hs_n	PI34P5Kn	-a>
+h_n	PI34P5Kn	-a>
+pail34p_hs_n	PI34P5Kn	-a>
+pi_n	PI3P3Pn	-a>
+pail_hs_n	PI3P3Pn	-a>
+h2o_n	PI3P3Pn	-a>
+pail3p_hs_n	PI3P3Pn	-a>
+pail3p_hs_c	PI3P4K	-a>
+atp_c	PI3P4K	-a>
+pail34p_hs_c	PI3P4K	-a>
+adp_c	PI3P4K	-a>
+h_c	PI3P4K	-a>
+adp_n	PI3P4Kn	-a>
+pail3p_hs_n	PI3P4Kn	-a>
+atp_n	PI3P4Kn	-a>
+h_n	PI3P4Kn	-a>
+pail34p_hs_n	PI3P4Kn	-a>
+pail3p_hs_c	PI3P5K	-a>
+atp_c	PI3P5K	-a>
+adp_c	PI3P5K	-a>
+pail35p_hs_c	PI3P5K	-a>
+h_c	PI3P5K	-a>
+atp_c	PI45P3K	-a>
+adp_c	PI45P3K	-a>
+pail345p_hs_c	PI45P3K	-a>
+pail45p_hs_c	PI45P3K	-a>
+h_c	PI45P3K	-a>
+pail45p_hs_n	PI45P3Kn	-a>
+atp_n	PI45P3Kn	-a>
+pail345p_hs_n	PI45P3Kn	-a>
+h_n	PI45P3Kn	-a>
+adp_n	PI45P3Kn	-a>
+pi_c	PI45P4P	-a>
+pail5p_hs_c	PI45P4P	-a>
+h_c	PI45P4P	-a>
+pail45p_hs_c	PI45P4P	-a>
+h2o_c	PI45P4P	-a>
+pail4p_hs_c	PI45P5P	-a>
+pi_c	PI45P5P	-a>
+h2o_c	PI45P5P	-a>
+h_c	PI45P5P	-a>
+pail45p_hs_c	PI45P5P	-a>
+pail45p_hs_n	PI45P5Pn	-a>
+pail4p_hs_n	PI45P5Pn	-a>
+pi_n	PI45P5Pn	-a>
+h2o_n	PI45P5Pn	-a>
+h_n	PI45P5Pn	-a>
+h_c	PI45PLC	-a>
+h2o_c	PI45PLC	-a>
+dag_hs_c	PI45PLC	-a>
+pail45p_hs_c	PI45PLC	-a>
+mi145p_c	PI45PLC	-a>
+dag_hs_n	PI45PLCn	-a>
+mi145p_n	PI45PLCn	-a>
+h2o_n	PI45PLCn	-a>
+h_n	PI45PLCn	-a>
+pail45p_hs_n	PI45PLCn	-a>
+pail4p_hs_c	PI4P3K	-a>
+atp_c	PI4P3K	-a>
+pail34p_hs_c	PI4P3K	-a>
+adp_c	PI4P3K	-a>
+h_c	PI4P3K	-a>
+h_r	PI4P3Ker	-a>
+pail4p_hs_r	PI4P3Ker	-a>
+pail34p_hs_r	PI4P3Ker	-a>
+adp_r	PI4P3Ker	-a>
+atp_r	PI4P3Ker	-a>
+adp_n	PI4P3Kn	-a>
+pail4p_hs_n	PI4P3Kn	-a>
+h_n	PI4P3Kn	-a>
+atp_n	PI4P3Kn	-a>
+pail34p_hs_n	PI4P3Kn	-a>
+adp_n	PI4P5Kn	-a>
+pail45p_hs_n	PI4P5Kn	-a>
+pail4p_hs_n	PI4P5Kn	-a>
+h_n	PI4P5Kn	-a>
+atp_n	PI4P5Kn	-a>
+pail4p_hs_c	PI4PLC	-a>
+h2o_c	PI4PLC	-a>
+mi14p_c	PI4PLC	-a>
+h_c	PI4PLC	-a>
+dag_hs_c	PI4PLC	-a>
+mi14p_n	PI4PLCn	-a>
+dag_hs_n	PI4PLCn	-a>
+h2o_n	PI4PLCn	-a>
+pail4p_hs_n	PI4PLCn	-a>
+h_n	PI4PLCn	-a>
+pail4p_hs_c	PI4PP	-a>
+pi_c	PI4PP	-a>
+h2o_c	PI4PP	-a>
+pail_hs_c	PI4PP	-a>
+atp_c	PI5P3K	-a>
+pail35p_hs_c	PI5P3K	-a>
+h_c	PI5P3K	-a>
+pail5p_hs_c	PI5P3K	-a>
+adp_c	PI5P3K	-a>
+pail5p_hs_r	PI5P3Ker	-a>
+h_r	PI5P3Ker	-a>
+adp_r	PI5P3Ker	-a>
+pail35p_hs_r	PI5P3Ker	-a>
+atp_r	PI5P3Ker	-a>
+pail45p_hs_c	PI5P4K	-a>
+atp_c	PI5P4K	-a>
+h_c	PI5P4K	-a>
+pail5p_hs_c	PI5P4K	-a>
+adp_c	PI5P4K	-a>
+pail45p_hs_n	PI5P4Kn	-a>
+atp_n	PI5P4Kn	-a>
+pail5p_hs_n	PI5P4Kn	-a>
+h_n	PI5P4Kn	-a>
+adp_n	PI5P4Kn	-a>
+pail3p_hs_c	PIK3	-a>
+atp_c	PIK3	-a>
+adp_c	PIK3	-a>
+h_c	PIK3	-a>
+pail_hs_c	PIK3	-a>
+adp_r	PIK3er	-a>
+pail3p_hs_r	PIK3er	-a>
+h_r	PIK3er	-a>
+atp_r	PIK3er	-a>
+pail_hs_r	PIK3er	-a>
+pail3p_hs_n	PIK3n	-a>
+atp_n	PIK3n	-a>
+pail_hs_n	PIK3n	-a>
+h_n	PIK3n	-a>
+adp_n	PIK3n	-a>
+adp_n	PIK4n	-a>
+pail4p_hs_n	PIK4n	-a>
+pail_hs_n	PIK4n	-a>
+h_n	PIK4n	-a>
+atp_n	PIK4n	-a>
+atp_c	PIK5	-a>
+adp_c	PIK5	-a>
+h_c	PIK5	-a>
+pail5p_hs_c	PIK5	-a>
+pail_hs_c	PIK5	-a>
+atp_n	PIK5n	-a>
+pail_hs_n	PIK5n	-a>
+pail5p_hs_n	PIK5n	-a>
+h_n	PIK5n	-a>
+adp_n	PIK5n	-a>
+h_c	PIPLC	-a>
+h2o_c	PIPLC	-a>
+mi1p_D_c	PIPLC	-a>
+pail_hs_c	PIPLC	-a>
+dag_hs_c	PIPLC	-a>
+dag_hs_n	PIPLCn	-a>
+h2o_n	PIPLCn	-a>
+pail_hs_n	PIPLCn	-a>
+h_n	PIPLCn	-a>
+mi1p_D_n	PIPLCn	-a>
+pi_c	PMI12346PH	-a>
+h2o_c	PMI12346PH	-a>
+minohp_c	PMI12346PH	-a>
+h_c	PMI12346PH	-a>
+ppmi12346p_c	PMI12346PH	-a>
+ppmi12346p_n	PMI12346PHn	-a>
+pi_n	PMI12346PHn	-a>
+h2o_n	PMI12346PHn	-a>
+h_n	PMI12346PHn	-a>
+minohp_n	PMI12346PHn	-a>
+pi_c	PMI1346PH	-a>
+h2o_c	PMI1346PH	-a>
+minohp_c	PMI1346PH	-a>
+mi13456p_c	PMI1346PH	-a>
+mi13456p_n	PMI1346PHn	-a>
+pi_n	PMI1346PHn	-a>
+h2o_n	PMI1346PHn	-a>
+minohp_n	PMI1346PHn	-a>

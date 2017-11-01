@@ -1,0 +1,24 @@
+protein	adocbl_m
+protein	aqcobal_c
+protein	atp_m
+protein	cbl1_m
+protein	cbl2_c
+protein	h2o_c
+protein	h_c
+protein	h_m
+protein	nad_c
+protein	nadh_c
+protein	pppi_m
+abstract	CBL2OR
+abstract	CBLATm
+nad_c	CBL2OR	-a>
+cbl2_c	CBL2OR	-a>
+h2o_c	CBL2OR	-a>
+h_c	CBL2OR	-a>
+aqcobal_c	CBL2OR	-a>
+nadh_c	CBL2OR	-a>
+atp_m	CBLATm	-a>
+adocbl_m	CBLATm	-a>
+pppi_m	CBLATm	-a>
+cbl1_m	CBLATm	-a>
+h_m	CBLATm	-a>

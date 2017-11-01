@@ -1,0 +1,95 @@
+protein	adp_c
+protein	atp_c
+protein	dhap_c
+protein	fru_e
+protein	g1p_c
+protein	gal1p_c
+protein	gal_c
+protein	gal_e
+protein	gal_l
+protein	galt_c
+protein	glc_D_e
+protein	glc_D_g
+protein	glc_D_l
+protein	glyald_c
+protein	h2o_e
+protein	h2o_l
+protein	h_c
+protein	h_g
+protein	lcts_e
+protein	lcts_g
+protein	lcts_l
+protein	nadp_c
+protein	nadph_c
+protein	ppi_c
+protein	sucr_e
+protein	tag1p_D_c
+protein	tagat_D_c
+protein	udp_g
+protein	udpg_c
+protein	udpgal_c
+protein	udpgal_g
+protein	utp_c
+abstract	FBA5
+abstract	GALK
+abstract	GALOR
+abstract	GALT
+abstract	GALU
+abstract	KHK3
+abstract	LACZe
+abstract	LACZly
+abstract	SUCRe
+abstract	UDPG4E
+abstract	UGALGTg
+abstract	UGLT
+dhap_c	FBA5	-a>
+glyald_c	FBA5	-a>
+tag1p_D_c	FBA5	-a>
+atp_c	GALK	-a>
+gal_c	GALK	-a>
+gal1p_c	GALK	-a>
+h_c	GALK	-a>
+adp_c	GALK	-a>
+galt_c	GALOR	-a>
+nadp_c	GALOR	-a>
+nadph_c	GALOR	-a>
+h_c	GALOR	-a>
+gal_c	GALOR	-a>
+ppi_c	GALT	-a>
+udpgal_c	GALT	-a>
+h_c	GALT	-a>
+utp_c	GALT	-a>
+gal1p_c	GALT	-a>
+udpg_c	GALU	-a>
+ppi_c	GALU	-a>
+g1p_c	GALU	-a>
+utp_c	GALU	-a>
+h_c	GALU	-a>
+tagat_D_c	KHK3	-a>
+atp_c	KHK3	-a>
+adp_c	KHK3	-a>
+h_c	KHK3	-a>
+tag1p_D_c	KHK3	-a>
+lcts_e	LACZe	-a>
+h2o_e	LACZe	-a>
+gal_e	LACZe	-a>
+glc_D_e	LACZe	-a>
+lcts_l	LACZly	-a>
+gal_l	LACZly	-a>
+h2o_l	LACZly	-a>
+glc_D_l	LACZly	-a>
+sucr_e	SUCRe	-a>
+h2o_e	SUCRe	-a>
+fru_e	SUCRe	-a>
+glc_D_e	SUCRe	-a>
+udpgal_c	UDPG4E	-a>
+udpg_c	UDPG4E	-a>
+glc_D_g	UGALGTg	-a>
+udpgal_g	UGALGTg	-a>
+h_g	UGALGTg	-a>
+lcts_g	UGALGTg	-a>
+udp_g	UGALGTg	-a>
+udpgal_c	UGLT	-a>
+g1p_c	UGLT	-a>
+udpg_c	UGLT	-a>
+gal1p_c	UGLT	-a>

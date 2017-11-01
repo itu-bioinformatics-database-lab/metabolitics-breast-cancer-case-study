@@ -1,0 +1,122 @@
+protein	2hb_c
+protein	2mcacn_c
+protein	2mcit_c
+protein	2obut_c
+protein	2obut_m
+protein	3hpp_c
+protein	3hpp_m
+protein	aacoa_c
+protein	acac_c
+protein	acac_m
+protein	accoa_m
+protein	acetone_m
+protein	adp_c
+protein	amp_c
+protein	amp_m
+protein	atp_c
+protein	atp_m
+protein	co2_m
+protein	coa_c
+protein	coa_m
+protein	fad_m
+protein	fadh2_m
+protein	h2o_c
+protein	h_c
+protein	h_m
+protein	micit_c
+protein	msa_c
+protein	msa_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	oaa_c
+protein	pi_c
+protein	ppa_c
+protein	ppa_m
+protein	ppcoa_c
+protein	ppcoa_m
+protein	ppi_c
+protein	ppi_m
+protein	prpncoa_m
+abstract	2HBO
+abstract	3HPPD
+abstract	AACOAT
+abstract	ACCOAL
+abstract	ACCOALm
+abstract	ACS2
+abstract	ADCim
+abstract	MCITS
+abstract	MICITDr
+abstract	MMSAD3m
+abstract	PPCOAOm
+abstract	r0365
+abstract	r1154
+nad_c	2HBO	-a>
+2hb_c	2HBO	-a>
+2obut_c	2HBO	-a>
+h_c	2HBO	-a>
+nadh_c	2HBO	-a>
+nad_c	3HPPD	-a>
+3hpp_c	3HPPD	-a>
+h_c	3HPPD	-a>
+msa_c	3HPPD	-a>
+nadh_c	3HPPD	-a>
+amp_c	AACOAT	-a>
+coa_c	AACOAT	-a>
+acac_c	AACOAT	-a>
+atp_c	AACOAT	-a>
+aacoa_c	AACOAT	-a>
+ppi_c	AACOAT	-a>
+ppa_c	ACCOAL	-a>
+coa_c	ACCOAL	-a>
+pi_c	ACCOAL	-a>
+atp_c	ACCOAL	-a>
+ppcoa_c	ACCOAL	-a>
+adp_c	ACCOAL	-a>
+atp_m	ACCOALm	-a>
+coa_m	ACCOALm	-a>
+ppcoa_m	ACCOALm	-a>
+ppi_m	ACCOALm	-a>
+ppa_m	ACCOALm	-a>
+amp_m	ACCOALm	-a>
+amp_c	ACS2	-a>
+ppa_c	ACS2	-a>
+coa_c	ACS2	-a>
+atp_c	ACS2	-a>
+ppcoa_c	ACS2	-a>
+ppi_c	ACS2	-a>
+acac_m	ADCim	-a>
+h_m	ADCim	-a>
+co2_m	ADCim	-a>
+acetone_m	ADCim	-a>
+ppcoa_c	MCITS	-a>
+h_c	MCITS	-a>
+2mcit_c	MCITS	-a>
+coa_c	MCITS	-a>
+oaa_c	MCITS	-a>
+h2o_c	MCITS	-a>
+micit_c	MICITDr	-a>
+2mcacn_c	MICITDr	-a>
+h2o_c	MICITDr	-a>
+msa_m	MMSAD3m	-a>
+coa_m	MMSAD3m	-a>
+nad_m	MMSAD3m	-a>
+nadh_m	MMSAD3m	-a>
+co2_m	MMSAD3m	-a>
+accoa_m	MMSAD3m	-a>
+prpncoa_m	PPCOAOm	-a>
+fadh2_m	PPCOAOm	-a>
+fad_m	PPCOAOm	-a>
+ppcoa_m	PPCOAOm	-a>
+msa_m	r0365	-a>
+h_m	r0365	-a>
+3hpp_m	r0365	-a>
+nadh_m	r0365	-a>
+nad_m	r0365	-a>
+coa_m	r1154	-a>
+ppcoa_m	r1154	-a>
+nad_m	r1154	-a>
+nadh_m	r1154	-a>
+co2_m	r1154	-a>
+2obut_m	r1154	-a>

@@ -1,0 +1,310 @@
+protein	2amac_c
+protein	2aobut_m
+protein	2mbcoa_m
+protein	2obut_c
+protein	3mb2coa_m
+protein	3pg_c
+protein	3php_c
+protein	5aop_m
+protein	CE2020_m
+protein	CE2026_m
+protein	CE4968_m
+protein	CE4969_m
+protein	CE4970_m
+protein	aact_c
+protein	aact_m
+protein	accoa_m
+protein	ahcys_c
+protein	akg_c
+protein	ala_L_c
+protein	ala_L_x
+protein	alpam_m
+protein	alpro_m
+protein	amet_c
+protein	arachdcoa_m
+protein	betald_c
+protein	betald_m
+protein	chol_m
+protein	co2_c
+protein	co2_m
+protein	coa_c
+protein	coa_m
+protein	dhlam_m
+protein	dhlpro_m
+protein	dmgly_c
+protein	dmgly_m
+protein	fad_m
+protein	fadh2_m
+protein	fald_m
+protein	fald_x
+protein	glu_L_c
+protein	glx_x
+protein	gly_c
+protein	gly_m
+protein	gly_x
+protein	glyb_c
+protein	glyb_m
+protein	h2o2_c
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	hcys_L_c
+protein	hpyr_c
+protein	hpyr_x
+protein	ibcoa_m
+protein	ivcoa_m
+protein	lpam_m
+protein	lpro_m
+protein	met_L_c
+protein	mlthf_c
+protein	mlthf_m
+protein	mthgxl_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadph_c
+protein	nh4_c
+protein	nh4_m
+protein	nh4_x
+protein	o2_c
+protein	o2_x
+protein	phom_c
+protein	pi_c
+protein	ppcoa_c
+protein	pser_L_c
+protein	pyr_c
+protein	pyr_x
+protein	sarcs_c
+protein	sarcs_m
+protein	sarcs_x
+protein	ser_L_c
+protein	ser_L_m
+protein	ser_L_x
+protein	succoa_m
+protein	thf_c
+protein	thf_m
+protein	thr_L_c
+abstract	2AMACHYD
+abstract	AACTOOR
+abstract	ALASm
+abstract	AOBUTDsm
+abstract	BETALDHxm
+abstract	BHMT
+abstract	CHOLD2m
+abstract	DMGDHm
+abstract	GCC2am
+abstract	GCC2bim
+abstract	GCC2cm
+abstract	GCCam
+abstract	GCCbim
+abstract	GCCcm
+abstract	GHMT2r
+abstract	GHMT2rm
+abstract	GLYATm
+abstract	GLYOp
+abstract	GNMT
+abstract	OBDHc
+abstract	PGCD
+abstract	PSERT
+abstract	PSP_L
+abstract	SARCOXp
+abstract	SERHL
+abstract	SPTix
+abstract	THRD_L
+abstract	THRS
+abstract	r0160
+abstract	r0295
+abstract	r0552
+abstract	r0553
+abstract	RE2111M
+abstract	RE2117M
+abstract	RE2427M
+abstract	RE2428M
+abstract	RE2429M
+pyr_c	2AMACHYD	-a>
+2amac_c	2AMACHYD	-a>
+h2o_c	2AMACHYD	-a>
+nh4_c	2AMACHYD	-a>
+h2o_c	AACTOOR	-a>
+mthgxl_c	AACTOOR	-a>
+aact_c	AACTOOR	-a>
+h2o2_c	AACTOOR	-a>
+nh4_c	AACTOOR	-a>
+o2_c	AACTOOR	-a>
+h_m	ALASm	-a>
+coa_m	ALASm	-a>
+5aop_m	ALASm	-a>
+succoa_m	ALASm	-a>
+co2_m	ALASm	-a>
+gly_m	ALASm	-a>
+2aobut_m	AOBUTDsm	-a>
+aact_m	AOBUTDsm	-a>
+h_m	AOBUTDsm	-a>
+co2_m	AOBUTDsm	-a>
+h2o_m	BETALDHxm	-a>
+h_m	BETALDHxm	-a>
+betald_m	BETALDHxm	-a>
+glyb_m	BETALDHxm	-a>
+nadh_m	BETALDHxm	-a>
+nad_m	BETALDHxm	-a>
+hcys_L_c	BHMT	-a>
+dmgly_c	BHMT	-a>
+glyb_c	BHMT	-a>
+met_L_c	BHMT	-a>
+betald_m	CHOLD2m	-a>
+fadh2_m	CHOLD2m	-a>
+fad_m	CHOLD2m	-a>
+chol_m	CHOLD2m	-a>
+h2o_m	DMGDHm	-a>
+fadh2_m	DMGDHm	-a>
+fad_m	DMGDHm	-a>
+fald_m	DMGDHm	-a>
+sarcs_m	DMGDHm	-a>
+dmgly_m	DMGDHm	-a>
+h_m	GCC2am	-a>
+alpam_m	GCC2am	-a>
+co2_m	GCC2am	-a>
+lpam_m	GCC2am	-a>
+gly_m	GCC2am	-a>
+thf_m	GCC2bim	-a>
+alpam_m	GCC2bim	-a>
+dhlam_m	GCC2bim	-a>
+mlthf_m	GCC2bim	-a>
+nh4_m	GCC2bim	-a>
+nadh_m	GCC2cm	-a>
+h_m	GCC2cm	-a>
+dhlam_m	GCC2cm	-a>
+lpam_m	GCC2cm	-a>
+nad_m	GCC2cm	-a>
+lpro_m	GCCam	-a>
+gly_m	GCCam	-a>
+co2_m	GCCam	-a>
+alpro_m	GCCam	-a>
+thf_m	GCCbim	-a>
+dhlpro_m	GCCbim	-a>
+h_m	GCCbim	-a>
+nh4_m	GCCbim	-a>
+alpro_m	GCCbim	-a>
+mlthf_m	GCCbim	-a>
+lpro_m	GCCcm	-a>
+dhlpro_m	GCCcm	-a>
+h_m	GCCcm	-a>
+nadh_m	GCCcm	-a>
+nad_m	GCCcm	-a>
+ser_L_c	GHMT2r	-a>
+mlthf_c	GHMT2r	-a>
+gly_c	GHMT2r	-a>
+h2o_c	GHMT2r	-a>
+thf_c	GHMT2r	-a>
+h2o_m	GHMT2rm	-a>
+ser_L_m	GHMT2rm	-a>
+thf_m	GHMT2rm	-a>
+mlthf_m	GHMT2rm	-a>
+gly_m	GHMT2rm	-a>
+2aobut_m	GLYATm	-a>
+gly_m	GLYATm	-a>
+coa_m	GLYATm	-a>
+accoa_m	GLYATm	-a>
+nh4_x	GLYOp	-a>
+gly_x	GLYOp	-a>
+o2_x	GLYOp	-a>
+h2o_x	GLYOp	-a>
+glx_x	GLYOp	-a>
+h2o2_x	GLYOp	-a>
+sarcs_c	GNMT	-a>
+gly_c	GNMT	-a>
+h_c	GNMT	-a>
+amet_c	GNMT	-a>
+ahcys_c	GNMT	-a>
+nad_c	OBDHc	-a>
+coa_c	OBDHc	-a>
+nadh_c	OBDHc	-a>
+2obut_c	OBDHc	-a>
+ppcoa_c	OBDHc	-a>
+co2_c	OBDHc	-a>
+nad_c	PGCD	-a>
+3php_c	PGCD	-a>
+3pg_c	PGCD	-a>
+h_c	PGCD	-a>
+nadh_c	PGCD	-a>
+glu_L_c	PSERT	-a>
+3php_c	PSERT	-a>
+pser_L_c	PSERT	-a>
+akg_c	PSERT	-a>
+pi_c	PSP_L	-a>
+ser_L_c	PSP_L	-a>
+pser_L_c	PSP_L	-a>
+h2o_c	PSP_L	-a>
+gly_x	SARCOXp	-a>
+h2o2_x	SARCOXp	-a>
+o2_x	SARCOXp	-a>
+h2o_x	SARCOXp	-a>
+sarcs_x	SARCOXp	-a>
+fald_x	SARCOXp	-a>
+2amac_c	SERHL	-a>
+ser_L_c	SERHL	-a>
+h2o_c	SERHL	-a>
+ala_L_x	SPTix	-a>
+hpyr_x	SPTix	-a>
+pyr_x	SPTix	-a>
+ser_L_x	SPTix	-a>
+2obut_c	THRD_L	-a>
+thr_L_c	THRD_L	-a>
+nh4_c	THRD_L	-a>
+pi_c	THRS	-a>
+h2o_c	THRS	-a>
+phom_c	THRS	-a>
+thr_L_c	THRS	-a>
+pyr_c	r0160	-a>
+ser_L_c	r0160	-a>
+ala_L_c	r0160	-a>
+hpyr_c	r0160	-a>
+thf_m	r0295	-a>
+nh4_m	r0295	-a>
+nad_m	r0295	-a>
+nadh_m	r0295	-a>
+co2_m	r0295	-a>
+mlthf_m	r0295	-a>
+gly_m	r0295	-a>
+betald_c	r0552	-a>
+nad_c	r0552	-a>
+h2o_c	r0552	-a>
+h_c	r0552	-a>
+glyb_c	r0552	-a>
+nadh_c	r0552	-a>
+betald_c	r0553	-a>
+h2o_c	r0553	-a>
+nadp_c	r0553	-a>
+h_c	r0553	-a>
+nadph_c	r0553	-a>
+glyb_c	r0553	-a>
+3mb2coa_m	RE2111M	-a>
+CE2026_m	RE2111M	-a>
+h_m	RE2111M	-a>
+coa_m	RE2111M	-a>
+gly_m	RE2111M	-a>
+gly_m	RE2117M	-a>
+CE2020_m	RE2117M	-a>
+coa_m	RE2117M	-a>
+h_m	RE2117M	-a>
+arachdcoa_m	RE2117M	-a>
+ivcoa_m	RE2427M	-a>
+CE4968_m	RE2427M	-a>
+coa_m	RE2427M	-a>
+h_m	RE2427M	-a>
+gly_m	RE2427M	-a>
+gly_m	RE2428M	-a>
+CE4970_m	RE2428M	-a>
+h_m	RE2428M	-a>
+coa_m	RE2428M	-a>
+2mbcoa_m	RE2428M	-a>
+gly_m	RE2429M	-a>
+h_m	RE2429M	-a>
+coa_m	RE2429M	-a>
+CE4969_m	RE2429M	-a>
+ibcoa_m	RE2429M	-a>

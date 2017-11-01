@@ -1,0 +1,237 @@
+protein	12ppd_R_c
+protein	12ppd_S_c
+protein	ac_c
+protein	ac_m
+protein	accoa_c
+protein	accoa_m
+protein	acetol_c
+protein	acetone_c
+protein	adp_m
+protein	atp_m
+protein	co2_c
+protein	co2_m
+protein	coa_c
+protein	coa_m
+protein	dhap_c
+protein	dump_c
+protein	dump_m
+protein	ficytC_m
+protein	focytC_m
+protein	g3p_c
+protein	gthrd_c
+protein	gthrd_m
+protein	h2o_c
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	hco3_m
+protein	lac_D_c
+protein	lac_D_m
+protein	lac_L_c
+protein	lac_L_m
+protein	lald_D_c
+protein	lald_D_m
+protein	lald_L_c
+protein	lald_L_m
+protein	lgt_S_c
+protein	lgt_S_m
+protein	mal_L_c
+protein	mal_L_m
+protein	mthgxl_c
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	o2_c
+protein	oaa_m
+protein	pi_c
+protein	pi_m
+protein	pyr_c
+protein	pyr_m
+abstract	ACOAHi
+abstract	ACTLMO
+abstract	ACTNMO
+abstract	ALCD21_L
+abstract	ALCD22_L
+abstract	ALR2
+abstract	ALR3
+abstract	GLYOX
+abstract	GLYOXm
+abstract	LALDO
+abstract	LALDO2x
+abstract	LCADi
+abstract	LCADi_D
+abstract	LCADi_Dm
+abstract	LCADim
+abstract	LDH_D
+abstract	LDH_Lm
+abstract	LGTHL
+abstract	ME1m
+abstract	ME2
+abstract	ME2m
+abstract	MGSA
+abstract	MGSA2
+abstract	PCm
+abstract	PPDOx
+abstract	PPDOy
+abstract	r0055
+abstract	r0062
+abstract	L_LACDcm
+abstract	r0818
+ac_c	ACOAHi	-a>
+accoa_c	ACOAHi	-a>
+coa_c	ACOAHi	-a>
+h_c	ACOAHi	-a>
+h2o_c	ACOAHi	-a>
+acetol_c	ACTLMO	-a>
+h2o_c	ACTLMO	-a>
+nadp_c	ACTLMO	-a>
+h_c	ACTLMO	-a>
+o2_c	ACTLMO	-a>
+nadph_c	ACTLMO	-a>
+mthgxl_c	ACTLMO	-a>
+acetol_c	ACTNMO	-a>
+h2o_c	ACTNMO	-a>
+nadp_c	ACTNMO	-a>
+h_c	ACTNMO	-a>
+acetone_c	ACTNMO	-a>
+nadph_c	ACTNMO	-a>
+o2_c	ACTNMO	-a>
+12ppd_S_c	ALCD21_L	-a>
+nad_c	ALCD21_L	-a>
+h_c	ALCD21_L	-a>
+lald_L_c	ALCD21_L	-a>
+nadh_c	ALCD21_L	-a>
+nad_c	ALCD22_L	-a>
+mthgxl_c	ALCD22_L	-a>
+nadh_c	ALCD22_L	-a>
+h_c	ALCD22_L	-a>
+lald_L_c	ALCD22_L	-a>
+acetol_c	ALR2	-a>
+nadp_c	ALR2	-a>
+nadph_c	ALR2	-a>
+mthgxl_c	ALR2	-a>
+h_c	ALR2	-a>
+12ppd_S_c	ALR3	-a>
+acetol_c	ALR3	-a>
+nadp_c	ALR3	-a>
+nadph_c	ALR3	-a>
+h_c	ALR3	-a>
+lgt_S_c	GLYOX	-a>
+gthrd_c	GLYOX	-a>
+h2o_c	GLYOX	-a>
+h_c	GLYOX	-a>
+lac_D_c	GLYOX	-a>
+h2o_m	GLYOXm	-a>
+h_m	GLYOXm	-a>
+lgt_S_m	GLYOXm	-a>
+lac_D_m	GLYOXm	-a>
+gthrd_m	GLYOXm	-a>
+nad_c	LALDO	-a>
+lgt_S_c	LALDO	-a>
+h_c	LALDO	-a>
+lald_D_c	LALDO	-a>
+gthrd_c	LALDO	-a>
+nadh_c	LALDO	-a>
+nad_c	LALDO2x	-a>
+h_c	LALDO2x	-a>
+nadh_c	LALDO2x	-a>
+lald_D_c	LALDO2x	-a>
+mthgxl_c	LALDO2x	-a>
+nad_c	LCADi	-a>
+h2o_c	LCADi	-a>
+h_c	LCADi	-a>
+lac_L_c	LCADi	-a>
+lald_L_c	LCADi	-a>
+nadh_c	LCADi	-a>
+nad_c	LCADi_D	-a>
+h2o_c	LCADi_D	-a>
+h_c	LCADi_D	-a>
+lald_D_c	LCADi_D	-a>
+lac_D_c	LCADi_D	-a>
+nadh_c	LCADi_D	-a>
+h2o_m	LCADi_Dm	-a>
+h_m	LCADi_Dm	-a>
+lac_D_m	LCADi_Dm	-a>
+nad_m	LCADi_Dm	-a>
+nadh_m	LCADi_Dm	-a>
+lald_D_m	LCADi_Dm	-a>
+h2o_m	LCADim	-a>
+lald_L_m	LCADim	-a>
+h_m	LCADim	-a>
+nad_m	LCADim	-a>
+nadh_m	LCADim	-a>
+lac_L_m	LCADim	-a>
+nad_c	LDH_D	-a>
+pyr_c	LDH_D	-a>
+h_c	LDH_D	-a>
+lac_D_c	LDH_D	-a>
+nadh_c	LDH_D	-a>
+pyr_m	LDH_Lm	-a>
+nadh_m	LDH_Lm	-a>
+h_m	LDH_Lm	-a>
+nad_m	LDH_Lm	-a>
+lac_L_m	LDH_Lm	-a>
+lgt_S_c	LGTHL	-a>
+gthrd_c	LGTHL	-a>
+mthgxl_c	LGTHL	-a>
+pyr_m	ME1m	-a>
+nadh_m	ME1m	-a>
+mal_L_m	ME1m	-a>
+co2_m	ME1m	-a>
+nad_m	ME1m	-a>
+pyr_c	ME2	-a>
+mal_L_c	ME2	-a>
+nadp_c	ME2	-a>
+nadph_c	ME2	-a>
+co2_c	ME2	-a>
+pyr_m	ME2m	-a>
+nadph_m	ME2m	-a>
+mal_L_m	ME2m	-a>
+co2_m	ME2m	-a>
+nadp_m	ME2m	-a>
+pi_c	MGSA	-a>
+dhap_c	MGSA	-a>
+mthgxl_c	MGSA	-a>
+g3p_c	MGSA2	-a>
+pi_c	MGSA2	-a>
+mthgxl_c	MGSA2	-a>
+oaa_m	PCm	-a>
+pyr_m	PCm	-a>
+h_m	PCm	-a>
+pi_m	PCm	-a>
+atp_m	PCm	-a>
+hco3_m	PCm	-a>
+adp_m	PCm	-a>
+nad_c	PPDOx	-a>
+12ppd_R_c	PPDOx	-a>
+h_c	PPDOx	-a>
+lald_D_c	PPDOx	-a>
+nadh_c	PPDOx	-a>
+nadph_c	PPDOy	-a>
+nadp_c	PPDOy	-a>
+12ppd_R_c	PPDOy	-a>
+h_c	PPDOy	-a>
+lald_D_c	PPDOy	-a>
+pyr_c	r0055	-a>
+h2o_c	r0055	-a>
+nadp_c	r0055	-a>
+mthgxl_c	r0055	-a>
+nadph_c	r0055	-a>
+h_c	r0055	-a>
+h2o_m	r0062	-a>
+ac_m	r0062	-a>
+h_m	r0062	-a>
+coa_m	r0062	-a>
+accoa_m	r0062	-a>
+lac_L_c	L_LACDcm	-a>
+pyr_c	L_LACDcm	-a>
+ficytC_m	L_LACDcm	-a>
+focytC_m	L_LACDcm	-a>
+h_c	L_LACDcm	-a>
+dump_m	r0818	-a>
+dump_c	r0818	-a>

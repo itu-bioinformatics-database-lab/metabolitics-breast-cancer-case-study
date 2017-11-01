@@ -1,0 +1,310 @@
+protein	13dpg_c
+protein	23dpg_c
+protein	2pg_c
+protein	3pg_c
+protein	ac_c
+protein	ac_m
+protein	acald_c
+protein	acald_m
+protein	acald_x
+protein	accoa_c
+protein	accoa_m
+protein	adp_c
+protein	amp_c
+protein	amp_m
+protein	atp_c
+protein	atp_m
+protein	cbp_r
+protein	cdp_c
+protein	co2_c
+protein	co2_m
+protein	co2_r
+protein	coa_c
+protein	coa_m
+protein	ctp_c
+protein	dadp_c
+protein	datp_c
+protein	dgdp_c
+protein	dgtp_c
+protein	dhap_c
+protein	dhap_x
+protein	etoh_c
+protein	etoh_x
+protein	f6p_c
+protein	fad_m
+protein	fadh2_m
+protein	fdp_c
+protein	g1p_c
+protein	g3p_c
+protein	g6p_c
+protein	g6p_r
+protein	gdp_c
+protein	gdp_m
+protein	glc_D_c
+protein	glc_D_r
+protein	glyc3p_c
+protein	glyc3p_x
+protein	gtp_c
+protein	gtp_m
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_r
+protein	h_x
+protein	idp_c
+protein	itp_c
+protein	lac_L_c
+protein	lac_L_x
+protein	nad_c
+protein	nad_m
+protein	nad_x
+protein	nadh_c
+protein	nadh_m
+protein	nadh_x
+protein	nadp_c
+protein	nadph_c
+protein	nh4_r
+protein	o2_c
+protein	oaa_c
+protein	oaa_m
+protein	pep_c
+protein	pep_m
+protein	pi_c
+protein	pi_r
+protein	ppi_c
+protein	ppi_m
+protein	pyr_c
+protein	pyr_m
+protein	pyr_x
+protein	udp_c
+protein	utp_c
+abstract	ACS
+abstract	ACSm
+abstract	ACYP
+abstract	ALCD2if
+abstract	ALCD2yf
+abstract	ALDD2x
+abstract	ALDD2xm
+abstract	ALDD2y
+abstract	CAT2p
+abstract	CBPPer
+abstract	DPGase
+abstract	DPGM
+abstract	ENO
+abstract	ETOHMO
+abstract	FBA
+abstract	FBP
+abstract	G6PPer
+abstract	GAPD
+abstract	HEX1
+abstract	LDH_L
+abstract	PDHm
+abstract	PEPCK
+abstract	PEPCKm
+abstract	PFK
+abstract	PGI
+abstract	PGK
+abstract	PGM
+abstract	PGMT
+abstract	PYK
+abstract	TPI
+abstract	r0122
+abstract	r0153
+abstract	r0165
+abstract	r0173
+abstract	r0202
+abstract	r0280
+abstract	r0354
+abstract	r0355
+abstract	r0413
+abstract	G3PD2m
+amp_c	ACS	-a>
+coa_c	ACS	-a>
+accoa_c	ACS	-a>
+ac_c	ACS	-a>
+atp_c	ACS	-a>
+ppi_c	ACS	-a>
+atp_m	ACSm	-a>
+ac_m	ACSm	-a>
+coa_m	ACSm	-a>
+ppi_m	ACSm	-a>
+amp_m	ACSm	-a>
+accoa_m	ACSm	-a>
+pi_c	ACYP	-a>
+h2o_c	ACYP	-a>
+13dpg_c	ACYP	-a>
+3pg_c	ACYP	-a>
+h_c	ACYP	-a>
+nad_c	ALCD2if	-a>
+etoh_c	ALCD2if	-a>
+nadh_c	ALCD2if	-a>
+h_c	ALCD2if	-a>
+acald_c	ALCD2if	-a>
+etoh_c	ALCD2yf	-a>
+nadp_c	ALCD2yf	-a>
+nadph_c	ALCD2yf	-a>
+h_c	ALCD2yf	-a>
+acald_c	ALCD2yf	-a>
+nad_c	ALDD2x	-a>
+h2o_c	ALDD2x	-a>
+h_c	ALDD2x	-a>
+acald_c	ALDD2x	-a>
+ac_c	ALDD2x	-a>
+nadh_c	ALDD2x	-a>
+h2o_m	ALDD2xm	-a>
+ac_m	ALDD2xm	-a>
+h_m	ALDD2xm	-a>
+nad_m	ALDD2xm	-a>
+nadh_m	ALDD2xm	-a>
+acald_m	ALDD2xm	-a>
+h2o_c	ALDD2y	-a>
+nadp_c	ALDD2y	-a>
+h_c	ALDD2y	-a>
+acald_c	ALDD2y	-a>
+ac_c	ALDD2y	-a>
+nadph_c	ALDD2y	-a>
+acald_x	CAT2p	-a>
+h2o_x	CAT2p	-a>
+etoh_x	CAT2p	-a>
+h2o2_x	CAT2p	-a>
+co2_r	CBPPer	-a>
+glc_D_r	CBPPer	-a>
+g6p_r	CBPPer	-a>
+h_r	CBPPer	-a>
+cbp_r	CBPPer	-a>
+nh4_r	CBPPer	-a>
+pi_c	DPGase	-a>
+h2o_c	DPGase	-a>
+3pg_c	DPGase	-a>
+23dpg_c	DPGase	-a>
+13dpg_c	DPGM	-a>
+h_c	DPGM	-a>
+23dpg_c	DPGM	-a>
+pep_c	ENO	-a>
+h2o_c	ENO	-a>
+2pg_c	ENO	-a>
+h2o_c	ETOHMO	-a>
+nadp_c	ETOHMO	-a>
+h_c	ETOHMO	-a>
+acald_c	ETOHMO	-a>
+nadph_c	ETOHMO	-a>
+etoh_c	ETOHMO	-a>
+o2_c	ETOHMO	-a>
+g3p_c	FBA	-a>
+fdp_c	FBA	-a>
+dhap_c	FBA	-a>
+f6p_c	FBP	-a>
+fdp_c	FBP	-a>
+h2o_c	FBP	-a>
+pi_c	FBP	-a>
+glc_D_r	G6PPer	-a>
+g6p_r	G6PPer	-a>
+pi_r	G6PPer	-a>
+h2o_r	G6PPer	-a>
+nad_c	GAPD	-a>
+g3p_c	GAPD	-a>
+13dpg_c	GAPD	-a>
+h_c	GAPD	-a>
+pi_c	GAPD	-a>
+nadh_c	GAPD	-a>
+atp_c	HEX1	-a>
+glc_D_c	HEX1	-a>
+g6p_c	HEX1	-a>
+h_c	HEX1	-a>
+adp_c	HEX1	-a>
+nad_c	LDH_L	-a>
+pyr_c	LDH_L	-a>
+h_c	LDH_L	-a>
+nadh_c	LDH_L	-a>
+lac_L_c	LDH_L	-a>
+coa_m	PDHm	-a>
+nad_m	PDHm	-a>
+pyr_m	PDHm	-a>
+nadh_m	PDHm	-a>
+co2_m	PDHm	-a>
+accoa_m	PDHm	-a>
+gdp_c	PEPCK	-a>
+gtp_c	PEPCK	-a>
+pep_c	PEPCK	-a>
+oaa_c	PEPCK	-a>
+co2_c	PEPCK	-a>
+gtp_m	PEPCKm	-a>
+oaa_m	PEPCKm	-a>
+gdp_m	PEPCKm	-a>
+co2_m	PEPCKm	-a>
+pep_m	PEPCKm	-a>
+f6p_c	PFK	-a>
+atp_c	PFK	-a>
+adp_c	PFK	-a>
+h_c	PFK	-a>
+fdp_c	PFK	-a>
+f6p_c	PGI	-a>
+g6p_c	PGI	-a>
+atp_c	PGK	-a>
+13dpg_c	PGK	-a>
+3pg_c	PGK	-a>
+adp_c	PGK	-a>
+2pg_c	PGM	-a>
+3pg_c	PGM	-a>
+g1p_c	PGMT	-a>
+g6p_c	PGMT	-a>
+pyr_c	PYK	-a>
+atp_c	PYK	-a>
+pep_c	PYK	-a>
+adp_c	PYK	-a>
+h_c	PYK	-a>
+g3p_c	TPI	-a>
+dhap_c	TPI	-a>
+gdp_c	r0122	-a>
+gtp_c	r0122	-a>
+pep_c	r0122	-a>
+h_c	r0122	-a>
+pyr_c	r0122	-a>
+pyr_c	r0153	-a>
+cdp_c	r0153	-a>
+ctp_c	r0153	-a>
+h_c	r0153	-a>
+pep_c	r0153	-a>
+pyr_c	r0165	-a>
+pep_c	r0165	-a>
+h_c	r0165	-a>
+utp_c	r0165	-a>
+udp_c	r0165	-a>
+nadh_x	r0173	-a>
+nad_x	r0173	-a>
+pyr_x	r0173	-a>
+h_x	r0173	-a>
+lac_L_x	r0173	-a>
+nadh_x	r0202	-a>
+glyc3p_x	r0202	-a>
+dhap_x	r0202	-a>
+nad_x	r0202	-a>
+h_x	r0202	-a>
+pyr_c	r0280	-a>
+dadp_c	r0280	-a>
+pep_c	r0280	-a>
+h_c	r0280	-a>
+datp_c	r0280	-a>
+itp_c	r0354	-a>
+glc_D_c	r0354	-a>
+h_c	r0354	-a>
+idp_c	r0354	-a>
+g6p_c	r0354	-a>
+datp_c	r0355	-a>
+dadp_c	r0355	-a>
+glc_D_c	r0355	-a>
+h_c	r0355	-a>
+g6p_c	r0355	-a>
+dgdp_c	r0413	-a>
+pyr_c	r0413	-a>
+pep_c	r0413	-a>
+h_c	r0413	-a>
+dgtp_c	r0413	-a>
+fad_m	G3PD2m	-a>
+fadh2_m	G3PD2m	-a>
+dhap_c	G3PD2m	-a>
+glyc3p_c	G3PD2m	-a>

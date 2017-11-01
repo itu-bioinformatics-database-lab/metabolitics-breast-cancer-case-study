@@ -1,0 +1,206 @@
+protein	1mncam_c
+protein	adp_c
+protein	adp_m
+protein	adprbp_c
+protein	adprbp_e
+protein	adprib_c
+protein	adprib_e
+protein	ahcys_c
+protein	amet_c
+protein	amp_c
+protein	atp_c
+protein	atp_m
+protein	atp_n
+protein	co2_c
+protein	dnad_c
+protein	dnad_m
+protein	dnad_n
+protein	gln_L_c
+protein	glu_L_c
+protein	h2o_c
+protein	h2o_e
+protein	h_c
+protein	h_e
+protein	h_m
+protein	h_n
+protein	nac_c
+protein	nad_c
+protein	nad_e
+protein	nad_m
+protein	nad_n
+protein	nadh_m
+protein	nadp_c
+protein	nadp_e
+protein	nadp_m
+protein	nadph_m
+protein	ncam_c
+protein	ncam_e
+protein	nh4_c
+protein	nicrns_c
+protein	nicrnt_c
+protein	nicrnt_m
+protein	nicrnt_n
+protein	nmn_c
+protein	nmn_m
+protein	nmn_n
+protein	pi_c
+protein	ppi_c
+protein	ppi_m
+protein	ppi_n
+protein	prpp_c
+protein	quln_c
+protein	r1p_c
+protein	rnam_c
+abstract	NADK
+abstract	NADN
+abstract	NADNe
+abstract	NADPN
+abstract	NADPNe
+abstract	NADS2
+abstract	NICRNS
+abstract	NMNATm
+abstract	NMNATn
+abstract	NMNATr
+abstract	NMNS
+abstract	NNATm
+abstract	NNATn
+abstract	NNATr
+abstract	NNMT
+abstract	NP1
+abstract	NT5C
+abstract	PNP
+abstract	RNMK
+abstract	r0391
+abstract	r0527
+abstract	r0584
+abstract	NNDPR
+abstract	NADKm
+abstract	THD1m
+nad_c	NADK	-a>
+atp_c	NADK	-a>
+nadp_c	NADK	-a>
+adp_c	NADK	-a>
+h_c	NADK	-a>
+nad_c	NADN	-a>
+h2o_c	NADN	-a>
+ncam_c	NADN	-a>
+h_c	NADN	-a>
+adprib_c	NADN	-a>
+h_e	NADNe	-a>
+ncam_e	NADNe	-a>
+nad_e	NADNe	-a>
+h2o_e	NADNe	-a>
+adprib_e	NADNe	-a>
+h2o_c	NADPN	-a>
+nadp_c	NADPN	-a>
+ncam_c	NADPN	-a>
+h_c	NADPN	-a>
+adprbp_c	NADPN	-a>
+h_e	NADPNe	-a>
+ncam_e	NADPNe	-a>
+adprbp_e	NADPNe	-a>
+h2o_e	NADPNe	-a>
+nadp_e	NADPNe	-a>
+nad_c	NADS2	-a>
+h2o_c	NADS2	-a>
+h_c	NADS2	-a>
+glu_L_c	NADS2	-a>
+gln_L_c	NADS2	-a>
+amp_c	NADS2	-a>
+atp_c	NADS2	-a>
+ppi_c	NADS2	-a>
+dnad_c	NADS2	-a>
+atp_c	NICRNS	-a>
+adp_c	NICRNS	-a>
+nicrns_c	NICRNS	-a>
+h_c	NICRNS	-a>
+nicrnt_c	NICRNS	-a>
+atp_m	NMNATm	-a>
+ppi_m	NMNATm	-a>
+h_m	NMNATm	-a>
+nmn_m	NMNATm	-a>
+nad_m	NMNATm	-a>
+nmn_n	NMNATn	-a>
+ppi_n	NMNATn	-a>
+nad_n	NMNATn	-a>
+h_n	NMNATn	-a>
+atp_n	NMNATn	-a>
+nad_c	NMNATr	-a>
+nmn_c	NMNATr	-a>
+atp_c	NMNATr	-a>
+h_c	NMNATr	-a>
+ppi_c	NMNATr	-a>
+prpp_c	NMNS	-a>
+nmn_c	NMNS	-a>
+ncam_c	NMNS	-a>
+ppi_c	NMNS	-a>
+h_c	NMNS	-a>
+atp_m	NNATm	-a>
+ppi_m	NNATm	-a>
+dnad_m	NNATm	-a>
+nicrnt_m	NNATm	-a>
+h_m	NNATm	-a>
+dnad_n	NNATn	-a>
+ppi_n	NNATn	-a>
+nicrnt_n	NNATn	-a>
+h_n	NNATn	-a>
+atp_n	NNATn	-a>
+h_c	NNATr	-a>
+atp_c	NNATr	-a>
+dnad_c	NNATr	-a>
+ppi_c	NNATr	-a>
+nicrnt_c	NNATr	-a>
+1mncam_c	NNMT	-a>
+ncam_c	NNMT	-a>
+amet_c	NNMT	-a>
+ahcys_c	NNMT	-a>
+pi_c	NP1	-a>
+r1p_c	NP1	-a>
+nicrns_c	NP1	-a>
+h_c	NP1	-a>
+nac_c	NP1	-a>
+pi_c	NT5C	-a>
+h2o_c	NT5C	-a>
+nicrns_c	NT5C	-a>
+nicrnt_c	NT5C	-a>
+pi_c	PNP	-a>
+r1p_c	PNP	-a>
+ncam_c	PNP	-a>
+h_c	PNP	-a>
+rnam_c	PNP	-a>
+rnam_c	RNMK	-a>
+atp_c	RNMK	-a>
+adp_c	RNMK	-a>
+nmn_c	RNMK	-a>
+h_c	RNMK	-a>
+prpp_c	r0391	-a>
+nac_c	r0391	-a>
+h_c	r0391	-a>
+ppi_c	r0391	-a>
+nicrnt_c	r0391	-a>
+nmn_c	r0527	-a>
+h2o_c	r0527	-a>
+nh4_c	r0527	-a>
+nicrnt_c	r0527	-a>
+amp_c	r0584	-a>
+h2o_c	r0584	-a>
+dnad_c	r0584	-a>
+h_c	r0584	-a>
+nicrnt_c	r0584	-a>
+quln_c	NNDPR	-a>
+h_c	NNDPR	-a>
+nicrnt_c	NNDPR	-a>
+prpp_c	NNDPR	-a>
+ppi_c	NNDPR	-a>
+co2_c	NNDPR	-a>
+atp_m	NADKm	-a>
+adp_m	NADKm	-a>
+h_m	NADKm	-a>
+nadp_m	NADKm	-a>
+nad_m	NADKm	-a>
+nadph_m	THD1m	-a>
+h_c	THD1m	-a>
+h_m	THD1m	-a>
+nad_m	THD1m	-a>
+nadh_m	THD1m	-a>
+nadp_m	THD1m	-a>

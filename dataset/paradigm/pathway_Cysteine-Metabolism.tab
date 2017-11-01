@@ -1,0 +1,22 @@
+protein	HC00250_c
+protein	HC01501_c
+protein	cys_L_c
+protein	h2o_c
+protein	h_c
+protein	mercppyr_c
+protein	nh4_c
+protein	pyr_c
+protein	so3_c
+abstract	r0193
+abstract	r0595
+HC00250_c	r0193	-a>
+h2o_c	r0193	-a>
+h_c	r0193	-a>
+pyr_c	r0193	-a>
+cys_L_c	r0193	-a>
+nh4_c	r0193	-a>
+mercppyr_c	r0595	-a>
+pyr_c	r0595	-a>
+so3_c	r0595	-a>
+h_c	r0595	-a>
+HC01501_c	r0595	-a>

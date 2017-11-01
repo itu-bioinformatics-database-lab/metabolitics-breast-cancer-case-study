@@ -1,0 +1,1022 @@
+protein	20ahchsterol_m
+protein	C02528_c
+protein	C02528_m
+protein	C02528_r
+protein	C02528_x
+protein	HC02192_x
+protein	HC02191_r
+protein	HC02191_x
+protein	dchac_c
+protein	dchac_r
+protein	tdechola_c
+protein	tdechola_x
+protein	CE0233_c
+protein	CE0233_m
+protein	CE1272_c
+protein	CE1272_r
+protein	CE1273_c
+protein	CE1273_r
+protein	CE1274_c
+protein	CE1274_r
+protein	CE1277_c
+protein	CE1277_r
+protein	CE1278_c
+protein	CE1278_r
+protein	CE1279_c
+protein	CE1279_r
+protein	CE1292_c
+protein	CE1292_m
+protein	CE1298_c
+protein	CE1298_m
+protein	CE1589_c
+protein	CE1589_r
+protein	CE1589_x
+protein	CE2345_c
+protein	CE2345_m
+protein	CE3038_c
+protein	CE3038_m
+protein	thcholst_r
+protein	CE4874_c
+protein	CE4874_m
+protein	xoltri27_m
+protein	CE5560_x
+protein	HC01459_x
+protein	HC02191_c
+protein	HC02192_c
+protein	CE5560_c
+protein	adp_r
+protein	amp_c
+protein	amp_r
+protein	amp_x
+protein	atp_c
+protein	atp_r
+protein	atp_x
+protein	cholate_c
+protein	cholate_m
+protein	cholate_r
+protein	cholate_x
+protein	cholcoa_c
+protein	cholcoa_m
+protein	cholcoa_r
+protein	cholcoa_x
+protein	cholcoads_x
+protein	cholcoaone_x
+protein	cholcoar_r
+protein	cholcoar_x
+protein	cholcoas_r
+protein	cholcoas_x
+protein	chsterol_m
+protein	chsterol_r
+protein	coa_c
+protein	coa_m
+protein	coa_r
+protein	coa_x
+protein	dcholcoa_c
+protein	dcholcoa_m
+protein	dcholcoa_r
+protein	dcholcoa_x
+protein	dgchol_c
+protein	dgchol_x
+protein	dhcholestanate_c
+protein	dhcholestanate_m
+protein	dhcholestanate_r
+protein	dhcholestanate_x
+protein	dhcholestancoa_c
+protein	dhcholestancoa_m
+protein	dhcholestancoa_r
+protein	dhcholestancoa_x
+protein	dhcholoylcoa_c
+protein	dhcholoylcoa_r
+protein	dhcholoylcoa_x
+protein	fad_x
+protein	fadh2_x
+protein	gchola_c
+protein	gchola_x
+protein	gly_c
+protein	gly_x
+protein	gmp_c
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_r
+protein	h_x
+protein	nad_c
+protein	nad_m
+protein	nad_r
+protein	nad_x
+protein	nadh_c
+protein	nadh_m
+protein	nadh_r
+protein	nadh_x
+protein	nadp_c
+protein	nadp_m
+protein	nadp_r
+protein	nadp_x
+protein	nadph_c
+protein	nadph_m
+protein	nadph_r
+protein	nadph_x
+protein	nh4_c
+protein	o2_c
+protein	o2_m
+protein	o2_r
+protein	o2_x
+protein	pi_r
+protein	ppa_c
+protein	ppa_m
+protein	ppa_x
+protein	ppcoa_c
+protein	ppcoa_m
+protein	ppcoa_x
+protein	ppi_c
+protein	ppi_r
+protein	ppi_x
+protein	taur_c
+protein	taur_x
+protein	tchola_c
+protein	tchola_x
+protein	tdchola_c
+protein	tdchola_x
+protein	thcholoylcoa_x
+protein	thcholst_c
+protein	thcholst_m
+protein	thcholstoic_c
+protein	thcholstoic_m
+protein	thcholstoic_r
+protein	thcholstoic_x
+protein	xmp_c
+protein	xol24oh_r
+protein	xol25oh_r
+protein	xol27oh_c
+protein	xol27oh_m
+protein	xol27oh_r
+protein	20ahchsterol_c
+protein	20ahchsterol_r
+protein	xol7ah2_c
+protein	xol7ah2_m
+protein	xol7ah2al_c
+protein	xol7ah2al_m
+protein	xol7ah3_c
+protein	xol7ah3_m
+protein	xol7ah_c
+protein	xol7aone_c
+protein	xol7aone_m
+protein	xol7aone_r
+protein	xoldiolone_c
+protein	xoldiolone_r
+protein	xoldioloneh_c
+protein	xoltetrol_c
+protein	xoltetrol_m
+protein	xoltri24_r
+protein	xoltri25_r
+protein	xoltri27_c
+protein	xoltri27_r
+protein	xoltriol_c
+protein	xoltriol_m
+protein	xoltriol_r
+protein	dhocholoylcoa_x
+abstract	ACOX22x
+abstract	ACOX2x
+abstract	AKR1C41
+abstract	AKR1C42
+abstract	AKR1D
+abstract	AKR1D2
+abstract	AMACR2p
+abstract	AMACR2r
+abstract	AMACRp
+abstract	AMACRr
+abstract	BAAT1x
+abstract	BAAT2x
+abstract	BAAT4x
+abstract	CH25H
+abstract	HSD17B42x
+abstract	HSD17B4x
+abstract	HSD3B7P
+abstract	P45027A11m
+abstract	P45027A12m
+abstract	P45027A13m
+abstract	P45027A14m
+abstract	P45027A15m
+abstract	P45027A16m
+abstract	P45027A1m
+abstract	P45039A1r
+abstract	P45046A1r
+abstract	P4507A1r
+abstract	P4507B11r
+abstract	P4507B12r
+abstract	P4508B11r
+abstract	P4508B13r
+abstract	SCP2x
+abstract	SCPx
+abstract	VLCS2p
+abstract	VLCS2r
+abstract	VLCSp
+abstract	VLCSr
+abstract	r0301
+abstract	r0573
+abstract	r0626
+abstract	r0629
+abstract	r0630
+abstract	r0650
+abstract	r0651
+abstract	r0672
+abstract	r0688
+abstract	r0698
+abstract	r0706
+abstract	r0739
+abstract	r0741
+abstract	r0743
+abstract	r0744
+abstract	r0747
+abstract	r0750
+abstract	r0797
+abstract	RE1796C
+abstract	RE1796M
+abstract	RE1796R
+abstract	RE1803C
+abstract	RE1804C
+abstract	RE1804M
+abstract	RE1806C
+abstract	RE1806R
+abstract	RE1807C
+abstract	RE1807M
+abstract	RE1808R
+abstract	RE1809C
+abstract	RE1809R
+abstract	RE1810M
+abstract	RE1811C
+abstract	RE1811R
+abstract	RE1812C
+abstract	RE1812R
+abstract	RE1826C
+abstract	RE1826M
+abstract	RE1827C
+abstract	RE1827M
+abstract	RE1828C
+abstract	RE1828M
+abstract	RE1829C
+abstract	RE1829M
+abstract	RE1830C
+abstract	RE1830M
+abstract	RE1834C
+abstract	RE1834M
+abstract	RE1834X
+abstract	RE1835C
+abstract	RE1835M
+abstract	RE1835X
+abstract	RE1836C
+abstract	RE1836M
+abstract	RE1845C
+abstract	BAAT5x
+abstract	RE1846C
+abstract	RE1846X
+abstract	RE2112C
+abstract	RE2112R
+abstract	RE2625C
+abstract	RE2625M
+abstract	RE2626C
+abstract	RE2626M
+abstract	RE2632C
+abstract	RE2632M
+abstract	RE2633C
+abstract	RE2633R
+abstract	RE2635C
+abstract	RE2635R
+abstract	RE2636C
+abstract	RE2636R
+abstract	RE2637C
+abstract	RE2637X
+abstract	RE2638C
+abstract	RE2638X
+abstract	RE2649C
+abstract	RE2649M
+abstract	RE2649X
+abstract	RE2814M
+abstract	RE2814R
+abstract	RE3251C
+abstract	RE3251M
+abstract	RE3252C
+abstract	RE3346C
+abstract	RE3346M
+abstract	RE3346R
+abstract	r1025
+fadh2_x	ACOX22x	-a>
+thcholoylcoa_x	ACOX22x	-a>
+fad_x	ACOX22x	-a>
+dhcholoylcoa_x	ACOX22x	-a>
+o2_x	ACOX22x	-a>
+cholcoads_x	ACOX2x	-a>
+cholcoas_x	ACOX2x	-a>
+o2_x	ACOX2x	-a>
+fadh2_x	ACOX2x	-a>
+h2o_x	ACOX2x	-a>
+fad_x	ACOX2x	-a>
+nad_c	AKR1C41	-a>
+h_c	AKR1C41	-a>
+xol7ah2_c	AKR1C41	-a>
+xol7ah_c	AKR1C41	-a>
+nadh_c	AKR1C41	-a>
+nad_c	AKR1C42	-a>
+xoltriol_c	AKR1C42	-a>
+nadh_c	AKR1C42	-a>
+xoldioloneh_c	AKR1C42	-a>
+h_c	AKR1C42	-a>
+xol7aone_c	AKR1D	-a>
+nadp_c	AKR1D	-a>
+nadph_c	AKR1D	-a>
+h_c	AKR1D	-a>
+xol7ah_c	AKR1D	-a>
+nadph_c	AKR1D2	-a>
+nadp_c	AKR1D2	-a>
+xoldiolone_c	AKR1D2	-a>
+h_c	AKR1D2	-a>
+xoldioloneh_c	AKR1D2	-a>
+h2o_x	AMACR2p	-a>
+dhcholoylcoa_x	AMACR2p	-a>
+dhcholestancoa_x	AMACR2p	-a>
+o2_x	AMACR2p	-a>
+dhcholoylcoa_r	AMACR2r	-a>
+dhcholestancoa_r	AMACR2r	-a>
+o2_r	AMACR2r	-a>
+h2o_r	AMACR2r	-a>
+cholcoas_x	AMACRp	-a>
+cholcoar_x	AMACRp	-a>
+cholcoas_r	AMACRr	-a>
+cholcoar_r	AMACRr	-a>
+gly_x	BAAT1x	-a>
+cholcoa_x	BAAT1x	-a>
+gchola_x	BAAT1x	-a>
+coa_x	BAAT1x	-a>
+taur_x	BAAT2x	-a>
+cholcoa_x	BAAT2x	-a>
+tchola_x	BAAT2x	-a>
+coa_x	BAAT2x	-a>
+gly_x	BAAT4x	-a>
+dcholcoa_x	BAAT4x	-a>
+dgchol_x	BAAT4x	-a>
+coa_x	BAAT4x	-a>
+xol25oh_r	CH25H	-a>
+o2_r	CH25H	-a>
+nadp_r	CH25H	-a>
+h2o_r	CH25H	-a>
+h_r	CH25H	-a>
+chsterol_r	CH25H	-a>
+nadph_r	CH25H	-a>
+nadp_x	HSD17B42x	-a>
+h2o_x	HSD17B42x	-a>
+dhcholoylcoa_x	HSD17B42x	-a>
+h_x	HSD17B42x	-a>
+dhocholoylcoa_x	HSD17B42x	-a>
+nadph_x	HSD17B42x	-a>
+cholcoads_x	HSD17B4x	-a>
+cholcoaone_x	HSD17B4x	-a>
+o2_x	HSD17B4x	-a>
+nadp_x	HSD17B4x	-a>
+h2o_x	HSD17B4x	-a>
+h_x	HSD17B4x	-a>
+nadph_x	HSD17B4x	-a>
+xol7aone_r	HSD3B7P	-a>
+20ahchsterol_r	HSD3B7P	-a>
+nadph_r	HSD3B7P	-a>
+h_r	HSD3B7P	-a>
+nadp_r	HSD3B7P	-a>
+h2o_m	P45027A11m	-a>
+xoltriol_m	P45027A11m	-a>
+h_m	P45027A11m	-a>
+xoltetrol_m	P45027A11m	-a>
+nadph_m	P45027A11m	-a>
+o2_m	P45027A11m	-a>
+nadp_m	P45027A11m	-a>
+xoltetrol_m	P45027A12m	-a>
+thcholst_m	P45027A12m	-a>
+nadph_m	P45027A12m	-a>
+h_m	P45027A12m	-a>
+nadp_m	P45027A12m	-a>
+h2o_m	P45027A13m	-a>
+thcholst_m	P45027A13m	-a>
+nadph_m	P45027A13m	-a>
+thcholstoic_m	P45027A13m	-a>
+o2_m	P45027A13m	-a>
+nadp_m	P45027A13m	-a>
+h2o_m	P45027A14m	-a>
+nadph_m	P45027A14m	-a>
+h_m	P45027A14m	-a>
+xol7ah2_m	P45027A14m	-a>
+xol7ah3_m	P45027A14m	-a>
+o2_m	P45027A14m	-a>
+nadp_m	P45027A14m	-a>
+h2o_m	P45027A15m	-a>
+nadph_m	P45027A15m	-a>
+xol7ah2al_m	P45027A15m	-a>
+h_m	P45027A15m	-a>
+xol7ah3_m	P45027A15m	-a>
+o2_m	P45027A15m	-a>
+nadp_m	P45027A15m	-a>
+h2o_m	P45027A16m	-a>
+nadph_m	P45027A16m	-a>
+xol7ah2al_m	P45027A16m	-a>
+dhcholestanate_m	P45027A16m	-a>
+o2_m	P45027A16m	-a>
+nadp_m	P45027A16m	-a>
+chsterol_m	P45027A1m	-a>
+h2o_m	P45027A1m	-a>
+nadph_m	P45027A1m	-a>
+h_m	P45027A1m	-a>
+xol27oh_m	P45027A1m	-a>
+o2_m	P45027A1m	-a>
+nadp_m	P45027A1m	-a>
+xoltri24_r	P45039A1r	-a>
+o2_r	P45039A1r	-a>
+nadp_r	P45039A1r	-a>
+h2o_r	P45039A1r	-a>
+h_r	P45039A1r	-a>
+nadph_r	P45039A1r	-a>
+xol24oh_r	P45039A1r	-a>
+o2_r	P45046A1r	-a>
+nadp_r	P45046A1r	-a>
+h2o_r	P45046A1r	-a>
+h_r	P45046A1r	-a>
+chsterol_r	P45046A1r	-a>
+nadph_r	P45046A1r	-a>
+xol24oh_r	P45046A1r	-a>
+20ahchsterol_r	P4507A1r	-a>
+o2_r	P4507A1r	-a>
+nadp_r	P4507A1r	-a>
+h2o_r	P4507A1r	-a>
+h_r	P4507A1r	-a>
+chsterol_r	P4507A1r	-a>
+nadph_r	P4507A1r	-a>
+xol25oh_r	P4507B11r	-a>
+o2_r	P4507B11r	-a>
+nadp_r	P4507B11r	-a>
+h2o_r	P4507B11r	-a>
+h_r	P4507B11r	-a>
+nadph_r	P4507B11r	-a>
+xoltri25_r	P4507B11r	-a>
+xol27oh_r	P4507B12r	-a>
+o2_r	P4507B12r	-a>
+nadp_r	P4507B12r	-a>
+h2o_r	P4507B12r	-a>
+h_r	P4507B12r	-a>
+xoltri27_r	P4507B12r	-a>
+nadph_r	P4507B12r	-a>
+xoldiolone_r	P4508B11r	-a>
+o2_r	P4508B11r	-a>
+nadp_r	P4508B11r	-a>
+h2o_r	P4508B11r	-a>
+xol7aone_r	P4508B11r	-a>
+h_r	P4508B11r	-a>
+nadph_r	P4508B11r	-a>
+xoldiolone_r	P4508B13r	-a>
+o2_r	P4508B13r	-a>
+h2o_r	P4508B13r	-a>
+xol7aone_r	P4508B13r	-a>
+h_r	P4508B13r	-a>
+nadh_r	P4508B13r	-a>
+nad_r	P4508B13r	-a>
+ppcoa_x	SCP2x	-a>
+dcholcoa_x	SCP2x	-a>
+dhocholoylcoa_x	SCP2x	-a>
+coa_x	SCP2x	-a>
+ppcoa_x	SCPx	-a>
+cholcoa_x	SCPx	-a>
+cholcoaone_x	SCPx	-a>
+coa_x	SCPx	-a>
+dhcholestanate_x	VLCS2p	-a>
+atp_x	VLCS2p	-a>
+amp_x	VLCS2p	-a>
+ppi_x	VLCS2p	-a>
+dhcholestancoa_x	VLCS2p	-a>
+coa_x	VLCS2p	-a>
+amp_r	VLCS2r	-a>
+dhcholestancoa_r	VLCS2r	-a>
+ppi_r	VLCS2r	-a>
+coa_r	VLCS2r	-a>
+dhcholestanate_r	VLCS2r	-a>
+atp_r	VLCS2r	-a>
+atp_x	VLCSp	-a>
+thcholstoic_x	VLCSp	-a>
+amp_x	VLCSp	-a>
+cholcoar_x	VLCSp	-a>
+ppi_x	VLCSp	-a>
+coa_x	VLCSp	-a>
+amp_r	VLCSr	-a>
+ppi_r	VLCSr	-a>
+cholcoar_r	VLCSr	-a>
+coa_r	VLCSr	-a>
+thcholstoic_r	VLCSr	-a>
+atp_r	VLCSr	-a>
+amp_c	r0301	-a>
+h_c	r0301	-a>
+xmp_c	r0301	-a>
+gmp_c	r0301	-a>
+atp_c	r0301	-a>
+ppi_c	r0301	-a>
+nh4_c	r0301	-a>
+ppi_r	r0573	-a>
+amp_r	r0573	-a>
+cholate_r	r0573	-a>
+cholcoa_r	r0573	-a>
+coa_r	r0573	-a>
+atp_r	r0573	-a>
+nad_c	r0626	-a>
+coa_c	r0626	-a>
+nadh_c	r0626	-a>
+h2o_c	r0626	-a>
+h_c	r0626	-a>
+dhcholoylcoa_c	r0626	-a>
+thcholst_c	r0626	-a>
+coa_c	r0629	-a>
+gly_c	r0629	-a>
+cholcoa_c	r0629	-a>
+gchola_c	r0629	-a>
+coa_c	r0630	-a>
+taur_c	r0630	-a>
+cholcoa_c	r0630	-a>
+tchola_c	r0630	-a>
+ppi_r	r0650	-a>
+amp_r	r0650	-a>
+C02528_r	r0650	-a>
+dcholcoa_r	r0650	-a>
+coa_r	r0650	-a>
+atp_r	r0650	-a>
+amp_c	r0651	-a>
+dcholcoa_c	r0651	-a>
+coa_c	r0651	-a>
+C02528_c	r0651	-a>
+atp_c	r0651	-a>
+ppi_c	r0651	-a>
+xol25oh_r	r0672	-a>
+xol7aone_r	r0672	-a>
+nadph_r	r0672	-a>
+nadp_r	r0672	-a>
+h_r	r0672	-a>
+nad_c	r0688	-a>
+xol7ah2al_c	r0688	-a>
+h2o_c	r0688	-a>
+h_c	r0688	-a>
+dhcholestanate_c	r0688	-a>
+nadh_c	r0688	-a>
+nadh_x	r0698	-a>
+coa_x	r0698	-a>
+nad_x	r0698	-a>
+ppcoa_x	r0698	-a>
+h2o_x	r0698	-a>
+dcholcoa_x	r0698	-a>
+h_x	r0698	-a>
+dhcholestancoa_x	r0698	-a>
+cholcoads_x	r0706	-a>
+cholcoar_x	r0706	-a>
+h2o2_x	r0706	-a>
+o2_x	r0706	-a>
+nad_c	r0739	-a>
+xol7ah2al_c	r0739	-a>
+h_c	r0739	-a>
+nadh_c	r0739	-a>
+xol7ah3_c	r0739	-a>
+h2o_c	r0741	-a>
+nadp_c	r0741	-a>
+xoltetrol_c	r0741	-a>
+h_c	r0741	-a>
+xoltriol_c	r0741	-a>
+nadph_c	r0741	-a>
+o2_c	r0741	-a>
+nadh_x	r0743	-a>
+nad_x	r0743	-a>
+HC01459_x	r0743	-a>
+h_x	r0743	-a>
+cholcoaone_x	r0743	-a>
+h2o_x	r0744	-a>
+cholcoads_x	r0744	-a>
+HC01459_x	r0744	-a>
+nadp_c	r0747	-a>
+nadph_c	r0747	-a>
+xol7ah2_c	r0747	-a>
+xol7ah_c	r0747	-a>
+h_c	r0747	-a>
+nadp_c	r0750	-a>
+nadph_c	r0750	-a>
+h_c	r0750	-a>
+xoldioloneh_c	r0750	-a>
+xoltriol_c	r0750	-a>
+dcholcoa_c	r0797	-a>
+coa_c	r0797	-a>
+dgchol_c	r0797	-a>
+gly_c	r0797	-a>
+nad_c	RE1796C	-a>
+xol7aone_c	RE1796C	-a>
+h_c	RE1796C	-a>
+20ahchsterol_c	RE1796C	-a>
+nadh_c	RE1796C	-a>
+20ahchsterol_m	RE1796M	-a>
+nadh_m	RE1796M	-a>
+h_m	RE1796M	-a>
+xol7aone_m	RE1796M	-a>
+nad_m	RE1796M	-a>
+xol7aone_r	RE1796R	-a>
+h_r	RE1796R	-a>
+nadh_r	RE1796R	-a>
+20ahchsterol_r	RE1796R	-a>
+nad_r	RE1796R	-a>
+h2o_c	RE1803C	-a>
+nadp_c	RE1803C	-a>
+xoltri27_c	RE1803C	-a>
+h_c	RE1803C	-a>
+xol27oh_c	RE1803C	-a>
+nadph_c	RE1803C	-a>
+o2_c	RE1803C	-a>
+nad_c	RE1804C	-a>
+xol7ah2al_c	RE1804C	-a>
+CE0233_c	RE1804C	-a>
+h_c	RE1804C	-a>
+nadh_c	RE1804C	-a>
+nadh_m	RE1804M	-a>
+xol7ah3_m	RE1804M	-a>
+h_m	RE1804M	-a>
+xol7ah2al_m	RE1804M	-a>
+nad_m	RE1804M	-a>
+h2o_c	RE1806C	-a>
+nadp_c	RE1806C	-a>
+h_c	RE1806C	-a>
+CE1272_c	RE1806C	-a>
+o2_c	RE1806C	-a>
+nadph_c	RE1806C	-a>
+xoltriol_c	RE1806C	-a>
+o2_r	RE1806R	-a>
+nadp_r	RE1806R	-a>
+xoltriol_r	RE1806R	-a>
+h2o_r	RE1806R	-a>
+h_r	RE1806R	-a>
+nadph_r	RE1806R	-a>
+CE1272_r	RE1806R	-a>
+xol7ah2al_c	RE1807C	-a>
+h2o_c	RE1807C	-a>
+nadp_c	RE1807C	-a>
+h_c	RE1807C	-a>
+dhcholestanate_c	RE1807C	-a>
+nadph_c	RE1807C	-a>
+h2o_m	RE1807M	-a>
+nadph_m	RE1807M	-a>
+xol7ah2al_m	RE1807M	-a>
+h_m	RE1807M	-a>
+dhcholestanate_m	RE1807M	-a>
+nadp_m	RE1807M	-a>
+o2_r	RE1808R	-a>
+nadp_r	RE1808R	-a>
+CE1273_r	RE1808R	-a>
+h2o_r	RE1808R	-a>
+h_r	RE1808R	-a>
+nadph_r	RE1808R	-a>
+CE1272_r	RE1808R	-a>
+CE1277_c	RE1809C	-a>
+h2o_c	RE1809C	-a>
+nadp_c	RE1809C	-a>
+h_c	RE1809C	-a>
+CE1272_c	RE1809C	-a>
+nadph_c	RE1809C	-a>
+o2_c	RE1809C	-a>
+o2_r	RE1809R	-a>
+nadp_r	RE1809R	-a>
+h2o_r	RE1809R	-a>
+CE1277_r	RE1809R	-a>
+h_r	RE1809R	-a>
+nadph_r	RE1809R	-a>
+CE1272_r	RE1809R	-a>
+xol7ah2_m	RE1810M	-a>
+h_m	RE1810M	-a>
+nadph_m	RE1810M	-a>
+xol7aone_m	RE1810M	-a>
+nadp_m	RE1810M	-a>
+h2o_c	RE1811C	-a>
+nadp_c	RE1811C	-a>
+h_c	RE1811C	-a>
+CE1272_c	RE1811C	-a>
+CE1279_c	RE1811C	-a>
+nadph_c	RE1811C	-a>
+o2_c	RE1811C	-a>
+CE1279_r	RE1811R	-a>
+o2_r	RE1811R	-a>
+nadp_r	RE1811R	-a>
+h2o_r	RE1811R	-a>
+h_r	RE1811R	-a>
+nadph_r	RE1811R	-a>
+CE1272_r	RE1811R	-a>
+h2o_c	RE1812C	-a>
+nadp_c	RE1812C	-a>
+h_c	RE1812C	-a>
+CE1278_c	RE1812C	-a>
+CE1272_c	RE1812C	-a>
+nadph_c	RE1812C	-a>
+o2_c	RE1812C	-a>
+o2_r	RE1812R	-a>
+nadp_r	RE1812R	-a>
+h2o_r	RE1812R	-a>
+h_r	RE1812R	-a>
+CE1278_r	RE1812R	-a>
+nadph_r	RE1812R	-a>
+CE1272_r	RE1812R	-a>
+h2o_c	RE1826C	-a>
+nadp_c	RE1826C	-a>
+xol7ah2_c	RE1826C	-a>
+h_c	RE1826C	-a>
+nadph_c	RE1826C	-a>
+CE0233_c	RE1826C	-a>
+o2_c	RE1826C	-a>
+CE0233_m	RE1826M	-a>
+h2o_m	RE1826M	-a>
+nadph_m	RE1826M	-a>
+h_m	RE1826M	-a>
+xol7ah2_m	RE1826M	-a>
+o2_m	RE1826M	-a>
+nadp_m	RE1826M	-a>
+nadph_c	RE1827C	-a>
+CE1298_c	RE1827C	-a>
+nadp_c	RE1827C	-a>
+xol27oh_c	RE1827C	-a>
+h_c	RE1827C	-a>
+h_m	RE1827M	-a>
+nadph_m	RE1827M	-a>
+CE1298_m	RE1827M	-a>
+nadp_m	RE1827M	-a>
+xol27oh_m	RE1827M	-a>
+h2o_c	RE1828C	-a>
+nadp_c	RE1828C	-a>
+h_c	RE1828C	-a>
+CE1292_c	RE1828C	-a>
+nadph_c	RE1828C	-a>
+CE3038_c	RE1828C	-a>
+o2_c	RE1828C	-a>
+h2o_m	RE1828M	-a>
+nadph_m	RE1828M	-a>
+CE3038_m	RE1828M	-a>
+h_m	RE1828M	-a>
+CE1292_m	RE1828M	-a>
+o2_m	RE1828M	-a>
+nadp_m	RE1828M	-a>
+CE3038_c	RE1829C	-a>
+nadp_c	RE1829C	-a>
+nadph_c	RE1829C	-a>
+h_c	RE1829C	-a>
+CE2345_c	RE1829C	-a>
+CE2345_m	RE1829M	-a>
+h_m	RE1829M	-a>
+nadph_m	RE1829M	-a>
+CE3038_m	RE1829M	-a>
+nadp_m	RE1829M	-a>
+CE1298_c	RE1830C	-a>
+nadp_c	RE1830C	-a>
+h_c	RE1830C	-a>
+CE1292_c	RE1830C	-a>
+nadph_c	RE1830C	-a>
+h2o_c	RE1830C	-a>
+h2o_m	RE1830M	-a>
+nadph_m	RE1830M	-a>
+CE1298_m	RE1830M	-a>
+h_m	RE1830M	-a>
+CE1292_m	RE1830M	-a>
+nadp_m	RE1830M	-a>
+coa_c	RE1834C	-a>
+cholate_c	RE1834C	-a>
+h2o_c	RE1834C	-a>
+cholcoa_c	RE1834C	-a>
+h_c	RE1834C	-a>
+h2o_m	RE1834M	-a>
+cholcoa_m	RE1834M	-a>
+cholate_m	RE1834M	-a>
+h_m	RE1834M	-a>
+coa_m	RE1834M	-a>
+cholate_x	RE1834X	-a>
+h2o_x	RE1834X	-a>
+cholcoa_x	RE1834X	-a>
+h_x	RE1834X	-a>
+coa_x	RE1834X	-a>
+dcholcoa_c	RE1835C	-a>
+coa_c	RE1835C	-a>
+h_c	RE1835C	-a>
+C02528_c	RE1835C	-a>
+h2o_c	RE1835C	-a>
+h2o_m	RE1835M	-a>
+h_m	RE1835M	-a>
+coa_m	RE1835M	-a>
+dcholcoa_m	RE1835M	-a>
+C02528_m	RE1835M	-a>
+C02528_x	RE1835X	-a>
+h2o_x	RE1835X	-a>
+dcholcoa_x	RE1835X	-a>
+h_x	RE1835X	-a>
+coa_x	RE1835X	-a>
+dcholcoa_c	RE1836C	-a>
+ppcoa_c	RE1836C	-a>
+dhcholestancoa_c	RE1836C	-a>
+h2o_c	RE1836C	-a>
+coa_c	RE1836C	-a>
+o2_c	RE1836C	-a>
+h2o_m	RE1836M	-a>
+coa_m	RE1836M	-a>
+dcholcoa_m	RE1836M	-a>
+ppcoa_m	RE1836M	-a>
+dhcholestancoa_m	RE1836M	-a>
+o2_m	RE1836M	-a>
+dcholcoa_c	RE1845C	-a>
+coa_c	RE1845C	-a>
+taur_c	RE1845C	-a>
+tdchola_c	RE1845C	-a>
+tdchola_x	BAAT5x	-a>
+taur_x	BAAT5x	-a>
+dcholcoa_x	BAAT5x	-a>
+coa_x	BAAT5x	-a>
+tdechola_c	RE1846C	-a>
+CE1589_c	RE1846C	-a>
+taur_c	RE1846C	-a>
+coa_c	RE1846C	-a>
+h_c	RE1846C	-a>
+CE1589_x	RE1846X	-a>
+taur_x	RE1846X	-a>
+h_x	RE1846X	-a>
+tdechola_x	RE1846X	-a>
+coa_x	RE1846X	-a>
+h2o_c	RE2112C	-a>
+nadp_c	RE2112C	-a>
+h_c	RE2112C	-a>
+dchac_c	RE2112C	-a>
+cholate_c	RE2112C	-a>
+nadph_c	RE2112C	-a>
+o2_c	RE2112C	-a>
+o2_r	RE2112R	-a>
+nadp_r	RE2112R	-a>
+cholate_r	RE2112R	-a>
+h2o_r	RE2112R	-a>
+h_r	RE2112R	-a>
+dchac_r	RE2112R	-a>
+nadph_r	RE2112R	-a>
+nad_c	RE2625C	-a>
+h_c	RE2625C	-a>
+xoltetrol_c	RE2625C	-a>
+nadh_c	RE2625C	-a>
+thcholst_c	RE2625C	-a>
+xoltetrol_m	RE2625M	-a>
+nadh_m	RE2625M	-a>
+thcholst_m	RE2625M	-a>
+h_m	RE2625M	-a>
+nad_m	RE2625M	-a>
+h2o_c	RE2626C	-a>
+nadp_c	RE2626C	-a>
+h_c	RE2626C	-a>
+thcholstoic_c	RE2626C	-a>
+nadph_c	RE2626C	-a>
+thcholst_c	RE2626C	-a>
+h2o_m	RE2626M	-a>
+thcholst_m	RE2626M	-a>
+h_m	RE2626M	-a>
+thcholstoic_m	RE2626M	-a>
+nadph_m	RE2626M	-a>
+nadp_m	RE2626M	-a>
+h2o_c	RE2632C	-a>
+nadp_c	RE2632C	-a>
+xoltri27_c	RE2632C	-a>
+h_c	RE2632C	-a>
+nadph_c	RE2632C	-a>
+CE3038_c	RE2632C	-a>
+o2_c	RE2632C	-a>
+h2o_m	RE2632M	-a>
+xoltri27_m	RE2632M	-a>
+nadph_m	RE2632M	-a>
+CE3038_m	RE2632M	-a>
+h_m	RE2632M	-a>
+o2_m	RE2632M	-a>
+nadp_m	RE2632M	-a>
+CE1274_c	RE2633C	-a>
+nadp_c	RE2633C	-a>
+nadph_c	RE2633C	-a>
+h_c	RE2633C	-a>
+CE1273_c	RE2633C	-a>
+h_r	RE2633R	-a>
+nadph_r	RE2633R	-a>
+CE1274_r	RE2633R	-a>
+CE1273_r	RE2633R	-a>
+nadp_r	RE2633R	-a>
+amp_c	RE2635C	-a>
+coa_c	RE2635C	-a>
+CE1589_c	RE2635C	-a>
+dchac_c	RE2635C	-a>
+atp_c	RE2635C	-a>
+ppi_c	RE2635C	-a>
+amp_r	RE2635R	-a>
+atp_r	RE2635R	-a>
+CE1589_r	RE2635R	-a>
+coa_r	RE2635R	-a>
+dchac_r	RE2635R	-a>
+ppi_r	RE2635R	-a>
+h2o_c	RE2636C	-a>
+nadp_c	RE2636C	-a>
+HC02191_c	RE2636C	-a>
+dchac_c	RE2636C	-a>
+o2_c	RE2636C	-a>
+nadph_c	RE2636C	-a>
+h_c	RE2636C	-a>
+o2_r	RE2636R	-a>
+nadp_r	RE2636R	-a>
+h2o_r	RE2636R	-a>
+HC02191_r	RE2636R	-a>
+h_r	RE2636R	-a>
+dchac_r	RE2636R	-a>
+nadph_r	RE2636R	-a>
+amp_c	RE2637C	-a>
+taur_c	RE2637C	-a>
+HC02191_c	RE2637C	-a>
+atp_c	RE2637C	-a>
+HC02192_c	RE2637C	-a>
+ppi_c	RE2637C	-a>
+h_c	RE2637C	-a>
+HC02191_x	RE2637X	-a>
+atp_x	RE2637X	-a>
+amp_x	RE2637X	-a>
+HC02192_x	RE2637X	-a>
+taur_x	RE2637X	-a>
+ppi_x	RE2637X	-a>
+h_x	RE2637X	-a>
+amp_c	RE2638C	-a>
+CE5560_c	RE2638C	-a>
+gly_c	RE2638C	-a>
+h_c	RE2638C	-a>
+atp_c	RE2638C	-a>
+ppi_c	RE2638C	-a>
+HC02191_c	RE2638C	-a>
+HC02191_x	RE2638X	-a>
+atp_x	RE2638X	-a>
+ppi_x	RE2638X	-a>
+amp_x	RE2638X	-a>
+CE5560_x	RE2638X	-a>
+gly_x	RE2638X	-a>
+h_x	RE2638X	-a>
+ppa_c	RE2649C	-a>
+coa_c	RE2649C	-a>
+ppcoa_c	RE2649C	-a>
+h2o_c	RE2649C	-a>
+h_c	RE2649C	-a>
+h2o_m	RE2649M	-a>
+ppa_m	RE2649M	-a>
+h_m	RE2649M	-a>
+coa_m	RE2649M	-a>
+ppcoa_m	RE2649M	-a>
+ppcoa_x	RE2649X	-a>
+h2o_x	RE2649X	-a>
+ppa_x	RE2649X	-a>
+h_x	RE2649X	-a>
+coa_x	RE2649X	-a>
+nadh_m	RE2814M	-a>
+h_m	RE2814M	-a>
+xol7aone_m	RE2814M	-a>
+nad_m	RE2814M	-a>
+xol27oh_m	RE2814M	-a>
+xol7aone_r	RE2814R	-a>
+h_r	RE2814R	-a>
+xol27oh_r	RE2814R	-a>
+nadh_r	RE2814R	-a>
+nad_r	RE2814R	-a>
+h2o_c	RE3251C	-a>
+nadp_c	RE3251C	-a>
+xoltetrol_c	RE3251C	-a>
+h_c	RE3251C	-a>
+CE4874_c	RE3251C	-a>
+nadph_c	RE3251C	-a>
+o2_c	RE3251C	-a>
+h2o_m	RE3251M	-a>
+CE4874_m	RE3251M	-a>
+h_m	RE3251M	-a>
+xoltetrol_m	RE3251M	-a>
+nadph_m	RE3251M	-a>
+o2_m	RE3251M	-a>
+nadp_m	RE3251M	-a>
+h2o_c	RE3252C	-a>
+CE4874_c	RE3252C	-a>
+thcholst_c	RE3252C	-a>
+nad_c	RE3346C	-a>
+h2o_c	RE3346C	-a>
+h_c	RE3346C	-a>
+thcholstoic_c	RE3346C	-a>
+nadh_c	RE3346C	-a>
+thcholst_c	RE3346C	-a>
+h2o_m	RE3346M	-a>
+thcholst_m	RE3346M	-a>
+h_m	RE3346M	-a>
+nad_m	RE3346M	-a>
+nadh_m	RE3346M	-a>
+thcholstoic_m	RE3346M	-a>
+h2o_r	RE3346R	-a>
+thcholst_r	RE3346R	-a>
+h_r	RE3346R	-a>
+nadh_r	RE3346R	-a>
+thcholstoic_r	RE3346R	-a>
+nad_r	RE3346R	-a>
+adp_r	r1025	-a>
+xoldiolone_r	r1025	-a>
+h2o_r	r1025	-a>
+h_r	r1025	-a>
+xoldiolone_c	r1025	-a>
+pi_r	r1025	-a>
+atp_r	r1025	-a>

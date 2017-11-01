@@ -1,0 +1,626 @@
+protein	3dsphgn_c
+protein	HC00718_c
+protein	HC01842_c
+protein	HC02228_c
+protein	Rtotal_c
+protein	Rtotal_l
+protein	Rtotalcoa_c
+protein	accoa_c
+protein	accoa_g
+protein	acgagbside_hs_g
+protein	acgagbside_hs_l
+protein	acgal_g
+protein	acgbgbside_hs_g
+protein	acgbgbside_hs_l
+protein	acglcgalgbside_hs_g
+protein	acn13acngalgbside_hs_g
+protein	acn23acngalgbside_hs_g
+protein	acnacngalgbside_hs_g
+protein	acngalgbside_hs_g
+protein	adp_c
+protein	ahcys_c
+protein	amet_c
+protein	atp_c
+protein	cholp_c
+protein	cholp_g
+protein	cholp_l
+protein	cmp_g
+protein	cmpacna_g
+protein	co2_c
+protein	coa_c
+protein	coa_g
+protein	crm_hs_c
+protein	crm_hs_g
+protein	crm_hs_l
+protein	crm_hs_r
+protein	crmp_hs_c
+protein	dag_hs_c
+protein	dhcrm_hs_c
+protein	digalsgalside_hs_g
+protein	digalside_hs_g
+protein	digalside_hs_l
+protein	ethamp_c
+protein	ethamp_r
+protein	fad_c
+protein	fadh2_c
+protein	fucgalgbside_hs_g
+protein	ga1_hs_g
+protein	ga2_hs_g
+protein	gal_l
+protein	galacglcgalgbside_hs_g
+protein	galgalgalthcrm_hs_g
+protein	galgalthcrm_hs_g
+protein	galgbside_hs_g
+protein	galgluside_hs_c
+protein	galgluside_hs_g
+protein	galgluside_hs_l
+protein	galside_hs_g
+protein	galside_hs_l
+protein	galthcrm_hs_g
+protein	gbside_hs_g
+protein	gbside_hs_l
+protein	gd1a_hs_g
+protein	gd1b2_hs_g
+protein	gd1b_hs_g
+protein	gd1c_hs_g
+protein	gd2_hs_g
+protein	gd3_hs_c
+protein	gd3_hs_g
+protein	gdp_g
+protein	gdpfuc_g
+protein	glc_D_c
+protein	glc_D_l
+protein	gluside_hs_c
+protein	gluside_hs_g
+protein	gluside_hs_l
+protein	gluside_hs_r
+protein	gm1_hs_g
+protein	gm1a_hs_g
+protein	gm1b_hs_g
+protein	gm2_hs_g
+protein	gm2a_hs_g
+protein	gm3_hs_g
+protein	gp1c_hs_g
+protein	gp1calpha_hs_g
+protein	gq1b_hs_g
+protein	gq1balpha_hs_g
+protein	gq1c_hs_g
+protein	gt1a_hs_g
+protein	gt1alpha_hs_g
+protein	gt1b_hs_g
+protein	gt1c_hs_g
+protein	gt2_hs_g
+protein	gt3_hs_c
+protein	gt3_hs_g
+protein	h2o_c
+protein	h2o_g
+protein	h2o_l
+protein	h2o_r
+protein	h_c
+protein	h_g
+protein	h_l
+protein	h_r
+protein	hxdcal_c
+protein	hxdcal_r
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadph_c
+protein	o2_c
+protein	oagd3_hs_c
+protein	oagd3_hs_g
+protein	oagt3_hs_c
+protein	oagt3_hs_g
+protein	pap_g
+protein	paps_g
+protein	pchol_hs_c
+protein	pi_c
+protein	pi_r
+protein	hdca_r
+protein	pmtcoa_c
+protein	ser_L_c
+protein	sgalside_hs_g
+protein	sgalside_hs_l
+protein	so4_l
+protein	spc_hs_c
+protein	sph1p_c
+protein	sph1p_r
+protein	sphgn_c
+protein	sphgn_r
+protein	sphings_c
+protein	sphings_l
+protein	sphings_r
+protein	sphmyln_hs_c
+protein	sphmyln_hs_g
+protein	sphmyln_hs_l
+protein	sphs1p_c
+protein	sphs1p_r
+protein	thcrm_hs_c
+protein	thcrm_hs_g
+protein	uacgam_g
+protein	udp_c
+protein	udp_g
+protein	udp_l
+protein	udp_r
+protein	udpacgal_g
+protein	udpacgal_l
+protein	udpg_r
+protein	udpgal_c
+protein	udpgal_g
+abstract	3DSPHR
+abstract	A4GALTc
+abstract	A4GALTg
+abstract	ARSA
+abstract	ASAH1
+abstract	B3GALT3g
+abstract	B3GALT41g
+abstract	B3GALT42g
+abstract	B3GALT43g
+abstract	B3GALT44g
+abstract	B3GALT5g
+abstract	B3GNT31g
+abstract	B3GNT32g
+abstract	B3GNT33g
+abstract	B3GNT34g
+abstract	B3GNT35g
+abstract	B3GNT36g
+abstract	B3GNT37g
+abstract	B3GNT39g
+abstract	CERK
+abstract	DHCRD1
+abstract	DHCRD2
+abstract	DSAT
+abstract	FUT11g
+abstract	GAL3ST11
+abstract	GAL3ST12
+abstract	GALC
+abstract	GALGT1
+abstract	GALGT2
+abstract	GALGT3
+abstract	GALGT4
+abstract	GAO1
+abstract	GAO1g
+abstract	GAO2
+abstract	GAO2g
+abstract	GBA
+abstract	GBAl
+abstract	GBGT1
+abstract	GLAl
+abstract	GLB1
+abstract	NAGAlby
+abstract	NAGAly
+abstract	SBPP1er
+abstract	SBPP3er
+abstract	SERPT
+abstract	SGPL11r
+abstract	SGPL12r
+abstract	SIAT4Bg
+abstract	SIAT9g
+abstract	SLCBK1
+abstract	SMPD3g
+abstract	SMPD3l
+abstract	SMPD4
+abstract	SMS
+abstract	SPHK21c
+abstract	SPHMDAc
+abstract	ST3GAL21g
+abstract	ST3GAL22g
+abstract	ST3GAL23g
+abstract	ST6GALNAC21
+abstract	ST6GALNAC22
+abstract	ST6GALNAC23
+abstract	ST6GALNAC24
+abstract	ST6GALNAC25
+abstract	ST6GALNAC26
+abstract	ST6GALNAC27
+abstract	ST6GALNAC28
+abstract	ST6GALNAC31
+abstract	ST6GALNAC62
+abstract	ST8SIA11
+abstract	ST8SIA12
+abstract	ST8SIA51g
+abstract	ST8SIA52g
+abstract	ST8SIA53g
+abstract	ST8SIA54g
+abstract	ST8SIA55g
+abstract	UGCG
+abstract	r0786
+abstract	r0787
+abstract	r0788
+abstract	r0789
+abstract	r1457
+abstract	RE2675C
+3dsphgn_c	3DSPHR	-a>
+nadp_c	3DSPHR	-a>
+sphgn_c	3DSPHR	-a>
+nadph_c	3DSPHR	-a>
+h_c	3DSPHR	-a>
+thcrm_hs_c	A4GALTc	-a>
+galgluside_hs_c	A4GALTc	-a>
+udpgal_c	A4GALTc	-a>
+h_c	A4GALTc	-a>
+udp_c	A4GALTc	-a>
+thcrm_hs_g	A4GALTg	-a>
+h_g	A4GALTg	-a>
+galgluside_hs_g	A4GALTg	-a>
+udp_g	A4GALTg	-a>
+udpgal_g	A4GALTg	-a>
+sgalside_hs_l	ARSA	-a>
+so4_l	ARSA	-a>
+h2o_l	ARSA	-a>
+galside_hs_l	ARSA	-a>
+h_l	ARSA	-a>
+crm_hs_l	ASAH1	-a>
+h2o_l	ASAH1	-a>
+sphings_l	ASAH1	-a>
+Rtotal_l	ASAH1	-a>
+thcrm_hs_g	B3GALT3g	-a>
+udpacgal_g	B3GALT3g	-a>
+h_g	B3GALT3g	-a>
+gbside_hs_g	B3GALT3g	-a>
+udp_g	B3GALT3g	-a>
+ga2_hs_g	B3GALT41g	-a>
+udpgal_g	B3GALT41g	-a>
+h_g	B3GALT41g	-a>
+udp_g	B3GALT41g	-a>
+ga1_hs_g	B3GALT41g	-a>
+gm1_hs_g	B3GALT42g	-a>
+gm2_hs_g	B3GALT42g	-a>
+udpgal_g	B3GALT42g	-a>
+udp_g	B3GALT42g	-a>
+udpgal_g	B3GALT43g	-a>
+h_g	B3GALT43g	-a>
+gd2_hs_g	B3GALT43g	-a>
+udp_g	B3GALT43g	-a>
+gd1b_hs_g	B3GALT43g	-a>
+udpgal_g	B3GALT44g	-a>
+gt2_hs_g	B3GALT44g	-a>
+h_g	B3GALT44g	-a>
+udp_g	B3GALT44g	-a>
+gt1c_hs_g	B3GALT44g	-a>
+udpgal_g	B3GALT5g	-a>
+h_g	B3GALT5g	-a>
+gbside_hs_g	B3GALT5g	-a>
+udp_g	B3GALT5g	-a>
+galgbside_hs_g	B3GALT5g	-a>
+h_g	B3GNT31g	-a>
+thcrm_hs_g	B3GNT31g	-a>
+galthcrm_hs_g	B3GNT31g	-a>
+udp_g	B3GNT31g	-a>
+udpgal_g	B3GNT31g	-a>
+galthcrm_hs_g	B3GNT32g	-a>
+galgalthcrm_hs_g	B3GNT32g	-a>
+udpgal_g	B3GNT32g	-a>
+h_g	B3GNT32g	-a>
+udp_g	B3GNT32g	-a>
+galgalthcrm_hs_g	B3GNT33g	-a>
+udpgal_g	B3GNT33g	-a>
+h_g	B3GNT33g	-a>
+udp_g	B3GNT33g	-a>
+galgalgalthcrm_hs_g	B3GNT33g	-a>
+uacgam_g	B3GNT34g	-a>
+h_g	B3GNT34g	-a>
+udp_g	B3GNT34g	-a>
+galgbside_hs_g	B3GNT34g	-a>
+acglcgalgbside_hs_g	B3GNT34g	-a>
+udpgal_g	B3GNT35g	-a>
+h_g	B3GNT35g	-a>
+udp_g	B3GNT35g	-a>
+galacglcgalgbside_hs_g	B3GNT35g	-a>
+acglcgalgbside_hs_g	B3GNT35g	-a>
+h2o_g	B3GNT36g	-a>
+gbside_hs_g	B3GNT36g	-a>
+acgal_g	B3GNT36g	-a>
+acgbgbside_hs_g	B3GNT36g	-a>
+h_g	B3GNT37g	-a>
+udpgal_g	B3GNT37g	-a>
+gm1a_hs_g	B3GNT37g	-a>
+gm2a_hs_g	B3GNT37g	-a>
+udp_g	B3GNT37g	-a>
+h_g	B3GNT39g	-a>
+udpgal_g	B3GNT39g	-a>
+gluside_hs_g	B3GNT39g	-a>
+galgluside_hs_g	B3GNT39g	-a>
+udp_g	B3GNT39g	-a>
+atp_c	CERK	-a>
+crmp_hs_c	CERK	-a>
+adp_c	CERK	-a>
+crm_hs_c	CERK	-a>
+h_c	CERK	-a>
+dhcrm_hs_c	DHCRD1	-a>
+nadp_c	DHCRD1	-a>
+nadph_c	DHCRD1	-a>
+h_c	DHCRD1	-a>
+crm_hs_c	DHCRD1	-a>
+dhcrm_hs_c	DHCRD2	-a>
+fadh2_c	DHCRD2	-a>
+fad_c	DHCRD2	-a>
+crm_hs_c	DHCRD2	-a>
+dhcrm_hs_c	DSAT	-a>
+coa_c	DSAT	-a>
+sphgn_c	DSAT	-a>
+Rtotalcoa_c	DSAT	-a>
+h_c	DSAT	-a>
+fucgalgbside_hs_g	FUT11g	-a>
+gdpfuc_g	FUT11g	-a>
+h_g	FUT11g	-a>
+galgbside_hs_g	FUT11g	-a>
+gdp_g	FUT11g	-a>
+h_g	GAL3ST11	-a>
+galside_hs_g	GAL3ST11	-a>
+pap_g	GAL3ST11	-a>
+paps_g	GAL3ST11	-a>
+sgalside_hs_g	GAL3ST11	-a>
+pap_g	GAL3ST12	-a>
+paps_g	GAL3ST12	-a>
+digalside_hs_g	GAL3ST12	-a>
+digalsgalside_hs_g	GAL3ST12	-a>
+crm_hs_l	GALC	-a>
+gal_l	GALC	-a>
+h2o_l	GALC	-a>
+galside_hs_l	GALC	-a>
+ga2_hs_g	GALGT1	-a>
+udpacgal_g	GALGT1	-a>
+h_g	GALGT1	-a>
+galgluside_hs_g	GALGT1	-a>
+udp_g	GALGT1	-a>
+gm2_hs_g	GALGT2	-a>
+gm3_hs_g	GALGT2	-a>
+udpacgal_g	GALGT2	-a>
+h_g	GALGT2	-a>
+udp_g	GALGT2	-a>
+h_g	GALGT3	-a>
+udpacgal_g	GALGT3	-a>
+gd3_hs_g	GALGT3	-a>
+gd2_hs_g	GALGT3	-a>
+udp_g	GALGT3	-a>
+gt2_hs_g	GALGT4	-a>
+gt3_hs_g	GALGT4	-a>
+udpacgal_g	GALGT4	-a>
+h_g	GALGT4	-a>
+udp_g	GALGT4	-a>
+gd3_hs_c	GAO1	-a>
+coa_c	GAO1	-a>
+oagd3_hs_c	GAO1	-a>
+accoa_c	GAO1	-a>
+h_c	GAO1	-a>
+gd3_hs_g	GAO1g	-a>
+accoa_g	GAO1g	-a>
+h_g	GAO1g	-a>
+oagd3_hs_g	GAO1g	-a>
+coa_g	GAO1g	-a>
+oagt3_hs_c	GAO2	-a>
+coa_c	GAO2	-a>
+accoa_c	GAO2	-a>
+gt3_hs_c	GAO2	-a>
+oagt3_hs_g	GAO2g	-a>
+accoa_g	GAO2g	-a>
+gt3_hs_g	GAO2g	-a>
+coa_g	GAO2g	-a>
+gluside_hs_c	GBA	-a>
+h2o_c	GBA	-a>
+glc_D_c	GBA	-a>
+crm_hs_c	GBA	-a>
+gluside_hs_l	GBAl	-a>
+crm_hs_l	GBAl	-a>
+h2o_l	GBAl	-a>
+glc_D_l	GBAl	-a>
+udpacgal_g	GBGT1	-a>
+h_g	GBGT1	-a>
+gbside_hs_g	GBGT1	-a>
+udp_g	GBGT1	-a>
+acgagbside_hs_g	GBGT1	-a>
+digalside_hs_l	GLAl	-a>
+gal_l	GLAl	-a>
+h2o_l	GLAl	-a>
+galside_hs_l	GLAl	-a>
+gluside_hs_l	GLB1	-a>
+galgluside_hs_l	GLB1	-a>
+gal_l	GLB1	-a>
+h2o_l	GLB1	-a>
+acgbgbside_hs_l	NAGAlby	-a>
+udp_l	NAGAlby	-a>
+udpacgal_l	NAGAlby	-a>
+gbside_hs_l	NAGAlby	-a>
+h_l	NAGAlby	-a>
+udp_l	NAGAly	-a>
+udpacgal_l	NAGAly	-a>
+gbside_hs_l	NAGAly	-a>
+acgagbside_hs_l	NAGAly	-a>
+h_l	NAGAly	-a>
+h2o_r	SBPP1er	-a>
+sphgn_r	SBPP1er	-a>
+pi_r	SBPP1er	-a>
+sph1p_r	SBPP1er	-a>
+sphings_r	SBPP3er	-a>
+pi_r	SBPP3er	-a>
+sphs1p_r	SBPP3er	-a>
+h2o_r	SBPP3er	-a>
+coa_c	SERPT	-a>
+h_c	SERPT	-a>
+pmtcoa_c	SERPT	-a>
+3dsphgn_c	SERPT	-a>
+ser_L_c	SERPT	-a>
+co2_c	SERPT	-a>
+ethamp_r	SGPL11r	-a>
+hxdcal_r	SGPL11r	-a>
+sph1p_r	SGPL11r	-a>
+hdca_r	SGPL12r	-a>
+ethamp_r	SGPL12r	-a>
+h_r	SGPL12r	-a>
+sphs1p_r	SGPL12r	-a>
+h2o_r	SGPL12r	-a>
+h_g	SIAT4Bg	-a>
+cmpacna_g	SIAT4Bg	-a>
+acngalgbside_hs_g	SIAT4Bg	-a>
+cmp_g	SIAT4Bg	-a>
+galgbside_hs_g	SIAT4Bg	-a>
+h_g	SIAT9g	-a>
+gm3_hs_g	SIAT9g	-a>
+cmp_g	SIAT9g	-a>
+galgluside_hs_g	SIAT9g	-a>
+cmpacna_g	SIAT9g	-a>
+sph1p_c	SLCBK1	-a>
+atp_c	SLCBK1	-a>
+sphgn_c	SLCBK1	-a>
+adp_c	SLCBK1	-a>
+h_c	SLCBK1	-a>
+sphmyln_hs_g	SMPD3g	-a>
+h2o_g	SMPD3g	-a>
+cholp_g	SMPD3g	-a>
+h_g	SMPD3g	-a>
+crm_hs_g	SMPD3g	-a>
+crm_hs_l	SMPD3l	-a>
+sphmyln_hs_l	SMPD3l	-a>
+h2o_l	SMPD3l	-a>
+cholp_l	SMPD3l	-a>
+h_l	SMPD3l	-a>
+spc_hs_c	SMPD4	-a>
+sphings_c	SMPD4	-a>
+h2o_c	SMPD4	-a>
+h_c	SMPD4	-a>
+cholp_c	SMPD4	-a>
+pchol_hs_c	SMS	-a>
+sphmyln_hs_c	SMS	-a>
+dag_hs_c	SMS	-a>
+crm_hs_c	SMS	-a>
+h_c	SMS	-a>
+h_c	SPHK21c	-a>
+atp_c	SPHK21c	-a>
+adp_c	SPHK21c	-a>
+sphings_c	SPHK21c	-a>
+sphs1p_c	SPHK21c	-a>
+spc_hs_c	SPHMDAc	-a>
+h2o_c	SPHMDAc	-a>
+sphmyln_hs_c	SPHMDAc	-a>
+h_c	SPHMDAc	-a>
+Rtotal_c	SPHMDAc	-a>
+cmpacna_g	ST3GAL21g	-a>
+cmp_g	ST3GAL21g	-a>
+ga1_hs_g	ST3GAL21g	-a>
+gm1b_hs_g	ST3GAL21g	-a>
+gm1_hs_g	ST3GAL22g	-a>
+gd1a_hs_g	ST3GAL22g	-a>
+cmp_g	ST3GAL22g	-a>
+cmpacna_g	ST3GAL22g	-a>
+gd1b_hs_g	ST3GAL23g	-a>
+cmpacna_g	ST3GAL23g	-a>
+h_g	ST3GAL23g	-a>
+cmp_g	ST3GAL23g	-a>
+gt1b_hs_g	ST3GAL23g	-a>
+h_g	ST6GALNAC21	-a>
+acn13acngalgbside_hs_g	ST6GALNAC21	-a>
+acngalgbside_hs_g	ST6GALNAC21	-a>
+cmp_g	ST6GALNAC21	-a>
+cmpacna_g	ST6GALNAC21	-a>
+h_g	ST6GALNAC22	-a>
+cmpacna_g	ST6GALNAC22	-a>
+acngalgbside_hs_g	ST6GALNAC22	-a>
+cmp_g	ST6GALNAC22	-a>
+acn23acngalgbside_hs_g	ST6GALNAC22	-a>
+cmpacna_g	ST6GALNAC23	-a>
+h_g	ST6GALNAC23	-a>
+cmp_g	ST6GALNAC23	-a>
+gm2a_hs_g	ST6GALNAC23	-a>
+ga2_hs_g	ST6GALNAC23	-a>
+gm1a_hs_g	ST6GALNAC24	-a>
+cmpacna_g	ST6GALNAC24	-a>
+h_g	ST6GALNAC24	-a>
+cmp_g	ST6GALNAC24	-a>
+gd1b2_hs_g	ST6GALNAC24	-a>
+gt1alpha_hs_g	ST6GALNAC25	-a>
+gd1a_hs_g	ST6GALNAC25	-a>
+h_g	ST6GALNAC25	-a>
+cmp_g	ST6GALNAC25	-a>
+cmpacna_g	ST6GALNAC25	-a>
+gt1alpha_hs_g	ST6GALNAC26	-a>
+cmpacna_g	ST6GALNAC26	-a>
+h_g	ST6GALNAC26	-a>
+cmp_g	ST6GALNAC26	-a>
+gq1balpha_hs_g	ST6GALNAC26	-a>
+gq1c_hs_g	ST6GALNAC27	-a>
+cmpacna_g	ST6GALNAC27	-a>
+h_g	ST6GALNAC27	-a>
+cmp_g	ST6GALNAC27	-a>
+gt1c_hs_g	ST6GALNAC27	-a>
+gp1c_hs_g	ST6GALNAC28	-a>
+gq1c_hs_g	ST6GALNAC28	-a>
+h_g	ST6GALNAC28	-a>
+cmp_g	ST6GALNAC28	-a>
+cmpacna_g	ST6GALNAC28	-a>
+gd1a_hs_g	ST6GALNAC31	-a>
+gm1b_hs_g	ST6GALNAC31	-a>
+cmp_g	ST6GALNAC31	-a>
+cmpacna_g	ST6GALNAC31	-a>
+cmpacna_g	ST6GALNAC62	-a>
+h_g	ST6GALNAC62	-a>
+cmp_g	ST6GALNAC62	-a>
+gq1balpha_hs_g	ST6GALNAC62	-a>
+gt1b_hs_g	ST6GALNAC62	-a>
+h_g	ST8SIA11	-a>
+cmpacna_g	ST8SIA11	-a>
+acngalgbside_hs_g	ST8SIA11	-a>
+cmp_g	ST8SIA11	-a>
+acnacngalgbside_hs_g	ST8SIA11	-a>
+cmp_g	ST8SIA12	-a>
+gm3_hs_g	ST8SIA12	-a>
+cmpacna_g	ST8SIA12	-a>
+h_g	ST8SIA12	-a>
+gd3_hs_g	ST8SIA12	-a>
+cmp_g	ST8SIA51g	-a>
+gt3_hs_g	ST8SIA51g	-a>
+cmpacna_g	ST8SIA51g	-a>
+h_g	ST8SIA51g	-a>
+gd3_hs_g	ST8SIA51g	-a>
+h_g	ST8SIA52g	-a>
+gt1b_hs_g	ST8SIA52g	-a>
+gq1b_hs_g	ST8SIA52g	-a>
+cmp_g	ST8SIA52g	-a>
+cmpacna_g	ST8SIA52g	-a>
+gd1a_hs_g	ST8SIA53g	-a>
+cmp_g	ST8SIA53g	-a>
+gt1a_hs_g	ST8SIA53g	-a>
+cmpacna_g	ST8SIA53g	-a>
+cmpacna_g	ST8SIA54g	-a>
+gd1c_hs_g	ST8SIA54g	-a>
+h_g	ST8SIA54g	-a>
+cmp_g	ST8SIA54g	-a>
+gm1b_hs_g	ST8SIA54g	-a>
+h_g	ST8SIA55g	-a>
+gq1c_hs_g	ST8SIA55g	-a>
+gp1calpha_hs_g	ST8SIA55g	-a>
+cmp_g	ST8SIA55g	-a>
+cmpacna_g	ST8SIA55g	-a>
+udpg_r	UGCG	-a>
+h_r	UGCG	-a>
+gluside_hs_r	UGCG	-a>
+udp_r	UGCG	-a>
+crm_hs_r	UGCG	-a>
+HC02228_c	r0786	-a>
+ethamp_c	r0786	-a>
+sphs1p_c	r0786	-a>
+sph1p_c	r0787	-a>
+pi_c	r0787	-a>
+h2o_c	r0787	-a>
+sphgn_c	r0787	-a>
+HC01842_c	r0788	-a>
+HC00718_c	r0788	-a>
+h_c	r0788	-a>
+amet_c	r0788	-a>
+ahcys_c	r0788	-a>
+HC01842_c	r0789	-a>
+ahcys_c	r0789	-a>
+amet_c	r0789	-a>
+cholp_c	r0789	-a>
+HC02228_c	r1457	-a>
+hxdcal_c	r1457	-a>
+nadp_c	r1457	-a>
+nadph_c	r1457	-a>
+h_c	r1457	-a>
+nad_c	RE2675C	-a>
+dhcrm_hs_c	RE2675C	-a>
+h2o_c	RE2675C	-a>
+h_c	RE2675C	-a>
+o2_c	RE2675C	-a>
+crm_hs_c	RE2675C	-a>
+nadh_c	RE2675C	-a>

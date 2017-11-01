@@ -1,0 +1,26 @@
+protein	3hbcoa_R_m
+protein	acac_m
+protein	b2coa_m
+protein	bhb_m
+protein	btcoa_m
+protein	fad_m
+protein	fadh2_m
+protein	h2o_m
+protein	h_m
+protein	nad_m
+protein	nadh_m
+abstract	3HBCDm
+abstract	ACOAD1fm
+abstract	BDHm
+h2o_m	3HBCDm	-a>
+3hbcoa_R_m	3HBCDm	-a>
+b2coa_m	3HBCDm	-a>
+fad_m	ACOAD1fm	-a>
+fadh2_m	ACOAD1fm	-a>
+btcoa_m	ACOAD1fm	-a>
+b2coa_m	ACOAD1fm	-a>
+acac_m	BDHm	-a>
+nadh_m	BDHm	-a>
+h_m	BDHm	-a>
+bhb_m	BDHm	-a>
+nad_m	BDHm	-a>

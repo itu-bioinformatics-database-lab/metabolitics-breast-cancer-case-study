@@ -1,0 +1,324 @@
+protein	1p2cbxl_x
+protein	1p3h5c_c
+protein	1p3h5c_m
+protein	1pyr5c_c
+protein	1pyr5c_m
+protein	2kmb_c
+protein	4aabutn_c
+protein	4aabutn_m
+protein	4abutn_c
+protein	4h2oglt_c
+protein	4h2oglt_m
+protein	4hglusa_m
+protein	4hpro_LT_c
+protein	4hpro_LT_m
+protein	4hpro_LT_r
+protein	5a2opntn_x
+protein	5g2oxpt_x
+protein	5mdr1p_c
+protein	5mdru1p_c
+protein	5mta_c
+protein	HC00591_c
+protein	accoa_c
+protein	ade_c
+protein	agm_m
+protein	akg_c
+protein	akg_m
+protein	akg_r
+protein	amet_c
+protein	ametam_c
+protein	aprut_c
+protein	arg_D_x
+protein	arg_L_c
+protein	arg_L_m
+protein	asp_L_m
+protein	citr_L_c
+protein	co2_c
+protein	co2_m
+protein	co2_r
+protein	coa_c
+protein	dkmpp_c
+protein	e4hglu_c
+protein	e4hglu_m
+protein	fad_c
+protein	fad_m
+protein	fadh2_c
+protein	fadh2_m
+protein	for_c
+protein	gln_L_c
+protein	glu5sa_m
+protein	glu_L_c
+protein	glu_L_m
+protein	glx_m
+protein	h2o2_c
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_m
+protein	h2o_x
+protein	h_c
+protein	h_m
+protein	h_x
+protein	met_L_c
+protein	n4abutn_c
+protein	n4abutn_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadp_m
+protein	nadph_c
+protein	nadph_m
+protein	nh4_c
+protein	nh4_x
+protein	no_c
+protein	nwharg_c
+protein	o2_c
+protein	o2_r
+protein	o2_x
+protein	oaa_m
+protein	orn_D_x
+protein	pi_c
+protein	pro_D_x
+protein	pro_L_c
+protein	pro_L_m
+protein	pro_L_r
+protein	ptrc_c
+protein	ptrc_m
+protein	pyr_m
+protein	succ_r
+protein	urea_m
+abstract	4HGLSDm
+abstract	ADMDC
+abstract	AGMTm
+abstract	APRTO2
+abstract	ARGDCm
+abstract	DARGOp
+abstract	DDPGAm
+abstract	DKMPPD
+abstract	DORNOp
+abstract	DPROOp
+abstract	EHGLAT
+abstract	EHGLAT2m
+abstract	EHGLATm
+abstract	G5SADrm
+abstract	MDRPD
+abstract	MTAP
+abstract	MTRI
+abstract	NABTNO
+abstract	NABTNOm
+abstract	NOS1
+abstract	NOS2
+abstract	P5CRm
+abstract	PHCDm
+abstract	PHCHGSm
+abstract	PRO1xm
+abstract	PROAKGOX1r
+abstract	PROD2
+abstract	PROD2m
+abstract	PTRCAT1
+abstract	PTRCOX1
+abstract	UNK2
+abstract	UNK3
+abstract	r0024
+abstract	r0615
+abstract	r0616
+abstract	r0617
+abstract	r0618
+abstract	r0686
+abstract	P5CR
+h2o_m	4HGLSDm	-a>
+h_m	4HGLSDm	-a>
+4hglusa_m	4HGLSDm	-a>
+nad_m	4HGLSDm	-a>
+nadh_m	4HGLSDm	-a>
+e4hglu_m	4HGLSDm	-a>
+ametam_c	ADMDC	-a>
+h_c	ADMDC	-a>
+amet_c	ADMDC	-a>
+co2_c	ADMDC	-a>
+h2o_m	AGMTm	-a>
+urea_m	AGMTm	-a>
+ptrc_m	AGMTm	-a>
+agm_m	AGMTm	-a>
+n4abutn_c	APRTO2	-a>
+nh4_c	APRTO2	-a>
+h2o2_c	APRTO2	-a>
+aprut_c	APRTO2	-a>
+h2o_c	APRTO2	-a>
+o2_c	APRTO2	-a>
+agm_m	ARGDCm	-a>
+h_m	ARGDCm	-a>
+co2_m	ARGDCm	-a>
+arg_L_m	ARGDCm	-a>
+nh4_x	DARGOp	-a>
+arg_D_x	DARGOp	-a>
+h2o_x	DARGOp	-a>
+o2_x	DARGOp	-a>
+5g2oxpt_x	DARGOp	-a>
+h2o2_x	DARGOp	-a>
+pyr_m	DDPGAm	-a>
+glx_m	DDPGAm	-a>
+4h2oglt_m	DDPGAm	-a>
+dkmpp_c	DKMPPD	-a>
+2kmb_c	DKMPPD	-a>
+h2o_c	DKMPPD	-a>
+h_c	DKMPPD	-a>
+for_c	DKMPPD	-a>
+pi_c	DKMPPD	-a>
+o2_c	DKMPPD	-a>
+nh4_x	DORNOp	-a>
+5a2opntn_x	DORNOp	-a>
+orn_D_x	DORNOp	-a>
+o2_x	DORNOp	-a>
+h2o_x	DORNOp	-a>
+h2o2_x	DORNOp	-a>
+pro_D_x	DPROOp	-a>
+1p2cbxl_x	DPROOp	-a>
+h_x	DPROOp	-a>
+h2o2_x	DPROOp	-a>
+o2_x	DPROOp	-a>
+glu_L_c	EHGLAT	-a>
+4h2oglt_c	EHGLAT	-a>
+e4hglu_c	EHGLAT	-a>
+akg_c	EHGLAT	-a>
+oaa_m	EHGLAT2m	-a>
+e4hglu_m	EHGLAT2m	-a>
+asp_L_m	EHGLAT2m	-a>
+4h2oglt_m	EHGLAT2m	-a>
+glu_L_m	EHGLATm	-a>
+akg_m	EHGLATm	-a>
+4h2oglt_m	EHGLATm	-a>
+e4hglu_m	EHGLATm	-a>
+h2o_m	G5SADrm	-a>
+h_m	G5SADrm	-a>
+1pyr5c_m	G5SADrm	-a>
+glu5sa_m	G5SADrm	-a>
+dkmpp_c	MDRPD	-a>
+5mdru1p_c	MDRPD	-a>
+h2o_c	MDRPD	-a>
+5mta_c	MTAP	-a>
+ade_c	MTAP	-a>
+5mdr1p_c	MTAP	-a>
+pi_c	MTAP	-a>
+5mdru1p_c	MTRI	-a>
+5mdr1p_c	MTRI	-a>
+nad_c	NABTNO	-a>
+h2o_c	NABTNO	-a>
+h_c	NABTNO	-a>
+4aabutn_c	NABTNO	-a>
+n4abutn_c	NABTNO	-a>
+nadh_c	NABTNO	-a>
+h2o_m	NABTNOm	-a>
+h_m	NABTNOm	-a>
+n4abutn_m	NABTNOm	-a>
+nad_m	NABTNOm	-a>
+nadh_m	NABTNOm	-a>
+4aabutn_m	NABTNOm	-a>
+o2_c	NOS1	-a>
+h2o_c	NOS1	-a>
+nadp_c	NOS1	-a>
+h_c	NOS1	-a>
+nwharg_c	NOS1	-a>
+nadph_c	NOS1	-a>
+arg_L_c	NOS1	-a>
+h2o_c	NOS2	-a>
+nadp_c	NOS2	-a>
+h_c	NOS2	-a>
+no_c	NOS2	-a>
+nwharg_c	NOS2	-a>
+citr_L_c	NOS2	-a>
+o2_c	NOS2	-a>
+nadph_c	NOS2	-a>
+pro_L_m	P5CRm	-a>
+h_m	P5CRm	-a>
+nadph_m	P5CRm	-a>
+1pyr5c_m	P5CRm	-a>
+nadp_m	P5CRm	-a>
+h2o_m	PHCDm	-a>
+h_m	PHCDm	-a>
+nad_m	PHCDm	-a>
+nadh_m	PHCDm	-a>
+1p3h5c_m	PHCDm	-a>
+e4hglu_m	PHCDm	-a>
+h2o_m	PHCHGSm	-a>
+1p3h5c_m	PHCHGSm	-a>
+h_m	PHCHGSm	-a>
+4hglusa_m	PHCHGSm	-a>
+pro_L_m	PRO1xm	-a>
+nadh_m	PRO1xm	-a>
+h_m	PRO1xm	-a>
+1pyr5c_m	PRO1xm	-a>
+nad_m	PRO1xm	-a>
+akg_r	PROAKGOX1r	-a>
+o2_r	PROAKGOX1r	-a>
+co2_r	PROAKGOX1r	-a>
+pro_L_r	PROAKGOX1r	-a>
+4hpro_LT_r	PROAKGOX1r	-a>
+succ_r	PROAKGOX1r	-a>
+1pyr5c_c	PROD2	-a>
+pro_L_c	PROD2	-a>
+fad_c	PROD2	-a>
+fadh2_c	PROD2	-a>
+h_c	PROD2	-a>
+pro_L_m	PROD2m	-a>
+fadh2_m	PROD2m	-a>
+h_m	PROD2m	-a>
+fad_m	PROD2m	-a>
+1pyr5c_m	PROD2m	-a>
+coa_c	PTRCAT1	-a>
+ptrc_c	PTRCAT1	-a>
+aprut_c	PTRCAT1	-a>
+accoa_c	PTRCAT1	-a>
+h_c	PTRCAT1	-a>
+4abutn_c	PTRCOX1	-a>
+h2o_c	PTRCOX1	-a>
+nh4_c	PTRCOX1	-a>
+h2o2_c	PTRCOX1	-a>
+ptrc_c	PTRCOX1	-a>
+o2_c	PTRCOX1	-a>
+2kmb_c	UNK2	-a>
+gln_L_c	UNK2	-a>
+HC00591_c	UNK2	-a>
+met_L_c	UNK2	-a>
+glu_L_c	UNK3	-a>
+2kmb_c	UNK3	-a>
+akg_c	UNK3	-a>
+met_L_c	UNK3	-a>
+h2o_c	r0024	-a>
+h_c	r0024	-a>
+no_c	r0024	-a>
+nwharg_c	r0024	-a>
+citr_L_c	r0024	-a>
+o2_c	r0024	-a>
+nad_c	r0615	-a>
+h_c	r0615	-a>
+4hpro_LT_c	r0615	-a>
+nadh_c	r0615	-a>
+1p3h5c_c	r0615	-a>
+nadh_m	r0616	-a>
+4hpro_LT_m	r0616	-a>
+h_m	r0616	-a>
+1p3h5c_m	r0616	-a>
+nad_m	r0616	-a>
+nadp_c	r0617	-a>
+nadph_c	r0617	-a>
+h_c	r0617	-a>
+4hpro_LT_c	r0617	-a>
+1p3h5c_c	r0617	-a>
+4hpro_LT_m	r0618	-a>
+nadph_m	r0618	-a>
+h_m	r0618	-a>
+nadp_m	r0618	-a>
+1p3h5c_m	r0618	-a>
+h2o_m	r0686	-a>
+nadph_m	r0686	-a>
+e4hglu_m	r0686	-a>
+h_m	r0686	-a>
+1p3h5c_m	r0686	-a>
+nadp_m	r0686	-a>
+1pyr5c_c	P5CR	-a>
+nadp_c	P5CR	-a>
+nadph_c	P5CR	-a>
+h_c	P5CR	-a>
+pro_L_c	P5CR	-a>

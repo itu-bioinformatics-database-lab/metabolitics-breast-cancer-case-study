@@ -1,0 +1,91 @@
+protein	2hyoxplac_c
+protein	akg_c
+protein	akg_m
+protein	amp_c
+protein	atp_c
+protein	co2_c
+protein	coa_c
+protein	gln_L_c
+protein	glu_L_c
+protein	glu_L_m
+protein	h2o2_c
+protein	h2o_c
+protein	h_c
+protein	nad_c
+protein	nadh_c
+protein	nadp_c
+protein	nadph_c
+protein	nh4_c
+protein	o2_c
+protein	pac_c
+protein	pacald_c
+protein	peamn_c
+protein	phaccoa_c
+protein	phe_L_c
+protein	phe_L_m
+protein	pheacgln_c
+protein	phpyr_c
+protein	phpyr_m
+protein	ppi_c
+protein	thbpt4acam_c
+protein	thbpt_c
+protein	tyr_L_c
+abstract	PACCOAL
+abstract	PEAMNO
+abstract	PHACCOAGLNAC
+abstract	PHETA1
+abstract	PHETA1m
+abstract	PHETHPTOX2
+abstract	PHYCBOXL
+abstract	PPOR
+abstract	r0545
+abstract	r0547
+pac_c	PACCOAL	-a>
+amp_c	PACCOAL	-a>
+coa_c	PACCOAL	-a>
+phaccoa_c	PACCOAL	-a>
+atp_c	PACCOAL	-a>
+ppi_c	PACCOAL	-a>
+h2o_c	PEAMNO	-a>
+peamn_c	PEAMNO	-a>
+nh4_c	PEAMNO	-a>
+h2o2_c	PEAMNO	-a>
+pacald_c	PEAMNO	-a>
+o2_c	PEAMNO	-a>
+phaccoa_c	PHACCOAGLNAC	-a>
+pheacgln_c	PHACCOAGLNAC	-a>
+coa_c	PHACCOAGLNAC	-a>
+gln_L_c	PHACCOAGLNAC	-a>
+glu_L_c	PHETA1	-a>
+phe_L_c	PHETA1	-a>
+akg_c	PHETA1	-a>
+phpyr_c	PHETA1	-a>
+phpyr_m	PHETA1m	-a>
+glu_L_m	PHETA1m	-a>
+akg_m	PHETA1m	-a>
+phe_L_m	PHETA1m	-a>
+o2_c	PHETHPTOX2	-a>
+phe_L_c	PHETHPTOX2	-a>
+thbpt_c	PHETHPTOX2	-a>
+thbpt4acam_c	PHETHPTOX2	-a>
+tyr_L_c	PHETHPTOX2	-a>
+peamn_c	PHYCBOXL	-a>
+phe_L_c	PHYCBOXL	-a>
+h_c	PHYCBOXL	-a>
+co2_c	PHYCBOXL	-a>
+o2_c	PPOR	-a>
+2hyoxplac_c	PPOR	-a>
+phpyr_c	PPOR	-a>
+co2_c	PPOR	-a>
+pac_c	r0545	-a>
+nad_c	r0545	-a>
+h2o_c	r0545	-a>
+h_c	r0545	-a>
+pacald_c	r0545	-a>
+nadh_c	r0545	-a>
+pac_c	r0547	-a>
+h2o_c	r0547	-a>
+nadp_c	r0547	-a>
+h_c	r0547	-a>
+pacald_c	r0547	-a>
+nadph_c	r0547	-a>

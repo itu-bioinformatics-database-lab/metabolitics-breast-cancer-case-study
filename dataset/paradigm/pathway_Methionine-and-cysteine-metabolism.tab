@@ -1,0 +1,299 @@
+protein	2amac_c
+protein	2obut_c
+protein	3sala_c
+protein	3sala_m
+protein	3snpyr_c
+protein	3snpyr_m
+protein	3spyr_c
+protein	3spyr_m
+protein	4abutn_e
+protein	5mthf_c
+protein	C02712_c
+protein	C02712_m
+protein	CE1310_m
+protein	CE1401_c
+protein	CE5082_m
+protein	HC00250_c
+protein	Lcyst_c
+protein	Lcyst_m
+protein	Lcystin_c
+protein	ac_c
+protein	accoa_m
+protein	adn_c
+protein	ahcys_c
+protein	ahcys_n
+protein	akg_c
+protein	akg_m
+protein	amet_c
+protein	amet_n
+protein	atp_c
+protein	coa_m
+protein	cyan_c
+protein	cys_L_c
+protein	cys_L_m
+protein	cyst_L_c
+protein	cyst_L_m
+protein	dna5mtc_n
+protein	dna_n
+protein	ficytC_m
+protein	focytC_m
+protein	glu_L_c
+protein	glu_L_m
+protein	gthox_c
+protein	gthrd_c
+protein	h2o2_e
+protein	h2o2_m
+protein	h2o_c
+protein	h2o_e
+protein	h2o_m
+protein	h_c
+protein	h_m
+protein	h_n
+protein	hcys_L_c
+protein	hyptaur_e
+protein	mercplac_c
+protein	mercplaccys_c
+protein	mercppyr_c
+protein	mercppyr_m
+protein	met_L_c
+protein	met_L_m
+protein	nad_c
+protein	nad_m
+protein	nadh_c
+protein	nadh_m
+protein	nadp_c
+protein	nadph_c
+protein	nh4_c
+protein	nh4_e
+protein	o2_e
+protein	o2_m
+protein	pap_c
+protein	paps_c
+protein	pi_c
+protein	ppi_c
+protein	ptrc_e
+protein	pyr_c
+protein	pyr_m
+protein	ser_L_c
+protein	sl_L_c
+protein	sl_L_e
+protein	sl_L_m
+protein	slfcys_c
+protein	so3_c
+protein	so3_m
+protein	so4_c
+protein	so4_m
+protein	taur_e
+protein	tcynt_c
+protein	thcys_c
+protein	thf_c
+protein	trdox_c
+protein	trdrd_c
+abstract	2AMACSULT
+abstract	3SALATAi
+abstract	3SALATAim
+abstract	3SPYRSP
+abstract	3SPYRSPm
+abstract	AHC
+abstract	CYSGLTH
+abstract	CYSLYSL
+abstract	CYSTA
+abstract	CYSTAm
+abstract	CYSTGL
+abstract	CYSTS
+abstract	DNAMTn
+abstract	LCYSTAT
+abstract	LCYSTATm
+abstract	MCLACCYSR
+abstract	MCLOR
+abstract	MCPST
+abstract	METAT
+abstract	METS
+abstract	SLDx
+abstract	SLDxm
+abstract	r0027
+abstract	r0142
+abstract	r0210
+abstract	r0281
+abstract	RE1933C
+abstract	RE2030M
+abstract	RE2156M
+abstract	RE2223M
+abstract	RE2640C
+abstract	RE3009C
+abstract	HYPTROXe
+abstract	SFCYSc
+abstract	SLDt
+abstract	SULFOX
+paps_c	2AMACSULT	-a>
+2amac_c	2AMACSULT	-a>
+nadp_c	2AMACSULT	-a>
+Lcyst_c	2AMACSULT	-a>
+pap_c	2AMACSULT	-a>
+nadph_c	2AMACSULT	-a>
+glu_L_c	3SALATAi	-a>
+h_c	3SALATAi	-a>
+3snpyr_c	3SALATAi	-a>
+3sala_c	3SALATAi	-a>
+akg_c	3SALATAi	-a>
+3snpyr_m	3SALATAim	-a>
+3sala_m	3SALATAim	-a>
+h_m	3SALATAim	-a>
+akg_m	3SALATAim	-a>
+glu_L_m	3SALATAim	-a>
+pyr_c	3SPYRSP	-a>
+h2o_c	3SPYRSP	-a>
+so3_c	3SPYRSP	-a>
+h_c	3SPYRSP	-a>
+3snpyr_c	3SPYRSP	-a>
+h2o_m	3SPYRSPm	-a>
+pyr_m	3SPYRSPm	-a>
+3snpyr_m	3SPYRSPm	-a>
+h_m	3SPYRSPm	-a>
+so3_m	3SPYRSPm	-a>
+hcys_L_c	AHC	-a>
+h2o_c	AHC	-a>
+adn_c	AHC	-a>
+ahcys_c	AHC	-a>
+gthrd_c	CYSGLTH	-a>
+cys_L_c	CYSGLTH	-a>
+gthox_c	CYSGLTH	-a>
+Lcystin_c	CYSGLTH	-a>
+pyr_c	CYSLYSL	-a>
+h2o_c	CYSLYSL	-a>
+thcys_c	CYSLYSL	-a>
+Lcystin_c	CYSLYSL	-a>
+nh4_c	CYSLYSL	-a>
+glu_L_c	CYSTA	-a>
+mercppyr_c	CYSTA	-a>
+cys_L_c	CYSTA	-a>
+akg_c	CYSTA	-a>
+glu_L_m	CYSTAm	-a>
+akg_m	CYSTAm	-a>
+cys_L_m	CYSTAm	-a>
+mercppyr_m	CYSTAm	-a>
+nh4_c	CYSTGL	-a>
+cys_L_c	CYSTGL	-a>
+2obut_c	CYSTGL	-a>
+h2o_c	CYSTGL	-a>
+cyst_L_c	CYSTGL	-a>
+hcys_L_c	CYSTS	-a>
+ser_L_c	CYSTS	-a>
+h2o_c	CYSTS	-a>
+cyst_L_c	CYSTS	-a>
+dna5mtc_n	DNAMTn	-a>
+ahcys_n	DNAMTn	-a>
+dna_n	DNAMTn	-a>
+amet_n	DNAMTn	-a>
+h_n	DNAMTn	-a>
+glu_L_c	LCYSTAT	-a>
+3spyr_c	LCYSTAT	-a>
+akg_c	LCYSTAT	-a>
+Lcyst_c	LCYSTAT	-a>
+3spyr_m	LCYSTATm	-a>
+Lcyst_m	LCYSTATm	-a>
+glu_L_m	LCYSTATm	-a>
+akg_m	LCYSTATm	-a>
+nad_c	MCLACCYSR	-a>
+mercplaccys_c	MCLACCYSR	-a>
+nadh_c	MCLACCYSR	-a>
+cys_L_c	MCLACCYSR	-a>
+mercplac_c	MCLACCYSR	-a>
+h_c	MCLACCYSR	-a>
+nad_c	MCLOR	-a>
+mercppyr_c	MCLOR	-a>
+h_c	MCLOR	-a>
+nadh_c	MCLOR	-a>
+mercplac_c	MCLOR	-a>
+tcynt_c	MCPST	-a>
+pyr_c	MCPST	-a>
+cyan_c	MCPST	-a>
+h_c	MCPST	-a>
+mercppyr_c	MCPST	-a>
+h2o_c	METAT	-a>
+met_L_c	METAT	-a>
+pi_c	METAT	-a>
+atp_c	METAT	-a>
+ppi_c	METAT	-a>
+amet_c	METAT	-a>
+5mthf_c	METS	-a>
+hcys_L_c	METS	-a>
+h_c	METS	-a>
+thf_c	METS	-a>
+met_L_c	METS	-a>
+nad_c	SLDx	-a>
+sl_L_c	SLDx	-a>
+3spyr_c	SLDx	-a>
+h_c	SLDx	-a>
+nadh_c	SLDx	-a>
+3spyr_m	SLDxm	-a>
+nadh_m	SLDxm	-a>
+h_m	SLDxm	-a>
+sl_L_m	SLDxm	-a>
+nad_m	SLDxm	-a>
+cys_L_c	r0027	-a>
+nadp_c	r0027	-a>
+nadph_c	r0027	-a>
+h_c	r0027	-a>
+Lcystin_c	r0027	-a>
+h2o_m	r0142	-a>
+so3_m	r0142	-a>
+so4_m	r0142	-a>
+h2o2_m	r0142	-a>
+o2_m	r0142	-a>
+HC00250_c	r0210	-a>
+cys_L_c	r0210	-a>
+ser_L_c	r0210	-a>
+h_c	r0210	-a>
+h2o_c	r0210	-a>
+nh4_e	r0281	-a>
+4abutn_e	r0281	-a>
+h2o_e	r0281	-a>
+o2_e	r0281	-a>
+ptrc_e	r0281	-a>
+h2o2_e	r0281	-a>
+hcys_L_c	RE1933C	-a>
+h2o_c	RE1933C	-a>
+CE1401_c	RE1933C	-a>
+h_c	RE1933C	-a>
+C02712_m	RE2030M	-a>
+met_L_m	RE2030M	-a>
+h_m	RE2030M	-a>
+coa_m	RE2030M	-a>
+accoa_m	RE2030M	-a>
+cyst_L_m	RE2156M	-a>
+CE5082_m	RE2156M	-a>
+coa_m	RE2156M	-a>
+h_m	RE2156M	-a>
+accoa_m	RE2156M	-a>
+CE1310_m	RE2223M	-a>
+h_m	RE2223M	-a>
+coa_m	RE2223M	-a>
+cys_L_m	RE2223M	-a>
+accoa_m	RE2223M	-a>
+ac_c	RE2640C	-a>
+h2o_c	RE2640C	-a>
+C02712_c	RE2640C	-a>
+met_L_c	RE2640C	-a>
+paps_c	RE3009C	-a>
+trdrd_c	RE3009C	-a>
+h_c	RE3009C	-a>
+trdox_c	RE3009C	-a>
+pap_c	RE3009C	-a>
+so3_c	RE3009C	-a>
+taur_e	HYPTROXe	-a>
+o2_e	HYPTROXe	-a>
+hyptaur_e	HYPTROXe	-a>
+slfcys_c	SFCYSc	-a>
+cys_L_c	SFCYSc	-a>
+so4_c	SFCYSc	-a>
+h_c	SFCYSc	-a>
+h2o_c	SFCYSc	-a>
+sl_L_e	SLDt	-a>
+sl_L_c	SLDt	-a>
+h2o_c	SULFOX	-a>
+so4_c	SULFOX	-a>
+h_c	SULFOX	-a>
+ficytC_m	SULFOX	-a>
+focytC_m	SULFOX	-a>
+so3_c	SULFOX	-a>

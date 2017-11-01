@@ -1,0 +1,113 @@
+protein	Asn_X_Ser_Thr_l
+protein	acgam_c
+protein	acgam_l
+protein	acnam_c
+protein	acnam_l
+protein	fuc_L_e
+protein	fuc_L_l
+protein	gal_l
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	l2n2m2mn_c
+protein	l2n2m2mn_l
+protein	m2mn_c
+protein	m2mn_l
+protein	man_c
+protein	man_l
+protein	mn_c
+protein	mn_l
+protein	n2m2mn_l
+protein	n2m2nm_c
+protein	n2m2nm_l
+protein	n2m2nmasn_l
+protein	n2m2nmn_c
+protein	n2m2nmn_l
+protein	s2l2fn2m2masn_e
+protein	s2l2fn2m2masn_l
+protein	s2l2n2m2m_c
+protein	s2l2n2m2m_l
+protein	s2l2n2m2masn_e
+protein	s2l2n2m2masn_l
+protein	s2l2n2m2mn_c
+protein	s2l2n2m2mn_l
+abstract	A_MANASE
+abstract	A_MANASEly
+abstract	AHEXASE2ly
+abstract	AHEXASEly
+abstract	B_MANNASEly
+abstract	ENGASE
+abstract	ENGASE2
+abstract	ENGASE2ly
+abstract	ENGASEly
+abstract	FUCASEe
+abstract	FUCASEly
+abstract	GALASE1ly
+abstract	GASNASE2ly
+abstract	GASNASEly
+abstract	SIAASE
+abstract	SIAASEly
+h2o_c	A_MANASE	-a>
+man_c	A_MANASE	-a>
+mn_c	A_MANASE	-a>
+m2mn_c	A_MANASE	-a>
+h2o_l	A_MANASEly	-a>
+m2mn_l	A_MANASEly	-a>
+man_l	A_MANASEly	-a>
+mn_l	A_MANASEly	-a>
+h2o_l	AHEXASE2ly	-a>
+n2m2nmn_l	AHEXASE2ly	-a>
+m2mn_l	AHEXASE2ly	-a>
+acgam_l	AHEXASE2ly	-a>
+h2o_l	AHEXASEly	-a>
+n2m2mn_l	AHEXASEly	-a>
+m2mn_l	AHEXASEly	-a>
+acgam_l	AHEXASEly	-a>
+acgam_l	B_MANNASEly	-a>
+h2o_l	B_MANNASEly	-a>
+man_l	B_MANNASEly	-a>
+mn_l	B_MANNASEly	-a>
+h2o_c	ENGASE	-a>
+s2l2n2m2mn_c	ENGASE	-a>
+s2l2n2m2m_c	ENGASE	-a>
+acgam_c	ENGASE	-a>
+n2m2nmn_c	ENGASE2	-a>
+h2o_c	ENGASE2	-a>
+acgam_c	ENGASE2	-a>
+n2m2nm_c	ENGASE2	-a>
+n2m2nm_l	ENGASE2ly	-a>
+n2m2nmn_l	ENGASE2ly	-a>
+h2o_l	ENGASE2ly	-a>
+acgam_l	ENGASE2ly	-a>
+s2l2n2m2mn_l	ENGASEly	-a>
+s2l2n2m2m_l	ENGASEly	-a>
+h2o_l	ENGASEly	-a>
+acgam_l	ENGASEly	-a>
+s2l2fn2m2masn_e	FUCASEe	-a>
+s2l2n2m2masn_e	FUCASEe	-a>
+fuc_L_e	FUCASEe	-a>
+h2o_e	FUCASEe	-a>
+fuc_L_l	FUCASEly	-a>
+s2l2n2m2masn_l	FUCASEly	-a>
+s2l2fn2m2masn_l	FUCASEly	-a>
+h2o_l	FUCASEly	-a>
+gal_l	GALASE1ly	-a>
+n2m2mn_l	GALASE1ly	-a>
+h2o_l	GALASE1ly	-a>
+l2n2m2mn_l	GALASE1ly	-a>
+Asn_X_Ser_Thr_l	GASNASE2ly	-a>
+h2o_l	GASNASE2ly	-a>
+n2m2nm_l	GASNASE2ly	-a>
+n2m2nmasn_l	GASNASE2ly	-a>
+Asn_X_Ser_Thr_l	GASNASEly	-a>
+s2l2n2m2masn_l	GASNASEly	-a>
+s2l2n2m2m_l	GASNASEly	-a>
+h2o_l	GASNASEly	-a>
+l2n2m2mn_c	SIAASE	-a>
+h2o_c	SIAASE	-a>
+acnam_c	SIAASE	-a>
+s2l2n2m2mn_c	SIAASE	-a>
+s2l2n2m2mn_l	SIAASEly	-a>
+l2n2m2mn_l	SIAASEly	-a>
+h2o_l	SIAASEly	-a>
+acnam_l	SIAASEly	-a>

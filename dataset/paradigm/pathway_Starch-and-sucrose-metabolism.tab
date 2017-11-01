@@ -1,0 +1,211 @@
+protein	CE2838_c
+protein	CE2838_e
+protein	CE2839_c
+protein	CE2839_e
+protein	Tyr_ggn_c
+protein	Tyr_ggn_e
+protein	dxtrn_c
+protein	fru_c
+protein	g1p_c
+protein	g1p_e
+protein	ggn_c
+protein	glc_D_c
+protein	glc_D_e
+protein	glc_D_l
+protein	glygn1_c
+protein	glygn2_c
+protein	glygn2_e
+protein	glygn3_c
+protein	glygn4_e
+protein	glygn5_e
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h_c
+protein	h_e
+protein	malt_c
+protein	malt_e
+protein	malt_l
+protein	malthp_c
+protein	malthp_e
+protein	malthx_c
+protein	malthx_e
+protein	maltpt_c
+protein	maltpt_e
+protein	malttr_c
+protein	malttr_e
+protein	malttr_l
+protein	maltttr_c
+protein	maltttr_e
+protein	nad_c
+protein	nadh_c
+protein	pi_c
+protein	strch1_e
+protein	strch2_e
+protein	tre_c
+protein	tre_e
+protein	udp_c
+protein	udpg_c
+protein	udpg_e
+protein	udpglcur_c
+protein	ump_c
+protein	ump_e
+abstract	AMY1e
+abstract	AMY2e
+abstract	GAMYe
+abstract	GGNG
+abstract	GLBRAN
+abstract	GLDBRAN
+abstract	GLGNS1
+abstract	GLPASE1
+abstract	GLPASE2
+abstract	MALT
+abstract	MALTe
+abstract	MALTly
+abstract	MLTG1
+abstract	MLTG1e
+abstract	MLTG1ly
+abstract	O16G1e
+abstract	O16G2e
+abstract	TREH
+abstract	TREHe
+abstract	UDPGD
+abstract	UDPGP
+abstract	r0093
+abstract	RE0915C
+abstract	RE0915E
+abstract	RE0926C
+abstract	RE0926E
+abstract	RE0935C
+abstract	RE0935E
+abstract	RE0944C
+abstract	RE0944E
+abstract	RE0958C
+abstract	RE0958E
+strch1_e	AMY1e	-a>
+h2o_e	AMY1e	-a>
+strch2_e	AMY1e	-a>
+glc_D_e	AMY1e	-a>
+glc_D_e	AMY2e	-a>
+h2o_e	AMY2e	-a>
+glygn2_e	AMY2e	-a>
+glygn4_e	AMY2e	-a>
+Tyr_ggn_e	GAMYe	-a>
+glygn5_e	GAMYe	-a>
+h2o_e	GAMYe	-a>
+malt_e	GAMYe	-a>
+udp_c	GGNG	-a>
+ggn_c	GGNG	-a>
+Tyr_ggn_c	GGNG	-a>
+udpg_c	GGNG	-a>
+h_c	GGNG	-a>
+glygn2_c	GLBRAN	-a>
+glygn1_c	GLBRAN	-a>
+glygn3_c	GLDBRAN	-a>
+glc_D_c	GLDBRAN	-a>
+h2o_c	GLDBRAN	-a>
+dxtrn_c	GLDBRAN	-a>
+udp_c	GLGNS1	-a>
+ggn_c	GLGNS1	-a>
+h_c	GLGNS1	-a>
+udpg_c	GLGNS1	-a>
+glygn1_c	GLGNS1	-a>
+pi_c	GLPASE1	-a>
+glygn2_c	GLPASE1	-a>
+g1p_c	GLPASE1	-a>
+dxtrn_c	GLPASE1	-a>
+glygn3_c	GLPASE2	-a>
+glc_D_c	GLPASE2	-a>
+Tyr_ggn_c	GLPASE2	-a>
+h2o_c	GLPASE2	-a>
+h2o_c	MALT	-a>
+glc_D_c	MALT	-a>
+malt_c	MALT	-a>
+h2o_e	MALTe	-a>
+malt_e	MALTe	-a>
+glc_D_e	MALTe	-a>
+malt_l	MALTly	-a>
+h2o_l	MALTly	-a>
+glc_D_l	MALTly	-a>
+malttr_c	MLTG1	-a>
+malt_c	MLTG1	-a>
+glc_D_c	MLTG1	-a>
+h2o_c	MLTG1	-a>
+malttr_e	MLTG1e	-a>
+h2o_e	MLTG1e	-a>
+malt_e	MLTG1e	-a>
+glc_D_e	MLTG1e	-a>
+malttr_l	MLTG1ly	-a>
+malt_l	MLTG1ly	-a>
+h2o_l	MLTG1ly	-a>
+glc_D_l	MLTG1ly	-a>
+glygn5_e	O16G1e	-a>
+glc_D_e	O16G1e	-a>
+h2o_e	O16G1e	-a>
+glygn4_e	O16G1e	-a>
+strch2_e	O16G2e	-a>
+h2o_e	O16G2e	-a>
+malt_e	O16G2e	-a>
+glc_D_e	O16G2e	-a>
+h2o_c	TREH	-a>
+glc_D_c	TREH	-a>
+tre_c	TREH	-a>
+tre_e	TREHe	-a>
+h2o_e	TREHe	-a>
+glc_D_e	TREHe	-a>
+nad_c	UDPGD	-a>
+h2o_c	UDPGD	-a>
+udpglcur_c	UDPGD	-a>
+udpg_c	UDPGD	-a>
+nadh_c	UDPGD	-a>
+h_c	UDPGD	-a>
+ump_c	UDPGP	-a>
+g1p_c	UDPGP	-a>
+h_c	UDPGP	-a>
+udpg_c	UDPGP	-a>
+h2o_c	UDPGP	-a>
+h_e	r0093	-a>
+udpg_e	r0093	-a>
+h2o_e	r0093	-a>
+ump_e	r0093	-a>
+g1p_e	r0093	-a>
+malttr_c	RE0915C	-a>
+fru_c	RE0915C	-a>
+maltttr_c	RE0915C	-a>
+h2o_c	RE0915C	-a>
+maltttr_e	RE0915E	-a>
+h2o_e	RE0915E	-a>
+malttr_e	RE0915E	-a>
+glc_D_e	RE0915E	-a>
+h2o_c	RE0926C	-a>
+fru_c	RE0926C	-a>
+maltpt_c	RE0926C	-a>
+maltttr_c	RE0926C	-a>
+maltttr_e	RE0926E	-a>
+maltpt_e	RE0926E	-a>
+h2o_e	RE0926E	-a>
+glc_D_e	RE0926E	-a>
+h2o_c	RE0935C	-a>
+fru_c	RE0935C	-a>
+malthx_c	RE0935C	-a>
+maltpt_c	RE0935C	-a>
+malthx_e	RE0935E	-a>
+maltpt_e	RE0935E	-a>
+h2o_e	RE0935E	-a>
+glc_D_e	RE0935E	-a>
+h2o_c	RE0944C	-a>
+fru_c	RE0944C	-a>
+malthx_c	RE0944C	-a>
+malthp_c	RE0944C	-a>
+malthx_e	RE0944E	-a>
+malthp_e	RE0944E	-a>
+h2o_e	RE0944E	-a>
+glc_D_e	RE0944E	-a>
+h2o_c	RE0958C	-a>
+fru_c	RE0958C	-a>
+CE2839_c	RE0958C	-a>
+CE2838_c	RE0958C	-a>
+CE2839_e	RE0958E	-a>
+CE2838_e	RE0958E	-a>
+h2o_e	RE0958E	-a>
+glc_D_e	RE0958E	-a>

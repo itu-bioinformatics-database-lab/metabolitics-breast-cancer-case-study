@@ -1,0 +1,724 @@
+protein	23cump_c
+protein	23cump_e
+protein	3ump_c
+protein	3ump_e
+protein	5oxpro_c
+protein	C01507_c
+protein	C01836_c
+protein	C01836_m
+protein	C03681_c
+protein	C03958_c
+protein	C06948_c
+protein	C06948_r
+protein	C07486_c
+protein	C07486_r
+protein	C08276_c
+protein	CE1261_c
+protein	CE1262_c
+protein	CE1264_c
+protein	CE1294_c
+protein	CE1294_m
+protein	CE1297_c
+protein	CE1297_m
+protein	CE1925_c
+protein	CE1925_e
+protein	CE1925_l
+protein	CE1925_r
+protein	CE1926_c
+protein	CE1926_e
+protein	CE1926_l
+protein	CE1926_r
+protein	CE1950_c
+protein	CE1950_e
+protein	CE1950_l
+protein	CE1950_n
+protein	CE2011_c
+protein	CE2011_e
+protein	CE2011_l
+protein	CE2011_m
+protein	CE2011_n
+protein	CE2211_c
+protein	CE2211_r
+protein	CE2615_c
+protein	CE2615_r
+protein	CE2616_c
+protein	CE2616_r
+protein	CE2751_c
+protein	CE2858_c
+protein	CE2862_c
+protein	CE2862_m
+protein	CE2863_c
+protein	CE2863_m
+protein	CE2890_c
+protein	CE2891_c
+protein	CE2915_c
+protein	CE2915_e
+protein	CE2916_c
+protein	CE2916_e
+protein	CE2917_c
+protein	CE2917_e
+protein	CE2934_c
+protein	CE4633_c
+protein	CE4633_e
+protein	CE4633_l
+protein	CE4633_n
+protein	CE4722_c
+protein	CE4722_e
+protein	CE4723_c
+protein	CE4723_e
+protein	CE4724_c
+protein	CE4724_e
+protein	CE4753_c
+protein	CE4754_c
+protein	CE4881_c
+protein	CE4881_e
+protein	CE4881_l
+protein	CE4881_n
+protein	CE4888_c
+protein	CE5072_c
+protein	CE5072_r
+protein	CE5272_c
+protein	CE5274_c
+protein	CE5665_c
+protein	CE5698_c
+protein	CE5782_c
+protein	CE5783_c
+protein	CE5786_c
+protein	CE5786_e
+protein	CE5787_e
+protein	CE5788_c
+protein	CE5788_e
+protein	CE5789_c
+protein	CE5789_e
+protein	CE5791_e
+protein	CE5794_c
+protein	CE5794_l
+protein	CE5795_c
+protein	CE5795_l
+protein	CE5796_c
+protein	CE5796_l
+protein	CE5797_c
+protein	CE5797_e
+protein	CE5798_c
+protein	CE5798_e
+protein	CE5820_c
+protein	CE5829_c
+protein	CE5853_c
+protein	CE5853_e
+protein	CE5853_l
+protein	CE5853_r
+protein	CE5854_c
+protein	CE5854_e
+protein	CE5854_l
+protein	CE5854_r
+protein	CE5865_c
+protein	CE5866_c
+protein	CE5867_c
+protein	CE5867_e
+protein	CE5868_c
+protein	CE5868_e
+protein	CE5869_c
+protein	CE5869_e
+protein	acryl_c
+protein	ahcys_c
+protein	ala_L_c
+protein	amet_c
+protein	bgly_c
+protein	ch4s_c
+protein	cl_c
+protein	cl_e
+protein	cl_l
+protein	cl_n
+protein	co2_c
+protein	co2_m
+protein	cyan_m
+protein	cynt_c
+protein	cynt_e
+protein	cynt_l
+protein	cynt_n
+protein	decdp_c
+protein	fald_c
+protein	fald_l
+protein	fald_r
+protein	fe2_e
+protein	fe3_e
+protein	frdp_c
+protein	glcur_c
+protein	glcur_e
+protein	glcur_l
+protein	gly_c
+protein	guln_c
+protein	h2o2_c
+protein	h2o2_e
+protein	h2o2_l
+protein	h2o2_m
+protein	h2o2_n
+protein	h2o2_x
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h2o_m
+protein	h2o_n
+protein	h2o_r
+protein	h2o_x
+protein	h_c
+protein	h_e
+protein	h_l
+protein	h_m
+protein	h_n
+protein	h_r
+protein	hco3_c
+protein	hco3_m
+protein	ile_L_c
+protein	ile_L_e
+protein	ipdp_c
+protein	leu_L_c
+protein	leu_L_e
+protein	meoh_c
+protein	meoh_l
+protein	nad_c
+protein	nad_m
+protein	nad_r
+protein	nadh_c
+protein	nadh_m
+protein	nadh_r
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	no2_c
+protein	no2_e
+protein	no2_l
+protein	no2_n
+protein	o2_c
+protein	o2_e
+protein	o2_m
+protein	o2_r
+protein	o2_x
+protein	phe_L_c
+protein	phe_L_e
+protein	pi_c
+protein	pi_m
+protein	pi_n
+protein	pi_r
+protein	ppi_c
+protein	ppi_m
+protein	ppi_n
+protein	ppi_r
+protein	pppi_c
+protein	pppi_m
+protein	q10_c
+protein	q10h2_c
+protein	so3_c
+protein	so3_e
+protein	so3_l
+protein	so3_m
+protein	so3_n
+protein	srb_L_c
+protein	tcynt_c
+protein	tcynt_e
+protein	tcynt_l
+protein	tcynt_m
+protein	tcynt_n
+protein	tsul_m
+protein	udp_c
+protein	udp_r
+protein	udpglcur_c
+protein	udpglcur_r
+protein	e_c
+abstract	ALCD1
+abstract	CATp
+abstract	DPPS
+abstract	H2CO3D
+abstract	H2CO3Dm
+abstract	PPA2
+abstract	PPA2m
+abstract	PPAer
+abstract	PPAn
+abstract	PRDX
+abstract	PRDXl
+abstract	TRDR2
+abstract	TRDR3
+abstract	r0016
+abstract	RE0383C
+abstract	RE0702C
+abstract	RE0702E
+abstract	RE0702L
+abstract	RE0702M
+abstract	RE0702N
+abstract	RE0936C
+abstract	RE0936E
+abstract	RE0937C
+abstract	RE0937E
+abstract	RE0938C
+abstract	RE0938E
+abstract	RE1050C
+abstract	RE1050E
+abstract	RE1050L
+abstract	RE1050N
+abstract	RE1062C
+abstract	RE1062M
+abstract	RE1063C
+abstract	RE1064C
+abstract	RE1317C
+abstract	RE1691M
+abstract	RE1860C
+abstract	RE1860E
+abstract	RE2026C
+abstract	RE2027C
+abstract	RE2028C
+abstract	RE2029C
+abstract	RE2127C
+abstract	RE2154C
+abstract	RE2155C
+abstract	RE2155R
+abstract	RE2221C
+abstract	RE2221M
+abstract	RE2265C
+abstract	RE2269C
+abstract	RE2269E
+abstract	RE2270C
+abstract	RE2270E
+abstract	RE2272C
+abstract	RE2272L
+abstract	RE2273C
+abstract	RE2273E
+abstract	RE2304E
+abstract	RE2306C
+abstract	RE2404C
+abstract	RE2404R
+abstract	RE2405C
+abstract	RE2405R
+abstract	RE2444C
+abstract	RE2445C
+abstract	RE2445E
+abstract	RE2474C
+abstract	RE2474R
+abstract	RE2513C
+abstract	RE2513E
+abstract	RE2513L
+abstract	RE2513N
+abstract	RE2514C
+abstract	RE2514E
+abstract	RE2514L
+abstract	RE2514N
+abstract	RE2526C
+abstract	RE2541C
+abstract	RE2541E
+abstract	RE2541L
+abstract	RE2622C
+abstract	RE2622R
+abstract	RE3381C
+abstract	RE3381E
+abstract	RE3381L
+abstract	RE3515C
+nad_c	ALCD1	-a>
+fald_c	ALCD1	-a>
+h_c	ALCD1	-a>
+meoh_c	ALCD1	-a>
+nadh_c	ALCD1	-a>
+h2o_x	CATp	-a>
+h2o2_x	CATp	-a>
+o2_x	CATp	-a>
+frdp_c	DPPS	-a>
+ppi_c	DPPS	-a>
+ipdp_c	DPPS	-a>
+decdp_c	DPPS	-a>
+h_c	H2CO3D	-a>
+hco3_c	H2CO3D	-a>
+h2o_c	H2CO3D	-a>
+co2_c	H2CO3D	-a>
+h2o_m	H2CO3Dm	-a>
+hco3_m	H2CO3Dm	-a>
+h_m	H2CO3Dm	-a>
+co2_m	H2CO3Dm	-a>
+pi_c	PPA2	-a>
+h2o_c	PPA2	-a>
+ppi_c	PPA2	-a>
+h_c	PPA2	-a>
+pppi_c	PPA2	-a>
+ppi_m	PPA2m	-a>
+h2o_m	PPA2m	-a>
+pppi_m	PPA2m	-a>
+h_m	PPA2m	-a>
+pi_m	PPA2m	-a>
+h_r	PPAer	-a>
+ppi_r	PPAer	-a>
+pi_r	PPAer	-a>
+h2o_r	PPAer	-a>
+ppi_n	PPAn	-a>
+pi_n	PPAn	-a>
+h2o_n	PPAn	-a>
+h_n	PPAn	-a>
+h2o2_c	PRDX	-a>
+h2o_c	PRDX	-a>
+fald_c	PRDX	-a>
+meoh_c	PRDX	-a>
+h2o2_l	PRDXl	-a>
+fald_l	PRDXl	-a>
+h2o_l	PRDXl	-a>
+meoh_l	PRDXl	-a>
+q10h2_c	TRDR2	-a>
+nadp_c	TRDR2	-a>
+nadph_c	TRDR2	-a>
+h_c	TRDR2	-a>
+q10_c	TRDR2	-a>
+nad_c	TRDR3	-a>
+q10h2_c	TRDR3	-a>
+h_c	TRDR3	-a>
+nadh_c	TRDR3	-a>
+q10_c	TRDR3	-a>
+fe2_e	r0016	-a>
+h_e	r0016	-a>
+o2_e	r0016	-a>
+fe3_e	r0016	-a>
+h2o_e	r0016	-a>
+guln_c	RE0383C	-a>
+nadp_c	RE0383C	-a>
+nadph_c	RE0383C	-a>
+h_c	RE0383C	-a>
+glcur_c	RE0383C	-a>
+tcynt_c	RE0702C	-a>
+h2o2_c	RE0702C	-a>
+h2o_c	RE0702C	-a>
+h_c	RE0702C	-a>
+CE2011_c	RE0702C	-a>
+h_e	RE0702E	-a>
+CE2011_e	RE0702E	-a>
+tcynt_e	RE0702E	-a>
+h2o_e	RE0702E	-a>
+h2o2_e	RE0702E	-a>
+h2o2_l	RE0702L	-a>
+h2o_l	RE0702L	-a>
+tcynt_l	RE0702L	-a>
+CE2011_l	RE0702L	-a>
+h_l	RE0702L	-a>
+CE2011_m	RE0702M	-a>
+h2o_m	RE0702M	-a>
+h_m	RE0702M	-a>
+h2o2_m	RE0702M	-a>
+tcynt_m	RE0702M	-a>
+CE2011_n	RE0702N	-a>
+h2o_n	RE0702N	-a>
+h_n	RE0702N	-a>
+tcynt_n	RE0702N	-a>
+h2o2_n	RE0702N	-a>
+h2o_c	RE0936C	-a>
+ile_L_c	RE0936C	-a>
+CE4722_c	RE0936C	-a>
+CE2915_c	RE0936C	-a>
+CE4722_e	RE0936E	-a>
+ile_L_e	RE0936E	-a>
+h2o_e	RE0936E	-a>
+CE2915_e	RE0936E	-a>
+h2o_c	RE0937C	-a>
+CE2916_c	RE0937C	-a>
+ile_L_c	RE0937C	-a>
+CE4723_c	RE0937C	-a>
+CE2916_e	RE0937E	-a>
+CE4723_e	RE0937E	-a>
+ile_L_e	RE0937E	-a>
+h2o_e	RE0937E	-a>
+CE2917_c	RE0938C	-a>
+phe_L_c	RE0938C	-a>
+CE4724_c	RE0938C	-a>
+h2o_c	RE0938C	-a>
+CE2917_e	RE0938E	-a>
+CE4724_e	RE0938E	-a>
+h2o_e	RE0938E	-a>
+phe_L_e	RE0938E	-a>
+h2o_c	RE1050C	-a>
+h_c	RE1050C	-a>
+h2o2_c	RE1050C	-a>
+cynt_c	RE1050C	-a>
+CE1950_c	RE1050C	-a>
+so3_c	RE1050C	-a>
+cynt_e	RE1050E	-a>
+so3_e	RE1050E	-a>
+h2o_e	RE1050E	-a>
+h_e	RE1050E	-a>
+h2o2_e	RE1050E	-a>
+CE1950_e	RE1050E	-a>
+h2o2_l	RE1050L	-a>
+CE1950_l	RE1050L	-a>
+so3_l	RE1050L	-a>
+h2o_l	RE1050L	-a>
+cynt_l	RE1050L	-a>
+h_l	RE1050L	-a>
+h2o_n	RE1050N	-a>
+h_n	RE1050N	-a>
+CE1950_n	RE1050N	-a>
+h2o2_n	RE1050N	-a>
+cynt_n	RE1050N	-a>
+so3_n	RE1050N	-a>
+CE2863_c	RE1062C	-a>
+CE2862_c	RE1062C	-a>
+C01836_c	RE1062C	-a>
+h2o_c	RE1062C	-a>
+h2o_m	RE1062M	-a>
+CE2862_m	RE1062M	-a>
+C01836_m	RE1062M	-a>
+CE2863_m	RE1062M	-a>
+h2o_c	RE1063C	-a>
+CE2751_c	RE1063C	-a>
+CE2890_c	RE1063C	-a>
+CE2858_c	RE1063C	-a>
+CE2891_c	RE1064C	-a>
+CE4753_c	RE1064C	-a>
+CE2751_c	RE1064C	-a>
+h2o_c	RE1064C	-a>
+CE4754_c	RE1064C	-a>
+nad_c	RE1317C	-a>
+C01507_c	RE1317C	-a>
+srb_L_c	RE1317C	-a>
+h_c	RE1317C	-a>
+nadh_c	RE1317C	-a>
+tsul_m	RE1691M	-a>
+so3_m	RE1691M	-a>
+tcynt_m	RE1691M	-a>
+h_m	RE1691M	-a>
+cyan_m	RE1691M	-a>
+3ump_c	RE1860C	-a>
+h2o_c	RE1860C	-a>
+23cump_c	RE1860C	-a>
+h_c	RE1860C	-a>
+h_e	RE1860E	-a>
+3ump_e	RE1860E	-a>
+h2o_e	RE1860E	-a>
+23cump_e	RE1860E	-a>
+h2o_c	RE2026C	-a>
+h_c	RE2026C	-a>
+CE5698_c	RE2026C	-a>
+CE1262_c	RE2026C	-a>
+CE1261_c	RE2027C	-a>
+CE5272_c	RE2027C	-a>
+CE1262_c	RE2027C	-a>
+CE5698_c	RE2027C	-a>
+CE1264_c	RE2028C	-a>
+CE5272_c	RE2028C	-a>
+h_c	RE2028C	-a>
+co2_c	RE2028C	-a>
+e_c	RE2028C	-a>
+CE1264_c	RE2029C	-a>
+h2o_c	RE2029C	-a>
+CE5274_c	RE2029C	-a>
+CE2934_c	RE2127C	-a>
+bgly_c	RE2127C	-a>
+h_c	RE2127C	-a>
+amet_c	RE2127C	-a>
+ahcys_c	RE2127C	-a>
+nad_c	RE2154C	-a>
+CE2211_c	RE2154C	-a>
+C03681_c	RE2154C	-a>
+h_c	RE2154C	-a>
+nadh_c	RE2154C	-a>
+nad_c	RE2155C	-a>
+h2o_c	RE2155C	-a>
+h_c	RE2155C	-a>
+CE5072_c	RE2155C	-a>
+CE2211_c	RE2155C	-a>
+nadh_c	RE2155C	-a>
+o2_c	RE2155C	-a>
+o2_r	RE2155R	-a>
+nad_r	RE2155R	-a>
+h2o_r	RE2155R	-a>
+h_r	RE2155R	-a>
+nadh_r	RE2155R	-a>
+CE5072_r	RE2155R	-a>
+CE2211_r	RE2155R	-a>
+nad_c	RE2221C	-a>
+h2o_c	RE2221C	-a>
+CE1294_c	RE2221C	-a>
+h_c	RE2221C	-a>
+CE1297_c	RE2221C	-a>
+nadh_c	RE2221C	-a>
+o2_c	RE2221C	-a>
+h2o_m	RE2221M	-a>
+h_m	RE2221M	-a>
+nad_m	RE2221M	-a>
+CE1294_m	RE2221M	-a>
+nadh_m	RE2221M	-a>
+o2_m	RE2221M	-a>
+CE1297_m	RE2221M	-a>
+h2o_c	RE2265C	-a>
+ala_L_c	RE2265C	-a>
+gly_c	RE2265C	-a>
+h_c	RE2265C	-a>
+CE5782_c	RE2265C	-a>
+CE5783_c	RE2265C	-a>
+leu_L_c	RE2269C	-a>
+h2o_c	RE2269C	-a>
+phe_L_c	RE2269C	-a>
+CE5786_c	RE2269C	-a>
+CE5788_c	RE2269C	-a>
+leu_L_e	RE2269E	-a>
+CE5786_e	RE2269E	-a>
+CE5788_e	RE2269E	-a>
+h2o_e	RE2269E	-a>
+phe_L_e	RE2269E	-a>
+h2o_c	RE2270C	-a>
+leu_L_c	RE2270C	-a>
+CE5789_c	RE2270C	-a>
+CE5786_c	RE2270C	-a>
+leu_L_e	RE2270E	-a>
+CE5786_e	RE2270E	-a>
+CE5789_e	RE2270E	-a>
+h2o_e	RE2270E	-a>
+CE5795_c	RE2272C	-a>
+CE5794_c	RE2272C	-a>
+h2o_c	RE2272C	-a>
+CE5796_c	RE2272C	-a>
+h2o_l	RE2272L	-a>
+CE5796_l	RE2272L	-a>
+CE5795_l	RE2272L	-a>
+CE5794_l	RE2272L	-a>
+h2o_c	RE2273C	-a>
+leu_L_c	RE2273C	-a>
+CE5797_c	RE2273C	-a>
+CE5798_c	RE2273C	-a>
+leu_L_e	RE2273E	-a>
+CE5798_e	RE2273E	-a>
+h2o_e	RE2273E	-a>
+CE5797_e	RE2273E	-a>
+leu_L_e	RE2304E	-a>
+CE5786_e	RE2304E	-a>
+CE5787_e	RE2304E	-a>
+h2o_e	RE2304E	-a>
+CE5791_e	RE2304E	-a>
+h2o_c	RE2306C	-a>
+CE5820_c	RE2306C	-a>
+C03958_c	RE2306C	-a>
+5oxpro_c	RE2306C	-a>
+CE1925_c	RE2404C	-a>
+udp_c	RE2404C	-a>
+udpglcur_c	RE2404C	-a>
+CE5853_c	RE2404C	-a>
+udp_r	RE2404R	-a>
+CE5853_r	RE2404R	-a>
+udpglcur_r	RE2404R	-a>
+CE1925_r	RE2404R	-a>
+udp_c	RE2405C	-a>
+CE1926_c	RE2405C	-a>
+udpglcur_c	RE2405C	-a>
+CE5854_c	RE2405C	-a>
+udp_r	RE2405R	-a>
+CE1926_r	RE2405R	-a>
+udpglcur_r	RE2405R	-a>
+CE5854_r	RE2405R	-a>
+CE5865_c	RE2444C	-a>
+CE5829_c	RE2444C	-a>
+CE5866_c	RE2444C	-a>
+h2o_c	RE2444C	-a>
+h2o_c	RE2445C	-a>
+CE5869_c	RE2445C	-a>
+CE5868_c	RE2445C	-a>
+CE5867_c	RE2445C	-a>
+CE5869_e	RE2445E	-a>
+CE5868_e	RE2445E	-a>
+CE5867_e	RE2445E	-a>
+h2o_e	RE2445E	-a>
+h2o_c	RE2474C	-a>
+nadp_c	RE2474C	-a>
+h_c	RE2474C	-a>
+C07486_c	RE2474C	-a>
+fald_c	RE2474C	-a>
+o2_c	RE2474C	-a>
+nadph_c	RE2474C	-a>
+C06948_c	RE2474C	-a>
+C06948_r	RE2474R	-a>
+o2_r	RE2474R	-a>
+nadph_r	RE2474R	-a>
+C07486_r	RE2474R	-a>
+nadp_r	RE2474R	-a>
+h2o_r	RE2474R	-a>
+h_r	RE2474R	-a>
+fald_r	RE2474R	-a>
+CE4633_c	RE2513C	-a>
+cl_c	RE2513C	-a>
+h2o_c	RE2513C	-a>
+h_c	RE2513C	-a>
+h2o2_c	RE2513C	-a>
+h_e	RE2513E	-a>
+cl_e	RE2513E	-a>
+CE4633_e	RE2513E	-a>
+h2o_e	RE2513E	-a>
+h2o2_e	RE2513E	-a>
+h2o2_l	RE2513L	-a>
+CE4633_l	RE2513L	-a>
+h2o_l	RE2513L	-a>
+h_l	RE2513L	-a>
+cl_l	RE2513L	-a>
+CE4633_n	RE2513N	-a>
+h2o_n	RE2513N	-a>
+cl_n	RE2513N	-a>
+h_n	RE2513N	-a>
+h2o2_n	RE2513N	-a>
+CE4633_c	RE2514C	-a>
+no2_c	RE2514C	-a>
+CE4881_c	RE2514C	-a>
+h_c	RE2514C	-a>
+h2o_c	RE2514C	-a>
+h_e	RE2514E	-a>
+CE4881_e	RE2514E	-a>
+CE4633_e	RE2514E	-a>
+h2o_e	RE2514E	-a>
+no2_e	RE2514E	-a>
+no2_l	RE2514L	-a>
+CE4881_l	RE2514L	-a>
+h2o_l	RE2514L	-a>
+CE4633_l	RE2514L	-a>
+h_l	RE2514L	-a>
+CE4633_n	RE2514N	-a>
+h2o_n	RE2514N	-a>
+no2_n	RE2514N	-a>
+h_n	RE2514N	-a>
+CE4881_n	RE2514N	-a>
+CE5665_c	RE2526C	-a>
+CE4888_c	RE2526C	-a>
+nadp_c	RE2526C	-a>
+nadph_c	RE2526C	-a>
+h_c	RE2526C	-a>
+h2o_c	RE2541C	-a>
+glcur_c	RE2541C	-a>
+h_c	RE2541C	-a>
+CE1926_c	RE2541C	-a>
+CE5854_c	RE2541C	-a>
+h_e	RE2541E	-a>
+CE5854_e	RE2541E	-a>
+CE1926_e	RE2541E	-a>
+glcur_e	RE2541E	-a>
+h2o_e	RE2541E	-a>
+glcur_l	RE2541L	-a>
+h2o_l	RE2541L	-a>
+CE1926_l	RE2541L	-a>
+CE5854_l	RE2541L	-a>
+h_l	RE2541L	-a>
+udpglcur_c	RE2622C	-a>
+udp_c	RE2622C	-a>
+h_c	RE2622C	-a>
+CE2616_c	RE2622C	-a>
+CE2615_c	RE2622C	-a>
+udp_r	RE2622R	-a>
+CE2616_r	RE2622R	-a>
+CE2615_r	RE2622R	-a>
+udpglcur_r	RE2622R	-a>
+h_r	RE2622R	-a>
+CE1925_c	RE3381C	-a>
+h2o_c	RE3381C	-a>
+glcur_c	RE3381C	-a>
+CE5853_c	RE3381C	-a>
+h_c	RE3381C	-a>
+h_e	RE3381E	-a>
+CE5853_e	RE3381E	-a>
+CE1925_e	RE3381E	-a>
+h2o_e	RE3381E	-a>
+glcur_e	RE3381E	-a>
+CE5853_l	RE3381L	-a>
+CE1925_l	RE3381L	-a>
+glcur_l	RE3381L	-a>
+h2o_l	RE3381L	-a>
+h_l	RE3381L	-a>
+acryl_c	RE3515C	-a>
+C08276_c	RE3515C	-a>
+ch4s_c	RE3515C	-a>
+h_c	RE3515C	-a>

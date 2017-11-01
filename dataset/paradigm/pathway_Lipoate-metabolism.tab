@@ -1,0 +1,19 @@
+protein	CE2102_c
+protein	CE5656_c
+protein	atp_c
+protein	h2o_c
+protein	h_c
+protein	lipoate_c
+protein	lys_L_c
+protein	ppi_c
+abstract	RE1944C
+abstract	RE2459C
+CE5656_c	RE1944C	-a>
+atp_c	RE1944C	-a>
+ppi_c	RE1944C	-a>
+lipoate_c	RE1944C	-a>
+h_c	RE1944C	-a>
+lys_L_c	RE2459C	-a>
+lipoate_c	RE2459C	-a>
+CE2102_c	RE2459C	-a>
+h2o_c	RE2459C	-a>

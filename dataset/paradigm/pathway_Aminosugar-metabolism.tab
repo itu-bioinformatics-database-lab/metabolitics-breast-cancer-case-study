@@ -1,0 +1,217 @@
+protein	HC00822_e
+protein	HC00822_l
+protein	ac_c
+protein	accoa_c
+protein	acgal1p_c
+protein	acgal_c
+protein	acgam1p_c
+protein	acgam6p_c
+protein	acgam_c
+protein	acgam_e
+protein	acgam_l
+protein	acmana_c
+protein	acmana_r
+protein	acmanap_c
+protein	acnam_c
+protein	acnam_n
+protein	acnamp_c
+protein	adp_c
+protein	atp_c
+protein	chtn_c
+protein	chtn_e
+protein	cmpacna_c
+protein	cmpacna_n
+protein	coa_c
+protein	ctp_c
+protein	ctp_n
+protein	dadp_c
+protein	datp_c
+protein	f6p_c
+protein	gam6p_c
+protein	gam_c
+protein	gdpddman_c
+protein	gdpfuc_c
+protein	gln_L_c
+protein	glu_L_c
+protein	h2o_c
+protein	h2o_e
+protein	h2o_l
+protein	h2o_r
+protein	h_c
+protein	h_r
+protein	idp_c
+protein	itp_c
+protein	kdn_c
+protein	kdnp_c
+protein	man6p_c
+protein	nad_c
+protein	nadh_c
+protein	nh4_c
+protein	pep_c
+protein	pi_c
+protein	ppi_c
+protein	ppi_n
+protein	pyr_c
+protein	uacgam_c
+protein	uacgam_r
+protein	udp_c
+protein	udp_r
+protein	udpacgal_c
+protein	utp_c
+abstract	ACGALK
+abstract	ACGALK2
+abstract	ACGAM2E
+abstract	ACGAM6PSi
+abstract	ACGAMK
+abstract	ACGAMPM
+abstract	ACNAM9PL
+abstract	ACNAM9PL2
+abstract	ACNAMPH
+abstract	ACNMLr
+abstract	AGDC
+abstract	AMANK
+abstract	CHTNASE
+abstract	CHTNASEe
+abstract	CMPSAS
+abstract	CMPSASn
+abstract	G6PDA
+abstract	GF6PTA
+abstract	HEX10
+abstract	KDNH
+abstract	UAG2EMAi
+abstract	UAG4E
+abstract	UAGALDP
+abstract	UAGDP
+abstract	r0013
+abstract	r0113
+abstract	r0363
+abstract	r0364
+abstract	r0782
+abstract	r1374
+abstract	r1375
+acgal1p_c	ACGALK	-a>
+atp_c	ACGALK	-a>
+adp_c	ACGALK	-a>
+acgal_c	ACGALK	-a>
+h_c	ACGALK	-a>
+acgal1p_c	ACGALK2	-a>
+idp_c	ACGALK2	-a>
+h_c	ACGALK2	-a>
+acgal_c	ACGALK2	-a>
+itp_c	ACGALK2	-a>
+acgam_c	ACGAM2E	-a>
+acmana_c	ACGAM2E	-a>
+gam6p_c	ACGAM6PSi	-a>
+acgam6p_c	ACGAM6PSi	-a>
+coa_c	ACGAM6PSi	-a>
+h_c	ACGAM6PSi	-a>
+accoa_c	ACGAM6PSi	-a>
+acgam6p_c	ACGAMK	-a>
+atp_c	ACGAMK	-a>
+adp_c	ACGAMK	-a>
+acgam_c	ACGAMK	-a>
+h_c	ACGAMK	-a>
+acgam6p_c	ACGAMPM	-a>
+acgam1p_c	ACGAMPM	-a>
+pi_c	ACNAM9PL	-a>
+acmanap_c	ACNAM9PL	-a>
+h2o_c	ACNAM9PL	-a>
+acnamp_c	ACNAM9PL	-a>
+pep_c	ACNAM9PL	-a>
+kdnp_c	ACNAM9PL2	-a>
+pi_c	ACNAM9PL2	-a>
+h2o_c	ACNAM9PL2	-a>
+pep_c	ACNAM9PL2	-a>
+man6p_c	ACNAM9PL2	-a>
+pi_c	ACNAMPH	-a>
+h2o_c	ACNAMPH	-a>
+acnam_c	ACNAMPH	-a>
+acnamp_c	ACNAMPH	-a>
+pyr_c	ACNMLr	-a>
+acnam_c	ACNMLr	-a>
+acmana_c	ACNMLr	-a>
+gam6p_c	AGDC	-a>
+acgam6p_c	AGDC	-a>
+ac_c	AGDC	-a>
+h2o_c	AGDC	-a>
+acmanap_c	AMANK	-a>
+atp_c	AMANK	-a>
+acmana_c	AMANK	-a>
+h_c	AMANK	-a>
+adp_c	AMANK	-a>
+chtn_c	CHTNASE	-a>
+h2o_c	CHTNASE	-a>
+acgam_c	CHTNASE	-a>
+acgam_e	CHTNASEe	-a>
+chtn_e	CHTNASEe	-a>
+h2o_e	CHTNASEe	-a>
+acnam_c	CMPSAS	-a>
+ctp_c	CMPSAS	-a>
+ppi_c	CMPSAS	-a>
+cmpacna_c	CMPSAS	-a>
+acnam_n	CMPSASn	-a>
+ppi_n	CMPSASn	-a>
+cmpacna_n	CMPSASn	-a>
+ctp_n	CMPSASn	-a>
+gam6p_c	G6PDA	-a>
+f6p_c	G6PDA	-a>
+h2o_c	G6PDA	-a>
+nh4_c	G6PDA	-a>
+glu_L_c	GF6PTA	-a>
+f6p_c	GF6PTA	-a>
+gln_L_c	GF6PTA	-a>
+gam6p_c	GF6PTA	-a>
+gam6p_c	HEX10	-a>
+atp_c	HEX10	-a>
+gam_c	HEX10	-a>
+adp_c	HEX10	-a>
+h_c	HEX10	-a>
+kdnp_c	KDNH	-a>
+h2o_c	KDNH	-a>
+kdn_c	KDNH	-a>
+pi_c	KDNH	-a>
+h2o_c	UAG2EMAi	-a>
+udp_c	UAG2EMAi	-a>
+h_c	UAG2EMAi	-a>
+uacgam_c	UAG2EMAi	-a>
+acmana_c	UAG2EMAi	-a>
+udpacgal_c	UAG4E	-a>
+uacgam_c	UAG4E	-a>
+acgal1p_c	UAGALDP	-a>
+udpacgal_c	UAGALDP	-a>
+ppi_c	UAGALDP	-a>
+utp_c	UAGALDP	-a>
+h_c	UAGALDP	-a>
+utp_c	UAGDP	-a>
+ppi_c	UAGDP	-a>
+h_c	UAGDP	-a>
+uacgam_c	UAGDP	-a>
+acgam1p_c	UAGDP	-a>
+HC00822_l	r0013	-a>
+h2o_l	r0013	-a>
+acgam_l	r0013	-a>
+udp_r	r0113	-a>
+h_r	r0113	-a>
+uacgam_r	r0113	-a>
+acmana_r	r0113	-a>
+h2o_r	r0113	-a>
+gam6p_c	r0363	-a>
+itp_c	r0363	-a>
+gam_c	r0363	-a>
+h_c	r0363	-a>
+idp_c	r0363	-a>
+gam6p_c	r0364	-a>
+datp_c	r0364	-a>
+dadp_c	r0364	-a>
+gam_c	r0364	-a>
+h_c	r0364	-a>
+nad_c	r0782	-a>
+gdpddman_c	r0782	-a>
+h_c	r0782	-a>
+gdpfuc_c	r0782	-a>
+nadh_c	r0782	-a>
+chtn_e	r1374	-a>
+HC00822_e	r1374	-a>
+h2o_e	r1374	-a>
+HC00822_l	r1375	-a>
+HC00822_e	r1375	-a>

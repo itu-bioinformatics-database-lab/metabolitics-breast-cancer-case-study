@@ -1,0 +1,150 @@
+protein	24nph_c
+protein	4hdebrisoquine_c
+protein	4mtolbutamide_c
+protein	4nph_c
+protein	4nphsf_c
+protein	5homeprazole_c
+protein	aflatoxin_c
+protein	antipyrene_c
+protein	coumarin_c
+protein	ddca_c
+protein	debrisoquine_c
+protein	dmantipyrine_c
+protein	eaflatoxin_c
+protein	ebastine_r
+protein	ebastineoh_r
+protein	h2o_c
+protein	h2o_r
+protein	h_c
+protein	h_r
+protein	hcoumarin_c
+protein	htaxol_c
+protein	meoh_c
+protein	nadp_c
+protein	nadp_r
+protein	nadph_c
+protein	nadph_r
+protein	npthl_c
+protein	o2_c
+protein	o2_r
+protein	omeprazole_c
+protein	onpthl_c
+protein	pap_c
+protein	paps_c
+protein	hdca_c
+protein	taxol_c
+protein	ttdca_c
+protein	tolbutamide_c
+protein	whddca_c
+protein	whhdca_c
+protein	whttdca_c
+abstract	4NPHSULT
+abstract	FAH1
+abstract	FAH2
+abstract	FAH3
+abstract	P4502A6
+abstract	P4502C18
+abstract	P4502C19
+abstract	P4502C8
+abstract	P4502C9
+abstract	P4502D6
+abstract	P4502E1
+abstract	P4502F1
+abstract	P4503A5
+abstract	P4504F123r
+paps_c	4NPHSULT	-a>
+pap_c	4NPHSULT	-a>
+h_c	4NPHSULT	-a>
+4nph_c	4NPHSULT	-a>
+4nphsf_c	4NPHSULT	-a>
+h2o_c	FAH1	-a>
+nadp_c	FAH1	-a>
+h_c	FAH1	-a>
+whddca_c	FAH1	-a>
+nadph_c	FAH1	-a>
+ddca_c	FAH1	-a>
+o2_c	FAH1	-a>
+h2o_c	FAH2	-a>
+nadp_c	FAH2	-a>
+h_c	FAH2	-a>
+whttdca_c	FAH2	-a>
+nadph_c	FAH2	-a>
+ttdca_c	FAH2	-a>
+o2_c	FAH2	-a>
+h2o_c	FAH3	-a>
+nadp_c	FAH3	-a>
+hdca_c	FAH3	-a>
+whhdca_c	FAH3	-a>
+h_c	FAH3	-a>
+nadph_c	FAH3	-a>
+o2_c	FAH3	-a>
+h2o_c	P4502A6	-a>
+nadp_c	P4502A6	-a>
+h_c	P4502A6	-a>
+coumarin_c	P4502A6	-a>
+nadph_c	P4502A6	-a>
+hcoumarin_c	P4502A6	-a>
+o2_c	P4502A6	-a>
+nadp_c	P4502C18	-a>
+h_c	P4502C18	-a>
+meoh_c	P4502C18	-a>
+antipyrene_c	P4502C18	-a>
+nadph_c	P4502C18	-a>
+dmantipyrine_c	P4502C18	-a>
+o2_c	P4502C18	-a>
+5homeprazole_c	P4502C19	-a>
+h2o_c	P4502C19	-a>
+nadp_c	P4502C19	-a>
+h_c	P4502C19	-a>
+nadph_c	P4502C19	-a>
+omeprazole_c	P4502C19	-a>
+o2_c	P4502C19	-a>
+h2o_c	P4502C8	-a>
+nadp_c	P4502C8	-a>
+htaxol_c	P4502C8	-a>
+h_c	P4502C8	-a>
+taxol_c	P4502C8	-a>
+nadph_c	P4502C8	-a>
+o2_c	P4502C8	-a>
+tolbutamide_c	P4502C9	-a>
+4mtolbutamide_c	P4502C9	-a>
+h2o_c	P4502C9	-a>
+nadp_c	P4502C9	-a>
+h_c	P4502C9	-a>
+nadph_c	P4502C9	-a>
+o2_c	P4502C9	-a>
+4hdebrisoquine_c	P4502D6	-a>
+h2o_c	P4502D6	-a>
+nadp_c	P4502D6	-a>
+h_c	P4502D6	-a>
+nadph_c	P4502D6	-a>
+debrisoquine_c	P4502D6	-a>
+o2_c	P4502D6	-a>
+h2o_c	P4502E1	-a>
+nadp_c	P4502E1	-a>
+h_c	P4502E1	-a>
+24nph_c	P4502E1	-a>
+nadph_c	P4502E1	-a>
+4nph_c	P4502E1	-a>
+o2_c	P4502E1	-a>
+npthl_c	P4502F1	-a>
+h2o_c	P4502F1	-a>
+nadp_c	P4502F1	-a>
+h_c	P4502F1	-a>
+onpthl_c	P4502F1	-a>
+nadph_c	P4502F1	-a>
+o2_c	P4502F1	-a>
+h2o_c	P4503A5	-a>
+nadp_c	P4503A5	-a>
+eaflatoxin_c	P4503A5	-a>
+aflatoxin_c	P4503A5	-a>
+o2_c	P4503A5	-a>
+nadph_c	P4503A5	-a>
+h_c	P4503A5	-a>
+ebastineoh_r	P4504F123r	-a>
+o2_r	P4504F123r	-a>
+nadp_r	P4504F123r	-a>
+ebastine_r	P4504F123r	-a>
+h_r	P4504F123r	-a>
+h2o_r	P4504F123r	-a>
+nadph_r	P4504F123r	-a>
