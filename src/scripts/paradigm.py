@@ -1,4 +1,5 @@
 import os
+from collections import defaultdict
 
 import pandas as pd
 from functional import seq
@@ -7,7 +8,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
 
 import models
-from services import DataReader, NamingService
+from services import DataReader, DataWriter, NamingService
 from preprocessing import NameMatching, InverseDictVectorizer, DynamicPreprocessing
 from .cli import cli
 
@@ -81,7 +82,7 @@ def paradigm_generate():
 
     parse_disease_dataset()
     parse_network_as_pathway_files()
-    parse_configuration_file(discs=(-1.95, 1.95))
+    parse_configuration_file(discs=(-0.5, 0.5))
 
 
 @cli.command()
@@ -101,23 +102,33 @@ def paradigm_run():
         query = './paradigm -c bc.cfg -p pathway_%s.tab -b BC' % pathway_name
         results = os.popen(query).read()
 
-        return seq(results.split('\n')) \
-            .filter(lambda x: x.startswith('>')) \
-            .map(lambda x: x.split('loglikelihood=')) \
-            .map(lambda x: (int(x[0].replace('>', '')), x[1])) \
+        reaction_ids = set(r.id for r in model.reactions)
+
+        return seq(results.split('> ')[1:]) \
+            .map(lambda x: x.split(' ')) \
+            .map(lambda x: (int(x[0]), x[1])) \
             .order_by(lambda x: x[0]) \
             .map(lambda x: x[1]) \
-            .map(float) \
+            .map(lambda x: x.split('\n')[1:-1]) \
+            .map(lambda x: list(map(lambda y: y.split('\t'), x))) \
+            .map(lambda x: list(map(lambda y: (y[0], float(y[1])), x))) \
+            .map(lambda x: list(filter(lambda y: y[0] in reaction_ids, x))) \
             .to_list()
 
     pd.set_option('display.max_columns', None)
     pd.set_option('display.max_rows', None)
-    df = pd.DataFrame()
+
+    X = defaultdict(list)
 
     for p in pathway_names:
         print(p)
         results = analysis_pathway(p)
         if results:
-            df[p] = results
+            for i, v in enumerate(results):
+                X[i] += v
 
-        df.to_csv('../../outputs/paradigm_results.csv')
+    X = [dict(v) for v in X.values()]
+    os.chdir(os.path.join(os.getcwd(), '../../src'))
+
+    _, y = DataReader().read_data('BC')
+    DataWriter('paradigm_results').write_json_dataset(X, y)
