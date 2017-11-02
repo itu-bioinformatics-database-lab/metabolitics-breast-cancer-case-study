@@ -26,8 +26,10 @@ class NoiseGeneratorTests(unittest.TestCase):
         self.ones = np.ones((30, 30))
 
     def test_relative_noise_size(self):
-        ns = self.noise_gen.relative_noise_size(self.ones, self.ones * 30)
-        self.assertEqual(ns, 30)
+        other = np.ones((30, 30))
+        other[0][0] = 10
+        ns = self.noise_gen.relative_noise_size(self.ones, other)
+        self.assertGreater(ns, 0.01)
 
     def test_fit_transform(self):
         t_X = self.noise_gen.fit_transform(self.ones, [1] * 30)
