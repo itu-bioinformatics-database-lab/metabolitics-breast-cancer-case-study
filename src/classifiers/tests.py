@@ -12,6 +12,7 @@ from .metabolite_level_disease_classifier \
     import MetaboliteLevelDiseaseClassifier
 from .fva_disease_classifier import FVADiseaseClassifier
 from .pathifier_disease_classifier import PathifierDiseaseClassifier
+from .paradigm_disease_classifier import ParadigmDiseaseClassifier
 
 logger = logging.getLogger(__name__)
 
@@ -105,3 +106,13 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
     @unittest.skip('long running tests')
     def setUpData(self):
         return DataReader().read_analyze_solution('hcc_averaging')
+
+
+class TestParadigmClass(MachineLearningTestCases.ClassificationTestCase):
+    def setUpClf(self):
+        return ParadigmDiseaseClassifier()
+
+    def setUpData(self):
+        X, y = DataReader().read_analyze_solution('paradigm_results', gz=False)
+        X = [{k + '_par': v for k, v in x.items()} for x in X]
+        return X, y
