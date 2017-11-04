@@ -112,7 +112,9 @@ class TestParadigmClass(MachineLearningTestCases.ClassificationTestCase):
     def setUpClf(self):
         return ParadigmDiseaseClassifier()
 
+    @unittest.skip('long running tests')
     def setUpData(self):
-        X, y = DataReader().read_analyze_solution('paradigm_results', gz=False)
+        X, y = DataReader().read_analyze_solution(
+            'paradigm_results#k=10', gz=False)
         X = [{k + '_par': v for k, v in x.items()} for x in X]
         return X, y

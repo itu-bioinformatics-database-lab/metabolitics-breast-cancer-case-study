@@ -3,6 +3,7 @@ from collections import defaultdict
 
 import pandas as pd
 from functional import seq
+from joblib import Parallel, delayed
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_extraction import DictVectorizer
 from sklearn.pipeline import Pipeline
@@ -10,6 +11,7 @@ from sklearn.pipeline import Pipeline
 import models
 from services import DataReader, DataWriter, NamingService
 from preprocessing import NameMatching, InverseDictVectorizer, DynamicPreprocessing
+from noise import SelectNotKBest
 from .cli import cli
 
 
@@ -24,20 +26,22 @@ def paradigm_generate():
     def parse_disease_dataset():
         X, y = DataReader().read_data('BC')
 
-        # vect = DictVectorizer(sparse=False)
-        # pipe = Pipeline([
-        #     # prepare paradigm
-        #     ('naming', NameMatching()),
-        #     ('vect', vect),
-        #     ('min-max', MinMaxScaler()),
-        #     ('inv-vect', InverseDictVectorizer(vect))
-        # ])
+        for i in range(0, 110, 10):
 
-        pipe = DynamicPreprocessing(['naming', 'metabolic-standard'])
-        X_scaled = pipe.fit_transform(X, y)
+            vect = DictVectorizer(sparse=False)
+            selector = SelectNotKBest(k=i)
+            pipe = Pipeline([
+                ('dy', DynamicPreprocessing(['naming', 'metabolic-standard'])),
+                ('vect', vect),
+                ('selector', selector),
+                ('inv_vect', InverseDictVectorizer(vect, selector)),
+            ])
 
-        df = pd.DataFrame.from_records(X_scaled)
-        df.to_csv('%s/BC_data.tsv' % path, sep='\t', index_label='id')
+            X_scaled = pipe.fit_transform(X, y)
+
+            df = pd.DataFrame.from_records(X_scaled)
+            df.to_csv(
+                '%s/BC_k=%d_data.tsv' % (path, i), sep='\t', index_label='id')
 
     def parse_network_as_pathway_files():
         write_reaction = lambda f, reaction_id: f.write('abstract\t%s\n' % reaction_id)
@@ -94,12 +98,9 @@ def paradigm_run():
         s.replace('/', '-').replace(' ', '-') for s in model.subsystems() if s
     ]
 
-    os.chdir(os.path.join(os.getcwd(), '../outputs/paradigm'))
-
-    # os.chdir(os.path.join(os.getcwd(), '../dataset/paradigm'))
-
-    def analysis_pathway(pathway_name):
-        query = './paradigm -c bc.cfg -p pathway_%s.tab -b BC' % pathway_name
+    def analysis_pathway(pathway_name, i):
+        query = './paradigm -c bc.cfg -p pathway_%s.tab -b BC_k=%d' % (
+            pathway_name, i)
         results = os.popen(query).read()
 
         reaction_ids = set(r.id for r in model.reactions)
@@ -115,20 +116,31 @@ def paradigm_run():
             .map(lambda x: list(filter(lambda y: y[0] in reaction_ids, x))) \
             .to_list()
 
-    pd.set_option('display.max_columns', None)
-    pd.set_option('display.max_rows', None)
+    for i in range(10, 110, 10):
 
-    X = defaultdict(list)
+        os.chdir(os.path.join(os.getcwd(), '../outputs/paradigm'))
+        # os.chdir(os.path.join(os.getcwd(), '../dataset/paradigm'))
 
-    for p in pathway_names:
-        print(p)
-        results = analysis_pathway(p)
-        if results:
-            for i, v in enumerate(results):
-                X[i] += v
+        X = defaultdict(list)
 
-    X = [dict(v) for v in X.values()]
-    os.chdir(os.path.join(os.getcwd(), '../../src'))
+        print('iteration %d' % i)
+        for p in pathway_names:
 
-    _, y = DataReader().read_data('BC')
-    DataWriter('paradigm_results').write_json_dataset(X, y)
+            outter_continue = False
+            for t in ['Transport', 'Exchange']:
+                if p.startswith(t):
+                    outter_continue = True
+            if outter_continue:
+                continue
+
+            print(p)
+            results = analysis_pathway(p, i)
+            if results:
+                for j, v in enumerate(results):
+                    X[j] += v
+
+        X = [dict(v) for v in X.values()]
+        os.chdir(os.path.join(os.getcwd(), '../../src'))
+
+        _, y = DataReader().read_data('BC')
+        DataWriter('paradigm_results#k=%d' % i).write_json_dataset(X, y)
