@@ -49,7 +49,7 @@ def elimination_tabular():
     datasets = {'metabolite': DataReader().read_data('BC')}
     scores = list()
 
-    for i in range(0, len(X[0].keys()) + 1, 5):
+    for i in range(0, len(X[0].keys()) + 1, 10):
 
         vect = DictVectorizer(sparse=False)
         selector = SelectNotKBest(k=i)
@@ -72,6 +72,13 @@ def elimination_tabular():
             ('clf', LogisticRegression(random_state=43))
         ])
 
+        clfs['paradigm'] = Pipeline([
+            # pipe for compare model with eliminating some features
+            ('vect', DictVectorizer(sparse=False)),
+            ('pca', PCA(random_state=43)),
+            ('clf', LogisticRegression(C=0.01, random_state=43))
+        ])
+
         clfs['pathway'] = FVADiseaseClassifier()
 
         try:
@@ -81,6 +88,10 @@ def elimination_tabular():
             filename = 'bc_pathifier_analysis#k=%d' % i
             datasets['pathifier'] = DataReader().read_analyze_solution(
                 filename)
+
+            filename = 'paradigm_results#k=%d' % i
+            datasets['paradigm'] = DataReader().read_analyze_solution(
+                filename, gz=False)
 
         except FileNotFoundError:
             print(pd.DataFrame(scores))
