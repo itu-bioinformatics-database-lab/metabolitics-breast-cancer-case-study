@@ -12,6 +12,8 @@ from .best_feature_elimination import *
 from .paradigm import *
 from .noise import *
 from .unicellular import *
+from .supplementary_material import *
+from .biomass_maximization import *
 
 try:
     from .pathifier import pathifier
