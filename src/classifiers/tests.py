@@ -13,6 +13,7 @@ from .metabolite_level_disease_classifier \
 from .fva_disease_classifier import FVADiseaseClassifier
 from .pathifier_disease_classifier import PathifierDiseaseClassifier
 from .paradigm_disease_classifier import ParadigmDiseaseClassifier
+from .biomass_disease_classifier import BiomassDiseaseClassifier
 
 logger = logging.getLogger(__name__)
 
@@ -106,6 +107,18 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
     @unittest.skip('long running tests')
     def setUpData(self):
         return DataReader().read_analyze_solution('hcc_averaging')
+
+
+class TestBiomassClass(MachineLearningTestCases.ClassificationTestCase):
+    def setUpClf(self):
+        return BiomassDiseaseClassifier()
+
+    @unittest.skip('long running tests')
+    def setUpData(self):
+        X, y = DataReader().read_analyze_solution(
+            'biomass_maximization_fba_results', gz=False)
+        X = [{k + '_mas': v for k, v in x.items()} for x in X]
+        return X, y
 
 
 class TestParadigmClass(MachineLearningTestCases.ClassificationTestCase):

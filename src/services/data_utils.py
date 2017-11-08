@@ -5,6 +5,8 @@ from collections import defaultdict
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform, cosine, correlation
 from sklearn.feature_selection import VarianceThreshold
+from statsmodels.sandbox.stats.multicomp import multipletests
+from sklearn.feature_selection import f_classif
 
 
 def filter_by_label(X, y, label, reverse=False):
@@ -33,10 +35,43 @@ def convert_df_to_squareform(df: pd.DataFrame, metric=correlation):
     df_squareform.index = df.columns
     return df_squareform
 
+
 def variance_threshold_on_df(df: pd.DataFrame, threshold=0):
     vt = VarianceThreshold(threshold)
     vt.fit(df.values)
-    return df.iloc[:, vt.variances_ > threshold] 
+    return df.iloc[:, vt.variances_ > threshold]
 
-    
-    
+
+def feature_importance_anova(X,
+                             y,
+                             threshold=0.001,
+                             correcting_multiple_hypotesis=True,
+                             method='fdr_bh',
+                             alpha=0.1,
+                             sort_by='pval'):
+    '''
+    Provide signifance for features in dataset with anova using multiple hypostesis testing
+    :X: List of dict with key as feature names and values as features
+    :y: Labels
+    :threshold: Low-variens threshold to eliminate low varience features
+    :correcting_multiple_hypotesis: corrects p-val with multiple hypotesis testing
+    :method: method of multiple hypotesis testing
+    :alpha: alpha of multiple hypotesis testing
+    :sort_by: sorts output dataframe by pval or F
+    :return: DataFrame with F and pval for each feature with their average values 
+    '''
+    df = variance_threshold_on_df(
+        pd.DataFrame.from_records(X), threshold=threshold)
+
+    F, pvals = f_classif(df.values, y)
+
+    if correcting_multiple_hypotesis:
+        _, pvals, _, _ = multipletests(pvals, alpha=alpha, method=method)
+
+    df['labels'] = y
+    df_mean = df.groupby('labels').mean().T
+
+    df_mean['F'] = F
+    df_mean['pval'] = pvals
+
+    return df_mean.sort_values(sort_by, ascending=True)

@@ -1,5 +1,6 @@
 import unittest
 
+import numpy as np
 import numpy.testing as npt
 import pandas as pd
 from scipy.spatial.distance import euclidean
@@ -82,6 +83,24 @@ class TestDataUtils(unittest.TestCase):
         df_expected = pd.DataFrame({'a': [1, 2, 3]})
         return pd.testing.assert_frame_equal(
             variance_threshold_on_df(df), df_expected)
+
+    def test_feature_importance_anova(self):
+        X = [{
+            'a': 1,
+            'b': 2
+        }, {
+            'a': 1,
+            'b': 2
+        }, {
+            'a': 2,
+            'b': 2
+        }, {
+            'a': 2,
+            'b': 2
+        }]
+
+        df = feature_importance_anova(X, self.y)
+        self.assertListEqual(list(df.values[0]), [1, 2, np.inf, 0])
 
 
 class TestDataWriter(unittest.TestCase):
