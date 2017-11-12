@@ -113,9 +113,6 @@ class TestDataUtils(unittest.TestCase):
         y = ['h', 'x']
         pvals = fisher_exact_test_for_pathway(X, y)
 
-        import pdb
-        pdb.set_trace()
-
         self.assertEqual(list(pvals.keys())[0], 'Glutamate metabolism')
         self.assertEqual(
             list(pvals.values())[0], (np.inf, 0.33333333333333343))
