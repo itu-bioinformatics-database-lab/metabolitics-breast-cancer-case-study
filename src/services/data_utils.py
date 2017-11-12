@@ -4,9 +4,11 @@ from collections import defaultdict
 
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform, cosine, correlation
-from sklearn.feature_selection import VarianceThreshold
+from scipy.stats import fisher_exact
 from statsmodels.sandbox.stats.multicomp import multipletests
-from sklearn.feature_selection import f_classif
+from sklearn.feature_selection import VarianceThreshold, f_classif
+
+from .data_reader import DataReader
 
 
 def filter_by_label(X, y, label, reverse=False):
@@ -75,3 +77,32 @@ def feature_importance_anova(X,
     df_mean['pval'] = pvals
 
     return df_mean.sort_values(sort_by, ascending=True)
+
+
+def fisher_exact_test_for_pathway(X, y, alternative='two-sided', model=None):
+    '''
+    :X: reaction diff scores as list of dict
+    :y: labels which are binary class
+    :return: pval for each feature in dataset 
+    '''
+    y_set = set(y)
+
+    if len(y_set) != 2:
+        raise ValueError('y should be binary class')
+
+    model = model or DataReader().read_network_model()
+
+    xs = [
+        pd.DataFrame.from_records(filter_by_label(X, y, yi)[0]).mean()
+        .to_dict() for yi in y_set
+    ]
+    y1, y2 = y_set
+
+    pathways = defaultdict(lambda: [[0, 0], [0, 0]])
+
+    for i in range(2):
+        for k, v in xs[i].items():
+            r = model.reactions.get_by_id(k[:-4])
+            pathways[r.subsystem][0 if v > 0 else 1][i] += 1
+
+    return {k: fisher_exact(v) for k, v in pathways.items()}
