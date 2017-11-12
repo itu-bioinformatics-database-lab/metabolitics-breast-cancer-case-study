@@ -105,4 +105,7 @@ def fisher_exact_test_for_pathway(X, y, alternative='two-sided', model=None):
             r = model.reactions.get_by_id(k[:-4])
             pathways[r.subsystem][0 if v > 0 else 1][i] += 1
 
-    return {k: fisher_exact(v) for k, v in pathways.items()}
+    return {
+        k: fisher_exact(v, alternative=alternative)
+        for k, v in pathways.items()
+    }
