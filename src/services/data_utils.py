@@ -2,12 +2,14 @@
 from typing import Dict, List
 from collections import defaultdict
 
+import cobra as cb
 import pandas as pd
 from scipy.spatial.distance import pdist, squareform, cosine, correlation
 from scipy.stats import fisher_exact
 from statsmodels.sandbox.stats.multicomp import multipletests
 from sklearn.feature_selection import VarianceThreshold, f_classif
 
+import models
 from .data_reader import DataReader
 
 
@@ -79,7 +81,11 @@ def feature_importance_anova(X,
     return df_mean.sort_values(sort_by, ascending=True)
 
 
-def fisher_exact_test_for_pathway(X, y, alternative='two-sided', model=None):
+def fisher_exact_test_for_pathway(X,
+                                  y,
+                                  alternative='two-sided',
+                                  model=None,
+                                  without_transports=True):
     '''
     :X: reaction diff scores as list of dict
     :y: labels which are binary class
@@ -103,8 +109,10 @@ def fisher_exact_test_for_pathway(X, y, alternative='two-sided', model=None):
     for i in range(2):
         for k, v in xs[i].items():
             r = model.reactions.get_by_id(k[:-4])
-            if round(v, 1) != 0:
-                pathways[r.subsystem][v < 0][i] += 1
+            if without_transports and cb.Model.is_transport_subsystem(
+                    r.subsystem):
+                continue
+            pathways[r.subsystem][round(v, 3) <= 0][i] += 1
 
     return {
         k: fisher_exact(v, alternative=alternative)

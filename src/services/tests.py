@@ -106,7 +106,8 @@ class TestDataUtils(unittest.TestCase):
         X = [{
             'GLUDym_dif': 1,
             'GLUNm_dif': -1,
-            'GLNS_dif': 0.0001
+            'GLNS_dif': 0.0001,
+            'METyLATthc_dif': 100
         }, {
             'GLUDym_dif': 1,
             'GLUNm_dif': 2,

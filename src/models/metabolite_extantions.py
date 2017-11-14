@@ -4,8 +4,7 @@ import math
 import json
 
 import cobra as cb
-
-black_list = ['Transport', 'Exchange']
+from .model_extantions import *
 
 
 def connected_subsystems(self):
@@ -33,9 +32,9 @@ def is_currency(self, by='subsystem'):
 def producers(self, without_transports=False):
     reactions = filter(lambda r: r.metabolites[self] > 0, self.reactions)
     if without_transports:
-        reactions = filter(lambda r: r.subsystem, reactions)
-        reactions = filter(lambda r: not any(r.subsystem.startswith(i)
-                                             for i in black_list), reactions)
+        reactions = filter(
+            lambda r: not cb.Model.is_transport_subsystem(r.subsystem),
+            reactions)
     return list(reactions)
 
 

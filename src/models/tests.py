@@ -7,8 +7,17 @@ from .metabolic_adj_matrix import MetabolicAdjMatrix
 import math
 
 
-class TestMetaboliteExtantion(unittest.TestCase):
+class TestModelExtantion(unittest.TestCase):
+    def test_is_transport_subsystem(self):
+        self.assertTrue(
+            cb.Model.is_transport_subsystem('Transport Outer Membrane'))
+        self.assertTrue(
+            cb.Model.is_transport_subsystem('Exchange Outer Membrane'))
+        self.assertTrue(cb.Model.is_transport_subsystem(''))
+        self.assertFalse(cb.Model.is_transport_subsystem('Outer Membrane'))
 
+
+class TestMetaboliteExtantion(unittest.TestCase):
     def setUp(self):
         self.model = cb.test.create_test_model('salmonella')
         self.h2o_c = self.model.metabolites.get_by_id('h2o_c')
@@ -33,7 +42,6 @@ class TestMetaboliteExtantion(unittest.TestCase):
 
 
 class TestMetabolicAdjMatrix(unittest.TestCase):
-
     def setUp(self):
         self.model = cb.test.create_test_model('salmonella')
         self.salchs4_e = self.model.metabolites.get_by_id('salchs4_e')
@@ -68,8 +76,7 @@ class TestMetabolicAdjMatrix(unittest.TestCase):
 
     def test_to_subsystem_adj_matrix(self):
         adj_matrix = self.adj.to_subsystem_adj_matrix()
-        expected_adj_matrix = [[0.,  1.],
-                               [0.,  0.]]
+        expected_adj_matrix = [[0., 1.], [0., 0.]]
         self.assertEqual(adj_matrix.toarray().tolist(), expected_adj_matrix)
 
     def test_is_subsystem_level_connected_component(self):
@@ -80,5 +87,6 @@ class TestMetabolicAdjMatrix(unittest.TestCase):
         (num_comp, labels) = sal_adj.is_subsystem_level_connected_component()
         self.assertEqual(num_comp, 1)
 
-        (num_comp, labels) = self.unconnected_adj.is_subsystem_level_connected_component()
+        (num_comp, labels
+         ) = self.unconnected_adj.is_subsystem_level_connected_component()
         self.assertEqual(num_comp, 2)
