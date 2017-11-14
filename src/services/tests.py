@@ -104,18 +104,19 @@ class TestDataUtils(unittest.TestCase):
 
     def test_fisher_exact_test_for_pathway(self):
         X = [{
-            'GLUDym_dif': -1,
-            'GLUNm_dif': -1
+            'GLUDym_dif': 1,
+            'GLUNm_dif': -1,
+            'GLNS_dif': 0.0001
         }, {
             'GLUDym_dif': 1,
-            'GLUNm_dif': 2
+            'GLUNm_dif': 2,
+            'GLNS_dif': -1
         }]
         y = ['h', 'x']
         pvals = fisher_exact_test_for_pathway(X, y)
 
         self.assertEqual(list(pvals.keys())[0], 'Glutamate metabolism')
-        self.assertEqual(
-            list(pvals.values())[0], (np.inf, 0.33333333333333343))
+        self.assertEqual(list(pvals.values())[0][1], 1)
 
 
 class TestDataWriter(unittest.TestCase):
