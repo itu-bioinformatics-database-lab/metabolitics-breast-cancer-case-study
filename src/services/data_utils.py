@@ -102,7 +102,6 @@ def fisher_exact_test_for_pathway(X,
         pd.DataFrame.from_records(filter_by_label(X, y, yi)[0]).mean()
         .to_dict() for yi in y_set
     ]
-    y1, y2 = y_set
 
     pathways = defaultdict(lambda: [[0, 0], [0, 0]])
 

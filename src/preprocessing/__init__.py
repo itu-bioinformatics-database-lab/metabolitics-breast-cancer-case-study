@@ -11,3 +11,4 @@ from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
 from .basic_fold_change_preprocessing import BasicFoldChangeScaler
 from .dynamic_preprocessing import DynamicPreprocessing
+from .functional_enrichment_analysis import FunctionalEnrichmentAnalysis

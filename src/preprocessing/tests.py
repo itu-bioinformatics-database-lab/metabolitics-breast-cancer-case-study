@@ -16,6 +16,7 @@ from .transport_elimination import TransportElimination
 from .name_matching import NameMatching
 from .dynamic_preprocessing import DynamicPreprocessing
 from .basic_fold_change_preprocessing import BasicFoldChangeScaler
+from .functional_enrichment_analysis import FunctionalEnrichmentAnalysis, PathwayReactionEnrichment
 
 
 class TestMetabolicStandardScaler(unittest.TestCase):
@@ -241,3 +242,91 @@ class TestBasicFoldChangeScaler(unittest.TestCase):
 
         self.scaler._avgs = {'a': 10**6}
         self.assertEqual(self.scaler._scale('a', 10**-6), -10)
+
+
+class TestFunctionalEnrichmentAnalysis(unittest.TestCase):
+    def setUp(self):
+        self.X = [{
+            'GLUDym': 1,
+            'GLUNm': -1,
+            'GLNS': 0.0001,
+            'METyLATthc': 100,
+            'xxx': 1
+        }, {
+            'GLUDym': 1,
+            'GLUNm': 2,
+            'GLNS': -1
+        }]
+        self.y = ['h', 'x']
+
+        self.groups = {
+            'Glutamate metabolism': ['GLUDym', 'GLUNm', 'GLNS', 'METyLATthc']
+        }
+
+        self.preprocessing = FunctionalEnrichmentAnalysis('h', self.groups)
+
+    def test_filtered_values(self):
+        values = self.preprocessing._filtered_values(self.X[0])
+        self.assertEqual(values, [3, 2])
+
+        values = self.preprocessing._filtered_values(
+            self.X[0], ['GLUDym', 'GLUNm', 'GLNS'])
+        self.assertEqual(values, [1, 2])
+
+    def test_contingency_table(self):
+        self.preprocessing._references = self.X[1]
+
+        values = self.preprocessing._contingency_table(
+            self.X[0], ['GLUDym', 'GLUNm', 'GLNS'])
+        self.assertEqual(values, [(2, 1), (1, 2)])
+
+    def test_fisher_pval(self):
+        self.preprocessing._references = self.X[1]
+
+        pval = self.preprocessing._fisher_pval(self.X[0],
+                                               list(self.groups.values())[0])
+
+        self.assertEqual(pval, 1)
+
+    def test_fit(self):
+        self.preprocessing.fit(self.X, self.y)
+        self.assertEqual(dict(self.preprocessing._references), self.X[0])
+
+    def test_transform(self):
+        pvals = self.preprocessing.fit_transform(self.X, self.y)
+        self.assertEqual(list(pvals[0].keys())[0], 'Glutamate metabolism')
+        self.assertEqual(list(pvals[0].values())[0], 1)
+
+
+class TestPathwayReactionEnrichment(unittest.TestCase):
+    def setUp(self):
+        self.X = [{
+            'GLUDym_dif': 1,
+            'GLUNm_dif': -1,
+            'GLNS_dif': 0.0001,
+            'P5CDm_dif': 100
+        }, {
+            'GLUDym_dif': 1,
+            'GLUNm_dif': 2,
+            'GLNS_dif': -1
+        }]
+        self.y = ['h', 'x']
+
+        self.preprocessing = PathwayReactionEnrichment()
+
+    def test_init(self):
+        glu = self.preprocessing.feature_groups['Glutamate metabolism']
+
+        self.assertTrue('GLUDym_dif' in glu)
+        self.assertTrue('GLUNm_dif' in glu)
+        self.assertTrue('GLNS_dif' in glu)
+        self.assertTrue('P5CDm_dif' in glu)
+
+    def test_fit(self):
+        self.preprocessing.fit(self.X, self.y)
+        self.assertEqual(dict(self.preprocessing._references), self.X[0])
+
+    def test_transform(self):
+        pvals = self.preprocessing.fit_transform(self.X, self.y)
+        self.assertEqual(list(pvals[0].keys())[0], 'Glutamate metabolism')
+        self.assertEqual(list(pvals[0].values())[0], 1)
