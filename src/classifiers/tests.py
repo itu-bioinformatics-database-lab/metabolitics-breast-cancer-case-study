@@ -104,9 +104,9 @@ class TestFVAClass(MachineLearningTestCases.ClassificationTestCase):
     def setUpClf(self):
         return FVADiseaseClassifier()
 
-    @unittest.skip('long running tests')
+    # @unittest.skip('long running tests')
     def setUpData(self):
-        return DataReader().read_analyze_solution('hcc_averaging')
+        return DataReader().read_analyze_solution('bc_averaging_disease_analysis#k=0')
 
 
 class TestBiomassClass(MachineLearningTestCases.ClassificationTestCase):

@@ -19,7 +19,7 @@ class FunctionalEnrichmentAnalysis(TransformerMixin):
         '''
         :reference_label: label of refence values in the calculation
         :method: only fisher exact test avaliable so far
-        :feature_groups: list of dict where keys are new feature and values are list of old features
+        :feature_groups: list of dict where keys are new feature and values are set of old features
         '''
         if method != "fisher_exact":
             raise NotImplemented('Only fisher exact test is implemented')
@@ -33,17 +33,21 @@ class FunctionalEnrichmentAnalysis(TransformerMixin):
         self._references = average_by_label(X, y, self.reference_label)
         return self
 
-    def transform(self, X, y=None):
+    def transform(self, X):
         '''
         :X: list of dict
         :y: labels
         :filter_func: function return true or false
         '''
-        return [{
-            new_feature: self._fisher_pval(x, old_features)
-            for new_feature, old_features in self.feature_groups.items()
-            if len(set(x.keys()) & set(old_features))
-        } for x in X]
+        X_t = list()
+        for x in X:
+            x_key_set = set(x.keys())
+            X_t.append({
+                new_feature: self._fisher_pval(x, old_features)
+                for new_feature, old_features in self.feature_groups.items()
+                if len(x_key_set & old_features)
+            })
+        return X_t
 
     def _filtered_values(self, x: dict, feature_set: list=None):
         '''
@@ -81,6 +85,7 @@ class PathwayReactionEnrichment(FunctionalEnrichmentAnalysis):
                          .map(lambda r: (r.subsystem, '%s_dif' % r.id)) \
                          .filter(lambda x: not cb.Model.is_transport_subsystem(x[0])) \
                          .group_by_key() \
+                         .map(lambda x: (x[0], set(x[1]))) \
                          .to_dict()
 
         super().__init__(reference_label, feature_groups, **kwargs)

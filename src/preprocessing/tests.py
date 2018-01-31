@@ -260,7 +260,7 @@ class TestFunctionalEnrichmentAnalysis(unittest.TestCase):
         self.y = ['h', 'x']
 
         self.groups = {
-            'Glutamate metabolism': ['GLUDym', 'GLUNm', 'GLNS', 'METyLATthc']
+            'Glutamate metabolism': {'GLUDym', 'GLUNm', 'GLNS', 'METyLATthc'}
         }
 
         self.preprocessing = FunctionalEnrichmentAnalysis('h', self.groups)

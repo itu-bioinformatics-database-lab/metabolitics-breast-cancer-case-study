@@ -61,7 +61,7 @@ def stability_test_for_ecoli():
     xs = list()
     ys = list()
 
-    for i in np.linspace(0.1, 1, 10):
+    for i in np.linspace(0.1, 5, 50):
         xss = list()
         yss = list()
 
@@ -89,9 +89,6 @@ def stability_test_for_ecoli():
         xs.append(np.mean(xss))
         ys.append(np.mean(yss))
 
-        print(xs)
-        print(ys)
-        print()
-
-    plt.plot(xs, ys)
-    plt.show()
+        print(i)
+        
+        DataWriter('noise_plot_xs_xy').write_json([xs, ys])

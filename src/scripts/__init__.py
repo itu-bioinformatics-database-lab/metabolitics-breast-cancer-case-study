@@ -14,6 +14,7 @@ from .noise import *
 from .unicellular import *
 from .supplementary_material import *
 from .biomass_maximization import *
+from .sampling import *
 
 try:
     from .pathifier import pathifier
