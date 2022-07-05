@@ -105,7 +105,7 @@ tabulate==0.7.7
 tornado==4.5.1
 traitlets==4.3.2
 tzlocal==1.3
-ujson==1.35
+ujson==5.4.0
 urllib3==1.21.1
 vine==1.1.3
 wcwidth==0.1.7
