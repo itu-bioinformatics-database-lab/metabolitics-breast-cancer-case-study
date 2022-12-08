@@ -7,7 +7,7 @@ blessings==1.6
 bokeh==0.12.4
 cameo==0.10.3
 celery==4.0.2
-certifi==2017.4.17
+certifi==2022.12.7
 chardet==3.0.4
 click==6.7
 cobra==0.5.11
